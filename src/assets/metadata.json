@@ -1,0 +1,56 @@
+{
+  "0": {
+    "name": "Eiffel Tower / Gustave Eiffel / Paris",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "1": {
+    "name": "Barcelona (German) Pavilion / Mies van der Rohe / Barcelona",
+    "copyright": {
+      "*": "",
+      "4": "Christian Gänshirt",
+      "5": "Alexander.Hüls",
+      "6": "Ashley Pomeroy"
+    }
+  },
+  "2": {
+    "name": "Centre Georges Pompidou / Renzo Piano + Richard Rogers / Paris",
+    "copyright": {
+      "1": "Francis Toussaint",
+      "2": "Francis Toussaint",
+      "3": "Courtney Traub",
+      "4": "NJIT",
+      "5": "NJIT",
+      "6": "Francis Toussaint"
+    }
+  },
+  "3": {
+    "name": "NEMO Science Museum / Renzo Piano / Amsterdam",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "4": {
+    "name": "Tate Modern / Herzog & de Meuron Architects / London",
+    "copyright": {
+      "1": "Darrell Godliman",
+      "2": "Javier Gutierrez Marcos",
+      "3": "Javier Gutierrez Marcos",
+      "4": "Simone Graziano Panetto",
+      "5": "Javier Gutierrez Marcos",
+      "6": "Jagandrk"
+    }
+  },
+  "7": {
+    "name": "Le Grand Louvre (Louvre Museum) / Ieoh Ming Pei / Paris",
+    "copyright": {
+      "1": "waiam cia",
+      "2": "Selinakcanca",
+      "3": "",
+      "4": "",
+      "5": "Freedom_Wizard",
+      "6": ""
+    }
+  }
+}
