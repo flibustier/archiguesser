@@ -16,11 +16,11 @@ const selectResult = (result: string) => {
   searchTerms.value = result;
 };
 
-const emit = defineEmits(["submitted-answer"]);
+const emit = defineEmits(["submitted-guess"]);
 
 const emitAnswer = () => {
   if (isSelectionDone.value) {
-    emit("submitted-answer", searchTerms.value);
+    emit("submitted-guess", searchTerms.value);
     hasSelectedSuggestion.value = false;
     searchTerms.value = "";
   }

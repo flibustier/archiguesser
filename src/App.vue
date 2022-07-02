@@ -7,13 +7,17 @@ import EndDisplay from "./components/EndDisplay.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
 
 import { getDayNumberAndAnswer } from "./DailySelector";
-const { dayNumber, answer } = reactive(getDayNumberAndAnswer());
+
+const urlParameters = new URLSearchParams(window.location.search);
+const { dayNumber, answer } = reactive(
+  getDayNumberAndAnswer(urlParameters.get("day"))
+);
 
 const currentRound = ref(1);
 const hasWon = ref(false);
 const guesses: string[] = reactive([]);
+const stats = JSON.parse(localStorage.getItem("stats") || "{}");
 
-console.log(localStorage.getItem("dayNumber"));
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   currentRound.value = parseInt(localStorage.getItem("currentRound") || "1");
   hasWon.value = localStorage.getItem("hasWon") === "true" || false;
@@ -27,15 +31,24 @@ if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
 
 const isGameEnded = computed(() => currentRound.value === 7 || hasWon.value);
 
-const onSubmittedAnswer = (guess: string) => {
+const updateStats = () => {
+  if (!stats.firstPlayed) {
+    stats.firstPlayed = dayNumber;
+  }
+  stats.lastPlayed = dayNumber;
+  localStorage.setItem("stats", JSON.stringify(stats));
+};
+
+const onSubmittedGuess = (guess: string) => {
   guesses.push(guess);
   localStorage.setItem("guesses", JSON.stringify(guesses));
   if (guess === answer) {
-    console.log("You win!");
     hasWon.value = true;
     localStorage.setItem("hasWon", "true");
+    stats[currentRound.value] = (stats[currentRound.value] || 0) + 1;
     currentRound.value = 6;
     localStorage.setItem("currentRound", currentRound.value.toString());
+    updateStats();
 
     return;
   }
@@ -43,7 +56,9 @@ const onSubmittedAnswer = (guess: string) => {
   ++currentRound.value;
   localStorage.setItem("currentRound", currentRound.value.toString());
   if (isGameEnded.value) {
-    // game over
+    stats[0] = (stats[0] || 0) + 1;
+    updateStats();
+
     return;
   }
 };
@@ -58,7 +73,7 @@ const onSubmittedAnswer = (guess: string) => {
     />
 
     <div v-if="!isGameEnded">
-      <GuessingForm @submitted-answer="onSubmittedAnswer" />
+      <GuessingForm @submitted-guess="onSubmittedGuess" />
       <GuessingHistory :guesses="guesses" />
     </div>
 

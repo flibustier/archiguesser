@@ -7,10 +7,9 @@ yarn build
 
 cd dist
 
-git init
 git add -A
-git commit -m 'deploy'
+git commit -m '$(date)'
 
-git push -f -u https://github.com/flibustier/archiguesser.git gh-pages
+git push git@github.com:flibustier/archiguesser.git gh-pages
 
 cd -

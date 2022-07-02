@@ -1,4 +1,4 @@
-import metadatas from "./assets/metadata.json";
+import metadata from "./assets/metadata.json";
 
 const DDAY = 182;
 
@@ -15,21 +15,28 @@ const getDayOfYear = (date = new Date()) => {
   return differenceInDays;
 };
 
-export const getDayNumberAndAnswer = (): {
+export const getDayNumberAndAnswer = (
+  day?: string | null
+): {
   dayNumber: number;
   answer: string;
 } => {
-  const dayNumber = getDayOfYear() - DDAY;
-  if (dayNumber in metadatas) {
+  let dayNumber = getDayOfYear() - DDAY;
+
+  if (day && day in metadata) {
+    dayNumber = parseInt(day);
+  }
+
+  if (dayNumber in metadata) {
     console.log(`Day ${dayNumber}`);
     return {
       dayNumber,
-      answer: (metadatas as any)[dayNumber].name,
+      answer: (metadata as any)[dayNumber].name,
     };
   }
   console.log(`Day ${dayNumber} not found`);
   return {
     dayNumber: 1,
-    answer: metadatas[1].name,
+    answer: metadata[1].name,
   };
 };
