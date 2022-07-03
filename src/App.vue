@@ -31,7 +31,8 @@ if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
 
 const isGameEnded = computed(() => currentRound.value === 7 || hasWon.value);
 
-const updateStats = () => {
+const updateStats = (score: number) => {
+  stats[dayNumber] = score;
   if (!stats.firstPlayed) {
     stats.firstPlayed = dayNumber;
   }
@@ -45,10 +46,9 @@ const onSubmittedGuess = (guess: string) => {
   if (guess === answer) {
     hasWon.value = true;
     localStorage.setItem("hasWon", "true");
-    stats[currentRound.value] = (stats[currentRound.value] || 0) + 1;
+    updateStats(currentRound.value);
     currentRound.value = 6;
     localStorage.setItem("currentRound", currentRound.value.toString());
-    updateStats();
 
     return;
   }
@@ -56,8 +56,7 @@ const onSubmittedGuess = (guess: string) => {
   ++currentRound.value;
   localStorage.setItem("currentRound", currentRound.value.toString());
   if (isGameEnded.value) {
-    stats[0] = (stats[0] || 0) + 1;
-    updateStats();
+    updateStats(0);
 
     return;
   }
