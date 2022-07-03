@@ -42,6 +42,18 @@
       "6": "Jagandrk"
     }
   },
+  "5": {
+    "name": "Arch of Defense / Paul Andreu, Otto Von Spreckelsen / Paris",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "6": {
+    "name": "Saint Mary’s Cathedral of Tokyo / Kenzo Tange / Japan",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
   "7": {
     "name": "Le Grand Louvre (Louvre Museum) / Ieoh Ming Pei / Paris",
     "copyright": {
@@ -51,6 +63,30 @@
       "4": "",
       "5": "Freedom_Wizard",
       "6": ""
+    }
+  },
+  "8": {
+    "name": "Eden Project / Nicholas Grimshaw / Cornwall, England",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "9": {
+    "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "10": {
+    "name": "100 11th Avenue Building / Jean Nouvel / Chelsea, New York",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  }, 
+  "11": {
+    "name": "Orient Station to Expo’98 / Santiago Calatrava / Lisbon",
+    "copyright": {
+      "*": "wikiarquitectura"
     }
   }
 }
