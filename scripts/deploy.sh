@@ -3,12 +3,14 @@
 # abort on errors
 set -e
 
+cdate=$(date +"%m-%d-%Y")
+
 yarn build
 
 cd dist
 
 git add -A
-git commit -m '$(date)'
+git commit -m $cdate
 
 git push git@github.com:flibustier/archiguesser.git gh-pages
 

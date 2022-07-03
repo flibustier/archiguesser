@@ -4,12 +4,12 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
-    "deploy": "./deploy.sh",
+    "deploy": "./scripts/deploy.sh",
+    "convert": "./scripts/convert.sh",
     "preview": "vite preview --port 4173",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "convert": "magick convert -resize 800x500 -scene 1 *.webp %d.jpg"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
     "vue": "^3.2.36"
