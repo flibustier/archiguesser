@@ -1,11 +1,14 @@
 {
   "name": "archiguesser",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
     "deploy": "./scripts/deploy.sh",
-    "convert": "./scripts/convert.sh",
+    "convert:jpg": "./scripts/convert-jpg.sh",
+    "convert:webp": "./scripts/convert-webp.sh",
+    "check": "node ./scripts/suggestions-checker.js",
     "preview": "vite preview --port 4173",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
