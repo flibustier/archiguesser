@@ -1,8 +1,10 @@
-<div style="width: 100%; margin-bottom: 1rem">
-<img src="./public/brand.png" alt="ArchiGuesser" style="display: block; margin: auto; height: 2.5rem;"></img>
+<div align="center">
+   <img src="./public/brand.png" width="400px"/> 
 </div>
-
-A daily architectural guessing game -> https://archiguesser.com/
+<br/>
+<p align="center">
+   A daily architectural guessing game -> https://archiguesser.com/
+</p>
 
 ## About
 
@@ -12,11 +14,17 @@ Each day a architectural project is picked from a curated list and you have 6 pi
 
 All pictures rights go to the rightful owners - no copyright infringement intended.
 
+<div align="center">
+   <img src="https://user-images.githubusercontent.com/9994935/177162987-b9e78cdb-2c61-479d-8a46-f96b188abd1d.png" />
+</div>
+
 ## Contributing
 
 Fell free to send me suggestions using [Github issues](https://github.com/flibustier/archiguesser/issues) or by [mail](mailto:contact@archiguesser.com) (contact at archiguesser.com)
 
 If you have a project you want to submit, we will need 6 pictures, a project name, architect name and location.
+
+---
 
 ## Running it yourself
 
