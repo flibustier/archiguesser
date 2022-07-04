@@ -15,7 +15,7 @@
     }
   },
   "2": {
-    "name": "Centre Georges Pompidou / Renzo Piano + Richard Rogers / Paris",
+    "name": "Cultural Center Georges Pompidou / Renzo Piano + Richard Rogers / Paris",
     "copyright": {
       "1": "Francis Toussaint",
       "2": "Francis Toussaint",
@@ -32,7 +32,7 @@
     }
   },
   "4": {
-    "name": "Tate Modern / Herzog & de Meuron Architects / London",
+    "name": "Tate Modern / Herzog & de Meuron / London",
     "copyright": {
       "1": "Darrell Godliman",
       "2": "Javier Gutierrez Marcos",
@@ -93,6 +93,19 @@
     "name": "Villa La Mediterranee / Boeri Studio / Marseille",
     "copyright": {
       "*": "Carlo Alberto Mari"
+    }
+  },
+  "14": {
+    "name": "Thermas Vals / Peter Zumthor / Canton Graubunden, Switzerland",
+    "copyright": {
+      "*": "wikiarquitectura",
+      "2": "Andrea Ceriani"
+    }
+  },
+  "19": {
+    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo",
+    "copyright": {
+      "*": "wikiarquitectura"
     }
   }
 }
