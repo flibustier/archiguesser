@@ -28,6 +28,8 @@ If you have a project you want to submit, we will need 6 pictures, a project nam
 
 ## Running it yourself
 
+This project is built using [Vue.js 3](https://vuejs.org/) (composition mode & Typescript)
+
 ### Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
