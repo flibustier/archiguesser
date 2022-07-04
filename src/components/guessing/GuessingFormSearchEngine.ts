@@ -6,6 +6,8 @@ interface scoredSuggestion {
   score: number;
 }
 
+const MAX_SUGGESTIONS = 10;
+
 const byScore = (a: scoredSuggestion, b: scoredSuggestion) => b.score - a.score;
 
 export const search = (searchTerms: string) => {
@@ -18,23 +20,26 @@ export const search = (searchTerms: string) => {
     .reduce((acc: scoredSuggestion[], suggestion) => {
       const commonWords = searchWords.filter((word) =>
         suggestion.toLowerCase().includes(word)
-      );
+      ).length;
 
-      const highlightedSuggestion = searchWords.reduce(
-        (highlighted, word) =>
-          highlighted.replace(new RegExp(`(${word})`, "gi"), "<mark>$1</mark>"),
-        suggestion
-      );
+      if (commonWords > 0) {
+        const minScore = acc.length > 0 ? acc[acc.length - 1].score : 0;
 
-      if (commonWords.length > 0) {
-        return [
-          ...acc.slice(0, 7),
-          {
-            suggestion,
-            highlightedSuggestion,
-            score: commonWords.length,
-          },
-        ].sort(byScore);
+        if (commonWords >= minScore) {
+          const highlightedSuggestion = suggestion.replace(
+            new RegExp(`(${searchWords.join("|")})`, "gi"),
+            "<mark>$1</mark>"
+          );
+
+          return [
+            ...acc.slice(0, MAX_SUGGESTIONS),
+            {
+              suggestion,
+              highlightedSuggestion,
+              score: commonWords,
+            },
+          ].sort(byScore);
+        }
       }
 
       return acc;
