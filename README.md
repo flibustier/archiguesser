@@ -15,7 +15,7 @@ Each day a architectural project is picked from a curated list and you have 6 pi
 All pictures rights go to the rightful owners - no copyright infringement intended.
 
 <div align="center">
-   <img src="https://user-images.githubusercontent.com/9994935/177162987-b9e78cdb-2c61-479d-8a46-f96b188abd1d.png" />
+   <img width="600px" src="https://user-images.githubusercontent.com/9994935/177162987-b9e78cdb-2c61-479d-8a46-f96b188abd1d.png" />
 </div>
 
 ## Contributing
