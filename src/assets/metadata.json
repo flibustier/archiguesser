@@ -1,12 +1,12 @@
 {
   "0": {
-    "name": "Eiffel Tower / Gustave Eiffel / Paris",
+    "name": "Eiffel Tower / Gustave Eiffel / Paris, France",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
   "1": {
-    "name": "Barcelona (German) Pavilion / Mies van der Rohe / Barcelona",
+    "name": "German Pavilion in Barcelona / Ludwig Mies van der Rohe / Barcelona, Spain",
     "copyright": {
       "*": "",
       "4": "Christian Gänshirt",
@@ -15,7 +15,7 @@
     }
   },
   "2": {
-    "name": "Cultural Center Georges Pompidou / Renzo Piano + Richard Rogers / Paris",
+    "name": "Cultural Center Georges Pompidou / Richard Rogers, Renzo Piano / Paris, France",
     "copyright": {
       "1": "Francis Toussaint",
       "2": "Francis Toussaint",
@@ -26,13 +26,13 @@
     }
   },
   "3": {
-    "name": "NEMO Science Museum / Renzo Piano / Amsterdam",
+    "name": "NEMO – Science Museum / Renzo Piano / Amsterdam, Holland",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
   "4": {
-    "name": "Tate Modern / Herzog & de Meuron / London",
+    "name": "Tate Modern / Herzog & de Meuron, Jacques Herzog, Pierre de Meuron, Norman Foster / Bankside, London, England",
     "copyright": {
       "1": "Darrell Godliman",
       "2": "Javier Gutierrez Marcos",
@@ -43,19 +43,19 @@
     }
   },
   "5": {
-    "name": "Arch of Defense / Paul Andreu, Otto Von Spreckelsen / Paris",
+    "name": "Arch of Defense / Paul Andreu, Otto Von Spreckelsen / Paris, France",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
   "6": {
-    "name": "Saint Mary’s Cathedral of Tokyo / Kenzo Tange / Japan",
+    "name": "Saint Mary’s Cathedral of Tokyo / Kenzo Tange / Tokyo, Japan",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
   "7": {
-    "name": "Le Grand Louvre (Louvre Museum) / Ieoh Ming Pei / Paris",
+    "name": "Louvre Museum / Pierre Lescot, Ieoh Ming Pei / Paris, France",
     "copyright": {
       "1": "waiam cia",
       "2": "Selinakcanca",
@@ -72,19 +72,19 @@
     }
   },
   "9": {
-    "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon",
+    "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
   "10": {
-    "name": "100 11th Avenue Building / Jean Nouvel / Chelsea, New York",
+    "name": "100 11th Avenue Building / Jean Nouvel, Atelier Jean Nouvel, Frank Gehry / Chelsea, New York, United States",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
   "11": {
-    "name": "Orient Station to Expo’98 / Santiago Calatrava / Lisbon",
+    "name": "Orient Station to Expo’98 / Santiago Calatrava / Lisbon, Portugal",
     "copyright": {
       "*": "wikiarquitectura"
     }
@@ -96,14 +96,14 @@
     }
   },
   "14": {
-    "name": "Thermas Vals / Peter Zumthor / Canton Graubunden, Switzerland",
+    "name": "Thermas Vals / Peter Zumthor / Vals, Canton Graubunden, Switzerland",
     "copyright": {
       "*": "wikiarquitectura",
       "2": "Andrea Ceriani"
     }
   },
   "19": {
-    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo",
+    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo, Japan",
     "copyright": {
       "*": "wikiarquitectura"
     }
