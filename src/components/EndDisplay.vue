@@ -76,7 +76,7 @@ const copy = async () => {
         </div>
       </div>
     </div>
-    <div>Next challenge at <b class="emphase">midnight</b>! 🕛</div>
+    <div>Next challenge at <b class="emphasis">midnight</b>! 🕛</div>
     <p class="sponsor">
       ❤️ {{ APP_NAME }}?
       <a
@@ -141,12 +141,7 @@ h2 {
   margin-top: 0.5rem;
 }
 
-.sponsor a {
-  text-decoration: none;
-  color: var(--color-primary);
-}
-
-.emphase {
+.emphasis {
   font-weight: 500;
 }
 </style>

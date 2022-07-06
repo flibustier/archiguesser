@@ -128,7 +128,7 @@ const emitAnswer = () => {
   display: flex;
   align-items: center;
   padding-left: 0.5rem;
-  z-index: 300;
+  z-index: 1;
 }
 
 .search .search-input {
