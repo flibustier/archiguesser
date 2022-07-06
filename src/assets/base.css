@@ -94,6 +94,13 @@ button {
 
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 mark {

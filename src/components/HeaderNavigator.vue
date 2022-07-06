@@ -2,6 +2,11 @@
 import IconLove from "./icons/IconLove.vue";
 import IconHelp from "./icons/IconHelp.vue";
 import BrandTitle from "./icons/BrandTitle.vue";
+import InfoModal from "./modals/InfoModal.vue";
+
+import { ref } from "vue";
+
+const showInfoModal = ref(false);
 </script>
 
 <template>
@@ -14,12 +19,13 @@ import BrandTitle from "./icons/BrandTitle.vue";
         <a>
           <IconLove />
         </a>
-        <a>
+        <a @click="showInfoModal = true">
           <IconHelp />
         </a>
       </div>
     </div>
   </header>
+  <InfoModal v-model:is-visible="showInfoModal" />
 </template>
 
 <style scoped>
