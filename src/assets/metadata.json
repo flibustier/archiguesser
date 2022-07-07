@@ -90,11 +90,14 @@
     }
   },
   "12": {
-    "name": "Bosco Verticale (Vertical Forest) / Stefano Boeri, Gianandrea Barreca, Giovanni La Varra / Milan",
+    "name": "Le Monde Group Headquarters / Snøhetta (Snohetta) / Paris, France",
     "copyright": {
-      "3": "Laura Cionci",
-      "5": "Laura Cionci",
-      "6": "Jonathan P"
+      "1": "Ludwig Favre",
+      "2": "Ludwig Favre",
+      "3": "JARED CHULSKI",
+      "4": "JARED CHULSKI",
+      "5": "Ludwig Favre",
+      "6": "JARED CHULSKI"
     }
   },
   "13": {
@@ -108,6 +111,14 @@
     "copyright": {
       "*": "wikiarquitectura",
       "2": "Andrea Ceriani"
+    }
+  },
+  "18": {
+    "name": "Bosco Verticale (Vertical Forest) / Stefano Boeri, Gianandrea Barreca, Giovanni La Varra / Milan",
+    "copyright": {
+      "3": "Laura Cionci",
+      "5": "Laura Cionci",
+      "6": "Jonathan P"
     }
   },
   "19": {
