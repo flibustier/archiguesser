@@ -16,7 +16,10 @@ const props = defineProps({
     <div class="guess" v-for="guess of guesses" :key="guess">
       <span class="guess-failed">❌</span>{{ guess }}
     </div>
-    <div class="remaining">{{ guessesRemaining }} guesses remaining</div>
+    <div class="remaining" v-if="guessesRemaining === 1">
+      Last guess remaining!
+    </div>
+    <div class="remaining" v-else>{{ guessesRemaining }} guesses remaining</div>
   </div>
 </template>
 

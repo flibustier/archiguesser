@@ -29,22 +29,28 @@ const props = defineProps({
 });
 
 const shareMessage = computed(() => {
-  const redSquares = "🟥 ".repeat(props.guesses.length - 1);
-  const blackSquares = "⬛ ".repeat(6 - props.guesses.length);
-  const midSquare = props.hasWon ? "🟩 " : "🟥 ";
+  const redSquares = `<span class="square red">🟥</span> `.repeat(
+    props.guesses.length - 1
+  );
+  const blackSquares = `<span class="square black">⬛</span> `.repeat(
+    6 - props.guesses.length
+  );
+  const midSquare = props.hasWon
+    ? `<span class="square green">🟩</span> `
+    : `<span class="square red">🟥</span> `;
   const squares = redSquares + midSquare + blackSquares;
 
   return `${APP_NAME} #${props.dayNumber}\n🏛 ${squares}\n\n${URL}`;
 });
 
 const copy = async () => {
+  const copyText = document.getElementById("share-message")?.textContent || "";
   try {
-    await navigator.clipboard.writeText(shareMessage.value);
+    await navigator.clipboard.writeText(copyText);
   } catch (e) {
     console.log("fallback copy");
-    const copyText = document.getElementById("share-message")?.textContent;
     const textArea = document.createElement("textarea");
-    textArea.textContent = copyText || "";
+    textArea.textContent = copyText;
     document.body.append(textArea);
     textArea.select();
     document.execCommand("copy");
@@ -64,7 +70,7 @@ const copy = async () => {
     <h2 v-else>
       The answer was: <span class="answer">{{ answer }}</span>
     </h2>
-    <pre id="share-message">{{ shareMessage }}</pre>
+    <pre id="share-message" v-html="shareMessage"></pre>
     <button class="share-btn" @click="copy">{{ shareBtnContent }}</button>
     <div class="guesses-display">
       <button class="show-guesses-btn" @click="toggleGuesses">
@@ -102,6 +108,27 @@ const copy = async () => {
 h2 {
   line-height: 1.75rem;
   text-align: center;
+}
+
+#share-message :deep(.square) {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0.125rem;
+  color: transparent;
+}
+
+#share-message :deep(.red) {
+  background-color: red;
+}
+
+#share-message :deep(.green) {
+  background-color: green;
+}
+
+#share-message :deep(.black) {
+  background-color: black;
 }
 
 .answer {
