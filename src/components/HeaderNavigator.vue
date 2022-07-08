@@ -1,11 +1,14 @@
 <script setup lang="ts">
-import IconLove from "./icons/IconLove.vue";
+import IconBack from "./icons/IconBack.vue";
 import IconHelp from "./icons/IconHelp.vue";
 import BrandTitle from "./icons/BrandTitle.vue";
+
 import InfoModal from "./modals/InfoModal.vue";
+import BackModal from "./modals/BackModal.vue";
 
 import { ref } from "vue";
 
+const showBackModal = ref(false);
 const showInfoModal = ref(false);
 </script>
 
@@ -16,8 +19,8 @@ const showInfoModal = ref(false);
         <a href="/" id="brand"><BrandTitle /></a>
       </div>
       <div class="nav-block nav-right">
-        <a>
-          <IconLove />
+        <a @click="showBackModal = true">
+          <IconBack />
         </a>
         <a @click="showInfoModal = true">
           <IconHelp />
@@ -25,6 +28,7 @@ const showInfoModal = ref(false);
       </div>
     </div>
   </header>
+  <BackModal v-model:is-visible="showBackModal" />
   <InfoModal v-model:is-visible="showInfoModal" />
 </template>
 
@@ -41,9 +45,6 @@ header {
 .nav-bar {
   display: flex;
   align-items: center;
-}
-
-.nav-bar {
   flex-direction: row;
   justify-content: space-between;
   max-width: var(--max-width);
@@ -63,6 +64,13 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   transition: border 0.4s;
+}
+
+.nav-bar a:hover {
+  transition: filter 0.3s;
+
+  filter: invert(48%) sepia(73%) saturate(406%) hue-rotate(342deg)
+    brightness(97%) contrast(83%);
 }
 
 .nav-bar a svg {

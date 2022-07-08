@@ -53,8 +53,8 @@ const closeModal = () => {
 
 .modal-content {
   background-color: var(--color-background);
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
+  margin: 7% auto; /* 15% from the top and centered */
+  padding: 1.5rem;
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   max-width: var(--max-width);
@@ -62,7 +62,6 @@ const closeModal = () => {
 
 .close:hover,
 .close:focus {
-  text-decoration: underline;
   cursor: pointer;
 }
 
