@@ -113,12 +113,31 @@
       "2": "Andrea Ceriani"
     }
   },
+  "15": {
+    "name": "MIM-Musical Instrument Museum / Barnabé Guimard, Paul Saintenoy / Brussels, Belgium",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "16": {
+    "name": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "17": {
+    "name": "Casa da Musica in Porto / Rem Koolhaas, OMA / Porto, Portugal",
+    "copyright": {
+      "*": "Jonathan Platteau",
+      "6": "Philippe Ruault"
+    }
+  },
   "18": {
     "name": "Bosco Verticale (Vertical Forest) / Stefano Boeri, Gianandrea Barreca, Giovanni La Varra / Milan",
     "copyright": {
       "3": "Laura Cionci",
       "5": "Laura Cionci",
-      "6": "Jonathan P"
+      "6": "Jonathan Platteau"
     }
   },
   "19": {
@@ -131,6 +150,12 @@
     "name": "Oslo Opera House / Snøhetta (Snohetta), Kjetil Thorsen, Tarald Lundevall, Craig Dykers / Oslo, Norway",
     "copyright": {
       "*": "Snøhetta"
+    }
+  },
+  "21": {
+    "name": "Guggenheim Bilbao / Frank Gehry / Bilbao, Spain",
+    "copyright": {
+      "*": "wikiarquitectura"
     }
   }
 }
