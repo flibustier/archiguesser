@@ -6,12 +6,23 @@ import PictureDisplay from "./components/picture-display/PictureDisplay.vue";
 import EndDisplay from "./components/EndDisplay.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
 
-import { getDayNumberAndAnswer } from "./DailySelector";
+import { getDayNumberAndAnswer, getRealDayNumber } from "./DailySelector";
 
 const urlParameters = new URLSearchParams(window.location.search);
-const { dayNumber, answer } = reactive(
-  getDayNumberAndAnswer(urlParameters.get("day"))
-);
+const requestedDay = urlParameters.get("day");
+
+if (
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  // eslint-disable-next-line no-undef
+  process.env.NODE_ENV === "production" &&
+  requestedDay &&
+  parseInt(requestedDay) > getRealDayNumber()
+) {
+  window.location.href = "/";
+}
+
+const { dayNumber, answer } = reactive(getDayNumberAndAnswer(requestedDay));
 
 const guesses: string[] = reactive([]);
 const stats = JSON.parse(localStorage.getItem("stats") || "{}");
@@ -36,6 +47,15 @@ const updateStats = (score: number) => {
   }
   stats.lastPlayed = dayNumber;
   localStorage.setItem("stats", JSON.stringify(stats));
+
+  try {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    // eslint-disable-next-line no-undef
+    cabin.event(`Result ${dayNumber} : ${score}`);
+  } catch (e) {
+    console.log(e);
+  }
 };
 
 const onSubmittedGuess = (guess: string) => {

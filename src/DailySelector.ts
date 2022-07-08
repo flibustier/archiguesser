@@ -15,20 +15,21 @@ const getDayOfYear = (date = new Date()) => {
   return differenceInDays;
 };
 
+export const getRealDayNumber = () => getDayOfYear() - DDAY;
+
 export const getDayNumberAndAnswer = (
   day?: string | null
 ): {
   dayNumber: number;
   answer: string;
 } => {
-  let dayNumber = getDayOfYear() - DDAY;
+  let dayNumber = getRealDayNumber();
 
   if (day && day in metadata) {
     dayNumber = parseInt(day);
   }
 
   if (dayNumber in metadata) {
-    console.log(`Day ${dayNumber}`);
     return {
       dayNumber,
       answer: (metadata as any)[dayNumber].name,
