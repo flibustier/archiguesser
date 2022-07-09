@@ -103,16 +103,16 @@
     }
   },
   "13": {
-    "name": "Villa La Mediterranee / Boeri Studio / Marseille",
+    "name": "Flatiron Building / Daniel Hudson Burnham / New York, USA",
     "copyright": {
-      "*": "Carlo Alberto Mari"
+      "*": "wikiarquitectura",
+      "5": "Jeenah Moon/Bloomberg"
     }
   },
   "14": {
-    "name": "Thermas Vals / Peter Zumthor / Vals, Canton Graubunden, Switzerland",
+    "name": "Villa La Mediterranee / Boeri Studio / Marseille",
     "copyright": {
-      "*": "wikiarquitectura",
-      "2": "Andrea Ceriani"
+      "*": "Carlo Alberto Mari"
     }
   },
   "15": {
@@ -143,27 +143,50 @@
     }
   },
   "19": {
-    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo, Japan",
-    "copyright": {
-      "*": "wikiarquitectura"
-    }
-  },
-  "20": {
-    "name": "Oslo Opera House / Snøhetta (Snohetta), Kjetil Thorsen, Tarald Lundevall, Craig Dykers / Oslo, Norway",
-    "copyright": {
-      "*": "Snøhetta"
-    }
-  },
-  "21": {
     "name": "Guggenheim Bilbao / Frank Gehry / Bilbao, Spain",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
-  "23": {
+  "20": {
+    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo, Japan",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "21": {
+    "name": "Oslo Opera House / Snøhetta (Snohetta), Kjetil Thorsen, Tarald Lundevall, Craig Dykers / Oslo, Norway",
+    "copyright": {
+      "*": "Snøhetta"
+    }
+  },
+  "22": {
+    "name": "Thermas Vals / Peter Zumthor / Vals, Canton Graubunden, Switzerland",
+    "copyright": {
+      "*": "wikiarquitectura",
+      "2": "Andrea Ceriani"
+    }
+  },
+
+  "24": {
+    "name": "Heydar Aliyev Cultural Center / Zaha Hadid, Patrick Schumacher, Saffet Kaya Bekiroglu / Baku, Azerbaijan",
+    "copyright": {
+      "*": "Iwan Baan",
+      "3": "Helene Binet",
+      "4": "Hufton+Crow",
+      "5": "Helene Binet"
+    }
+  },
+
+  "30": {
     "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
     "copyright": {
       "*": "wikiarquitectura"
+    }
+  },
+  "x": {
+    "copyright": {
+      "6": "James Ewing"
     }
   }
 }
