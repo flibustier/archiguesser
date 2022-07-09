@@ -29,6 +29,48 @@ for (const key in metadata) {
 }
 
 /*
+const newSuggestions = suggestions;
+let i = 0;
+
+const suggestionsArray = suggestions
+  .map((str) => str.split("/"))
+  .filter((x) => x.length > 2);
+data
+  .map((str) => str.split("/"))
+  .filter((x) => x.length > 2)
+  .forEach(([rawTitle, rawArchitects]) => {
+    const title = rawTitle.replaceAll("&amp;", "&");
+    const architects = rawArchitects.replaceAll("&amp;", "&");
+
+    const search = suggestionsArray.find(
+      ([suggestionTitle]) => suggestionTitle === title
+    );
+
+    if (!search) {
+      //console.log(`${title} is missing from suggestions!`);
+      return;
+    }
+
+    if (search[1] !== architects) {
+      const index = newSuggestions.findIndex((str) => str.includes(title));
+
+      if (index === -1) {
+        console.log(`index not found: ${title}`);
+      }
+
+      console.log(newSuggestions[index]);
+      newSuggestions[index] = newSuggestions[index].replace(
+        search[1],
+        architects
+      );
+      console.log(newSuggestions[index]);
+      i++;
+    }
+  });
+
+console.log(i);
+*/
+/*
 const toMerge = data.map((str) => str.split("/")[0].trim().toLowerCase());
 const suggestionsToMerge = 
 for (const suggestion of suggestionsToMerge) {

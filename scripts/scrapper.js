@@ -141,6 +141,9 @@ const format = ({ title, architects, location }) =>
 const nameRegex = /<h1 class="title">(.+)<\/h1>/;
 const locationRegex =
   /<div class="tag cell">Location:<\/div>\s*<div class="value cell">(.+)<\/div>/;
+const architectsBlockRegex =
+  /<div class="data_row architect">\s*<div class="tag cell">Architect<\/div>\s*<div class="value cell">\s*(.+)<\/div>/;
+
 const architectsRegex =
   /<a href="https:\/\/en\.wikiarquitectura\.com\/architect\/[\w-]+\/">([^<]+)<\/a>/g;
 
@@ -153,7 +156,7 @@ const removeIncluded = (arr) =>
   );
 
 const extractBuildingInfos = async (
-  url = "https://en.wikiarquitectura.com/building/cn-tower/"
+  url = "https://en.wikiarquitectura.com/building/united-nations-headquarters-in-new-york/"
 ) => {
   try {
     const { data } = await axios.get(url);
@@ -162,10 +165,11 @@ const extractBuildingInfos = async (
 
     const [, title] = html.match(nameRegex);
     const [, location] = html.match(locationRegex);
+    const [, architectsBlock] = html.match(architectsBlockRegex);
 
     const architects = [];
     const normalized = [];
-    while ((matches = architectsRegex.exec(html))) {
+    while ((matches = architectsRegex.exec(architectsBlock))) {
       const architect = matches[1]
         .normalize("NFD")
         .replace(/\p{Diacritic}/gu, "");
