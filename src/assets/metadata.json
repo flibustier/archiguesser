@@ -72,9 +72,11 @@
     }
   },
   "9": {
-    "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
+    "name": "Chrysler Building / William Van Allen / New York, USA",
     "copyright": {
-      "*": "wikiarquitectura"
+      "*": "wikiarquitectura",
+      "2": "New York Architecture",
+      "4": "New York Architecture"
     }
   },
   "10": {
@@ -154,6 +156,12 @@
   },
   "21": {
     "name": "Guggenheim Bilbao / Frank Gehry / Bilbao, Spain",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "23": {
+    "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
     "copyright": {
       "*": "wikiarquitectura"
     }
