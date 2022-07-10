@@ -88,8 +88,14 @@ header {
 }
 
 @media screen and (max-width: 300px) {
-  .nav-right {
+  .nav-left {
     display: none;
+  }
+
+  .nav-right {
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
   }
 
   .nav-bar {
