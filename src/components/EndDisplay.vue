@@ -79,7 +79,7 @@ const copy = async () => {
       The answer was: <span class="answer">{{ answer }}</span>
     </h2>
     <pre id="share-message" v-html="shareMessage"></pre>
-    <button class="share-btn" @click="copy" data-cabin-event="Shared">
+    <button class="share-btn" @click="copy">
       {{ shareBtnContent }}
     </button>
     <div class="guesses-display">

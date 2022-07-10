@@ -5,25 +5,61 @@ import { search } from "./GuessingFormSearchEngine";
 
 const searchTerms = ref("");
 const hasSelectedSuggestion = ref(false);
+const preselected = ref();
 
 const filteredSuggestions = computed(() => search(searchTerms.value));
 const isSelectionDone = computed(
   () => hasSelectedSuggestion.value || searchTerms.value.length === 0
 );
 
-const selectResult = (result: string) => {
-  hasSelectedSuggestion.value = true;
-  searchTerms.value = result;
-};
-
 const emit = defineEmits(["submitted-guess"]);
-
 const emitAnswer = () => {
   if (isSelectionDone.value) {
     emit("submitted-guess", searchTerms.value);
     hasSelectedSuggestion.value = false;
     searchTerms.value = "";
+  } else if (preselected.value != null) {
+    validateResult(filteredSuggestions.value[preselected.value].suggestion);
   }
+};
+
+const validateResult = (result: string) => {
+  hasSelectedSuggestion.value = true;
+  searchTerms.value = result;
+};
+
+const preselectSuggestion = (index: number) => {
+  preselected.value = index;
+};
+
+const resetSelection = () => {
+  hasSelectedSuggestion.value = false;
+  preselected.value = null;
+};
+
+const navigate = (direction: "up" | "down") => {
+  if (filteredSuggestions.value.length === 0) {
+    return;
+  }
+
+  if (preselected.value == null) {
+    preselected.value = 0;
+  } else if (direction === "up") {
+    if (preselected.value === 0) {
+      preselected.value = filteredSuggestions.value.length - 1;
+    } else {
+      preselected.value--;
+    }
+  } else {
+    preselected.value =
+      (preselected.value + 1) % filteredSuggestions.value.length;
+  }
+
+  document.getElementById(`suggestion-${preselected.value}`)?.scrollIntoView({
+    behavior: "smooth",
+    block: "nearest",
+    inline: "start",
+  });
 };
 </script>
 
@@ -34,9 +70,12 @@ const emitAnswer = () => {
       class="suggestions"
     >
       <li
-        v-for="filteredResult in filteredSuggestions"
-        :key="filteredResult.suggestion"
-        @click="selectResult(filteredResult.suggestion)"
+        v-for="(filteredResult, index) in filteredSuggestions"
+        :key="index"
+        @click="validateResult(filteredResult.suggestion)"
+        @mouseover="preselectSuggestion(index)"
+        :class="{ 'is-focus': preselected === index }"
+        :id="`suggestion-${index}`"
       >
         <span v-html="filteredResult.highlightedSuggestion"></span>
       </li>
@@ -53,8 +92,10 @@ const emitAnswer = () => {
           placeholder="Search for building name / architect / place…"
           v-model="searchTerms"
           autocomplete="off"
-          v-on:input="hasSelectedSuggestion = false"
+          v-on:input="resetSelection"
           @keyup.enter="emitAnswer"
+          @keyup.up="navigate('up')"
+          @keyup.down="navigate('down')"
         />
       </div>
       <input
@@ -102,7 +143,7 @@ const emitAnswer = () => {
   border-radius: var(--border-radius);
 }
 
-.suggestions li:hover {
+.suggestions .is-focus {
   background-color: hsl(0, 0%, 90%);
 }
 
