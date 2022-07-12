@@ -12,29 +12,26 @@ const isSelectionDone = computed(
   () => hasSelectedSuggestion.value || searchTerms.value.length === 0
 );
 
+const guessInput = (event: Event) => {
+  searchTerms.value = (event.target as HTMLInputElement).value;
+  hasSelectedSuggestion.value = false;
+  preselected.value = null;
+};
+
+const validateGuess = (result: string) => {
+  searchTerms.value = result;
+  hasSelectedSuggestion.value = true;
+};
+
 const emit = defineEmits(["submitted-guess"]);
-const emitAnswer = () => {
+const submitGuess = () => {
   if (isSelectionDone.value) {
     emit("submitted-guess", searchTerms.value);
     hasSelectedSuggestion.value = false;
     searchTerms.value = "";
   } else if (preselected.value != null) {
-    validateResult(filteredSuggestions.value[preselected.value].suggestion);
+    validateGuess(filteredSuggestions.value[preselected.value].suggestion);
   }
-};
-
-const validateResult = (result: string) => {
-  hasSelectedSuggestion.value = true;
-  searchTerms.value = result;
-};
-
-const preselectSuggestion = (index: number) => {
-  preselected.value = index;
-};
-
-const resetSelection = () => {
-  hasSelectedSuggestion.value = false;
-  preselected.value = null;
 };
 
 const navigate = (direction: "up" | "down") => {
@@ -72,8 +69,8 @@ const navigate = (direction: "up" | "down") => {
       <li
         v-for="(filteredResult, index) in filteredSuggestions"
         :key="index"
-        @click="validateResult(filteredResult.suggestion)"
-        @mouseover="preselectSuggestion(index)"
+        @click="validateGuess(filteredResult.suggestion)"
+        @mouseover="() => (preselected = index)"
         :class="{ 'is-focus': preselected === index }"
         :id="`suggestion-${index}`"
       >
@@ -90,10 +87,10 @@ const navigate = (direction: "up" | "down") => {
           type="text"
           class="search-input"
           placeholder="Search for building name / architect / place…"
-          v-model="searchTerms"
           autocomplete="off"
-          v-on:input="resetSelection"
-          @keyup.enter="emitAnswer"
+          :value="searchTerms"
+          @input="guessInput"
+          @keyup.enter="submitGuess"
           @keyup.up="navigate('up')"
           @keyup.down="navigate('down')"
         />
@@ -102,7 +99,7 @@ const navigate = (direction: "up" | "down") => {
         class="submit-btn"
         type="submit"
         :value="searchTerms === '' ? 'SKIP' : 'SUBMIT'"
-        @mousedown="emitAnswer"
+        @mousedown="submitGuess"
         :disabled="!isSelectionDone"
       />
     </div>
