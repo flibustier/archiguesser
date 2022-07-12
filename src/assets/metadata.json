@@ -186,10 +186,22 @@
       "4": "wikiarquitectura"
     }
   },
+  "26": {
+    "name": "National Museum of Qatar / Jean Nouvel / Doha, Qatar",
+    "copyright": {
+      "*": "Ateliers Jean Nouvel"
+    }
+  },
   "30": {
     "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
     "copyright": {
       "*": "wikiarquitectura"
+    }
+  },
+  "33": {
+    "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
+    "copyright": {
+      "*": "Ateliers Jean Nouvel"
     }
   },
   "x": {
