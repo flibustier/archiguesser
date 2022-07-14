@@ -116,13 +116,13 @@
     }
   },
   "15": {
-    "name": "MIM-Musical Instrument Museum / Barnabé Guimard, Paul Saintenoy / Brussels, Belgium",
+    "name": "Taj Mahal / Unknown / Agra, India",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
   "16": {
-    "name": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
+    "name": "MIM-Musical Instrument Museum / Barnabé Guimard, Paul Saintenoy / Brussels, Belgium",
     "copyright": {
       "*": "wikiarquitectura"
     }
@@ -167,7 +167,12 @@
       "2": "Andrea Ceriani"
     }
   },
-
+  "23": {
+    "name": "Three Powers Square / Oscar Niemeyer / Brasilia, Brazil",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
   "24": {
     "name": "Heydar Aliyev Cultural Center / Zaha Hadid, Patrick Schumacher, Saffet Kaya Bekiroglu / Baku, Azerbaijan",
     "copyright": {
@@ -192,16 +197,24 @@
       "*": "Ateliers Jean Nouvel"
     }
   },
-  "30": {
-    "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
-    "copyright": {
-      "*": "wikiarquitectura"
-    }
-  },
+
   "33": {
     "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
     "copyright": {
       "*": "Ateliers Jean Nouvel"
+    }
+  },
+
+  "p": {
+    "name": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "c": {
+    "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
+    "copyright": {
+      "*": "wikiarquitectura"
     }
   },
   "x": {
