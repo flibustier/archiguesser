@@ -6,26 +6,35 @@ interface scoredSuggestion {
   score: number;
 }
 
-const MAX_SUGGESTIONS = 10;
+const MAX_SUGGESTIONS = 20;
 
 const byScore = (a: scoredSuggestion, b: scoredSuggestion) => b.score - a.score;
 
-export const search = (searchTerms: string) => {
-  const searchWords = searchTerms
+const splitWords = (str: string): string[] =>
+  str
     .toLowerCase()
     .split(/\s+|,|\//)
     .filter((word) => word.length > 1);
 
+export const search = (searchTerms: string) => {
+  const searchWords = splitWords(searchTerms);
+
   return suggestions
     .reduce((acc: scoredSuggestion[], suggestion) => {
-      const commonWords = searchWords.filter((word) =>
+      const includedWords = searchWords.filter((word) =>
         suggestion.toLowerCase().includes(word)
-      ).length;
+      );
+      const commonWords = includedWords.length;
 
       if (commonWords > 0) {
         const minScore = acc.length > 0 ? acc[acc.length - 1].score : 0;
+        const exactWords = splitWords(suggestion).filter((word) =>
+          includedWords.includes(word)
+        ).length;
 
-        if (commonWords >= minScore) {
+        const score = commonWords + exactWords;
+
+        if (score >= minScore) {
           const highlightedSuggestion = suggestion.replace(
             new RegExp(`(${searchWords.join("|")})`, "gi"),
             "<mark>$1</mark>"
@@ -36,7 +45,7 @@ export const search = (searchTerms: string) => {
             {
               suggestion,
               highlightedSuggestion,
-              score: commonWords,
+              score,
             },
           ].sort(byScore);
         }
