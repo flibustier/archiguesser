@@ -1,57 +1,64 @@
 import suggestions from "../../assets/suggestions.json";
 
+const MAX_SUGGESTIONS = 25;
+const MIN_WORD_LENGTH = 2;
+
+const byScore = (a: scoredSuggestion, b: scoredSuggestion) => b.score - a.score;
+const minScore = (acc: scoredSuggestion[]): number =>
+  acc.length > 0 ? acc[acc.length - 1].score : 0;
+
+const normalize = (str: string): string =>
+  str
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "");
+
+const splitWords = (str: string): string[] =>
+  str.split(/\s+|,|\//).filter((word) => word.length > MIN_WORD_LENGTH);
+
 interface scoredSuggestion {
   suggestion: string;
   highlightedSuggestion: string;
   score: number;
 }
 
-const MAX_SUGGESTIONS = 20;
+const buildScoredSuggestions =
+  (searchWords: string[]) => (acc: scoredSuggestion[], suggestion: string) => {
+    const normalizedSuggestion = normalize(suggestion);
+    const includedWords = searchWords.filter((word) =>
+      normalizedSuggestion.includes(word)
+    );
+    const commonWords = includedWords.length;
 
-const byScore = (a: scoredSuggestion, b: scoredSuggestion) => b.score - a.score;
+    if (commonWords > 0) {
+      const exactWords = splitWords(normalizedSuggestion).filter((word) =>
+        includedWords.includes(word)
+      ).length;
 
-const splitWords = (str: string): string[] =>
-  str
-    .toLowerCase()
-    .split(/\s+|,|\//)
-    .filter((word) => word.length > 1);
+      const score = commonWords + exactWords;
+
+      if (acc.length < MAX_SUGGESTIONS || score > minScore(acc)) {
+        const highlightedSuggestion = suggestion.replace(
+          new RegExp(`(${searchWords.join("|")})`, "gi"),
+          "<mark>$1</mark>"
+        );
+
+        return [
+          ...acc.slice(0, MAX_SUGGESTIONS),
+          {
+            suggestion,
+            highlightedSuggestion,
+            score,
+          },
+        ].sort(byScore);
+      }
+    }
+
+    return acc;
+  };
 
 export const search = (searchTerms: string) => {
-  const searchWords = splitWords(searchTerms);
+  const searchWords = splitWords(normalize(searchTerms));
 
-  return suggestions
-    .reduce((acc: scoredSuggestion[], suggestion) => {
-      const includedWords = searchWords.filter((word) =>
-        suggestion.toLowerCase().includes(word)
-      );
-      const commonWords = includedWords.length;
-
-      if (commonWords > 0) {
-        const minScore = acc.length > 0 ? acc[acc.length - 1].score : 0;
-        const exactWords = splitWords(suggestion).filter((word) =>
-          includedWords.includes(word)
-        ).length;
-
-        const score = commonWords + exactWords;
-
-        if (score >= minScore) {
-          const highlightedSuggestion = suggestion.replace(
-            new RegExp(`(${searchWords.join("|")})`, "gi"),
-            "<mark>$1</mark>"
-          );
-
-          return [
-            ...acc.slice(0, MAX_SUGGESTIONS),
-            {
-              suggestion,
-              highlightedSuggestion,
-              score,
-            },
-          ].sort(byScore);
-        }
-      }
-
-      return acc;
-    }, [])
-    .sort(byScore);
+  return suggestions.reduce(buildScoredSuggestions(searchWords), []);
 };
