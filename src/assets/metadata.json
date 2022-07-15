@@ -205,6 +205,16 @@
     }
   },
 
+  "30": {
+    "name": "Angkor Wat / Siem Reap, Cambodia",
+    "copyright": {
+      "1": "Baldiri",
+      "4": "Diego Delso",
+      "5": "Sam Garza",
+      "6": "Charles J Sharp"
+    }
+  },
+
   "33": {
     "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
     "copyright": {
@@ -225,6 +235,7 @@
     }
   },
   "x": {
+    "name": "Uroville",
     "copyright": {
       "6": "James Ewing"
     }
