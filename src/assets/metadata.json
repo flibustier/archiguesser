@@ -1,6 +1,7 @@
 {
   "0": {
     "name": "Eiffel Tower / Gustave Eiffel / Paris, France",
+    "isMonument": true,
     "copyright": {
       "*": "wikiarquitectura"
     }
@@ -56,6 +57,7 @@
   },
   "7": {
     "name": "Louvre Museum / Pierre Lescot, Ieoh Ming Pei / Paris, France",
+    "isMonument": true,
     "copyright": {
       "1": "waiam cia",
       "2": "Selinakcanca",
@@ -117,6 +119,7 @@
   },
   "15": {
     "name": "Taj Mahal / Unknown / Agra, India",
+    "isMonument": true,
     "copyright": {
       "*": "wikiarquitectura"
     }
@@ -149,15 +152,21 @@
     }
   },
   "20": {
-    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo, Japan",
-    "copyright": {
-      "*": "wikiarquitectura"
-    }
-  },
-  "21": {
     "name": "Oslo Opera House / Snøhetta (Snohetta), Kjetil Thorsen, Tarald Lundevall, Craig Dykers / Oslo, Norway",
     "copyright": {
       "*": "Snøhetta"
+    }
+  },
+  "21": {
+    "name": "Kinkaku-ji (Temple of the Golden Pavilion) / Shogun Ashikaga Yoshimitsu / Kyoto, Japan",
+    "isMonument": true,
+    "copyright": {
+      "1": "Bernard Gagnon",
+      "2": "663highland",
+      "3": "Toyohara Chikanobu",
+      "4": "Bernard Gagnon",
+      "5": "Markus Leupold-Löwenthal",
+      "6": "Jaycangel"
     }
   },
   "22": {
@@ -199,6 +208,7 @@
   },
   "27": {
     "name": "Sagrada Familia / Antoni Gaudí / Barcelona, Spain",
+    "isMonument": true,
     "copyright": {
       "*": "Expiatory Temple of the Sagrada Família",
       "2": "Famke Veenstra"
@@ -223,6 +233,7 @@
   },
   "30": {
     "name": "Angkor Wat / Siem Reap, Cambodia",
+    "isMonument": true,
     "copyright": {
       "1": "Baldiri",
       "4": "Diego Delso",
@@ -251,6 +262,12 @@
     }
   },
 
+  "h": {
+    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo, Japan",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
   "p": {
     "name": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
     "copyright": {
