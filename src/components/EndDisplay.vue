@@ -96,11 +96,14 @@ const copy = async () => {
     <p class="sponsor">
       ❤️ {{ APP_NAME }}?
       <a
+        v-if="false"
         href="https://ko-fi.com/flibustier"
         target="_blank"
         rel="noreferrer"
-        class="ml-1 underline"
         >Buy me a coffee!</a
+      >
+      <a href="https://www.instagram.com/archiguesser/" target="_blank"
+        >Follow me on Instagram!</a
       >
     </p>
   </div>
