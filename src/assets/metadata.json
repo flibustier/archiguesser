@@ -250,15 +250,25 @@
     }
   },
   "32": {
+    "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
+    "copyright": {
+      "*": "Ateliers Jean Nouvel"
+    }
+  },
+  "33": {
     "name": "Habitat 67 / Moshe Safdie / Cité du Havre, Montreal, QC, Canada",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
-  "33": {
-    "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
+ 
+  "35": {
+    "name": "Portuguese Pavilion Expo ’98 / Alvaro Siza / Lisboa, Portugal",
     "copyright": {
-      "*": "Ateliers Jean Nouvel"
+      "*": "wikiarquitectura",
+      "1": "bricolage 108",
+      "5": "Dacian Groza",
+      "6": "Pedro Ribeiro Simoes"
     }
   },
 
