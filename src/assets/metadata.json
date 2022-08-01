@@ -250,9 +250,12 @@
     }
   },
   "32": {
-    "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
+    "name": "Portuguese Pavilion Expo ’98 / Alvaro Siza / Lisboa, Portugal",
     "copyright": {
-      "*": "Ateliers Jean Nouvel"
+      "*": "wikiarquitectura",
+      "1": "bricolage 108",
+      "5": "Dacian Groza",
+      "6": "Pedro Ribeiro Simoes"
     }
   },
   "33": {
@@ -261,14 +264,11 @@
       "*": "wikiarquitectura"
     }
   },
- 
-  "35": {
-    "name": "Portuguese Pavilion Expo ’98 / Alvaro Siza / Lisboa, Portugal",
+
+  "louvre": {
+    "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
     "copyright": {
-      "*": "wikiarquitectura",
-      "1": "bricolage 108",
-      "5": "Dacian Groza",
-      "6": "Pedro Ribeiro Simoes"
+      "*": "Ateliers Jean Nouvel"
     }
   },
 
