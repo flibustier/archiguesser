@@ -259,25 +259,86 @@
     }
   },
   "33": {
+    "name": "Phillips Exeter Academy Library / Louis I. Kahn / Exeter, New Hampshire, United States of America",
+    "copyright": {
+      "1": "wikiarquitectura",
+      "2": "Ed Brodzinsky",
+      "3": "Ed Brodzinsky",
+      "4": "Ed Brodzinsky",
+      "5": "Pablo Sanchez",
+      "6": ""
+    }
+  },
+  "34": {
+    "name": "The Golden Temple, Harimandir Sahib, Darbār Sahib / Amritsar, India",
+    "isMonument": true,
+    "copyright": {
+      "1": "Bernard Gagnon",
+      "2": "Amritpal Singh Mann",
+      "3": "Amritpal Singh Mann",
+      "4": "Ágoston Schoefft",
+      "5": "Manshi Bhanushali",
+      "6": "Paulrudd"
+    }
+  },
+  "35": {
+    "name": "Dancing House / Frank Gehry, Vlado Milunic / Prague, Czech Republic",
+    "copyright": {
+      "*": "wikiarquitectura",
+      "6": "A.Savin"
+    }
+  },
+  "36": {
+    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo, Japan",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
+  "37": {
     "name": "Habitat 67 / Moshe Safdie / Cité du Havre, Montreal, QC, Canada",
     "copyright": {
       "*": "wikiarquitectura"
     }
   },
+  "38": {
+    "name": "Juedisches (Jewish) Museum / Daniel Libeskind Architect / Berlin",
+    "copyright": {
+      "*": "Denis Esakov"
+    }
+  },
+  "39": {
+    "name": "Sheikh Lotfollah Mosque / Mohammad Reza ibn Ustad Husayn Banna Isfahani / Isfahan, Iran",
+    "isMonument": true,
+    "copyright": {
+      "1": "Phillip Maiwald",
+      "2": "Phillip Maiwald",
+      "3": "Amirpashaei",
+      "4": "Ara9979",
+      "5": "Monfie",
+      "6": "Bernard Gagnon"
+    }
+  },
 
-  "louvre": {
+  "42": {
     "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
     "copyright": {
       "*": "Ateliers Jean Nouvel"
     }
   },
 
-  "h": {
-    "name": "Maison Hermès Tokyo / Renzo Piano / Tokyo, Japan",
+  "part": {
+    "name": "The Parthenon / Athens",
+    "isMonument": true,
     "copyright": {
-      "*": "wikiarquitectura"
+      "1": "Ken Russell Salvador",
+      "2": "Fingalo",
+      "3": "",
+      "4": "Edward Dodwell",
+      "5": "Steve Swayne",
+      "6": "Adam L. Clevenger"
     }
   },
+
   "p": {
     "name": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
     "copyright": {
