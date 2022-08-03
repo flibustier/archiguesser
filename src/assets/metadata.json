@@ -318,15 +318,30 @@
       "6": "Bernard Gagnon"
     }
   },
-
+  "40": {
+    "name": "Brasilia Cathedral / Oscar Niemeyer / Brasilia, Brazil",
+    "copyright": {
+      "1": "Leon petrosyan",
+      "2": "Daderot",
+      "3": "Tampasteve",
+      "4": "Fwsbsb2",
+      "5": "LecomteB",
+      "6": "Webysther"
+    }
+  },
+  "41": {
+    "name": "Aluminium Forest Building / Micha de Hass / Houten, Utrecht, Netherlands",
+    "copyright": {
+      "*": "wikiarquitectura"
+    }
+  },
   "42": {
     "name": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates",
     "copyright": {
       "*": "Ateliers Jean Nouvel"
     }
   },
-
-  "part": {
+  "43": {
     "name": "The Parthenon / Athens",
     "isMonument": true,
     "copyright": {
