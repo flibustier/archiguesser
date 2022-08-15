@@ -396,6 +396,18 @@
     }
   },
 
+  "52": {
+    "name": "La Bourse de Commerce / Tadao Ando, NeM Architectes, Pierre-Antoine Gatier / Paris, France",
+    "copyright": {
+      "1": "Marc Domage",
+      "2": "Maxime Tétard",
+      "3": "Tourneboeuf",
+      "4": "Tourneboeuf",
+      "5": "Maxime Tétard",
+      "6": "Marc Domage"
+    }
+  },
+
   "p": {
     "name": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
     "copyright": {
@@ -412,6 +424,12 @@
     "name": "Uroville",
     "copyright": {
       "6": "James Ewing"
+    }
+  },
+  "xanadu": {
+    "name": "Xanadú / Ricardo Bofill / La Manzanera, Alicante, Spain",
+    "copyright": {
+      "*": "Ricardo Bofill"
     }
   }
 }
