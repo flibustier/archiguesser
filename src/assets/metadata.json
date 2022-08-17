@@ -390,12 +390,32 @@
     }
   },
   "49": {
-    "name": "Gando Primary School Extension / Kéré Architecture / Gando, Burkina Faso", 
+    "name": "Gando Primary School Extension / Kéré Architecture / Gando, Burkina Faso",
     "copyright": {
       "*": "Erik Jan Ouwerkerk"
     }
   },
-
+  "50": {
+    "name": "Geisel Library / William L. Pereira / University of California San Diego, La Jolla, United States",
+    "copyright": {
+      "*": "wikiarquitectura",
+      "4": "kevinsm329",
+      "5": "Darren Bradley",
+      "6": "Darren Bradley"
+    }
+  },
+  "51": {
+    "name": "(Great) Ziggurat of Ur / Tell el-Muqayyar, Dhi Qar Province, Iraq",
+    "isMonument": true,
+    "copyright": {
+      "1": "Tla2006",
+      "2": "Kaufingdude",
+      "3": "Kaufingdude",
+      "4": "Tla2006",
+      "5": "Michael Lubinski",
+      "6": "wikiwikiyarou"
+    }
+  },
   "52": {
     "name": "La Bourse de Commerce / Tadao Ando, NeM Architectes, Pierre-Antoine Gatier / Paris, France",
     "copyright": {
@@ -405,6 +425,19 @@
       "4": "Tourneboeuf",
       "5": "Maxime Tétard",
       "6": "Marc Domage"
+    }
+  },
+
+  "54": {
+    "name": "Neuschwanstein Castle / Eduard Riedel / Hohenschwangau, Germany",
+    "isMonument": true,
+    "copyright": {
+      "1": "Kienberged GmbH",
+      "2": "United States Library of Congress",
+      "3": "United States Library of Congress",
+      "4": "Andrew and Annemarie",
+      "5": "Janis",
+      "6": "Naumenko Aleksandr"
     }
   },
 
@@ -420,6 +453,7 @@
       "*": "wikiarquitectura"
     }
   },
+
   "x": {
     "name": "Uroville",
     "copyright": {

@@ -492,7 +492,7 @@
   "Ex Unione Militare Refurbishment / Doriana Fuksas, Massimiliano Fuksas / Rome, Italy",
   "Nuovo Polo Fiera / Massimiliano Fuksas / Milán, Italy",
   "San Paolo Church in Foligno / Doriana Fuksas, Massimiliano Fuksas / Foligno, Perugia, Italy",
-  
+
   "Besiktas Fishmarket / GAD / Istambul, Turkey",
   "Gaia 6 House / Luis De Garrido / Toledo, Spain",
   "Gallegos Dago House / Burgos & Garrido / Colonia Bellavista, Majadahonda, Madrid, Spain",
@@ -662,7 +662,7 @@
   "La Samaritaine / Frantz Jourdain, Henri Sauvage, SANAA / Paris France",
   "Residence Building Vision 80 / Jean Pierre Jouve / La Defense, Paris, France",
   "Saint Patrick’s Cathedral / James Renwick Jr, William Rodrigue / 5th Ave, New York 10022, Manhattan, United States",
-  
+
   "Headquarters of Prosecutors office Vilnius / KLAP / Vilnius, Lithuania",
   "Carver Court Residential Complex / Louis I. Kahn / Coatesville, Pennsylvania, United States",
   "Esherick House / Louis I. Kahn / Philadelphia, Pennsylvania, United States",
@@ -976,7 +976,7 @@
   "Republica Building / Cesar Pelli / Buenos Aires, Argentina",
   "Two International Finance Centre Hong Kong / Cesar Pelli, Rocco Desing / Hong Kong, China",
   "Grand Egyptian Museum / Shi-fu Peng, Roison Heneghan / Giza, El Cairo, Egypt",
-  "Geisel Library / William L. Pereira / University of California San Diego, 9500 Gilman Dr, La Jolla, CA 92093, United States",
+  "Geisel Library / William L. Pereira / University of California San Diego, La Jolla, United States",
   "Transamerica Pyramid / William L. Pereira / San Francisco, United States",
   "Cultural Centre of European Space Technologies – KSEVT / Bevk Perović, Dekleva Gregorič, OFIS Arhitekti, Sadar + Vuga Arhitekti / Cesta na vasi, Vitanje, Slovenia",
   "Arganzuela Footbridge / Dominique Perrault / Arganzuela Park, Madrid, Spain",
@@ -1009,11 +1009,13 @@
   "Maisons Tropicales / Henri Prouvé, Jean Prouvé / Niamey, Niger - Brazzaville, Republic of Congo",
   "Prouvé House / Jean Prouvé / Nancy, France",
   "Torca Building / Josep Puig, Ponsirenas – Puig i associats, Andreu Ponsirenas / Barcelona, Spain",
+  
   "Tania House or House for my sister / Smilian Radic / Camino las Ermitas, Lo Barrenechea, Santiago, Chile",
   "Havøysund. Sitting area in the Norwegian National Tourist Route / Reiulf Ramstad / Havøysund, Finnmark, Norway",
   "Trollstigen – National Tourist Route / Reiulf Ramstad / Romsdalen - Geiranger Fjord, Norway",
   "Church of the Assumption / Mahoma Ramí / Quinto, Zaragoza, Spain",
   "University Campus in Tortosa / Pere Joan Ravetllat, Carme Ribas / Tortosa, Tarragona, Catalonia, Spain",
+  "Neuschwanstein Castle / Eduard Riedel / Hohenschwangau, Germany",
   "Museum of Modern Art in Rio de Janeiro / Alfonso Eduardo Reidy / Río de Janeiro, Brazil",
   "Allegheny County Courthouse / Henry Hobson Richardson / 436 Grant Street, Pittsburgh, USA",
   "Allegheny County Jail / Henry Hobson Richardson / 436 Grant Street, Pittsburgh, PA, United States",
@@ -1083,6 +1085,7 @@
   "Fine Arts Academy in Nuremberg / Sep Ruf / Nüremberg, Germany",
   "Mosque of Cordoba / Hernán Ruiz, Juan De Ochoa / Cordoba, Spain",
   "Bayterek Tower / Akmurza Rustembekov / Astaná, Kazajistán",
+
   "Center for Ecological Activities Sluňákov / Projektil Architekti S.R.O, Roman Brychta, Adam Halíř, Ondřej Hofmeister, Petr Lešek / Horka nad Moravou, Olomouc, Czech Republic",
   "Rancho House / S2a+designbureau, Juan Carlos Reyes García, Diego Alejandro Cisneros Arvizu, Rodrigo Lugo Durán, Claudia Órnelas mesta / Queretaro, Mexico",
   "21st Century Museum of Contemporary Art, Kanazawa / SANAA / Hirosaka 1-2-1, Kanazawa, Ishikawa, Japan",
@@ -1423,5 +1426,6 @@
   "Uffizi Palace / Florence",
   "Victoria & Albert Museum / London",
   "Washington National Cathedral / Washington DC",
-  "Windsor Castle / England"
+  "Windsor Castle / England",
+  "(Great) Ziggurat of Ur / Tell el-Muqayyar, Dhi Qar Province, Iraq"
 ]
