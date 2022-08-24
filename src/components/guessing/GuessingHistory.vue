@@ -8,13 +8,34 @@ const props = defineProps({
     type: Array<string>,
     required: true,
   },
+  answer: {
+    type: String,
+    required: true,
+  },
 });
+
+const answerWords = props.answer.split(/\/|,|\s/);
+
+const patchMatches = (word: string): string =>
+  answerWords.includes(word) ? `<b>${word}</b>` : word;
+
+const highlight = (guess: string) =>
+  guess
+    .split("/")
+    .map((part) =>
+      part
+        .split(" ")
+        .map((words) => words.split(",").map(patchMatches).join(","))
+        .join(" ")
+    )
+    .join("/");
 </script>
 
 <template>
   <div class="guesses">
     <div class="guess" v-for="guess of guesses" :key="guess">
-      <span class="guess-failed">❌</span>{{ guess }}
+      <span class="guess-failed">❌</span
+      ><span v-html="highlight(guess)"></span>
     </div>
     <div class="remaining" v-if="guessesRemaining === 1">
       Last guess remaining!
@@ -49,5 +70,9 @@ const props = defineProps({
   line-height: 1.25rem;
 
   text-align: center;
+}
+
+:deep(b) {
+  background-color: #e0eae0;
 }
 </style>

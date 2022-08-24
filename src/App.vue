@@ -85,7 +85,7 @@ const onSubmittedGuess = (guess: string) => {
 
     <div v-if="!isGameEnded">
       <GuessingForm @submitted-guess="onSubmittedGuess" />
-      <GuessingHistory :guesses="guesses" />
+      <GuessingHistory :guesses="guesses" :answer="answer" />
     </div>
 
     <EndDisplay
