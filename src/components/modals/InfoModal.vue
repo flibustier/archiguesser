@@ -71,7 +71,8 @@ const closeModal = () => {
     <template #footer>
       <p>
         Got a suggestion or want to contribute ? Contact me via
-        <a href="mailto:contact@archiguesser.com">email</a>
+        <a href="mailto:contact@archiguesser.com">email</a> or
+        <a href="https://www.instagram.com/archiguesser/">Instagram</a>
       </p>
     </template>
   </BaseModal>
