@@ -489,6 +489,30 @@
       "*": ""
     }
   },
+  "61": {
+    "name": "Rietveld-Schröder House / Gerrit Rietveld / Utrecht, Netherlands",
+    "copyright": {
+      "1": "Stijn Poelstra",
+      "2": "Davide Adamo",
+      "3": "Davide Adamo",
+      "4": "Jchancerel",
+      "5": "Stijn Poelstra",
+      "6": "Stijn Poelstra"
+    }
+  },
+  "62": {
+    "name": "Neues Museum / David Chipperfield, Julian Harrap, Friedrich August Stüler / Berlin, Germany",
+    "copyright": {
+      "*": "Ute Zscharnt",
+      "2": "d.teil",
+      "4": "David Chipperfield",
+      "6": "Joerg von Bruchhausen"
+    }
+  },
+
+  "66": {
+    "name": "Cenotaph for Newton / Etienne-Louis Boullée"
+  },
 
   "p": {
     "name": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
