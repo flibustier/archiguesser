@@ -12,10 +12,25 @@ const isSelectionDone = computed(
   () => hasSelectedSuggestion.value || searchTerms.value.length === 0
 );
 
+const resetSearchTerms = () => {
+  hasSelectedSuggestion.value = false;
+  searchTerms.value = "";
+};
+
+let deletePressCounter = 0;
+const fastDelete = () => {
+  if (++deletePressCounter > 6) {
+    resetSearchTerms();
+  }
+};
+
 const guessInput = (event: Event) => {
   searchTerms.value = (event.target as HTMLInputElement).value;
   hasSelectedSuggestion.value = false;
   preselected.value = null;
+  if ((event as InputEvent).inputType !== "deleteContentBackward") {
+    deletePressCounter = 0;
+  }
 };
 
 const validateGuess = (result: string) => {
@@ -27,8 +42,7 @@ const emit = defineEmits(["submitted-guess"]);
 const submitGuess = () => {
   if (isSelectionDone.value) {
     emit("submitted-guess", searchTerms.value);
-    hasSelectedSuggestion.value = false;
-    searchTerms.value = "";
+    resetSearchTerms();
   } else if (preselected.value != null) {
     validateGuess(filteredSuggestions.value[preselected.value].suggestion);
   }
@@ -93,6 +107,7 @@ const navigate = (direction: "up" | "down") => {
           @keyup.enter="submitGuess"
           @keyup.up="navigate('up')"
           @keyup.down="navigate('down')"
+          @keydown.delete="fastDelete"
         />
       </div>
       <input
