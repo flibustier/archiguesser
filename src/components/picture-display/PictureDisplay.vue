@@ -48,4 +48,10 @@ watch(
   border: medium none;
   object-fit: contain;
 }
+
+@media screen and (min-width: 62rem) {
+  .picture {
+    height: 36rem;
+  }
+}
 </style>
