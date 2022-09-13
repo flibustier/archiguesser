@@ -593,10 +593,24 @@
   },
   "75": {
     "name": "Château de Versailles / Louis Le Vau, Jules Hardouin-Mansart, Robert de Cotte, Jacques V Gabriel, Ange-Jacques Gabriel, André Le Nôtre, Frédéric Nepveu, Philibert Le Roy, Dominique Perrault / Versailles, France",
+    "isMonument": true,
     "copyright": {
       "2": "Stéphanie Le Lay",
       "4": "Jean-Christophe BENOIST",
       "5": "Jean Delagrive"
+    }
+  },
+
+  "80": {
+    "name": "Forbidden City / Kuai Xiang / Beijing, China",
+    "isMonument": true,
+    "copyright": {
+      "1": "See-ming Lee",
+      "2": "Clay Gilliland",
+      "3": "Dennis Jarvis",
+      "4": "Dennis Jarvis",
+      "5": "Can Pac Swire",
+      "6": "pixelflake"
     }
   },
 
