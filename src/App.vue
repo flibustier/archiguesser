@@ -6,7 +6,7 @@ import PictureDisplay from "./components/picture-display/PictureDisplay.vue";
 import EndDisplay from "./components/EndDisplay.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
 
-import { getDayNumberAndAnswer, getRealDayNumber } from "./DailySelector";
+import { getDayInformation, getRealDayNumber } from "./DailySelector";
 
 const urlParameters = new URLSearchParams(window.location.search);
 const requestedDay = urlParameters.get("day");
@@ -22,7 +22,9 @@ if (
   window.location.href = "/";
 }
 
-const { dayNumber, answer } = reactive(getDayNumberAndAnswer(requestedDay));
+const { dayNumber, answer, isMonument } = reactive(
+  getDayInformation(requestedDay)
+);
 
 const guesses: string[] = reactive([]);
 const stats = JSON.parse(localStorage.getItem("stats") || "{}");
@@ -86,6 +88,13 @@ const onSubmittedGuess = (guess: string) => {
     <div v-if="!isGameEnded">
       <GuessingForm @submitted-guess="onSubmittedGuess" />
       <GuessingHistory :guesses="guesses" :answer="answer" />
+      <div
+        v-if="isMonument"
+        class="monument-hint"
+        title="Today is an historic monument!"
+      >
+        🏛
+      </div>
     </div>
 
     <EndDisplay
@@ -105,5 +114,9 @@ main {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1rem;
+}
+
+.monument-hint {
+  text-align: center;
 }
 </style>

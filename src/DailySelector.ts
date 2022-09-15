@@ -17,11 +17,12 @@ const getDayOfYear = (date = new Date()) => {
 
 export const getRealDayNumber = () => getDayOfYear() - DDAY;
 
-export const getDayNumberAndAnswer = (
+export const getDayInformation = (
   day?: string | null
 ): {
   dayNumber: number;
   answer: string;
+  isMonument: boolean;
 } => {
   let dayNumber = getRealDayNumber();
 
@@ -30,14 +31,18 @@ export const getDayNumberAndAnswer = (
   }
 
   if (dayNumber in metadata) {
+    const { name: answer, isMonument = false } = (metadata as any)[dayNumber];
+
     return {
       dayNumber,
-      answer: (metadata as any)[dayNumber].name,
+      answer,
+      isMonument,
     };
   }
   console.log(`Day ${dayNumber} not found`);
   return {
     dayNumber: 1,
     answer: metadata[1].name,
+    isMonument: false,
   };
 };

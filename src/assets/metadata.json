@@ -612,7 +612,18 @@
       "*": "Hufton+Crow"
     }
   },
-
+  "78": {
+    "name": "New Qurna (Kurna, Gourna, Gurna, Qurneh) / Hassan Fathy / Egypt",
+    "copyright": {
+      "*": "Unesco"
+    }
+  },
+  "79": {
+    "name": "The House of the Infinite / Alberto Campo Baeza / Cádiz, Spain",
+    "copyright": {
+      "*": "Javier Callejas"
+    }
+  },
   "80": {
     "name": "Forbidden City / Kuai Xiang / Beijing, China",
     "isMonument": true,
