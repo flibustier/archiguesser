@@ -6,6 +6,8 @@ import IconBack from "../icons/IconBack.vue";
 import IconCheck from "../icons/IconCheck.vue";
 
 import { getRealDayNumber, isMonument } from "@/DailySelector";
+import { getStats } from "@/store";
+
 const realCurrentDay = getRealDayNumber();
 
 defineProps({
@@ -21,7 +23,7 @@ const closeModal = () => {
   emit("update:isVisible", false);
 };
 
-const stats = computed(() => JSON.parse(localStorage.getItem("stats") || "{}"));
+const stats = computed(getStats);
 
 const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
 </script>

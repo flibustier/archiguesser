@@ -1,9 +1,12 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
+import { getNumberOfDayPlayed } from "@/store";
 import { URL, APP_NAME } from "../config.json";
 
 const showGuesses = ref(false);
 const shareBtnContent = ref("SHARE");
+
+const regularPlayer = getNumberOfDayPlayed() > 5;
 
 const toggleGuesses = () => {
   showGuesses.value = !showGuesses.value;
@@ -96,13 +99,13 @@ const copy = async () => {
     <p class="sponsor">
       ❤️ {{ APP_NAME }}?
       <a
-        v-if="false"
+        v-if="regularPlayer"
         href="https://ko-fi.com/flibustier"
         target="_blank"
         rel="noreferrer"
         >Buy me a coffee!</a
       >
-      <a href="https://www.instagram.com/archiguesser/" target="_blank"
+      <a v-else href="https://www.instagram.com/archiguesser/" target="_blank"
         >Follow me on Instagram!</a
       >
     </p>
