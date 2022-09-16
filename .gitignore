@@ -1,5 +1,6 @@
 data.*
 indexes.json
+stats.html
 
 # Logs
 logs
