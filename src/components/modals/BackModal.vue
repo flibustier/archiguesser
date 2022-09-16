@@ -5,7 +5,7 @@ import BaseModal from "./BaseModal.vue";
 import IconBack from "../icons/IconBack.vue";
 import IconCheck from "../icons/IconCheck.vue";
 
-import { getRealDayNumber } from "@/DailySelector";
+import { getRealDayNumber, isMonument } from "@/DailySelector";
 const realCurrentDay = getRealDayNumber();
 
 defineProps({
@@ -33,20 +33,25 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
     @update:is-visible="closeModal"
   >
     <template #default>
-      <div class="days-selection">
-        <div
-          :class="`day-selection ${stats[i] ? '' : 'clickable'}`"
-          v-for="i of realCurrentDay - 1"
-          :key="i"
-          @click="goToDay(i)"
-        >
-          <span>#{{ i }}</span>
-          <div v-if="stats[i]" class="icon icon-check"><IconCheck /></div>
-
-          <div v-else class="icon icon-replay"><IconBack /></div>
-        </div>
-        <div class="day-selection clickable" @click="goToDay()">
-          <span class="today">Today</span>
+      <div>
+        <p>🏛: Historic Monuments</p>
+        <div class="days-selection">
+          <div
+            :class="`day-selection ${stats[i] ? '' : 'clickable'}`"
+            v-for="i of realCurrentDay - 1"
+            :key="i"
+            @click="goToDay(i)"
+          >
+            <div>
+              <span>#{{ i }}</span>
+              <span v-if="isMonument(i)"> 🏛</span>
+            </div>
+            <div v-if="stats[i]" class="icon icon-check"><IconCheck /></div>
+            <div v-else class="icon icon-replay"><IconBack /></div>
+          </div>
+          <div class="day-selection clickable" @click="goToDay()">
+            <span class="today">Today</span>
+          </div>
         </div>
       </div>
     </template>
@@ -67,7 +72,7 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
   margin-top: 1rem;
   padding: 0.75rem;
 
-  min-width: 5.5rem;
+  min-width: 6.4rem;
   border: 1px solid transparent;
   border-radius: var(--border-radius);
   box-shadow: rgba(213, 217, 217, 0.5) 1px 2px 5px 0;

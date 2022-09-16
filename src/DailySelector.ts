@@ -2,7 +2,7 @@ import metadata from "./assets/metadata.json";
 
 const DDAY = 182;
 
-const getDayOfYear = (date = new Date()) => {
+const getDayOfYear = (date = new Date()): number => {
   const timestamp1 = Date.UTC(
     date.getFullYear(),
     date.getMonth(),
@@ -15,7 +15,7 @@ const getDayOfYear = (date = new Date()) => {
   return differenceInDays;
 };
 
-export const getRealDayNumber = () => getDayOfYear() - DDAY;
+export const getRealDayNumber = (): number => getDayOfYear() - DDAY;
 
 export const getDayInformation = (
   day?: string | null
@@ -45,4 +45,8 @@ export const getDayInformation = (
     answer: metadata[1].name,
     isMonument: false,
   };
+};
+
+export const isMonument = (dayNumber: number): boolean => {
+  return (metadata as any)?.[dayNumber]?.isMonument || false;
 };
