@@ -28,6 +28,7 @@ watch(
     :alt="`Picture ${pictureShown}`"
     class="picture"
     :src="`${dayNumber}/${pictureShown}.jpg`"
+    loading="lazy"
   />
 
   <PicturePaginator

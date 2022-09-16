@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import IconBack from "./icons/IconBack.vue";
 import IconHelp from "./icons/IconHelp.vue";
-import BrandTitle from "./icons/BrandTitle.vue";
 
 import InfoModal from "./modals/InfoModal.vue";
 import BackModal from "./modals/BackModal.vue";
@@ -16,7 +15,7 @@ const showInfoModal = ref(false);
   <header>
     <div class="nav-bar">
       <div class="nav-block nav-left">
-        <a href="/" id="brand"><BrandTitle /></a>
+        <a href="/" id="brand">ARCHIGUESSER</a>
       </div>
       <div class="nav-block nav-right">
         <a @click="showBackModal = true">
@@ -78,13 +77,8 @@ header {
 }
 
 #brand {
-  height: 1rem;
-}
-
-#brand svg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 300px) {
