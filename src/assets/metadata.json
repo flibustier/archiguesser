@@ -685,18 +685,24 @@
     }
   },
 
+  "90": {
+    "name": "Roman Pantheon / Apollodorus of Damasco / Rome, Italy",
+    "copyright": {
+      "1": "Szilas",
+      "2": "Michael Johnson",
+      "3": "Michael Vadon",
+      "4": "Jean-Christophe BENOIST",
+      "5": "Architas",
+      "6": "Bkmd"
+    }
+  },
+
   "123": {
     "name": "World Trade Center / Minoru Yamasaki Associates + Emery Roth & Sons / Manhattan, New York City, United States"
   },
 
   "p": {
     "name": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
-    "copyright": {
-      "*": "wikiarquitectura"
-    }
-  },
-  "c": {
-    "name": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
     "copyright": {
       "*": "wikiarquitectura"
     }
