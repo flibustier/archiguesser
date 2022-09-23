@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
-import IconSearch from "../icons/IconSearch.vue";
 import { search } from "./GuessingFormSearchEngine";
+import IconSearch from "../icons/IconSearch.vue";
+import IconBackspace from "../icons/IconBackspace.vue";
 
 const searchTerms = ref("");
 const hasSelectedSuggestion = ref(false);
@@ -94,7 +95,7 @@ const navigate = (direction: "up" | "down") => {
 
     <div class="form-line">
       <div class="search">
-        <span class="search-logo">
+        <span class="icon-search">
           <IconSearch />
         </span>
         <input
@@ -109,6 +110,9 @@ const navigate = (direction: "up" | "down") => {
           @keyup.down="navigate('down')"
           @keydown.delete="fastDelete"
         />
+        <span class="icon-times" v-if="searchTerms" @click="resetSearchTerms">
+          <IconBackspace />
+        </span>
       </div>
       <input
         class="submit-btn"
@@ -173,7 +177,7 @@ const navigate = (direction: "up" | "down") => {
   color: var(--color-background);
 }
 
-.search .search-logo {
+.search .icon-search {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -184,11 +188,23 @@ const navigate = (direction: "up" | "down") => {
   z-index: 1;
 }
 
+.search .icon-times {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+  z-index: 1;
+  cursor: pointer;
+}
+
 .search .search-input {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   width: 100%;
-  padding-right: 0.5rem;
+  padding-right: 2.5rem;
   padding-left: 2.5rem;
 }
 

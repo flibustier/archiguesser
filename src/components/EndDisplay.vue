@@ -99,7 +99,7 @@ const copy = async () => {
     <p class="sponsor">
       ❤️ {{ APP_NAME }}?
       <a
-        v-if="regularPlayer"
+        v-if="hasWon && regularPlayer"
         href="https://ko-fi.com/flibustier"
         target="_blank"
         rel="noreferrer"
