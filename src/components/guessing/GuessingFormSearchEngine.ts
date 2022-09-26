@@ -11,7 +11,8 @@ const normalize = (str: string): string =>
   str
     .toLowerCase()
     .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, "");
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(/\(|\)|\]|\[/g, "");
 
 const splitWords = (str: string): string[] =>
   str.split(/\s+|,|\//).filter((word) => word.length > MIN_WORD_LENGTH);
@@ -22,20 +23,24 @@ interface scoredSuggestion {
   score: number;
 }
 
+const uniq = (array: string[]) => [...new Set(array)];
+
 const buildScoredSuggestions =
   (searchWords: string[]) => (acc: scoredSuggestion[], suggestion: string) => {
     const normalizedSuggestion = normalize(suggestion);
-    const includedWords = searchWords.filter((word) =>
-      normalizedSuggestion.includes(word)
+    const includedWords = uniq(
+      searchWords.filter((word) => normalizedSuggestion.includes(word))
     );
     const commonWords = includedWords.length;
 
     if (commonWords > 0) {
-      const exactWords = splitWords(normalizedSuggestion).filter((word) =>
-        includedWords.includes(word)
-      ).length;
+      const exactWords = uniq(
+        splitWords(normalizedSuggestion).filter((word) =>
+          includedWords.includes(word)
+        )
+      );
 
-      const score = commonWords + exactWords;
+      const score = commonWords + exactWords.length;
 
       if (acc.length < MAX_SUGGESTIONS || score > minScore(acc)) {
         const highlightedSuggestion = suggestion.replace(
