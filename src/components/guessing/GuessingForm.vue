@@ -100,7 +100,7 @@ const navigate = (direction: "up" | "down") => {
         </span>
         <input
           type="text"
-          class="search-input"
+          :class="`search-input ${searchTerms.length ? 'is-not-empty' : ''}`"
           placeholder="Search for building name / architect / place…"
           autocomplete="off"
           :value="searchTerms"
@@ -204,8 +204,12 @@ const navigate = (direction: "up" | "down") => {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   width: 100%;
-  padding-right: 2.5rem;
+  padding-right: 0.5rem;
   padding-left: 2.5rem;
+}
+
+.search .search-input.is-not-empty {
+  padding-right: 2.5rem;
 }
 
 .submit-btn {
