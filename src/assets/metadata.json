@@ -740,6 +740,19 @@
     }
   },
 
+  "95": {
+    "name": "The Alhambra / Granada, Andalusia, Spain",
+    "isMonument": true,
+    "copyright": {
+      "1": "Juan Laurent",
+      "2": "Leronich",
+      "3": "Tuxyso",
+      "4": "Jebulon",
+      "5": "Jim Gordon",
+      "6": "Jebulon"
+    }
+  },
+
   "123": {
     "name": "World Trade Center / Minoru Yamasaki Associates + Emery Roth & Sons / Manhattan, New York City, United States"
   },
