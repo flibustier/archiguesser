@@ -90,6 +90,7 @@ button {
   font-size: 100%;
   line-height: inherit;
   padding: 0;
+  color: var(--color-text);
 }
 
 a {
