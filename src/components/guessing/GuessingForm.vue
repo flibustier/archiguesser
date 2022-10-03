@@ -212,6 +212,11 @@ const navigate = (direction: "up" | "down") => {
   padding-right: 2.5rem;
 }
 
+.search .search-input:focus-visible {
+  outline: 0px solid transparent;
+  box-shadow: 0px 0px 3px 0px var(--color-border);
+}
+
 .submit-btn {
   border-radius: var(--border-radius);
   width: 15%;
