@@ -1,4 +1,5 @@
-import metadata from "./assets/metadata.json";
+import answers from "./assets/answers.json";
+import monuments from "./assets/monuments.json";
 
 const DDAY = 182;
 
@@ -26,27 +27,26 @@ export const getDayInformation = (
 } => {
   let dayNumber = getRealDayNumber();
 
-  if (day && day in metadata) {
+  if (day && day in answers) {
     dayNumber = parseInt(day);
   }
 
-  if (dayNumber in metadata) {
-    const { name: answer, isMonument = false } = (metadata as any)[dayNumber];
+  if (dayNumber in answers) {
+    const answer = (answers as any)[dayNumber];
 
     return {
       dayNumber,
       answer,
-      isMonument,
+      isMonument: isMonument(dayNumber),
     };
   }
   console.log(`Day ${dayNumber} not found`);
   return {
     dayNumber: 1,
-    answer: metadata[1].name,
+    answer: answers[1],
     isMonument: false,
   };
 };
 
-export const isMonument = (dayNumber: number): boolean => {
-  return (metadata as any)?.[dayNumber]?.isMonument || false;
-};
+export const isMonument = (dayNumber: number): boolean =>
+  monuments.includes(dayNumber);
