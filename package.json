@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "run-p type-check build-only",
     "deploy": "./scripts/deploy.sh",
-    "convert:jpg": "./scripts/convert-jpg.sh",
+    "convert": "./scripts/convert.sh",
     "convert:webp": "./scripts/convert-webp.sh",
     "check": "node ./scripts/suggestions-checker.js",
     "scrape": "node ./scripts/scrapper.js",
