@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const metadata = require("../src/assets/metadata.json");
+const answers = require("../src/assets/answers.json");
 const suggestions = require("../src/assets/suggestions.json");
 
 const suggestionTitles = suggestions.map((str) => ({
@@ -7,16 +7,11 @@ const suggestionTitles = suggestions.map((str) => ({
   normalized: str.split("/")[0].trim().toLowerCase(),
 }));
 
-for (const key in metadata) {
-  if (!suggestions.includes(metadata[key].name)) {
-    console.log(
-      `${key} : "${metadata[key].name}" is missing from suggestions.json!`
-    );
+for (const key in answers) {
+  if (!suggestions.includes(answers[key])) {
+    console.log(`${key} : "${answers[key]}" is missing from suggestions.json!`);
 
-    const normalizedToFind = metadata[key].name
-      .split("/")[0]
-      .trim()
-      .toLowerCase();
+    const normalizedToFind = answers[key].split("/")[0].trim().toLowerCase();
     const search = suggestionTitles.find(
       ({ normalized }) =>
         normalized.includes(normalizedToFind) ||
