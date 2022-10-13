@@ -21,14 +21,23 @@ watch(
     pictureShown.value = props.maxPictures;
   }
 );
+
+const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 </script>
 
 <template>
   <img
     :alt="`Picture ${pictureShown}`"
     class="picture"
-    :src="`${dayNumber}/${pictureShown}.jpg`"
-    loading="lazy"
+    :src="imgSrc(pictureShown)"
+    rel="preload"
+  />
+  <link
+    v-if="pictureShown < 6"
+    rel="preload"
+    as="image"
+    type="image/jpeg"
+    :href="imgSrc(pictureShown + 1)"
   />
 
   <PicturePaginator
