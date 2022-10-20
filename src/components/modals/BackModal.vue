@@ -26,6 +26,13 @@ const showThumbnail = ref(getSettings().showThumbnail || false);
 const toggleShowThumbnail = (value: boolean) => {
   showThumbnail.value = value;
   setSetting("showThumbnail", value);
+  try {
+    //eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    // eslint-disable-next-line no-undef
+    cabin.event(`Thumbnails: ${value ? "on" : "off"}`);
+    // eslint-disable-next-line no-empty
+  } catch {}
 };
 
 const emit = defineEmits(["update:isVisible"]);
@@ -145,6 +152,18 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
   position: absolute;
   top: 0;
   left: 0;
+}
+
+@media screen and (max-width: 62rem) {
+  .image-cell {
+    width: 135px;
+    height: 135px;
+  }
+
+  .thumbnail {
+    width: 135px;
+    height: 135px;
+  }
 }
 
 .thumbnail-overlay {

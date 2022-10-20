@@ -4,7 +4,7 @@ const fetchObject = (name: string) =>
 export const getStats = () => fetchObject("stats");
 export const getSettings = () => fetchObject("settings");
 
-export const setSetting = (name: string, value: any) =>
+export const setSetting = (name: string, value: boolean) =>
   localStorage.setItem(
     "settings",
     JSON.stringify({
