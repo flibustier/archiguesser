@@ -6,6 +6,7 @@ import PictureDisplay from "./components/picture-display/PictureDisplay.vue";
 import EndDisplay from "./components/EndDisplay.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
 
+import { getStats } from "./store";
 import { getDayInformation, getRealDayNumber } from "./DailySelector";
 
 const urlParameters = new URLSearchParams(window.location.search);
@@ -27,7 +28,7 @@ const { dayNumber, answer, isMonument } = reactive(
 );
 
 const guesses: string[] = reactive([]);
-const stats = JSON.parse(localStorage.getItem("stats") || "{}");
+const stats = getStats();
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
