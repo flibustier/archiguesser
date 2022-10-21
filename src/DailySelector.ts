@@ -3,6 +3,7 @@ import monuments from "./assets/monuments.json";
 
 const DDAY = 182;
 
+// 1 to 365/366
 const getDayOfYear = (date = new Date()): number => {
   const timestamp1 = Date.UTC(
     date.getFullYear(),
@@ -16,7 +17,9 @@ const getDayOfYear = (date = new Date()): number => {
   return differenceInDays;
 };
 
-export const getRealDayNumber = (): number => getDayOfYear() - DDAY;
+// fixme: 2024 is a leap year, 2024-12-31 will collide with 2025-01-01
+export const getRealDayNumber = (): number =>
+  (getDayOfYear() + 365 - DDAY) % 365;
 
 export const getDayInformation = (
   day?: string | null
@@ -32,7 +35,7 @@ export const getDayInformation = (
   }
 
   if (dayNumber in answers) {
-    const answer = (answers as any)[dayNumber];
+    const answer = answers[dayNumber as unknown as keyof typeof answers];
 
     return {
       dayNumber,
