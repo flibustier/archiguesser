@@ -30,11 +30,10 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
     :alt="`Picture ${pictureShown}`"
     class="picture"
     :src="imgSrc(pictureShown)"
-    rel="preload"
   />
   <link
     v-if="pictureShown < 6"
-    rel="preload"
+    rel="prefetch"
     as="image"
     type="image/jpeg"
     :href="imgSrc(pictureShown + 1)"
