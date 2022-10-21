@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
+
+import { sendEvent } from "@/analytics";
 import { getNumberOfDayPlayed } from "@/store";
 import { URL, APP_NAME } from "../config.json";
 
@@ -63,14 +65,7 @@ const copy = async () => {
     setTimeout(() => {
       shareBtnContent.value = "SHARE";
     }, 1000);
-    try {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      // eslint-disable-next-line no-undef
-      cabin.event("Shared");
-    } catch (e) {
-      console.log(e);
-    }
+    sendEvent("Shared");
   }
 };
 </script>

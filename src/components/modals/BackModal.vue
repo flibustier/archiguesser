@@ -6,6 +6,7 @@ import IconBack from "../icons/IconBack.vue";
 import IconCheck from "../icons/IconCheck.vue";
 import ToggleSwitch from "../basic/ToggleSwitch.vue";
 
+import { sendEvent } from "@/analytics";
 import { getStats, getSettings, setSetting } from "@/store";
 import { getRealDayNumber, isMonument } from "@/DailySelector";
 
@@ -26,13 +27,7 @@ const showThumbnail = ref(getSettings().showThumbnail || false);
 const toggleShowThumbnail = (value: boolean) => {
   showThumbnail.value = value;
   setSetting("showThumbnail", value);
-  try {
-    //eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    // eslint-disable-next-line no-undef
-    cabin.event(`Thumbnails: ${value ? "on" : "off"}`);
-    // eslint-disable-next-line no-empty
-  } catch {}
+  sendEvent(`Thumbnails: ${value ? "on" : "off"}`);
 };
 
 const emit = defineEmits(["update:isVisible"]);

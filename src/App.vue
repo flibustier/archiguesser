@@ -1,21 +1,21 @@
 <script setup lang="ts">
 import { reactive, computed } from "vue";
+
+import { getStats } from "./store";
+import { sendEvent } from "./analytics";
+import { getDayInformation, getRealDayNumber } from "./DailySelector";
+
 import GuessingForm from "./components/guessing/GuessingForm.vue";
 import GuessingHistory from "./components/guessing/GuessingHistory.vue";
 import PictureDisplay from "./components/picture-display/PictureDisplay.vue";
 import EndDisplay from "./components/EndDisplay.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
 
-import { getStats } from "./store";
-import { getDayInformation, getRealDayNumber } from "./DailySelector";
-
 const urlParameters = new URLSearchParams(window.location.search);
 const requestedDay = urlParameters.get("day");
 
+// disable days in future when it’s production
 if (
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
-  // eslint-disable-next-line no-undef
   process.env.NODE_ENV === "production" &&
   requestedDay &&
   parseInt(requestedDay) > getRealDayNumber()
@@ -51,14 +51,7 @@ const updateStats = (score: number) => {
   stats.lastPlayed = dayNumber;
   localStorage.setItem("stats", JSON.stringify(stats));
 
-  try {
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    // eslint-disable-next-line no-undef
-    cabin.event(`Result ${dayNumber} : ${score}`);
-  } catch (e) {
-    console.log(e);
-  }
+  sendEvent(`Result ${dayNumber} : ${score}`);
 };
 
 const onSubmittedGuess = (guess: string) => {
