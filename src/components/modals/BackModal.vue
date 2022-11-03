@@ -82,7 +82,7 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
               :class="['day', 'image-cell', stats[i] ? 'done' : 'clickable']"
               v-else
             >
-              <img class="thumbnail" :src="`${i}/thumb.jpg`" :alt="`#${i}`" />
+              <img class="thumbnail" :src="`${i}/0.jpg`" :alt="`#${i}`" />
               <div v-if="stats[i]" class="thumbnail-overlay">
                 <span style="margin-right: 0.5rem">#{{ i }}</span>
                 <div class="icon icon-check"><IconCheck /></div>
