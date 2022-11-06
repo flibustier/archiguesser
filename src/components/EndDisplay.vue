@@ -2,13 +2,10 @@
 import { computed, ref } from "vue";
 
 import { sendEvent } from "@/analytics";
-import { getNumberOfDayPlayed } from "@/store";
 import { URL, APP_NAME } from "../config.json";
 
 const showGuesses = ref(false);
 const shareBtnContent = ref("SHARE");
-
-const regularPlayer = getNumberOfDayPlayed() > 5;
 
 const toggleGuesses = () => {
   showGuesses.value = !showGuesses.value;
@@ -30,6 +27,10 @@ const props = defineProps({
   answer: {
     type: String,
     required: true,
+  },
+  percent: {
+    type: Number,
+    required: false,
   },
 });
 
@@ -80,6 +81,11 @@ const copy = async () => {
     <button class="share-btn" @click="copy">
       {{ shareBtnContent }}
     </button>
+    <div v-if="percent && percent < 50" class="emphasis">
+      🥇 Only {{ percent }}% found this in {{ guesses.length }} tries or less!
+      Well done! 👏
+    </div>
+    <div>Next challenge <b class="emphasis">tomorrow</b>! 🕛</div>
     <div class="guesses-display">
       <button class="show-guesses-btn" @click="toggleGuesses">
         {{ showGuesses ? "Hide" : "Show" }} Guesses
@@ -90,17 +96,9 @@ const copy = async () => {
         </div>
       </div>
     </div>
-    <div>Next challenge at <b class="emphasis">midnight</b>! 🕛</div>
     <p class="sponsor">
       ❤️ {{ APP_NAME }}?
-      <a
-        v-if="hasWon && regularPlayer"
-        href="https://ko-fi.com/flibustier"
-        target="_blank"
-        rel="noreferrer"
-        >Buy me a coffee!</a
-      >
-      <a v-else href="https://www.instagram.com/archiguesser/" target="_blank"
+      <a href="https://www.instagram.com/archiguesser/" target="_blank"
         >Follow me on Instagram!</a
       >
     </p>

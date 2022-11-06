@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { reactive, computed } from "vue";
+import { reactive, computed, ref } from "vue";
 
 import { getStats } from "./store";
-import { sendEvent } from "./analytics";
+import { sendEvent, sendResult } from "./analytics";
 import { getDayInformation, getRealDayNumber } from "./DailySelector";
 
 import GuessingForm from "./components/guessing/GuessingForm.vue";
@@ -29,6 +29,7 @@ const { dayNumber, answer, isMonument } = reactive(
 
 const guesses: string[] = reactive([]);
 const stats = getStats();
+const percent = ref();
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
@@ -57,16 +58,13 @@ const updateStats = (score: number) => {
 const onSubmittedGuess = (guess: string) => {
   guesses.push(guess);
   localStorage.setItem("guesses", JSON.stringify(guesses));
-  if (guess === answer) {
-    updateStats(currentRound.value - 1);
-
-    return;
-  }
 
   if (isGameEnded.value) {
-    updateStats(0);
-
-    return;
+    const score = hasWon.value ? currentRound.value - 1 : 0;
+    updateStats(score);
+    sendResult(dayNumber, score, guesses, stats).then(
+      (x) => (percent.value = x)
+    );
   }
 };
 </script>
@@ -97,6 +95,7 @@ const onSubmittedGuess = (guess: string) => {
       :has-won="hasWon"
       :day-number="dayNumber"
       :answer="answer"
+      :percent="percent"
     />
   </main>
 </template>
