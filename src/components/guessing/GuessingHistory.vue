@@ -14,10 +14,12 @@ const props = defineProps({
   },
 });
 
-const answerWords = props.answer.split(/\/|,|\s/);
+const answerWords = props.answer
+  .split(/\/|,|\s/)
+  .map((word) => word.toLowerCase());
 
 const patchMatches = (word: string): string =>
-  answerWords.includes(word) ? `<b>${word}</b>` : word;
+  answerWords.includes(word.toLowerCase()) ? `<b>${word}</b>` : word;
 
 const highlight = (guess: string) =>
   guess
