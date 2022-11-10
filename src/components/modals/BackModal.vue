@@ -35,6 +35,7 @@ const closeModal = () => emit("update:isVisible", false);
 
 const stats = computed(getStats);
 
+const isDayPlayed = (day: number) => day in stats.value;
 const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
 </script>
 
@@ -68,22 +69,32 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
           </div>
           <div v-for="i in days" :key="i" @click="goToDay(i)">
             <div
-              :class="['day', 'text-cell', stats[i] ? 'done' : 'clickable']"
+              :class="[
+                'day',
+                'text-cell',
+                isDayPlayed(i) ? 'done' : 'clickable',
+              ]"
               v-if="!showThumbnail"
             >
               <div>
                 <span>#{{ i }}</span>
                 <span v-if="isMonument(i)"> 🏛</span>
               </div>
-              <div v-if="stats[i]" class="icon icon-check"><IconCheck /></div>
+              <div v-if="isDayPlayed(i)" class="icon icon-check">
+                <IconCheck />
+              </div>
               <div v-else class="icon icon-replay"><IconBack /></div>
             </div>
             <div
-              :class="['day', 'image-cell', stats[i] ? 'done' : 'clickable']"
+              :class="[
+                'day',
+                'image-cell',
+                isDayPlayed(i) ? 'done' : 'clickable',
+              ]"
               v-else
             >
               <img class="thumbnail" :src="`${i}/0.jpg`" :alt="`#${i}`" />
-              <div v-if="stats[i]" class="thumbnail-overlay">
+              <div v-if="isDayPlayed(i)" class="thumbnail-overlay">
                 <span style="margin-right: 0.5rem">#{{ i }}</span>
                 <div class="icon icon-check"><IconCheck /></div>
               </div>
