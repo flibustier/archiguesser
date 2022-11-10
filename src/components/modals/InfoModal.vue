@@ -69,11 +69,22 @@ const closeModal = () => {
     </template>
 
     <template #footer>
-      <p>
-        Got a suggestion or want to contribute ? Contact me via
-        <a href="mailto:contact@archiguesser.com">email</a> or
-        <a href="https://www.instagram.com/archiguesser/">Instagram</a>
-      </p>
+      <div>
+        <p>
+          Got a suggestion or want to contribute ? Contact me via
+          <a href="https://www.instagram.com/archiguesser/">Instagram</a> or
+          <a href="mailto:contact@archiguesser.com">email</a>
+        </p>
+        <p>
+          Want to support me ?
+          <a
+            href="https://ko-fi.com/flibustier"
+            target="_blank"
+            rel="noreferrer"
+            >Buy me a coffee! ☕️</a
+          >
+        </p>
+      </div>
     </template>
   </BaseModal>
 </template>
