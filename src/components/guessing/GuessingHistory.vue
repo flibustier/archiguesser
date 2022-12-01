@@ -35,7 +35,7 @@ const highlight = (guess: string) =>
 
 <template>
   <div class="guesses">
-    <div class="guess" v-for="guess of guesses" :key="guess">
+    <div class="guess" v-for="guess of guesses.slice().reverse()" :key="guess">
       <span class="guess-failed">❌</span
       ><span v-html="highlight(guess)"></span>
     </div>
