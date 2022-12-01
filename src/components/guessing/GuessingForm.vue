@@ -18,20 +18,10 @@ const resetSearchTerms = () => {
   searchTerms.value = "";
 };
 
-let deletePressCounter = 0;
-const fastDelete = () => {
-  if (++deletePressCounter > 6) {
-    resetSearchTerms();
-  }
-};
-
 const guessInput = (event: Event) => {
   searchTerms.value = (event.target as HTMLInputElement).value;
   hasSelectedSuggestion.value = false;
   preselected.value = null;
-  if ((event as InputEvent).inputType !== "deleteContentBackward") {
-    deletePressCounter = 0;
-  }
 };
 
 const validateGuess = (result: string) => {
@@ -108,7 +98,6 @@ const navigate = (direction: "up" | "down") => {
           @keyup.enter="submitGuess"
           @keyup.up="navigate('up')"
           @keyup.down="navigate('down')"
-          @keydown.delete="fastDelete"
         />
         <span class="icon-times" v-if="searchTerms" @click="resetSearchTerms">
           <IconBackspace />
