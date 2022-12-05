@@ -770,8 +770,18 @@
     "5": "Doris Correia (wikimedia)",
     "6": "Catarina G. Ferreira"
   },
-
-  "basil": {
+  "157": {
+    "*": "wikimedia",
+    "3": "J. McNeven (wikimedia)",
+    "5": "Dickinson Brothers (wikimedia)",
+    "6": "Philip Henry Delamotte (wikimedia)"
+  },
+  "158": {
+    "*": "Library of Congress (wikimedia)",
+    "5": "Nelson Minar (flickr)",
+    "6": "Erik Charlton (wikimedia)"
+  },
+  "159": {
     "1": "Alessio Damato (wikimedia)",
     "2": "Concierge.2C (wikimedia)",
     "3": "NVO (wikimedia)",
@@ -779,6 +789,7 @@
     "5": "AirPano",
     "6": "Tsy1980 (wikimedia)"
   },
+  
   "p": {
     "*": "wikiarquitectura"
   }
