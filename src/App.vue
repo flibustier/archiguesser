@@ -23,9 +23,7 @@ if (
   window.location.href = "/";
 }
 
-const { dayNumber, answer, isMonument } = reactive(
-  getDayInformation(requestedDay)
-);
+const { dayNumber, answer } = reactive(getDayInformation(requestedDay));
 
 const guesses: string[] = reactive([]);
 const stats = getStats();
@@ -80,13 +78,6 @@ const onSubmittedGuess = (guess: string) => {
     <div v-if="!isGameEnded">
       <GuessingForm @submitted-guess="onSubmittedGuess" />
       <GuessingHistory :guesses="guesses" :answer="answer" />
-      <div
-        v-if="isMonument"
-        class="monument-hint"
-        title="Today is an historic monument!"
-      >
-        🏛
-      </div>
     </div>
 
     <EndDisplay
