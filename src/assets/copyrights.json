@@ -89,7 +89,7 @@
     "*": "wikiarquitectura"
   },
   "20": {
-    "*": "Snøhetta"
+    "*": "Courtesy of the Architect"
   },
   "21": {
     "1": "Bernard Gagnon",
@@ -113,16 +113,16 @@
     "5": "Helene Binet"
   },
   "25": {
-    "*": "Foster+Partners",
+    "*": "Courtesy of the Architect",
     "1": "wikiarquitectura",
     "2": "wikiarquitectura",
     "4": "wikiarquitectura"
   },
   "26": {
-    "*": "Ateliers Jean Nouvel"
+    "*": "Courtesy of the Architect"
   },
   "27": {
-    "*": "Expiatory Temple of the Sagrada Família",
+    "*": "Courtesy of the Monument",
     "2": "Famke Veenstra"
   },
   "28": {
@@ -202,7 +202,7 @@
     "*": "wikiarquitectura"
   },
   "42": {
-    "*": "Ateliers Jean Nouvel"
+    "*": "Courtesy of the Architect"
   },
   "43": {
     "1": "Ken Russell Salvador",
@@ -225,7 +225,7 @@
     "6": "Masaru Tezuka"
   },
   "47": {
-    "*": "Ricardo Bofill"
+    "*": "Courtesy of the Architect"
   },
   "48": {
     "*": "wikiarquitectura",
@@ -290,7 +290,7 @@
     "6": "Fourrure"
   },
   "59": {
-    "*": "Courtesy of Snohetta"
+    "*": "Courtesy of the Architect"
   },
   "60": {
     "*": ""
@@ -316,13 +316,13 @@
     "*": "wikiarquitectura"
   },
   "65": {
-    "name": "Cenotaph for Newton / Etienne-Louis Boullée"
+    "*": "Courtesy of the Architect"
   },
   "66": {
     "*": "Hiroyuki Hirai"
   },
   "67": {
-    "1": "Dominique Perrault Architecture",
+    "1": "Courtesy of the Architect",
     "2": "Davide Galli",
     "3": "Davide Galli",
     "4": "Yuri Palmin",
@@ -345,7 +345,7 @@
     "4": "Cristobal Palma / Estudio Palma"
   },
   "72": {
-    "*": "Foster+Partners"
+    "*": "Courtesy of the Architect"
   },
   "73": {
     "1": "Samuel Ludwig",
@@ -356,7 +356,7 @@
     "6": "Samuel Ludwig"
   },
   "74": {
-    "*": "EAMES FOUNDATION"
+    "*": "Courtesy of the Foundation"
   },
   "75": {
     "2": "Stéphanie Le Lay",
@@ -411,7 +411,7 @@
     "6": "Oren Rozen"
   },
   "86": {
-    "*": "Ricardo Bofill"
+    "*": "Courtesy of the Architect"
   },
   "87": {
     "*": "Timothy Hursley",
@@ -458,13 +458,13 @@
     "6": "Jebulon"
   },
   "96": {
-    "*": "Snøhetta"
+    "*": "Courtesy of the Architect"
   },
   "97": {
     "*": "Fernando Guerra | FG+SG"
   },
   "98": {
-    "1": "The Metropolitan Museum of Art",
+    "1": "Courtesy of the Museum",
     "2": "Ezra Stoller",
     "3": "Ezra Stoller",
     "4": "Ottavia Sigrist, Lukas Fink, Theresa Behling, Runa Barbagelata",
@@ -473,12 +473,12 @@
   },
   "99": {
     "*": "Hans Werlemann",
-    "1": "OMA",
-    "4": "OMA"
+    "1": "Courtesy of the Architect",
+    "4": "Courtesy of the Architect"
   },
   "100": {
     "1": "",
-    "2": "BNF",
+    "2": "Courtesy of the library",
     "3": "",
     "4": "AlfvanBeem (wikipedia)",
     "5": "Jebulon (wikipedia)",
@@ -492,7 +492,7 @@
     "*": "Thibaut Dini"
   },
   "103": {
-    "*": "Foster+Partners"
+    "*": "Courtesy of the Architect"
   },
   "104": {
     "*": "Denis Esakov",
@@ -616,7 +616,7 @@
     "6": "Bernard Gagnon (wikimedia)"
   },
   "129": {
-    "*": "Renzo Piano Bulding Workshop",
+    "*": "Courtesy of the Architect",
     "4": "Sergio Grazia"
   },
   "130": {
@@ -709,7 +709,7 @@
     "1": "",
     "2": "Tokujin yoshioka inc (wikimedia)",
     "3": "",
-    "4": "Musée d'Orsay",
+    "4": "Courtesy of the Museum",
     "5": "Benh (wikimedia)",
     "6": "Daniel Vorndran / DXR (wikimedia)"
   },

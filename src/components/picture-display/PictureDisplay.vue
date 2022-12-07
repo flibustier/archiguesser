@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref, watch } from "vue";
+import { ref, watch, computed } from "vue";
 import PicturePaginator from "./PicturePaginator.vue";
+import copyrights from "../../assets/copyrights.json";
 
 const pictureShown = ref(1);
 
@@ -22,6 +23,16 @@ watch(
   }
 );
 
+const pictureCopyright = computed(() => {
+  if (props.dayNumber in copyrights) {
+    const dayCopyrights = (copyrights as any)[props.dayNumber];
+
+    return dayCopyrights[pictureShown.value] || dayCopyrights["*"] || "";
+  }
+
+  return "";
+});
+
 const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 </script>
 
@@ -38,6 +49,9 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
     type="image/jpeg"
     :href="imgSrc(pictureShown + 1)"
   />
+  <div class="credit">
+    <span v-if="pictureCopyright">📷</span>&nbsp;{{ pictureCopyright }}
+  </div>
 
   <PicturePaginator
     :current-round="maxPictures"
@@ -46,6 +60,12 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 </template>
 
 <style scoped>
+.credit {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
 .picture {
   display: block;
   margin: 0 auto 1rem;
