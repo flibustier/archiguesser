@@ -34,6 +34,11 @@ export const getDayInformation = (
     dayNumber = parseInt(day);
   }
 
+  if (!(dayNumber in answers)) {
+    // fallback on last day when the day is not available yet
+    dayNumber = parseInt(Object.keys(answers).pop() || "1");
+  }
+
   if (dayNumber in answers) {
     const answer = answers[dayNumber as unknown as keyof typeof answers];
 
@@ -43,6 +48,7 @@ export const getDayInformation = (
       isMonument: isMonument(dayNumber),
     };
   }
+  // shouldn’t be possible
   console.log(`Day ${dayNumber} not found`);
   return {
     dayNumber: 1,
