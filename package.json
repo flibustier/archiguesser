@@ -7,7 +7,6 @@
     "build": "run-p type-check build-only",
     "deploy": "./scripts/deploy.sh",
     "convert": "./scripts/convert.sh",
-    "convert:webp": "./scripts/convert-webp.sh",
     "check": "node ./scripts/suggestions-checker.js",
     "scrape": "node ./scripts/scrapper.js",
     "stats": "node ./scripts/extract-stats.js",
