@@ -12,6 +12,7 @@ import { getRealDayNumber, isMonument } from "@/DailySelector";
 const realCurrentDay = getRealDayNumber();
 // range of 60 numbers starting at real current day
 const days = [...Array(realCurrentDay).keys()]
+  .filter((day) => day != 198)
   .slice(realCurrentDay - 59)
   .reverse();
 
