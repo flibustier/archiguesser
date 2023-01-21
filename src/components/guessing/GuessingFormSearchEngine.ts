@@ -12,6 +12,8 @@ const normalize = (str: string): string =>
     .toLowerCase()
     .normalize("NFD")
     .replace(/\p{Diacritic}/gu, "")
+    .replace("ø", "o")
+    .replace("-", " ")
     .replace(/\(|\)|\]|\[/g, "");
 
 const splitWords = (str: string): string[] =>
