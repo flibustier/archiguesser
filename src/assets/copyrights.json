@@ -1066,5 +1066,21 @@
     "3": "Hélène Binet",
     "4": "Hélène Binet",
     "*": "Werner Huthmacher"
+  },
+  "207": {
+    "1": "Daan Noske / Anefo (wikimedia)",
+    "2": "Harald Hoyer (wikimedia)",
+    "3": "Courtesy of the Architect",
+    "4": "Joop van Bilsen / Anefo (wikimedia)",
+    "5": "Trougnouf (Benoit Brummer) (wikimedia)",
+    "6": "Marek Śliwecki (wikimedia)"
+  },
+
+  "brighton": {
+    "*": "Courtesy of the Owner",
+    "1": "Bryan Ledgard (wikimedia)",
+    "3": "Mymuk (wikimedia)",
+    "5": "Qmin (wikimedia)",
+    "6": "Fenliokao (wikimedia)"
   }
 }
