@@ -48,13 +48,14 @@ const closeModal = () => {
       <div class="text-with-icon">
         <IconEye />
         <p>
-          If you get a guess wrong a new image from the project is revealed.
+          If you get a guess wrong a new image from the project is revealed.<br />
+          A hint is given after 3 tries.
         </p>
       </div>
       <div class="text-with-icon">
         <IconList />
         <p>
-          You have a maximum of 6 guesses (which means 6 pictures) to find the
+          You have a maximum of 6 tries (which means 6 pictures) to find the
           project of the day.
         </p>
       </div>
