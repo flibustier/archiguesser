@@ -1,8 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
 
-const guessesRemaining = computed(() => 6 - props.guesses.length);
-
 const props = defineProps({
   guesses: {
     type: Array<string>,
@@ -14,32 +12,41 @@ const props = defineProps({
   },
 });
 
-const answerWords = props.answer
-  .split(/\/|,|\s/)
-  .map((word) => word.toLowerCase());
+const guessesReverseOrder = computed(() => props.guesses.slice().reverse());
 
-const patchMatches = (word: string): string =>
-  answerWords.includes(word.toLowerCase()) ? `<b>${word}</b>` : word;
+const guessesRemaining = computed(() => 6 - props.guesses.length);
+const isLastGuessRemaining = computed(() => guessesRemaining.value === 1);
+
+const places = computed(() => (props.answer.split("/").pop() || "").split(","));
+const country = computed(() => places.value[places.value.length - 1]);
+const city = computed(() => places.value[places.value.length - 2]);
+
+const answerWords = computed(() =>
+  props.answer.split(/\/|,|-|\s/).filter(Boolean)
+);
 
 const highlight = (guess: string) =>
-  guess
-    .split("/")
-    .map((part) =>
-      part
-        .split(" ")
-        .map((words) => words.split(",").map(patchMatches).join(","))
-        .join(" ")
-    )
-    .join("/");
+  guess.replace(
+    new RegExp("(" + answerWords.value.join("|") + ")", "gi"),
+    "<b>$1</b>"
+  );
 </script>
 
 <template>
   <div class="guesses">
-    <div class="guess" v-for="guess of guesses.slice().reverse()" :key="guess">
-      <span class="guess-failed">❌</span
-      ><span v-html="highlight(guess)"></span>
+    <div class="guess" v-if="guessesRemaining <= 3 && country">
+      <span class="guess-icon">ℹ️</span>
+      <span>
+        Hint: The location is <b>{{ country }}</b>
+      </span>
+      <span v-if="isLastGuessRemaining && city">
+        , <b>{{ city }}</b>
+      </span>
     </div>
-    <div class="remaining" v-if="guessesRemaining === 1">
+    <div class="guess" v-for="guess of guessesReverseOrder" :key="guess">
+      <span class="guess-icon">❌</span><span v-html="highlight(guess)"></span>
+    </div>
+    <div class="remaining" v-if="isLastGuessRemaining">
       Last guess remaining!
     </div>
     <div class="remaining" v-else>{{ guessesRemaining }} guesses remaining</div>
@@ -63,7 +70,7 @@ const highlight = (guess: string) =>
   min-height: 2rem;
 }
 
-.guess-failed {
+.guess-icon {
   margin-right: 0.5rem;
 }
 
