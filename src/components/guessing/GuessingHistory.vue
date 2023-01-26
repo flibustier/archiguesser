@@ -82,6 +82,6 @@ const highlight = (guess: string) =>
 }
 
 :deep(b) {
-  background-color: #e0eae0;
+  background-color: var(--color-highlight);
 }
 </style>
