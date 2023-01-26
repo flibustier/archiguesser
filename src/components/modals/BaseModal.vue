@@ -20,8 +20,8 @@ const closeModal = () => {
 </script>
 
 <template>
-  <div class="modal" v-if="isVisible">
-    <div class="modal-content">
+  <div class="modal" v-if="isVisible" @click="closeModal">
+    <div class="modal-content" @click.stop="">
       <div class="modal-header">
         <h2>{{ title }}</h2>
         <div class="close" @click="closeModal">
@@ -53,7 +53,7 @@ const closeModal = () => {
 
 .modal-content {
   background-color: var(--color-background);
-  margin: 7% auto; /* 15% from the top and centered */
+  margin: auto;
   padding: 1.5rem;
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
@@ -85,7 +85,7 @@ const closeModal = () => {
 }
 
 .modal-footer {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1rem;
   display: flex;
   justify-content: space-between;
