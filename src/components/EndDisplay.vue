@@ -3,11 +3,13 @@ import { computed, ref } from "vue";
 
 import { sendEvent } from "@/analytics";
 import { URL, APP_NAME } from "../config.json";
+import IconBack from "./icons/IconBack.vue";
 
 const showGuesses = ref(false);
 const shareBtnContent = ref("SHARE");
 
 const toggleGuesses = () => {
+  sendEvent("Show Guesses");
   showGuesses.value = !showGuesses.value;
 };
 
@@ -78,9 +80,16 @@ const copy = async () => {
       The answer was: <span class="answer">{{ answer }}</span>
     </h2>
     <pre id="share-message" v-html="shareMessage"></pre>
-    <button class="share-btn" @click="copy">
-      {{ shareBtnContent }}
-    </button>
+    <div class="buttons">
+      <button class="share-btn" @click="copy">
+        {{ shareBtnContent }}
+      </button>
+      <div class="separator"></div>
+      <button class="replay-btn" @click="$emit('showBackModal')">
+        <span>Try another one!</span>
+        <IconBack />
+      </button>
+    </div>
     <div v-if="percent && percent < 50" class="emphasis">
       🥇 Only {{ percent }}% found this in {{ guesses.length }} tries or less!
       Well done! 👏
@@ -145,15 +154,37 @@ h2 {
   font-weight: 500;
 }
 
-.share-btn {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
 
+.separator {
+  background-color: var(--color-border);
+  width: 1px;
+}
+
+button {
+  border-radius: var(--border-radius);
   padding: 0.25rem 0.75rem;
+}
+
+.share-btn {
+  font-size: 1.1rem;
 
   color: var(--color-primary-inverted);
   background-color: var(--color-primary);
-  border-radius: var(--border-radius);
+}
+
+.replay-btn {
+  border: 1px solid;
+  background-color: var(--background-color);
+}
+
+.replay-btn svg {
+  margin-left: 0.25rem;
+  vertical-align: text-bottom;
 }
 
 .guesses-display {

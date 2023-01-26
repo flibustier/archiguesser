@@ -1,14 +1,6 @@
 <script setup lang="ts">
 import IconBack from "./icons/IconBack.vue";
 import IconHelp from "./icons/IconHelp.vue";
-
-import InfoModal from "./modals/InfoModal.vue";
-import BackModal from "./modals/BackModal.vue";
-
-import { ref } from "vue";
-
-const showBackModal = ref(false);
-const showInfoModal = ref(false);
 </script>
 
 <template>
@@ -18,17 +10,15 @@ const showInfoModal = ref(false);
         <a href="/" id="brand">ARCHIGUESSER</a>
       </div>
       <div class="nav-block nav-right">
-        <a @click="showBackModal = true">
+        <a @click="$emit('showBackModal')">
           <IconBack />
         </a>
-        <a @click="showInfoModal = true">
+        <a @click="$emit('showInfoModal')">
           <IconHelp />
         </a>
       </div>
     </div>
   </header>
-  <BackModal v-model:is-visible="showBackModal" />
-  <InfoModal v-model:is-visible="showInfoModal" />
 </template>
 
 <style scoped>

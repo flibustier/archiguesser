@@ -5,10 +5,12 @@ import { getStats } from "./store";
 import { sendEvent, sendResult } from "./analytics";
 import { getDayInformation, getRealDayNumber } from "./DailySelector";
 
-import GuessingForm from "./components/guessing/GuessingForm.vue";
-import GuessingHistory from "./components/guessing/GuessingHistory.vue";
-import PictureDisplay from "./components/picture-display/PictureDisplay.vue";
+import InfoModal from "./components/modals/InfoModal.vue";
+import BackModal from "./components/modals/BackModal.vue";
 import EndDisplay from "./components/EndDisplay.vue";
+import GuessingForm from "./components/guessing/GuessingForm.vue";
+import PictureDisplay from "./components/picture-display/PictureDisplay.vue";
+import GuessingHistory from "./components/guessing/GuessingHistory.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
 
 const urlParameters = new URLSearchParams(window.location.search);
@@ -23,11 +25,12 @@ if (
   window.location.href = "/";
 }
 
-const { dayNumber, answer } = reactive(getDayInformation(requestedDay));
-
-const guesses: string[] = reactive([]);
 const stats = getStats();
 const percent = ref();
+const showBackModal = ref(false);
+const showInfoModal = ref(false);
+const guesses: string[] = reactive([]);
+const { dayNumber, answer } = reactive(getDayInformation(requestedDay));
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
@@ -68,7 +71,12 @@ const onSubmittedGuess = (guess: string) => {
 </script>
 
 <template>
-  <HeaderNavigator />
+  <BackModal v-model:is-visible="showBackModal" />
+  <InfoModal v-model:is-visible="showInfoModal" />
+  <HeaderNavigator
+    @showBackModal="showBackModal = true"
+    @showInfoModal="showInfoModal = true"
+  />
   <main>
     <PictureDisplay
       :max-pictures="isGameEnded ? 6 : Math.min(currentRound, 6)"
@@ -87,6 +95,7 @@ const onSubmittedGuess = (guess: string) => {
       :day-number="dayNumber"
       :answer="answer"
       :percent="percent"
+      @showBackModal="showBackModal = true"
     />
   </main>
 </template>
@@ -98,9 +107,5 @@ main {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 1rem;
-}
-
-.monument-hint {
-  text-align: center;
 }
 </style>
