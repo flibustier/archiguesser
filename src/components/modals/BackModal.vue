@@ -47,7 +47,8 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
     <template #default>
       <div>
         <div class="header">
-          <p>🏛: Historic Monuments</p>
+          <p v-if="!showThumbnail">🏛: Historic Monuments</p>
+          <p v-else></p>
           <ToggleSwitch
             label="Show Thumbnails"
             :model-value="showThumbnail"
