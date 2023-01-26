@@ -46,7 +46,9 @@ const hasWon = computed(
 const isGameEnded = computed(() => currentRound.value === 7 || hasWon.value);
 
 const updateStats = (score: number) => {
-  stats[dayNumber] = score;
+  if (stats[dayNumber] == undefined) {
+    stats[dayNumber] = score;
+  }
   if (!stats.firstPlayed) {
     stats.firstPlayed = dayNumber;
   }
