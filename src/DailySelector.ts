@@ -1,6 +1,7 @@
 import answers from "./assets/answers.json";
 import monuments from "./assets/monuments.json";
 
+// Fixme: add year
 const DDAY = 182;
 
 // 1 to 365/366
@@ -21,6 +22,8 @@ const getDayOfYear = (date = new Date()): number => {
 export const getRealDayNumber = (): number =>
   (getDayOfYear() + 365 - DDAY) % 365;
 
+export const lastDay = () => parseInt(Object.keys(answers).pop() || "1");
+
 export const getDayInformation = (
   day?: string | null
 ): {
@@ -36,7 +39,7 @@ export const getDayInformation = (
 
   if (!(dayNumber in answers)) {
     // fallback on last day when the day is not available yet
-    dayNumber = parseInt(Object.keys(answers).pop() || "1");
+    dayNumber = lastDay();
   }
 
   if (dayNumber in answers) {

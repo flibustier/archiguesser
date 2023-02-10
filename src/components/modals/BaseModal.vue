@@ -85,10 +85,11 @@ const closeModal = () => {
 }
 
 .modal-footer {
+  margin-top: 1rem;
   font-size: 0.8rem;
   line-height: 1rem;
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  align-items: end;
 }
 </style>

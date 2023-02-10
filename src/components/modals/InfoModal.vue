@@ -3,6 +3,7 @@ import IconPictures from "../icons/IconPictures.vue";
 import IconEye from "../icons/IconEye.vue";
 import IconList from "../icons/IconList.vue";
 import BaseModal from "./BaseModal.vue";
+import { lastDay } from "@/DailySelector";
 
 defineProps({
   isVisible: {
@@ -74,16 +75,18 @@ const closeModal = () => {
         <p>
           Got a suggestion or want to contribute ? Contact me via
           <a href="https://www.instagram.com/archiguesser/">Instagram</a> or
-          <a href="mailto:contact@archiguesser.com">email</a>
+          <a href="mailto:contact@archiguesser.com">email</a> !
         </p>
+      </div>
+      <div>
         <p>
-          Want to support me ?
           <a
             href="https://ko-fi.com/flibustier"
             target="_blank"
             rel="noreferrer"
-            >Buy me a coffee! ☕️</a
+            >Buy me a coffee? ☕️</a
           >
+          #{{ lastDay() }}
         </p>
       </div>
     </template>
