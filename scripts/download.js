@@ -4,36 +4,67 @@ const { createWriteStream, existsSync, mkdirSync } = require("fs");
 const { basename, join } = require("path");
 
 const main = async () => {
-  if (process.argv.length < 4) {
-    console.log(`Usage: yarn download [URL] [DESTINATION_DIRECTORY]`);
+  const { url, destinationDirectory } = extractArguments();
 
-    return;
-  }
-
-  const url = process.argv[2];
-  const destinationDirectory = join("sources", process.argv[3]);
-
-  if (!existsSync(destinationDirectory)) {
-    console.log(`ℹ️  ${destinationDirectory} created`);
-    mkdirSync(destinationDirectory);
-  }
+  createDirectoryIfNotExisting(destinationDirectory);
 
   const imageURLs = await extractImageURLs(url);
 
-  console.log(imageURLs);
+  const success = await downloadFileList(imageURLs, destinationDirectory);
 
-  await Promise.all(imageURLs.map(downloadFile(destinationDirectory)));
-
-  console.log(`✅ ${imageURLs.length} images downloaded !`);
+  console.log(`🏆 ${success}/${imageURLs.length} images downloaded !`);
 };
 
-const downloadFile = (directory) => (url) =>
+const extractArguments = () => {
+  if (process.argv.length < 4) {
+    console.log(`Usage: yarn download [URL] [DESTINATION_DIRECTORY]`);
+
+    process.exit(1);
+  }
+
+  return {
+    url: process.argv[2],
+    destinationDirectory: join("sources", process.argv[3]),
+  };
+};
+
+const createDirectoryIfNotExisting = (directory) => {
+  if (!existsSync(directory)) {
+    console.log(`ℹ️  ${directory} created`);
+    mkdirSync(directory);
+  }
+};
+
+const downloadFileList = async (imageURLs, destinationDirectory) => {
+  const download = downloadFile(destinationDirectory);
+
+  const firstPass = await Promise.allSettled(imageURLs.map(download));
+
+  const secondPass = await Promise.allSettled(
+    firstPass.map(({ status }, index) => {
+      if (status === "fulfilled") {
+        return Promise.resolve();
+      }
+
+      const fallbackURL = imageURLs[index].replace("original", "slideshow");
+      console.log(`🥈 Fallback => ${fallbackURL}`);
+
+      return download(fallbackURL, index);
+    })
+  );
+
+  return secondPass.filter(({ status }) => status === "fulfilled").length;
+};
+
+const downloadFile = (directory) => (url, index) =>
   axios({
     method: "get",
     url,
     responseType: "stream",
   }).then((response) =>
-    response.data.pipe(createWriteStream(`./${directory}/${basename(url)}`))
+    response.data.pipe(
+      createWriteStream(`./${directory}/${index}-${basename(url)}`)
+    )
   );
 
 const uniq = (array) => [...new Set(array)];
