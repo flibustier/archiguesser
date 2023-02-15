@@ -63,7 +63,7 @@ const downloadFile = (directory) => (url, index) =>
     responseType: "stream",
   }).then((response) =>
     response.data.pipe(
-      createWriteStream(`./${directory}/${index}-${basename(url)}`)
+      createWriteStream(`./${directory}/x${index}-${basename(url)}`)
     )
   );
 
@@ -75,7 +75,10 @@ const patchWikiArquitecturaURL = (thumbnailURL) =>
 const patchArchDailyImageURL = (thumbnailURL) =>
   thumbnailURL.replace(/newsletter|\w+_jpg/, "original");
 
-const imageRegex = /'(https:[\.\/\w\d_-]+\.jpg)\??[^']*'/g;
+const patchFigureGroundURL = (thumbnailURL) =>
+  thumbnailURL.replace("t.jpg", ".jpg");
+
+const imageRegex = /['"](https?:[\.\/\w\d_-]+\.jpg)\??[^'"]*['"]/g;
 
 const extractImageURLs = async (
   url = "https://en.wikiarquitectura.com/building/cube-houses/"
@@ -87,6 +90,7 @@ const extractImageURLs = async (
       [...html.matchAll(imageRegex)]
         .map(([, extracted]) => patchArchDailyImageURL(extracted))
         .map(patchWikiArquitecturaURL)
+        .map(patchFigureGroundURL)
     );
 
     return imageURLs;
