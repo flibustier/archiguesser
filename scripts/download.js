@@ -69,16 +69,26 @@ const downloadFile = (directory) => (url, index) =>
 
 const uniq = (array) => [...new Set(array)];
 
+const removeUnwantedURLs = (imageURL) =>
+  !imageURL.startsWith("https://assets.adsttc.com");
+
 const patchWikiArquitecturaURL = (thumbnailURL) =>
   thumbnailURL.replace(/-\d+x\d+\.jpg/, ".jpg");
 
 const patchArchDailyImageURL = (thumbnailURL) =>
   thumbnailURL.replace(/newsletter|\w+_jpg/, "original");
 
+const patchArchDailyID = (imageID) =>
+  imageID
+    .replace("figcaption_newsroom-picture-att-id-", "")
+    .match(/.{1,4}/g)
+    .join("/");
+
 const patchFigureGroundURL = (thumbnailURL) =>
   thumbnailURL.replace("t.jpg", ".jpg");
 
 const imageRegex = /['"](https?:[\.\/\w\d_-]+\.jpg)\??[^'"]*['"]/g;
+const captionRegex = /<figcaption .* id=\'(.*)\'>([^<]*)<\/figcaption>/g;
 
 const extractImageURLs = async (
   url = "https://en.wikiarquitectura.com/building/cube-houses/"
@@ -91,7 +101,20 @@ const extractImageURLs = async (
         .map(([, extracted]) => patchArchDailyImageURL(extracted))
         .map(patchWikiArquitecturaURL)
         .map(patchFigureGroundURL)
+        .filter(removeUnwantedURLs)
     );
+
+    const copyrights = [...html.matchAll(captionRegex)].reduce(
+      (others, [, id, copyrights]) => ({
+        ...others,
+        [imageURLs.findIndex((imageURL) =>
+          imageURL.includes(patchArchDailyID(id))
+        )]: copyrights,
+      }),
+      {}
+    );
+
+    console.log(JSON.stringify(copyrights, null, 2));
 
     return imageURLs;
   } catch (e) {
