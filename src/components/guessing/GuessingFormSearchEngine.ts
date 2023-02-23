@@ -14,6 +14,7 @@ const normalize = (str: string): string =>
     .replace(/\p{Diacritic}/gu, "")
     .replace("ø", "o")
     .replace("-", " ")
+    .replace("’", "'")
     .replace(/\(|\)|\]|\[/g, "");
 
 const splitWords = (str: string): string[] =>
