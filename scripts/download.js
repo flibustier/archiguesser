@@ -85,7 +85,7 @@ const patchArchDailyID = (imageID) =>
     .join("/");
 
 const patchFigureGroundURL = (thumbnailURL) =>
-  thumbnailURL.replace("t.jpg", ".jpg");
+  thumbnailURL.replace(/\dt\.jpg/, ".jpg");
 
 const imageRegex = /['"](https?:[\.\/\w\d_-]+\.jpg)\??[^'"]*['"]/g;
 const captionRegex = /<figcaption .* id=\'(.*)\'>([^<]*)<\/figcaption>/g;
