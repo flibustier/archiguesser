@@ -70,7 +70,9 @@ const downloadFile = (directory) => (url, index) =>
 const uniq = (array) => [...new Set(array)];
 
 const removeUnwantedURLs = (imageURL) =>
-  !imageURL.startsWith("https://assets.adsttc.com");
+  !imageURL.startsWith("//assets.adsttc.com");
+
+const patchWikipediaURL = (thumbnailURL) => thumbnailURL.replace("thumb/", "");
 
 const patchWikiArquitecturaURL = (thumbnailURL) =>
   thumbnailURL.replace(/-\d+x\d+\.jpg/, ".jpg");
@@ -87,7 +89,8 @@ const patchArchDailyID = (imageID) =>
 const patchFigureGroundURL = (thumbnailURL) =>
   thumbnailURL.replace(/\dt\.jpg/, ".jpg");
 
-const imageRegex = /['"](https?:[\.\/\w\d_-]+\.jpg)\??[^'"]*['"]/g;
+const imageRegex =
+  /['"](?:https?:)?(\/\/[\.\/\w\d_%-]+?\.(?:jpg|JPG|jpeg|JPEG))\??[^'"]*['"]/g;
 const captionRegex = /<figcaption .* id=\'(.*)\'>([^<]*)<\/figcaption>/g;
 
 const extractImageURLs = async (
@@ -99,6 +102,7 @@ const extractImageURLs = async (
     const imageURLs = uniq(
       [...html.matchAll(imageRegex)]
         .map(([, extracted]) => patchArchDailyImageURL(extracted))
+        .map(patchWikipediaURL)
         .map(patchWikiArquitecturaURL)
         .map(patchFigureGroundURL)
         .filter(removeUnwantedURLs)
@@ -114,7 +118,7 @@ const extractImageURLs = async (
       {}
     );
 
-    console.log(JSON.stringify(copyrights, null, 2));
+    console.log(imageURLs, JSON.stringify(copyrights, null, 2));
 
     return imageURLs;
   } catch (e) {
