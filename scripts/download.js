@@ -3,6 +3,8 @@ const axios = require("axios");
 const { createWriteStream, existsSync, mkdirSync } = require("fs");
 const { basename, join } = require("path");
 
+process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
+
 const main = async () => {
   const { url, destinationDirectory } = extractArguments();
 
@@ -89,8 +91,22 @@ const patchArchDailyID = (imageID) =>
 const patchFigureGroundURL = (thumbnailURL) =>
   thumbnailURL.replace(/\dt\.jpg/, ".jpg");
 
+const patchArquitecturaVivaURL = (thumbnailURL) =>
+  thumbnailURL.replace(/av_(thumb|medium)__/, "");
+
+const handleRelativeURL =
+  (rootURL) =>
+  ([, imageURL]) => {
+    if (imageURL.startsWith("//")) {
+      // already Absolute URL
+      return imageURL;
+    }
+    // relative URL -> Absolute URL
+    return "//" + new URL(rootURL).hostname + imageURL;
+  };
+
 const imageRegex =
-  /['"](?:https?:)?(\/\/[\.\/\w\d_%-]+?\.(?:jpg|JPG|jpeg|JPEG))\??[^'"]*['"]/g;
+  /['"](?:https?:)?(\/\/?[\.\/\w\d_%-]+?\.(?:jpg|JPG|jpeg|JPEG))\??[^'"]*['"]/g;
 const captionRegex = /<figcaption .* id=\'(.*)\'>([^<]*)<\/figcaption>/g;
 
 const extractImageURLs = async (
@@ -101,9 +117,11 @@ const extractImageURLs = async (
 
     const imageURLs = uniq(
       [...html.matchAll(imageRegex)]
-        .map(([, extracted]) => patchArchDailyImageURL(extracted))
+        .map(handleRelativeURL(url))
+        .map(patchArchDailyImageURL)
         .map(patchWikipediaURL)
         .map(patchWikiArquitecturaURL)
+        .map(patchArquitecturaVivaURL)
         .map(patchFigureGroundURL)
         .filter(removeUnwantedURLs)
     );
