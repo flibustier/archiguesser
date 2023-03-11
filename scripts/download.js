@@ -106,7 +106,7 @@ const handleRelativeURL =
   };
 
 const imageRegex =
-  /['"](?:https?:)?(\/\/?[\.\/\w\d_%-]+?\.(?:jpg|JPG|jpeg|JPEG))\??[^'"]*['"]/g;
+  /['"](?:https?:)?(\/\/?[\.\/\w\d_'%-]+?\.(?:jpg|JPG|jpeg|JPEG))\??[^'"]*['"]/g;
 const captionRegex = /<figcaption .* id=\'(.*)\'>([^<]*)<\/figcaption>/g;
 
 const extractImageURLs = async (
