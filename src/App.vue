@@ -30,7 +30,9 @@ const percent = ref();
 const showBackModal = ref(false);
 const showInfoModal = ref(false);
 const guesses: string[] = reactive([]);
-const { dayNumber, answer } = reactive(getDayInformation(requestedDay));
+const { dayNumber, answer, constructionYears } = reactive(
+  getDayInformation(requestedDay)
+);
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
@@ -87,7 +89,11 @@ const onSubmittedGuess = (guess: string) => {
 
     <div v-if="!isGameEnded">
       <GuessingForm @submitted-guess="onSubmittedGuess" />
-      <GuessingHistory :guesses="guesses" :answer="answer" />
+      <GuessingHistory
+        :guesses="guesses"
+        :answer="answer"
+        :constructionYears="constructionYears"
+      />
     </div>
 
     <EndDisplay

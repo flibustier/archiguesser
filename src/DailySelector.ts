@@ -1,5 +1,6 @@
 import answers from "./assets/answers.json";
 import monuments from "./assets/monuments.json";
+import years from "./assets/years.json";
 
 // Fixme: add year
 const DDAY = 182;
@@ -30,6 +31,7 @@ export const getDayInformation = (
   dayNumber: number;
   answer: string;
   isMonument: boolean;
+  constructionYears?: string;
 } => {
   let dayNumber = getRealDayNumber();
 
@@ -49,6 +51,7 @@ export const getDayInformation = (
       dayNumber,
       answer,
       isMonument: isMonument(dayNumber),
+      constructionYears: years[dayNumber as unknown as keyof typeof years],
     };
   }
   // shouldn’t be possible

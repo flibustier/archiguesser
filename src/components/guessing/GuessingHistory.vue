@@ -10,6 +10,9 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  constructionYears: {
+    type: String,
+  },
 });
 
 const guessesReverseOrder = computed(() => props.guesses.slice().reverse());
@@ -20,6 +23,14 @@ const isLastGuessRemaining = computed(() => guessesRemaining.value === 1);
 const places = computed(() => (props.answer.split("/").pop() || "").split(","));
 const country = computed(() => places.value[places.value.length - 1]);
 const city = computed(() => places.value[places.value.length - 2]);
+
+const showYearsHint = computed(
+  () => guessesRemaining.value <= 4 && props.constructionYears
+);
+const showCountryHint = computed(
+  () => guessesRemaining.value <= 3 && country.value
+);
+const showHint = computed(() => showCountryHint.value || showYearsHint.value);
 
 const answerWords = computed(() =>
   props.answer.split(/\/|,|-|\s/).filter(Boolean)
@@ -34,13 +45,15 @@ const highlight = (guess: string) =>
 
 <template>
   <div class="guesses">
-    <div class="guess" v-if="guessesRemaining <= 3 && country">
+    <div class="guess" v-if="showHint">
       <span class="guess-icon">ℹ️</span>
-      <span>
-        Hint: The location is <b>{{ country }}</b>
+      <span>Hint: </span>
+      <span v-if="showYearsHint"> Built in {{ constructionYears }}. </span>
+      <span v-if="showCountryHint"
+        >The location is <b>{{ country }}</b>
       </span>
-      <span v-if="isLastGuessRemaining && city">
-        , <b>{{ city }}</b>
+      <span v-if="isLastGuessRemaining && city"
+        >, <b>{{ city }}</b>
       </span>
     </div>
     <div class="guess" v-for="guess of guessesReverseOrder" :key="guess">
