@@ -25,6 +25,8 @@ export const getRealDayNumber = (): number =>
 
 export const lastDay = () => parseInt(Object.keys(answers).pop() || "1");
 
+const get = (json: any, dayNumber: number) => json[dayNumber as unknown as keyof typeof json]
+
 export const getDayInformation = (
   day?: string | null
 ): {
@@ -45,13 +47,13 @@ export const getDayInformation = (
   }
 
   if (dayNumber in answers) {
-    const answer = answers[dayNumber as unknown as keyof typeof answers];
+    const answer = get(answers, dayNumber);
 
     return {
       dayNumber,
       answer,
       isMonument: isMonument(dayNumber),
-      constructionYears: years[dayNumber as unknown as keyof typeof years],
+      constructionYears: get(years, dayNumber),
     };
   }
   // shouldn’t be possible
