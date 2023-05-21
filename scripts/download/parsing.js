@@ -18,7 +18,7 @@ const blacklistURLs = (imageURL) => !imageURL.startsWith("//assets.adsttc.com");
 const patchWikipediaURL = (thumbnailURL) => thumbnailURL.replace("thumb/", "");
 
 const patchWordPressURL = (thumbnailURL) =>
-  thumbnailURL.replace(/-\d+x\d+\.jpg/, ".jpg");
+  thumbnailURL.replace(/[-.]\d+x\d+\.jpg/, ".jpg");
 
 const patchArchDailyImageURL = (thumbnailURL) =>
   thumbnailURL.replace(/newsletter|\w+_jpg/, "original");
