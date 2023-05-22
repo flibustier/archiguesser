@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const suggestions = require("../src/assets/suggestions.json");
+const suggestions = require("../../src/assets/suggestions.json");
 
 const countryList = [
   "Afghanistan",

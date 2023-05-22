@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-const answers = require("../src/assets/answers.json");
-const suggestions = require("../src/assets/suggestions.json");
+const answers = require("../../src/assets/answers.json");
+const suggestions = require("../../src/assets/suggestions.json");
 
 const suggestionTitles = suggestions.map((str) => ({
   original: str,
