@@ -7,15 +7,15 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "test": "node --test",
     "build": "run-p type-check build-only",
+    "preview": "vite preview --port 4173",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit",
     "deploy": "./scripts/deploy.sh",
     "convert": "./scripts/convert.sh",
     "download": "node ./scripts/download/cli.js",
-    "check": "node ./scripts/suggestions-checker.js",
-    "stats": "node ./scripts/extract-stats.js",
-    "scrape": "node ./scripts/scrapper.js",
-    "preview": "vite preview --port 4173",
-    "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit"
+    "check": "node ./scripts/dev/suggestions-checker.js",
+    "stats": "node ./scripts/dev/extract-stats.js",
+    "scrape": "node ./scripts/dev/scrapper.js"
   },
   "dependencies": {
     "vue": "3.3.4"

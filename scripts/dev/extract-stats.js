@@ -1,5 +1,5 @@
-const data1 = require("../data/MONTH-PATH-2022-6.json");
-const data2 = require("../data/MONTH-PATH-2022-7.json");
+const data1 = require("../../data/MONTH-PATH-2022-6.json");
+const data2 = require("../../data/MONTH-PATH-2022-7.json");
 
 const groupByDay = (data) => {
   const grouped = {};
