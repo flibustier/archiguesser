@@ -1802,6 +1802,13 @@
     "2": "",
     "3": ""
   },
+  "336": {
+    "*": "wikiarquitectura",
+    "6": "Historic American Buildings Survey"
+  },
+  "337": {
+    "*": "Courtesy of the Architect"
+  },
 
   "t": {
     "1": "",
@@ -1810,5 +1817,11 @@
     "4": "",
     "5": "",
     "6": ""
+  },
+  "unity": {
+    "*": "",
+    "1": "Theodolite (wikimedia)",
+    "3": "Courtesy of the Architect",
+    "6": "Andrew Pielage (Courtesy of the Restoration Foundation)"
   }
 }
