@@ -1809,6 +1809,23 @@
   "337": {
     "*": "Courtesy of the Architect"
   },
+  "338": {
+    "*": "",
+    "1": "Theodolite (wikimedia)",
+    "3": "Courtesy of the Architect",
+    "6": "Andrew Pielage (Courtesy of the Restoration Foundation)"
+  },
+  "339": {
+    "*": "Paul Kozlowski"
+  },
+  "340": {
+    "1": "Hermann Luyken (wikimedia)",
+    "2": "N509FZ (wikimedia)",
+    "3": "Zhangzhe0101 (wikimedia)",
+    "4": "Peter K Burian (wikimedia)",
+    "5": "Reinhold Möller (wikimedia)",
+    "6": "Unknown author (wikimedia)"
+  },
 
   "t": {
     "1": "",
@@ -1817,11 +1834,5 @@
     "4": "",
     "5": "",
     "6": ""
-  },
-  "unity": {
-    "*": "",
-    "1": "Theodolite (wikimedia)",
-    "3": "Courtesy of the Architect",
-    "6": "Andrew Pielage (Courtesy of the Restoration Foundation)"
   }
 }
