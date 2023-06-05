@@ -9,6 +9,23 @@ const suggestions = require("../../src/assets/suggestions.json");
 
 const data = [];
 
+const isSameObject = (a, b) => {
+  const aKeys = Object.keys(a);
+  const bKeys = Object.keys(b);
+
+  if (aKeys.length !== bKeys.length) {
+    return false;
+  }
+
+  for (const key of aKeys) {
+    if (!(key in b) || a[key] !== b[key]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
 for (const day in answers) {
   const answer = answers[day];
   const dayNumber = parseInt(day);
@@ -17,11 +34,19 @@ for (const day in answers) {
     throw `${answer} not found in src/assets/suggestions.json !`;
   }
 
-  const existingDayIndex = data.findIndex((d) => d.answer === answer);
+  const existingDay = data.find((d) => d.answer === answer);
 
-  if (existingDayIndex != -1) {
-    data[existingDayIndex].days.push(dayNumber);
-    data[existingDayIndex].copyrights.push(copyrights[day]);
+  if (existingDay) {
+    existingDay.days.push(dayNumber);
+    if (links[day]) {
+      existingDay.links.push(links[day]);
+    }
+    if (
+      copyrights[day] &&
+      !isSameObject(existingDay.copyrights[0], copyrights[day])
+    ) {
+      existingDay.copyrights.push(copyrights[day]);
+    }
     continue;
   }
 

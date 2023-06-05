@@ -86,9 +86,6 @@
     "copyrights": [
       {
         "*": "wikiarquitectura"
-      },
-      {
-        "*": "wikiarquitectura"
       }
     ],
     "categories": []
@@ -122,9 +119,6 @@
     "answer": "Eden Project / Nicholas Grimshaw / Cornwall, United Kingdom (UK)",
     "days": [8, 277],
     "copyrights": [
-      {
-        "*": "wikiarquitectura"
-      },
       {
         "*": "wikiarquitectura"
       }
@@ -228,10 +222,6 @@
       {
         "6": "Philippe Ruault",
         "*": "Jonathan Platteau"
-      },
-      {
-        "6": "Philippe Ruault",
-        "*": "Jonathan Platteau"
       }
     ],
     "categories": []
@@ -314,9 +304,6 @@
     "copyrights": [
       {
         "*": "wikiarquitectura"
-      },
-      {
-        "*": "wikiarquitectura"
       }
     ],
     "categories": []
@@ -389,9 +376,6 @@
     "copyrights": [
       {
         "*": "wikiarquitectura"
-      },
-      {
-        "*": "wikiarquitectura"
       }
     ],
     "categories": []
@@ -423,7 +407,7 @@
   },
   {
     "answer": "Portuguese Pavilion Expo ’98 / Álvaro Siza Vieira / Lisboa, Portugal",
-    "days": [32],
+    "days": [32, 328],
     "copyrights": [
       {
         "1": "bricolage 108",
@@ -466,7 +450,7 @@
   },
   {
     "answer": "Dancing House / Frank Gehry, Vlado Milunic / Prague, Czech Republic",
-    "days": [35],
+    "days": [35, 326],
     "copyrights": [
       {
         "6": "A.Savin",
@@ -566,14 +550,6 @@
         "4": "Edward Dodwell",
         "5": "Steve Swayne",
         "6": "Adam L. Clevenger"
-      },
-      {
-        "1": "Ken Russell Salvador",
-        "2": "Fingalo",
-        "3": "",
-        "4": "Edward Dodwell",
-        "5": "Steve Swayne",
-        "6": "Adam L. Clevenger"
       }
     ],
     "categories": ["monument"]
@@ -607,12 +583,6 @@
         "2": "Masaru Tezuka",
         "3": "Antje Verena",
         "6": "Masaru Tezuka"
-      },
-      {
-        "1": "Naoya Fujii",
-        "2": "Masaru Tezuka",
-        "3": "Antje Verena",
-        "6": "Masaru Tezuka"
       }
     ],
     "categories": []
@@ -631,12 +601,6 @@
     "answer": "Art Museum of Sao Paulo / Lina Bo Bardi / Sao Paulo, Brazil",
     "days": [48, 211],
     "copyrights": [
-      {
-        "2": "Juliana Magro",
-        "5": "Carol^-^",
-        "6": "Rodrigo_Soldon",
-        "*": "wikiarquitectura"
-      },
       {
         "2": "Juliana Magro",
         "5": "Carol^-^",
@@ -731,7 +695,7 @@
   },
   {
     "answer": "Villa Savoye / Le Corbusier / Poissy, Paris, France",
-    "days": [55],
+    "days": [55, 339],
     "copyrights": [
       {
         "*": "Paul Kozlowski"
@@ -811,12 +775,6 @@
     "answer": "Neues Museum / David Chipperfield, Julian Harrap, Friedrich August Stüler / Berlin, Germany",
     "days": [62, 203],
     "copyrights": [
-      {
-        "2": "d.teil",
-        "4": "David Chipperfield",
-        "6": "Joerg von Bruchhausen",
-        "*": "Ute Zscharnt"
-      },
       {
         "2": "d.teil",
         "4": "David Chipperfield",
@@ -1307,12 +1265,6 @@
         "3": "Steven Goldblatt",
         "6": "Steven Goldblatt",
         "*": "Rollin LaFrance"
-      },
-      {
-        "2": "Steven Goldblatt",
-        "3": "Steven Goldblatt",
-        "6": "Steven Goldblatt",
-        "*": "Rollin LaFrance"
       }
     ],
     "categories": []
@@ -1375,7 +1327,7 @@
   },
   {
     "answer": "Nakagin Capsule Tower / Kisho Kurokawa / Tokyo, Japan",
-    "days": [111],
+    "days": [111, 335],
     "copyrights": [
       {
         "2": "",
@@ -2095,11 +2047,6 @@
         "5": "Berta Vosman (wikimedia)",
         "6": "Arp Karm (wikimedia)",
         "*": "Claudio Parada Nunes (Studio CAPN)"
-      },
-      {
-        "5": "Berta Vosman (wikimedia)",
-        "6": "Arp Karm (wikimedia)",
-        "*": "Claudio Parada Nunes (Studio CAPN)"
       }
     ],
     "categories": []
@@ -2657,11 +2604,6 @@
     "answer": "Church Saint-Pierre of Firminy / Le Corbusier / Firminy, France",
     "days": [214, 215],
     "copyrights": [
-      {
-        "1": "Richard Weil",
-        "5": "Richard Weil",
-        "*": "Courtesy of the Owner"
-      },
       {
         "1": "Richard Weil",
         "5": "Richard Weil",
@@ -3981,5 +3923,150 @@
     "years": "-2570",
     "link": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
     "categories": ["monument"]
+  },
+  {
+    "answer": "Sony Center / Helmut Jahn / Potsdamer Platz, Berlin, Germany",
+    "days": [327],
+    "copyrights": [
+      {
+        "1": "wikiarquitectura",
+        "2": "wikiarquitectura",
+        "*": "Rainer Viertlbock"
+      }
+    ],
+    "years": "1995-1998",
+    "categories": []
+  },
+  {
+    "answer": "Monticello / Thomas Jefferson / Charlottesville, Virginia, United States of America (USA)",
+    "days": [329],
+    "copyrights": [
+      {
+        "1": "Smalling, Walter (wikimedia)",
+        "2": "Courtesy of the Foundation",
+        "3": "Steven C. Price (wikimedia)",
+        "4": "Jane Braddick (wikimedia)",
+        "5": "Courtesy of the United States of America (USA)",
+        "6": "Martin Falbisoner (wikimedia)"
+      }
+    ],
+    "years": "1772",
+    "categories": []
+  },
+  {
+    "answer": "Sears Tower – Willis Tower / Owings & Merrill Skidmore, Bruce Graham / Chicago, Illinois, United States of America (USA)",
+    "days": [331, 332],
+    "copyrights": [
+      {
+        "1": "Vincent Desjardins (flickr)",
+        "2": "Mike Gonzalez (wikimedia)",
+        "3": "Library of Congress (wikimedia)",
+        "4": "Cmglee (wikimedia)",
+        "*": "wikiarquitectura"
+      }
+    ],
+    "years": "1970-1974",
+    "categories": []
+  },
+  {
+    "answer": "Jubilee Church (Chiesa di Dio Padre Misericordioso) / Richard Meier / Rome, Italy",
+    "days": [333],
+    "copyrights": [
+      {
+        "1": "Victor Andrade (wikimedia)",
+        "2": "unknown (archdaily)",
+        "3": "unknown (archdaily)",
+        "4": "wikiarquitectura",
+        "5": "Psidium (wikimedia)",
+        "6": "Bgabel (wikimedia)"
+      }
+    ],
+    "years": "1998-2003",
+    "categories": []
+  },
+  {
+    "answer": "Würzburg Residence Palace / Balthasar Neumann / Würzburg, Germany",
+    "days": [334],
+    "copyrights": [
+      {
+        "1": "Andreas Faessler (wikimedia)",
+        "2": "Oktobersonne (wikimedia)",
+        "3": "FELIX MADER (wikimedia)",
+        "4": "Roland Bergmann (wikimedia)",
+        "5": "Lutz.marten (wikimedia)",
+        "6": "DXR (wikimedia)"
+      }
+    ],
+    "years": "1720-1744",
+    "categories": ["monument"]
+  },
+  {
+    "answer": "Lovell Health House / Richard Neutra / Los Angeles, California, United States of America (USA)",
+    "days": [336],
+    "copyrights": [
+      {
+        "6": "Historic American Buildings Survey",
+        "*": "wikiarquitectura"
+      }
+    ],
+    "years": "1928",
+    "categories": []
+  },
+  {
+    "answer": "Hopkins House / Michael Hopkins, Patty Hopkins / 49a Downshire Hill, Hampstead, London, United Kingdom (UK)",
+    "days": [337],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "1976",
+    "categories": []
+  },
+  {
+    "answer": "Unity Temple / Frank Lloyd Wright / Oak Park, Illinois, United States of America (USA)",
+    "days": [338],
+    "copyrights": [
+      {
+        "1": "Theodolite (wikimedia)",
+        "3": "Courtesy of the Architect",
+        "6": "Andrew Pielage (Courtesy of the Restoration Foundation)",
+        "*": ""
+      }
+    ],
+    "years": "1908",
+    "categories": []
+  },
+  {
+    "answer": "Summer Palace (颐和园) / Haidian District, Beijing, China",
+    "days": [340],
+    "copyrights": [
+      {
+        "1": "Hermann Luyken (wikimedia)",
+        "2": "N509FZ (wikimedia)",
+        "3": "Zhangzhe0101 (wikimedia)",
+        "4": "Peter K Burian (wikimedia)",
+        "5": "Reinhold Möller (wikimedia)",
+        "6": "Unknown author (wikimedia)"
+      }
+    ],
+    "years": "1886",
+    "categories": ["monument"]
+  },
+  {
+    "answer": "Crystal Cathedral (Christ Cathedral) / Philip Johnson, John Burgee / Garden Grove, Orange County, California, United States of America (USA)",
+    "days": [341],
+    "copyrights": [
+      {
+        "1": "Russavia (wikimedia)",
+        "2": "Courtesy of the Architect",
+        "3": "Nepenthes (wikimedia)",
+        "4": "Wattewyl (wikimedia)",
+        "5": "wikiarquitectura",
+        "6": "Amir Nejad (flickr)"
+      }
+    ],
+    "years": "1977-1980",
+    "categories": []
   }
 ]
