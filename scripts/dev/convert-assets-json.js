@@ -41,6 +41,9 @@ for (const day in answers) {
     if (links[day]) {
       existingDay.links.push(links[day]);
     }
+    if (years[day]) {
+      existingDay.years = years[day];
+    }
     if (
       copyrights[day] &&
       !isSameObject(existingDay.copyrights[0], copyrights[day])
@@ -55,7 +58,7 @@ for (const day in answers) {
     days: [dayNumber],
     copyrights: [copyrights[day]],
     years: years[day],
-    link: links[day],
+    links: links[day] ? [links[day]] : [],
     categories: monuments.includes(dayNumber) ? ["monument"] : [],
   });
 }
