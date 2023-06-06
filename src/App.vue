@@ -30,7 +30,7 @@ const percent = ref();
 const showBackModal = ref(false);
 const showInfoModal = ref(false);
 const guesses: string[] = reactive([]);
-const { dayNumber, answer, constructionYears } = reactive(
+const { dayNumber, answer, constructionYears, copyrights } = reactive(
   getDayInformation(requestedDay)
 );
 
@@ -85,6 +85,7 @@ const onSubmittedGuess = (guess: string) => {
     <PictureDisplay
       :max-pictures="isGameEnded ? 6 : Math.min(currentRound, 6)"
       :day-number="dayNumber"
+      :copyrights="copyrights"
     />
 
     <div v-if="!isGameEnded">

@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, watch, computed } from "vue";
 import PicturePaginator from "./PicturePaginator.vue";
-import copyrights from "../../assets/copyrights.json";
 
 const pictureShown = ref(1);
 
@@ -14,6 +13,10 @@ const props = defineProps({
     type: Number,
     required: true,
   },
+  copyrights: {
+    type: Object,
+    required: true,
+  },
 });
 
 watch(
@@ -23,15 +26,9 @@ watch(
   }
 );
 
-const pictureCopyright = computed(() => {
-  if (props.dayNumber in copyrights) {
-    const dayCopyrights = (copyrights as any)[props.dayNumber];
-
-    return dayCopyrights[pictureShown.value] || dayCopyrights["*"] || "";
-  }
-
-  return "";
-});
+const pictureCopyright = computed(
+  () => props.copyrights[pictureShown.value] || props.copyrights["*"] || ""
+);
 
 const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 </script>
