@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const suggestions = require("../../src/assets/suggestions.json");
 
 const countryList = [
@@ -199,10 +198,10 @@ const countryList = [
   "Zimbabwe",
 ];
 
-const i = 0;
 const countries = new Set();
 const invalid = new Set();
-suggestions.forEach((suggestion, index) => {
+suggestions.forEach((suggestion) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [project, architectsOrPlaces, places] = suggestion.split(" / ");
 
   if (suggestion.split(" / ").length > 3) {

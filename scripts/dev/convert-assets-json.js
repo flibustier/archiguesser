@@ -7,7 +7,7 @@ const monuments = require("../../src/assets/monuments.json");
 const links = require("../../src/assets/links.json");
 const suggestions = require("../../src/assets/suggestions.json");
 
-const data = [];
+const OUTPUT_FILE = "src/assets/data.json";
 
 const isSameObject = (a, b) => {
   const aKeys = Object.keys(a);
@@ -26,45 +26,114 @@ const isSameObject = (a, b) => {
   return true;
 };
 
-for (const day in answers) {
-  const answer = answers[day];
-  const dayNumber = parseInt(day);
+const areURLsExisting = (urls) =>
+  Promise.all(
+    urls.map(async (url) =>
+      fetch(url, {
+        method: "HEAD",
+      }).then(({ status }) => status === 200)
+    )
+  );
 
-  if (!suggestions.includes(answer)) {
-    throw `${answer} not found in src/assets/suggestions.json !`;
+async function buildData() {
+  const data = [];
+  const notFoundURLs = [0, 0];
+  const yearsError = [];
+
+  for (const day in answers) {
+    const answer = answers[day];
+    const dayNumber = parseInt(day);
+
+    if (!suggestions.includes(answer)) {
+      throw `${answer} not found in src/assets/suggestions.json !`;
+    }
+
+    const existingDay = data.find((d) => d.answer === answer);
+
+    if (existingDay) {
+      existingDay.days.push(dayNumber);
+      if (links[day]) {
+        existingDay.links.push(links[day]);
+      }
+      if (years[day]) {
+        existingDay.years = years[day];
+      }
+      if (
+        copyrights[day] &&
+        !isSameObject(existingDay.copyrights[0], copyrights[day])
+      ) {
+        existingDay.copyrights.push(copyrights[day]);
+      }
+      continue;
+    }
+
+    const currentLinks = links[day] || [];
+    let currentYears = years[day];
+
+    if (!currentLinks.length) {
+      const projectName = answer
+        .split(" / ")[0]
+        .replace(/\(.*\)/, "")
+        .trim();
+      const wikipediaURL = `https://en.wikipedia.org/wiki/${projectName.replaceAll(
+        " ",
+        "_"
+      )}`;
+      const wikiarquitecturaURL = `https://en.wikiarquitectura.com/building/${projectName.replaceAll(
+        " ",
+        "-"
+      )}/`;
+
+      const existingURLs = await areURLsExisting([
+        wikipediaURL,
+        wikiarquitecturaURL,
+      ]);
+
+      if (existingURLs[0]) {
+        currentLinks.push(wikipediaURL);
+      } else {
+        notFoundURLs[0]++;
+        console.log(`🧐 ${wikipediaURL}`);
+      }
+
+      if (existingURLs[1]) {
+        currentLinks.push(wikiarquitecturaURL);
+        if (!currentYears) {
+          // extract built in years from wikiarquitectura
+          const html = await (await fetch(wikiarquitecturaURL)).text();
+          const searchYears = html.match(/Year:<\/div>[^>]*>([\d\s-]+)</);
+          if (searchYears && searchYears.length > 1) {
+            currentYears = searchYears[1].replace(" ", "");
+          } else {
+            yearsError.push(wikiarquitecturaURL);
+          }
+        }
+      } else {
+        notFoundURLs[1]++;
+        console.log(`🧐 ${wikiarquitecturaURL}`);
+      }
+    }
+
+    data.push({
+      answer,
+      days: [dayNumber],
+      copyrights: [copyrights[day]],
+      years: currentYears,
+      links: currentLinks,
+      categories: monuments.includes(dayNumber) ? ["monument"] : [],
+    });
   }
 
-  const existingDay = data.find((d) => d.answer === answer);
+  console.log(`⚠️ ${notFoundURLs} not found URLs!`);
+  console.log(yearsError);
 
-  if (existingDay) {
-    existingDay.days.push(dayNumber);
-    if (links[day]) {
-      existingDay.links.push(links[day]);
-    }
-    if (years[day]) {
-      existingDay.years = years[day];
-    }
-    if (
-      copyrights[day] &&
-      !isSameObject(existingDay.copyrights[0], copyrights[day])
-    ) {
-      existingDay.copyrights.push(copyrights[day]);
-    }
-    continue;
-  }
-
-  data.push({
-    answer,
-    days: [dayNumber],
-    copyrights: [copyrights[day]],
-    years: years[day],
-    links: links[day] ? [links[day]] : [],
-    categories: monuments.includes(dayNumber) ? ["monument"] : [],
-  });
+  return data;
 }
 
-const fileContent = JSON.stringify(data, null, 2);
+buildData().then((data) => {
+  const fileContent = JSON.stringify(data, null, 2);
 
-console.log(fileContent);
+  //console.log(fileContent);
 
-writeFileSync("src/assets/days.json", fileContent);
+  writeFileSync(OUTPUT_FILE, fileContent);
+});

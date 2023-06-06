@@ -1,6 +1,4 @@
-import answers from "./assets/answers.json";
-import monuments from "./assets/monuments.json";
-import years from "./assets/years.json";
+import data from "./assets/data.json";
 
 // Here the first day was July the 2nd of 2022
 const STARTING_DATE = Date.UTC(2022, 6, 1);
@@ -23,10 +21,16 @@ export const getRealDayNumber = (): number => {
   return getNumberOfDaysDifferenceWithStartingDate(now);
 };
 
-export const lastDay = () => parseInt(Object.keys(answers).pop() || "1");
+const getDayNumber = (dayNumber: number) =>
+  data.find(({ days }) => days.includes(dayNumber));
 
-const get = (json: any, dayNumber: number) =>
-  json[dayNumber as unknown as keyof typeof json];
+export const lastDay = () => Math.max(...data.flatMap(({ days }) => days));
+
+export const isMonument = (dayNumber: number): boolean => {
+  const { categories = [] } = getDayNumber(dayNumber) || {};
+
+  return categories.includes("monument");
+};
 
 export const getDayInformation = (
   day?: string | null
@@ -35,36 +39,42 @@ export const getDayInformation = (
   answer: string;
   isMonument: boolean;
   constructionYears?: string;
+  copyrights?: any;
 } => {
-  let dayNumber = getRealDayNumber();
+  let dayNumber = day ? parseInt(day) : getRealDayNumber();
 
-  if (day && day in answers) {
-    dayNumber = parseInt(day);
-  }
-
-  if (!(dayNumber in answers)) {
+  if (!data.some(({ days }) => days.includes(dayNumber))) {
     // fallback on last day when the day is not available yet
     dayNumber = lastDay();
   }
 
-  if (dayNumber in answers) {
-    const answer = get(answers, dayNumber);
+  const dayInformation = getDayNumber(dayNumber);
+
+  if (dayInformation) {
+    // default copyrights is the first entry [{…}]
+    let copyrights = dayInformation.copyrights[0] || {};
+    // multiple copyrights exists when there is multiple days for this entry (ex. days: [1, 100])
+    if (dayInformation.copyrights.length > 1) {
+      // search for the dayNumber index on the list of days (ex. 100 is index 1 in days: [1, 100])
+      const copyrightIndex = dayInformation.days.indexOf(dayNumber);
+      // copyrights are at the same index (ex. copyrights: [{this are copyrights for day 1}, {this are copyrights for day 100 }])
+      copyrights = dayInformation.copyrights[copyrightIndex] || {};
+    }
 
     return {
       dayNumber,
-      answer,
-      isMonument: isMonument(dayNumber),
-      constructionYears: get(years, dayNumber),
+      answer: dayInformation.answer,
+      isMonument: (dayInformation.categories as string[]).includes("monument"),
+      constructionYears: dayInformation.years,
+      copyrights,
     };
   }
+
   // shouldn’t be possible
   console.log(`Day ${dayNumber} not found`);
   return {
     dayNumber: 1,
-    answer: answers[1],
+    answer: data[1].answer,
     isMonument: false,
   };
 };
-
-export const isMonument = (dayNumber: number): boolean =>
-  monuments.includes(dayNumber);
