@@ -4785,6 +4785,26 @@
     ],
     "categories": ["church"]
   },
+  {
+    "answer": "Marina Bay Sands / Moshe Safdie / Singapore",
+    "days": [343],
+    "copyrights": [
+      {
+        "1": "Cmglee (wikimedia)",
+        "2": "Courtesy of the Architect",
+        "3": "dronepicr (wikimedia)",
+        "4": "dronepicr (wikimedia)",
+        "5": "Courtesy of the Architect",
+        "6": "Someformofhuman (wikimedia)"
+      }
+    ],
+    "years": "2006-2010",
+    "links": [
+      "https://en.wikipedia.org/wiki/Marina_Bay_Sands",
+      "https://en.wikiarquitectura.com/building/Marina-Bay-Sands"
+    ],
+    "categories": ["famous", "skyscraper"]
+  },
 
   {
     "answer": "",
