@@ -13,32 +13,6 @@ interface StatsObject {
   lastPlayed: number;
 }
 
-interface Statistics {
-  firstQuartile: number;
-  lastQuartile: number;
-}
-
-interface RawStats {
-  score: number;
-  count: number;
-}
-
-const calculateQuartiles = (rawStats: RawStats[], currentScore: number) =>
-  rawStats.reduce(
-    (acc: Statistics, stat: RawStats) => {
-      if (stat.score > 0 && stat.score <= currentScore) {
-        acc.firstQuartile += stat.count;
-      } else {
-        acc.lastQuartile += stat.count;
-      }
-      return acc;
-    },
-    {
-      firstQuartile: 0,
-      lastQuartile: 0,
-    }
-  );
-
 const endpoint =
   process.env.NODE_ENV === "production"
     ? "https://stats.archiguesser.com/result"
@@ -72,11 +46,9 @@ export const sendResult = async (
       return undefined;
     }
 
-    const stats = await response.json();
+    const successPercent = await response.json();
 
-    const { firstQuartile, lastQuartile } = calculateQuartiles(stats, score);
-
-    return Math.trunc((firstQuartile / (firstQuartile + lastQuartile)) * 100);
+    return successPercent;
   } catch (error) {
     return undefined;
   }
