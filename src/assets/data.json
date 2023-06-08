@@ -4805,6 +4805,24 @@
     ],
     "categories": ["famous", "skyscraper"]
   },
+  {
+    "answer": "Home Insurance Building / William Le Baron Jenney / Adams Streets, Chicago, United States of America (USA)",
+    "days": [344],
+    "copyrights": [
+      {
+        "*": "wikiarquitectura",
+        "1": "architectuul",
+        "2": "architectuul",
+        "4": "architectuul"
+      }
+    ],
+    "years": "1885",
+    "links": [
+      "https://en.wikipedia.org/wiki/Home_Insurance_Building",
+      "https://en.wikiarquitectura.com/building/home-insurance-building/"
+    ],
+    "categories": ["skyscraper"]
+  },
 
   {
     "answer": "",
