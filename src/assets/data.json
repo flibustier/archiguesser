@@ -4823,6 +4823,23 @@
     ],
     "categories": ["skyscraper"]
   },
+  {
+    "answer": "ARoS Aarhus Kunstmuseum (Art Museum) / Schmidt Hammer Lassen, Olafur Eliasson / Aarhus, Denmark",
+    "days": [345],
+    "copyrights": [
+      {
+        "1": "Frmir (wikimedia)",
+        "2": "Jonathan Platteau",
+        "3": "Jonathan Platteau",
+        "4": "Ssjensby (wikimedia)",
+        "5": "EHRENBERG Kommunikation (wikimedia)",
+        "6": "News Oresund (wikimedia)"
+      }
+    ],
+    "years": "2004",
+    "links": ["https://en.wikipedia.org/wiki/ARoS_Aarhus_Kunstmuseum"],
+    "categories": ["museum"]
+  },
 
   {
     "answer": "",
