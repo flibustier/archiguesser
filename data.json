@@ -4840,6 +4840,23 @@
     "links": ["https://en.wikipedia.org/wiki/ARoS_Aarhus_Kunstmuseum"],
     "categories": ["museum"]
   },
+  {
+    "answer": "Minaret of Jam (Djâm) / Shahrak District, Ghor Province, Afghanistan",
+    "days": [346],
+    "copyrights": [
+      {
+        "*": "Claudio Margottini (unesco)",
+        "2": "David Adamec (wikimedia)",
+        "6": "David Adamec (wikimedia)"
+      }
+    ],
+    "years": "~12th",
+    "links": [
+      "https://whc.unesco.org/en/list/211/",
+      "https://en.wikipedia.org/wiki/Minaret_of_Jam"
+    ],
+    "categories": ["monument", "archaeological", "unesco"]
+  },
 
   {
     "answer": "",
