@@ -4323,7 +4323,7 @@
       }
     ],
     "years": "~12th century",
-    "links": "https://whc.unesco.org/en/list/18/",
+    "links": ["https://whc.unesco.org/en/list/18/"],
     "categories": ["monument"]
   },
   {
@@ -4354,7 +4354,7 @@
       }
     ],
     "years": "1953-1955",
-    "links": "https://en.wikipedia.org/wiki/Notre-Dame_du_Haut",
+    "links": ["https://en.wikipedia.org/wiki/Notre-Dame_du_Haut"],
     "categories": []
   },
   {
@@ -4367,7 +4367,7 @@
       }
     ],
     "years": "1997",
-    "links": "https://www.mvrdv.nl/projects/170/wozoco",
+    "links": ["https://www.mvrdv.nl/projects/170/wozoco"],
     "categories": []
   },
   {
@@ -4384,7 +4384,7 @@
       }
     ],
     "years": "1506-1626",
-    "links": "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica",
+    "links": ["https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"],
     "categories": ["monument"]
   },
   {
@@ -4401,7 +4401,7 @@
       }
     ],
     "years": "1998",
-    "links": "https://en.wikipedia.org/wiki/Petronas_Towers",
+    "links": ["https://en.wikipedia.org/wiki/Petronas_Towers"],
     "categories": []
   },
   {
@@ -4416,7 +4416,7 @@
       }
     ],
     "years": "1993",
-    "links": "https://www.buw.uw.edu.pl/en/about-us/building-and-garden/",
+    "links": ["https://www.buw.uw.edu.pl/en/about-us/building-and-garden/"],
     "categories": []
   },
   {
@@ -4431,7 +4431,7 @@
       }
     ],
     "years": "1990-1993",
-    "links": "https://www.zaha-hadid.com/architecture/vitra-fire-station-2/",
+    "links": ["https://www.zaha-hadid.com/architecture/vitra-fire-station-2/"],
     "categories": []
   },
   {
@@ -4448,7 +4448,7 @@
       }
     ],
     "years": "-1970",
-    "links": "https://en.wikipedia.org/wiki/Karnak",
+    "links": ["https://en.wikipedia.org/wiki/Karnak"],
     "categories": ["monument"]
   },
   {
@@ -4463,7 +4463,7 @@
       }
     ],
     "years": "2004",
-    "links": "https://www.fosterandpartners.com/projects/sage-gateshead",
+    "links": ["https://www.fosterandpartners.com/projects/sage-gateshead"],
     "categories": []
   },
   {
@@ -4480,7 +4480,7 @@
       }
     ],
     "years": "1985-1997",
-    "links": "https://en.wikipedia.org/wiki/Getty_Center",
+    "links": ["https://en.wikipedia.org/wiki/Getty_Center"],
     "categories": []
   },
   {
@@ -4492,7 +4492,7 @@
       }
     ],
     "years": "1968-1972",
-    "links": "https://en.wikiarquitectura.com/building/munich-olympic-stadium/",
+    "links": ["https://en.wikiarquitectura.com/building/munich-olympic-stadium/"],
     "categories": []
   },
   {
@@ -4509,7 +4509,7 @@
       }
     ],
     "years": "973",
-    "links": "https://en.wikipedia.org/wiki/Schwerin_Castle",
+    "links": ["https://en.wikipedia.org/wiki/Schwerin_Castle"],
     "categories": ["monument"]
   },
   {
@@ -4522,7 +4522,7 @@
       }
     ],
     "years": "2013",
-    "links": "https://en.wikipedia.org/wiki/Museum_of_European_and_Mediterranean_Civilisations",
+    "links": ["https://en.wikipedia.org/wiki/Museum_of_European_and_Mediterranean_Civilisations"],
     "categories": []
   },
   {
@@ -4535,7 +4535,7 @@
       }
     ],
     "years": "1999-2005",
-    "links": "https://en.wikipedia.org/wiki/Torre_Gl%C3%B2ries",
+    "links": ["https://en.wikipedia.org/wiki/Torre_Gl%C3%B2ries"],
     "categories": []
   },
   {
@@ -4552,7 +4552,7 @@
       }
     ],
     "years": "1566-1571",
-    "links": "https://en.wikipedia.org/wiki/Villa_La_Rotonda",
+    "links": ["https://en.wikipedia.org/wiki/Villa_La_Rotonda"],
     "categories": ["monument"]
   },
   {
@@ -4567,7 +4567,7 @@
       }
     ],
     "years": "2009",
-    "links": "https://en.wikipedia.org/wiki/Linked_Hybrid",
+    "links": ["https://en.wikipedia.org/wiki/Linked_Hybrid"],
     "categories": []
   },
   {
@@ -4580,7 +4580,7 @@
       }
     ],
     "years": "1993-1998",
-    "links": "https://coop-himmelblau.at/projects/ufa-cinema-center/",
+    "links": ["https://coop-himmelblau.at/projects/ufa-cinema-center/"],
     "categories": []
   },
   {
@@ -4597,7 +4597,7 @@
       }
     ],
     "years": "-2570",
-    "links": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza",
+    "links": ["https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"],
     "categories": ["monument"]
   },
   {
