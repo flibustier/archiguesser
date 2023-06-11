@@ -308,7 +308,7 @@
   },
   {
     "answer": "Guggenheim Bilbao / Frank Gehry / Bilbao, Spain",
-    "days": [19],
+    "days": [19, 347],
     "copyrights": [
       {
         "*": "wikiarquitectura"
@@ -319,7 +319,7 @@
       "https://en.wikipedia.org/wiki/Guggenheim_Bilbao",
       "https://en.wikiarquitectura.com/building/Guggenheim-Bilbao/"
     ],
-    "categories": []
+    "categories": ["classic"]
   },
   {
     "answer": "Oslo Opera House / Snøhetta, Kjetil Thorsen, Tarald Lundevall, Craig Dykers / Oslo, Norway",
