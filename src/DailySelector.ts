@@ -40,6 +40,7 @@ export const getDayInformation = (
   isMonument: boolean;
   constructionYears?: string;
   copyrights?: any;
+  links?: string[];
 } => {
   let dayNumber = day ? parseInt(day) : getRealDayNumber();
 
@@ -67,6 +68,7 @@ export const getDayInformation = (
       isMonument: (dayInformation.categories as string[]).includes("monument"),
       constructionYears: dayInformation.years,
       copyrights,
+      links: dayInformation.links,
     };
   }
 

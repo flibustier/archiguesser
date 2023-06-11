@@ -30,7 +30,7 @@ const percent = ref();
 const showBackModal = ref(false);
 const showInfoModal = ref(false);
 const guesses: string[] = reactive([]);
-const { dayNumber, answer, constructionYears, copyrights } = reactive(
+const { dayNumber, answer, constructionYears, copyrights, links } = reactive(
   getDayInformation(requestedDay)
 );
 
@@ -104,6 +104,7 @@ const onSubmittedGuess = (guess: string) => {
       :day-number="dayNumber"
       :answer="answer"
       :percent="percent"
+      :links="links"
       @showBackModal="showBackModal = true"
     />
   </main>

@@ -4,6 +4,8 @@ import { computed, ref } from "vue";
 import { sendEvent } from "@/analytics";
 import { URL, APP_NAME } from "../config.json";
 import IconBack from "./icons/IconBack.vue";
+import IconCopy from "./icons/IconCopy.vue";
+import IconWiki from "./icons/IconWiki.vue";
 
 const showGuesses = ref(false);
 const shareBtnContent = ref("SHARE");
@@ -34,9 +36,13 @@ const props = defineProps({
     type: Number,
     required: false,
   },
+  links: {
+    type: Array<string>,
+    default: [],
+  },
 });
 
-const shareMessage = computed(() => {
+const resultSquares = computed(() => {
   const redSquares = `<span class="square red">🟥</span> `.repeat(
     props.guesses.length - 1
   );
@@ -48,11 +54,17 @@ const shareMessage = computed(() => {
     : `<span class="square red">🟥</span> `;
   const squares = redSquares + midSquare + blackSquares;
 
-  return `${APP_NAME} #${props.dayNumber}\n🏛 ${squares}\n\n${URL}`;
+  return `${squares}`;
+});
+
+const shareMessage = computed(() => {
+  return `${APP_NAME} #${props.dayNumber}\n🏛 ${
+    document.getElementById("share-message")?.textContent || ""
+  }\n\n${URL}`;
 });
 
 const copy = async () => {
-  const copyText = document.getElementById("share-message")?.textContent || "";
+  const copyText = shareMessage.value;
   try {
     await navigator.clipboard.writeText(copyText);
   } catch (e) {
@@ -67,32 +79,45 @@ const copy = async () => {
     shareBtnContent.value = "COPIED!";
     setTimeout(() => {
       shareBtnContent.value = "SHARE";
-    }, 1000);
+    }, 2000);
     sendEvent("Shared");
   }
+};
+
+const openLinks = () => {
+  props.links.forEach((url) => window.open(url, "_blank")?.focus());
 };
 </script>
 
 <template>
   <div class="end-display">
-    <h2 v-if="hasWon">You got it! 🎉</h2>
-    <h2 v-else>
-      The answer was: <span class="answer">{{ answer }}</span>
-    </h2>
-    <pre id="share-message" v-html="shareMessage"></pre>
+    <div class="result">
+      <h2 v-if="hasWon">You got it! 🎉</h2>
+      <h2 v-else>
+        The answer was: <span class="answer">{{ answer }}</span>
+      </h2>
+      <div v-if="percent && percent < 50" class="emphasis">
+        🥇 Only {{ percent }}% found it in {{ guesses.length }} tries or less!
+        Well done! 👏
+      </div>
+    </div>
+    <div id="share-message" v-html="resultSquares"></div>
     <div class="buttons">
       <button class="share-btn" @click="copy">
-        {{ shareBtnContent }}
+        <span>{{ shareBtnContent }}</span>
+        <IconCopy style="fill: white" />
       </button>
       <div class="separator"></div>
-      <button class="replay-btn" @click="$emit('showBackModal')">
-        <span>Try another one!</span>
-        <IconBack />
-      </button>
-    </div>
-    <div v-if="percent && percent < 50" class="emphasis">
-      🥇 Only {{ percent }}% found this in {{ guesses.length }} tries or less!
-      Well done! 👏
+      <div class="right-buttons">
+        <button class="white-btn" @click="openLinks" v-if="links.length > 0">
+          <span>Learn more about it</span>
+          <IconWiki />
+        </button>
+        <button class="white-btn" @click="$emit('showBackModal')">
+          <span>Try another one!</span>
+          <IconBack />
+        </button>
+      </div>
     </div>
     <div>Next challenge <b class="emphasis">tomorrow</b>! 🕛</div>
     <div class="guesses-display">
@@ -126,6 +151,11 @@ const copy = async () => {
 h2 {
   line-height: 1.75rem;
   text-align: center;
+}
+
+.emphasis {
+  margin-top: 0.5rem;
+  font-weight: 500;
 }
 
 #share-message :deep(.square) {
@@ -170,28 +200,29 @@ button {
   padding: 0.25rem 0.75rem;
 }
 
+button svg {
+  margin-left: 0.25rem;
+  vertical-align: text-top;
+}
+
+.right-buttons,
+.guesses-display {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .share-btn {
   font-size: 1.1rem;
+  align-self: center;
 
   color: var(--color-primary-inverted);
   background-color: var(--color-primary);
 }
 
-.replay-btn {
+.white-btn {
   border: 1px solid;
   background-color: var(--background-color);
-}
-
-.replay-btn svg {
-  margin-left: 0.25rem;
-  vertical-align: text-bottom;
-}
-
-.guesses-display {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 0.5rem;
 }
 
 .show-guesses-btn {
@@ -206,9 +237,5 @@ button {
   font-size: 0.75rem;
   line-height: 1rem;
   margin-top: 0.5rem;
-}
-
-.emphasis {
-  font-weight: 500;
 }
 </style>
