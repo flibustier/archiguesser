@@ -319,7 +319,7 @@
       "https://en.wikipedia.org/wiki/Guggenheim_Bilbao",
       "https://en.wikiarquitectura.com/building/Guggenheim-Bilbao/"
     ],
-    "categories": ["classic"]
+    "categories": ["classic", "contemporary"]
   },
   {
     "answer": "Oslo Opera House / Snøhetta, Kjetil Thorsen, Tarald Lundevall, Craig Dykers / Oslo, Norway",
@@ -340,7 +340,7 @@
       "https://en.wikipedia.org/wiki/Oslo_Opera_House",
       "https://en.wikiarquitectura.com/building/Oslo-Opera-House/"
     ],
-    "categories": []
+    "categories": ["contemporary"]
   },
   {
     "answer": "Kinkaku-ji (Temple of the Golden Pavilion) / Shogun Ashikaga Yoshimitsu / Kyoto, Japan",
@@ -4492,7 +4492,9 @@
       }
     ],
     "years": "1968-1972",
-    "links": ["https://en.wikiarquitectura.com/building/munich-olympic-stadium/"],
+    "links": [
+      "https://en.wikiarquitectura.com/building/munich-olympic-stadium/"
+    ],
     "categories": []
   },
   {
@@ -4522,7 +4524,9 @@
       }
     ],
     "years": "2013",
-    "links": ["https://en.wikipedia.org/wiki/Museum_of_European_and_Mediterranean_Civilisations"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Museum_of_European_and_Mediterranean_Civilisations"
+    ],
     "categories": []
   },
   {
@@ -4856,6 +4860,52 @@
       "https://en.wikipedia.org/wiki/Minaret_of_Jam"
     ],
     "categories": ["monument", "archaeological", "unesco"]
+  },
+  {
+    "answer": "Golden Gate Bridge / Irving Morrow, Joseph Strauss, Charles Ellis, Leon Solomon Moisseiff / San Francisco Bay, California, United States of America (USA)",
+    "days": [348],
+    "copyrights": [
+      {
+        "1": "Jet Lowe (wikimedia)",
+        "2": "Sebring12Hrs (wikimedia)",
+        "3": "CGP Grey (wikimedia)",
+        "4": "Calibas (wikimedia)",
+        "5": "Daniel L. Lu (wikimedia)",
+        "6": "Frank Schulenburg (wikimedia)"
+      }
+    ],
+    "years": "1933-1937",
+    "links": ["https://en.wikipedia.org/wiki/Golden_Gate_Bridge"],
+    "categories": ["famous", "bridge"]
+  },
+  {
+    "answer": "Rolex Learning Center (EPFL) / SANAA / Lausanne, Switzerland",
+    "days": [349],
+    "copyrights": [
+      {
+        "*": "Iwan Baan"
+      }
+    ],
+    "years": "2007-2010",
+    "links": ["https://en.wikipedia.org/wiki/Rolex_Learning_Center"],
+    "categories": ["contemporary"]
+  },
+  {
+    "answer": "Notre-Dame de Paris (Cathedral) / Jean de Chelles, Pierre de Chelles, Pierre de Montreuil, Eugène-Emmanuel Viollet-le-Duc / Paris, France",
+    "days": [350],
+    "copyrights": [
+      {
+        "1": "Zachi Evenor (wikimedia)",
+        "2": "Jebulon (wikimedia)",
+        "3": "Charles Percier (wikimedia)",
+        "4": "GodefroyParis (wikimedia)",
+        "5": "Peter Haas (wikimedia)",
+        "6": "Zuffe (wikimedia)"
+      }
+    ],
+    "years": "1163-1345",
+    "links": ["https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"],
+    "categories": ["monument", "famous", "church"]
   },
 
   {
