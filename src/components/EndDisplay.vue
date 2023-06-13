@@ -86,6 +86,7 @@ const copy = async () => {
 
 const openLinks = () => {
   props.links.forEach((url) => window.open(url, "_blank")?.focus());
+  sendEvent("Learn");
 };
 </script>
 
