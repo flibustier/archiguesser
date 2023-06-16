@@ -4935,7 +4935,26 @@
       }
     ],
     "years": "2011",
-    "links": ["https://en.wikipedia.org/wiki/Oscar_Niemeyer_International_Cultural_Centre"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Oscar_Niemeyer_International_Cultural_Centre"
+    ],
+    "categories": ["museum"]
+  },
+  {
+    "answer": "British Museum / Robert Smirke, Sidney Smirke, John Taylor, Norman Foster / London, United Kingdom (UK)",
+    "days": [354],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Museum",
+        "2": "HOK",
+        "3": "Diliff (wikimedia)",
+        "4": "Diliff (wikimedia)",
+        "5": "Ham (wikimedia)",
+        "6": "Luke Massey (wikimedia)"
+      }
+    ],
+    "years": "1823-1852,1914,2000",
+    "links": ["https://en.wikipedia.org/wiki/British_Museum"],
     "categories": ["museum"]
   },
   {
