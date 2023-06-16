@@ -1132,7 +1132,7 @@
   },
   {
     "answer": "Eames House (Case Study House nº8) / Charles Eames / Pacific Palisades, Santa Mónica, California, United States of America (USA)",
-    "days": [74],
+    "days": [74, 351],
     "copyrights": [
       {
         "*": "Courtesy of the Foundation"
@@ -1143,7 +1143,7 @@
       "https://en.wikipedia.org/wiki/Eames_House",
       "https://en.wikiarquitectura.com/building/Eames-House/"
     ],
-    "categories": []
+    "categories": ["housing", "classic"]
   },
   {
     "answer": "Château de Versailles / Louis Le Vau, Jules Hardouin-Mansart, Robert de Cotte, Jacques V Gabriel, Ange-Jacques Gabriel, André Le Nôtre, Frédéric Nepveu, Philibert Le Roy, Dominique Perrault / Versailles, France",
@@ -4907,7 +4907,56 @@
     "links": ["https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"],
     "categories": ["monument", "famous", "church"]
   },
-
+  {
+    "answer": "Tokyo Apartments / Sou Fujimoto Architects / Komone, Itabashiku, Tokyo, Japan",
+    "days": [352],
+    "copyrights": [
+      {
+        "*": "Iwan Baan",
+        "3": "Edmund Sumner (dezeen)",
+        "6": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2010",
+    "links": [
+      "https://www.dezeen.com/2010/10/05/tokyo-apartment-by-sou-fujimoto-architects/"
+    ],
+    "categories": ["housing"]
+  },
+  {
+    "answer": "Oscar Niemeyer International Cultural Centre (Centro Niemeyer) / Oscar Niemeyer / Avilés, Asturias, Spain",
+    "days": [353],
+    "copyrights": [
+      {
+        "*": "Duccio Malagamba",
+        "2": "SurfAst (wikimedia)",
+        "4": "SurfAst (wikimedia)",
+        "5": "Zarateman (wikimedia)"
+      }
+    ],
+    "years": "2011",
+    "links": [
+      "https://en.wikipedia.org/wiki/Oscar_Niemeyer_International_Cultural_Centre"
+    ],
+    "categories": ["museum"]
+  },
+  {
+    "answer": "British Museum / Robert Smirke, Sidney Smirke, John Taylor, Norman Foster / London, United Kingdom (UK)",
+    "days": [354],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Museum",
+        "2": "HOK",
+        "3": "Diliff (wikimedia)",
+        "4": "Diliff (wikimedia)",
+        "5": "Ham (wikimedia)",
+        "6": "Luke Massey (wikimedia)"
+      }
+    ],
+    "years": "1823-1852,1914,2000",
+    "links": ["https://en.wikipedia.org/wiki/British_Museum"],
+    "categories": ["museum"]
+  },
   {
     "answer": "",
     "days": [0],
