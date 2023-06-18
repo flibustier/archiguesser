@@ -2,12 +2,10 @@
 import { ref, watch, computed } from "vue";
 import PicturePaginator from "./PicturePaginator.vue";
 
-const pictureShown = ref(1);
-
 const props = defineProps({
   maxPictures: {
     type: Number,
-    required: true,
+    default: 1,
   },
   dayNumber: {
     type: Number,
@@ -17,7 +15,13 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  onlyLastPicture: {
+    type: Boolean,
+    default: false,
+  },
 });
+
+const pictureShown = ref(props.onlyLastPicture ? 6 : 1);
 
 watch(
   () => props.maxPictures,
@@ -34,26 +38,29 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 </script>
 
 <template>
-  <img
-    :alt="`Picture ${pictureShown}`"
-    class="picture"
-    :src="imgSrc(pictureShown)"
-  />
-  <link
-    v-if="pictureShown < 6"
-    rel="prefetch"
-    as="image"
-    type="image/jpeg"
-    :href="imgSrc(pictureShown + 1)"
-  />
-  <div class="credit">
-    <span v-if="pictureCopyright">📷</span>&nbsp;{{ pictureCopyright }}
-  </div>
+  <div>
+    <img
+      :alt="`Picture ${pictureShown}`"
+      class="picture"
+      :src="imgSrc(pictureShown)"
+    />
+    <link
+      v-if="pictureShown < 6"
+      rel="prefetch"
+      as="image"
+      type="image/jpeg"
+      :href="imgSrc(pictureShown + 1)"
+    />
+    <div class="credit">
+      <span v-if="pictureCopyright">📷</span>&nbsp;{{ pictureCopyright }}
+    </div>
 
-  <PicturePaginator
-    :current-round="maxPictures"
-    v-model:picture-shown="pictureShown"
-  />
+    <PicturePaginator
+      v-if="!onlyLastPicture"
+      :current-round="maxPictures"
+      v-model:picture-shown="pictureShown"
+    />
+  </div>
 </template>
 
 <style scoped>

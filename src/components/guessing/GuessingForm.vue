@@ -149,7 +149,7 @@ const navigate = (direction: "up" | "down") => {
 }
 
 .suggestions .is-focus {
-  background-color: hsl(0, 0%, 90%);
+  background-color: var(--color-light-background);
 }
 
 .form-line {

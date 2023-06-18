@@ -32,6 +32,18 @@ export const isMonument = (dayNumber: number): boolean => {
   return categories.includes("monument");
 };
 
+export const getProjectsByCategory = (category: string) => {
+  const filtered = data.filter(({ categories = [] }) =>
+    categories.includes(category)
+  );
+
+  if (filtered.length > 0) {
+    return filtered;
+  }
+
+  return data.filter(({ answer }) => answer.includes(category));
+};
+
 export const getDayInformation = (
   day?: string | null
 ): {

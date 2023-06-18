@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 
-import { sendEvent } from "@/analytics";
+import { sendEvent } from "@/api";
 import { URL, APP_NAME } from "../config.json";
 import IconBack from "./icons/IconBack.vue";
 import IconCopy from "./icons/IconCopy.vue";
@@ -149,35 +149,9 @@ const openLinks = () => {
   margin-top: 0.5rem;
 }
 
-h2 {
-  line-height: 1.75rem;
-  text-align: center;
-}
-
 .emphasis {
   margin-top: 0.5rem;
   font-weight: 500;
-}
-
-#share-message :deep(.square) {
-  display: inline-block;
-  vertical-align: middle;
-  height: 1rem;
-  width: 1rem;
-  border-radius: 0.125rem;
-  color: transparent;
-}
-
-#share-message :deep(.red) {
-  background-color: red;
-}
-
-#share-message :deep(.green) {
-  background-color: green;
-}
-
-#share-message :deep(.black) {
-  background-color: black;
 }
 
 .answer {

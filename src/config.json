@@ -1,4 +1,8 @@
 {
   "APP_NAME": "ArchiGuesser",
-  "URL": "https://archiguesser.com"
+  "URL": "https://archiguesser.com",
+  "ITEMS_PER_LEVEL": 5,
+  "MAX_LEVEL": 5,
+  "ANONYMOUS_RETRIES": 3,
+  "LOGGED_RETRIES": 7
 }

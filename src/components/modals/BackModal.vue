@@ -103,8 +103,6 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
         </div>
       </div>
     </template>
-
-    <template #footer> </template>
   </BaseModal>
 </template>
 
@@ -149,8 +147,8 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
 }
 
 .image-cell {
-  width: 200px;
-  height: 200px;
+  width: 202px;
+  height: 202px;
   font-size: large;
 }
 
