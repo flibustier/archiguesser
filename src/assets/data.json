@@ -37,7 +37,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/German-Pavilion-in-Barcelona/"
     ],
-    "categories": []
+    "categories": ["classic"]
   },
   {
     "answer": "Cultural Center Georges Pompidou / Richard Rogers, Renzo Piano, Gianfranco Franchini / Paris, France",
@@ -62,7 +62,7 @@
     ],
     "years": "1971–1977",
     "links": ["https://en.wikipedia.org/wiki/Centre_Pompidou"],
-    "categories": []
+    "categories": ["museum", "classic"]
   },
   {
     "answer": "NEMO – Science Museum / Renzo Piano / Amsterdam, Netherlands",
@@ -139,7 +139,7 @@
       "https://en.wikipedia.org/wiki/Louvre_Museum",
       "https://en.wikiarquitectura.com/building/Louvre-Museum/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Eden Project / Nicholas Grimshaw / Cornwall, United Kingdom (UK)",
@@ -154,7 +154,7 @@
       "https://en.wikipedia.org/wiki/Eden_Project",
       "https://en.wikiarquitectura.com/building/Eden-Project/"
     ],
-    "categories": []
+    "categories": ["favorite"]
   },
   {
     "answer": "Chrysler Building / William Van Allen / New York, United States of America (USA)",
@@ -212,7 +212,7 @@
     ],
     "years": "1998",
     "links": ["https://en.wikipedia.org/wiki/Gare_do_Oriente"],
-    "categories": ["neo-futurism", "infrastructure"]
+    "categories": ["neo-futurism", "infrastructure", "favorite"]
   },
   {
     "answer": "Le Monde Group Headquarters / Snøhetta / Paris, France",
@@ -244,7 +244,7 @@
       "https://en.wikipedia.org/wiki/Flatiron_Building",
       "https://en.wikiarquitectura.com/building/Flatiron-Building/"
     ],
-    "categories": []
+    "categories": ["famous"]
   },
   {
     "answer": "Villa La Mediterranee / Boeri Studio / Marseille, France",
@@ -269,7 +269,7 @@
       "https://en.wikipedia.org/wiki/Taj_Mahal",
       "https://en.wikiarquitectura.com/building/Taj-Mahal/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "MIM-Musical Instrument Museum / Barnabé Guimard, Paul Saintenoy / Brussels, Belgium",
@@ -298,7 +298,7 @@
       "https://en.wikipedia.org/wiki/Casa_da_Musica",
       "https://en.wikiarquitectura.com/building/Casa-da-Musica/"
     ],
-    "categories": []
+    "categories": ["contemporary"]
   },
   {
     "answer": "Bosco Verticale (Vertical Forest) / Stefano Boeri, Gianandrea Barreca, Giovanni La Varra / Milan, Italy",
@@ -320,7 +320,7 @@
     ],
     "years": "2009-2014",
     "links": ["https://en.wikipedia.org/wiki/Bosco_Verticale"],
-    "categories": []
+    "categories": ["favorite"]
   },
   {
     "answer": "Guggenheim Bilbao / Frank Gehry / Bilbao, Spain",
@@ -400,7 +400,7 @@
       "https://en.wikipedia.org/wiki/Three_Powers_Square",
       "https://en.wikiarquitectura.com/building/Three-Powers-Square/"
     ],
-    "categories": []
+    "categories": ["modern"]
   },
   {
     "answer": "Heydar Aliyev Cultural Center / Zaha Hadid, Patrick Schumacher, Saffet Kaya Bekiroglu / Baku, Azerbaijan",
@@ -462,7 +462,7 @@
       "https://en.wikipedia.org/wiki/Sagrada_Familia",
       "https://en.wikiarquitectura.com/building/Sagrada-Familia/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Senedd building (Welsh Parliament) / Richard Rogers / Cardiff, Wales, United Kingdom (UK)",
@@ -478,7 +478,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Senedd_building"],
-    "categories": []
+    "categories": ["favorite"]
   },
   {
     "answer": "Fallingwater House / Frank Lloyd Wright / Pennsylvania, United States of America (USA)",
@@ -494,7 +494,7 @@
       "https://en.wikiarquitectura.com/building/Fallingwater-House/",
       "https://en.wikipedia.org/wiki/Fallingwater"
     ],
-    "categories": []
+    "categories": ["housing", "classic"]
   },
   {
     "answer": "Angkor Wat / Siem Reap, Cambodia",
@@ -706,7 +706,7 @@
       "https://en.wikipedia.org/wiki/Parthenon",
       "https://en.wikiarquitectura.com/building/Parthenon/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Chandigarh / Le Corbusier / Punjab-Haryane, Chandigarh, India",
@@ -721,7 +721,7 @@
       "https://en.wikipedia.org/wiki/Chandigarh",
       "https://en.wikiarquitectura.com/building/Chandigarh/"
     ],
-    "categories": []
+    "categories": ["modern"]
   },
   {
     "answer": "House in Monsaraz / Aires Mateus / Monsaraz, Portugal",
@@ -965,7 +965,7 @@
       "https://en.wikipedia.org/wiki/Guggenheim_Museum_in_New_York",
       "https://en.wikiarquitectura.com/building/Guggenheim-Museum-in-New-York/"
     ],
-    "categories": []
+    "categories": ["museum", "classic", "famous"]
   },
   {
     "answer": "Rietveld-Schröder House / Gerrit Rietveld / Utrecht, Netherlands",
@@ -1172,7 +1172,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Château_de_Versailles"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Piscina des Marés (Leça Swimming Pools) / Álvaro Siza Vieira / Leca da Palmeira, Matosinhos, Portugal",
@@ -1232,7 +1232,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Forbidden_City"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Bauhaus building in Dessau / Walter Gropius / Dessau, Germany",
@@ -1267,7 +1267,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/Convent-of-Sainte-Marie-Tourette/"
     ],
-    "categories": []
+    "categories": ["modern"]
   },
   {
     "answer": "Eco Boulevard in Vallecas / Ecosistema Urbano, Belinda Tato, Jose Luis Vallejo, Diego García-Setién / Madrid, Spain",
@@ -1375,7 +1375,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Roman_Pantheon"],
-    "categories": []
+    "categories": ["famous"]
   },
   {
     "answer": "Maison de Verre (Glass House) / Bernard Bijvoet, Pierre Chareau / Paris, France",
@@ -1448,7 +1448,7 @@
       "https://en.wikipedia.org/wiki/The_Alhambra",
       "https://en.wikiarquitectura.com/building/The-Alhambra/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Calgary's new Central Library / Snøhetta / Calgary, Alberta, Canada",
@@ -1548,7 +1548,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/French-Communist-Party-Headquarters/"
     ],
-    "categories": []
+    "categories": ["modern"]
   },
   {
     "answer": "Vanna Venturi House / Robert Venturi / Chestnut Hill, Philadelphia, Pennsylvania, United States of America (USA)",
@@ -1649,7 +1649,7 @@
     ],
     "years": "1970-1972",
     "links": ["https://en.wikipedia.org/wiki/Nakagin_Capsule_Tower"],
-    "categories": []
+    "categories": ["favorite"]
   },
   {
     "answer": "City of Sanaa (Tower houses) / Yemen",
@@ -1714,7 +1714,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Hagia_Sophia_Grand_Mosque"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Louvre Lens / SANAA, Kazuyo Sejima / Lens, France",
@@ -1875,7 +1875,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Petra"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Paris Courthouse (Tribunal de Paris) / Renzo Piano Building Workshop / Paris, France",
@@ -2196,7 +2196,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Machu_Picchu"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Kunsthaus de Graz / Colin Fournier, Peter Cook / Graz, Austria",
@@ -2959,7 +2959,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Mont-Saint-Michel_Abbey"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Lingotto factory building (Fiat) / Giacomo Matté-Trucco, Renzo Piano / Turin, Italy",
@@ -3046,7 +3046,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Atomium"],
-    "categories": []
+    "categories": ["famous", "favorite"]
   },
   {
     "answer": "Trinity College and Library / Thomas Burgh, Thomas Deane, Benjamin Woodward, William Chambers / Dublin, Ireland",
@@ -3621,7 +3621,7 @@
     ],
     "years": "1357-1402",
     "links": ["https://en.wikipedia.org/wiki/Charles_Bridge"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Bolwoningen (Ball House) / Dries Kreijkamp / Den Bosch, Netherlands",
@@ -3868,7 +3868,7 @@
       "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
       "https://en.wikiarquitectura.com/building/Brooklyn-Bridge/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "bridge", "famous"]
   },
   {
     "answer": "Quai Branly Museum - Jacques Chirac / Jean Nouvel / Paris, France",
@@ -4029,7 +4029,7 @@
       "https://en.wikipedia.org/wiki/Empire_State_Building",
       "https://en.wikiarquitectura.com/building/Empire-State-Building/"
     ],
-    "categories": []
+    "categories": ["famous", "skyscraper"]
   },
   {
     "answer": "Louis Vuitton Foundation / Frank Gehry / Paris, France",
@@ -4133,7 +4133,7 @@
       "https://en.wikipedia.org/wiki/HSB_Turning_Torso",
       "https://en.wikiarquitectura.com/building/HSB-Turning-Torso/"
     ],
-    "categories": []
+    "categories": ["contemporary"]
   },
   {
     "answer": "Borgund Stave Church (Borgund Stavkyrkje) / Unknown / Lærdal, Vestland, Norway",
@@ -4401,7 +4401,7 @@
     ],
     "years": "1506-1626",
     "links": ["https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous", "church"]
   },
   {
     "answer": "Petronas Towers / Cesar Pelli / Kuala Lumpur, Malaysia",
@@ -4465,7 +4465,7 @@
     ],
     "years": "-1970",
     "links": ["https://en.wikipedia.org/wiki/Karnak"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "The Sage Gateshead Auditorium / Norman Foster / Tyne and Wear, Gateshead, United Kingdom (UK)",
@@ -4618,7 +4618,7 @@
     ],
     "years": "-2570",
     "links": ["https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"],
-    "categories": ["monument"]
+    "categories": ["monument", "famous"]
   },
   {
     "answer": "Sony Center / Helmut Jahn / Potsdamer Platz, Berlin, Germany",

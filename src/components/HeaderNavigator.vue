@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import IconBack from "./icons/IconBack.vue";
 import IconHelp from "./icons/IconHelp.vue";
+import IconUser from "./icons/IconUser.vue";
+import IconTrophy from "./icons/IconTrophy.vue";
+
+defineEmits([
+  "showArcadeModal",
+  "showBackModal",
+  "showInfoModal",
+  "showUserModal",
+]);
 </script>
 
 <template>
@@ -10,11 +19,17 @@ import IconHelp from "./icons/IconHelp.vue";
         <a href="/" id="brand">ARCHIGUESSER</a>
       </div>
       <div class="nav-block nav-right">
+        <a @click="$emit('showArcadeModal')">
+          <IconTrophy />
+        </a>
         <a @click="$emit('showBackModal')">
           <IconBack />
         </a>
         <a @click="$emit('showInfoModal')">
           <IconHelp />
+        </a>
+        <a @click="$emit('showUserModal')">
+          <IconUser />
         </a>
       </div>
     </div>

@@ -1,9 +1,9 @@
-const answers = require("../../src/assets/answers.json");
+const data = require("../../src/assets/data.json");
 
 const stats = {};
 
-for (const day in answers) {
-  const answer = answers[day];
+for (const day of data) {
+  const answer = day.answer;
   answer
     .split(" / ")
     .slice(1)

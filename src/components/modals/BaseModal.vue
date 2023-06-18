@@ -30,7 +30,7 @@ const closeModal = () => {
       </div>
       <div class="modal-body">
         <slot></slot>
-        <div class="modal-footer">
+        <div class="modal-footer" v-if="$slots.footer">
           <slot name="footer"></slot>
         </div>
       </div>
@@ -49,9 +49,11 @@ const closeModal = () => {
   overflow: auto;
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  display: flex;
 }
 
 .modal-content {
+  align-self: center;
   background-color: var(--color-background);
   margin: auto;
   padding: 1.5rem;
