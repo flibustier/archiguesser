@@ -2056,7 +2056,7 @@
   },
   {
     "answer": "United Nations Headquarters in New York / Le Corbusier, Harrison Wallace Kirkman, Nikolai Bassov, Gaston Brunfaut, Ernest Cormier, Liang Seu-Cheng, Sven Markelius, Oscar Niemeyer, Howard Robertson, Argyle Soilleux Garnet, Julio Vilamajo / New York, United States of America (USA)",
-    "days": [143],
+    "days": [143, 355],
     "copyrights": [
       {
         "3": "Jonathan Platteau",
@@ -2064,11 +2064,12 @@
         "*": "wikiarquitectura"
       }
     ],
+    "years": "1948-1952",
     "links": [
       "https://en.wikipedia.org/wiki/United_Nations_Headquarters_in_New_York",
       "https://en.wikiarquitectura.com/building/United-Nations-Headquarters-in-New-York/"
     ],
-    "categories": []
+    "categories": ["classic", "modern"]
   },
   {
     "answer": "Santa Maria del Fiore (Florence Cathedral) / Filippo Brunelleschi, Arnolfo Di Cambio, Giotto di Bondone, Andrea Pisano, Emilio De Fabris / Florence, Italy",
@@ -4956,6 +4957,21 @@
     "years": "1823-1852,1914,2000",
     "links": ["https://en.wikipedia.org/wiki/British_Museum"],
     "categories": ["museum"]
+  },
+  {
+    "answer": "Helix Bridge / Cox Architecture, Architects 61, Arup / Downtown Core, Singapore",
+    "days": [356],
+    "copyrights": [
+      {
+        "*": "Christopher Frederick Jones",
+        "1": "Courtesy of the Architect",
+        "2": "Angus Martin",
+        "6": "Zairon (wikimedia)"
+      }
+    ],
+    "years": "2007-2010",
+    "links": ["https://en.wikipedia.org/wiki/Helix_Bridge"],
+    "categories": ["bridge", "contemporary"]
   },
   {
     "answer": "",
