@@ -4974,6 +4974,40 @@
     "categories": ["bridge", "contemporary"]
   },
   {
+    "answer": "Galeries Lafayette Haussmann / Georges Chedanne, Louis Majorelle, Pierre Patout, Ferdinand Chanut / Paris, France",
+    "days": [357],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Owner",
+        "3": "Myr Muratet",
+        "5": "Benh LIEU SONG (flickr)",
+        "6": "Dimitri Destugues (wikimedia)"
+      }
+    ],
+    "years": "1894",
+    "links": [
+      "https://en.wikipedia.org/wiki/Galeries_Lafayette#Paris_Haussmann"
+    ],
+    "categories": ["shopping"]
+  },
+  {
+    "answer": "The Leaning Tower of Pisa / Bonanno Pisano / Pisa, Italy",
+    "days": [360],
+    "copyrights": [
+      {
+        "1": "FrDr (wikimedia)",
+        "2": "kajikawa (wikimedia)",
+        "3": "jimmyweee (wikimedia)",
+        "4": "Miguel Hermoso Cuesta (wikimedia)",
+        "5": "FrDr (wikimedia)",
+        "6": "Arne Müseler (wikimedia)"
+      }
+    ],
+    "years": "1173-1372",
+    "links": ["https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"],
+    "categories": ["monument", "famous"]
+  },
+  {
     "answer": "",
     "days": [0],
     "copyrights": [
