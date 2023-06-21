@@ -77,7 +77,7 @@
   },
   {
     "answer": "Tate Modern / Herzog & de Meuron, Jacques Herzog, Pierre De Meuron / Bankside, London, United Kingdom (UK)",
-    "days": [4],
+    "days": [4, 358],
     "copyrights": [
       {
         "1": "Darrell Godliman",
@@ -93,7 +93,7 @@
       "https://en.wikipedia.org/wiki/Tate_Modern",
       "https://en.wikiarquitectura.com/building/Tate-Modern/"
     ],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Arch of Defense (Grande Arche) / Paul Andreu, Johan Otto Von Spreckelsen / Paris, France",
@@ -4989,6 +4989,21 @@
       "https://en.wikipedia.org/wiki/Galeries_Lafayette#Paris_Haussmann"
     ],
     "categories": ["shopping"]
+  },
+  {
+    "answer": "Academy of Sciences in California / Renzo Piano, Stantec Architecture / Golden Park, San Francisco, California, United States of America (USA)",
+    "days": [359],
+    "copyrights": [
+      {
+        "*": "Tim Griffith",
+        "2": "Nic Lehoux",
+        "3": "Courtesy of the Architect",
+        "6": "Dennis Jarvis (wikimedia)"
+      }
+    ],
+    "years": "2008",
+    "links": ["https://en.wikipedia.org/wiki/California_Academy_of_Sciences"],
+    "categories": ["contemporary", "museum"]
   },
   {
     "answer": "The Leaning Tower of Pisa / Bonanno Pisano / Pisa, Italy",
