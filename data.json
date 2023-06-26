@@ -5023,6 +5023,53 @@
     "categories": ["monument", "famous"]
   },
   {
+    "answer": "De Rotterdam / OMA, Rem Koolhaas / Rotterdam, Netherlands",
+    "days": [361],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "1": "Martin Falbisoner (wikimedia)",
+        "6": "Martin Falbisoner (wikimedia)"
+      }
+    ],
+    "years": "2009-2013",
+    "links": ["https://www.oma.com/projects/de-rotterdam"],
+    "categories": ["contemporary"]
+  },
+  {
+    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
+    "days": [362],
+    "copyrights": [
+      {
+        "*": "Steve Cadman",
+        "4": "Rory Hyde",
+        "5": "Rory Hyde"
+      }
+    ],
+    "years": "1923-1925",
+    "links": [
+      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
+    ],
+    "categories": ["modern"]
+  },
+  {
+    "answer": "CN Tower / John Andrews, Webb Zerafa, Menkes Housden / Toronto, Canada",
+    "days": [363],
+    "copyrights": [
+      {
+        "1": "Franklin.vp (wikimedia)",
+        "2": "Chensiyuan (wikimedia)",
+        "3": "WikiPedant (wikimedia)",
+        "4": "Taxiarchos228 (wikimedia)",
+        "5": "Keith Pomakis (wikimedia)",
+        "6": "Benson Kua (wikimedia)"
+      }
+    ],
+    "years": "1973-1976",
+    "links": ["https://en.wikipedia.org/wiki/CN_Tower"],
+    "categories": ["skyscraper"]
+  },
+  {
     "answer": "",
     "days": [0],
     "copyrights": [
