@@ -694,7 +694,7 @@
   },
   {
     "answer": "Chandigarh / Le Corbusier / Punjab-Haryane, Chandigarh, India",
-    "days": [44],
+    "days": [44, 362],
     "copyrights": [
       {
         "*": "Laurian Ghinitoiu"
@@ -5038,7 +5038,7 @@
   },
   {
     "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
-    "days": [362],
+    "days": [],
     "copyrights": [
       {
         "*": "Steve Cadman",
