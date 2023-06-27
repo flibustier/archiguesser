@@ -5037,22 +5037,6 @@
     "categories": ["contemporary"]
   },
   {
-    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
-    "days": [],
-    "copyrights": [
-      {
-        "*": "Steve Cadman",
-        "4": "Rory Hyde",
-        "5": "Rory Hyde"
-      }
-    ],
-    "years": "1923-1925",
-    "links": [
-      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
-    ],
-    "categories": ["modern"]
-  },
-  {
     "answer": "CN Tower / John Andrews, Webb Zerafa, Menkes Housden / Toronto, Canada",
     "days": [363],
     "copyrights": [
@@ -5068,6 +5052,57 @@
     "years": "1973-1976",
     "links": ["https://en.wikipedia.org/wiki/CN_Tower"],
     "categories": ["skyscraper"]
+  },
+  {
+    "answer": "Buckingham Palace / Capt. William Winde, Sir John Nash, Edward Blore FSA, Aston Webb / Westminster, London, United Kingdom (UK)",
+    "days": [364],
+    "copyrights": [
+      {
+        "*": "",
+        "1": "Derry Moore, Peter Smith",
+        "2": "William Westall (wikimedia)",
+        "3": "The White House (wikimedia)",
+        "4": "Shealah Craighead (wikimedia)",
+        "5": "Diliff (wikimedia)",
+        "6": "Matthew Gerry Gerrard (wikimedia)"
+      }
+    ],
+    "years": "1703-1826",
+    "links": ["https://en.wikipedia.org/wiki/Buckingham_Palace"],
+    "categories": ["monument", "famous"]
+  },
+  {
+    "answer": "Opéra national de Lyon (Nouvel Opera House) / Jean Nouvel, Antoine-Marie Chenavard, Jean-Marie Pollet / Lyon, France",
+    "days": [365],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "1": "E. de Rolland & D. Clouzet (Bibliothèque nationale de France) (wikimedia)",
+        "6": "Robot8A (wikimedia)"
+      }
+    ],
+    "years": "1831,1986-1993",
+    "links": [
+      "http://www.jeannouvel.com/en/projects/opera-3/",
+      "https://en.wikipedia.org/wiki/Op%C3%A9ra_Nouvel"
+    ],
+    "categories": ["opera"]
+  },
+  {
+    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
+    "days": [],
+    "copyrights": [
+      {
+        "*": "Steve Cadman",
+        "4": "Rory Hyde",
+        "5": "Rory Hyde"
+      }
+    ],
+    "years": "1923-1925",
+    "links": [
+      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
+    ],
+    "categories": ["modern"]
   },
   {
     "answer": "",
