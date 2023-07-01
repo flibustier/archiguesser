@@ -158,12 +158,19 @@
   },
   {
     "answer": "Chrysler Building / William Van Allen / New York, United States of America (USA)",
-    "days": [9],
+    "days": [9, 366],
     "copyrights": [
       {
         "2": "New York Architecture",
         "4": "New York Architecture",
         "*": "wikiarquitectura"
+      },
+      {
+        "*": "wikiarquitectura",
+        "1": "Julius Schorzman (wikimedia)",
+        "2": "Dogears (wikimedia)",
+        "3": "New York Architecture",
+        "4": "Postdlf (wikimedia)"
       }
     ],
     "years": "1928-1930",
@@ -171,7 +178,7 @@
       "https://en.wikipedia.org/wiki/Chrysler_Building",
       "https://en.wikiarquitectura.com/building/Chrysler-Building/"
     ],
-    "categories": []
+    "categories": ["skyscraper"]
   },
   {
     "answer": "100 11th Avenue Building / Jean Nouvel / Chelsea, New York, United States of America (USA)",
