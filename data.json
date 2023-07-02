@@ -5108,20 +5108,51 @@
     "categories": ["museum", "contemporary"]
   },
   {
-    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
-    "days": [],
+    "answer": "Copenhagen Opera House (Royal Danish Opera) / Henning Larsen / Copenhagen, Denmark",
+    "days": [368],
     "copyrights": [
       {
-        "*": "Steve Cadman",
-        "4": "Rory Hyde",
-        "5": "Rory Hyde"
+        "*": "Adam Mørk",
+        "6": "Julian Herzog (wikimedia)"
       }
     ],
-    "years": "1923-1925",
-    "links": [
-      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
+    "years": "2001-2004",
+    "links": ["https://en.wikipedia.org/wiki/Copenhagen_Opera_House"],
+    "categories": ["opera", "contemporary", "neo-futurism"]
+  },
+  {
+    "answer": "Natural History Museum / Alfred Waterhouse / London, United Kingdom (UK)",
+    "days": [369],
+    "copyrights": [
+      {
+        "1": "Diliff (wikimedia)",
+        "2": "Fabien Lacroix (wikimedia)",
+        "3": "Fernando Losada Rodríguez (wikimedia)",
+        "4": "jhlau (wikimedia)",
+        "5": "Stinglehammer (wikimedia)",
+        "6": "Diliff (wikimedia)"
+      }
     ],
-    "categories": ["modern"]
+    "years": "1873-1881",
+    "links": ["https://en.wikipedia.org/wiki/Natural_History_Museum,_London"],
+    "categories": ["museum", "monument"]
+  },
+  {
+    "answer": "Azadi Tower (Shahyad Tower) / Hossein Amanat / Tehran, Iran",
+    "days": [370],
+    "copyrights": [
+      {
+        "1": "Stefano Vigorelli (wikimedia)",
+        "2": "Bjørn Christian Tørrissen (wikimedia)",
+        "3": "Amirhossein Nikroo (wikiarquitectura)",
+        "4": "Courtesy of the Architect",
+        "5": "Stefano Vigorelli (wikimedia)",
+        "6": "Blondinrikard Fröberg (wikimedia)"
+      }
+    ],
+    "years": "1971",
+    "links": ["https://en.wikipedia.org/wiki/Azadi_Tower"],
+    "categories": []
   },
   {
     "answer": "",
@@ -5140,5 +5171,21 @@
     "years": "",
     "links": [],
     "categories": []
+  },
+  {
+    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
+    "days": [],
+    "copyrights": [
+      {
+        "*": "Steve Cadman",
+        "4": "Rory Hyde",
+        "5": "Rory Hyde"
+      }
+    ],
+    "years": "1923-1925",
+    "links": [
+      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
+    ],
+    "categories": ["modern"]
   }
 ]
