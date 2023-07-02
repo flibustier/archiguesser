@@ -70,7 +70,7 @@ const downloadFile = (directory) => (url, index) =>
     responseType: "stream",
   }).then((response) =>
     response.data.pipe(
-      createWriteStream(`./${directory}/x${index}-${basename(url)}`)
+      createWriteStream(`./${directory}/x${index}-${decodeURI(basename(url))}`)
     )
   );
 
