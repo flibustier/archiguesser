@@ -5138,21 +5138,20 @@
     "categories": ["museum", "monument"]
   },
   {
-    "answer": "",
+    "answer": "Azadi Tower (Shahyad Tower) / Hossein Amanat / Tehran, Iran",
     "days": [370],
     "copyrights": [
       {
-        "*": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": "",
-        "6": ""
+        "1": "Stefano Vigorelli (wikimedia)",
+        "2": "Bjørn Christian Tørrissen (wikimedia)",
+        "3": "Amirhossein Nikroo (wikiarquitectura)",
+        "4": "Courtesy of the Architect",
+        "5": "Stefano Vigorelli (wikimedia)",
+        "6": "Blondinrikard Fröberg (wikimedia)"
       }
     ],
-    "years": "",
-    "links": [],
+    "years": "1971",
+    "links": ["https://en.wikipedia.org/wiki/Azadi_Tower"],
     "categories": []
   },
   {
