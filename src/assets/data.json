@@ -5121,20 +5121,39 @@
     "categories": ["opera", "contemporary", "neo-futurism"]
   },
   {
-    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
-    "days": [],
+    "answer": "Natural History Museum / Alfred Waterhouse / London, United Kingdom (UK)",
+    "days": [369],
     "copyrights": [
       {
-        "*": "Steve Cadman",
-        "4": "Rory Hyde",
-        "5": "Rory Hyde"
+        "1": "Diliff (wikimedia)",
+        "2": "Fabien Lacroix (wikimedia)",
+        "3": "Fernando Losada Rodríguez (wikimedia)",
+        "4": "jhlau (wikimedia)",
+        "5": "Stinglehammer (wikimedia)",
+        "6": "Diliff (wikimedia)"
       }
     ],
-    "years": "1923-1925",
-    "links": [
-      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
+    "years": "1873-1881",
+    "links": ["https://en.wikipedia.org/wiki/Natural_History_Museum,_London"],
+    "categories": ["museum", "monument"]
+  },
+  {
+    "answer": "",
+    "days": [370],
+    "copyrights": [
+      {
+        "*": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
+      }
     ],
-    "categories": ["modern"]
+    "years": "",
+    "links": [],
+    "categories": []
   },
   {
     "answer": "",
@@ -5153,5 +5172,21 @@
     "years": "",
     "links": [],
     "categories": []
+  },
+  {
+    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
+    "days": [],
+    "copyrights": [
+      {
+        "*": "Steve Cadman",
+        "4": "Rory Hyde",
+        "5": "Rory Hyde"
+      }
+    ],
+    "years": "1923-1925",
+    "links": [
+      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
+    ],
+    "categories": ["modern"]
   }
 ]
