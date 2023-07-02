@@ -5108,6 +5108,19 @@
     "categories": ["museum", "contemporary"]
   },
   {
+    "answer": "Copenhagen Opera House (Royal Danish Opera) / Henning Larsen / Copenhagen, Denmark",
+    "days": [368],
+    "copyrights": [
+      {
+        "*": "Adam Mørk",
+        "6": "Julian Herzog (wikimedia)"
+      }
+    ],
+    "years": "2001-2004",
+    "links": ["https://en.wikipedia.org/wiki/Copenhagen_Opera_House"],
+    "categories": ["opera", "contemporary", "neo-futurism"]
+  },
+  {
     "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
     "days": [],
     "copyrights": [
