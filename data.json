@@ -1325,7 +1325,7 @@
   },
   {
     "answer": "Sydney Opera House / Jørn Utzon, Ove Arup & Partners / Sydney, Australia",
-    "days": [88],
+    "days": [88, 371],
     "copyrights": [
       {
         "*": "Jozef Vissel"
@@ -1336,7 +1336,7 @@
       "https://en.wikipedia.org/wiki/Sydney_Opera_House",
       "https://en.wikiarquitectura.com/building/Sydney-Opera-House/"
     ],
-    "categories": []
+    "categories": ["famous", "opera"]
   },
   {
     "answer": "Yad Vashem Holocaust History Museum / Moshe Safdie / Har Hazikaron, Jerusalem, Israel",
