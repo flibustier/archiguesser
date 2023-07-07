@@ -5155,6 +5155,36 @@
     "categories": []
   },
   {
+    "answer": "Zarzuela’s Hippodrome / Eduardo Torroja, Carlos Arniches Moltó, Martín Domíngues Esteban / Madrid, Spain",
+    "days": [372],
+    "copyrights": [
+      {
+        "*": "Ana Amado"
+      }
+    ],
+    "years": "1934-1941",
+    "links": ["https://en.wikiarquitectura.com/building/zarzuelas-hippodrome/"],
+    "categories": ["modern"]
+  },
+  {
+    "answer": "New York Times Building / Renzo Piano / New York, United States of America (USA)",
+    "days": [373],
+    "copyrights": [
+      {
+        "*": "Michel Denancé",
+        "4": "Wade Zimmerman",
+        "5": "Ajay Suresh (wikimedia)",
+        "6": "Defears (wikimedia)"
+      }
+    ],
+    "years": "2004-2007",
+    "links": [
+      "https://en.wikipedia.org/wiki/The_New_York_Times_Building",
+      "http://www.rpbw.com/project/the-new-york-times-building"
+    ],
+    "categories": ["skyscraper"]
+  },
+  {
     "answer": "",
     "days": [0],
     "copyrights": [
