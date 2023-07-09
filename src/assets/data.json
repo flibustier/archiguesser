@@ -5219,6 +5219,21 @@
     "categories": ["museum", "contemporary"]
   },
   {
+    "answer": "Tokyo Skytree (東京スカイツリー) / Tadao Andō, Nikken Sekkei / Sumida, Tokyo, Japan",
+    "days": [377],
+    "copyrights": [
+      {
+        "*": "Kakidai (wikimedia)",
+        "2": "Namazu-tron (wikimedia)",
+        "3": "Alexey laa (wikimedia)",
+        "4": "Basile Morin (wikimedia)"
+      }
+    ],
+    "years": "2008-2012",
+    "links": ["https://en.wikipedia.org/wiki/Tokyo_Skytree"],
+    "categories": ["skyscraper", "neo-futurism"]
+  },
+  {
     "answer": "",
     "days": [0],
     "copyrights": [
