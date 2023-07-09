@@ -5185,6 +5185,23 @@
     "categories": ["skyscraper"]
   },
   {
+    "answer": "Hungarian Parliament Building (Országház) / Imre Steindl / Budapest, Hungary",
+    "days": [374],
+    "copyrights": [
+      {
+        "1": "Karelj (wikimedia)",
+        "2": "Adrian Grycuk (wikimedia)",
+        "3": "Wei-Te Wong (wikimedia)",
+        "4": "Alex Proimos (wikimedia)",
+        "5": "Jules Verne Times Two (wikimedia)",
+        "6": "Alireza Javaheri (wikimedia)"
+      }
+    ],
+    "years": "1885-1904",
+    "links": ["https://en.wikipedia.org/wiki/Hungarian_Parliament_Building"],
+    "categories": ["monument"]
+  },
+  {
     "answer": "Centre Pompidou Metz / Shigeru Ban, Jean De Gastines, Gumuchdjian Architects / Metz, France",
     "days": [375],
     "copyrights": [
