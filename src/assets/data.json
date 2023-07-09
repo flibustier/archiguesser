@@ -5185,6 +5185,23 @@
     "categories": ["skyscraper"]
   },
   {
+    "answer": "Centre Pompidou Metz / Shigeru Ban, Jean De Gastines, Gumuchdjian Architects / Metz, France",
+    "days": [375],
+    "copyrights": [
+      {
+        "1": "Christian Ries (wikimedia)",
+        "2": "Bava Alcide57 (wikimedia)",
+        "3": "MOSSOT (wikimedia)",
+        "4": "MOSSOT (wikimedia)",
+        "5": "Guillermo (wikiarquitectura)",
+        "6": "Jacqueline Trichard"
+      }
+    ],
+    "years": "2006-2010",
+    "links": ["https://en.wikipedia.org/wiki/Centre_Pompidou-Metz"],
+    "categories": ["museum", "contemporary"]
+  },
+  {
     "answer": "",
     "days": [0],
     "copyrights": [
