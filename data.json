@@ -192,18 +192,27 @@
     "links": [
       "https://en.wikiarquitectura.com/building/100-11th-Avenue-Building/"
     ],
-    "categories": []
+    "categories": ["housing"]
   },
   {
-    "answer": "Orient Station to Expo’98 / Santiago Calatrava / Lisbon, Portugal",
-    "days": [11],
+    "answer": "Orient Station to Expo’98 (Gare do Oriente) / Santiago Calatrava / Lisbon, Portugal",
+    "days": [11, 376],
     "copyrights": [
       {
         "*": "wikiarquitectura"
+      },
+      {
+        "1": "António M.L. Cabral (wikimedia)",
+        "2": "Maria Eklind (wikimedia)",
+        "3": "",
+        "4": "wikiarquitectura",
+        "5": "Kent Wang (wikimedia)",
+        "6": "Jonas.tesch (wikimedia)"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1998",
+    "links": ["https://en.wikipedia.org/wiki/Gare_do_Oriente"],
+    "categories": ["neo-futurism", "infrastructure"]
   },
   {
     "answer": "Le Monde Group Headquarters / Snøhetta / Paris, France",
@@ -5217,6 +5226,21 @@
     "years": "2006-2010",
     "links": ["https://en.wikipedia.org/wiki/Centre_Pompidou-Metz"],
     "categories": ["museum", "contemporary"]
+  },
+  {
+    "answer": "Tokyo Skytree (東京スカイツリー) / Tadao Andō, Nikken Sekkei / Sumida, Tokyo, Japan",
+    "days": [377],
+    "copyrights": [
+      {
+        "*": "Kakidai (wikimedia)",
+        "2": "Namazu-tron (wikimedia)",
+        "3": "Alexey laa (wikimedia)",
+        "4": "Basile Morin (wikimedia)"
+      }
+    ],
+    "years": "2008-2012",
+    "links": ["https://en.wikipedia.org/wiki/Tokyo_Skytree"],
+    "categories": ["skyscraper", "neo-futurism"]
   },
   {
     "answer": "",
