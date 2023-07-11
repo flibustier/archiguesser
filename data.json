@@ -3776,7 +3776,7 @@
   },
   {
     "answer": "Bastille (Saint-Antoine) / Hugues Aubriot / Paris, France",
-    "days": [259],
+    "days": [259, 378],
     "copyrights": [
       {
         "1": "Anonymous (wikimedia - MRF Vizille)",
@@ -3789,8 +3789,7 @@
     ],
     "years": "1370-1383",
     "links": [
-      "https://en.wikipedia.org/wiki/Bastille",
-      "https://en.wikiarquitectura.com/building/Bastille/"
+      "https://en.wikipedia.org/wiki/Bastille"
     ],
     "categories": ["monument"]
   },
@@ -5241,6 +5240,20 @@
     "years": "2008-2012",
     "links": ["https://en.wikipedia.org/wiki/Tokyo_Skytree"],
     "categories": ["skyscraper", "neo-futurism"]
+  },
+  {
+    "answer": "Kiyomizu-dera (清水寺) / Kyoto, Japan",
+    "days": [379],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Monument",
+        "2": "Martin Falbisoner (wikimedia)",
+        "6": "KimonBerlin (wikimedia)"
+      }
+    ],
+    "years": "778,1633",
+    "links": ["https://en.wikipedia.org/wiki/Kiyomizu-dera"],
+    "categories": ["monument", "temple"]
   },
   {
     "answer": "",
