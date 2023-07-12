@@ -4,22 +4,21 @@ import { capitalize } from "vue";
 import BaseModal from "./BaseModal.vue";
 import IconTrophy from "../icons/IconTrophy.vue";
 
+import {
+  ITEMS_PER_LEVEL,
+  MAX_LEVEL,
+  LISTED_ARCHITECTS,
+  LISTED_CATEGORIES,
+  LISTED_PLACES,
+} from "@/config.json";
 import { getProjectsByCategory } from "@/DailySelector";
-import { ITEMS_PER_LEVEL, MAX_LEVEL } from "@/config.json";
 import { getChallenges } from "@/store";
 
-const LISTED_CATEGORIES = ["famous", "monument"];
-const LISTED_PLACES = [
-  "United States of America (USA)",
-  "France",
-  "Germany",
-  "Spain",
-  "United Kingdom (UK)",
-  "Japan",
-  "China",
-  "Portugal",
+const categories = [
+  ...LISTED_CATEGORIES,
+  ...LISTED_PLACES,
+  ...LISTED_ARCHITECTS,
 ];
-const LISTED_ARCHITECTS = ["Le Corbusier", "Zaha Hadid"];
 
 defineProps({
   isVisible: {
@@ -34,7 +33,6 @@ const closeModal = () => emit("update:isVisible", false);
 const goToCategory = (category: string) =>
   (window.location.href = `/?challenge=${category}`);
 
-// todo: extract from local storage
 const currentLevel = (category: string) => getChallenges()[category] || 0;
 const maxLevel = (category: string) =>
   Math.min(
@@ -63,11 +61,7 @@ const maxLevel = (category: string) =>
 
         <div class="image-grid">
           <div
-            v-for="(category, i) of [
-              ...LISTED_CATEGORIES,
-              ...LISTED_PLACES,
-              ...LISTED_ARCHITECTS,
-            ]"
+            v-for="(category, i) of categories"
             :key="category"
             @click="goToCategory(category)"
           >
