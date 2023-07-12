@@ -16,17 +16,17 @@ import {
   getCredentials,
 } from "@/store";
 
-import GuessingForm from "../components/guessing/GuessingForm.vue";
-import PictureDisplay from "../components/picture-display/PictureDisplay.vue";
-import IconRetry from "../components/icons/IconRetry.vue";
-import IconTrophy from "@/components/icons/IconTrophy.vue";
 import IconWiki from "@/components/icons/IconWiki.vue";
+import IconRetry from "@/components/icons/IconRetry.vue";
+import IconTrophy from "@/components/icons/IconTrophy.vue";
+import GuessingForm from "@/components/guessing/GuessingForm.vue";
+import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
 
 defineEmits(["showArcadeModal", "showLogInModal"]);
 
 const urlParameters = new URLSearchParams(window.location.search);
 const requestedCategory = urlParameters.get("challenge") || "";
-// todo: disable unsupported categories when it’s production
+// todo: disable unsupported categories when it’s production?
 
 const shuffle = (array: any[]) => {
   let randIndex;

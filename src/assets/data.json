@@ -5254,39 +5254,5 @@
     "years": "778,1633",
     "links": ["https://en.wikipedia.org/wiki/Kiyomizu-dera"],
     "categories": ["monument", "temple"]
-  },
-  {
-    "answer": "",
-    "days": [0],
-    "copyrights": [
-      {
-        "*": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": "",
-        "6": ""
-      }
-    ],
-    "years": "",
-    "links": [],
-    "categories": []
-  },
-  {
-    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
-    "days": [],
-    "copyrights": [
-      {
-        "*": "Steve Cadman",
-        "4": "Rory Hyde",
-        "5": "Rory Hyde"
-      }
-    ],
-    "years": "1923-1925",
-    "links": [
-      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
-    ],
-    "categories": ["modern"]
   }
 ]
