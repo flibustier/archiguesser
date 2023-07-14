@@ -5269,5 +5269,22 @@
     "years": "2012",
     "links": ["https://en.wikipedia.org/wiki/Gardens_by_the_Bay"],
     "categories": ["park", "contemporary"]
+  },
+  {
+    "answer": "Royal Ontario Museum (ROM) / Daniel Libeskind, Bregman + Hamann Architects, Frank Darling & John A. Pearson, Chapman & Oxley / Toronto, Ontario, Canada",
+    "days": [381],
+    "copyrights": [
+      {
+        "1": "Michele Nastasi",
+        "2": "Courtesy of the Architect",
+        "3": "Michele Nastasi",
+        "4": "Sam Javanrouh",
+        "5": "Courtesy of the Museum",
+        "6": "Maksim Sokolov (wikimedia)"
+      }
+    ],
+    "years": "2007",
+    "links": ["https://libeskind.com/work/royal-ontario-museum/"],
+    "categories": ["museum", "contemporary"]
   }
 ]
