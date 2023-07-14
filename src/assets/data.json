@@ -154,7 +154,7 @@
       "https://en.wikipedia.org/wiki/Eden_Project",
       "https://en.wikiarquitectura.com/building/Eden-Project/"
     ],
-    "categories": ["favorite"]
+    "categories": ["favorites", "park"]
   },
   {
     "answer": "Chrysler Building / William Van Allen / New York, United States of America (USA)",
@@ -212,7 +212,7 @@
     ],
     "years": "1998",
     "links": ["https://en.wikipedia.org/wiki/Gare_do_Oriente"],
-    "categories": ["neo-futurism", "infrastructure", "favorite"]
+    "categories": ["neo-futurism", "infrastructure", "favorites"]
   },
   {
     "answer": "Le Monde Group Headquarters / Snøhetta / Paris, France",
@@ -320,7 +320,7 @@
     ],
     "years": "2009-2014",
     "links": ["https://en.wikipedia.org/wiki/Bosco_Verticale"],
-    "categories": ["favorite"]
+    "categories": ["favorites"]
   },
   {
     "answer": "Guggenheim Bilbao / Frank Gehry / Bilbao, Spain",
@@ -478,7 +478,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Senedd_building"],
-    "categories": ["favorite"]
+    "categories": ["favorites"]
   },
   {
     "answer": "Fallingwater House / Frank Lloyd Wright / Pennsylvania, United States of America (USA)",
@@ -1649,7 +1649,7 @@
     ],
     "years": "1970-1972",
     "links": ["https://en.wikipedia.org/wiki/Nakagin_Capsule_Tower"],
-    "categories": ["favorite"]
+    "categories": ["favorites"]
   },
   {
     "answer": "City of Sanaa (Tower houses) / Yemen",
@@ -3046,7 +3046,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Atomium"],
-    "categories": ["famous", "favorite"]
+    "categories": ["famous", "favorites"]
   },
   {
     "answer": "Trinity College and Library / Thomas Burgh, Thomas Deane, Benjamin Woodward, William Chambers / Dublin, Ireland",
@@ -3788,9 +3788,7 @@
       }
     ],
     "years": "1370-1383",
-    "links": [
-      "https://en.wikipedia.org/wiki/Bastille"
-    ],
+    "links": ["https://en.wikipedia.org/wiki/Bastille"],
     "categories": ["monument"]
   },
   {
@@ -4765,7 +4763,7 @@
     ],
     "years": "1886",
     "links": ["https://en.wikipedia.org/wiki/Summer_Palace"],
-    "categories": ["monument", "favorite"]
+    "categories": ["monument", "favorites"]
   },
   {
     "answer": "Cottbus Technical University Library – “IKMZ” / Christine Binswanger, Herzog & de Meuron, Jacques Herzog, Pierre De Meuron / Cottbus, Brandenburg, Germany",
@@ -5254,5 +5252,22 @@
     "years": "778,1633",
     "links": ["https://en.wikipedia.org/wiki/Kiyomizu-dera"],
     "categories": ["monument", "temple"]
+  },
+  {
+    "answer": "Gardens by the Bay (Supertree Grove) / Grant Associates, Wilkinson Eyre Architects / Marina South, Singapore",
+    "days": [380],
+    "copyrights": [
+      {
+        "1": "Ong Chi Hang (wikimedia)",
+        "2": "Basile Morin (wikimedia)",
+        "3": "Seloloving (wikimedia)",
+        "4": "Dietmar Rabich (wikimedia)",
+        "5": "Андрей Бобровский (wikimedia)",
+        "6": "Allie Caulfield (wikimedia)"
+      }
+    ],
+    "years": "2012",
+    "links": ["https://en.wikipedia.org/wiki/Gardens_by_the_Bay"],
+    "categories": ["park", "contemporary"]
   }
 ]
