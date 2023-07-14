@@ -240,11 +240,6 @@ b {
   margin-top: 0.5rem;
 }
 
-.emphasis {
-  margin-top: 0.5rem;
-  font-weight: 500;
-}
-
 .answer {
   display: block;
   font-weight: 500;
