@@ -18,10 +18,10 @@ const resetSearchTerms = () => {
   searchTerms.value = "";
 };
 
-const guessInput = (event: Event) => {
-  searchTerms.value = (event.target as HTMLInputElement).value;
+const guessInput = () => {
   hasSelectedSuggestion.value = false;
   preselected.value = null;
+  navigate("up");
 };
 
 const validateGuess = (result: string) => {
@@ -74,10 +74,10 @@ const navigate = (direction: "up" | "down") => {
       <li
         v-for="(filteredResult, index) in filteredSuggestions"
         :key="index"
+        :id="`suggestion-${index}`"
+        :class="{ 'is-focus': preselected === index }"
         @click="validateGuess(filteredResult.suggestion)"
         @mouseover="() => (preselected = index)"
-        :class="{ 'is-focus': preselected === index }"
-        :id="`suggestion-${index}`"
       >
         <span v-html="filteredResult.highlightedSuggestion"></span>
       </li>
@@ -93,7 +93,7 @@ const navigate = (direction: "up" | "down") => {
           :class="`search-input ${searchTerms.length ? 'is-not-empty' : ''}`"
           placeholder="Search for building name / architect / place…"
           autocomplete="off"
-          :value="searchTerms"
+          v-model="searchTerms"
           @input="guessInput"
           @keyup.enter="submitGuess"
           @keyup.up="navigate('up')"
