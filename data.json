@@ -404,7 +404,7 @@
   },
   {
     "answer": "Heydar Aliyev Cultural Center / Zaha Hadid, Patrick Schumacher, Saffet Kaya Bekiroglu / Baku, Azerbaijan",
-    "days": [24],
+    "days": [24, 382],
     "copyrights": [
       {
         "3": "Helene Binet",
@@ -413,11 +413,12 @@
         "*": "Iwan Baan"
       }
     ],
+    "years": "2007-2012",
     "links": [
       "https://en.wikipedia.org/wiki/Heydar_Aliyev_Cultural_Center",
       "https://en.wikiarquitectura.com/building/Heydar-Aliyev-Cultural-Center/"
     ],
-    "categories": []
+    "categories": ["contemporary"]
   },
   {
     "answer": "30 St Mary Axe (The Gherkin) / Norman Foster, Ove Arup & Partners, Ken Shuttlewort / London, United Kingdom (UK)",
@@ -5225,7 +5226,7 @@
     "categories": ["museum", "contemporary"]
   },
   {
-    "answer": "Tokyo Skytree (東京スカイツリー) / Tadao Andō, Nikken Sekkei / Sumida, Tokyo, Japan",
+    "answer": "Tokyo Skytree (東京スカイツリー) / Nikken Sekkei, Tadao Kamei, Shigeru Yoshino, Tetsuo Tsuchiya / Sumida, Tokyo, Japan",
     "days": [377],
     "copyrights": [
       {
@@ -5286,5 +5287,22 @@
     "years": "2007",
     "links": ["https://libeskind.com/work/royal-ontario-museum/"],
     "categories": ["museum", "contemporary"]
+  },
+  {
+    "answer": "Tokyo Metropolitan Government Building (東京都庁舎) / Kenzo Tange, Taisei Corporation / Shinjuku, Tokyo, Japan",
+    "days": [383],
+    "copyrights": [
+      {
+        "1": "江戸村のとくぞう (wikimedia)",
+        "2": "Morio (wikimedia)",
+        "3": "Wiiii (wikimedia)",
+        "4": "Morio (wikimedia)",
+        "5": "Kakidai (wikimedia)",
+        "6": "IQRemix (flickr)"
+      }
+    ],
+    "years": "1988-1991",
+    "links": ["https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building"],
+    "categories": ["skyscraper"]
   }
 ]
