@@ -404,7 +404,7 @@
   },
   {
     "answer": "Heydar Aliyev Cultural Center / Zaha Hadid, Patrick Schumacher, Saffet Kaya Bekiroglu / Baku, Azerbaijan",
-    "days": [24],
+    "days": [24, 382],
     "copyrights": [
       {
         "3": "Helene Binet",
@@ -413,11 +413,12 @@
         "*": "Iwan Baan"
       }
     ],
+    "years": "2007-2012",
     "links": [
       "https://en.wikipedia.org/wiki/Heydar_Aliyev_Cultural_Center",
       "https://en.wikiarquitectura.com/building/Heydar-Aliyev-Cultural-Center/"
     ],
-    "categories": []
+    "categories": ["contemporary"]
   },
   {
     "answer": "30 St Mary Axe (The Gherkin) / Norman Foster, Ove Arup & Partners, Ken Shuttlewort / London, United Kingdom (UK)",
