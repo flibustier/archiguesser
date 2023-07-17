@@ -44,7 +44,7 @@ const shuffle = (array: any[]) => {
 const projects = shuffle(getProjectsByCategory(requestedCategory));
 const maxLevel = Math.min(
   MAX_LEVEL,
-  Math.floor(projects.length / ITEMS_PER_LEVEL)
+  Math.floor(projects.length / ITEMS_PER_LEVEL),
 );
 
 let retryCount = 0;
@@ -74,7 +74,7 @@ const hasWon = computed(() => remainingGuesses.value === 0);
 
 const greenSquares = computed(() => lastItem - remainingGuesses.value);
 const blackSquares = computed(
-  () => remainingGuesses.value - (isGameOver.value ? 1 : 0)
+  () => remainingGuesses.value - (isGameOver.value ? 1 : 0),
 );
 
 const currentGuess = computed(() => projects[remainingGuesses.value - 1]);
@@ -90,7 +90,7 @@ const sendResult = (failedOn = "") => {
     requestedCategory,
     failedOn,
     getChallenges(),
-    getCredentials()
+    getCredentials(),
   );
 };
 

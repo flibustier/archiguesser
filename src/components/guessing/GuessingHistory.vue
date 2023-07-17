@@ -25,21 +25,21 @@ const country = computed(() => places.value[places.value.length - 1]);
 const city = computed(() => places.value[places.value.length - 2]);
 
 const showYearsHint = computed(
-  () => guessesRemaining.value <= 4 && props.constructionYears
+  () => guessesRemaining.value <= 4 && props.constructionYears,
 );
 const showCountryHint = computed(
-  () => guessesRemaining.value <= 3 && country.value
+  () => guessesRemaining.value <= 3 && country.value,
 );
 const showHint = computed(() => showCountryHint.value || showYearsHint.value);
 
 const answerWords = computed(() =>
-  props.answer.split(/\/|,|-|\s/).filter(Boolean)
+  props.answer.split(/\/|,|-|\s/).filter(Boolean),
 );
 
 const highlight = (guess: string) =>
   guess.replace(
     new RegExp("(" + answerWords.value.join("|") + ")", "gi"),
-    "<b>$1</b>"
+    "<b>$1</b>",
   );
 </script>
 

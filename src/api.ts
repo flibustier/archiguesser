@@ -39,7 +39,7 @@ export const sendResult = async (
   score: number,
   guesses: string[],
   stats: StatsObject,
-  credentials?: Credentials
+  credentials?: Credentials,
 ): Promise<number | undefined> => {
   try {
     const response = await fetch(endpoint + "result", {
@@ -74,7 +74,7 @@ export const sendChallengeResult = async (
   category: string,
   failedOn: string,
   challenges: any,
-  credentials?: Credentials
+  credentials?: Credentials,
 ): Promise<void> => {
   try {
     const { retryCount, dayNumber, ...challengesScores } = challenges;
@@ -103,7 +103,7 @@ export const signIn = async (
   email: string,
   password: string,
   stats: StatsObject,
-  challenges: any
+  challenges: any,
 ): Promise<any> => {
   try {
     const response = await fetch(endpoint + "user", {

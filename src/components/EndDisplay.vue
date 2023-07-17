@@ -44,10 +44,10 @@ const props = defineProps({
 
 const resultSquares = computed(() => {
   const redSquares = `<span class="square red">🟥</span> `.repeat(
-    props.guesses.length - 1
+    props.guesses.length - 1,
   );
   const blackSquares = `<span class="square black">⬛</span> `.repeat(
-    6 - props.guesses.length
+    6 - props.guesses.length,
   );
   const midSquare = props.hasWon
     ? `<span class="square green">🟩</span> `

@@ -37,7 +37,7 @@ const currentLevel = (category: string) => getChallenges()[category] || 0;
 const maxLevel = (category: string) =>
   Math.min(
     MAX_LEVEL,
-    Math.floor(getProjectsByCategory(category).length / ITEMS_PER_LEVEL)
+    Math.floor(getProjectsByCategory(category).length / ITEMS_PER_LEVEL),
   );
 </script>
 

@@ -10,7 +10,7 @@ const preselected = ref();
 
 const filteredSuggestions = computed(() => search(searchTerms.value));
 const isSelectionDone = computed(
-  () => hasSelectedSuggestion.value || searchTerms.value.length === 0
+  () => hasSelectedSuggestion.value || searchTerms.value.length === 0,
 );
 
 const resetSearchTerms = () => {

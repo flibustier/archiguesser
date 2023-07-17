@@ -13,7 +13,7 @@ describe("download script", () => {
 
     const urls = extractImageURLs(
       "https://www.archdaily.com/448320/ad-classics-villa-dall-ava-oma",
-      html
+      html,
     );
 
     assert.deepEqual(urls, [
@@ -26,7 +26,7 @@ describe("download script", () => {
 
     const urls = extractImageURLs(
       "https://en.wikiarquitectura.com/building/bridge-in-zapallar/",
-      html
+      html,
     );
 
     assert.deepEqual(urls, [

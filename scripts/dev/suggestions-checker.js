@@ -15,7 +15,7 @@ for (const key in answers) {
     const search = suggestionTitles.find(
       ({ normalized }) =>
         normalized.includes(normalizedToFind) ||
-        normalizedToFind.includes(normalized)
+        normalizedToFind.includes(normalized),
     );
     if (search) {
       console.log(`Suggestion: "${search.original}"`);
