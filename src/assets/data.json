@@ -1692,14 +1692,15 @@
   },
   {
     "answer": "LEGO House / Bjarke Ingels Group (BIG) / Billund, Denmark",
-    "days": [115],
+    "days": [115, 384],
     "copyrights": [
       {
         "*": "Iwan Baan"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2014-2017",
+    "links": ["https://en.wikipedia.org/wiki/Lego_House_(Billund)"],
+    "categories": ["museum", "contemporary"]
   },
   {
     "answer": "Hagia Sophia Grand Mosque / Isidore Of Miletus, Antemio De Tralles, Ruffino / Istanbul, Turkey",
