@@ -1692,14 +1692,15 @@
   },
   {
     "answer": "LEGO House / Bjarke Ingels Group (BIG) / Billund, Denmark",
-    "days": [115],
+    "days": [115, 384],
     "copyrights": [
       {
         "*": "Iwan Baan"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2014-2017",
+    "links": ["https://en.wikipedia.org/wiki/Lego_House_(Billund)"],
+    "categories": ["museum", "contemporary"]
   },
   {
     "answer": "Hagia Sophia Grand Mosque / Isidore Of Miletus, Antemio De Tralles, Ruffino / Istanbul, Turkey",
@@ -5302,7 +5303,26 @@
       }
     ],
     "years": "1988-1991",
-    "links": ["https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Tokyo_Metropolitan_Government_Building"
+    ],
     "categories": ["skyscraper"]
+  },
+  {
+    "answer": "Palace of Westminster (Houses of Parliament) / Charles Barry, Augustus Pugin / Westminster, London, United Kingdom (UK)",
+    "days": [385],
+    "copyrights": [
+      {
+        "1": "Colin (wikimedia)",
+        "2": "Courtesy of the Architect",
+        "3": "Courtesy of the Monument",
+        "4": "Claude Monet (wikimedia)",
+        "5": "Alvesgaspar (wikimedia)",
+        "6": "Terry Ott (wikimedia)"
+      }
+    ],
+    "years": "1016,1840–1876",
+    "links": ["https://en.wikipedia.org/wiki/Palace_of_Westminster"],
+    "categories": ["monument", "famous"]
   }
 ]
