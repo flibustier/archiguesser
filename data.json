@@ -5324,5 +5324,22 @@
     "years": "1016,1840–1876",
     "links": ["https://en.wikipedia.org/wiki/Palace_of_Westminster"],
     "categories": ["monument", "famous"]
+  },
+  {
+    "answer": "Abbey Church of Sainte-Foy (Abbatiale Sainte-Foy de Conques) / Conques, France",
+    "days": [386],
+    "copyrights": [
+      {
+        "1": "Patrice Thebault",
+        "2": "Titanet (wikimedia)",
+        "3": "Jacky Naegelen",
+        "4": "Velvet (wikimedia)",
+        "5": "Christian Guy",
+        "6": "Sylvain Cordier"
+      }
+    ],
+    "years": "~12th century",
+    "links": ["https://en.wikipedia.org/wiki/Abbey_Church_of_Sainte-Foy"],
+    "categories": ["church"]
   }
 ]
