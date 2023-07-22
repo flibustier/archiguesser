@@ -646,7 +646,7 @@
   },
   {
     "answer": "Brasilia Cathedral / Oscar Niemeyer / Brasilia, Brazil",
-    "days": [40],
+    "days": [40, 387],
     "copyrights": [
       {
         "1": "Leon petrosyan",
@@ -655,6 +655,14 @@
         "4": "Fwsbsb2",
         "5": "LecomteB",
         "6": "Webysther"
+      },
+      {
+        "1": "Fwsbsb (wikimedia)",
+        "2": "Donatas Dabravolskas (wikimedia)",
+        "3": "Cayambe (wikimedia)",
+        "4": "Fwsbsb2 (wikimedia)",
+        "5": "Tissiana de A. de Souza (wikimedia)",
+        "6": "Webysther (wikimedia)"
       }
     ],
     "years": "1959-1970",
@@ -662,7 +670,7 @@
       "https://en.wikipedia.org/wiki/Brasilia_Cathedral",
       "https://en.wikiarquitectura.com/building/Brasilia-Cathedral/"
     ],
-    "categories": []
+    "categories": ["church", "modern"]
   },
   {
     "answer": "Aluminium Forest Building / Micha de Hass / Houten, Utrecht, Netherlands",
