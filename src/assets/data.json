@@ -5349,5 +5349,20 @@
     "years": "~12th century",
     "links": ["https://en.wikipedia.org/wiki/Abbey_Church_of_Sainte-Foy"],
     "categories": ["church"]
+  },
+  {
+    "answer": "One World Trade Center (Freedom Tower) / Owings & Merrill Skidmore, David Childs, Daniel Libeskind / New York, United States of America (USA)",
+    "days": [388],
+    "copyrights": [
+      {
+        "*": "wikiarquitectura",
+        "2": "Flibust1er (flickr)",
+        "5": "Florent Pécassou (wikimedia)",
+        "6": "Matthew Bellemare (wikimedia)"
+      }
+    ],
+    "years": "2006-2013",
+    "links": ["https://en.wikipedia.org/wiki/One_World_Trade_Center"],
+    "categories": ["skyscraper"]
   }
 ]
