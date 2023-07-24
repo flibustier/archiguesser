@@ -272,17 +272,25 @@
     "categories": ["monument", "famous"]
   },
   {
-    "answer": "MIM-Musical Instrument Museum / Barnabé Guimard, Paul Saintenoy / Brussels, Belgium",
-    "days": [16],
+    "answer": "Musical Instrument Museum MIM (Old England) / Barnabé Guimard, Paul Saintenoy / Brussels, Belgium",
+    "days": [16, 389],
     "copyrights": [
       {
         "*": "wikiarquitectura"
+      },
+      {
+        "*": "Scoutty007 (wikimedia)",
+        "2": "Ad Meskens (wikimedia)",
+        "3": "Malay_EA (wikimapia)",
+        "5": "wikiarquitectura",
+        "6": "Schölla Schwarz (wikimedia)"
       }
     ],
     "links": [
+      "https://en.wikipedia.org/wiki/Musical_Instrument_Museum,_Brussels",
       "https://en.wikiarquitectura.com/building/MIM-Musical-Instrument-Museum/"
     ],
-    "categories": []
+    "categories": ["museum", "art-nouveau"]
   },
   {
     "answer": "Casa da Musica / Rem Koolhaas, OMA / Porto, Portugal",
