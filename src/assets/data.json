@@ -5372,5 +5372,20 @@
     "years": "2006-2013",
     "links": ["https://en.wikipedia.org/wiki/One_World_Trade_Center"],
     "categories": ["skyscraper"]
+  },
+  {
+    "answer": "Grand Palace (พระบรมมหาราชวัง) / Bangkok, Thailand",
+    "days": [390],
+    "copyrights": [
+      {
+        "*": "Diego Delso (wikimedia)",
+        "3": "Gisling (wikimedia)",
+        "4": "Supanut Arunoprayote (wikimedia)",
+        "6": "Unknown"
+      }
+    ],
+    "years": "1782",
+    "links": ["https://en.wikipedia.org/wiki/Grand_Palace"],
+    "categories": ["monument"]
   }
 ]
