@@ -383,12 +383,17 @@
     "categories": ["monument"]
   },
   {
-    "answer": "Thermas Vals / Peter Zumthor / Vals, Canton Graubunden, Switzerland",
-    "days": [22],
+    "answer": "Thermas Vals (7132 Therme Vals) / Peter Zumthor / Vals, Canton Graubunden, Switzerland",
+    "days": [22, 391],
     "copyrights": [
       {
         "2": "Andrea Ceriani",
         "*": "wikiarquitectura"
+      },
+      {
+        "*": "wikiarquitectura",
+        "2": "Andrea Ceriani",
+        "6": "Andrea Ceriani"
       }
     ],
     "years": "1993-1996",
@@ -430,7 +435,7 @@
   },
   {
     "answer": "30 St Mary Axe (The Gherkin) / Norman Foster, Ove Arup & Partners, Ken Shuttlewort / London, United Kingdom (UK)",
-    "days": [25],
+    "days": [25, 394],
     "copyrights": [
       {
         "1": "wikiarquitectura",
@@ -439,12 +444,12 @@
         "*": "Courtesy of the Architect"
       }
     ],
-    "years": "2001- 2004",
+    "years": "2001-2004",
     "links": [
       "https://en.wikipedia.org/wiki/30_St_Mary_Axe",
       "https://en.wikiarquitectura.com/building/30-St-Mary-Axe/"
     ],
-    "categories": []
+    "categories": ["skyscraper", "contemporary"]
   },
   {
     "answer": "National Museum of Qatar / Jean Nouvel / Doha, Qatar",
@@ -5387,5 +5392,49 @@
     "years": "1782",
     "links": ["https://en.wikipedia.org/wiki/Grand_Palace"],
     "categories": ["monument"]
+  },
+  {
+    "answer": "Oslo Public Library (Deichman Library) / Atelier Oslo, Lundhagem Arkitekter / Oslo, Norway",
+    "days": [392],
+    "copyrights": [
+      {
+        "*": "Einar Aslaksen"
+      }
+    ],
+    "years": "2019",
+    "links": ["https://en.wikipedia.org/wiki/Oslo_Public_Library"],
+    "categories": ["library"]
+  },
+  {
+    "answer": "Prudential (Garanty) Building / Louis Sullivan, Dankmar Adler / Buffalo, New York, United States of America (USA)",
+    "days": [393],
+    "copyrights": [
+      {
+        "*": "Nick Stanley",
+        "1": "TomFawls (wikimedia)",
+        "2": "TomFawls (wikimedia)",
+        "6": "w_lemay (wikimedia)"
+      }
+    ],
+    "years": "1896",
+    "links": ["https://en.wikipedia.org/wiki/Prudential_(Guaranty)_Building"],
+    "categories": ["skyscraper", "chicago-school"]
+  },
+  {
+    "answer": "Fort Boyard / Génie Militaire Français / Île-d'Aix, France",
+    "days": [395],
+    "copyrights": [
+      {
+        "1": "Jebulon (wikimedia)",
+        "2": "Dans La Peau d’une Fille (blogspot)",
+        "3": "Jebulon (wikimedia)",
+        "4": "La Route À Deux",
+        "5": "Fabien1309 (wikimedia)",
+        "6": "Patrick Despoix (wikimedia)"
+      }
+    ],
+    "years": "1804-1857",
+    "links": ["https://en.wikipedia.org/wiki/Fort_Boyard_(fortification)"],
+    "categories": ["monument", "military", "favorites"]
   }
 ]
