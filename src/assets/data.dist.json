@@ -18,61 +18,15 @@
     "categories": []
   },
   {
-    "answer": "The Kreuzberg Tower and Wings / John Hejduk / Berlin, Germany",
+    "answer": "Reflections at Keppel Bay / Daniel Libeskind / Singapore",
     "days": [0],
     "copyrights": [
       {
-        "*": "Jonathan Platteau",
-        "6": "Andreas Tuffé (wikimedia)"
+        "*": "wikiarquitectura"
       }
     ],
-    "years": "1988",
-    "links": ["https://en.wikipedia.org/wiki/Kreuzberg_Tower_and_Wings"],
+    "years": "2008-2011",
+    "links": ["https://en.wikipedia.org/wiki/Reflections_at_Keppel_Bay"],
     "categories": ["housing"]
-  },
-  {
-    "answer": "King Abdulaziz Center for World Culture (Ithra) / Snøhetta / Dhahran, Saudi Arabia",
-    "days": [0],
-    "copyrights": [
-      {
-        "*": "Ivan Brodey",
-        "4": "Abdullah A Alshammary",
-        "5": "Courtesy of the Architect",
-        "6": "Courtesy of the Architect"
-      }
-    ],
-    "years": "2007-2018",
-    "links": [
-      "https://www.snohetta.com/projects/king-abdulaziz-centre-for-world-culture-ithra"
-    ],
-    "categories": ["museum"]
-  },
-  {
-    "answer": "Helsinki Central Library Oodi / ALA Architects / Helsinki, Finland",
-    "days": [0],
-    "copyrights": [
-      {
-        "*": "Tuomas Uusheimo"
-      }
-    ],
-    "years": "2018",
-    "links": ["https://oodihelsinki.fi/en/what-is-oodi/architecture/"],
-    "categories": ["library", "contemporary"]
-  },
-  {
-    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
-    "days": [0],
-    "copyrights": [
-      {
-        "*": "Steve Cadman",
-        "4": "Rory Hyde",
-        "5": "Rory Hyde"
-      }
-    ],
-    "years": "1923-1925",
-    "links": [
-      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
-    ],
-    "categories": ["modern"]
   }
 ]

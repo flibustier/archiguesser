@@ -232,7 +232,7 @@
   },
   {
     "answer": "Flatiron Building / Daniel Hudson Burnham / New York, United States of America (USA)",
-    "days": [13],
+    "days": [13, 402],
     "copyrights": [
       {
         "5": "Jeenah Moon/Bloomberg",
@@ -480,7 +480,7 @@
   },
   {
     "answer": "Senedd building (Welsh Parliament) / Richard Rogers / Cardiff, Wales, United Kingdom (UK)",
-    "days": [28],
+    "days": [28, 404],
     "copyrights": [
       {
         "1": "PhotoEverywhere",
@@ -491,8 +491,9 @@
         "6": "UKWiki"
       }
     ],
+    "years": "2001-2006",
     "links": ["https://en.wikipedia.org/wiki/Senedd_building"],
-    "categories": ["favorites"]
+    "categories": ["favorites", "high-tech"]
   },
   {
     "answer": "Fallingwater House / Frank Lloyd Wright / Pennsylvania, United States of America (USA)",
@@ -776,14 +777,14 @@
   },
   {
     "answer": "La Muralla Roja / Ricardo Bofill / Calpe, Spain",
-    "days": [47],
+    "days": [47, 399],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/La_Muralla_Roja"],
-    "categories": []
+    "categories": ["housing"]
   },
   {
     "answer": "Art Museum of Sao Paulo / Lina Bo Bardi / Sao Paulo, Brazil",
@@ -991,7 +992,7 @@
   },
   {
     "answer": "Rietveld-Schröder House / Gerrit Rietveld / Utrecht, Netherlands",
-    "days": [61],
+    "days": [61, 396],
     "copyrights": [
       {
         "1": "Stijn Poelstra",
@@ -1002,8 +1003,9 @@
         "6": "Stijn Poelstra"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1924",
+    "links": ["https://en.wikipedia.org/wiki/Rietveld_Schr%C3%B6der_House"],
+    "categories": ["housing", "classic"]
   },
   {
     "answer": "Neues Museum / David Chipperfield, Julian Harrap, Friedrich August Stüler / Berlin, Germany",
@@ -1117,15 +1119,16 @@
     "categories": []
   },
   {
-    "answer": "Laview commuter train / SANAA, Ryue Nishizawa, Kazuyo Sejima / Tokyo - Saitama, Japan",
-    "days": [70],
+    "answer": "Laview commuter train (Seibu 001 series) / SANAA, Ryue Nishizawa, Kazuyo Sejima / Tokyo - Saitama, Japan",
+    "days": [70, 408],
     "copyrights": [
       {
         "*": ""
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2018-2020",
+    "links": ["https://en.wikipedia.org/wiki/Seibu_001_series"],
+    "categories": ["infrastructure"]
   },
   {
     "answer": "Quinta Monroy / Alejandro Aravena, ELEMENTAL / Iquique, Chile",
@@ -1258,7 +1261,7 @@
   },
   {
     "answer": "Bauhaus building in Dessau / Walter Gropius / Dessau, Germany",
-    "days": [81],
+    "days": [81, 406],
     "copyrights": [
       {
         "1": "Spyrosdrakopoulos",
@@ -5435,6 +5438,115 @@
     ],
     "years": "1804-1857",
     "links": ["https://en.wikipedia.org/wiki/Fort_Boyard_(fortification)"],
-    "categories": ["monument", "military", "favorites"]
+    "categories": ["monument", "fortification", "favorites"]
+  },
+  {
+    "answer": "King Abdulaziz Center for World Culture (Ithra) / Snøhetta / Dhahran, Saudi Arabia",
+    "days": [397],
+    "copyrights": [
+      {
+        "*": "Ivan Brodey",
+        "4": "Abdullah A Alshammary",
+        "5": "Courtesy of the Architect",
+        "6": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2007-2018",
+    "links": [
+      "https://www.snohetta.com/projects/king-abdulaziz-centre-for-world-culture-ithra"
+    ],
+    "categories": ["museum"]
+  },
+  {
+    "answer": "Yoyogi National Gymnasium (Stadium) / Kenzo Tange / Tokyo, Japan",
+    "days": [398],
+    "copyrights": [
+      {
+        "1": "STB-1 (wikimedia)",
+        "2": "STB-1 (wikimedia)",
+        "3": "地図・空中写真閲覧サービス (wikimedia)",
+        "4": "Rs1421 (wikimedia)",
+        "5": "Rs1421 (wikimedia)",
+        "6": "Arne Müseler (wikimedia)"
+      }
+    ],
+    "years": "1961-1964",
+    "links": ["https://en.wikipedia.org/wiki/Yoyogi_National_Gymnasium"],
+    "categories": ["stadium"]
+  },
+  {
+    "answer": "Great Wall of China (长城) / China",
+    "days": [400],
+    "copyrights": [
+      {
+        "1": "Bairuilong (wikimedia)",
+        "2": "Bairuilong (wikimedia)",
+        "3": "fuzheado (wikimedia)",
+        "4": "大齊 (wikimedia)",
+        "5": "Jakub Hałun (wikimedia)",
+        "6": "Severin.stalder (wikimedia)"
+      }
+    ],
+    "years": "~3th century",
+    "links": ["https://en.wikipedia.org/wiki/Great_Wall_of_China"],
+    "categories": ["famous", "monument", "fortification"]
+  },
+  {
+    "answer": "The Kreuzberg Tower and Wings / John Hejduk / Berlin, Germany",
+    "days": [401],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau",
+        "6": "Andreas Tuffé (wikimedia)"
+      }
+    ],
+    "years": "1988",
+    "links": ["https://en.wikipedia.org/wiki/Kreuzberg_Tower_and_Wings"],
+    "categories": ["housing"]
+  },
+  {
+    "answer": "Helsinki Central Library Oodi / ALA Architects / Helsinki, Finland",
+    "days": [403],
+    "copyrights": [
+      {
+        "*": "Tuomas Uusheimo"
+      }
+    ],
+    "years": "2018",
+    "links": ["https://oodihelsinki.fi/en/what-is-oodi/architecture/"],
+    "categories": ["library", "contemporary"]
+  },
+  {
+    "answer": "Trevi Fountain (Fontana di Trevi) / Nicola Salvi, Giuseppe Pannini / Rome, Italy",
+    "days": [405],
+    "copyrights": [
+      {
+        "1": "Livioandronico2013 (wikimedia)",
+        "2": "AngMoKio (wikimedia)",
+        "3": "Pancrat (wikimedia)",
+        "4": "Carlo Antonini (wikimedia)",
+        "5": "Giorgio Galeotti (wikimedia)",
+        "6": "Diliff (wikimedia)"
+      }
+    ],
+    "years": "1732–1762",
+    "links": ["https://en.wikipedia.org/wiki/Trevi_Fountain"],
+    "categories": []
+  },
+  {
+    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
+    "days": [407],
+    "copyrights": [
+      {
+        "*": "Steve Cadman",
+        "4": "Rory Hyde",
+        "5": "Rory Hyde"
+      }
+    ],
+    "years": "1923-1925",
+    "links": [
+      "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
+    ],
+    "categories": ["modern"]
   }
 ]
