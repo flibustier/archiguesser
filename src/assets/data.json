@@ -5548,5 +5548,19 @@
       "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
     ],
     "categories": ["modern"]
+  },
+  {
+    "answer": "Harpa Concert and Conference Centre / Batteriið Architects, Henning Larsen Architects, Olafur Eliasson / Reykjavik, Iceland",
+    "days": [409],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau",
+        "2": "Courtesy of the Architect",
+        "4": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2007-2011",
+    "links": ["https://en.wikipedia.org/wiki/Harpa_(concert_hall)"],
+    "categories": ["contemporary", "opera"]
   }
 ]
