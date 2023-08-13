@@ -259,7 +259,7 @@
   },
   {
     "answer": "Taj Mahal / Ustad Ahmad Lahori / Agra, India",
-    "days": [15],
+    "days": [15, 410],
     "copyrights": [
       {
         "*": "wikiarquitectura"
@@ -931,7 +931,7 @@
   },
   {
     "answer": "Salk Institute for Biological Studies / Louis I. Kahn / La Jolla, San Diego, California, United States of America (USA)",
-    "days": [57],
+    "days": [57, 411],
     "copyrights": [
       {
         "4": "Jason Taellious",
@@ -1063,7 +1063,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["paper"]
   },
   {
     "answer": "Mt. Fuji World Heritage Centre / Shigeru Ban / Fujinomiya, Shizuoka, Japan",
@@ -1078,7 +1078,7 @@
   },
   {
     "answer": "France National Library (BNF) / Dominique Perrault / Paris, France",
-    "days": [67],
+    "days": [67, 413],
     "copyrights": [
       {
         "1": "Courtesy of the Architect",
@@ -1093,7 +1093,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/France-National-Library/"
     ],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "Aatrial House / KWK PROMES, Robert Konieczny / Opole, Poland",
@@ -5548,5 +5548,31 @@
       "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
     ],
     "categories": ["modern"]
+  },
+  {
+    "answer": "Harpa Concert and Conference Centre / Batteriið Architects, Henning Larsen Architects, Olafur Eliasson / Reykjavik, Iceland",
+    "days": [409],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau",
+        "2": "Courtesy of the Architect",
+        "4": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2007-2011",
+    "links": ["https://en.wikipedia.org/wiki/Harpa_(concert_hall)"],
+    "categories": ["contemporary", "opera"]
+  },
+  {
+    "answer": "Reflections at Keppel Bay / Daniel Libeskind / Singapore",
+    "days": [412],
+    "copyrights": [
+      {
+        "*": "wikiarquitectura"
+      }
+    ],
+    "years": "2008-2011",
+    "links": ["https://en.wikipedia.org/wiki/Reflections_at_Keppel_Bay"],
+    "categories": ["housing"]
   }
 ]
