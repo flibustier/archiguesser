@@ -28,7 +28,7 @@ const stats = getStats();
 const percent = ref();
 const guesses: string[] = reactive([]);
 const { dayNumber, answer, constructionYears, copyrights, links } = reactive(
-  getDayInformation(requestedDay)
+  getDayInformation(requestedDay),
 );
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
@@ -40,7 +40,7 @@ if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
 
 const currentRound = computed(() => guesses.length + 1);
 const hasWon = computed(
-  () => guesses.length > 0 && guesses[guesses.length - 1] === answer
+  () => guesses.length > 0 && guesses[guesses.length - 1] === answer,
 );
 const isGameEnded = computed(() => currentRound.value === 7 || hasWon.value);
 
@@ -69,7 +69,7 @@ const onSubmittedGuess = async (guess: string) => {
       score,
       guesses,
       stats,
-      getCredentials()
+      getCredentials(),
     );
   }
 };

@@ -29,7 +29,7 @@ const isLoading = ref(false);
 const isAccountCreated = ref(false);
 
 const isEmailValid = computed(() =>
-  /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email.value)
+  /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email.value),
 );
 const isPasswordValid = computed(() => password.value.length > 7);
 
@@ -40,7 +40,7 @@ const submit = async () => {
     email.value,
     password.value,
     stats,
-    getChallenges()
+    getChallenges(),
   );
   if ("output" in resp) {
     error.value = resp.output;
@@ -57,7 +57,7 @@ const submit = async () => {
           ...JSON.parse(resp.stats),
           firstPlayed: resp.start_day || stats.firstPlayed,
           lastPlayed: resp.last_day || stats.lastPlayed,
-        })
+        }),
       );
       // todo : store challenges
       // console.log(resp.challenges);

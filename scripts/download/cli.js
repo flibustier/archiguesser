@@ -57,7 +57,7 @@ const downloadFileList = async (imageURLs, destinationDirectory) => {
       console.log(`🥈 Fallback => ${fallbackURL}`);
 
       return download(fallbackURL, index);
-    })
+    }),
   );
 
   return secondPass.filter(({ status }) => status === "fulfilled").length;
@@ -70,8 +70,8 @@ const downloadFile = (directory) => (url, index) =>
     responseType: "stream",
   }).then((response) =>
     response.data.pipe(
-      createWriteStream(`./${directory}/x${index}-${decodeURI(basename(url))}`)
-    )
+      createWriteStream(`./${directory}/x${index}-${decodeURI(basename(url))}`),
+    ),
   );
 
 main();

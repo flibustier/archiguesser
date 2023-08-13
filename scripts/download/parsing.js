@@ -43,7 +43,7 @@ const extractImageURLs = (url, html) => {
       .map(patchWordPressURL)
       .map(patchArquitecturaVivaURL)
       .map(patchFigureGroundURL)
-      .filter(blacklistURLs)
+      .filter(blacklistURLs),
   );
 
   console.log(imageURLs);
@@ -62,10 +62,10 @@ const extractCopyrights = (imageURLs, html) => {
     (others, [, id, copyrights]) => ({
       ...others,
       [imageURLs.findIndex((imageURL) =>
-        imageURL.includes(patchArchDailyID(id))
+        imageURL.includes(patchArchDailyID(id)),
       )]: copyrights,
     }),
-    {}
+    {},
   );
 
   console.log(JSON.stringify(copyrights, null, 2));

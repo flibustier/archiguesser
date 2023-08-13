@@ -40,7 +40,7 @@ const buildIndexes = async () => {
 
   const pages = [1, 2, 3, 4, 5, 6, 7];
   const pagesUrls = pages.map(
-    (page) => `https://en.wikiarquitectura.com/building/page/${page}/`
+    (page) => `https://en.wikiarquitectura.com/building/page/${page}/`,
   );
 
   const regexBuilding =
@@ -52,7 +52,7 @@ const buildIndexes = async () => {
     const links = [...data.matchAll(regexBuilding)]
       .map(([, link]) => link)
       .filter(
-        (link) => link !== "https://en.wikiarquitectura.com/building/feed/"
+        (link) => link !== "https://en.wikiarquitectura.com/building/feed/",
       );
 
     return links;
@@ -79,7 +79,7 @@ const getBuildingInfos = async (urls) => {
   for (let i = 0; i < chunks.length; i++) {
     console.log(`${i + 1}/${chunks.length}`);
     const batchResults = await Promise.all(
-      chunks[i].flatMap(extractBuildingInfos)
+      chunks[i].flatMap(extractBuildingInfos),
     );
     result.push(...batchResults.filter(Boolean));
   }
@@ -152,11 +152,11 @@ const sanitize = (str) => str.replace(/\s+/g, " ").trim().replace(/\.$/, "");
 const removeIncluded = (arr) =>
   arr.reduce(
     (acc, str) => (acc.some((s) => s.includes(str)) ? acc : [...acc, str]),
-    []
+    [],
   );
 
 const extractBuildingInfos = async (
-  url = "https://en.wikiarquitectura.com/building/united-nations-headquarters-in-new-york/"
+  url = "https://en.wikiarquitectura.com/building/united-nations-headquarters-in-new-york/",
 ) => {
   try {
     const { data } = await axios.get(url);

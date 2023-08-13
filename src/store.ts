@@ -11,7 +11,7 @@ const setObject = (object: string) => (entry: string, value: any) =>
     JSON.stringify({
       ...fetchObject(object),
       [entry]: value,
-    })
+    }),
   );
 
 export const setSetting = setObject("settings");

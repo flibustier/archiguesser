@@ -19,7 +19,10 @@ defineEmits(["update:modelValue"]);
       <input
         type="checkbox"
         :checked="modelValue"
-        @input="({ target }) => $emit('update:modelValue', (target as HTMLInputElement).checked)"
+        @input="
+          ({ target }) =>
+            $emit('update:modelValue', (target as HTMLInputElement).checked)
+        "
       />
       <span class="slider"></span>
     </label>

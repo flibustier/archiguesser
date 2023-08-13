@@ -7,7 +7,7 @@ const getNumberOfDaysDifferenceWithStartingDate = (date: Date): number => {
   const timestamp1 = Date.UTC(
     date.getFullYear(),
     date.getMonth(),
-    date.getDate()
+    date.getDate(),
   );
   const differenceInMilliseconds = timestamp1 - STARTING_DATE;
   const differenceInDays = differenceInMilliseconds / 1000 / 60 / 60 / 24;
@@ -34,7 +34,7 @@ export const isMonument = (dayNumber: number): boolean => {
 
 export const getProjectsByCategory = (category: string) => {
   const filtered = data.filter(({ categories = [] }) =>
-    categories.includes(category)
+    categories.includes(category),
   );
 
   if (filtered.length > 0) {
@@ -45,7 +45,7 @@ export const getProjectsByCategory = (category: string) => {
 };
 
 export const getDayInformation = (
-  day?: string | null
+  day?: string | null,
 ): {
   dayNumber: number;
   answer: string;

@@ -27,11 +27,11 @@ watch(
   () => props.maxPictures,
   () => {
     pictureShown.value = props.maxPictures;
-  }
+  },
 );
 
 const pictureCopyright = computed(
-  () => props.copyrights[pictureShown.value] || props.copyrights["*"] || ""
+  () => props.copyrights[pictureShown.value] || props.copyrights["*"] || "",
 );
 
 const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;

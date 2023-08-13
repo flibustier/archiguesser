@@ -16,5 +16,5 @@ for (const day of data) {
 console.log(
   Object.entries(stats)
     .sort((a, b) => b[1] - a[1])
-    .filter(([, count]) => count > 2)
+    .filter(([, count]) => count > 2),
 );

@@ -31,8 +31,8 @@ const areURLsExisting = (urls) =>
     urls.map(async (url) =>
       fetch(url, {
         method: "HEAD",
-      }).then(({ status }) => status === 200)
-    )
+      }).then(({ status }) => status === 200),
+    ),
   );
 
 async function buildData() {
@@ -77,11 +77,11 @@ async function buildData() {
         .trim();
       const wikipediaURL = `https://en.wikipedia.org/wiki/${projectName.replaceAll(
         " ",
-        "_"
+        "_",
       )}`;
       const wikiarquitecturaURL = `https://en.wikiarquitectura.com/building/${projectName.replaceAll(
         " ",
-        "-"
+        "-",
       )}/`;
 
       const existingURLs = await areURLsExisting([

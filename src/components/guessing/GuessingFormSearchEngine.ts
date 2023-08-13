@@ -32,15 +32,15 @@ const buildScoredSuggestions =
   (searchWords: string[]) => (acc: scoredSuggestion[], suggestion: string) => {
     const normalizedSuggestion = normalize(suggestion);
     const includedWords = uniq(
-      searchWords.filter((word) => normalizedSuggestion.includes(word))
+      searchWords.filter((word) => normalizedSuggestion.includes(word)),
     );
     const commonWords = includedWords.length;
 
     if (commonWords > 0) {
       const exactWords = uniq(
         splitWords(normalizedSuggestion).filter((word) =>
-          includedWords.includes(word)
-        )
+          includedWords.includes(word),
+        ),
       );
 
       const score = commonWords + exactWords.length;
@@ -48,7 +48,7 @@ const buildScoredSuggestions =
       if (acc.length < MAX_SUGGESTIONS || score > minScore(acc)) {
         const highlightedSuggestion = suggestion.replace(
           new RegExp(`(${searchWords.join("|")})`, "gi"),
-          "<mark>$1</mark>"
+          "<mark>$1</mark>",
         );
 
         return [
