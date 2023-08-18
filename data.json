@@ -5574,5 +5574,19 @@
     "years": "2008-2011",
     "links": ["https://en.wikipedia.org/wiki/Reflections_at_Keppel_Bay"],
     "categories": ["housing"]
+  },
+  {
+    "answer": "Malin House “Chemosphere” / John Lautner / Hollywood, California, United States of America (USA)",
+    "days": [414],
+    "copyrights": [
+      {
+        "*": "Unknown (archdaily)",
+        "3": "Courtesy of the Architect",
+        "6": "evdropkick"
+      }
+    ],
+    "years": "1960",
+    "links": ["https://en.wikipedia.org/wiki/Chemosphere"],
+    "categories": ["modern"]
   }
 ]
