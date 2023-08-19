@@ -5588,5 +5588,22 @@
     "years": "1960",
     "links": ["https://en.wikipedia.org/wiki/Chemosphere"],
     "categories": ["modern"]
+  },
+  {
+    "answer": "Tower of London (Royal Palace and Fortress) / London, United Kingdom (UK)",
+    "days": [415],
+    "copyrights": [
+      {
+        "1": "Steve Collis (wikimedia)",
+        "2": "Bernard Gagnon (wikimedia)",
+        "3": "CherryX (wikimedia)",
+        "4": "Richard Nevell (wikimedia)",
+        "5": "Poems by Charles, Duke of Orléans, illustrator is unknown (wikimedia)",
+        "6": "Duncan (wikimedia)"
+      }
+    ],
+    "years": "1078",
+    "links": ["https://en.wikipedia.org/wiki/Tower_of_London"],
+    "categories": ["monument", "castle"]
   }
 ]
