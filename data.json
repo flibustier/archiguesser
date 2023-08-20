@@ -898,7 +898,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Neuschwanstein_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Villa Savoye / Le Corbusier / Poissy, Paris, France",
@@ -976,19 +976,22 @@
     "categories": []
   },
   {
-    "answer": "Guggenheim Museum in New York / Frank Lloyd Wright / New York, United States of America (USA)",
+    "answer": "Solomon R. Guggenheim Museum / Frank Lloyd Wright / New York, United States of America (USA)",
     "days": [60],
     "copyrights": [
+      {
+        "*": ""
+      },
       {
         "*": ""
       }
     ],
     "years": "1956-1959",
     "links": [
-      "https://en.wikipedia.org/wiki/Guggenheim_Museum_in_New_York",
+      "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
       "https://en.wikiarquitectura.com/building/Guggenheim-Museum-in-New-York/"
     ],
-    "categories": ["museum", "classic", "famous"]
+    "categories": ["museum", "classic", "famous", "modern"]
   },
   {
     "answer": "Rietveld-Schröder House / Gerrit Rietveld / Utrecht, Netherlands",
@@ -1200,14 +1203,17 @@
     "categories": ["monument", "famous"]
   },
   {
-    "answer": "Piscina des Marés (Leça Swimming Pools) / Álvaro Siza Vieira / Leca da Palmeira, Matosinhos, Portugal",
-    "days": [76],
+    "answer": "Tidal Swimming Pools (Piscinas de Marés) / Álvaro Siza Vieira / Leça da Palmeira, Matosinhos, Portugal",
+    "days": [76, 416],
     "copyrights": [
       {
         "*": ""
       }
     ],
-    "links": [],
+    "years": "1959-1976",
+    "links": [
+      "https://en.wikipedia.org/wiki/Tidal_pools_of_Le%C3%A7a_de_Palmeira"
+    ],
     "categories": []
   },
   {
@@ -1818,7 +1824,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Bran_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Rogers House / Richard & Su Rogers / London, United Kingdom (UK)",
@@ -2596,7 +2602,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Windsor_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Guardian Building / Smith, Hinchman & Grylls, Donaldson & Meier / Detroit, Michigan, United States of America (USA)",
@@ -2868,7 +2874,7 @@
       "https://en.wikipedia.org/wiki/Carcassonne_Castle",
       "https://en.wikiarquitectura.com/building/Carcassonne-Castle/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Walt Disney Concert Hall / Frank Gehry / Los Angeles, United States of America (USA)",
@@ -3448,7 +3454,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Castle_of_the_Teutonic_Order_in_Malbork"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Farnsworth House / Ludwig Mies van der Rohe / Springfield, Illinois, United States of America (USA)",
@@ -4137,7 +4143,7 @@
     ],
     "years": "1514-1522",
     "links": ["https://en.wikipedia.org/wiki/Château_de_Chenonceau"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "HSB Turning Torso / Santiago Calatrava / Malmö, Sweden",
@@ -4552,7 +4558,7 @@
     ],
     "years": "973",
     "links": ["https://en.wikipedia.org/wiki/Schwerin_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "MuCEM (Museum of European and Mediterranean Civilisations) / Rudy Ricciotti / Marseille, France",
