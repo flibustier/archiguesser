@@ -119,7 +119,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["religious"]
   },
   {
     "answer": "Louvre Museum / Pierre Lescot, Ieoh Ming Pei / Paris, France",
@@ -639,8 +639,9 @@
         "*": "Denis Esakov"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1993-1998",
+    "links": ["https://en.wikipedia.org/wiki/Jewish_Museum_Berlin"],
+    "categories": ["museum"]
   },
   {
     "answer": "Sheikh Lotfollah Mosque / Mohammad Reza ibn Ustad Husayn Banna Isfahani / Isfahan, Iran",
@@ -656,7 +657,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Sheikh_Lotfollah_Mosque"],
-    "categories": ["monument"]
+    "categories": ["monument", "religious"]
   },
   {
     "answer": "Brasilia Cathedral / Oscar Niemeyer / Brasilia, Brazil",
@@ -684,7 +685,7 @@
       "https://en.wikipedia.org/wiki/Brasilia_Cathedral",
       "https://en.wikiarquitectura.com/building/Brasilia-Cathedral/"
     ],
-    "categories": ["church", "modern"]
+    "categories": ["religious", "modern"]
   },
   {
     "answer": "Aluminium Forest Building / Micha de Hass / Houten, Utrecht, Netherlands",
@@ -898,7 +899,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Neuschwanstein_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Villa Savoye / Le Corbusier / Poissy, Paris, France",
@@ -976,19 +977,27 @@
     "categories": []
   },
   {
-    "answer": "Guggenheim Museum in New York / Frank Lloyd Wright / New York, United States of America (USA)",
-    "days": [60],
+    "answer": "Solomon R. Guggenheim Museum / Frank Lloyd Wright / New York, United States of America (USA)",
+    "days": [60, 418],
     "copyrights": [
       {
         "*": ""
+      },
+      {
+        "*": "",
+        "1": "Courtesy of the Architect",
+        "2": "Gottscho-Schleisner (wikimedia)",
+        "3": "Eleonore Lefebvre",
+        "4": "T meltzer (wikimedia)",
+        "5": "Eleonore Lefebvre"
       }
     ],
     "years": "1956-1959",
     "links": [
-      "https://en.wikipedia.org/wiki/Guggenheim_Museum_in_New_York",
+      "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
       "https://en.wikiarquitectura.com/building/Guggenheim-Museum-in-New-York/"
     ],
-    "categories": ["museum", "classic", "famous"]
+    "categories": ["museum", "classic", "famous", "modern"]
   },
   {
     "answer": "Rietveld-Schröder House / Gerrit Rietveld / Utrecht, Netherlands",
@@ -1200,14 +1209,17 @@
     "categories": ["monument", "famous"]
   },
   {
-    "answer": "Piscina des Marés (Leça Swimming Pools) / Álvaro Siza Vieira / Leca da Palmeira, Matosinhos, Portugal",
-    "days": [76],
+    "answer": "Tidal Swimming Pools (Piscinas de Marés) / Álvaro Siza Vieira / Leça da Palmeira, Matosinhos, Portugal",
+    "days": [76, 416],
     "copyrights": [
       {
         "*": ""
       }
     ],
-    "links": [],
+    "years": "1959-1976",
+    "links": [
+      "https://en.wikipedia.org/wiki/Tidal_pools_of_Le%C3%A7a_de_Palmeira"
+    ],
     "categories": []
   },
   {
@@ -1740,7 +1752,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Hagia_Sophia_Grand_Mosque"],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "religious"]
   },
   {
     "answer": "Louvre Lens / SANAA, Kazuyo Sejima / Lens, France",
@@ -1818,7 +1830,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Bran_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Rogers House / Richard & Su Rogers / London, United Kingdom (UK)",
@@ -2596,7 +2608,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Windsor_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Guardian Building / Smith, Hinchman & Grylls, Donaldson & Meier / Detroit, Michigan, United States of America (USA)",
@@ -2868,7 +2880,7 @@
       "https://en.wikipedia.org/wiki/Carcassonne_Castle",
       "https://en.wikiarquitectura.com/building/Carcassonne-Castle/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Walt Disney Concert Hall / Frank Gehry / Los Angeles, United States of America (USA)",
@@ -2934,7 +2946,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Blue_Mosque"],
-    "categories": ["monument"]
+    "categories": ["monument", "religious"]
   },
   {
     "answer": "Bank of China Tower / Ieoh Ming Pei, Sherman Kung / Western financial district, Hong Kong, People's Republic of China",
@@ -3448,7 +3460,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Castle_of_the_Teutonic_Order_in_Malbork"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Farnsworth House / Ludwig Mies van der Rohe / Springfield, Illinois, United States of America (USA)",
@@ -4033,7 +4045,7 @@
       "https://en.wikipedia.org/wiki/Mosque_of_Cordoba",
       "https://en.wikiarquitectura.com/building/Mosque-of-Cordoba/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "religious"]
   },
   {
     "answer": "Empire State Building / William Lamb / New York, United States of America (USA)",
@@ -4137,7 +4149,7 @@
     ],
     "years": "1514-1522",
     "links": ["https://en.wikipedia.org/wiki/Château_de_Chenonceau"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "HSB Turning Torso / Santiago Calatrava / Malmö, Sweden",
@@ -4425,7 +4437,7 @@
     ],
     "years": "1506-1626",
     "links": ["https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"],
-    "categories": ["monument", "famous", "church"]
+    "categories": ["monument", "famous", "religious"]
   },
   {
     "answer": "Petronas Towers / Cesar Pelli / Kuala Lumpur, Malaysia",
@@ -4552,7 +4564,7 @@
     ],
     "years": "973",
     "links": ["https://en.wikipedia.org/wiki/Schwerin_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "MuCEM (Museum of European and Mediterranean Civilisations) / Rudy Ricciotti / Marseille, France",
@@ -4712,7 +4724,7 @@
       "https://en.wikipedia.org/wiki/Jubilee_Church",
       "https://en.wikiarquitectura.com/building/Jubilee-Church/"
     ],
-    "categories": ["church"]
+    "categories": ["religious"]
   },
   {
     "answer": "Würzburg Residence Palace / Balthasar Neumann / Würzburg, Germany",
@@ -4772,7 +4784,7 @@
     ],
     "years": "1908",
     "links": ["https://en.wikipedia.org/wiki/Unity_Temple"],
-    "categories": ["church"]
+    "categories": ["religious"]
   },
   {
     "answer": "Summer Palace (颐和园) / Haidian District, Beijing, China",
@@ -4827,7 +4839,7 @@
       "https://en.wikipedia.org/wiki/Crystal_Cathedral",
       "https://en.wikiarquitectura.com/building/Crystal-Cathedral/"
     ],
-    "categories": ["church"]
+    "categories": ["religious"]
   },
   {
     "answer": "Marina Bay Sands / Moshe Safdie / Singapore",
@@ -4945,7 +4957,7 @@
     ],
     "years": "1163-1345",
     "links": ["https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"],
-    "categories": ["monument", "famous", "church"]
+    "categories": ["monument", "famous", "religious"]
   },
   {
     "answer": "Tokyo Apartments / Sou Fujimoto Architects / Komone, Itabashiku, Tokyo, Japan",
@@ -5364,7 +5376,7 @@
     ],
     "years": "~12th century",
     "links": ["https://en.wikipedia.org/wiki/Abbey_Church_of_Sainte-Foy"],
-    "categories": ["church"]
+    "categories": ["religious"]
   },
   {
     "answer": "One World Trade Center (Freedom Tower) / Owings & Merrill Skidmore, David Childs, Daniel Libeskind / New York, United States of America (USA)",
@@ -5605,5 +5617,18 @@
     "years": "1078",
     "links": ["https://en.wikipedia.org/wiki/Tower_of_London"],
     "categories": ["monument", "castle"]
+  },
+  {
+    "answer": "Sheikh Zayed Grand Mosque / Yusef Abdelki, Halcrow / Maqtaa, Abu Dhabi, United Arab Emirates (UAE)",
+    "days": [417],
+    "copyrights": [
+      {
+        "*": "FritzDaCat (wikimedia)",
+        "5": "Wikiemirati (wikimedia)"
+      }
+    ],
+    "years": "1996-2007",
+    "links": ["https://en.wikipedia.org/wiki/Sheikh_Zayed_Grand_Mosque"],
+    "categories": ["religious"]
   }
 ]
