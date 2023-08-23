@@ -368,7 +368,7 @@
   },
   {
     "answer": "Kinkaku-ji (Temple of the Golden Pavilion) / Shogun Ashikaga Yoshimitsu / Kyoto, Japan",
-    "days": [21],
+    "days": [21, 419],
     "copyrights": [
       {
         "1": "Bernard Gagnon",
@@ -377,8 +377,17 @@
         "4": "Bernard Gagnon",
         "5": "Markus Leupold-Löwenthal",
         "6": "Jaycangel"
+      },
+      {
+        "1": "Bjørn Christian Tørrissen (wikimedia)",
+        "2": "663highland (wikimedia)",
+        "3": "Toyohara Chikanobu (wikimedia)",
+        "4": "Bernard Gagnon (wikimedia)",
+        "5": "Markus Leupold-Löwenthal (wikimedia)",
+        "6": "Jaycangel (wikimedia)"
       }
     ],
+    "years": "1397",
     "links": ["https://en.wikipedia.org/wiki/Kinkaku-ji"],
     "categories": ["monument"]
   },
