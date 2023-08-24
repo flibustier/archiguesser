@@ -5639,5 +5639,19 @@
     "years": "1996-2007",
     "links": ["https://en.wikipedia.org/wiki/Sheikh_Zayed_Grand_Mosque"],
     "categories": ["religious"]
+  },
+  {
+    "answer": "Jacob and Wilhelm Grimm Centre (Library of Humboldt University of Berlin) / Max Dudler / Berlin, Germany",
+    "days": [420],
+    "copyrights": [
+      {
+        "*": "Stefan Müller"
+      }
+    ],
+    "years": "2009",
+    "links": [
+      "https://www.maxdudler.de/en/projects/jacob-und-wilhelm-grimm-zentrum/"
+    ],
+    "categories": []
   }
 ]
