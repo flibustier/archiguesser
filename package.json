@@ -21,7 +21,7 @@
     "vue": "3.3.4"
   },
   "devDependencies": {
-    "@babel/types": "7.22.10",
+    "@babel/types": "7.22.11",
     "@rushstack/eslint-patch": "1.3.3",
     "@types/node": "20.4.10",
     "@vitejs/plugin-vue": "4.2.3",
