@@ -12,10 +12,7 @@
     "type-check": "vue-tsc --noEmit",
     "deploy": "./scripts/deploy.sh",
     "convert": "./scripts/convert.sh",
-    "download": "node ./scripts/download/cli.js",
-    "check": "node ./scripts/dev/suggestions-checker.js",
-    "stats": "node ./scripts/dev/extract-stats.js",
-    "scrape": "node ./scripts/dev/scrapper.js"
+    "download": "node ./scripts/download/cli.js"
   },
   "dependencies": {
     "vue": "3.3.4"
