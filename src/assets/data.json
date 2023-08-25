@@ -5652,6 +5652,21 @@
     "links": [
       "https://www.maxdudler.de/en/projects/jacob-und-wilhelm-grimm-zentrum/"
     ],
-    "categories": []
+    "categories": ["library", "university"]
+  },
+  {
+    "answer": "Luce Memorial Chapel / Ieoh Ming Pei, Chi-kuan Chen / Taichung, Taiwan",
+    "days": [421],
+    "copyrights": [
+      {
+        "*": "Anonymous Blogger",
+        "1": "Lute66 (wikimedia)",
+        "2": "Pei Cobb Freed",
+        "5": "xiquinhosilva (wikimedia)"
+      }
+    ],
+    "years": "1962-1963",
+    "links": ["https://en.wikipedia.org/wiki/Luce_Memorial_Chapel"],
+    "categories": ["religious"]
   }
 ]
