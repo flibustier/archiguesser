@@ -711,15 +711,16 @@
     "categories": []
   },
   {
-    "answer": "Louvre Abu Dhabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates (UAE)",
-    "days": [42],
+    "answer": "Louvre Abou Dabi (Art Museum) / Jean Nouvel / Abu Dhabi, United Arab Emirates (UAE)",
+    "days": [42, 422],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
+    "years": "2009-2017",
     "links": ["https://en.wikipedia.org/wiki/Louvre_Abu_Dhabi"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Parthenon / Ictino, Calícrates / Athens, Greece",
