@@ -5669,5 +5669,20 @@
     "years": "1962-1963",
     "links": ["https://en.wikipedia.org/wiki/Luce_Memorial_Chapel"],
     "categories": ["religious"]
+  },
+  {
+    "answer": "Stockholm City Hall (Stadshuset) / Ragnar Östberg / Kungsholmen, Stockholm, Sweden",
+    "days": [423],
+    "copyrights": [
+      {
+        "*": "Holger.Ellgaard (wikimedia)",
+        "4": "Jorge Franganillo (wikimedia)",
+        "5": "Ray Swi-hymn (wikimedia)",
+        "6": "Sergey Ashmarin (wikimedia)"
+      }
+    ],
+    "years": "1911-1923",
+    "links": ["https://en.wikipedia.org/wiki/Stockholm_City_Hall"],
+    "categories": ["romanesque", "town hall"]
   }
 ]
