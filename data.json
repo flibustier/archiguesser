@@ -485,7 +485,7 @@
       "https://en.wikipedia.org/wiki/Sagrada_Familia",
       "https://en.wikiarquitectura.com/building/Sagrada-Familia/"
     ],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "religious"]
   },
   {
     "answer": "Senedd building (Welsh Parliament) / Richard Rogers / Cardiff, Wales, United Kingdom (UK)",
@@ -1377,7 +1377,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/The_Museum_of_Modern_Art"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Sydney Opera House / Jørn Utzon, Ove Arup & Partners / Sydney, Australia",
@@ -1520,8 +1520,8 @@
     "categories": []
   },
   {
-    "answer": "Whitney Museum of American Art / Marcel Breuer / New York, United States of America (USA)",
-    "days": [98],
+    "answer": "Whitney Museum of American Art / Marcel Breuer / 945 Madison Avenue, New York, United States of America (USA)",
+    "days": [98, 425],
     "copyrights": [
       {
         "1": "Courtesy of the Museum",
@@ -1532,8 +1532,9 @@
         "6": "Gryffindor (wikimedia)"
       }
     ],
-    "links": ["https://en.wikipedia.org/wiki/Whitney_Museum_of_American_Art"],
-    "categories": []
+    "years": "1964-1966",
+    "links": ["https://en.wikipedia.org/wiki/945_Madison_Avenue"],
+    "categories": ["museum", "brutalism", "modern"]
   },
   {
     "answer": "House in Bordeaux / Rem Koolhaas, OMA / Bordeaux, France",
@@ -5684,5 +5685,20 @@
     "years": "1911-1923",
     "links": ["https://en.wikipedia.org/wiki/Stockholm_City_Hall"],
     "categories": ["romanesque", "town hall"]
+  },
+  {
+    "answer": "Tower Bridge / Horace Jones / London, United Kingdom (UK)",
+    "days": [424],
+    "copyrights": [
+      {
+        "*": "wikiarquitectura",
+        "1": "L.S.&.P.Co.",
+        "3": "Heresy0uk (wikimedia)",
+        "6": "Colin (wikimedia)"
+      }
+    ],
+    "years": "1886-1894",
+    "links": ["https://en.wikipedia.org/wiki/Tower_Bridge"],
+    "categories": ["bridge"]
   }
 ]
