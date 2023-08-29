@@ -856,6 +856,7 @@
         "6": "wikiwikiyarou"
       }
     ],
+    "years": "-2096",
     "links": ["https://en.wikipedia.org/wiki/Ziggurat_of_Ur"],
     "categories": ["monument"]
   },
@@ -1251,6 +1252,7 @@
         "*": "Unesco"
       }
     ],
+    "years": "1948",
     "links": ["https://en.wikipedia.org/wiki/New_Qurna"],
     "categories": []
   },
@@ -1376,6 +1378,7 @@
         "*": "Timothy Hursley"
       }
     ],
+    "years": "1939",
     "links": ["https://en.wikipedia.org/wiki/The_Museum_of_Modern_Art"],
     "categories": ["museum"]
   },
@@ -2650,8 +2653,9 @@
         "6": "Velvet (wikimedia)"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1947-1952",
+    "links": ["https://fr.wikipedia.org/wiki/Cit%C3%A9_radieuse_de_Marseille"],
+    "categories": ["modern"]
   },
   {
     "answer": "Capilla San Bernardo (chapel) / Nicolás Campodonico / La Playosa, Argentina",
@@ -3194,6 +3198,7 @@
         "6": "Thomas Ledl (wikimedia)"
       }
     ],
+    "years": "1948",
     "links": ["https://en.wikipedia.org/wiki/Luis_Barragan_House_and_Studio"],
     "categories": []
   },
@@ -3599,8 +3604,9 @@
         "*": "Seier (flickr)"
       }
     ],
+    "years": "1941",
     "links": ["https://en.wikipedia.org/wiki/Aarhus_City_Hall"],
-    "categories": []
+    "categories": ["city hall"]
   },
   {
     "answer": "Piscine Tournesol (Sunflower Pool) / Bernard Schoeller, Thémis Constantinidis / France",
@@ -4337,7 +4343,7 @@
     ],
     "years": "1936",
     "links": ["https://en.wikipedia.org/wiki/Villa_Aalto"],
-    "categories": []
+    "categories": ["housing", "classic"]
   },
   {
     "answer": "Château de Chambord / Pierre Nepveu, Jacques Sourdeau / Chambord, France",
@@ -5684,7 +5690,7 @@
     ],
     "years": "1911-1923",
     "links": ["https://en.wikipedia.org/wiki/Stockholm_City_Hall"],
-    "categories": ["romanesque", "town hall"]
+    "categories": ["romanesque", "city hall"]
   },
   {
     "answer": "Tower Bridge / Horace Jones / London, United Kingdom (UK)",
@@ -5700,5 +5706,18 @@
     "years": "1886-1894",
     "links": ["https://en.wikipedia.org/wiki/Tower_Bridge"],
     "categories": ["bridge"]
+  },
+  {
+    "answer": "Alvar Aalto Studio / Alvar Aalto / Helsinki, Finland",
+    "days": [426],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau",
+        "6": "Trogain (wikimedia)"
+      }
+    ],
+    "years": "1955",
+    "links": ["https://en.wikipedia.org/wiki/Studio_Aalto"],
+    "categories": []
   }
 ]

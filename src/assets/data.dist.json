@@ -18,6 +18,24 @@
     "categories": []
   },
   {
+    "answer": "Colosseum (Colosseo) / Rome, Italy",
+    "days": [0],
+    "copyrights": [
+      {
+        "*": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
+      }
+    ],
+    "years": "72-80",
+    "links": ["https://en.wikipedia.org/wiki/Colosseum"],
+    "categories": ["monument", "famous"]
+  },
+  {
     "answer": "Stuttgart City Library (Stadtbibliothek) / Eun Young Yi Architects / Stuttgart, Germany",
     "days": [0],
     "copyrights": [
