@@ -5721,5 +5721,21 @@
     "years": "1955",
     "links": ["https://en.wikipedia.org/wiki/Studio_Aalto"],
     "categories": ["office"]
+  },
+  {
+    "answer": "Royal Monastery of Brou (Monastère Royal) / Louis van Bodeghem / Bourg-en-Bresse, France",
+    "days": [428],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau",
+        "1": "Chabe01 (wikimedia)",
+        "2": "Auguste Mathieu",
+        "5": "Semnoz (wikimedia)",
+        "6": "Benoît Prieur (wikimedia)"
+      }
+    ],
+    "years": "1506-1532",
+    "links": ["https://en.wikipedia.org/wiki/Royal_Monastery_of_Brou"],
+    "categories": ["monument"]
   }
 ]
