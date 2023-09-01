@@ -5737,5 +5737,17 @@
     "years": "1506-1532",
     "links": ["https://en.wikipedia.org/wiki/Royal_Monastery_of_Brou"],
     "categories": ["monument"]
+  },
+  {
+    "answer": "Netherlands Pavilion for Expo 2000 / MVRDV / Hannover, Germany",
+    "days": [430],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2000",
+    "links": ["https://www.mvrdv.com/projects/158/expo-2000"],
+    "categories": ["expo"]
   }
 ]
