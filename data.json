@@ -1508,14 +1508,15 @@
   },
   {
     "answer": "Calgary's new Central Library / Snøhetta / Calgary, Alberta, Canada",
-    "days": [96],
+    "days": [96, 431],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2013-2018",
+    "links": ["https://www.snohetta.com/projects/calgary-central-library"],
+    "categories": ["library"]
   },
   {
     "answer": "Houses for Eldery People in Alcácer do Sal / Aires Mateus / Alcácer do Sal, Portugal",
