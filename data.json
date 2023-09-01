@@ -1176,20 +1176,24 @@
     "categories": []
   },
   {
-    "answer": "Milà House / Antoni Gaudí / Barcelona, Spain",
-    "days": [73],
+    "answer": "Milà House (La Pedrera) / Antoni Gaudí / Barcelona, Spain",
+    "days": [73, 429],
     "copyrights": [
       {
-        "1": "Samuel Ludwig",
-        "2": "Samuel Ludwig",
+        "*": "Samuel Ludwig",
         "3": "jacqueline.poggi",
-        "4": "Samuel Ludwig",
-        "5": "jacqueline.poggi",
-        "6": "Samuel Ludwig"
+        "5": "jacqueline.poggi"
+      },
+      {
+        "*": "Samuel Ludwig",
+        "3": "jacqueline.poggi",
+        "4": "Jaume Meneses (wikimedia)",
+        "5": "Kyle Taylor (wikimedia)"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1906-1912",
+    "links": ["https://en.wikipedia.org/wiki/Casa_Mil%C3%A0"],
+    "categories": ["housing"]
   },
   {
     "answer": "Eames House (Case Study House nº8) / Charles Eames / Pacific Palisades, Santa Mónica, California, United States of America (USA)",
@@ -3589,7 +3593,7 @@
         "6": "Jiuguang Wang (wikimedia)"
       }
     ],
-    "years": "1386- 1887",
+    "years": "1386-1887",
     "links": [
       "https://en.wikipedia.org/wiki/Duomo_di_Milano",
       "https://en.wikiarquitectura.com/building/Duomo-di-Milano/"
@@ -5737,5 +5741,17 @@
     "years": "1506-1532",
     "links": ["https://en.wikipedia.org/wiki/Royal_Monastery_of_Brou"],
     "categories": ["monument"]
+  },
+  {
+    "answer": "Netherlands Pavilion for Expo 2000 / MVRDV / Hannover, Germany",
+    "days": [430],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2000",
+    "links": ["https://www.mvrdv.com/projects/158/expo-2000"],
+    "categories": ["expo"]
   }
 ]
