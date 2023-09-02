@@ -65,15 +65,16 @@
     "categories": ["museum", "classic"]
   },
   {
-    "answer": "NEMO – Science Museum / Renzo Piano / Amsterdam, Netherlands",
+    "answer": "NEMO Science Museum / Renzo Piano / Amsterdam, Netherlands",
     "days": [3],
     "copyrights": [
       {
         "*": "wikiarquitectura"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1997",
+    "links": ["https://en.wikipedia.org/wiki/NEMO_(museum)"],
+    "categories": ["museum"]
   },
   {
     "answer": "Tate Modern / Herzog & de Meuron, Jacques Herzog, Pierre De Meuron / Bankside, London, United Kingdom (UK)",
@@ -139,7 +140,7 @@
       "https://en.wikipedia.org/wiki/Louvre_Museum",
       "https://en.wikiarquitectura.com/building/Louvre-Museum/"
     ],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "museum"]
   },
   {
     "answer": "Eden Project / Nicholas Grimshaw / Cornwall, United Kingdom (UK)",
@@ -545,7 +546,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Berliner_Philharmonie"],
-    "categories": []
+    "categories": ["opera"]
   },
   {
     "answer": "Portuguese Pavilion Expo ’98 / Álvaro Siza Vieira / Lisboa, Portugal",
@@ -580,7 +581,7 @@
       "https://en.wikipedia.org/wiki/Phillips_Exeter_Academy_Library",
       "https://en.wikiarquitectura.com/building/Phillips-Exeter-Academy-Library/"
     ],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "The Golden Temple, Harimandir Sahib, Darbār Sahib / Amritsar, India",
@@ -812,7 +813,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/Art-Museum-of-Sao-Paulo/"
     ],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Gando Primary School Extension / Kéré Architecture / Gando, Burkina Faso",
@@ -841,7 +842,7 @@
       "https://en.wikipedia.org/wiki/Geisel_Library",
       "https://en.wikiarquitectura.com/building/Geisel-Library/"
     ],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "(Great) Ziggurat of Ur / Tell el-Muqayyar, Dhi Qar Province, Iraq",
@@ -985,7 +986,7 @@
       "https://en.wikipedia.org/wiki/Library_of_Alexandria",
       "https://en.wikiarquitectura.com/building/Library-of-Alexandria/"
     ],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "Solomon R. Guggenheim Museum / Frank Lloyd Wright / New York, United States of America (USA)",
@@ -1039,7 +1040,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Neues_Museum"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Villa Cavrois / Robert Mallet-Stevens / Croix, Lille, France",
@@ -1221,7 +1222,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Château_de_Versailles"],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "castle"]
   },
   {
     "answer": "Tidal Swimming Pools (Piscinas de Marés) / Álvaro Siza Vieira / Leça da Palmeira, Matosinhos, Portugal",
@@ -1362,7 +1363,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Himeji_Castle"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Xanadú / Ricardo Bofill / La Manzanera, Alicante, Spain",
@@ -1675,7 +1676,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Modern_Art_Museum_of_Fort_Worth"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Ennis House / Frank Lloyd Wright / 2655 Glenower Ave., Los Angeles, California, United States of America (USA)",
@@ -1783,8 +1784,9 @@
         "*": "Julien Lanoo"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2012",
+    "links": ["https://en.wikipedia.org/wiki/Louvre-Lens"],
+    "categories": ["museum"]
   },
   {
     "answer": "Tianjin Binhai Library / MVRDV + Tianjin Urban Planning and Design Institute / Tianjin, China",
@@ -1795,7 +1797,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Tianjin_Binhai_Library"],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "Boa Nova Tea House / Álvaro Siza Vieira / Leça da Palmeira, Matosinhos, Portugal",
@@ -2033,8 +2035,9 @@
         "5": "Christian Thioc"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1971",
+    "links": ["https://en.wikipedia.org/wiki/Lugdunum_(museum)"],
+    "categories": ["museum"]
   },
   {
     "answer": "VitraHaus / Jacques Herzog, Herzog & de Meuron, Pierre De Meuron / Weil am Rhein, Germany",
@@ -2057,8 +2060,9 @@
         "*": "McAteer Photograph"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1896-1909",
+    "links": ["https://en.wikipedia.org/wiki/Glasgow_School_of_Art"],
+    "categories": ["library"]
   },
   {
     "answer": "Basilique du Sacré Coeur de Montmartre (Sacred Heart Basilica) / Paul Abadie, Louis-Jean Hulot / Paris, France",
@@ -2184,7 +2188,7 @@
       "https://en.wikipedia.org/wiki/Stockholm_Public_Library",
       "https://en.wikiarquitectura.com/building/Stockholm-Public-Library/"
     ],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "Aqua Tower / Studio Gang Firm, Jeanne Gang / Lakeshore East, Chicago, Illinois, United States of America (USA)",
@@ -2216,7 +2220,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Musée_d'Orsay"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "San Cataldo Cemetery / Aldo Rossi / Modena, Italy",
@@ -2286,7 +2290,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "Museum of Contemporary Art in Niteroi / Oscar Niemeyer / Niteroi, Rio de Janeiro, Brazil",
@@ -2305,7 +2309,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/Museum-of-Contemporary-Art-in-Niteroi/"
     ],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Brussels Town Hall (Hôtel de ville de Bruxelles) / Jacques van Thienen, Jean Bornoy, G. Vander Broecke, Guillaume de Vogel, Jean van Ruysbroeck, Corneille van Nerven / Brussels, Belgium",
@@ -2349,7 +2353,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Crystal Palace / Joseph Paxton / Hyde Park, London, United Kingdom (UK)",
@@ -2459,7 +2463,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Nordic Pavilion in Venice / Sverre Fehn / Venice, Italy",
@@ -2501,7 +2505,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Médiathèque Charles-Nègre de Grasse (public library) / Ivry Serres, Emmanuelle Beaudouin, Laurent Beaudouin, Aurélie Husson / Grasse, France",
@@ -2514,7 +2518,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "Estonian National Museum / Dan Dorell, Lina Ghotmeh, Tsuyoshi Tane (DGT, Paris) / Tartu, Estonia",
@@ -2528,7 +2532,7 @@
     ],
     "years": "2016",
     "links": ["https://en.wikipedia.org/wiki/Estonian_National_Museum"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Crystal Houses / MVRDV / Amsterdam, The Netherlands",
@@ -2777,7 +2781,7 @@
       "https://en.wikipedia.org/wiki/New_Museum_of_Contemporary_Art",
       "https://en.wikiarquitectura.com/building/New-Museum-of-Contemporary-Art/"
     ],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Basilica of San Lorenzo / Filippo Brunelleschi, Antonio Manetti / Florence, Italy",
@@ -2852,7 +2856,7 @@
       "https://en.wikipedia.org/wiki/Viipuri_Library",
       "https://en.wikiarquitectura.com/building/Viipuri-Library/"
     ],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "The Barn / Antonin ZIEGLER architecte / Notre-Dame-de-Bliquetuit, France",
@@ -3121,8 +3125,10 @@
         "6": "Courtesy of the Owner"
       }
     ],
-    "links": [],
-    "categories": ["monument"]
+    "links": [
+      "https://en.wikipedia.org/wiki/Library_of_Trinity_College_Dublin"
+    ],
+    "categories": ["monument", "library"]
   },
   {
     "answer": "Saint Benedict Chapel / Peter Zumthor / Sumvitg, Graubünden, Switzerland",
@@ -3305,7 +3311,7 @@
       "https://en.wikipedia.org/wiki/Vilnius_University_Library",
       "https://en.wikiarquitectura.com/building/Vilnius-University-Library/"
     ],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "TWA Terminal at JFK airport / Eero Saarinen, Gensler Studio / New York, United States of America (USA)",
@@ -3404,7 +3410,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/M._H._de_Young_Memorial_Museum"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Bonnefanten Museum / Aldo Rossi / Maastricht, Netherlands",
@@ -3420,7 +3426,7 @@
       "https://en.wikipedia.org/wiki/Bonnefanten_Museum",
       "https://en.wikiarquitectura.com/building/Bonnefanten-Museum/"
     ],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Smith House / Richard Meier / Darien, Connecticut, United States of America (USA)",
@@ -3863,8 +3869,8 @@
       }
     ],
     "years": "1949-1956",
-    "links": [],
-    "categories": []
+    "links": ["https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Museum"],
+    "categories": ["museum"]
   },
   {
     "answer": "St. Ignatius Chapel / Steven Holl / Seattle University, Seattle, Washington, United States of America (USA)",
@@ -3942,8 +3948,10 @@
       }
     ],
     "years": "2002-2006",
-    "links": [],
-    "categories": []
+    "links": [
+      "https://en.wikipedia.org/wiki/Mus%C3%A9e_du_Quai_Branly_%E2%80%93_Jacques_Chirac"
+    ],
+    "categories": ["museum"]
   },
   {
     "answer": "Braga’s Municipal Stadium (Estádio Municipal de Braga) / Eduardo Souto de Moura / Braga, Portugal",
@@ -4258,7 +4266,7 @@
       "https://en.wikipedia.org/wiki/Denver_Art_Museum",
       "https://en.wikiarquitectura.com/building/Denver-Art-Museum/"
     ],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Reichstag, New German Parliament / Norman Foster / Berlin, Germany",
@@ -4365,7 +4373,7 @@
     ],
     "years": "1519-1547",
     "links": ["https://en.wikipedia.org/wiki/Château_de_Chambord"],
-    "categories": ["monument"]
+    "categories": ["monument", "castle"]
   },
   {
     "answer": "Horta Museum (Horta's house and workshop) / Victor Horta / Brussels, Belgium",
@@ -4493,7 +4501,7 @@
     ],
     "years": "1993",
     "links": ["https://www.buw.uw.edu.pl/en/about-us/building-and-garden/"],
-    "categories": []
+    "categories": ["library"]
   },
   {
     "answer": "Vitra Fire Station / Zaha Hadid / Weil am Rhein, Germany",
@@ -4603,7 +4611,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Museum_of_European_and_Mediterranean_Civilisations"
     ],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Torre Glòries (Torre Agbar) / Jean Nouvel, B720 Fermín Vázquez Arquitectos / Barcelona, Spain",

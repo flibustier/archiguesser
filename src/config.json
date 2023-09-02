@@ -5,7 +5,7 @@
   "MAX_LEVEL": 5,
   "ANONYMOUS_RETRIES": 3,
   "LOGGED_RETRIES": 7,
-  "LISTED_CATEGORIES": ["famous", "monument"],
+  "LISTED_CATEGORIES": ["famous", "monument", "museum", "castle", "library"],
   "LISTED_PLACES": [
     "United States of America (USA)",
     "France",
@@ -14,7 +14,8 @@
     "United Kingdom (UK)",
     "Japan",
     "China",
-    "Portugal"
+    "Portugal",
+    "Italy"
   ],
   "LISTED_ARCHITECTS": ["Le Corbusier", "Zaha Hadid"]
 }
