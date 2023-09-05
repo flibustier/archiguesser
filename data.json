@@ -5762,5 +5762,22 @@
     "years": "2000",
     "links": ["https://www.mvrdv.com/projects/158/expo-2000"],
     "categories": ["expo"]
+  },
+  {
+    "answer": "Ray and Maria Stata Center (MIT Building 32) / Frank Gehry / Cambridge, Massachusetts, United States of America (USA)",
+    "days": [432],
+    "copyrights": [
+      {
+        "1": "Sintakso (wikimedia)",
+        "2": "Sintakso (wikimedia)",
+        "3": "Dicklyon (wikimedia)",
+        "4": "Physicistjedi (wikimedia)",
+        "5": "Tony Webster (wikimedia)",
+        "6": "Lucy Li (wikimedia)"
+      }
+    ],
+    "years": "2004",
+    "links": ["https://en.wikipedia.org/wiki/Stata_Center"],
+    "categories": ["university", "deconstructivist"]
   }
 ]
