@@ -5779,5 +5779,22 @@
     "years": "2004",
     "links": ["https://en.wikipedia.org/wiki/Stata_Center"],
     "categories": ["university", "deconstructivist"]
+  },
+  {
+    "answer": "Rushton Triangular Lodge / Sir Thomas Tresham / Rushton, Northamptonshire, United Kingdom (UK)",
+    "days": [433],
+    "copyrights": [
+      {
+        "1": "amandabhslater (wikimedia)",
+        "2": "J. Taylo (wikimedia)",
+        "3": "Nick Richards (wikimedia)",
+        "4": "Isham, Gyles (Sir) (wikimedia)",
+        "5": "Daderot (wikimedia)",
+        "6": "Daderot (wikimedia)"
+      }
+    ],
+    "years": "1593-1597",
+    "links": ["https://en.wikipedia.org/wiki/Rushton_Triangular_Lodge"],
+    "categories": ["folly"]
   }
 ]
