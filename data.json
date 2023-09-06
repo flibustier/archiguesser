@@ -1088,14 +1088,17 @@
   },
   {
     "answer": "Mt. Fuji World Heritage Centre / Shigeru Ban / Fujinomiya, Shizuoka, Japan",
-    "days": [66],
+    "days": [66, 434],
     "copyrights": [
       {
         "*": "Hiroyuki Hirai"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2017",
+    "links": [
+      "https://www.arup.com/projects/mt-fuji-world-heritage-centre-shizuoka"
+    ],
+    "categories": ["cultural"]
   },
   {
     "answer": "France National Library (BNF) / Dominique Perrault / Paris, France",
@@ -5779,5 +5782,39 @@
     "years": "2004",
     "links": ["https://en.wikipedia.org/wiki/Stata_Center"],
     "categories": ["university", "deconstructivist"]
+  },
+  {
+    "answer": "Rushton Triangular Lodge / Sir Thomas Tresham / Rushton, Northamptonshire, United Kingdom (UK)",
+    "days": [433],
+    "copyrights": [
+      {
+        "1": "amandabhslater (wikimedia)",
+        "2": "J. Taylo (wikimedia)",
+        "3": "Nick Richards (wikimedia)",
+        "4": "Isham, Gyles (Sir) (wikimedia)",
+        "5": "Daderot (wikimedia)",
+        "6": "Daderot (wikimedia)"
+      }
+    ],
+    "years": "1593-1597",
+    "links": ["https://en.wikipedia.org/wiki/Rushton_Triangular_Lodge"],
+    "categories": ["folly"]
+  },
+  {
+    "answer": "Castel Sant'Angelo (Mausoleum of Hadrian - Castle of the Holy Angel) / Rome, Italy",
+    "days": [435],
+    "copyrights": [
+      {
+        "1": "Rabax63 ",
+        "2": "",
+        "3": "Livioandronico2013 ",
+        "4": "Rudolf Wiegmann 1834",
+        "5": "Fczarnowski",
+        "6": "0x010C "
+      }
+    ],
+    "years": "123-139",
+    "links": ["https://en.wikipedia.org/wiki/Castel_Sant%27Angelo"],
+    "categories": ["castle"]
   }
 ]
