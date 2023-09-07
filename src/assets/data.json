@@ -1565,7 +1565,7 @@
     "categories": []
   },
   {
-    "answer": "Elba Philharmonic / Herzog & de Meuron / Hamburg, Germany",
+    "answer": "Elbphilharmonie (Elba/Elbe Philharmonic Hall - Elphi) / Herzog & de Meuron / Hamburg, Germany",
     "days": [101, 434],
     "copyrights": [
       {
@@ -1573,8 +1573,12 @@
         "*": "Iwan Baan"
       }
     ],
-    "links": ["https://en.wikiarquitectura.com/building/Elba-Philharmonic/"],
-    "categories": []
+    "years": "2017",
+    "links": [
+      "https://en.wikipedia.org/wiki/Elbphilharmonie",
+      "https://en.wikiarquitectura.com/building/Elba-Philharmonic/"
+    ],
+    "categories": ["auditorium"]
   },
   {
     "answer": "Couvent de Saint-François / Amelia Tavella Architectes / Sainte Lucie de Tallano, Corsica, France",
