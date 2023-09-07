@@ -423,7 +423,7 @@
       "https://en.wikipedia.org/wiki/Three_Powers_Square",
       "https://en.wikiarquitectura.com/building/Three-Powers-Square/"
     ],
-    "categories": ["modern"]
+    "categories": ["modernism"]
   },
   {
     "answer": "Heydar Aliyev Cultural Center / Zaha Hadid, Patrick Schumacher, Saffet Kaya Bekiroglu / Baku, Azerbaijan",
@@ -470,7 +470,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/National_Museum_of_Qatar"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Sagrada Familia / Antoni Gaudí / Barcelona, Spain",
@@ -519,7 +519,7 @@
       "https://en.wikiarquitectura.com/building/Fallingwater-House/",
       "https://en.wikipedia.org/wiki/Fallingwater"
     ],
-    "categories": ["housing", "classic"]
+    "categories": ["housing", "classic", "modernism"]
   },
   {
     "answer": "Angkor Wat / Siem Reap, Cambodia",
@@ -695,7 +695,7 @@
       "https://en.wikipedia.org/wiki/Brasilia_Cathedral",
       "https://en.wikiarquitectura.com/building/Brasilia-Cathedral/"
     ],
-    "categories": ["religious", "modern"]
+    "categories": ["religious", "modernism"]
   },
   {
     "answer": "Aluminium Forest Building / Micha de Hass / Houten, Utrecht, Netherlands",
@@ -756,7 +756,7 @@
       "https://en.wikipedia.org/wiki/Chandigarh",
       "https://en.wikiarquitectura.com/building/Chandigarh/"
     ],
-    "categories": ["modern"]
+    "categories": ["modernism"]
   },
   {
     "answer": "House in Monsaraz / Aires Mateus / Monsaraz, Portugal",
@@ -1009,7 +1009,7 @@
       "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum",
       "https://en.wikiarquitectura.com/building/Guggenheim-Museum-in-New-York/"
     ],
-    "categories": ["museum", "classic", "famous", "modern"]
+    "categories": ["museum", "classic", "famous", "modernism"]
   },
   {
     "answer": "Rietveld-Schröder House / Gerrit Rietveld / Utrecht, Netherlands",
@@ -1088,7 +1088,7 @@
   },
   {
     "answer": "Mt. Fuji World Heritage Centre / Shigeru Ban / Fujinomiya, Shizuoka, Japan",
-    "days": [66, 434],
+    "days": [66, 436],
     "copyrights": [
       {
         "*": "Hiroyuki Hirai"
@@ -1326,7 +1326,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/Convent-of-Sainte-Marie-Tourette/"
     ],
-    "categories": ["modern"]
+    "categories": ["modernism"]
   },
   {
     "answer": "Eco Boulevard in Vallecas / Ecosistema Urbano, Belinda Tato, Jose Luis Vallejo, Diego García-Setién / Madrid, Spain",
@@ -1548,7 +1548,7 @@
     ],
     "years": "1964-1966",
     "links": ["https://en.wikipedia.org/wiki/945_Madison_Avenue"],
-    "categories": ["museum", "brutalism", "modern"]
+    "categories": ["museum", "brutalism", "modernism"]
   },
   {
     "answer": "House in Bordeaux / Rem Koolhaas, OMA / Bordeaux, France",
@@ -1566,7 +1566,7 @@
   },
   {
     "answer": "Elba Philharmonic / Herzog & de Meuron / Hamburg, Germany",
-    "days": [101],
+    "days": [101, 434],
     "copyrights": [
       {
         "4": "Luc Boegly et Sergio Grazia",
@@ -1610,7 +1610,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/French-Communist-Party-Headquarters/"
     ],
-    "categories": ["modern"]
+    "categories": ["modernism"]
   },
   {
     "answer": "Vanna Venturi House / Robert Venturi / Chestnut Hill, Philadelphia, Pennsylvania, United States of America (USA)",
@@ -2151,7 +2151,7 @@
       "https://en.wikipedia.org/wiki/United_Nations_Headquarters_in_New_York",
       "https://en.wikiarquitectura.com/building/United-Nations-Headquarters-in-New-York/"
     ],
-    "categories": ["classic", "modern"]
+    "categories": ["classic", "modernism"]
   },
   {
     "answer": "Santa Maria del Fiore (Florence Cathedral) / Filippo Brunelleschi, Arnolfo Di Cambio, Giotto di Bondone, Andrea Pisano, Emilio De Fabris / Florence, Italy",
@@ -2669,7 +2669,7 @@
     ],
     "years": "1947-1952",
     "links": ["https://fr.wikipedia.org/wiki/Cit%C3%A9_radieuse_de_Marseille"],
-    "categories": ["modern"]
+    "categories": ["modernism"]
   },
   {
     "answer": "Capilla San Bernardo (chapel) / Nicolás Campodonico / La Playosa, Argentina",
@@ -5243,7 +5243,7 @@
     ],
     "years": "1934-1941",
     "links": ["https://en.wikiarquitectura.com/building/zarzuelas-hippodrome/"],
-    "categories": ["modern"]
+    "categories": ["modernism"]
   },
   {
     "answer": "New York Times Building / Renzo Piano / New York, United States of America (USA)",
@@ -5594,7 +5594,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
     ],
-    "categories": ["modern"]
+    "categories": ["modernism"]
   },
   {
     "answer": "Harpa Concert and Conference Centre / Batteriið Architects, Henning Larsen Architects, Olafur Eliasson / Reykjavik, Iceland",
@@ -5634,7 +5634,7 @@
     ],
     "years": "1960",
     "links": ["https://en.wikipedia.org/wiki/Chemosphere"],
-    "categories": ["modern"]
+    "categories": ["modernism"]
   },
   {
     "answer": "Tower of London (Royal Palace and Fortress) / London, United Kingdom (UK)",
@@ -5805,16 +5805,32 @@
     "days": [435],
     "copyrights": [
       {
-        "1": "Rabax63 ",
+        "1": "Rabax63 (wikimedia)",
         "2": "",
-        "3": "Livioandronico2013 ",
-        "4": "Rudolf Wiegmann 1834",
-        "5": "Fczarnowski",
-        "6": "0x010C "
+        "3": "Livioandronico2013 (wikimedia)",
+        "4": "Rudolf Wiegmann 1834 (wikimedia)",
+        "5": "Fczarnowski (wikimedia)",
+        "6": "0x010C (wikimedia)"
       }
     ],
     "years": "123-139",
     "links": ["https://en.wikipedia.org/wiki/Castel_Sant%27Angelo"],
     "categories": ["castle"]
+  },
+  {
+    "answer": "Auditorio de Tenerife Adán Martín / Santiago Calatrava / Santa Cruz de Tenerife, Canary Islands, Spain",
+    "days": [437],
+    "copyrights": [
+      {
+        "*": "Arthur",
+        "3": "Koppchen (wikimedia)",
+        "4": "Jules Verne Times Two (wikimedia)",
+        "5": "Holger Uwe Schmitt (wikimedia)",
+        "6": "Diego Delso (wikimedia)"
+      }
+    ],
+    "years": "1997-2003",
+    "links": ["https://en.wikipedia.org/wiki/Auditorio_de_Tenerife"],
+    "categories": ["expressionist", "auditorium"]
   }
 ]
