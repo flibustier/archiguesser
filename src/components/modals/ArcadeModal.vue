@@ -4,21 +4,9 @@ import { capitalize } from "vue";
 import BaseModal from "./BaseModal.vue";
 import IconTrophy from "../icons/IconTrophy.vue";
 
-import {
-  ITEMS_PER_LEVEL,
-  MAX_LEVEL,
-  LISTED_ARCHITECTS,
-  LISTED_CATEGORIES,
-  LISTED_PLACES,
-} from "@/config.json";
+import { ITEMS_PER_LEVEL, MAX_LEVEL, LISTED_CATEGORIES } from "@/config.json";
 import { getProjectsByCategory } from "@/DailySelector";
 import { getChallenges } from "@/store";
-
-const categories = [
-  ...LISTED_CATEGORIES,
-  ...LISTED_PLACES,
-  ...LISTED_ARCHITECTS,
-];
 
 defineProps({
   isVisible: {
@@ -61,7 +49,7 @@ const maxLevel = (category: string) =>
 
         <div class="image-grid">
           <div
-            v-for="(category, i) of categories"
+            v-for="(category, i) of LISTED_CATEGORIES"
             :key="category"
             @click="goToCategory(category)"
           >
