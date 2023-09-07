@@ -546,7 +546,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Berliner_Philharmonie"],
-    "categories": ["opera"]
+    "categories": ["concert hall"]
   },
   {
     "answer": "Portuguese Pavilion Expo ’98 / Álvaro Siza Vieira / Lisboa, Portugal",
@@ -1405,7 +1405,7 @@
       "https://en.wikipedia.org/wiki/Sydney_Opera_House",
       "https://en.wikiarquitectura.com/building/Sydney-Opera-House/"
     ],
-    "categories": ["famous", "opera"]
+    "categories": ["famous", "concert hall"]
   },
   {
     "answer": "Yad Vashem Holocaust History Museum / Moshe Safdie / Har Hazikaron, Jerusalem, Israel",
@@ -1578,7 +1578,7 @@
       "https://en.wikipedia.org/wiki/Elbphilharmonie",
       "https://en.wikiarquitectura.com/building/Elba-Philharmonic/"
     ],
-    "categories": ["auditorium"]
+    "categories": ["concert hall"]
   },
   {
     "answer": "Couvent de Saint-François / Amelia Tavella Architectes / Sainte Lucie de Tallano, Corsica, France",
@@ -5176,7 +5176,7 @@
       "http://www.jeannouvel.com/en/projects/opera-3/",
       "https://en.wikipedia.org/wiki/Op%C3%A9ra_Nouvel"
     ],
-    "categories": ["opera"]
+    "categories": ["concert hall"]
   },
   {
     "answer": "Stedelijk Museum Amsterdam / Benthem Crouwel Architects, Mels Crouwel, Adriaan Willem Weissman / Amsterdam, Netherlands",
@@ -5201,7 +5201,7 @@
     ],
     "years": "2001-2004",
     "links": ["https://en.wikipedia.org/wiki/Copenhagen_Opera_House"],
-    "categories": ["opera", "contemporary", "neo-futurism"]
+    "categories": ["concert hall", "contemporary", "neo-futurism"]
   },
   {
     "answer": "Natural History Museum / Alfred Waterhouse / London, United Kingdom (UK)",
@@ -5612,7 +5612,7 @@
     ],
     "years": "2007-2011",
     "links": ["https://en.wikipedia.org/wiki/Harpa_(concert_hall)"],
-    "categories": ["contemporary", "opera"]
+    "categories": ["contemporary", "concert hall"]
   },
   {
     "answer": "Reflections at Keppel Bay / Daniel Libeskind / Singapore",
@@ -5835,6 +5835,6 @@
     ],
     "years": "1997-2003",
     "links": ["https://en.wikipedia.org/wiki/Auditorio_de_Tenerife"],
-    "categories": ["expressionist", "auditorium"]
+    "categories": ["expressionist", "concert hall"]
   }
 ]

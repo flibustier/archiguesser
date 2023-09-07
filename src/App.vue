@@ -12,6 +12,7 @@ import DailyPage from "./pages/DailyPage.vue";
 import ArcadePage from "./pages/ArcadePage.vue";
 
 import { isLogged } from "./store";
+import { LISTED_CATEGORIES } from "./config.json";
 
 const showBackModal = ref(false);
 const showInfoModal = ref(false);
@@ -20,7 +21,9 @@ const showLogInModal = ref(false);
 const showArcadeModal = ref(false);
 
 const urlParameters = new URLSearchParams(window.location.search);
-const isArcadeMode = urlParameters.get("challenge");
+const isArcadeMode = LISTED_CATEGORIES.includes(
+  urlParameters.get("challenge") || "",
+);
 </script>
 
 <template>

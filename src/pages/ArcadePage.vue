@@ -26,7 +26,6 @@ defineEmits(["showArcadeModal", "showLogInModal"]);
 
 const urlParameters = new URLSearchParams(window.location.search);
 const requestedCategory = urlParameters.get("challenge") || "";
-// todo: disable unsupported categories when it’s production?
 
 const shuffle = (array: any[]) => {
   let randIndex;
