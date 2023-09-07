@@ -5816,5 +5816,21 @@
     "years": "123-139",
     "links": ["https://en.wikipedia.org/wiki/Castel_Sant%27Angelo"],
     "categories": ["castle"]
+  },
+  {
+    "answer": "Auditorio de Tenerife Adán Martín / Santiago Calatrava / Santa Cruz de Tenerife, Canary Islands, Spain",
+    "days": [437],
+    "copyrights": [
+      {
+        "*": "Arthur",
+        "3": "Koppchen (wikimedia)",
+        "4": "Jules Verne Times Two (wikimedia)",
+        "5": "Holger Uwe Schmitt (wikimedia)",
+        "6": "Diego Delso (wikimedia)"
+      }
+    ],
+    "years": "1997-2003",
+    "links": ["https://en.wikipedia.org/wiki/Auditorio_de_Tenerife"],
+    "categories": ["expressionist", "auditorium"]
   }
 ]
