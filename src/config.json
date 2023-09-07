@@ -11,6 +11,9 @@
     "museum",
     "castle",
     "library",
+    "modernism",
+    "religious",
+    "skyscraper",
     "United States of America (USA)",
     "France",
     "Germany",
@@ -21,6 +24,7 @@
     "Portugal",
     "Italy",
     "Le Corbusier",
-    "Zaha Hadid"
+    "Zaha Hadid",
+    "Jean Nouvel"
   ]
 }
