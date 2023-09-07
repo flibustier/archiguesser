@@ -13,7 +13,7 @@ const realCurrentDay = getRealDayNumber();
 // range of 60 numbers starting at real current day
 const days = [...Array(realCurrentDay).keys()]
   .filter((day) => ![198, 214, 332].includes(day))
-  .slice(realCurrentDay - 59)
+  .slice(realCurrentDay - 62)
   .reverse();
 
 defineProps({
@@ -23,7 +23,7 @@ defineProps({
   },
 });
 
-const showThumbnail = ref(getSettings().showThumbnail || false);
+const showThumbnail = ref(getSettings().showThumbnail || true);
 const toggleShowThumbnail = (value: boolean) => {
   showThumbnail.value = value;
   setSetting("showThumbnail", value);
