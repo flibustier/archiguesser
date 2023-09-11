@@ -21,8 +21,9 @@ import IconRetry from "@/components/icons/IconRetry.vue";
 import IconTrophy from "@/components/icons/IconTrophy.vue";
 import GuessingForm from "@/components/guessing/GuessingForm.vue";
 import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
+import IconScoreboard from "@/components/icons/IconScoreboard.vue";
 
-defineEmits(["showArcadeModal", "showLogInModal"]);
+defineEmits(["showArcadeModal", "showLogInModal", "showScoreModal"]);
 
 const urlParameters = new URLSearchParams(window.location.search);
 const requestedCategory = urlParameters.get("challenge") || "";
@@ -161,7 +162,10 @@ const openLinks = () => {
           👏<br />
           New levels will be added soon, stay tuned!
         </h3>
-        <h3 v-else>You’re now level {{ currentLevel }}! 🏆</h3>
+        <h3 v-else>
+          You’re now level {{ currentLevel }}! 🏆 You’ve earned
+          {{ currentLevel * 50 }} points!
+        </h3>
         <br />
       </div>
       <div v-else>
@@ -192,12 +196,17 @@ const openLinks = () => {
             <span>Learn more about it</span>
             <IconWiki />
           </button>
+          <button class="white-btn" @click="$emit('showScoreModal')">
+            <span>Check your score</span>
+            <IconScoreboard />
+          </button>
           <button class="white-btn" @click="$emit('showArcadeModal')">
-            <span>Try another challenge!</span>
+            <span>Try another challenge</span>
             <IconTrophy />
           </button>
           <button class="white-btn" @click="goHome()">
             <span>Back to daily challenge</span>
+            <IconRetry />
           </button>
         </div>
       </div>
@@ -264,7 +273,7 @@ button {
 }
 
 button svg {
-  margin-left: 0.25rem;
+  margin-left: 0.5rem;
   vertical-align: text-top;
 }
 
@@ -285,6 +294,7 @@ button svg {
 .white-btn {
   border: 1px solid;
   background-color: var(--background-color);
+  justify-content: space-between;
 }
 
 .center {

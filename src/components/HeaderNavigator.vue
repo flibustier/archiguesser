@@ -3,12 +3,14 @@ import IconBack from "./icons/IconBack.vue";
 import IconHelp from "./icons/IconHelp.vue";
 import IconUser from "./icons/IconUser.vue";
 import IconTrophy from "./icons/IconTrophy.vue";
+import IconScoreboard from "./icons/IconScoreboard.vue";
 
 defineEmits([
   "showArcadeModal",
   "showBackModal",
   "showInfoModal",
   "showUserModal",
+  "showScoreModal",
 ]);
 </script>
 
@@ -19,17 +21,20 @@ defineEmits([
         <a href="/" id="brand">ARCHIGUESSER</a>
       </div>
       <div class="nav-block nav-right">
-        <a @click="$emit('showArcadeModal')">
-          <IconTrophy />
-        </a>
         <a @click="$emit('showBackModal')">
           <IconBack />
         </a>
-        <a @click="$emit('showInfoModal')">
-          <IconHelp />
+        <a @click="$emit('showArcadeModal')">
+          <IconTrophy />
+        </a>
+        <a @click="$emit('showScoreModal')">
+          <IconScoreboard />
         </a>
         <a @click="$emit('showUserModal')">
           <IconUser />
+        </a>
+        <a @click="$emit('showInfoModal')">
+          <IconHelp />
         </a>
       </div>
     </div>

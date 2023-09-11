@@ -4,6 +4,7 @@ import { ref } from "vue";
 import InfoModal from "./components/modals/InfoModal.vue";
 import BackModal from "./components/modals/BackModal.vue";
 import UserModal from "./components/modals/UserModal.vue";
+import ScoreModal from "./components/modals/ScoreModal.vue";
 import LogInModal from "./components/modals/LogInModal.vue";
 import ArcadeModal from "./components/modals/ArcadeModal.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
@@ -17,6 +18,7 @@ import { LISTED_CATEGORIES } from "./config.json";
 const showBackModal = ref(false);
 const showInfoModal = ref(false);
 const showUserModal = ref(false);
+const showScoreModal = ref(false);
 const showLogInModal = ref(false);
 const showArcadeModal = ref(false);
 
@@ -30,11 +32,13 @@ const isArcadeMode = LISTED_CATEGORIES.includes(
   <BackModal v-model:is-visible="showBackModal" />
   <InfoModal v-model:is-visible="showInfoModal" />
   <UserModal v-model:is-visible="showUserModal" />
+  <ScoreModal v-model:is-visible="showScoreModal" />
   <LogInModal v-model:is-visible="showLogInModal" />
   <ArcadeModal v-model:is-visible="showArcadeModal" />
   <HeaderNavigator
     @showBackModal="showBackModal = true"
     @showInfoModal="showInfoModal = true"
+    @showScoreModal="showScoreModal = true"
     @showUserModal="
       isLogged() ? (showUserModal = true) : (showLogInModal = true)
     "
@@ -45,6 +49,7 @@ const isArcadeMode = LISTED_CATEGORIES.includes(
       v-if="isArcadeMode"
       @showArcadeModal="showArcadeModal = true"
       @showLogInModal="showLogInModal = true"
+      @showScoreModal="showScoreModal = true"
     />
     <DailyPage v-else @showBackModal="showBackModal = true" />
   </main>
