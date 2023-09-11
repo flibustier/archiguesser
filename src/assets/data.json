@@ -1687,7 +1687,7 @@
   },
   {
     "answer": "Ennis House / Frank Lloyd Wright / 2655 Glenower Ave., Los Angeles, California, United States of America (USA)",
-    "days": [110],
+    "days": [110, 438],
     "copyrights": [
       {
         "3": "Andrew Pielage",
@@ -1701,7 +1701,7 @@
       "https://en.wikipedia.org/wiki/Ennis_House",
       "https://en.wikiarquitectura.com/building/Ennis-House/"
     ],
-    "categories": []
+    "categories": ["movie set"]
   },
   {
     "answer": "Nakagin Capsule Tower / Kisho Kurokawa / Tokyo, Japan",
