@@ -102,7 +102,17 @@ const openLinks = () => {
         Well done! 👏
       </div>
     </div>
-    <div id="share-message" v-html="resultSquares"></div>
+    <div id="share-message" v-html="resultSquares" />
+    <div class="guesses-display">
+      <button class="show-guesses-btn" @click="toggleGuesses">
+        {{ showGuesses ? "Hide" : "Show" }} Guesses
+      </button>
+      <div v-if="showGuesses">
+        <div v-for="(guess, i) of guesses" :key="guess">
+          {{ i === guesses.length - 1 && hasWon ? "✅" : "❌" }} {{ guess }}
+        </div>
+      </div>
+    </div>
     <div class="buttons">
       <button class="share-btn" @click="copy">
         <span>{{ shareBtnContent }}</span>
@@ -121,17 +131,7 @@ const openLinks = () => {
       </div>
     </div>
     <div>Next challenge <b class="emphasis">tomorrow</b>! 🕛</div>
-    <div class="guesses-display">
-      <button class="show-guesses-btn" @click="toggleGuesses">
-        {{ showGuesses ? "Hide" : "Show" }} Guesses
-      </button>
-      <div v-if="showGuesses">
-        <div v-for="(guess, i) of guesses" :key="guess">
-          {{ i === guesses.length - 1 && hasWon ? "✅" : "❌" }} {{ guess }}
-        </div>
-      </div>
-    </div>
-    <p class="sponsor">
+    <p class="sponsor" v-if="false">
       ❤️ {{ APP_NAME }}?
       <a href="https://www.instagram.com/archiguesser/" target="_blank"
         >Follow me on Instagram!</a
