@@ -36,3 +36,28 @@ export const getCredentials = () => {
   return { email: "", password: "" };
 };
 export const isLogged = () => localStorage.getItem("login") != null;
+
+export const getDailiesScore = () => {
+  const { firstPlayed, lastPlayed, ...stats } = getStats();
+
+  return (Object.values(stats) as number[]).reduce(
+    (total, dailyScore) => total + 1 + ((7 - dailyScore) % 7),
+    0,
+  );
+};
+export const getChallengesScore = () => {
+  const { dayNumber, retryCount, ...challengeLevels } = getChallenges();
+
+  return (Object.values(challengeLevels) as number[]).reduce(
+    (total, challengeLevel) => {
+      let challengeScore = 0;
+      for (let i = 1; i <= challengeLevel; i++) {
+        challengeScore += i * 50;
+      }
+      return total + challengeScore;
+    },
+    0,
+  );
+};
+export const getScore = () =>
+  getDailiesScore() + getChallengesScore() + (isLogged() ? 50 : 0);
