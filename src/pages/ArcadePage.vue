@@ -18,10 +18,10 @@ import {
 
 import IconWiki from "@/components/icons/IconWiki.vue";
 import IconRetry from "@/components/icons/IconRetry.vue";
+import IconScore from "@/components/icons/IconScoreboard.vue";
 import IconTrophy from "@/components/icons/IconTrophy.vue";
 import GuessingForm from "@/components/guessing/GuessingForm.vue";
 import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
-import IconScoreboard from "@/components/icons/IconScoreboard.vue";
 
 defineEmits(["showArcadeModal", "showLogInModal", "showScoreModal"]);
 
@@ -198,7 +198,7 @@ const openLinks = () => {
           </button>
           <button class="white-btn" @click="$emit('showScoreModal')">
             <span>Check your score</span>
-            <IconScoreboard />
+            <IconScore />
           </button>
           <button class="white-btn" @click="$emit('showArcadeModal')">
             <span>Try another challenge</span>
