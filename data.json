@@ -3555,8 +3555,9 @@
         "*": "Paul Raftery"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2004",
+    "links": ["https://fr.wikipedia.org/wiki/Tower-Flower"],
+    "categories": ["housing"]
   },
   {
     "answer": "Space Needle / Edward E. Carlson, John Graham & Company / Seattle, United States of America (USA)",
@@ -5836,5 +5837,22 @@
     "years": "1997-2003",
     "links": ["https://en.wikipedia.org/wiki/Auditorio_de_Tenerife"],
     "categories": ["expressionist", "concert hall"]
+  },
+  {
+    "answer": "Globen (Avicii Arena, Stockholm Globe Arena, Ericsson Globe Stadium) / Berg Arkitektkontor, Svante Berg, Lars Vretblad / Stockholm, Sweden",
+    "days": [439],
+    "copyrights": [
+      {
+        "1": "Holger.Ellgaard (wikimedia)",
+        "2": "kallerna (wikimedia)",
+        "3": "Egon Eagle (wikimedia)",
+        "4": "Knebel (wikimedia)",
+        "5": "bengt-re (wikimedia)",
+        "6": "Alexandar Vujadinovic (wikimedia)"
+      }
+    ],
+    "years": "1986-1989",
+    "links": ["https://en.wikipedia.org/wiki/Avicii_Arena"],
+    "categories": ["stadium"]
   }
 ]
