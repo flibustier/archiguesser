@@ -5854,5 +5854,22 @@
     "years": "1986-1989",
     "links": ["https://en.wikipedia.org/wiki/Avicii_Arena"],
     "categories": ["stadium"]
+  },
+  {
+    "answer": "Arulmigu Meenakshi Sundaraswarar Temple (Amman Thirukkovil) / Madurai, Tamil Nadu, India",
+    "days": [440],
+    "copyrights": [
+      {
+        "1": "brad.coy (wikimedia)",
+        "2": "Internet Archive Book Images (wikimedia)",
+        "3": "Accesscrawl (wikimedia)",
+        "4": "Bernard Gagnon (wikimedia)",
+        "5": "Mamichaelraj (wikimedia)",
+        "6": "KennyOMG (wikimedia)"
+      }
+    ],
+    "years": "1560-1660",
+    "links": ["https://en.wikipedia.org/wiki/Meenakshi_Temple"],
+    "categories": ["religious", "monument"]
   }
 ]
