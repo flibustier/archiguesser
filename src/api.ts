@@ -1,3 +1,5 @@
+import { getCredentials } from "./store";
+
 export const sendEvent = (event: string) => {
   if (process.env.NODE_ENV === "production") {
     try {
@@ -18,11 +20,6 @@ interface StatsObject {
   lastPlayed: number;
 }
 
-interface Credentials {
-  email: string;
-  password: string;
-}
-
 const convertStats = (stats: StatsObject) => {
   const { firstPlayed, lastPlayed, ...dailyStats } = stats;
 
@@ -39,7 +36,6 @@ export const sendResult = async (
   score: number,
   guesses: string[],
   stats: StatsObject,
-  credentials?: Credentials,
 ): Promise<number | undefined> => {
   try {
     const response = await fetch(endpoint + "result", {
@@ -52,7 +48,7 @@ export const sendResult = async (
         score,
         guesses,
         ...convertStats(stats),
-        ...credentials,
+        ...getCredentials(),
       }),
     });
 
@@ -74,7 +70,6 @@ export const sendChallengeResult = async (
   category: string,
   failedOn: string,
   challenges: any,
-  credentials?: Credentials,
 ): Promise<void> => {
   try {
     const { retryCount, dayNumber, ...challengesScores } = challenges;
@@ -91,7 +86,7 @@ export const sendChallengeResult = async (
         failed_on: failedOn,
         retry_count: retryCount,
         challenges: JSON.stringify(challengesScores),
-        ...credentials,
+        ...getCredentials(),
       }),
     });
   } catch (error) {

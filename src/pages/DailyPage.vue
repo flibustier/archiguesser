@@ -2,7 +2,8 @@
 import { reactive, computed, ref } from "vue";
 
 import { sendEvent, sendResult } from "../api";
-import { getCredentials, getStats } from "../store";
+import { getStats } from "../store";
+import { syncUser } from "@/services/user";
 import { getDayInformation, getRealDayNumber } from "../DailySelector";
 
 import EndDisplay from "../components/EndDisplay.vue";
@@ -64,13 +65,8 @@ const onSubmittedGuess = async (guess: string) => {
   if (isGameEnded.value) {
     const score = hasWon.value ? currentRound.value - 1 : 0;
     updateStats(score);
-    percent.value = await sendResult(
-      dayNumber,
-      score,
-      guesses,
-      stats,
-      getCredentials(),
-    );
+    percent.value = await sendResult(dayNumber, score, guesses, stats);
+    syncUser();
   }
 };
 </script>
