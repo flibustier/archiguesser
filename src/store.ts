@@ -23,7 +23,11 @@ export const setLogIn = (email: string, password: string) =>
   localStorage.setItem("login", btoa(email + ":" + password));
 export const setLogOut = () => localStorage.removeItem("login");
 
-export const getCredentials = () => {
+interface Credentials {
+  email: string;
+  password: string;
+}
+export const getCredentials = (): Credentials => {
   const info = localStorage.getItem("login");
   if (info) {
     const credentials = atob(info);

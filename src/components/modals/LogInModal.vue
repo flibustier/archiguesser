@@ -36,12 +36,8 @@ const isPasswordValid = computed(() => password.value.length > 7);
 const submit = async () => {
   isLoading.value = true;
   const stats = getStats();
-  const resp = await signIn(
-    email.value,
-    password.value,
-    stats,
-    getChallenges(),
-  );
+  const challenges = getChallenges();
+  const resp = await signIn(email.value, password.value, stats, challenges);
   if ("output" in resp) {
     error.value = resp.output;
   } else {
@@ -59,8 +55,14 @@ const submit = async () => {
           lastPlayed: resp.last_day || stats.lastPlayed,
         }),
       );
-      // todo : store challenges
-      // console.log(resp.challenges);
+      localStorage.setItem(
+        "challenges",
+        JSON.stringify({
+          ...JSON.parse(resp.challenges),
+          dayNumber: challenges.dayNumber,
+          retryCount: challenges.retryCount,
+        }),
+      );
       closeAndRefresh();
     }
   }

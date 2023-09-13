@@ -8,13 +8,9 @@ import {
   LOGGED_RETRIES,
 } from "@/config.json";
 import { sendChallengeResult, sendEvent } from "@/api";
+import { syncUser } from "@/services/user";
 import { getProjectsByCategory, getRealDayNumber } from "@/DailySelector";
-import {
-  getChallenges,
-  isLogged,
-  setChallenges,
-  getCredentials,
-} from "@/store";
+import { getChallenges, isLogged, setChallenges } from "@/store";
 
 import IconWiki from "@/components/icons/IconWiki.vue";
 import IconRetry from "@/components/icons/IconRetry.vue";
@@ -90,7 +86,6 @@ const sendResult = (failedOn = "") => {
     requestedCategory,
     failedOn,
     getChallenges(),
-    getCredentials(),
   );
 };
 
@@ -105,6 +100,7 @@ const onSubmittedGuess = (guess: string) => {
       sendResult();
       currentLevel.value = Math.min(maxLevel, currentLevel.value + 1);
       setChallenges(requestedCategory, currentLevel.value);
+      syncUser();
     }
   }
 };
