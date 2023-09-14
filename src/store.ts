@@ -1,11 +1,18 @@
-const fetchObject = (name: string) =>
+enum ObjectName {
+  Challenges = "challenges",
+  Stats = "stats",
+  Settings = "settings",
+  LogIn = "login",
+}
+
+const fetchObject = (name: ObjectName) =>
   JSON.parse(localStorage.getItem(name) || "{}");
 
-export const getStats = () => fetchObject("stats");
-export const getSettings = () => fetchObject("settings");
-export const getChallenges = () => fetchObject("challenges");
+export const getStats = () => fetchObject(ObjectName.Stats);
+export const getSettings = () => fetchObject(ObjectName.Settings);
+export const getChallenges = () => fetchObject(ObjectName.Challenges);
 
-const setObject = (object: string) => (entry: string, value: any) =>
+const setObject = (object: ObjectName) => (entry: string, value: any) =>
   localStorage.setItem(
     object,
     JSON.stringify({
@@ -14,21 +21,34 @@ const setObject = (object: string) => (entry: string, value: any) =>
     }),
   );
 
-export const setSetting = setObject("settings");
-export const setChallenges = setObject("challenges");
+export const setSetting = setObject(ObjectName.Settings);
+export const setChallenges = setObject(ObjectName.Challenges);
+
+const overrideObject =
+  (object: ObjectName) => (stringifiedValue: string, additionalData?: any) =>
+    localStorage.setItem(
+      object,
+      JSON.stringify({
+        ...fetchObject(object),
+        ...JSON.parse(stringifiedValue),
+        ...additionalData,
+      }),
+    );
+export const overrideStats = overrideObject(ObjectName.Stats);
+export const overrideChallenges = overrideObject(ObjectName.Challenges);
 
 export const getNumberOfDayPlayed = () => Object.keys(getStats()).length;
 
 export const setLogIn = (email: string, password: string) =>
-  localStorage.setItem("login", btoa(email + ":" + password));
-export const setLogOut = () => localStorage.removeItem("login");
+  localStorage.setItem(ObjectName.LogIn, btoa(email + ":" + password));
+export const setLogOut = () => localStorage.removeItem(ObjectName.LogIn);
 
 interface Credentials {
   email: string;
   password: string;
 }
 export const getCredentials = (): Credentials => {
-  const info = localStorage.getItem("login");
+  const info = localStorage.getItem(ObjectName.LogIn);
   if (info) {
     const credentials = atob(info);
     const email = credentials.substring(0, credentials.indexOf(":"));
@@ -39,7 +59,7 @@ export const getCredentials = (): Credentials => {
 
   return { email: "", password: "" };
 };
-export const isLogged = () => localStorage.getItem("login") != null;
+export const isLogged = () => localStorage.getItem(ObjectName.LogIn) != null;
 
 export const getDailiesScore = () => {
   const { firstPlayed, lastPlayed, ...stats } = getStats();

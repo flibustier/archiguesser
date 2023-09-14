@@ -6,6 +6,7 @@ import BaseModal from "./BaseModal.vue";
 import { signIn } from "@/api";
 import { LOGGED_RETRIES } from "@/config.json";
 import { getStats, getChallenges, setLogIn } from "@/store";
+import { storeStatsAndChallenges } from "@/services/user";
 
 defineProps({
   isVisible: {
@@ -47,22 +48,7 @@ const submit = async () => {
     if (resp.isCreated) {
       isAccountCreated.value = true;
     } else {
-      localStorage.setItem(
-        "stats",
-        JSON.stringify({
-          ...JSON.parse(resp.stats),
-          firstPlayed: resp.start_day || stats.firstPlayed,
-          lastPlayed: resp.last_day || stats.lastPlayed,
-        }),
-      );
-      localStorage.setItem(
-        "challenges",
-        JSON.stringify({
-          ...JSON.parse(resp.challenges),
-          dayNumber: challenges.dayNumber,
-          retryCount: challenges.retryCount,
-        }),
-      );
+      storeStatsAndChallenges(resp);
       closeAndRefresh();
     }
   }
@@ -76,50 +62,49 @@ const submit = async () => {
     :is-visible="isVisible"
     @update:is-visible="closeModal"
   >
-    <template #default v-if="isAccountCreated">
-      <p>
-        Your account has been created! <br />You will receive an email shortly
-        to activate your account.
-      </p>
-      <button class="primary-btn" @click="closeAndRefresh">Got it!</button>
-    </template>
-    <template #default v-else>
-      <p>
-        Save your progress across all your devices with a <b>free account</b>,
-        it takes only seconds to create!<br />
-        Also you will have <b>{{ LOGGED_RETRIES }} daily retries</b> for
-        challenges and earn points for the (future) scoreboard!
-      </p>
-      <form @submit.prevent="submit">
-        <div class="form-line">
-          <label for="email">Email</label>
-          <input
-            v-model="email"
-            type="text"
-            id="email"
-            placeholder="ludwig@mvdr.com"
-          />
-        </div>
+    <template #default>
+      <div class="created-info" v-if="isAccountCreated">
+        <p>Your account has been created!</p>
+        <button class="primary-btn" @click="closeAndRefresh">Got it!</button>
+      </div>
+      <div v-else>
+        <p>
+          Save your progress across all your devices with a <b>free account</b>,
+          it takes only seconds to create!<br />
+          Also you will have <b>{{ LOGGED_RETRIES }} daily retries</b> for
+          challenges and earn points for the (future) scoreboard!
+        </p>
+        <form @submit.prevent="submit">
+          <div class="form-line">
+            <label for="email">Email</label>
+            <input
+              v-model="email"
+              type="text"
+              id="email"
+              placeholder="ludwig@mvdr.com"
+            />
+          </div>
 
-        <div class="form-line">
-          <label for="password">Password</label>
-          <input
-            v-model="password"
-            type="password"
-            id="password"
-            placeholder="Password (min 8 characters)"
-          />
-        </div>
+          <div class="form-line">
+            <label for="password">Password</label>
+            <input
+              v-model="password"
+              type="password"
+              id="password"
+              placeholder="Password (min 8 characters)"
+            />
+          </div>
 
-        <p class="error-message" v-if="error">{{ error }}</p>
+          <p class="error-message" v-if="error">{{ error }}</p>
 
-        <button
-          class="primary-btn"
-          :disabled="!isEmailValid || !isPasswordValid || isLoading"
-        >
-          {{ isLoading ? "Please Wait…" : "Sign In/Sign Up" }}
-        </button>
-      </form>
+          <button
+            class="primary-btn"
+            :disabled="!isEmailValid || !isPasswordValid || isLoading"
+          >
+            {{ isLoading ? "Please Wait…" : "Sign In/Sign Up" }}
+          </button>
+        </form>
+      </div>
     </template>
   </BaseModal>
 </template>
@@ -135,6 +120,12 @@ b {
 
 .error-message {
   color: #c85503;
+}
+
+.created-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 form {
