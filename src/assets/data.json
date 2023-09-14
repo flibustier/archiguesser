@@ -1439,18 +1439,19 @@
   },
   {
     "answer": "Maison de Verre (Glass House) / Bernard Bijvoet, Pierre Chareau / Paris, France",
-    "days": [91],
+    "days": [91, 441],
     "copyrights": [
       {
         "1": "Mark Lyon",
         "*": "François Halard"
       }
     ],
+    "years": "1928-1932",
     "links": [
       "https://en.wikipedia.org/wiki/Maison_de_Verre",
       "https://en.wikiarquitectura.com/building/Maison-de-Verre/"
     ],
-    "categories": []
+    "categories": ["housing"]
   },
   {
     "answer": "Batllo House / Antoni Gaudí / Barcelona, Spain",
