@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 
-import { sendEvent } from "@/api";
 import { URL, APP_NAME } from "../config.json";
+
+import { sendEvent } from "@/services/api";
+
 import IconBack from "./icons/IconBack.vue";
 import IconCopy from "./icons/IconCopy.vue";
 import IconWiki from "./icons/IconWiki.vue";

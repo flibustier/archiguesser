@@ -7,10 +7,12 @@ import {
   ANONYMOUS_RETRIES,
   LOGGED_RETRIES,
 } from "@/config.json";
-import { sendChallengeResult, sendEvent } from "@/api";
+
 import { syncUser } from "@/services/user";
-import { getProjectsByCategory, getRealDayNumber } from "@/DailySelector";
-import { getChallenges, isLogged, setChallenges } from "@/store";
+import { getRealDayNumber } from "@/services/date";
+import { getProjectsByCategory } from "@/services/projects";
+import { sendChallengeResult, sendEvent } from "@/services/api";
+import { getChallenges, isLogged, setChallenges } from "@/services/store";
 
 import IconWiki from "@/components/icons/IconWiki.vue";
 import IconRetry from "@/components/icons/IconRetry.vue";

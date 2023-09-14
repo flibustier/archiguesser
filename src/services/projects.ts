@@ -1,33 +1,13 @@
-import data from "./assets/data.json";
+import data from "../assets/data.json";
+import { getRealDayNumber } from "./date";
 
-// Here the first day was July the 2nd of 2022
-const STARTING_DATE = Date.UTC(2022, 6, 1);
-
-const getNumberOfDaysDifferenceWithStartingDate = (date: Date): number => {
-  const timestamp1 = Date.UTC(
-    date.getFullYear(),
-    date.getMonth(),
-    date.getDate(),
-  );
-  const differenceInMilliseconds = timestamp1 - STARTING_DATE;
-  const differenceInDays = differenceInMilliseconds / 1000 / 60 / 60 / 24;
-
-  return differenceInDays;
-};
-
-export const getRealDayNumber = (): number => {
-  const now = new Date();
-
-  return getNumberOfDaysDifferenceWithStartingDate(now);
-};
-
-const getDayNumber = (dayNumber: number) =>
+const getProjectByDayNumber = (dayNumber: number) =>
   data.find(({ days }) => days.includes(dayNumber));
 
 export const lastDay = () => Math.max(...data.flatMap(({ days }) => days));
 
 export const isMonument = (dayNumber: number): boolean => {
-  const { categories = [] } = getDayNumber(dayNumber) || {};
+  const { categories = [] } = getProjectByDayNumber(dayNumber) || {};
 
   return categories.includes("monument");
 };
@@ -44,7 +24,7 @@ export const getProjectsByCategory = (category: string) => {
   return data.filter(({ answer }) => answer.includes(category));
 };
 
-export const getDayInformation = (
+export const getProjectInformation = (
   day?: string | null,
 ): {
   dayNumber: number;
@@ -61,7 +41,7 @@ export const getDayInformation = (
     dayNumber = lastDay();
   }
 
-  const dayInformation = getDayNumber(dayNumber);
+  const dayInformation = getProjectByDayNumber(dayNumber);
 
   if (dayInformation) {
     // default copyrights is the first entry [{…}]

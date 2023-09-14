@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 
+import { LOGGED_RETRIES } from "@/config.json";
+
 import BaseModal from "./BaseModal.vue";
 
-import { signIn } from "@/api";
-import { LOGGED_RETRIES } from "@/config.json";
-import { getStats, getChallenges, setLogIn } from "@/store";
+import { signIn } from "@/services/api";
 import { storeStatsAndChallenges } from "@/services/user";
+import { getStats, getChallenges, setLogIn } from "@/services/store";
 
 defineProps({
   isVisible: {
