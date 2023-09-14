@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { reactive, computed, ref } from "vue";
 
-import { sendEvent, sendResult } from "../api";
-import { getStats } from "../store";
+import { getStats } from "@/services/store";
 import { syncUser } from "@/services/user";
-import { getDayInformation, getRealDayNumber } from "../DailySelector";
+import { getRealDayNumber } from "@/services/date";
+import { getProjectInformation } from "@/services/projects";
+import { sendEvent, sendResult } from "@/services/api";
 
 import EndDisplay from "../components/EndDisplay.vue";
 import GuessingForm from "../components/guessing/GuessingForm.vue";
@@ -29,7 +30,7 @@ const stats = getStats();
 const percent = ref();
 const guesses: string[] = reactive([]);
 const { dayNumber, answer, constructionYears, copyrights, links } = reactive(
-  getDayInformation(requestedDay),
+  getProjectInformation(requestedDay),
 );
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {

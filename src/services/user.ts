@@ -1,4 +1,4 @@
-import { signIn } from "@/api";
+import { signIn } from "./api";
 import {
   getChallenges,
   getCredentials,
@@ -6,7 +6,7 @@ import {
   isLogged,
   overrideChallenges,
   overrideStats,
-} from "@/store";
+} from "./store";
 
 interface UserData {
   stats: string;

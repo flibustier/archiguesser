@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import IconPictures from "../icons/IconPictures.vue";
+import BaseModal from "./BaseModal.vue";
+
 import IconEye from "../icons/IconEye.vue";
 import IconList from "../icons/IconList.vue";
-import BaseModal from "./BaseModal.vue";
-import { lastDay } from "@/DailySelector";
+import IconPictures from "../icons/IconPictures.vue";
+
+import { lastDay } from "@/services/projects";
 
 defineProps({
   isVisible: {

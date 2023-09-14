@@ -6,8 +6,9 @@ import IconBack from "../icons/IconBack.vue";
 import IconCheck from "../icons/IconCheck.vue";
 import ToggleSwitch from "../basic/ToggleSwitch.vue";
 
-import { getStats, getSettings, setSetting } from "@/store";
-import { getRealDayNumber, isMonument } from "@/DailySelector";
+import { isMonument } from "@/services/projects";
+import { getRealDayNumber } from "@/services/date";
+import { getStats, getSettings, setSetting } from "@/services/store";
 
 const realCurrentDay = getRealDayNumber();
 // range of 60 numbers starting at real current day

@@ -5,7 +5,11 @@ import BaseModal from "./BaseModal.vue";
 import IconHelp from "../icons/IconHelp.vue";
 import IconTrophy from "../icons/IconTrophy.vue";
 
-import { getScore, getChallengesScore, getDailiesScore } from "@/store";
+import {
+  getScore,
+  getChallengesScore,
+  getDailiesScore,
+} from "@/services/store";
 
 defineProps({
   isVisible: {

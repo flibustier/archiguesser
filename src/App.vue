@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
+import { isLogged } from "./services/store";
+import { LISTED_CATEGORIES } from "./config.json";
+
 import InfoModal from "./components/modals/InfoModal.vue";
 import BackModal from "./components/modals/BackModal.vue";
 import UserModal from "./components/modals/UserModal.vue";
@@ -11,9 +14,6 @@ import HeaderNavigator from "./components/HeaderNavigator.vue";
 
 import DailyPage from "./pages/DailyPage.vue";
 import ArcadePage from "./pages/ArcadePage.vue";
-
-import { isLogged } from "./store";
-import { LISTED_CATEGORIES } from "./config.json";
 
 const showBackModal = ref(false);
 const showInfoModal = ref(false);
@@ -39,17 +39,17 @@ const isArcadeMode = LISTED_CATEGORIES.includes(
     @showBackModal="showBackModal = true"
     @showInfoModal="showInfoModal = true"
     @showScoreModal="showScoreModal = true"
+    @showArcadeModal="showArcadeModal = true"
     @showUserModal="
       isLogged() ? (showUserModal = true) : (showLogInModal = true)
     "
-    @showArcadeModal="showArcadeModal = true"
   />
   <main>
     <ArcadePage
       v-if="isArcadeMode"
-      @showArcadeModal="showArcadeModal = true"
       @showLogInModal="showLogInModal = true"
       @showScoreModal="showScoreModal = true"
+      @showArcadeModal="showArcadeModal = true"
     />
     <DailyPage v-else @showBackModal="showBackModal = true" />
   </main>

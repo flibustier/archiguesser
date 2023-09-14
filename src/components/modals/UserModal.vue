@@ -3,7 +3,7 @@ import { ref } from "vue";
 
 import BaseModal from "./BaseModal.vue";
 
-import { getCredentials, setLogOut } from "@/store";
+import { getCredentials, setLogOut } from "@/services/store";
 
 const email = ref(getCredentials()?.email);
 

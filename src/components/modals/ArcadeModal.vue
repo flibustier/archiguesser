@@ -5,8 +5,8 @@ import BaseModal from "./BaseModal.vue";
 import IconTrophy from "../icons/IconTrophy.vue";
 
 import { ITEMS_PER_LEVEL, MAX_LEVEL, LISTED_CATEGORIES } from "@/config.json";
-import { getProjectsByCategory } from "@/DailySelector";
-import { getChallenges } from "@/store";
+import { getProjectsByCategory } from "@/services/projects";
+import { getChallenges } from "@/services/store";
 
 defineProps({
   isVisible: {
