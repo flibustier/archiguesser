@@ -1,36 +1,35 @@
 import { signIn } from "@/api";
-import { getChallenges, getCredentials, getStats, isLogged } from "@/store";
+import {
+  getChallenges,
+  getCredentials,
+  getStats,
+  isLogged,
+  overrideChallenges,
+  overrideStats,
+} from "@/store";
+
+interface UserData {
+  stats: string;
+  challenges: string;
+  start_day?: number;
+  last_day?: number;
+}
+export const storeStatsAndChallenges = (userData: UserData) => {
+  if (userData.stats) {
+    overrideStats(userData.stats, {
+      firstPlayed: userData.start_day,
+      lastPlayed: userData.last_day,
+    });
+  }
+  if (userData.challenges) {
+    overrideChallenges(userData.challenges);
+  }
+};
 
 export const syncUser = async (): Promise<void> => {
   if (isLogged()) {
     const { email, password } = getCredentials();
-    const currentStats = getStats();
-    const currentChallenges = getChallenges();
-    const { stats, challenges, start_day, last_day } = await signIn(
-      email,
-      password,
-      currentStats,
-      currentChallenges,
-    );
-    if (stats) {
-      localStorage.setItem(
-        "stats",
-        JSON.stringify({
-          ...JSON.parse(stats),
-          firstPlayed: start_day || currentStats.firstPlayed,
-          lastPlayed: last_day || currentStats.lastPlayed,
-        }),
-      );
-    }
-    if (challenges) {
-      localStorage.setItem(
-        "challenges",
-        JSON.stringify({
-          ...JSON.parse(challenges),
-          dayNumber: currentChallenges.dayNumber,
-          retryCount: currentChallenges.retryCount,
-        }),
-      );
-    }
+    const userData = await signIn(email, password, getStats(), getChallenges());
+    storeStatsAndChallenges(userData);
   }
 };
