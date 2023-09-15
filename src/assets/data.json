@@ -5872,5 +5872,21 @@
     "years": "1560-1660",
     "links": ["https://en.wikipedia.org/wiki/Meenakshi_Temple"],
     "categories": ["religious", "monument"]
+  },
+  {
+    "answer": "Tower of Hercules (Torre de Hércules) / Eustaquio Giannini (restoration) / A Coruña, Galicia, Spain",
+    "days": [442],
+    "copyrights": [
+      {
+        "*": "Luis Miguel Bugallo Sáchez (wikimedia)",
+        "2": "el Buho nº30 (wikimedia)",
+        "3": "Don Joseph Cornide (wikimedia)",
+        "4": "Zarateman (wikimedia)",
+        "5": "Alessio Damato (wikimedia)"
+      }
+    ],
+    "years": "1st century, 1791 (restoration)",
+    "links": ["https://en.wikipedia.org/wiki/Tower_of_Hercules"],
+    "categories": ["monument"]
   }
 ]
