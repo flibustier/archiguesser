@@ -5888,5 +5888,20 @@
     "years": "1st century, 1791 (restoration)",
     "links": ["https://en.wikipedia.org/wiki/Tower_of_Hercules"],
     "categories": ["monument"]
+  },
+  {
+    "answer": "SIS Building - MI6 Building (Secret Intelligence Service Headquarters) / Terry Farrell and Partners / London, United Kingdom (UK)",
+    "days": [443],
+    "copyrights": [
+      {
+        "*": "Txllxt TxllxT (wikimedia)",
+        "2": "Tony Hisgett (wikimedia)",
+        "5": "Reading Tom (wikimedia)",
+        "6": "Garry Knight (wikimedia)"
+      }
+    ],
+    "years": "1994",
+    "links": ["https://en.wikipedia.org/wiki/SIS_Building"],
+    "categories": ["postmodern"]
   }
 ]
