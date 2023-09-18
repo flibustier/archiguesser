@@ -1063,17 +1063,18 @@
   },
   {
     "answer": "Stahl House (Case Study House nº22) / Pierre Koenig / Los Angeles, California, United States of America (USA)",
-    "days": [64],
+    "days": [64, 445],
     "copyrights": [
       {
         "*": "wikiarquitectura"
       }
     ],
+    "years": "1960",
     "links": [
       "https://en.wikipedia.org/wiki/Stahl_House",
       "https://en.wikiarquitectura.com/building/Stahl-House/"
     ],
-    "categories": []
+    "categories": ["housing", "movie set"]
   },
   {
     "answer": "Cenotaph for Newton / Etienne-Louis Boullée / Paper Architecture",
@@ -1804,6 +1805,7 @@
         "*": "Ossip van Duivenbode"
       }
     ],
+    "years": "2017",
     "links": ["https://en.wikipedia.org/wiki/Tianjin_Binhai_Library"],
     "categories": ["library"]
   },
