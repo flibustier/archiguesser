@@ -70,20 +70,5 @@
     "years": "72-80",
     "links": ["https://en.wikipedia.org/wiki/Colosseum"],
     "categories": ["monument", "famous"]
-  },
-  {
-    "answer": "Stuttgart City Library (Stadtbibliothek) / Eun Young Yi Architects / Stuttgart, Germany",
-    "days": [0],
-    "copyrights": [
-      {
-        "*": "Stefan Müller (wikimedia)",
-        "2": "Courtesy of the Architect",
-        "5": "Mussklprozz (wikimedia)",
-        "6": "Pjt56 (wikimedia)"
-      }
-    ],
-    "years": "2011",
-    "links": ["https://en.wikipedia.org/wiki/Stadtbibliothek_Stuttgart"],
-    "categories": ["library"]
   }
 ]

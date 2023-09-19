@@ -5905,5 +5905,20 @@
     "years": "1994",
     "links": ["https://en.wikipedia.org/wiki/SIS_Building"],
     "categories": ["postmodern"]
+  },
+  {
+    "answer": "Stuttgart City Library (Stadtbibliothek) / Eun Young Yi Architects / Stuttgart, Germany",
+    "days": [446],
+    "copyrights": [
+      {
+        "*": "Stefan Müller (wikimedia)",
+        "2": "Courtesy of the Architect",
+        "5": "Mussklprozz (wikimedia)",
+        "6": "Pjt56 (wikimedia)"
+      }
+    ],
+    "years": "2011",
+    "links": ["https://en.wikipedia.org/wiki/Stadtbibliothek_Stuttgart"],
+    "categories": ["library"]
   }
 ]
