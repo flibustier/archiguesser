@@ -5920,5 +5920,22 @@
     "years": "2011",
     "links": ["https://en.wikipedia.org/wiki/Stadtbibliothek_Stuttgart"],
     "categories": ["library"]
+  },
+  {
+    "answer": "Masjid al-Haram (Great Mosque of Mecca) / Mecca, Saudi Arabia",
+    "days": [447],
+    "copyrights": [
+      {
+        "1": "Mbasit (wikimedia)",
+        "2": "The British Library (wikimedia)",
+        "3": "The Matson Collection (wikimedia)",
+        "4": "Muhammad Mahdi Karim (wikimedia)",
+        "5": "Muhammad Mahdi Karim (wikimedia)",
+        "6": "Saudipics.com (wikimedia)"
+      }
+    ],
+    "years": "7th century - 21th century",
+    "links": ["https://en.wikipedia.org/wiki/Masjid_al-Haram"],
+    "categories": ["religious"]
   }
 ]
