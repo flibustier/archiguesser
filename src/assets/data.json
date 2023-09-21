@@ -1133,15 +1133,16 @@
     "categories": []
   },
   {
-    "answer": "Musée des Confluences / Coop Himmelb(l)au / Lyon, France",
-    "days": [69],
+    "answer": "Musée des Confluences (Museum) / Coop Himmelb(l)au / Lyon, France",
+    "days": [69, 448],
     "copyrights": [
       {
         "*": ""
       }
     ],
+    "years": "2003-2014",
     "links": ["https://en.wikipedia.org/wiki/Musée_des_Confluences"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Laview commuter train (Seibu 001 series) / SANAA, Ryue Nishizawa, Kazuyo Sejima / Tokyo - Saitama, Japan",
