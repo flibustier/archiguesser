@@ -5938,5 +5938,22 @@
     "years": "7th century - 21th century",
     "links": ["https://en.wikipedia.org/wiki/Masjid_al-Haram"],
     "categories": ["religious"]
+  },
+  {
+    "answer": "Cathedral of Saint Mary of the See (Catedral de Santa María de la Sede) / Alonso Martinez, Carlin, Hernan Ruiz / Seville, Andalusia, Spain",
+    "days": [449],
+    "copyrights": [
+      {
+        "1": "Pom² (wikimedia)",
+        "2": "Anual (wikimedia)",
+        "3": "Jean-Christophe BENOIST (wikimedia)",
+        "4": "Heparina1985 (wikimedia)",
+        "5": "Ajay Suresh (wikimedia)",
+        "6": "Ingo Mehling (wikimedia)"
+      }
+    ],
+    "years": "1402-1507",
+    "links": ["https://en.wikipedia.org/wiki/Seville_Cathedral"],
+    "categories": ["monument", "religious", "gothic"]
   }
 ]
