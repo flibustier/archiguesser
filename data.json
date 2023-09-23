@@ -2065,7 +2065,7 @@
   },
   {
     "answer": "Glasgow School of Art and Library / Charles Rennie Mackintosh, Steven Holl / Glasgow, Scotland, United Kingdom (UK)",
-    "days": [137],
+    "days": [137, 450],
     "copyrights": [
       {
         "*": "McAteer Photograph"
@@ -2088,8 +2088,9 @@
         "6": "Tonchino (wikimedia)"
       }
     ],
-    "links": [],
-    "categories": ["monument"]
+    "years": "1875-1923",
+    "links": ["https://en.wikipedia.org/wiki/Sacr%C3%A9-C%C5%93ur,_Paris"],
+    "categories": ["monument", "religious"]
   },
   {
     "answer": "Wolfsburg Cultural Center / Alvar Aalto / Wolfsburg, Germany",
