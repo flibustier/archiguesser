@@ -1596,14 +1596,15 @@
   },
   {
     "answer": "Hearst Headquarters (Tower) / Norman Foster / New York, United States of America (USA)",
-    "days": [103],
+    "days": [103, 451],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1928,2006",
+    "links": ["https://en.wikipedia.org/wiki/Hearst_Tower_(Manhattan)"],
+    "categories": ["refurbishment"]
   },
   {
     "answer": "French Communist Party Headquarters / Oscar Niemeyer / Paris, France",
