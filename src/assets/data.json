@@ -5957,5 +5957,22 @@
     "years": "1402-1507",
     "links": ["https://en.wikipedia.org/wiki/Seville_Cathedral"],
     "categories": ["monument", "religious", "gothic"]
+  },
+  {
+    "answer": "The Retreat at Blue Lagoon Iceland / BASALT Architects / Svartsengi, Grindavik, Iceland",
+    "days": [452],
+    "copyrights": [
+      {
+        "1": "Ari Magg",
+        "2": "Giorgio Possenti",
+        "3": "Giorgio Possenti",
+        "4": "Ari Magg",
+        "5": "Cindy Rún Xiao Li",
+        "6": "Ragnar Th Sigurðsson/Arctic Images"
+      }
+    ],
+    "years": "2011-2018",
+    "links": ["https://www.basalt.is/theretreatatbluelagoon"],
+    "categories": ["spa"]
   }
 ]
