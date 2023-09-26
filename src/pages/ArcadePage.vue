@@ -249,7 +249,11 @@ const openLinks = () => {
             <span>Learn more about it</span>
             <IconWiki />
           </button>
-          <button class="white-btn icon-btn" @click="$emit('showScoreModal')">
+          <button
+            v-if="hasWon"
+            class="white-btn icon-btn"
+            @click="$emit('showScoreModal')"
+          >
             <span>Check your score</span>
             <IconScore />
           </button>
