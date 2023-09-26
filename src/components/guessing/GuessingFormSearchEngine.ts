@@ -65,8 +65,8 @@ const buildScoredSuggestions =
     return acc;
   };
 
-export const search = (searchTerms: string) => {
+export const search = (searchTerms: string, suggestionList = suggestions) => {
   const searchWords = splitWords(normalize(searchTerms));
 
-  return suggestions.reduce(buildScoredSuggestions(searchWords), []);
+  return suggestionList.reduce(buildScoredSuggestions(searchWords), []);
 };

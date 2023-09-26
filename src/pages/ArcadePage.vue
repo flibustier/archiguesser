@@ -8,6 +8,8 @@ import {
   LOGGED_RETRIES,
 } from "@/config.json";
 
+import { search } from "@/components/guessing/GuessingFormSearchEngine";
+
 import { syncUser } from "@/services/user";
 import { getRealDayNumber } from "@/services/date";
 import { getProjectsByCategory } from "@/services/projects";
@@ -18,7 +20,6 @@ import IconWiki from "@/components/icons/IconWiki.vue";
 import IconRetry from "@/components/icons/IconRetry.vue";
 import IconScore from "@/components/icons/IconScoreboard.vue";
 import IconTrophy from "@/components/icons/IconTrophy.vue";
-import GuessingForm from "@/components/guessing/GuessingForm.vue";
 import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
 
 defineEmits(["showArcadeModal", "showLogInModal", "showScoreModal"]);
@@ -40,6 +41,8 @@ const shuffle = (array: any[]) => {
   return array;
 };
 const projects = shuffle(getProjectsByCategory(requestedCategory));
+const projectsAnswers = projects.map(({ answer }) => answer);
+
 const maxLevel = Math.min(
   MAX_LEVEL,
   Math.floor(projects.length / ITEMS_PER_LEVEL),
@@ -70,12 +73,41 @@ const remainingGuesses = ref(lastItem);
 const isGameOver = ref(false);
 const hasWon = computed(() => remainingGuesses.value === 0);
 
+const chose = ref();
+
 const greenSquares = computed(() => lastItem - remainingGuesses.value);
 const blackSquares = computed(
   () => remainingGuesses.value - (isGameOver.value ? 1 : 0),
 );
 
-const currentGuess = computed(() => projects[remainingGuesses.value - 1]);
+const currentProject = computed(() => projects[remainingGuesses.value - 1]);
+const choices = computed(() => {
+  const similarProjects = search(
+    currentProject.value.answer,
+    projectsAnswers,
+  ).map(({ suggestion }) => suggestion);
+
+  if (similarProjects.length >= 5) {
+    console.log("5/5");
+    return shuffle(similarProjects.slice(0, 5));
+  }
+
+  const othersProjects = projectsAnswers.filter(
+    (answer) => !similarProjects.includes(answer),
+  );
+  console.log(
+    othersProjects,
+    similarProjects.length,
+    ...othersProjects.slice(0, 5 - similarProjects.length),
+  );
+  const proposals = similarProjects.concat(
+    othersProjects.slice(0, 5 - similarProjects.length),
+  );
+
+  console.log(proposals, shuffle(proposals));
+
+  return shuffle(proposals);
+});
 
 const refresh = () => window.location.reload();
 const goHome = () => window.location.replace("/");
@@ -91,11 +123,16 @@ const sendResult = (failedOn = "") => {
   );
 };
 
+const select = (choice: string, choseIndex: number) => {
+  chose.value = choseIndex;
+  setTimeout(() => onSubmittedGuess(choice), 1000);
+};
 const onSubmittedGuess = (guess: string) => {
-  if (guess !== currentGuess.value.answer) {
+  chose.value = null;
+  if (guess !== currentProject.value.answer) {
     isGameOver.value = true;
     setChallenges("retryCount", retryCount + 1);
-    sendResult(currentGuess.value.answer);
+    sendResult(currentProject.value.answer);
   } else {
     remainingGuesses.value--;
     if (hasWon.value) {
@@ -108,7 +145,7 @@ const onSubmittedGuess = (guess: string) => {
 };
 
 const openLinks = () => {
-  window.open(currentGuess.value.links[0], "_blank")?.focus();
+  window.open(currentProject.value.links[0], "_blank")?.focus();
   sendEvent("Learn");
 };
 </script>
@@ -131,25 +168,35 @@ const openLinks = () => {
     </button>
   </main>
   <main v-else :class="hasWon ? 'expended' : ''">
+    <PictureDisplay
+      v-if="!hasWon"
+      :only-last-picture="true"
+      :day-number="currentProject.days[0]"
+      :copyrights="currentProject.copyrights[0]"
+    />
     <header v-if="!hasWon">
-      You’re playing the <b>{{ requestedCategory }}</b> challenge, you’re
-      currently <b>level {{ currentLevel }}</b
-      >, so you have <b>{{ lastItem }}</b> projects to guess properly to win!
+      You’re playing the <b>{{ requestedCategory }}</b> challenge (<b
+        >level {{ currentLevel }}</b
+      >), you have <b>{{ remainingGuesses }}</b> projects to guess properly to
+      win!
     </header>
     <div class="progress">
       <span class="square green" v-for="i in greenSquares" :key="i">🟩</span>
       <span class="square red" v-if="isGameOver">🟥</span>
       <span class="square black" v-for="i in blackSquares" :key="i">⬛</span>
     </div>
-    <PictureDisplay
-      v-if="!hasWon"
-      :only-last-picture="true"
-      :day-number="currentGuess.days[0]"
-      :copyrights="currentGuess.copyrights[0]"
-    />
 
     <div v-if="!(isGameOver || hasWon)">
-      <GuessingForm @submitted-guess="onSubmittedGuess" />
+      <div class="right-buttons">
+        <button
+          v-for="(choice, i) in choices"
+          :key="i"
+          :class="{ 'white-btn': true, 'chose-btn': chose === i }"
+          @click="select(choice, i)"
+        >
+          {{ choice }}
+        </button>
+      </div>
     </div>
     <div class="end-display" v-else>
       <div v-if="hasWon">
@@ -168,7 +215,8 @@ const openLinks = () => {
       </div>
       <div v-else>
         <h2>
-          The answer was: <span class="answer">{{ currentGuess.answer }}</span>
+          The answer was:
+          <span class="answer">{{ currentProject.answer }}</span>
         </h2>
       </div>
       <div class="buttons">
@@ -187,22 +235,22 @@ const openLinks = () => {
         <div class="separator" v-if="!hasReachMaxLevel"></div>
         <div class="right-buttons">
           <button
-            class="white-btn"
+            class="white-btn icon-btn"
             @click="openLinks()"
-            v-if="!hasWon && currentGuess.links.length > 0"
+            v-if="!hasWon && currentProject.links.length > 0"
           >
             <span>Learn more about it</span>
             <IconWiki />
           </button>
-          <button class="white-btn" @click="$emit('showScoreModal')">
+          <button class="white-btn icon-btn" @click="$emit('showScoreModal')">
             <span>Check your score</span>
             <IconScore />
           </button>
-          <button class="white-btn" @click="$emit('showArcadeModal')">
+          <button class="white-btn icon-btn" @click="$emit('showArcadeModal')">
             <span>Try another challenge</span>
             <IconTrophy />
           </button>
-          <button class="white-btn" @click="goHome()">
+          <button class="white-btn icon-btn" @click="goHome()">
             <span>Back to daily challenge</span>
             <IconRetry />
           </button>
@@ -292,7 +340,14 @@ button svg {
 .white-btn {
   border: 1px solid;
   background-color: var(--background-color);
+}
+
+.icon-btn {
   justify-content: space-between;
+}
+
+.chose-btn {
+  background-color: green;
 }
 
 .center {
