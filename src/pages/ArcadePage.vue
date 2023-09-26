@@ -73,7 +73,8 @@ const remainingGuesses = ref(lastItem);
 const isGameOver = ref(false);
 const hasWon = computed(() => remainingGuesses.value === 0);
 
-const chose = ref();
+const choseIndex = ref();
+const hasChosenRight = ref();
 
 const greenSquares = computed(() => lastItem - remainingGuesses.value);
 const blackSquares = computed(
@@ -123,12 +124,13 @@ const sendResult = (failedOn = "") => {
   );
 };
 
-const select = (choice: string, choseIndex: number) => {
-  chose.value = choseIndex;
-  setTimeout(() => onSubmittedGuess(choice), 1000);
+const select = (choice: string, choseIdx: number) => {
+  choseIndex.value = choseIdx;
+  hasChosenRight.value = choice === currentProject.value.answer;
+  setTimeout(() => onSubmittedGuess(choice), 300);
 };
 const onSubmittedGuess = (guess: string) => {
-  chose.value = null;
+  choseIndex.value = null;
   if (guess !== currentProject.value.answer) {
     isGameOver.value = true;
     setChallenges("retryCount", retryCount + 1);
@@ -190,8 +192,13 @@ const openLinks = () => {
       <div class="right-buttons">
         <button
           v-for="(choice, i) in choices"
-          :key="i"
-          :class="{ 'white-btn': true, 'chose-btn': chose === i }"
+          :key="choice"
+          :class="{
+            'white-btn': true,
+            'chose-btn': true,
+            'chose-btn-wrong': choseIndex === i && !hasChosenRight,
+            'chose-btn-success': choseIndex === i && hasChosenRight,
+          }"
           @click="select(choice, i)"
         >
           {{ choice }}
@@ -347,7 +354,15 @@ button svg {
 }
 
 .chose-btn {
-  background-color: green;
+  transition: background-color 0.3s ease-out;
+}
+
+.chose-btn-success {
+  background-color: rgb(171, 217, 171);
+}
+
+.chose-btn-wrong {
+  background-color: #fb545457;
 }
 
 .center {
