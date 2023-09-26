@@ -8,8 +8,7 @@ import {
   LOGGED_RETRIES,
 } from "@/config.json";
 
-import { search } from "@/components/guessing/GuessingFormSearchEngine";
-
+import { shuffle } from "@/services/utils";
 import { syncUser } from "@/services/user";
 import { getRealDayNumber } from "@/services/date";
 import { getProjectsByCategory } from "@/services/projects";
@@ -21,25 +20,13 @@ import IconRetry from "@/components/icons/IconRetry.vue";
 import IconScore from "@/components/icons/IconScoreboard.vue";
 import IconTrophy from "@/components/icons/IconTrophy.vue";
 import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
+import GuessingMultipleChoice from "@/components/guessing/GuessingMultipleChoice.vue";
 
 defineEmits(["showArcadeModal", "showLogInModal", "showScoreModal"]);
 
 const urlParameters = new URLSearchParams(window.location.search);
 const requestedCategory = urlParameters.get("challenge") || "";
 
-const shuffle = (array: any[]) => {
-  let randIndex;
-  let currIndex = array.length;
-
-  while (currIndex != 0) {
-    randIndex = Math.floor(Math.random() * currIndex);
-    currIndex--;
-
-    [array[currIndex], array[randIndex]] = [array[randIndex], array[currIndex]];
-  }
-
-  return array;
-};
 const projects = shuffle(getProjectsByCategory(requestedCategory));
 const projectsAnswers = projects.map(({ answer }) => answer);
 
@@ -72,9 +59,7 @@ const lastItem =
 const remainingGuesses = ref(lastItem);
 const isGameOver = ref(false);
 const hasWon = computed(() => remainingGuesses.value === 0);
-
-const choseIndex = ref();
-const hasChosenRight = ref();
+const isGameEnded = computed(() => isGameOver.value || hasWon.value);
 
 const greenSquares = computed(() => lastItem - remainingGuesses.value);
 const blackSquares = computed(
@@ -82,33 +67,6 @@ const blackSquares = computed(
 );
 
 const currentProject = computed(() => projects[remainingGuesses.value - 1]);
-const choices = computed(() => {
-  const similarProjects = search(
-    currentProject.value.answer,
-    projectsAnswers,
-  ).map(({ suggestion }) => suggestion);
-
-  if (similarProjects.length >= 5) {
-    console.log("5/5");
-    return shuffle(similarProjects.slice(0, 5));
-  }
-
-  const othersProjects = projectsAnswers.filter(
-    (answer) => !similarProjects.includes(answer),
-  );
-  console.log(
-    othersProjects,
-    similarProjects.length,
-    ...othersProjects.slice(0, 5 - similarProjects.length),
-  );
-  const proposals = similarProjects.concat(
-    othersProjects.slice(0, 5 - similarProjects.length),
-  );
-
-  console.log(proposals, shuffle(proposals));
-
-  return shuffle(proposals);
-});
 
 const refresh = () => window.location.reload();
 const goHome = () => window.location.replace("/");
@@ -124,13 +82,7 @@ const sendResult = (failedOn = "") => {
   );
 };
 
-const select = (choice: string, choseIdx: number) => {
-  choseIndex.value = choseIdx;
-  hasChosenRight.value = choice === currentProject.value.answer;
-  setTimeout(() => onSubmittedGuess(choice), 300);
-};
 const onSubmittedGuess = (guess: string) => {
-  choseIndex.value = null;
   if (guess !== currentProject.value.answer) {
     isGameOver.value = true;
     setChallenges("retryCount", retryCount + 1);
@@ -154,6 +106,14 @@ const openLinks = () => {
 
 <template>
   <main v-if="isRetryQuotaExceeded" class="expended">
+    <img v-if="isLogged()" src="@/assets/img/strong.gif" class="gif" />
+    <a
+      v-else
+      class="gif"
+      href="https://giphy.com/gifs/architect-le-corbusier-fIqbLgD1VWxkt06EFa"
+    >
+      <img src="@/assets/img/corbusier.gif" />
+    </a>
     <header>
       <p>You’ve reached your {{ retryQuota }} daily retry! 🥲</p>
       <p v-if="isLogged()">Nice work!! Keep trying tomorrow!</p>
@@ -162,8 +122,13 @@ const openLinks = () => {
         an account (free & instant)!
       </p>
     </header>
-    <button class="white-btn center" @click="goHome()" v-if="isLogged()">
+    <button
+      class="btn-white icon-btn center"
+      @click="goHome()"
+      v-if="isLogged()"
+    >
       <span>Back to daily challenge</span>
+      <IconRetry />
     </button>
     <button class="primary-btn" @click="$emit('showLogInModal')" v-else>
       <span>Sign Up/Sign In</span>
@@ -176,7 +141,8 @@ const openLinks = () => {
       :day-number="currentProject.days[0]"
       :copyrights="currentProject.copyrights[0]"
     />
-    <header v-if="!hasWon">
+    <img v-else src="@/assets/img/applause.gif" class="gif" />
+    <header v-if="!isGameEnded">
       You’re playing the <b>{{ requestedCategory }}</b> challenge (<b
         >level {{ currentLevel }}</b
       >), you have <b>{{ remainingGuesses }}</b> projects to guess properly to
@@ -188,22 +154,12 @@ const openLinks = () => {
       <span class="square black" v-for="i in blackSquares" :key="i">⬛</span>
     </div>
 
-    <div v-if="!(isGameOver || hasWon)">
-      <div class="right-buttons">
-        <button
-          v-for="(choice, i) in choices"
-          :key="choice"
-          :class="{
-            'white-btn': true,
-            'chose-btn': true,
-            'chose-btn-wrong': choseIndex === i && !hasChosenRight,
-            'chose-btn-success': choseIndex === i && hasChosenRight,
-          }"
-          @click="select(choice, i)"
-        >
-          {{ choice }}
-        </button>
-      </div>
+    <div v-if="!isGameEnded">
+      <GuessingMultipleChoice
+        :possibleAnswers="projectsAnswers"
+        :answer="currentProject.answer"
+        @submitted="onSubmittedGuess"
+      />
     </div>
     <div class="end-display" v-else>
       <div v-if="hasWon">
@@ -240,9 +196,9 @@ const openLinks = () => {
           <IconRetry style="fill: white" />
         </button>
         <div class="separator" v-if="!hasReachMaxLevel"></div>
-        <div class="right-buttons">
+        <div class="btns-group">
           <button
-            class="white-btn icon-btn"
+            class="btn-white icon-btn"
             @click="openLinks()"
             v-if="!hasWon && currentProject.links.length > 0"
           >
@@ -251,17 +207,17 @@ const openLinks = () => {
           </button>
           <button
             v-if="hasWon"
-            class="white-btn icon-btn"
+            class="btn-white icon-btn"
             @click="$emit('showScoreModal')"
           >
             <span>Check your score</span>
             <IconScore />
           </button>
-          <button class="white-btn icon-btn" @click="$emit('showArcadeModal')">
+          <button class="btn-white icon-btn" @click="$emit('showArcadeModal')">
             <span>Try another challenge</span>
             <IconTrophy />
           </button>
-          <button class="white-btn icon-btn" @click="goHome()">
+          <button class="btn-white icon-btn" @click="goHome()">
             <span>Back to daily challenge</span>
             <IconRetry />
           </button>
@@ -302,7 +258,6 @@ b {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin-top: 0.5rem;
 }
 
 .answer {
@@ -334,12 +289,6 @@ button svg {
   vertical-align: text-top;
 }
 
-.right-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
 .primary-btn {
   align-self: center;
   font-size: 0.875rem;
@@ -348,28 +297,15 @@ button svg {
   background-color: var(--color-primary);
 }
 
-.white-btn {
-  border: 1px solid;
-  background-color: var(--background-color);
-}
-
 .icon-btn {
   justify-content: space-between;
 }
 
-.chose-btn {
-  transition: background-color 0.3s ease-out;
-}
-
-.chose-btn-success {
-  background-color: rgb(171, 217, 171);
-}
-
-.chose-btn-wrong {
-  background-color: #fb545457;
-}
-
 .center {
   align-self: center;
+}
+
+.gif {
+  margin: auto;
 }
 </style>
