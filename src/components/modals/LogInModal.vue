@@ -37,14 +37,15 @@ const isPasswordValid = computed(() => password.value.length > 7);
 
 const submit = async () => {
   isLoading.value = true;
+  const formattedEmail = email.value.toLowerCase();
   const stats = getStats();
   const challenges = getChallenges();
-  const resp = await signIn(email.value, password.value, stats, challenges);
+  const resp = await signIn(formattedEmail, password.value, stats, challenges);
   if ("output" in resp) {
     error.value = resp.output;
   } else {
     // successful log in
-    setLogIn(email.value, password.value);
+    setLogIn(formattedEmail, password.value);
 
     if (resp.isCreated) {
       isAccountCreated.value = true;
