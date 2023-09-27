@@ -1437,7 +1437,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Roman_Pantheon"],
-    "categories": ["famous"]
+    "categories": ["famous", "monument", "roman"]
   },
   {
     "answer": "Maison de Verre (Glass House) / Bernard Bijvoet, Pierre Chareau / Paris, France",
@@ -5892,7 +5892,7 @@
     ],
     "years": "1st century, 1791 (restoration)",
     "links": ["https://en.wikipedia.org/wiki/Tower_of_Hercules"],
-    "categories": ["monument"]
+    "categories": ["monument", "roman"]
   },
   {
     "answer": "SIS Building - MI6 Building (Secret Intelligence Service Headquarters) / Terry Farrell and Partners / London, United Kingdom (UK)",
@@ -5974,5 +5974,22 @@
     "years": "2011-2018",
     "links": ["https://www.basalt.is/theretreatatbluelagoon"],
     "categories": ["spa"]
+  },
+  {
+    "answer": "Colosseum (Colosseo) / Rome, Italy",
+    "days": [454],
+    "copyrights": [
+      {
+        "1": "WarpFlyght (wikimedia)",
+        "2": "Sean MacEntee (wikimedia)",
+        "3": "Russell Yarwood (wikimedia)",
+        "4": "Jean-Léon Gérôme, 1859 (wikimedia)",
+        "5": "Bucephala (wikimedia)",
+        "6": "FeaturedPics (wikimedia)"
+      }
+    ],
+    "years": "72-80",
+    "links": ["https://en.wikipedia.org/wiki/Colosseum"],
+    "categories": ["monument", "famous", "roman"]
   }
 ]
