@@ -81,7 +81,7 @@ const submit = async () => {
             <label for="email">Email</label>
             <input
               v-model="email"
-              type="text"
+              type="email"
               id="email"
               placeholder="ludwig@mvdr.com"
             />
