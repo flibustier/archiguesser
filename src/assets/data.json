@@ -1607,15 +1607,17 @@
     "categories": ["refurbishment"]
   },
   {
-    "answer": "French Communist Party Headquarters / Oscar Niemeyer / Paris, France",
-    "days": [104],
+    "answer": "French Communist Party Headquarters (Siège du Parti Communiste Français) / Oscar Niemeyer / Paris, France",
+    "days": [104, 455],
     "copyrights": [
       {
         "4": "Guilhem Vellut (Flickr)",
         "*": "Denis Esakov"
       }
     ],
+    "years": "1967–1981",
     "links": [
+      "https://en.wikipedia.org/wiki/Headquarters_of_the_French_Communist_Party",
       "https://en.wikiarquitectura.com/building/French-Communist-Party-Headquarters/"
     ],
     "categories": ["modernism"]
