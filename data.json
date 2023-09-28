@@ -365,7 +365,7 @@
       "https://en.wikipedia.org/wiki/Oslo_Opera_House",
       "https://en.wikiarquitectura.com/building/Oslo-Opera-House/"
     ],
-    "categories": ["contemporary"]
+    "categories": ["contemporary", "concert hall"]
   },
   {
     "answer": "Kinkaku-ji (Temple of the Golden Pavilion) / Shogun Ashikaga Yoshimitsu / Kyoto, Japan",
@@ -1607,15 +1607,17 @@
     "categories": ["refurbishment"]
   },
   {
-    "answer": "French Communist Party Headquarters / Oscar Niemeyer / Paris, France",
-    "days": [104],
+    "answer": "French Communist Party Headquarters (Siège du Parti Communiste Français) / Oscar Niemeyer / Paris, France",
+    "days": [104, 455],
     "copyrights": [
       {
         "4": "Guilhem Vellut (Flickr)",
         "*": "Denis Esakov"
       }
     ],
+    "years": "1967–1981",
     "links": [
+      "https://en.wikipedia.org/wiki/Headquarters_of_the_French_Communist_Party",
       "https://en.wikiarquitectura.com/building/French-Communist-Party-Headquarters/"
     ],
     "categories": ["modernism"]
@@ -2427,7 +2429,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Cité_de_la_Musique"],
-    "categories": []
+    "categories": ["concert hall"]
   },
   {
     "answer": "Los Manantiales Restaurant / Félix Candela / Mexico City, Mexico",
@@ -2939,7 +2941,7 @@
       "https://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall",
       "https://en.wikiarquitectura.com/building/Walt-Disney-Concert-Hall/"
     ],
-    "categories": []
+    "categories": ["concert hall", "contemporary"]
   },
   {
     "answer": "Casa das Histórias Paula Rego / Eduardo Souto de Moura / Cascais, Portugal",
@@ -2964,12 +2966,12 @@
         "*": "W. Beaucardet"
       }
     ],
-    "years": "2010- 2015",
+    "years": "2010-2015",
     "links": [
       "https://en.wikipedia.org/wiki/Philharmonie_de_Paris",
       "https://en.wikiarquitectura.com/building/Philharmonie-de-Paris/"
     ],
-    "categories": []
+    "categories": ["concert hall"]
   },
   {
     "answer": "Blue Mosque (Sultan Ahmed Mosque) / Sedefkâr Mehmed Agha / Fatih, Istanbul, Turkey",
@@ -4028,7 +4030,7 @@
       "https://en.wikipedia.org/wiki/Guangzhou_Opera_House",
       "https://en.wikiarquitectura.com/building/Guangzhou-Opera-House/"
     ],
-    "categories": []
+    "categories": ["concert hall"]
   },
   {
     "answer": "Palais de Justice (Courthouse) / Jean Nouvel / Nantes, France",
@@ -4562,7 +4564,7 @@
     ],
     "years": "2004",
     "links": ["https://www.fosterandpartners.com/projects/sage-gateshead"],
-    "categories": []
+    "categories": ["concert hall"]
   },
   {
     "answer": "Getty Center Building / Richard Meier & Partners / Los Angeles, United States of America (USA)",
