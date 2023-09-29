@@ -1078,13 +1078,16 @@
   },
   {
     "answer": "Cenotaph for Newton / Etienne-Louis Boullée / Paper Architecture",
-    "days": [65],
+    "days": [65, 456],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
-    "links": [],
+    "years": "1784",
+    "links": [
+      "https://www.archdaily.com/544946/ad-classics-cenotaph-for-newton-etienne-louis-boullee"
+    ],
     "categories": ["paper"]
   },
   {
