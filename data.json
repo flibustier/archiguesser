@@ -629,17 +629,18 @@
   },
   {
     "answer": "Habitat 67 / Moshe Safdie / Cité du Havre, Montreal, QC, Canada",
-    "days": [37],
+    "days": [37, 457],
     "copyrights": [
       {
         "*": "wikiarquitectura"
       }
     ],
+    "years": "1967",
     "links": [
       "https://en.wikipedia.org/wiki/Habitat_67",
       "https://en.wikiarquitectura.com/building/Habitat-67/"
     ],
-    "categories": []
+    "categories": ["brutalism"]
   },
   {
     "answer": "Juedisches (Jewish) Museum / Daniel Libeskind Architect / Berlin, Germany",
