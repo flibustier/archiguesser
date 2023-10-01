@@ -961,7 +961,7 @@
     "categories": []
   },
   {
-    "answer": "Cultural Center Jean Marie Tjibaou / Renzo Piano / Nouméa, New Caledonia",
+    "answer": "Cultural Center Jean Marie Tjibaou / Renzo Piano / Nouméa, Nouvelle-Calédonie, France",
     "days": [58],
     "copyrights": [
       {
@@ -1969,7 +1969,7 @@
     "categories": []
   },
   {
-    "answer": "Micro House Slim Fit / ANA ROCHA architecture / Almere, The Netherlands",
+    "answer": "Micro House Slim Fit / ANA ROCHA architecture / Almere, Netherlands",
     "days": [130],
     "copyrights": [
       {
@@ -2030,7 +2030,7 @@
     "categories": ["monument"]
   },
   {
-    "answer": "VIΛ (VIA) 57 West / Bjarke Ingels Group (BIG) / New York City, United States of America (USA)",
+    "answer": "VIΛ (VIA) 57 West / Bjarke Ingels Group (BIG) / New York, United States of America (USA)",
     "days": [134],
     "copyrights": [
       {
@@ -2554,7 +2554,7 @@
     "categories": ["museum"]
   },
   {
-    "answer": "Crystal Houses / MVRDV / Amsterdam, The Netherlands",
+    "answer": "Crystal Houses / MVRDV / Amsterdam, Netherlands",
     "days": [169],
     "copyrights": [
       {
@@ -3190,7 +3190,7 @@
     "categories": []
   },
   {
-    "answer": "Royal Pavilion of Brighton / John Nash / Brighton, England",
+    "answer": "Royal Pavilion of Brighton / John Nash / Brighton, United Kingdom (UK)",
     "days": [213],
     "copyrights": [
       {
@@ -3287,7 +3287,7 @@
     "categories": ["monument"]
   },
   {
-    "answer": "Kubuswoningen (Cube Houses) / Piet Blom / Rotterdam, The Netherlands",
+    "answer": "Kubuswoningen (Cube Houses) / Piet Blom / Rotterdam, Netherlands",
     "days": [221],
     "copyrights": [
       {
@@ -5997,5 +5997,20 @@
     "years": "72-80",
     "links": ["https://en.wikipedia.org/wiki/Colosseum"],
     "categories": ["monument", "famous", "roman"]
+  },
+  {
+    "answer": "Whitney Museum of American Art / Renzo Piano Building Workshop, Cooper Robertson / 99 Gansevoort Street, New York, United States of America (USA)",
+    "days": [458],
+    "copyrights": [
+      {
+        "*": "Nic Lehoux",
+        "3": "Courtesy of the Architect",
+        "5": "MusikAnimal (wikimedia)",
+        "6": "Ajay Suresh (wikimedia)"
+      }
+    ],
+    "years": "2015",
+    "links": ["https://en.wikipedia.org/wiki/Whitney_Museum"],
+    "categories": ["museum"]
   }
 ]
