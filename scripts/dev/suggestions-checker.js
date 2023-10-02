@@ -7,12 +7,14 @@ const suggestionTitles = suggestions.map((str) => ({
 }));
 
 let counter = 0;
+let missingYears = 0;
+let missingLinks = 0;
 let hasErrors = false;
 
-for (const { answer, days } of data) {
+for (const { answer, days, years, links } of data) {
   counter++;
   if (!suggestions.includes(answer)) {
-    console.log(
+    console.error(
       `"${answer}" (day ${days[0]}) is missing from suggestions.json!`,
     );
     hasErrors = true;
@@ -24,8 +26,23 @@ for (const { answer, days } of data) {
         normalizedToFind.includes(normalized),
     );
     if (search) {
-      console.log(`Suggestion: "${search.original}"`);
+      console.info(`Suggestion: "${search.original}"`);
     }
+  }
+
+  if (!years || links.length === 0) {
+    const missing = [];
+    if (!years) {
+      missing.push("building years");
+      missingYears++;
+    }
+    if (links.length === 0) {
+      missing.push("links");
+      missingLinks++;
+    }
+    console.warn(
+      `[${missing.length}] ${answer} is missing ${missing.join(" and ")}`,
+    );
   }
 }
 
@@ -33,4 +50,6 @@ if (hasErrors) {
   process.exit(1);
 }
 
-console.log(`✅ everything looks good! ${counter} checked`);
+console.info(
+  `✅ no error found! ${counter} checked: ${missingYears} building years missing, ${missingLinks} missing links`,
+);

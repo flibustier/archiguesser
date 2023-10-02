@@ -2470,7 +2470,7 @@
     "categories": []
   },
   {
-    "answer": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
+    "answer": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert, Jean-Paul Philippon / Roubaix, Nord-Pas-de-Calais, France",
     "days": [163],
     "copyrights": [
       {
@@ -2481,8 +2481,9 @@
         "*": "Fred Romero (flickr)"
       }
     ],
-    "links": [],
-    "categories": ["museum"]
+    "years": "1927-1932,2000",
+    "links": ["https://en.wikipedia.org/wiki/La_Piscine_Museum"],
+    "categories": ["museum", "refurbishment"]
   },
   {
     "answer": "Nordic Pavilion in Venice / Sverre Fehn / Venice, Italy",
@@ -2493,8 +2494,9 @@
         "*": "Åke E:son Lindman"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1958-1962",
+    "links": ["https://en.wikipedia.org/wiki/Nordic_pavilion"],
+    "categories": ["pavilion"]
   },
   {
     "answer": "Red Fort (Lal Qila) / Ustad Ahmad Lahori / Old Delhi, Delhi, India",
