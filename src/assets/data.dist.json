@@ -34,23 +34,5 @@
     "years": "",
     "links": ["https://en.wikipedia.org/wiki/Laurentian_Library"],
     "categories": ["monument"]
-  },
-  {
-    "answer": "Balancing Barn / MVRDV / Suffolk, United Kingdom (UK)",
-    "days": [0],
-    "copyrights": [
-      {
-        "*": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": "",
-        "6": ""
-      }
-    ],
-    "years": "2010",
-    "links": ["https://www.mvrdv.com/projects/84/balancing-barn"],
-    "categories": ["housing"]
   }
 ]
