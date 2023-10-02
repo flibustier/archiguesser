@@ -2493,8 +2493,9 @@
         "*": "Åke E:son Lindman"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1958-1962",
+    "links": ["https://en.wikipedia.org/wiki/Nordic_pavilion"],
+    "categories": ["pavilion"]
   },
   {
     "answer": "Red Fort (Lal Qila) / Ustad Ahmad Lahori / Old Delhi, Delhi, India",
