@@ -6012,5 +6012,18 @@
     "years": "2015",
     "links": ["https://en.wikipedia.org/wiki/Whitney_Museum"],
     "categories": ["museum"]
+  },
+  {
+    "answer": "Balancing Barn / MVRDV / Suffolk, United Kingdom (UK)",
+    "days": [459],
+    "copyrights": [
+      {
+        "*": "Edmund Sumner",
+        "5": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2010",
+    "links": ["https://www.mvrdv.com/projects/84/balancing-barn"],
+    "categories": ["housing"]
   }
 ]
