@@ -523,17 +523,20 @@
   },
   {
     "answer": "Angkor Wat / Siem Reap, Cambodia",
-    "days": [30],
+    "days": [30, 460],
     "copyrights": [
       {
-        "1": "Baldiri",
-        "4": "Diego Delso",
-        "5": "Sam Garza",
-        "6": "Charles J Sharp"
+        "1": "Baldiri (wikimedia)",
+        "2": "Markalexander100 (wikimedia)",
+        "3": "Markalexander100 (wikimedia)",
+        "4": "Diego Delso (wikimedia)",
+        "5": "Sam Garza (wikimedia)",
+        "6": "Charles J Sharp (wikimedia)"
       }
     ],
+    "years": "12th century",
     "links": ["https://en.wikipedia.org/wiki/Angkor_Wat"],
-    "categories": ["monument"]
+    "categories": ["monument", "religious"]
   },
   {
     "answer": "Berliner Philharmonie / Hans Scharoun / Berlin, Germany",
