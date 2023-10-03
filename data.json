@@ -523,15 +523,18 @@
   },
   {
     "answer": "Angkor Wat / Siem Reap, Cambodia",
-    "days": [30],
+    "days": [30, 460],
     "copyrights": [
       {
-        "1": "Baldiri",
-        "4": "Diego Delso",
-        "5": "Sam Garza",
-        "6": "Charles J Sharp"
+        "1": "Baldiri (wikimedia)",
+        "2": "Markalexander100 (wikimedia)",
+        "3": "Markalexander100 (wikimedia)",
+        "4": "Diego Delso ",
+        "5": "Sam Garza (wikimedia)",
+        "6": "Charles J Sharp (wikimedia)"
       }
     ],
+    "years": "12th century",
     "links": ["https://en.wikipedia.org/wiki/Angkor_Wat"],
     "categories": ["monument"]
   },
@@ -2470,7 +2473,7 @@
     "categories": []
   },
   {
-    "answer": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert / Roubaix, Nord-Pas-de-Calais, France",
+    "answer": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert, Jean-Paul Philippon / Roubaix, Nord-Pas-de-Calais, France",
     "days": [163],
     "copyrights": [
       {
@@ -2481,8 +2484,9 @@
         "*": "Fred Romero (flickr)"
       }
     ],
-    "links": [],
-    "categories": ["museum"]
+    "years": "1927-1932,2000",
+    "links": ["https://en.wikipedia.org/wiki/La_Piscine_Museum"],
+    "categories": ["museum", "refurbishment"]
   },
   {
     "answer": "Nordic Pavilion in Venice / Sverre Fehn / Venice, Italy",
