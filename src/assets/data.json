@@ -6030,5 +6030,22 @@
     "years": "2010",
     "links": ["https://www.mvrdv.com/projects/84/balancing-barn"],
     "categories": ["housing"]
+  },
+  {
+    "answer": "Millau Viaduct (Viaduc de Millau) / Norman Foster and Partners, Chapelet-Defol-Mousseigne / Millau - Creissels, Vallée du Tarn, Occitanie, France",
+    "days": [461],
+    "copyrights": [
+      {
+        "1": "Nepomuk (wikimedia)",
+        "2": "Nepomuk’s dad (wikimedia)",
+        "3": "Roulex 45 (wikimedia from Georges Gillet, Jean-Claude Mutel)",
+        "4": "Roulex 45 (wikimedia)",
+        "5": "Scole01 (wikimedia)",
+        "6": "Mike Lehmann (wikimedia)"
+      }
+    ],
+    "years": "2001-2004",
+    "links": ["https://en.wikipedia.org/wiki/Millau_Viaduct"],
+    "categories": ["infrastructure", "bridge"]
   }
 ]
