@@ -6047,5 +6047,22 @@
     "years": "2001-2004",
     "links": ["https://en.wikipedia.org/wiki/Millau_Viaduct"],
     "categories": ["infrastructure", "bridge"]
+  },
+  {
+    "answer": "Burj Khalifa (Burj Dubai) / SOM Architects, Adrian Smith, Hyder Consulting / Dubai, United Arab Emirates (UAE)",
+    "days": [462],
+    "copyrights": [
+      {
+        "1": "BLueFiSH (wikimedia)",
+        "2": "Aheilner (wikimedia)",
+        "3": "Based on Architect’s plan",
+        "4": "Imre Solt (wikimedia)",
+        "5": "wikiarquitectura",
+        "6": "Donaldytong (wikimedia)"
+      }
+    ],
+    "years": "2004-2009",
+    "links": ["https://en.wikipedia.org/wiki/Burj_Khalifa"],
+    "categories": ["skyscraper"]
   }
 ]
