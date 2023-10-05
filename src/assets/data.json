@@ -1363,7 +1363,7 @@
   },
   {
     "answer": "Himeji Castle (Himeji-jo) / Ikeda Terumasa / Himeji, Hyogo Prefecture, Japan",
-    "days": [85],
+    "days": [85, 463],
     "copyrights": [
       {
         "1": "Corpse Reviver",
@@ -1374,6 +1374,7 @@
         "6": "Oren Rozen"
       }
     ],
+    "years": "1581-1618",
     "links": ["https://en.wikipedia.org/wiki/Himeji_Castle"],
     "categories": ["monument", "castle"]
   },
