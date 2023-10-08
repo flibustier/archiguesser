@@ -5854,7 +5854,7 @@
     ],
     "years": "1997-2003",
     "links": ["https://en.wikipedia.org/wiki/Auditorio_de_Tenerife"],
-    "categories": ["expressionist", "concert hall"]
+    "categories": ["expressionism", "concert hall"]
   },
   {
     "answer": "Globen (Avicii Arena, Stockholm Globe Arena, Ericsson Globe Stadium) / Berg Arkitektkontor, Svante Berg, Lars Vretblad / Stockholm, Sweden",
@@ -6065,5 +6065,21 @@
     "years": "2004-2009",
     "links": ["https://en.wikipedia.org/wiki/Burj_Khalifa"],
     "categories": ["skyscraper"]
+  },
+  {
+    "answer": "Gateway Arch / Eero Saarinen / St. Louis, Missouri, United States of America (USA)",
+    "days": [465],
+    "copyrights": [
+      {
+        "*": "Daniel Schwen (wikimedia)",
+        "1": "Robert Lawton (wikimedia)",
+        "4": "Kelly (wikimedia)",
+        "5": "Starkin (wikimedia)",
+        "6": "Bev Sykes (wikimedia)"
+      }
+    ],
+    "years": "1963-1965",
+    "links": ["https://en.wikipedia.org/wiki/Gateway_Arch"],
+    "categories": ["expressionism"]
   }
 ]
