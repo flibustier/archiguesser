@@ -6081,5 +6081,20 @@
     "years": "1963-1965",
     "links": ["https://en.wikipedia.org/wiki/Gateway_Arch"],
     "categories": ["expressionism"]
+  },
+  {
+    "answer": "Bergisel Ski Jump / Zaha Hadid / Bersigel, Innsbruck, Austria",
+    "days": [467],
+    "copyrights": [
+      {
+        "*": "Helene Binet",
+        "1": "James Taylor-Foster",
+        "3": "James Taylor-Foster",
+        "6": "Veit Mueller (wikimedia)"
+      }
+    ],
+    "years": "2003",
+    "links": ["https://www.zaha-hadid.com/architecture/bergisel-ski-jump/"],
+    "categories": ["contemporary"]
   }
 ]
