@@ -2380,13 +2380,14 @@
   },
   {
     "answer": "Crystal Palace / Joseph Paxton / Hyde Park, London, United Kingdom (UK)",
-    "days": [157],
+    "days": [157, 468],
     "copyrights": [
       {
-        "3": "J. McNeven (wikimedia)",
+        "*": "wikimedia",
+        "1": "Architect’s plan (wikimedia)",
+        "4": "J. McNeven (wikimedia)",
         "5": "Dickinson Brothers (wikimedia)",
-        "6": "Philip Henry Delamotte (wikimedia)",
-        "*": "wikimedia"
+        "6": "Philip Henry Delamotte (wikimedia)"
       }
     ],
     "years": "1851",
