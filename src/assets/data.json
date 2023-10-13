@@ -6113,5 +6113,22 @@
     "years": "2013",
     "links": ["https://en.wikipedia.org/wiki/Isbjerget"],
     "categories": ["contemporary"]
+  },
+  {
+    "answer": "Halle Tony Garnier / Tony Garnier / Lyon, France",
+    "days": [470],
+    "copyrights": [
+      {
+        "1": "Romainbehar (wikimedia)",
+        "2": "Sarah Michel",
+        "3": "Olivier Sclave",
+        "4": "Courtesy of the Architect",
+        "5": "Agence de presse Meurisse (Bibliothèque Nationale de France, wikimedia)",
+        "6": "Brice Genevois"
+      }
+    ],
+    "years": "1905",
+    "links": ["https://en.wikipedia.org/wiki/Halle_Tony_Garnier"],
+    "categories": []
   }
 ]
