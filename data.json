@@ -1650,7 +1650,7 @@
   },
   {
     "answer": "Palazzo Vecchio (Palazzo della Signoria) / Arnolfo di Cambio, Michelozzo di Bartolomeo / Piazza della Signoria, Florence, Italy",
-    "days": [106],
+    "days": [106, 471],
     "copyrights": [
       {
         "1": "Guillaume Piolle",
@@ -1658,6 +1658,7 @@
         "5": "Jebulon (wikipedia)"
       }
     ],
+    "years": "1299-1314",
     "links": ["https://en.wikipedia.org/wiki/Palazzo_Vecchio"],
     "categories": ["monument"]
   },
