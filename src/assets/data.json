@@ -1665,7 +1665,9 @@
   {
     "answer": "Fisher House / Louis I. Kahn / Hatboro, Pennsylvania, United States of America (USA)",
     "days": [107],
-    "copyrights": [null],
+    "copyrights": [{
+      "*": "wikiarquitectura"
+    }],
     "years": "1960-1967",
     "links": [
       "https://en.wikipedia.org/wiki/Fisher_House",
@@ -2494,7 +2496,7 @@
   },
   {
     "answer": "Nordic Pavilion in Venice / Sverre Fehn / Venice, Italy",
-    "days": [164],
+    "days": [164, 472],
     "copyrights": [
       {
         "3": "Fri ikke-kommersiell bruk",
