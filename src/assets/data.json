@@ -540,14 +540,22 @@
   },
   {
     "answer": "Berliner Philharmonie / Hans Scharoun / Berlin, Germany",
-    "days": [31],
+    "days": [31, 473],
     "copyrights": [
       {
         "1": "Arne Kolb",
         "6": "A.Savin",
         "*": "wikiarquitectura"
+      },
+      {
+        "1": "Arne Kolb",
+        "3": "Jonathan Platteau",
+        "4": "Gzen92 (wikimedia)",
+        "6": "Jonathan Platteau",
+        "*": "wikiarquitectura"
       }
     ],
+    "years": "1960-1963",
     "links": ["https://en.wikipedia.org/wiki/Berliner_Philharmonie"],
     "categories": ["concert hall"]
   },
