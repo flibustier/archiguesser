@@ -43,7 +43,7 @@ const updatePictureShown = (value: number) =>
   font-size: 1rem;
   line-height: 1rem;
   padding: 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: var(--border-radius);
 }
 
 .paginator .is-active {

@@ -8,6 +8,8 @@ import { sendEvent } from "@/services/api";
 import IconBack from "./icons/IconBack.vue";
 import IconCopy from "./icons/IconCopy.vue";
 import IconWiki from "./icons/IconWiki.vue";
+import IconCheck from "./icons/IconCheck.vue";
+import IconTimes from "./icons/IconTimes.vue";
 
 const showGuesses = ref(false);
 const shareBtnContent = ref("SHARE");
@@ -109,9 +111,13 @@ const openLinks = () => {
       <button class="show-guesses-btn" @click="toggleGuesses">
         {{ showGuesses ? "Hide" : "Show" }} Guesses
       </button>
-      <div v-if="showGuesses">
-        <div v-for="(guess, i) of guesses" :key="guess">
-          {{ i === guesses.length - 1 && hasWon ? "✅" : "❌" }} {{ guess }}
+      <div v-if="showGuesses" class="history">
+        <div v-for="(guess, i) of guesses" :key="guess" class="history-row">
+          <span class="history-icon">
+            <IconCheck v-if="i === guesses.length - 1 && hasWon" />
+            <IconTimes v-else />
+          </span>
+          <span>{{ guess || "…" }}</span>
         </div>
       </div>
     </div>
@@ -208,6 +214,21 @@ button svg {
   line-height: 1.25rem;
   background-color: transparent;
   background-image: none;
+}
+
+.history {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.history-row {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.history-icon {
+  display: flex;
 }
 
 .sponsor {
