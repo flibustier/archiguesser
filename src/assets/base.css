@@ -3,11 +3,11 @@
   --color-light-background: hsl(0, 0%, 90%);
   --color-border: #181818;
   --color-text: #2c3e50;
-  --color-primary: #c67b47;
+  --color-primary: #000000;
   --color-primary-inverted: #ffffff;
   --color-highlight: #e0eae0;
   --max-width: 62rem;
-  --border-radius: 0.5rem;
+  --border-radius: 1rem;
   --gap: 0.5rem;
 }
 
@@ -58,7 +58,7 @@ button {
 
 a {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--color-primary);
 }
 
@@ -91,11 +91,11 @@ h3 {
 }
 
 .red {
-  background-color: red;
+  background-color: #E16A51;
 }
 
 .green {
-  background-color: green;
+  background-color: #359335;
 }
 
 .black {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IconTimes from "../icons/IconTimes.vue";
+import IconClose from "../icons/IconClose.vue";
 
 defineProps({
   isVisible: {
@@ -25,7 +25,7 @@ const closeModal = () => {
       <div class="modal-header">
         <h2>{{ title }}</h2>
         <div class="close" @click="closeModal">
-          <IconTimes />
+          <IconClose />
         </div>
       </div>
       <div class="modal-body">

@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { computed } from "vue";
 
+import IconInfo from "../icons/IconInfo.vue";
+import IconTimes from "../icons/IconTimes.vue";
+
 const props = defineProps({
   guesses: {
     type: Array<string>,
@@ -46,9 +49,9 @@ const highlight = (guess: string) =>
 <template>
   <div class="guesses">
     <div class="guess" v-if="showHint">
-      <span class="guess-icon">ℹ️</span>
-      <span>Hint: </span>
-      <span v-if="showYearsHint"> Built in {{ constructionYears }}. </span>
+      <span class="guess-icon"><IconInfo /></span>
+      <span>Hint:&nbsp;</span>
+      <span v-if="showYearsHint">Built in {{ constructionYears }}.&nbsp;</span>
       <span v-if="showCountryHint"
         >The location is <b>{{ country }}</b>
       </span>
@@ -57,7 +60,8 @@ const highlight = (guess: string) =>
       </span>
     </div>
     <div class="guess" v-for="guess of guessesReverseOrder" :key="guess">
-      <span class="guess-icon">❌</span><span v-html="highlight(guess)"></span>
+      <span class="guess-icon"><IconTimes /></span>
+      <span v-html="highlight(guess)"></span>
     </div>
     <div class="remaining" v-if="isLastGuessRemaining">
       Last guess remaining!
@@ -76,15 +80,22 @@ const highlight = (guess: string) =>
 }
 
 .guess {
+  display: flex;
+  align-items: center;
+
   padding: 0.5rem;
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
-
   min-height: 2rem;
 }
 
 .guess-icon {
+  display: flex;
   margin-right: 0.5rem;
+}
+
+.guess-icon > svg {
+  height: 100%;
 }
 
 .remaining {
