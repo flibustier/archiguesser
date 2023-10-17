@@ -1673,9 +1673,11 @@
   {
     "answer": "Fisher House / Louis I. Kahn / Hatboro, Pennsylvania, United States of America (USA)",
     "days": [107],
-    "copyrights": [{
-      "*": "wikiarquitectura"
-    }],
+    "copyrights": [
+      {
+        "*": "wikiarquitectura"
+      }
+    ],
     "years": "1960-1967",
     "links": [
       "https://en.wikipedia.org/wiki/Fisher_House",
@@ -6140,6 +6142,23 @@
     ],
     "years": "1905",
     "links": ["https://en.wikipedia.org/wiki/Halle_Tony_Garnier"],
+    "categories": []
+  },
+  {
+    "answer": "Jefferson Memorial / John Russell Pope, Eggers & Higgins / Washington, D.C., United States of America (USA)",
+    "days": [474],
+    "copyrights": [
+      {
+        "1": "Jamieadams99 (wikimedia)",
+        "2": "Another Believer (wikimedia)",
+        "3": "Michael Kranewitter (wikimedia)",
+        "4": "Jamieadams99 (wikimedia)",
+        "5": "Joe Ravi (wikimedia)",
+        "6": "Duane Lempke (wikimedia)"
+      }
+    ],
+    "years": "1939-1943",
+    "links": ["https://en.wikipedia.org/wiki/Jefferson_Memorial"],
     "categories": []
   }
 ]
