@@ -15,4 +15,15 @@ export default defineConfig({
   server: {
     port: 4000,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          data: ["src/assets/data.json"],
+          suggestions: ["src/assets/suggestions.json"],
+          vue: ["vue"],
+        },
+      },
+    },
+  },
 });
