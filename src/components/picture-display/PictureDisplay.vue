@@ -40,9 +40,10 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 <template>
   <div>
     <img
-      :alt="`Picture ${pictureShown}`"
+      :alt="`Picture ${pictureShown} is loading…`"
       class="picture"
       :src="imgSrc(pictureShown)"
+      :key="pictureShown"
     />
     <link
       v-if="pictureShown < 6"
@@ -80,6 +81,7 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
   padding: 0px;
   border: medium none;
   object-fit: contain;
+  text-align: center;
 }
 
 @media screen and (min-width: 62rem) {
