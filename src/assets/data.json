@@ -6160,5 +6160,18 @@
     "years": "1939-1943",
     "links": ["https://en.wikipedia.org/wiki/Jefferson_Memorial"],
     "categories": []
+  },
+  {
+    "answer": "Faculty (School) of Architecture of the University of Porto (Faculdade de Arquitectura da Universidade do Porto) / Álvaro Siza Vieira / Porto, Portugal",
+    "days": [475],
+    "copyrights": [
+      {
+        "*": "Fernando Guerra",
+        "3": "Leon (wikimedia)"
+      }
+    ],
+    "years": "1985-1996",
+    "links": ["https://en.wikipedia.org/wiki/Porto_School_of_Architecture"],
+    "categories": ["university"]
   }
 ]
