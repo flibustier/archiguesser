@@ -7,6 +7,7 @@ import IconBackspace from "../icons/IconBackspace.vue";
 const searchTerms = ref("");
 const hasSelectedSuggestion = ref(false);
 const preselected = ref();
+const suggestionsRefs = ref([] as (HTMLElement | null)[]);
 
 const filteredSuggestions = computed(() => search(searchTerms.value));
 const isSelectionDone = computed(
@@ -57,7 +58,7 @@ const navigate = (direction: "up" | "down") => {
       (preselected.value + 1) % filteredSuggestions.value.length;
   }
 
-  document.getElementById(`suggestion-${preselected.value}`)?.scrollIntoView({
+  suggestionsRefs.value[preselected.value]?.scrollIntoView({
     behavior: "smooth",
     block: "nearest",
     inline: "start",
@@ -74,7 +75,7 @@ const navigate = (direction: "up" | "down") => {
       <li
         v-for="(filteredResult, index) in filteredSuggestions"
         :key="index"
-        :id="`suggestion-${index}`"
+        ref="suggestionsRefs"
         :class="{ 'is-focus': preselected === index }"
         @click="validateGuess(filteredResult.suggestion)"
         @mouseover="() => (preselected = index)"
