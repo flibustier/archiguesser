@@ -6173,5 +6173,20 @@
     "years": "1985-1996",
     "links": ["https://en.wikipedia.org/wiki/Porto_School_of_Architecture"],
     "categories": ["university"]
+  },
+  {
+    "answer": "Sainte-Geneviève Library (Bibliothèque Sainte-Geneviève) / Henri Labrouste / Paris, France",
+    "days": [476],
+    "copyrights": [
+      {
+        "*": "Marie-Lan Nguyen (wikimedia)",
+        "1": "Courtesy of the Architect",
+        "4": "Priscille Leroy (wikimedia)",
+        "6": "Communication BSG (wikimedia)"
+      }
+    ],
+    "years": "1838-1851",
+    "links": ["https://en.wikipedia.org/wiki/Sainte-Genevi%C3%A8ve_Library"],
+    "categories": ["library"]
   }
 ]
