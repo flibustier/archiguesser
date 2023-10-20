@@ -6188,5 +6188,22 @@
     "years": "1838-1851",
     "links": ["https://en.wikipedia.org/wiki/Sainte-Genevi%C3%A8ve_Library"],
     "categories": ["library"]
+  },
+  {
+    "answer": "Barbican Estate / Chamberlin, Powell and Bon Architects / London, United Kingdom (UK)",
+    "days": [477],
+    "copyrights": [
+      {
+        "1": "Jonathan Platteau",
+        "2": "Joas Souza",
+        "3": "Courtesy of the Architect",
+        "4": "Tony Hisgett (wikimedia)",
+        "5": "Riodamascus (wikimedia)",
+        "6": "Suttonpubcrawl (wikimedia)"
+      }
+    ],
+    "years": "1965-1976",
+    "links": ["https://en.wikipedia.org/wiki/Barbican_Estate"],
+    "categories": ["brutalism"]
   }
 ]
