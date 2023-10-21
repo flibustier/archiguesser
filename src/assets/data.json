@@ -113,13 +113,22 @@
   },
   {
     "answer": "Saint Mary’s Cathedral of Tokyo / Kenzo Tange / Tokyo, Japan",
-    "days": [6],
+    "days": [6, 478],
     "copyrights": [
       {
         "*": "wikiarquitectura"
+      }, 
+      {
+        "1": "Morio (wikimedia)",
+        "2": "Shinjuku1 (wikimedia)",
+        "3": "TUPEIRAN (wikimedia)",
+        "4": "TUPEIRAN (wikimedia)",
+        "5": "wikiarquitectura",
+        "6": "Kakidai (wikimedia)"
       }
     ],
-    "links": [],
+    "years": "1964",
+    "links": ["https://en.wikipedia.org/wiki/St._Mary%27s_Cathedral,_Tokyo"],
     "categories": ["religious"]
   },
   {
