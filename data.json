@@ -117,7 +117,7 @@
     "copyrights": [
       {
         "*": "wikiarquitectura"
-      }, 
+      },
       {
         "1": "Morio (wikimedia)",
         "2": "Shinjuku1 (wikimedia)",
@@ -6214,5 +6214,22 @@
     "years": "1965-1976",
     "links": ["https://en.wikipedia.org/wiki/Barbican_Estate"],
     "categories": ["brutalism"]
+  },
+  {
+    "answer": "Metropol Parasol (Las Setas) / Jürgen Hermann Mayer, Arup / Sevilla, Spain",
+    "days": [479],
+    "copyrights": [
+      {
+        "1": "Lobillo (wikimedia)",
+        "2": "Michimaya (wikimedia)",
+        "3": "Paolo Gamba (wikimedia)",
+        "4": "ZAINEB HACHAMI (wikimedia)",
+        "5": "Hernán Piñera (wikimedia)",
+        "6": "Sevilla Congress & Convention Bureau (wikimedia)"
+      }
+    ],
+    "years": "2005-2011",
+    "links": ["https://en.wikipedia.org/wiki/Metropol_Parasol"],
+    "categories": ["public building"]
   }
 ]
