@@ -6231,5 +6231,21 @@
     "years": "2005-2011",
     "links": ["https://en.wikipedia.org/wiki/Metropol_Parasol"],
     "categories": ["public building"]
+  },
+  {
+    "answer": "Castel del Monte / Andria, Apulia, Italy",
+    "days": [480],
+    "copyrights": [
+      {
+        "*": "Berthold Werner (wikimedia)",
+        "2": "Sailko (wikimedia)",
+        "3": "Sailko (wikimedia)",
+        "4": "Travus (wikimedia)",
+        "5": "Michael Fritz (wikimedia)"
+      }
+    ],
+    "years": "1240–1250",
+    "links": ["https://en.wikipedia.org/wiki/Castel_del_Monte,_Apulia"],
+    "categories": ["monument", "castle"]
   }
 ]
