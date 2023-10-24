@@ -6247,5 +6247,22 @@
     "years": "1240–1250",
     "links": ["https://en.wikipedia.org/wiki/Castel_del_Monte,_Apulia"],
     "categories": ["monument", "castle"]
+  },
+  {
+    "answer": "Capitol of the United States / William Thornton, B. Henry Latrobe, Thomas U. Walter, Benjamin Henry Latrobe, Charles Bulfinch / Washington, D.C., United States of America (USA)",
+    "days": [481],
+    "copyrights": [
+      {
+        "1": "Andreas Praefcke (wikimedia)",
+        "2": "Matt H. Wade (wikimedia)",
+        "3": "Samuel Finley Breese Morse (1822) (wikimedia)",
+        "4": "Courtesy of the Architect",
+        "5": "Joyce N. Boghosian (wikimedia)",
+        "6": "Martin Falbisoner (wikimedia)"
+      }
+    ],
+    "years": "1800",
+    "links": ["https://en.wikipedia.org/wiki/United_States_Capitol"],
+    "categories": []
   }
 ]
