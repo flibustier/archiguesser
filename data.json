@@ -2338,8 +2338,8 @@
     "categories": ["library"]
   },
   {
-    "answer": "Museum of Contemporary Art in Niteroi / Oscar Niemeyer / Niteroi, Rio de Janeiro, Brazil",
-    "days": [153],
+    "answer": "Museum of Contemporary Art in Niteroi (Museu de Arte Contemporânea de Niterói — MAC) / Oscar Niemeyer / Niterói, Rio de Janeiro, Brazil",
+    "days": [153, 482],
     "copyrights": [
       {
         "1": "Rosino (flickr)",
@@ -2350,8 +2350,9 @@
         "6": "Rodrigo Soldon"
       }
     ],
-    "years": "1991- 1996",
+    "years": "1991-1996",
     "links": [
+      "https://en.wikipedia.org/wiki/Niter%C3%B3i_Contemporary_Art_Museum",
       "https://en.wikiarquitectura.com/building/Museum-of-Contemporary-Art-in-Niteroi/"
     ],
     "categories": ["museum"]
