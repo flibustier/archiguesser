@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, onMounted, ref } from "vue";
 
 import { URL, APP_NAME } from "../config.json";
 
-import { sendEvent } from "@/services/api";
+import { sendEvent, fetchWikipediaSummary } from "@/services/api";
 
 import IconBack from "./icons/IconBack.vue";
 import IconCopy from "./icons/IconCopy.vue";
@@ -11,6 +11,7 @@ import IconWiki from "./icons/IconWiki.vue";
 import IconCheck from "./icons/IconCheck.vue";
 import IconTimes from "./icons/IconTimes.vue";
 
+const description = ref("");
 const showGuesses = ref(false);
 const shareBtnContent = ref("SHARE");
 
@@ -92,6 +93,12 @@ const openLinks = () => {
   window.open(props.links[0], "_blank")?.focus();
   sendEvent("Learn");
 };
+
+onMounted(async () => {
+  if (props.links.length > 0) {
+    description.value = await fetchWikipediaSummary(props.links[0]);
+  }
+});
 </script>
 
 <template>
@@ -138,6 +145,7 @@ const openLinks = () => {
         </button>
       </div>
     </div>
+    <p v-if="description" class="description">« {{ description }} »</p>
     <div>Next challenge <b class="emphasis">tomorrow</b>! 🕛</div>
     <p class="sponsor" v-if="false">
       ❤️ {{ APP_NAME }}?
@@ -229,6 +237,12 @@ button svg {
 
 .history-icon {
   display: flex;
+}
+
+.description {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
 }
 
 .sponsor {
