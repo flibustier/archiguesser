@@ -15,7 +15,7 @@
     "download": "node ./scripts/download/cli.js"
   },
   "dependencies": {
-    "vue": "3.3.6"
+    "vue": "3.3.7"
   },
   "devDependencies": {
     "@babel/types": "7.23.0",
