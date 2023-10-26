@@ -6265,5 +6265,22 @@
     "years": "1800",
     "links": ["https://en.wikipedia.org/wiki/United_States_Capitol"],
     "categories": []
+  },
+  {
+    "answer": "Rijksmuseum / Pierre Cuypers, Antonio Cruz, Antonio Ortiz (Cruz y Ortiz), Jean-Michel Wilmotte / Museum Square, Amsterdam, Netherlands",
+    "days": [483],
+    "copyrights": [
+      {
+        "1": "Jannes Linders",
+        "2": "Duccio Malagamba",
+        "3": "Pedro Pegenaute",
+        "4": "Duccio Malagamba",
+        "5": "Courtesy of the Museum",
+        "6": "C messier (wikimedia)"
+      }
+    ],
+    "years": "1876-1885,2003-2013",
+    "links": ["https://en.wikipedia.org/wiki/Rijksmuseum"],
+    "categories": ["museum"]
   }
 ]
