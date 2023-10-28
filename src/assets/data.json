@@ -1339,17 +1339,18 @@
     "categories": []
   },
   {
-    "answer": "Convent of Sainte Marie Tourette / Le Corbusier / Lyon, France",
-    "days": [82],
+    "answer": "Couvent Sainte-Marie de La Tourette / Le Corbusier, Fernand Gardien / Éveux, France",
+    "days": [82, 485],
     "copyrights": [
       {
-        "4": "",
-        "6": "wikiarquitectura",
-        "*": "Jonathan Platteau"
+        "*": "Jonathan Platteau",
+        "4": "Unknown",
+        "6": "wikiarquitectura"
       }
     ],
-    "years": "1957-1960",
+    "years": "1953-1961",
     "links": [
+      "https://en.wikipedia.org/wiki/Sainte_Marie_de_La_Tourette",
       "https://en.wikiarquitectura.com/building/Convent-of-Sainte-Marie-Tourette/"
     ],
     "categories": ["modernism"]
