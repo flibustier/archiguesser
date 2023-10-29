@@ -6283,5 +6283,20 @@
     "years": "1876-1885,2003-2013",
     "links": ["https://en.wikipedia.org/wiki/Rijksmuseum"],
     "categories": ["museum"]
+  },
+  {
+    "answer": "Shenzhen Bao’an International Airport / Doriana Fuksas, Massimiliano Fuksas / Shenzhen, China",
+    "days": [486],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2013",
+    "links": [
+      "https://en.wikipedia.org/wiki/Shenzhen_Bao%27an_International_Airport",
+      "https://www.archdaily.com/472197/shenzhen-bao-an-international-airport-studio-fuksas"
+    ],
+    "categories": ["infrastructure"]
   }
 ]
