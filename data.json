@@ -6298,5 +6298,22 @@
       "https://www.archdaily.com/472197/shenzhen-bao-an-international-airport-studio-fuksas"
     ],
     "categories": ["infrastructure"]
+  },
+  {
+    "answer": "Gateshead Millennium Bridge (The Blinking or Winking Eye Bridge) / Wilkinson Eyre, Gifford Graham & Partners / Gateshead, United Kingdom (UK)",
+    "days": [487],
+    "copyrights": [
+      {
+        "1": "James Cridland (wikimedia)",
+        "2": "Richard Webb (wikimedia)",
+        "3": "Andrew Curtis (wikimedia)",
+        "4": "Barbara Carr (wikimedia)",
+        "5": "Martin Sotirov (wikimedia)",
+        "6": "David P Howard (wikimedia)"
+      }
+    ],
+    "years": "2001",
+    "links": ["https://en.wikipedia.org/wiki/Gateshead_Millennium_Bridge"],
+    "categories": ["bridge"]
   }
 ]
