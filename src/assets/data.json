@@ -2008,8 +2008,8 @@
     "categories": []
   },
   {
-    "answer": "Fagus Factory / Walter Gropius, Adolf Meyer / Alfeld an der Leine, Lower Saxony, Germany",
-    "days": [131],
+    "answer": "Fagus Factory (Fagus Fabrik or Werk) / Walter Gropius, Adolf Meyer / Alfeld an der Leine, Lower Saxony, Germany",
+    "days": [131, 489],
     "copyrights": [
       {
         "1": "",
@@ -2025,7 +2025,7 @@
       "https://en.wikipedia.org/wiki/Fagus_Factory",
       "https://en.wikiarquitectura.com/building/Fagus-Factory/"
     ],
-    "categories": []
+    "categories": ["modernism"]
   },
   {
     "answer": "Presence in Hormuz 2 / ZAV Architects / Hormuz Island, Iran",
