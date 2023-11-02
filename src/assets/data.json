@@ -6316,5 +6316,24 @@
     "years": "2001",
     "links": ["https://en.wikipedia.org/wiki/Gateshead_Millennium_Bridge"],
     "categories": ["bridge"]
+  },
+  {
+    "answer": "San Francisco Museum of Modern Art (SFMOMA) / Mario Botta, Snøhetta, Mark Jensen / San Francisco, California, United States of America (USA)",
+    "days": [490],
+    "copyrights": [
+      {
+        "1": "Frank Schulenburg (wikimedia)",
+        "2": "Jose Caraballo (wikimedia)",
+        "3": "Pino Musi",
+        "4": "Robert Canfield",
+        "5": "Courtesy of the Architect",
+        "6": "Beyond My Ken (wikimedia)"
+      }
+    ],
+    "years": "1995,2016",
+    "links": [
+      "https://en.wikipedia.org/wiki/San_Francisco_Museum_of_Modern_Art"
+    ],
+    "categories": ["museum"]
   }
 ]
