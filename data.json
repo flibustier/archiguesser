@@ -472,12 +472,13 @@
   },
   {
     "answer": "National Museum of Qatar / Jean Nouvel / Doha, Qatar",
-    "days": [26],
+    "days": [26, 492],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
+    "years": "2019",
     "links": ["https://en.wikipedia.org/wiki/National_Museum_of_Qatar"],
     "categories": ["museum"]
   },
