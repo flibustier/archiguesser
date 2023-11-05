@@ -807,7 +807,7 @@
       "https://en.wikipedia.org/wiki/Church_of_Light",
       "https://en.wikiarquitectura.com/building/Church-of-Light/"
     ],
-    "categories": []
+    "categories": ["religious", "brutalism"]
   },
   {
     "answer": "La Muralla Roja / Ricardo Bofill / Calpe, Spain",
@@ -6336,5 +6336,22 @@
       "https://en.wikipedia.org/wiki/San_Francisco_Museum_of_Modern_Art"
     ],
     "categories": ["museum"]
+  },
+  {
+    "answer": "Church on the Water (Chapel on the Water 水の教会) / Tadao Ando / Tomamu, Shimukappu, Hokkaidō, Japan",
+    "days": [493],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Architect",
+        "2": "Photocon Japan (wikimedia)",
+        "3": "ume-y (wikimedia)",
+        "4": "準建築人手札網站 Forgemind ArchiMedia",
+        "5": "ume-y (wikimedia)",
+        "6": "Courtesy of the Architect"
+      }
+    ],
+    "years": "1988",
+    "links": ["https://en.wikipedia.org/wiki/Church_on_the_Water"],
+    "categories": ["religious", "modernism"]
   }
 ]
