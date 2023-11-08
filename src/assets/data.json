@@ -6353,5 +6353,25 @@
     "years": "1988",
     "links": ["https://en.wikipedia.org/wiki/Church_on_the_Water"],
     "categories": ["religious", "modernism"]
+  },
+  {
+    "answer": "America’s Cup Building (Veles e Vents - Sails and Winds, Foredeck Building) / David Chipperfield, B720 Arquitectos / Valencia, Spain",
+    "days": [496],
+    "copyrights": [
+      {
+        "1": "Richard Walch",
+        "2": "Duccio Malagamba",
+        "3": "Courtesy of the Architect",
+        "4": "Christian Richters",
+        "5": "Carlos Lujan",
+        "6": "Christian Richters"
+      }
+    ],
+    "years": "2005-2006",
+    "links": [
+      "https://en.wikipedia.org/wiki/America%27s_Cup_Building",
+      "https://davidchipperfield.com/projects/americas-cup-building-veles-e-vents"
+    ],
+    "categories": []
   }
 ]
