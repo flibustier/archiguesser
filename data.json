@@ -2240,7 +2240,7 @@
   },
   {
     "answer": "Aqua Tower / Studio Gang Firm, Jeanne Gang / Lakeshore East, Chicago, Illinois, United States of America (USA)",
-    "days": [146],
+    "days": [146, 497],
     "copyrights": [
       {
         "3": "",
@@ -2248,11 +2248,12 @@
         "*": "Steve Hall © Hedrich Blessing"
       }
     ],
+    "years": "2007-2009",
     "links": [
       "https://en.wikipedia.org/wiki/Aqua_Tower",
       "https://en.wikiarquitectura.com/building/Aqua-Tower/"
     ],
-    "categories": []
+    "categories": ["skyscraper"]
   },
   {
     "answer": "Musée d'Orsay (Orsay Museum) / Victor Laloux, ACT, Gae Aulenti / Paris, France",
