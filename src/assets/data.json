@@ -677,7 +677,7 @@
   },
   {
     "answer": "Sheikh Lotfollah Mosque / Mohammad Reza ibn Ustad Husayn Banna Isfahani / Isfahan, Iran",
-    "days": [39],
+    "days": [39, 498],
     "copyrights": [
       {
         "1": "Phillip Maiwald",
@@ -688,6 +688,7 @@
         "6": "Bernard Gagnon"
       }
     ],
+    "years": "1603-1619",
     "links": ["https://en.wikipedia.org/wiki/Sheikh_Lotfollah_Mosque"],
     "categories": ["monument", "religious"]
   },
