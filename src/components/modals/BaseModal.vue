@@ -88,7 +88,7 @@ const closeModal = () => {
 
 .modal-footer {
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1rem;
   display: flex;
   justify-content: space-between;

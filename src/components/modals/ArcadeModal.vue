@@ -42,7 +42,7 @@ const maxLevel = (category: string) =>
             Select a theme, you will have a series of random projects to guess
             with only one image per project, so no error is allowed!
           </p>
-          <p>
+          <p class="text-with-icons">
             If you succeed, you will win a trophy and level up! <IconTrophy />
           </p>
         </div>

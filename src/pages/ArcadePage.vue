@@ -123,14 +123,14 @@ const openLinks = () => {
       </p>
     </header>
     <button
-      class="btn-white icon-btn center"
+      class="btn-secondary btn-with-icon center"
       @click="goHome()"
       v-if="isLogged()"
     >
       <span>Back to daily challenge</span>
       <IconRetry />
     </button>
-    <button class="primary-btn" @click="$emit('showLogInModal')" v-else>
+    <button class="btn-primary" @click="$emit('showLogInModal')" v-else>
       <span>Sign Up/Sign In</span>
     </button>
   </main>
@@ -185,20 +185,20 @@ const openLinks = () => {
       <div class="buttons">
         <button
           v-if="hasWon && !hasReachMaxLevel"
-          class="primary-btn"
+          class="btn-primary"
           @click="refresh()"
         >
           <span>Next Level!</span>
           <IconTrophy style="fill: white" />
         </button>
-        <button v-else-if="!hasWon" class="primary-btn" @click="refresh()">
+        <button v-else-if="!hasWon" class="btn-primary" @click="refresh()">
           <span>Retry</span>
           <IconRetry style="fill: white" />
         </button>
         <div class="separator" v-if="!hasReachMaxLevel"></div>
-        <div class="btns-group">
+        <div class="btn-group">
           <button
-            class="btn-white icon-btn"
+            class="btn-secondary btn-with-icon"
             @click="openLinks()"
             v-if="!hasWon && currentProject.links.length > 0"
           >
@@ -207,17 +207,20 @@ const openLinks = () => {
           </button>
           <button
             v-if="hasWon"
-            class="btn-white icon-btn"
+            class="btn-secondary btn-with-icon"
             @click="$emit('showScoreModal')"
           >
             <span>Check your score</span>
             <IconScore />
           </button>
-          <button class="btn-white icon-btn" @click="$emit('showArcadeModal')">
+          <button
+            class="btn-secondary btn-with-icon"
+            @click="$emit('showArcadeModal')"
+          >
             <span>Try another challenge</span>
             <IconTrophy />
           </button>
-          <button class="btn-white icon-btn" @click="goHome()">
+          <button class="btn-secondary btn-with-icon" @click="goHome()">
             <span>Back to daily challenge</span>
             <IconRetry />
           </button>
@@ -240,10 +243,6 @@ main.expended {
 
 header {
   text-align: center;
-}
-
-b {
-  font-weight: 600;
 }
 
 .progress {
@@ -274,31 +273,6 @@ b {
 .separator {
   background-color: var(--color-border);
   width: 1px;
-}
-
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-button svg {
-  margin-left: 0.5rem;
-  vertical-align: text-top;
-}
-
-.primary-btn {
-  align-self: center;
-  font-size: 0.875rem;
-  line-height: 1.75rem;
-  color: var(--color-primary-inverted);
-  background-color: var(--color-primary);
-}
-
-.icon-btn {
-  justify-content: space-between;
 }
 
 .center {

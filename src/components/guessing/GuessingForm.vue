@@ -104,13 +104,14 @@ const navigate = (direction: "up" | "down") => {
           <IconBackspace />
         </span>
       </div>
-      <input
-        class="submit-btn"
+      <button
+        class="btn-primary btn-submit"
         type="submit"
-        :value="searchTerms === '' ? 'SKIP' : 'SUBMIT'"
-        @mousedown="submitGuess"
+        @click="submitGuess"
         :disabled="!isSelectionDone"
-      />
+      >
+        {{ searchTerms === "" ? "Skip" : "Submit" }}
+      </button>
     </div>
   </div>
 </template>
@@ -120,6 +121,7 @@ const navigate = (direction: "up" | "down") => {
 .search-input {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  font-family: inherit;
 }
 .suggestions {
   position: absolute;
@@ -207,24 +209,11 @@ const navigate = (direction: "up" | "down") => {
   box-shadow: 0px 0px 3px 0px var(--color-border);
 }
 
-.submit-btn {
-  border-radius: var(--border-radius);
+.btn-submit {
   width: 15%;
   height: 100%;
-  padding: 0.05rem 0.5rem;
-  font-size: 0.875rem;
   line-height: 1.75rem;
-  cursor: pointer;
-  color: var(--color-primary-inverted);
-  background-color: var(--color-primary);
-  text-align: center;
-  opacity: 100%;
-}
-
-.submit-btn:disabled {
-  cursor: not-allowed;
-  opacity: 60%;
-  transition: opacity 0.4s;
+  padding: 0.05rem 0.5rem;
 }
 
 @media screen and (max-width: 456px) {
@@ -236,7 +225,7 @@ const navigate = (direction: "up" | "down") => {
     width: 100%;
   }
 
-  .submit-btn {
+  .btn-submit {
     width: 100%;
   }
 }

@@ -45,7 +45,7 @@ const closeModal = () => emit("update:isVisible", false);
           <h3>You’re ranked <b>1th</b></h3>
         </div>
 
-        <a class="details" @click="showDetails = true">
+        <a class="details text-with-icons" @click="showDetails = !showDetails">
           <IconHelp /> <span> How are points counted ?</span></a
         >
 
@@ -75,15 +75,5 @@ const closeModal = () => emit("update:isVisible", false);
   display: flex;
   flex-direction: column;
   gap: 1rem;
-}
-
-a > svg {
-  vertical-align: text-top;
-  filter: invert(48%) sepia(73%) saturate(406%) hue-rotate(342deg)
-    brightness(97%) contrast(83%);
-}
-
-b {
-  font-weight: 500;
 }
 </style>

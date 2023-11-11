@@ -37,7 +37,7 @@ const logout = () => {
         <input v-model="email" type="text" id="email" disabled />
       </div>
 
-      <button class="white-btn" @click="logout()">Logout</button>
+      <button class="btn-secondary" @click="logout()">Logout</button>
     </template>
   </BaseModal>
 </template>
@@ -70,14 +70,7 @@ input {
   background-color: var(--color-background);
 }
 
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-}
-
-.white-btn {
-  border: 1px solid var(--color-border);
-  background-color: var(--color-background);
+.btn-secondary {
   align-self: center;
 }
 </style>

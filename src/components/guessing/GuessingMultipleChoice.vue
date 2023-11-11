@@ -48,13 +48,12 @@ const select = (choice: string, choseIdx: number) => {
 </script>
 
 <template>
-  <div class="btns-group">
+  <div class="btn-group">
     <button
       v-for="(choice, i) in choices"
       :key="i"
+      class="btn-secondary btn-chose"
       :class="{
-        'btn-white': true,
-        'btn-chose': true,
         'btn-chose-wrong': choseIndex === i && !hasChosenRight,
         'btn-chose-success': choseIndex === i && hasChosenRight,
       }"
@@ -66,11 +65,6 @@ const select = (choice: string, choseIdx: number) => {
 </template>
 
 <style scoped>
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-}
-
 .btn-chose {
   transition: background-color 0.3s ease-out;
 }
