@@ -18,7 +18,7 @@ defineEmits([
   <header>
     <div class="nav-bar">
       <div class="nav-block nav-left">
-        <a href="/" id="brand">ARCHIGUESSER</a>
+        <a href="/" id="brand">ArchiGuesser</a>
       </div>
       <div class="nav-block nav-right">
         <a @click="$emit('showBackModal')">
@@ -71,13 +71,10 @@ header {
   padding: 0 0.5rem;
   color: inherit;
   text-decoration: none;
-  text-transform: uppercase;
   transition: border 0.4s;
 }
 
 .nav-bar a:hover {
-  transition: filter 0.3s;
-
   filter: invert(48%) sepia(73%) saturate(406%) hue-rotate(342deg)
     brightness(97%) contrast(83%);
 }
@@ -87,7 +84,7 @@ header {
 }
 
 #brand {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 

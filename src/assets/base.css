@@ -1,8 +1,13 @@
+@font-face {
+  font-family: "F";
+  src: url("fonts/FuturaTLR.ttf");
+}
+
 :root {
   --color-background: #ffffff;
   --color-light-background: hsl(0, 0%, 90%);
-  --color-border: #181818;
-  --color-text: #2c3e50;
+  --color-border: hsla(0, 0%, 9%, 0.3);
+  --color-text: hsla(210, 29%, 24%, 1);
   --color-primary: #000000;
   --color-primary-inverted: #ffffff;
   --color-highlight: #e0eae0;
@@ -25,41 +30,89 @@ body {
   min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
-  transition: color 0.5s, background-color 0.5s;
-  line-height: 1.6;
-  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:
+    "F",
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 1rem;
 }
 
 button {
-  text-transform: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--border-radius);
   cursor: pointer;
-  font-family: inherit;
+
   font-size: 100%;
+  font-family: inherit;
   line-height: inherit;
-  padding: 0;
+  text-transform: none;
   color: var(--color-text);
 }
 
-.btn-white {
-  border: 1px solid;
+button svg {
+  margin-left: var(--gap);
+}
+
+.btn-primary {
+  align-self: center;
+  color: var(--color-primary-inverted);
+  background-color: var(--color-primary);
+}
+
+.btn-primary:disabled {
+  cursor: not-allowed;
+  opacity: 60%;
+  transition: opacity 0.4s;
+}
+
+.btn-secondary {
+  border: 1px solid var(--color-border);
   background-color: var(--background-color);
 }
 
-.btns-group {
+.btn-with-icon {
+  justify-content: space-between;
+}
+
+button:hover {
+  box-shadow: 0 0 4px var(--color-border);
+  transition: box-shadow 0.3s;
+}
+
+.btn-group {
   display: flex;
   flex-direction: column;
   gap: var(--gap);
+}
+
+b {
+  font-weight: 600;
 }
 
 a {
   cursor: pointer;
   text-decoration: underline;
   color: var(--color-primary);
+}
+
+a svg {
+  transition: filter 0.3s;
+  /* #405060 => hsla(0,0,0,0.9) on white */
+  filter: invert(31%) sepia(8%) saturate(1325%) hue-rotate(169deg)
+    brightness(90%) contrast(92%);
 }
 
 a:hover {
@@ -91,7 +144,7 @@ h3 {
 }
 
 .red {
-  background-color: #E16A51;
+  background-color: #e16a51;
 }
 
 .green {
@@ -100,4 +153,11 @@ h3 {
 
 .black {
   background-color: black;
+}
+
+.text-with-icons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 0.5rem;
 }

@@ -22,7 +22,8 @@ const updatePictureShown = (value: number) =>
     <button
       v-for="i in currentRound"
       :key="i"
-      :class="{ 'number-btn': true, 'is-active': i === pictureShown }"
+      class="btn-number"
+      :class="{ 'btn-primary': i === pictureShown }"
       @mousedown="updatePictureShown(i)"
     >
       {{ i }}
@@ -36,18 +37,10 @@ const updatePictureShown = (value: number) =>
   justify-content: center;
   align-items: center;
   margin: 1rem 0;
-  gap: 0.5rem;
+  gap: var(--gap);
 }
 
-.paginator .number-btn {
-  font-size: 1rem;
-  line-height: 1rem;
+.btn-number {
   padding: 0.5rem;
-  border-radius: var(--border-radius);
-}
-
-.paginator .is-active {
-  background-color: var(--color-primary);
-  color: var(--color-primary-inverted);
 }
 </style>

@@ -115,9 +115,9 @@ onMounted(async () => {
     </div>
     <div id="share-message" v-html="resultSquares" />
     <div class="guesses-display">
-      <button class="show-guesses-btn" @click="toggleGuesses">
+      <a class="show-guesses" @click="toggleGuesses">
         {{ showGuesses ? "Hide" : "Show" }} Guesses
-      </button>
+      </a>
       <div v-if="showGuesses" class="history">
         <div v-for="(guess, i) of guesses" :key="guess" class="history-row">
           <span class="history-icon">
@@ -129,23 +129,32 @@ onMounted(async () => {
       </div>
     </div>
     <div class="buttons">
-      <button class="share-btn" @click="copy">
-        <span>{{ shareBtnContent }}</span>
+      <button class="btn-primary" @click="copy">
+        {{ shareBtnContent }}
         <IconCopy style="fill: white" />
       </button>
       <div class="separator"></div>
-      <div class="right-buttons">
-        <button class="white-btn" @click="openLinks" v-if="links.length > 0">
+      <div class="btn-group">
+        <button
+          class="btn-secondary btn-with-icon"
+          @click="openLinks"
+          v-if="links.length > 0"
+        >
           <span>Learn more about it</span>
           <IconWiki />
         </button>
-        <button class="white-btn" @click="$emit('showBackModal')">
-          <span>Try another one!</span>
+        <button
+          class="btn-secondary btn-with-icon"
+          @click="$emit('showBackModal')"
+        >
+          <span>Try another one</span>
           <IconBack />
         </button>
       </div>
     </div>
-    <p v-if="description" class="description">« {{ description }} »</p>
+    <p v-if="description" class="description">
+      « {{ description }} » <a @click="openLinks">Show more…</a>
+    </p>
     <div>Next challenge <b class="emphasis">tomorrow</b>! 🕛</div>
     <p class="sponsor" v-if="false">
       ❤️ {{ APP_NAME }}?
@@ -186,42 +195,14 @@ onMounted(async () => {
   width: 1px;
 }
 
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-}
-
-button svg {
-  margin-left: 0.25rem;
-  vertical-align: text-top;
-}
-
-.right-buttons,
 .guesses-display {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.share-btn {
-  font-size: 1.1rem;
-  align-self: center;
-
-  color: var(--color-primary-inverted);
-  background-color: var(--color-primary);
-}
-
-.white-btn {
-  border: 1px solid;
-  background-color: var(--background-color);
-}
-
-.show-guesses-btn {
-  text-decoration-line: underline;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  background-color: transparent;
-  background-image: none;
+.show-guesses {
+  text-align: center;
 }
 
 .history {
@@ -246,7 +227,7 @@ button svg {
 }
 
 .sponsor {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   line-height: 1rem;
   margin-top: 0.5rem;
 }

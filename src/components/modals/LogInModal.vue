@@ -67,7 +67,7 @@ const submit = async () => {
     <template #default>
       <div class="created-info" v-if="isAccountCreated">
         <p>Your account has been created!</p>
-        <button class="primary-btn" @click="closeAndRefresh">Got it!</button>
+        <button class="btn-primary" @click="closeAndRefresh">Got it!</button>
       </div>
       <div v-else>
         <p>
@@ -100,7 +100,7 @@ const submit = async () => {
           <p class="error-message" v-if="error">{{ error }}</p>
 
           <button
-            class="primary-btn"
+            class="btn-primary"
             :disabled="!isEmailValid || !isPasswordValid || isLoading"
           >
             {{ isLoading ? "Please Wait…" : "Sign In/Sign Up" }}
@@ -114,10 +114,6 @@ const submit = async () => {
 <style scoped>
 p {
   text-align: center;
-}
-
-b {
-  font-weight: 600;
 }
 
 .error-message {
@@ -158,29 +154,6 @@ input {
 input:focus-visible {
   outline: 0px solid transparent;
   box-shadow: 0px 0px 3px 0px var(--color-border);
-}
-
-.primary-btn {
-  margin-top: 0.5rem;
-  padding: 0.05rem 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.75rem;
-}
-
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  border-radius: var(--border-radius);
-  color: var(--color-primary-inverted);
-  background-color: var(--color-primary);
-}
-
-.primary-btn:disabled {
-  cursor: not-allowed;
-  opacity: 60%;
-  transition: opacity 0.4s;
 }
 
 @media screen and (max-width: 456px) {
