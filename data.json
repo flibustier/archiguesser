@@ -6375,5 +6375,21 @@
       "https://davidchipperfield.com/projects/americas-cup-building-veles-e-vents"
     ],
     "categories": []
+  },
+  {
+    "answer": "Jinhua Architecture Park / Ai Weiwei, HHF Architects, Herzog & de Meuron, Michael Maltzan, Fernando Romero, Tatiana Bilbao / Jinhua, Zhejiang, China",
+    "days": [499],
+    "copyrights": [
+      {
+        "*": "MNXANL (wikimedia)",
+        "1": "Courtesy of the Architect",
+        "2": "Courtesy of the Architect",
+        "3": "Evan Chakroff",
+        "6": "Evan Chakroff"
+      }
+    ],
+    "years": "2002",
+    "links": ["https://en.wikipedia.org/wiki/Jinhua_Architecture_Park"],
+    "categories": ["pavilion"]
   }
 ]
