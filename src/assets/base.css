@@ -1,7 +1,7 @@
 :root {
   --color-background: #ffffff;
   --color-light-background: hsl(0, 0%, 90%);
-  --color-border: #181818;
+  --color-border: hsla(0, 0%, 9%, 0.5);
   --color-text: #2c3e50;
   --color-primary: #000000;
   --color-primary-inverted: #ffffff;
