@@ -6391,5 +6391,22 @@
     "years": "2002",
     "links": ["https://en.wikipedia.org/wiki/Jinhua_Architecture_Park"],
     "categories": ["pavilion"]
+  },
+  {
+    "answer": "Statue of Liberty (La Liberté éclairant le monde, Liberty Enlightening the World) / Frédéric Auguste Bartholdi, Eugène Viollet-le-Duc, Gustave Eiffel / Liberty Island, New York, United States of America (USA)",
+    "days": [500],
+    "copyrights": [
+      {
+        "1": "Daniel Schwen (wikimedia)",
+        "2": "Unknown (wikimedia)",
+        "3": "Courtesy of the Architect",
+        "4": "Unknown (wikimedia)",
+        "5": "Daniel Schwen (wikimedia)",
+        "6": "Eldar Kamalov (wikimedia)"
+      }
+    ],
+    "years": "1886",
+    "links": ["https://en.wikipedia.org/wiki/Statue_of_Liberty"],
+    "categories": ["monument", "famous"]
   }
 ]
