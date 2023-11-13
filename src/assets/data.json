@@ -885,8 +885,8 @@
     "categories": ["monument"]
   },
   {
-    "answer": "La Bourse de Commerce / Tadao Ando, NeM Architectes, Pierre-Antoine Gatier / Paris, France",
-    "days": [52],
+    "answer": "La Bourse de Commerce / Tadao Ando, NeM Architectes, Pierre-Antoine Gatier, François-Joseph Bélanger / Paris, France",
+    "days": [52, 502],
     "copyrights": [
       {
         "1": "Marc Domage",
@@ -895,10 +895,19 @@
         "4": "Tourneboeuf",
         "5": "Maxime Tétard",
         "6": "Marc Domage"
+      },
+      {
+        "1": "Marc Domage",
+        "2": "Tourneboeuf",
+        "3": "Tourneboeuf",
+        "4": "Louis Nicolas de Lespinasse (1789)",
+        "5": "Maxime Tétard",
+        "6": "Marc Domage"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1763–1767,1889,2020",
+    "links": ["https://en.wikipedia.org/wiki/Bourse_de_commerce_(Paris)"],
+    "categories": ["refurbishment"]
   },
   {
     "answer": "Kunsthaus Bregenz / Peter Zumthor / Bregenz, Vorarlberg, Austria",
@@ -2089,7 +2098,7 @@
   },
   {
     "answer": "VitraHaus / Jacques Herzog, Herzog & de Meuron, Pierre De Meuron / Weil am Rhein, Germany",
-    "days": [136],
+    "days": [136, 501],
     "copyrights": [
       {
         "4": "Taxiarchos228 (wikimedia)",
@@ -2097,8 +2106,11 @@
       }
     ],
     "years": "2007-2010",
-    "links": ["https://en.wikiarquitectura.com/building/VitraHaus/"],
-    "categories": []
+    "links": [
+      "https://de.wikipedia.org/wiki/Vitra-Haus",
+      "https://en.wikiarquitectura.com/building/VitraHaus/"
+    ],
+    "categories": ["shopping"]
   },
   {
     "answer": "Glasgow School of Art and Library / Charles Rennie Mackintosh, Steven Holl / Glasgow, Scotland, United Kingdom (UK)",
