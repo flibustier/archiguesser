@@ -6420,5 +6420,22 @@
     "years": "1886",
     "links": ["https://en.wikipedia.org/wiki/Statue_of_Liberty"],
     "categories": ["monument", "famous"]
+  },
+  {
+    "answer": "Westminster Abbey (The Collegiate Church of Saint Peter at Westminster) / Westminster, London, United Kingdom (UK)",
+    "days": [503],
+    "copyrights": [
+      {
+        "1": "ChrisVTG Photography (wikimedia)",
+        "2": "Robinson, Joseph Armitage, 1858-1933 (wikimedia)",
+        "3": "JRennocks (wikimedia)",
+        "4": "Stephen Richards (wikimedia)",
+        "5": "Tilman2007 (wikimedia)",
+        "6": "Canaletto, 1749 (wikimedia)"
+      }
+    ],
+    "years": "960~1269",
+    "links": ["https://en.wikipedia.org/wiki/Westminster_Abbey"],
+    "categories": ["religious", "monument"]
   }
 ]
