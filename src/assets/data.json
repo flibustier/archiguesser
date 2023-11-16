@@ -6437,5 +6437,17 @@
     "years": "960~1269",
     "links": ["https://en.wikipedia.org/wiki/Westminster_Abbey"],
     "categories": ["religious", "monument"]
+  },
+  {
+    "answer": "Yokohama International Passenger Maritime Terminal (Ōsanbashi Pier) / Foreign Office Architects (FOA), Farshid Moussavi, Alejandro Zaera Polo / Yokohama, Japan",
+    "days": [504],
+    "copyrights": [
+      {
+        "*": "Satoru Mishima"
+      }
+    ],
+    "years": "2002",
+    "links": ["https://en.wikipedia.org/wiki/%C5%8Csanbashi_Pier"],
+    "categories": ["infrastructure"]
   }
 ]
