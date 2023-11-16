@@ -6386,7 +6386,7 @@
       "https://en.wikipedia.org/wiki/America%27s_Cup_Building",
       "https://davidchipperfield.com/projects/americas-cup-building-veles-e-vents"
     ],
-    "categories": []
+    "categories": ["contemporary"]
   },
   {
     "answer": "Jinhua Architecture Park / Ai Weiwei, HHF Architects, Herzog & de Meuron, Michael Maltzan, Fernando Romero, Tatiana Bilbao / Jinhua, Zhejiang, China",
@@ -6449,5 +6449,21 @@
     "years": "2002",
     "links": ["https://en.wikipedia.org/wiki/%C5%8Csanbashi_Pier"],
     "categories": ["infrastructure"]
+  },
+  {
+    "answer": "Bahrain World Trade Center (BWTC) / W. S. Atkins & Partners / Manama, Bahrain",
+    "days": [505],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Owner",
+        "1": "Courtesy of the Architect",
+        "3": "wikiarquitectura",
+        "5": "B.alotaby (wikimedia)",
+        "6": "GN-z11 (wikimedia)"
+      }
+    ],
+    "years": "2008",
+    "links": ["https://en.wikipedia.org/wiki/Bahrain_World_Trade_Center"],
+    "categories": ["skyscraper"]
   }
 ]
