@@ -1493,8 +1493,8 @@
     "categories": ["housing"]
   },
   {
-    "answer": "Batllo House / Antoni Gaudí / Barcelona, Spain",
-    "days": [92],
+    "answer": "Casa Batlló (Batllo House, Casa dels ossos, House of Bones) / Antoni Gaudí / Barcelona, Spain",
+    "days": [92, 506],
     "copyrights": [
       {
         "1": "tato grasso",
@@ -1507,7 +1507,7 @@
     ],
     "years": "1904-1906",
     "links": ["https://en.wikiarquitectura.com/building/Batllo-House/"],
-    "categories": []
+    "categories": ["Catalan art nouveau"]
   },
   {
     "answer": "Museo Jumex / David Chipperfield / Mexico City, Mexico",
