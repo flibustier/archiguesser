@@ -6465,5 +6465,20 @@
     "years": "2008",
     "links": ["https://en.wikipedia.org/wiki/Bahrain_World_Trade_Center"],
     "categories": ["skyscraper"]
+  },
+  {
+    "answer": "Seattle Central Public Library / OMA/LMN, Rem Koolhaas, Joshua Prince-Ramus / Seattle, Washington, United States of America (USA)",
+    "days": [507],
+    "copyrights": [
+      {
+        "*": "Ɱ (wikimedia)",
+        "3": "wikiarquitectura",
+        "5": "DVD R W (wikimedia)",
+        "6": "wikiarquitectura"
+      }
+    ],
+    "years": "2002-2004",
+    "links": ["https://en.wikipedia.org/wiki/Seattle_Central_Library"],
+    "categories": ["library", "contemporary"]
   }
 ]
