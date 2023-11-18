@@ -1462,17 +1462,18 @@
   },
   {
     "answer": "Roman Pantheon / Apollodorus of Damasco / Rome, Italy",
-    "days": [90],
+    "days": [90, 508],
     "copyrights": [
       {
         "1": "Szilas",
         "2": "Michael Johnson",
         "3": "Michael Vadon",
-        "4": "Jean-Christophe BENOIST",
+        "4": "Jean-Christophe BENOIST (wikimedia)",
         "5": "Architas",
-        "6": "Bkmd"
+        "6": "Francesco Piranesi (wikimedia)"
       }
     ],
+    "years": "~125",
     "links": ["https://en.wikipedia.org/wiki/Roman_Pantheon"],
     "categories": ["famous", "monument", "roman"]
   },
