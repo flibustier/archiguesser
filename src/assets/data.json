@@ -6481,5 +6481,19 @@
     "years": "2002-2004",
     "links": ["https://en.wikipedia.org/wiki/Seattle_Central_Library"],
     "categories": ["library", "contemporary"]
+  },
+  {
+    "answer": "Cube Orange (The Orange Cube) / Jakob + Macfarlane Architects / Quai Rambaud, Lyon, France",
+    "days": [509],
+    "copyrights": [
+      {
+        "*": "Roland Halbe",
+        "1": "Nicolas Borel",
+        "2": "Nicolas Borel"
+      }
+    ],
+    "years": "2005-2011",
+    "links": ["http://www.jakobmacfarlane.com/en/project/orange-cube/"],
+    "categories": ["contemporary"]
   }
 ]
