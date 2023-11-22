@@ -1708,8 +1708,8 @@
     "categories": []
   },
   {
-    "answer": "Port House / Zaha Hadid Architects / Antwerp, Belgium",
-    "days": [108],
+    "answer": "Port Authority Building (Havenhuis, Port House) / Zaha Hadid Architects / Antwerp, Belgium",
+    "days": [108, 510],
     "copyrights": [
       {
         "1": "Tim Fisher",
@@ -1720,8 +1720,11 @@
         "6": "Helene Binet"
       }
     ],
-    "links": ["https://en.wikipedia.org/wiki/Port_House"],
-    "categories": []
+    "years": "2012-2016",
+    "links": [
+      "https://en.wikipedia.org/wiki/Port_Authority_Building_(Antwerp)"
+    ],
+    "categories": ["contemporary"]
   },
   {
     "answer": "Modern Art Museum of Fort Worth / Tadao Ando Architect & Associates / Fort Worth, United States of America (USA)",
