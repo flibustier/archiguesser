@@ -6498,5 +6498,22 @@
     "years": "2005-2011",
     "links": ["http://www.jakobmacfarlane.com/en/project/orange-cube/"],
     "categories": ["contemporary"]
+  },
+  {
+    "answer": "Cologne Cathedral (Kölner Dom, Hohe Domkirche Sankt Petrus, Cathedral Church of Saint Peter) / Cologne, Germany",
+    "days": [511],
+    "copyrights": [
+      {
+        "1": "Yoceto (wikimedia)",
+        "2": "Wow2010 (wikimedia)",
+        "3": "Mkill (wikimedia)",
+        "4": "Johannes Franciscus Michiels (wikimedia)",
+        "5": "Velvet (wikimedia)",
+        "6": "Neuwieser (wikimedia)"
+      }
+    ],
+    "years": "1248-1880",
+    "links": ["https://en.wikipedia.org/wiki/Cologne_Cathedral"],
+    "categories": ["religious", "monument"]
   }
 ]
