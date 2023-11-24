@@ -1860,8 +1860,8 @@
     "categories": ["library"]
   },
   {
-    "answer": "Boa Nova Tea House / Álvaro Siza Vieira / Leça da Palmeira, Matosinhos, Portugal",
-    "days": [119],
+    "answer": "Boa Nova Tea House (Casa de Chá da Boa Nova) / Álvaro Siza Vieira / Leça da Palmeira, Matosinhos, Portugal",
+    "days": [119, 512],
     "copyrights": [
       {
         "3": "maurizio.mwg (Flickr)",
@@ -1869,7 +1869,7 @@
         "*": "Samuel Ludwig"
       }
     ],
-    "years": "1959- 1963",
+    "years": "1959-1963",
     "links": ["https://en.wikiarquitectura.com/building/Boa-Nova-Tea-House/"],
     "categories": []
   },
