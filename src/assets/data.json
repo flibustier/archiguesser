@@ -2895,8 +2895,8 @@
     "categories": []
   },
   {
-    "answer": "Scottish Parliament / Enric Miralles / Holyrood, Edinburgh, Scotland, United Kingdom (UK)",
-    "days": [188],
+    "answer": "Scottish Parliament (Scots Pairlament Biggin) / Enric Miralles / Holyrood, Edinburgh, Scotland, United Kingdom (UK)",
+    "days": [188, 513],
     "copyrights": [
       {
         "4": "Colin (wikimedia)",
@@ -2904,11 +2904,12 @@
         "*": "Courtesy of the Corporate Body"
       }
     ],
+    "years": "1999-2004",
     "links": [
-      "https://en.wikipedia.org/wiki/Scottish_Parliament",
+      "https://en.wikipedia.org/wiki/Scottish_Parliament_Building",
       "https://en.wikiarquitectura.com/building/Scottish-Parliament/"
     ],
-    "categories": []
+    "categories": ["postmodern", "favorites"]
   },
   {
     "answer": "Viipuri Library / Alvar Aalto / City Park, Vyborg (Viipuri), Russia",
