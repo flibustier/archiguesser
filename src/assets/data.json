@@ -6516,5 +6516,21 @@
     "years": "1248-1880",
     "links": ["https://en.wikipedia.org/wiki/Cologne_Cathedral"],
     "categories": ["religious", "monument"]
+  },
+  {
+    "answer": "One Central Park / Ateliers Jean Nouvel, PTW Architects, Foster + Partners / Chippendale, Sydney, Australia",
+    "days": [515],
+    "copyrights": [
+      {
+        "*": "Roland Halbe",
+        "2": "Murray Fredericks",
+        "4": "MDRX (wikimedia)",
+        "5": "Sardaka (wikimedia)",
+        "6": "Murray Fredericks"
+      }
+    ],
+    "years": "2008-2014",
+    "links": ["https://en.wikipedia.org/wiki/One_Central_Park"],
+    "categories": ["contemporary"]
   }
 ]
