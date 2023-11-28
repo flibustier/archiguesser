@@ -1534,7 +1534,7 @@
   },
   {
     "answer": "The Alhambra / Granada, Andalusia, Spain",
-    "days": [95],
+    "days": [95, 516],
     "copyrights": [
       {
         "1": "Juan Laurent",
@@ -1545,6 +1545,7 @@
         "6": "Jebulon"
       }
     ],
+    "years": "1238",
     "links": [
       "https://en.wikipedia.org/wiki/The_Alhambra",
       "https://en.wikiarquitectura.com/building/The-Alhambra/"
