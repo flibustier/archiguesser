@@ -1593,8 +1593,8 @@
     "categories": ["museum", "brutalism", "modernism"]
   },
   {
-    "answer": "House in Bordeaux / Rem Koolhaas, OMA / Bordeaux, France",
-    "days": [99],
+    "answer": "Maison à Bordeaux (House in Bordeaux) / Rem Koolhaas, OMA / Bordeaux, France",
+    "days": [99, 517],
     "copyrights": [
       {
         "1": "Courtesy of the Architect",
@@ -1603,7 +1603,10 @@
       }
     ],
     "years": "1996-1998",
-    "links": ["https://en.wikiarquitectura.com/building/House-in-Bordeaux/"],
+    "links": [
+      "https://www.oma.com/projects/maison-a-bordeaux",
+      "https://en.wikiarquitectura.com/building/House-in-Bordeaux/"
+    ],
     "categories": []
   },
   {
