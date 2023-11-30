@@ -1934,7 +1934,7 @@
   },
   {
     "answer": "Under / Snøhetta / Lindesnes, Norway",
-    "days": [124],
+    "days": [124, 518],
     "copyrights": [
       {
         "2": "Inger Marie Grini/ Bo Bedre Norge",
@@ -1942,8 +1942,9 @@
         "*": "Ivar Kvaal"
       }
     ],
-    "links": ["https://en.wikipedia.org/wiki/Under"],
-    "categories": []
+    "years": "2019",
+    "links": ["https://en.wikipedia.org/wiki/Under_(restaurant)"],
+    "categories": ["favorites"]
   },
   {
     "answer": "Fredericks-White House / Glenn Murcutt / Jamberoo, New South Wales, Australia",
