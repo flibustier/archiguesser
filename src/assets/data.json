@@ -931,7 +931,7 @@
   },
   {
     "answer": "Neuschwanstein Castle / Eduard Riedel / Hohenschwangau, Germany",
-    "days": [54],
+    "days": [54, 521],
     "copyrights": [
       {
         "1": "Kienberged GmbH",
@@ -942,6 +942,7 @@
         "6": "Naumenko Aleksandr"
       }
     ],
+    "years": "1869-1886",
     "links": ["https://en.wikipedia.org/wiki/Neuschwanstein_Castle"],
     "categories": ["monument", "castle"]
   },
