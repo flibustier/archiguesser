@@ -6537,5 +6537,22 @@
     "years": "2008-2014",
     "links": ["https://en.wikipedia.org/wiki/One_Central_Park"],
     "categories": ["contemporary"]
+  },
+  {
+    "answer": "Chicago Water Tower / William Warren Boyington / Chicago, Illinois, United States of America (USA)",
+    "days": [520],
+    "copyrights": [
+      {
+        "1": "Daniela Hernandez (wikimedia)",
+        "2": "Nanamac47 (wikimedia)",
+        "3": "Yinan Chen (wikimedia)",
+        "4": "bradleypjohnson (wikimedia)",
+        "5": "Chris Rycroft (wikimedia)",
+        "6": "Rwittebort (wikimedia)"
+      }
+    ],
+    "years": "1869",
+    "links": ["https://en.wikipedia.org/wiki/Chicago_Water_Tower"],
+    "categories": ["neo-gothic"]
   }
 ]
