@@ -6555,5 +6555,18 @@
     "years": "1869",
     "links": ["https://en.wikipedia.org/wiki/Chicago_Water_Tower"],
     "categories": ["neo-gothic"]
+  },
+  {
+    "answer": "Mountain Dwellings (Bjerget) / PLOT, Bjarke Ingels Group (BIG), JDS Architects / Ørestad, Copenhagen, Denmark",
+    "days": [522],
+    "copyrights": [
+      {
+        "*": "Maria Gonzalez",
+        "5": "Orf3us (wikimedia)"
+      }
+    ],
+    "years": "2008",
+    "links": ["https://en.wikipedia.org/wiki/Mountain_Dwellings"],
+    "categories": ["housing"]
   }
 ]
