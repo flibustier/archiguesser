@@ -2666,13 +2666,13 @@
   },
   {
     "answer": "(The) Shard London Bridge / Renzo Piano / London, United Kingdom (UK)",
-    "days": [173],
+    "days": [173, 523],
     "copyrights": [
       {
+        "*": "Michel Denancé",
         "2": "@hutongshard (instagram)",
         "3": "Rob Telford",
-        "4": "Courtesy of the Architect",
-        "*": "Michel Denancé"
+        "4": "Courtesy of the Architect"
       }
     ],
     "years": "2009-2012",
@@ -2680,7 +2680,7 @@
       "https://en.wikipedia.org/wiki/Shard_London_Bridge",
       "https://en.wikiarquitectura.com/building/Shard-London-Bridge/"
     ],
-    "categories": []
+    "categories": ["skyscraper"]
   },
   {
     "answer": "Nemausus Housing / Jean Nouvel / Nimes, France",
