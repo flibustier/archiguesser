@@ -6568,5 +6568,21 @@
     "years": "2008",
     "links": ["https://en.wikipedia.org/wiki/Mountain_Dwellings"],
     "categories": ["housing"]
+  },
+  {
+    "answer": "Aalto Center (Aaltokeskus) / Alvar Aalto / Seinäjoki, Finland",
+    "days": [524],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Foundation",
+        "2": "Santeri Viinamäki (wikimedia)",
+        "3": "Courtesy of the Architect",
+        "5": "Kotivalo (wikimedia)",
+        "6": "Ninara (wikimedia)"
+      }
+    ],
+    "years": "1960-1968",
+    "links": ["https://en.wikipedia.org/wiki/Aalto_Centre,_Sein%C3%A4joki"],
+    "categories": []
   }
 ]
