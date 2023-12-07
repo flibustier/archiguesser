@@ -132,16 +132,24 @@
     "categories": ["religious"]
   },
   {
-    "answer": "Louvre Museum / Pierre Lescot, Ieoh Ming Pei / Paris, France",
-    "days": [7],
+    "answer": "Louvre Museum (Musée du Louvre) / Pierre Lescot, Ieoh Ming Pei / Paris, France",
+    "days": [7, 525],
     "copyrights": [
       {
         "1": "waiam cia",
-        "2": "Selinakcanca",
+        "2": "Selinakcanca (wikimedia)",
         "3": "",
         "4": "",
         "5": "Freedom_Wizard",
         "6": ""
+      },
+      {
+        "1": "waiam cia",
+        "2": "Sumit Surai (wikimedia)",
+        "3": "Thesupermat (wikimedia)",
+        "4": "Milena Chessa",
+        "5": "Freedom_Wizard",
+        "6": "Benh LIEU SONG (wikimedia)"
       }
     ],
     "years": "1527",
