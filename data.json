@@ -594,13 +594,11 @@
   },
   {
     "answer": "Phillips Exeter Academy Library / Louis I. Kahn / Exeter, New Hampshire, United States of America (USA)",
-    "days": [33],
+    "days": [33, 526],
     "copyrights": [
       {
+        "*": "Ed Brodzinsky",
         "1": "wikiarquitectura",
-        "2": "Ed Brodzinsky",
-        "3": "Ed Brodzinsky",
-        "4": "Ed Brodzinsky",
         "5": "Pablo Sanchez",
         "6": ""
       }
