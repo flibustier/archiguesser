@@ -612,7 +612,7 @@
   },
   {
     "answer": "The Golden Temple, Harimandir Sahib, Darbār Sahib / Amritsar, India",
-    "days": [34],
+    "days": [34, 527],
     "copyrights": [
       {
         "1": "Bernard Gagnon",
@@ -623,7 +623,8 @@
         "6": "Paulrudd"
       }
     ],
-    "links": [],
+    "years": "1589",
+    "links": ["https://en.wikipedia.org/wiki/Golden_Temple"],
     "categories": ["monument"]
   },
   {
