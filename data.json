@@ -1015,15 +1015,16 @@
     "categories": []
   },
   {
-    "answer": "Library of Alexandria / Snøhetta, Craig Dykers, Christoph Kapeller, Kjetil Thorsen / El Shatby, Alexandria, Egypt",
-    "days": [59],
+    "answer": "Bibliotheca Alexandrina (Library of Alexandria) / Snøhetta, Craig Dykers, Christoph Kapeller, Kjetil Thorsen / El Shatby, Alexandria, Egypt",
+    "days": [59, 528],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
+    "years": "2002",
     "links": [
-      "https://en.wikipedia.org/wiki/Library_of_Alexandria",
+      "https://en.wikipedia.org/wiki/Bibliotheca_Alexandrina",
       "https://en.wikiarquitectura.com/building/Library-of-Alexandria/"
     ],
     "categories": ["library"]
