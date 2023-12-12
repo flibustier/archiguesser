@@ -6592,5 +6592,22 @@
     "years": "1960-1968",
     "links": ["https://en.wikipedia.org/wiki/Aalto_Centre,_Sein%C3%A4joki"],
     "categories": []
+  },
+  {
+    "answer": "Fernsehturm Berlin (Television Tower) / Hermann Henselmann, Jörg Streitparth / Berlin, Germany",
+    "days": [530],
+    "copyrights": [
+      {
+        "1": "Frank Eberlein (wikimedia)",
+        "2": "Dieter Brügmann (wikimedia)",
+        "3": "Unknown",
+        "4": "Thomas Wolf (wikimedia)",
+        "5": "Diego Delso (wikimedia)",
+        "6": "dronepicr (wikimedia)"
+      }
+    ],
+    "years": "1965-1969",
+    "links": ["https://en.wikipedia.org/wiki/Fernsehturm_Berlin"],
+    "categories": ["tower"]
   }
 ]
