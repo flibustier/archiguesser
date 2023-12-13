@@ -2074,7 +2074,7 @@
   },
   {
     "answer": "Saint Mark's Basilica (Basilica di San Marco) / Doge Domenico I Contarini / Venice, Italy",
-    "days": [133],
+    "days": [133, 531],
     "copyrights": [
       {
         "3": "Antonio Pellanda (wikimedia)",
@@ -2083,6 +2083,7 @@
         "*": "Jonathan Platteau"
       }
     ],
+    "years": "829–836",
     "links": ["https://en.wikipedia.org/wiki/Saint_Mark's_Basilica"],
     "categories": ["monument"]
   },
