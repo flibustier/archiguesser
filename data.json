@@ -6610,5 +6610,19 @@
     "years": "1965-1969",
     "links": ["https://en.wikipedia.org/wiki/Fernsehturm_Berlin"],
     "categories": ["tower"]
+  },
+  {
+    "answer": "London 2012 Velodrome (Lee Valley VeloPark) / Hopkins Architects, Grant Associates / Queen Elizabeth Olympic Park, Stratford, London, United Kingdom (UK)",
+    "days": [532],
+    "copyrights": [
+      {
+        "*": "David Poultney",
+        "3": "Courtesy of the Architect",
+        "6": "Anthony Palmer"
+      }
+    ],
+    "years": "2009-2011",
+    "links": ["https://en.wikipedia.org/wiki/Lee_Valley_VeloPark"],
+    "categories": ["stadium"]
   }
 ]
