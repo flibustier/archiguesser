@@ -2027,14 +2027,15 @@
   },
   {
     "answer": "Micro House Slim Fit / ANA ROCHA architecture / Almere, Netherlands",
-    "days": [130],
+    "days": [130, 535],
     "copyrights": [
       {
         "*": "Christiane Wirth"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2018",
+    "links": ["https://www.anarocha.nl/work/slim-fit-presentatie/"],
+    "categories": ["housing"]
   },
   {
     "answer": "Fagus Factory (Fagus Fabrik or Werk) / Walter Gropius, Adolf Meyer / Alfeld an der Leine, Lower Saxony, Germany",
