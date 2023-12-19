@@ -6626,5 +6626,17 @@
     "years": "2009-2011",
     "links": ["https://en.wikipedia.org/wiki/Lee_Valley_VeloPark"],
     "categories": ["stadium"]
+  },
+  {
+    "answer": "Library and Learning Centre University of Economics Vienna / Zaha Hadid, Patrick Schumacher / Vienna, Austria",
+    "days": [537],
+    "copyrights": [
+      {
+        "*": "Roland Halbe"
+      }
+    ],
+    "years": "2013",
+    "links": ["https://en.wikipedia.org/wiki/Vienna_University_of_Economics_and_Business"],
+    "categories": ["contemporary"]
   }
 ]
