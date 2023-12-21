@@ -2363,7 +2363,7 @@
   },
   {
     "answer": "Central Library of the National Autonomous University of Mexico (UNAM) / Juan O'Gorman / Ciudad Universitaria, Coyoacán, Mexico City, Mexico",
-    "days": [152],
+    "days": [152, 539],
     "copyrights": [
       {
         "2": "Thomas Guignard",
@@ -2372,7 +2372,8 @@
         "*": "Adlai Pulido"
       }
     ],
-    "links": [],
+    "years": "1956",
+    "links": ["https://en.wikipedia.org/wiki/Central_Library_(UNAM)"],
     "categories": ["library"]
   },
   {
