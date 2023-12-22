@@ -2462,7 +2462,7 @@
   },
   {
     "answer": "Hangar One / Dr. Karl Arnstein, Wilbur Watson Associates Architects and Engineers / Moffett Field, Mountain View, California, United States of America (USA)",
-    "days": [158],
+    "days": [158, 540],
     "copyrights": [
       {
         "5": "Nelson Minar (flickr)",
@@ -2470,8 +2470,9 @@
         "*": "Library of Congress (wikimedia)"
       }
     ],
+    "years": "1933",
     "links": ["https://en.wikipedia.org/wiki/Hangar_One"],
-    "categories": []
+    "categories": ["military"]
   },
   {
     "answer": "Saint Basil's Cathedral (Cathedral of Vasily the Blessed) / Postnik Yakovlev / Red Square, Moscow, Russia",
