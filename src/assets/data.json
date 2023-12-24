@@ -6638,7 +6638,25 @@
       }
     ],
     "years": "2013",
-    "links": ["https://en.wikipedia.org/wiki/Vienna_University_of_Economics_and_Business"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Vienna_University_of_Economics_and_Business"
+    ],
     "categories": ["contemporary"]
+  },
+  {
+    "answer": "Tverrfjellhytta Pavilion (Viewpoint Snøhetta) / Snøhetta, Knut Bjørgum / Hjerkinn, Dovre, Norway",
+    "days": [541],
+    "copyrights": [
+      {
+        "*": "diephotodesigner.de",
+        "1": "Ketil Jacobsen",
+        "2": "Ketil Jacobsen",
+        "3": "Roger Brendhagen",
+        "4": "Jon Andreas Klokkehaug"
+      }
+    ],
+    "years": "2009-2011",
+    "links": ["https://www.snohetta.com/projects/viewpoint-snohetta"],
+    "categories": ["contemporary", "pavilion"]
   }
 ]
