@@ -2291,7 +2291,7 @@
   },
   {
     "answer": "Musée d'Orsay (Orsay Museum) / Victor Laloux, ACT, Gae Aulenti / Paris, France",
-    "days": [147],
+    "days": [147, 543],
     "copyrights": [
       {
         "1": "",
@@ -2302,6 +2302,7 @@
         "6": "Daniel Vorndran / DXR (wikimedia)"
       }
     ],
+    "years": "1898-1900,1986",
     "links": ["https://en.wikipedia.org/wiki/Musée_d'Orsay"],
     "categories": ["museum"]
   },
