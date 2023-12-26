@@ -6659,5 +6659,19 @@
     "years": "2009-2011",
     "links": ["https://www.snohetta.com/projects/viewpoint-snohetta"],
     "categories": ["contemporary", "pavilion"]
+  },
+  {
+    "answer": "Kuwait Towers / Malene Björn, Sune Lindström / Kuwait City, Kuwait",
+    "days": [544],
+    "copyrights": [
+      {
+        "*": "wikiarquitectura",
+        "1": "Deepak gupta (wikimedia)",
+        "6": "Tazz M (wikimedia)"
+      }
+    ],
+    "years": "1971-1976",
+    "links": ["https://en.wikipedia.org/wiki/Kuwait_Towers"],
+    "categories": []
   }
 ]
