@@ -15,20 +15,6 @@ const decodeHTMLentities = (url) => url.replaceAll("&#39;", "'");
 
 const blacklistURLs = (imageURL) => !imageURL.startsWith("//assets.adsttc.com");
 
-const patchWikipediaURL = (thumbnailURL) => thumbnailURL.replace("thumb/", "");
-
-const patchWordPressURL = (thumbnailURL) =>
-  thumbnailURL.replace(/[-.]\d+x\d+\.jpg/, ".jpg");
-
-const patchArchDailyImageURL = (thumbnailURL) =>
-  thumbnailURL.replace(/newsletter|\w+_jpg/, "original");
-
-const patchFigureGroundURL = (thumbnailURL) =>
-  thumbnailURL.replace(/\dt\.jpg/, ".jpg");
-
-const patchArquitecturaVivaURL = (thumbnailURL) =>
-  thumbnailURL.replace(/av_(thumb|medium)__/, "");
-
 const imageRegex =
   /['"](?:https?:)?(\/\/?[./\w\d_'&©#;%-]+?\.(?:jpg|JPG|jpeg|JPEG))\??[^'"]*['"]/g;
 const captionRegex = /<figcaption .* id='(.*)'>([^<]*)<\/figcaption>/g;
@@ -38,11 +24,6 @@ const extractImageURLs = (url, html) => {
     [...html.matchAll(imageRegex)]
       .map(handleRelativeURL(url))
       .map(decodeHTMLentities)
-      .map(patchArchDailyImageURL)
-      .map(patchWikipediaURL)
-      .map(patchWordPressURL)
-      .map(patchArquitecturaVivaURL)
-      .map(patchFigureGroundURL)
       .filter(blacklistURLs),
   );
 

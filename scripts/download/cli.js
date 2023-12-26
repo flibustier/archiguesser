@@ -3,6 +3,7 @@ const { createWriteStream, existsSync, mkdirSync } = require("fs");
 const { basename, join } = require("path");
 
 const { extractImageURLs } = require("./parsing");
+const { patchURLs } = require("./transformers");
 
 // some https website have no intermediate certificate, causing axios panic error
 // as we are only fetching from this website without sensible data, we can simply disable tls encryption
@@ -14,11 +15,16 @@ const main = async () => {
   createDirectoryIfNotExisting(destinationDirectory);
 
   const { data: html } = await axios.get(url);
-  const imageURLs = extractImageURLs(url, html);
+  const originalURLs = extractImageURLs(url, html);
+  const patchedURLs = patchURLs(originalURLs);
 
-  const success = await downloadFileList(imageURLs, destinationDirectory);
+  const success = await downloadFileList(
+    patchedURLs,
+    originalURLs,
+    destinationDirectory,
+  );
 
-  console.log(`🏆 ${success}/${imageURLs.length} images downloaded !`);
+  console.log(`🏆 ${success}/${originalURLs.length} images downloaded !`);
 };
 
 const extractArguments = () => {
@@ -41,10 +47,14 @@ const createDirectoryIfNotExisting = (directory) => {
   }
 };
 
-const downloadFileList = async (imageURLs, destinationDirectory) => {
+const downloadFileList = async (
+  patchedURLs,
+  originalURLs,
+  destinationDirectory,
+) => {
   const download = downloadFile(destinationDirectory);
 
-  const firstPass = await Promise.allSettled(imageURLs.map(download));
+  const firstPass = await Promise.allSettled(patchedURLs.map(download));
 
   const secondPass = await Promise.allSettled(
     firstPass.map(({ status }, index) => {
@@ -52,8 +62,8 @@ const downloadFileList = async (imageURLs, destinationDirectory) => {
         return Promise.resolve();
       }
 
-      // fallback for ArchDaily image not found in "original" quality
-      const fallbackURL = imageURLs[index].replace("original", "slideshow");
+      // fallback for image not found in "original" quality
+      const fallbackURL = originalURLs[index];
       console.log(`🥈 Fallback => ${fallbackURL}`);
 
       return download(fallbackURL, index);
@@ -70,7 +80,9 @@ const downloadFile = (directory) => (url, index) =>
     responseType: "stream",
   }).then((response) =>
     response.data.pipe(
-      createWriteStream(`./${directory}/x${index}-${decodeURI(basename(url))}`),
+      createWriteStream(
+        `./${directory}/x${index}-${decodeURI(basename(url.split("?")[0]))}`,
+      ),
     ),
   );
 
