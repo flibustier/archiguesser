@@ -3909,8 +3909,8 @@
     "categories": ["monument"]
   },
   {
-    "answer": "Lloyd’s Building / Richard Rogers / London, United Kingdom (UK)",
-    "days": [257],
+    "answer": "Lloyd’s Building (Inside-Out Building) / Richard Rogers / London, United Kingdom (UK)",
+    "days": [257, 545],
     "copyrights": [
       {
         "2": "Colin (wikimedia)",
@@ -3918,7 +3918,7 @@
       }
     ],
     "years": "1978-1986",
-    "links": ["https://en.wikipedia.org/wiki/Lloyd’s_Building"],
+    "links": ["https://en.wikipedia.org/wiki/Lloyd%27s_building"],
     "categories": []
   },
   {
