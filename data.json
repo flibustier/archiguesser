@@ -2586,7 +2586,7 @@
   },
   {
     "answer": "Naoshima Art Island (Benesse House Museum & Chichu Art Museum) / Tadao Ando / Naoshima, Japan",
-    "days": [166],
+    "days": [166, 546],
     "copyrights": [
       {
         "3": "(Blogspot)",
@@ -2595,7 +2595,8 @@
         "*": "Haruo Mikami"
       }
     ],
-    "links": [],
+    "years": "2004",
+    "links": ["https://en.wikipedia.org/wiki/Chichu_Art_Museum"],
     "categories": ["museum"]
   },
   {
