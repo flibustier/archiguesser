@@ -13,7 +13,7 @@ import { getStats, getSettings, setSetting } from "@/services/store";
 const realCurrentDay = getRealDayNumber();
 // range of 60 numbers starting at real current day
 const days = [...Array(realCurrentDay).keys()]
-  .filter((day) => ![198, 214, 332, 484, 491, 519].includes(day))
+  .filter((day) => ![198, 214, 332, 484, 491, 519, 547].includes(day))
   .slice(realCurrentDay - 62)
   .reverse();
 
