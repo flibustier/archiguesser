@@ -1261,8 +1261,8 @@
     "categories": ["housing", "classic"]
   },
   {
-    "answer": "Château de Versailles / Louis Le Vau, Jules Hardouin-Mansart, Robert de Cotte, Jacques V Gabriel, Ange-Jacques Gabriel, André Le Nôtre, Frédéric Nepveu, Philibert Le Roy, Dominique Perrault / Versailles, France",
-    "days": [75],
+    "answer": "Château de Versailles (Palace of Versailles) / Louis Le Vau, Jules Hardouin-Mansart, Robert de Cotte, Jacques V Gabriel, Ange-Jacques Gabriel, André Le Nôtre, Frédéric Nepveu, Philibert Le Roy, Dominique Perrault / Versailles, France",
+    "days": [75, 549],
     "copyrights": [
       {
         "2": "Stéphanie Le Lay",
@@ -1270,6 +1270,7 @@
         "5": "Jean Delagrive"
       }
     ],
+    "years": "",
     "links": ["https://en.wikipedia.org/wiki/Château_de_Versailles"],
     "categories": ["monument", "famous", "castle"]
   },
@@ -2507,7 +2508,7 @@
   },
   {
     "answer": "Los Manantiales Restaurant / Félix Candela / Mexico City, Mexico",
-    "days": [161],
+    "days": [161, 548],
     "copyrights": [
       {
         "1": "wework4her (flickr)",
