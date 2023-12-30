@@ -1261,15 +1261,22 @@
     "categories": ["housing", "classic"]
   },
   {
-    "answer": "Château de Versailles / Louis Le Vau, Jules Hardouin-Mansart, Robert de Cotte, Jacques V Gabriel, Ange-Jacques Gabriel, André Le Nôtre, Frédéric Nepveu, Philibert Le Roy, Dominique Perrault / Versailles, France",
-    "days": [75],
+    "answer": "Château de Versailles (Palace of Versailles) / Louis Le Vau, Jules Hardouin-Mansart, Robert de Cotte, Jacques V Gabriel, Ange-Jacques Gabriel, André Le Nôtre, Frédéric Nepveu, Philibert Le Roy, Dominique Perrault / Versailles, France",
+    "days": [75, 549],
     "copyrights": [
       {
         "2": "Stéphanie Le Lay",
         "4": "Jean-Christophe BENOIST",
         "5": "Jean Delagrive"
+      },
+      {
+        "2": "Stéphanie Le Lay",
+        "4": "Jean-Christophe BENOIST",
+        "5": "Jean Delagrive",
+        "6": "ToucanWings (wikimedia)"
       }
     ],
+    "years": "1623",
     "links": ["https://en.wikipedia.org/wiki/Château_de_Versailles"],
     "categories": ["monument", "famous", "castle"]
   },
