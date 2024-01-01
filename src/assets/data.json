@@ -6681,5 +6681,19 @@
     "years": "1971-1976",
     "links": ["https://en.wikipedia.org/wiki/Kuwait_Towers"],
     "categories": []
+  },
+  {
+    "answer": "Johnson Wax Building / Frank Lloyd Wright / Racine, Wisconsin, United States of America (USA)",
+    "days": [550],
+    "copyrights": [
+      {
+        "*": "Trevor Patt",
+        "2": "Unknown (archeyes.com)",
+        "3": "Unknown (archeyes.com)"
+      }
+    ],
+    "years": "1936-1939, 1944",
+    "links": ["https://en.wikipedia.org/wiki/Johnson_Wax_Headquarters"],
+    "categories": ["modernism"]
   }
 ]
