@@ -6695,5 +6695,20 @@
     "years": "1936-1939, 1944",
     "links": ["https://en.wikipedia.org/wiki/Johnson_Wax_Headquarters"],
     "categories": ["modernism"]
+  },
+  {
+    "answer": "Titanic Belfast / CivicArts, Todd Architects, Eric Kuhne and Associates / Belfast, United Kingdom (UK)",
+    "days": [551],
+    "copyrights": [
+      {
+        "*": "Christopher Heaney",
+        "2": "Ardfern (wikimedia)",
+        "3": "Gareth O'Cathain",
+        "6": "Ardfern (wikimedia)"
+      }
+    ],
+    "years": "2009-2012",
+    "links": ["https://en.wikipedia.org/wiki/Titanic_Belfast"],
+    "categories": ["contemporary"]
   }
 ]
