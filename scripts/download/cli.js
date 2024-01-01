@@ -63,7 +63,9 @@ const downloadFileList = async (
       }
 
       // fallback for image not found in "original" quality
-      const fallbackURL = originalURLs[index];
+      const fallbackURL = patchedURLs[index].includes("original")
+        ? patchedURLs[index].replace("original", "slideshow")
+        : originalURLs[index];
       console.log(`🥈 Fallback => ${fallbackURL}`);
 
       return download(fallbackURL, index);
