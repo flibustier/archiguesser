@@ -18,6 +18,16 @@ const props = defineProps({
   },
 });
 
+const clickableBuiltYears = computed(() => {
+  if (props.constructionYears?.includes("HE")) {
+    return props.constructionYears.replace(
+      "HE",
+      `<a href="https://en.wikipedia.org/wiki/Holocene_calendar" target="_blank">HE</a>`,
+    );
+  }
+  return props.constructionYears;
+});
+
 const guessesReverseOrder = computed(() => props.guesses.slice().reverse());
 
 const guessesRemaining = computed(() => 6 - props.guesses.length);
@@ -51,7 +61,9 @@ const highlight = (guess: string) =>
     <div class="guess" v-if="showHint">
       <span class="guess-icon"><IconInfo /></span>
       <span>Hint:&nbsp;</span>
-      <span v-if="showYearsHint">Built in {{ constructionYears }}.&nbsp;</span>
+      <span v-if="showYearsHint">
+        Built in <span v-html="clickableBuiltYears" />.&nbsp;
+      </span>
       <span v-if="showCountryHint"
         >The location is <b>{{ country }}</b>
       </span>
