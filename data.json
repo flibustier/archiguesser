@@ -2007,7 +2007,7 @@
   },
   {
     "answer": "Petra / Ma'an Governorate, Jordan",
-    "days": [128],
+    "days": [128, 553],
     "copyrights": [
       {
         "1": "Hendrik Dacquin (wikimedia)",
@@ -2018,6 +2018,7 @@
         "6": "Bernard Gagnon (wikimedia)"
       }
     ],
+    "years": "~9200 HE (~8th century BC)",
     "links": ["https://en.wikipedia.org/wiki/Petra"],
     "categories": ["monument", "famous"]
   },
@@ -2795,8 +2796,8 @@
     "categories": []
   },
   {
-    "answer": "Santa Caterina Market / Enric Miralles, Benedetta Tagliabue (EMBT) / Barcelona, Spain",
-    "days": [180],
+    "answer": "Santa Caterina Market (Mercat) / Enric Miralles, Benedetta Tagliabue (EMBT) / Barcelona, Spain",
+    "days": [180, 552],
     "copyrights": [
       {
         "3": "Alex Gaultier",
@@ -2805,6 +2806,7 @@
         "*": "Duccio Malagamba, Tony Cumella"
       }
     ],
+    "years": "2005",
     "links": ["https://en.wikipedia.org/wiki/Santa_Caterina_Market"],
     "categories": []
   },
