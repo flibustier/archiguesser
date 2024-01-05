@@ -1001,7 +1001,7 @@
   },
   {
     "answer": "Cultural Center Jean Marie Tjibaou / Renzo Piano / Nouméa, Nouvelle-Calédonie, France",
-    "days": [58],
+    "days": [58, 554],
     "copyrights": [
       {
         "6": "Fourrure",
@@ -1010,6 +1010,7 @@
     ],
     "years": "1991-1998",
     "links": [
+      "https://en.wikipedia.org/wiki/Jean-Marie_Tjibaou_Cultural_Centre",
       "https://en.wikiarquitectura.com/building/Cultural-Center-Jean-Marie-Tjibaou/"
     ],
     "categories": []
