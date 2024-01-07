@@ -2782,7 +2782,7 @@
   },
   {
     "answer": "Tabiat Pedestrian Bridge / Diba Tensile Architecture / Tehran, Iran",
-    "days": [179],
+    "days": [179, 555],
     "copyrights": [
       {
         "1": "Sina Ahmadi",
@@ -2793,8 +2793,9 @@
         "6": "Mohammad Hassan Ettefagh"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2010-2014",
+    "links": ["https://en.wikipedia.org/wiki/Tabiat_Bridge"],
+    "categories": ["bridge"]
   },
   {
     "answer": "Santa Caterina Market (Mercat) / Enric Miralles, Benedetta Tagliabue (EMBT) / Barcelona, Spain",
