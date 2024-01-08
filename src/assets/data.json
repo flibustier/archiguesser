@@ -1749,12 +1749,13 @@
   },
   {
     "answer": "Modern Art Museum of Fort Worth / Tadao Ando Architect & Associates / Fort Worth, United States of America (USA)",
-    "days": [109],
+    "days": [109, 556],
     "copyrights": [
       {
         "*": "Liao Yusheng"
       }
     ],
+    "years": "2002",
     "links": ["https://en.wikipedia.org/wiki/Modern_Art_Museum_of_Fort_Worth"],
     "categories": ["museum"]
   },
