@@ -1076,7 +1076,7 @@
     "copyrights": [
       {
         "2": "d.teil",
-        "4": "David Chipperfield",
+        "4": "Courtesy of the Architect",
         "6": "Joerg von Bruchhausen",
         "*": "Ute Zscharnt"
       }
@@ -6729,7 +6729,23 @@
       }
     ],
     "years": "1855-1860",
-    "links": ["https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History"
+    ],
     "categories": ["museum"]
+  },
+  {
+    "answer": "Amorepacific Corporation Headquarters / David Chipperfield Architects Berlin / Seoul, South Korea",
+    "days": [558],
+    "copyrights": [
+      {
+        "*": "Noshe (Courtesy of the Architect)"
+      }
+    ],
+    "years": "2010-2017",
+    "links": [
+      "https://davidchipperfield.com/projects/amorepacific-headquarters"
+    ],
+    "categories": ["contemporary"]
   }
 ]
