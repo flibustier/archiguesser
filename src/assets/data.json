@@ -6715,5 +6715,21 @@
     "years": "2009-2012",
     "links": ["https://en.wikipedia.org/wiki/Titanic_Belfast"],
     "categories": ["contemporary"]
+  },
+  {
+    "answer": "Oxford University Museum of Natural History (OUMNH) / Thomas Newenham Deane, Benjamin Woodward / Oxford, United Kingdom (UK)",
+    "days": [557],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "2": "No Swan So Fine (wikimedia)",
+        "3": "Jorge Royan (wikimedia)",
+        "4": "Jpbowen (wikimedia)",
+        "6": "-wuppertaler (wikimedia)"
+      }
+    ],
+    "years": "1855-1860",
+    "links": ["https://en.wikipedia.org/wiki/Oxford_University_Museum_of_Natural_History"],
+    "categories": ["museum"]
   }
 ]
