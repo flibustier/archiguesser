@@ -2243,8 +2243,8 @@
     "categories": ["classic", "modernism"]
   },
   {
-    "answer": "Santa Maria del Fiore (Florence Cathedral) / Filippo Brunelleschi, Arnolfo Di Cambio, Giotto di Bondone, Andrea Pisano, Emilio De Fabris / Florence, Italy",
-    "days": [144],
+    "answer": "Cattedrale di Santa Maria del Fiore (Florence Cathedral, Duomo di Firenze) / Filippo Brunelleschi, Arnolfo Di Cambio, Giotto di Bondone, Andrea Pisano, Emilio De Fabris / Florence, Italy",
+    "days": [144, 559],
     "copyrights": [
       {
         "1": "Livioandronico2013 (wikimedia)",
@@ -2260,7 +2260,7 @@
       "https://en.wikipedia.org/wiki/Santa_Maria_del_Fiore",
       "https://en.wikiarquitectura.com/building/Santa-Maria-del-Fiore/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "religious", "famous", "favorites"]
   },
   {
     "answer": "Stockholm Public Library / Eric Gunnar Asplund / Stockholm, Sweden",
