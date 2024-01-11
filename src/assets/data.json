@@ -2908,8 +2908,8 @@
     "categories": ["monument"]
   },
   {
-    "answer": "City of Arts and Sciences / Santiago Calatrava, Félix Candela / Valencia, Spain",
-    "days": [187],
+    "answer": "City of Arts and Sciences (Ciudad de las Artes y las Ciencias) / Santiago Calatrava, Félix Candela / Valencia, Spain",
+    "days": [187, 560],
     "copyrights": [
       {
         "1": "Liao Yusheng",
@@ -2925,7 +2925,7 @@
       "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences",
       "https://en.wikiarquitectura.com/building/City-of-Arts-and-Sciences/"
     ],
-    "categories": []
+    "categories": ["favorites"]
   },
   {
     "answer": "Scottish Parliament (Scots Pairlament Biggin) / Enric Miralles / Holyrood, Edinburgh, Scotland, United Kingdom (UK)",
