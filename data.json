@@ -6761,5 +6761,23 @@
     "years": "1919-1921",
     "links": ["https://en.wikipedia.org/wiki/Einstein_Tower"],
     "categories": ["modernism"]
+  },
+  {
+    "answer": "White House / James Hoban / 1600 Pennsylvania Ave NW, Washington, D.C., United States of America (USA)",
+    "days": [563],
+    "copyrights": [
+      {
+        "*": "",
+        "1": "Benjamin Harrison (wikimedia)",
+        "2": "Robert L. Knudsen (wikimedia)",
+        "3": "Cezary p (wikimedia)",
+        "4": "wikiarquitectura",
+        "5": "Carol M. Highsmith (wikimedia)",
+        "6": "HiraV (wikimedia)"
+      }
+    ],
+    "years": "1792-1800",
+    "links": ["https://en.wikipedia.org/wiki/White_House"],
+    "categories": ["famous", "neoclassical"]
   }
 ]
