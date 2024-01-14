@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { reactive, computed, ref } from "vue";
 
-import { getStats } from "@/services/store";
+import { getLastFeedback, getStats, getScore } from "@/services/store";
 import { syncUser } from "@/services/user";
 import { getRealDayNumber } from "@/services/date";
 import { getProjectInformation } from "@/services/projects";
@@ -12,7 +12,7 @@ import GuessingForm from "../components/guessing/GuessingForm.vue";
 import PictureDisplay from "../components/picture-display/PictureDisplay.vue";
 import GuessingHistory from "../components/guessing/GuessingHistory.vue";
 
-defineEmits(["showBackModal"]);
+const emit = defineEmits(["showBackModal", "showFeedbackModal"]);
 
 const urlParameters = new URLSearchParams(window.location.search);
 const requestedDay = urlParameters.get("day");
@@ -68,6 +68,16 @@ const onSubmittedGuess = async (guess: string) => {
     updateStats(score);
     percent.value = await sendResult(dayNumber, score, guesses, stats);
     syncUser();
+    if (hasWon.value && dayNumber === getRealDayNumber() && getScore() > 20) {
+      const lastFeedback = getLastFeedback();
+      if (
+        !lastFeedback ||
+        (lastFeedback.value === "skipped" &&
+          getRealDayNumber() - lastFeedback.day > 3)
+      ) {
+        emit("showFeedbackModal");
+      }
+    }
   }
 };
 </script>

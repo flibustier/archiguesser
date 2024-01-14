@@ -94,6 +94,23 @@ export const sendChallengeResult = async (
   }
 };
 
+export const sendFeedback = async (value: string): Promise<void> => {
+  try {
+    await fetch(endpoint + "feedback", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        value,
+        email: getCredentials().email,
+      }),
+    });
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 export const signIn = async (
   email: string,
   password: string,

@@ -10,6 +10,7 @@ import UserModal from "./components/modals/UserModal.vue";
 import ScoreModal from "./components/modals/ScoreModal.vue";
 import LogInModal from "./components/modals/LogInModal.vue";
 import ArcadeModal from "./components/modals/ArcadeModal.vue";
+import FeedbackModal from "./components/modals/FeedbackModal.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
 
 import DailyPage from "./pages/DailyPage.vue";
@@ -21,6 +22,7 @@ const showUserModal = ref(false);
 const showScoreModal = ref(false);
 const showLogInModal = ref(false);
 const showArcadeModal = ref(false);
+const showFeedbackModal = ref(false);
 
 const urlParameters = new URLSearchParams(window.location.search);
 const isArcadeMode = LISTED_CATEGORIES.includes(
@@ -35,6 +37,8 @@ const isArcadeMode = LISTED_CATEGORIES.includes(
   <ScoreModal v-model:is-visible="showScoreModal" />
   <LogInModal v-model:is-visible="showLogInModal" />
   <ArcadeModal v-model:is-visible="showArcadeModal" />
+  <FeedbackModal v-model:is-visible="showFeedbackModal" />
+
   <HeaderNavigator
     @showBackModal="showBackModal = true"
     @showInfoModal="showInfoModal = true"
@@ -51,7 +55,11 @@ const isArcadeMode = LISTED_CATEGORIES.includes(
       @showScoreModal="showScoreModal = true"
       @showArcadeModal="showArcadeModal = true"
     />
-    <DailyPage v-else @showBackModal="showBackModal = true" />
+    <DailyPage
+      v-else
+      @showBackModal="showBackModal = true"
+      @showFeedbackModal="showFeedbackModal = true"
+    />
   </main>
 </template>
 
