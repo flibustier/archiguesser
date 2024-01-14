@@ -1,12 +1,17 @@
+import { getRealDayNumber } from "./date";
+
 enum ObjectName {
   Challenges = "challenges",
   Stats = "stats",
   Settings = "settings",
   LogIn = "login",
+  Feedback = "feedback",
 }
 
 const fetchObject = (name: ObjectName) =>
   JSON.parse(localStorage.getItem(name) || "{}");
+const fetchArray = (name: ObjectName) =>
+  JSON.parse(localStorage.getItem(name) || "[]");
 
 export const getStats = () => fetchObject(ObjectName.Stats);
 export const getSettings = () => fetchObject(ObjectName.Settings);
@@ -85,3 +90,19 @@ export const getChallengesScore = () => {
 };
 export const getScore = () =>
   getDailiesScore() + getChallengesScore() + (isLogged() ? 50 : 0);
+
+export const saveFeedback = (value: string = "skipped") => {
+  const feedback = fetchArray(ObjectName.Feedback);
+  feedback.push({
+    day: getRealDayNumber(),
+    value,
+  });
+
+  localStorage.setItem(ObjectName.Feedback, JSON.stringify(feedback));
+};
+
+export const getLastFeedback = () => {
+  return fetchArray(ObjectName.Feedback)
+    .sort((a: any, b: any) => a.day - b.day)
+    .pop();
+};
