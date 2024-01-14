@@ -6747,5 +6747,19 @@
       "https://davidchipperfield.com/projects/amorepacific-headquarters"
     ],
     "categories": ["contemporary"]
+  },
+  {
+    "answer": "Einstein Tower (Einsteinturm) / Erich Mendelsohn / Potsdam, Germany",
+    "days": [562],
+    "copyrights": [
+      {
+        "*": "R. Arlt (AIP)",
+        "4": "Courtesy of the Architect",
+        "6": "Astrophysikalisches Institut Potsdam (wikimedia)"
+      }
+    ],
+    "years": "1919-1921",
+    "links": ["https://en.wikipedia.org/wiki/Einstein_Tower"],
+    "categories": ["modernism"]
   }
 ]
