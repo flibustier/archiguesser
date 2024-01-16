@@ -1,4 +1,4 @@
-const uniq = (array) => [...new Set(array)];
+const { uniq } = require("./utils");
 
 const handleRelativeURL =
   (rootURL) =>

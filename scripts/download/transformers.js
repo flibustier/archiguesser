@@ -1,3 +1,5 @@
+const { uniq } = require("./utils");
+
 const patchWikipediaURL = (thumbnailURL) => thumbnailURL.replace("thumb/", "");
 
 const patchWordPressURL = (thumbnailURL) =>
@@ -13,12 +15,14 @@ const patchArquitecturaVivaURL = (thumbnailURL) =>
   thumbnailURL.replace(/av_(thumb|medium)__/, "");
 
 const patchURLs = (urls) =>
-  urls
-    .map(patchArchDailyImageURL)
-    .map(patchWikipediaURL)
-    .map(patchWordPressURL)
-    .map(patchArquitecturaVivaURL)
-    .map(patchFigureGroundURL);
+  uniq(
+    urls
+      .map(patchArchDailyImageURL)
+      .map(patchWikipediaURL)
+      .map(patchWordPressURL)
+      .map(patchArquitecturaVivaURL)
+      .map(patchFigureGroundURL),
+  );
 
 module.exports = {
   patchURLs,
