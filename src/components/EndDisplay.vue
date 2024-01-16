@@ -45,6 +45,10 @@ const props = defineProps({
     type: Array<string>,
     default: [],
   },
+  isCommunity: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const resultSquares = computed(() => {
@@ -146,7 +150,13 @@ onMounted(async () => {
       </div>
     </div>
     <p v-if="description" class="description">« {{ description }} »</p>
-    <div>Next challenge <b class="emphasis">tomorrow</b>! 🕛</div>
+    <div v-if="isCommunity">
+      This project has been brought to you by one of ArchiGuesser’s players.
+      Thank you 👏
+    </div>
+    <div>
+      <span>Next challenge <b class="emphasis">tomorrow</b>! 🕛</span>
+    </div>
     <p class="sponsor" v-if="false">
       ❤️ {{ APP_NAME }}?
       <a href="https://www.instagram.com/archiguesser/" target="_blank"

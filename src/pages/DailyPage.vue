@@ -29,9 +29,8 @@ if (
 const stats = getStats();
 const percent = ref();
 const guesses: string[] = reactive([]);
-const { dayNumber, answer, constructionYears, copyrights, links } = reactive(
-  getProjectInformation(requestedDay),
-);
+const { dayNumber, answer, constructionYears, copyrights, links, categories } =
+  reactive(getProjectInformation(requestedDay));
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
@@ -106,6 +105,7 @@ const onSubmittedGuess = async (guess: string) => {
     :answer="answer"
     :percent="percent"
     :links="links"
+    :is-community="categories?.includes('community')"
     @showBackModal="$emit('showBackModal')"
   />
 </template>
