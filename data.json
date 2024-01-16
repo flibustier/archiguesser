@@ -6767,7 +6767,6 @@
     "days": [563],
     "copyrights": [
       {
-        "*": "",
         "1": "Benjamin Harrison (wikimedia)",
         "2": "Robert L. Knudsen (wikimedia)",
         "3": "Cezary p (wikimedia)",
@@ -6779,5 +6778,18 @@
     "years": "1792-1800",
     "links": ["https://en.wikipedia.org/wiki/White_House"],
     "categories": ["famous", "neoclassical"]
+  },
+  {
+    "answer": "Nakanoshima Children’s Book Forest / Tadao Ando Architect & Associates / Osaka, Japan",
+    "days": [564],
+    "copyrights": [
+      {
+        "*": "Shigeo Ogawa",
+        "2": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2017-2019",
+    "links": ["https://artsandculture.google.com/story/qQWhngpq8vWRhw"],
+    "categories": []
   }
 ]
