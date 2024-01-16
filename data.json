@@ -6791,5 +6791,17 @@
     "years": "2017-2019",
     "links": ["https://artsandculture.google.com/story/qQWhngpq8vWRhw"],
     "categories": ["community"]
+  },
+  {
+    "answer": "The Beezantium (Hadspen Apiary) / Invisible Studio / The Newt in Somerset, Bruton, United Kingdom (UK)",
+    "days": [565],
+    "copyrights": [
+      {
+        "*": "Jim Stephenson"
+      }
+    ],
+    "years": "2021",
+    "links": ["https://www.invisiblestudio.org/selected_work/hadspenapiary/"],
+    "categories": ["community", "folly"]
   }
 ]
