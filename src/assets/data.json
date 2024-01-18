@@ -6803,5 +6803,25 @@
     "years": "2021",
     "links": ["https://www.invisiblestudio.org/selected_work/hadspenapiary/"],
     "categories": ["community", "folly"]
+  },
+  {
+    "answer": "The Hague City Hall and Central Library / Richard Meier / Spui 70, The Hague, Netherlands",
+    "days": [566],
+    "copyrights": [
+      {
+        "1": "Frits De Jong (wikimedia)",
+        "2": "wikiarquitectura",
+        "3": "Henk Monster (wikimedia)",
+        "4": "Courtesy of the Owner",
+        "5": "GraphyArchy (wikimedia)",
+        "6": "Steven Lek (wikimedia)"
+      }
+    ],
+    "years": "1986-1995",
+    "links": [
+      "https://en.wikipedia.org/wiki/The_Hague_City_Hall",
+      "https://en.wikiarquitectura.com/building/the-hague-city-hall-and-central-library/"
+    ],
+    "categories": ["community", "city hall"]
   }
 ]
