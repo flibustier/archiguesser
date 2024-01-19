@@ -6823,5 +6823,20 @@
       "https://en.wikiarquitectura.com/building/the-hague-city-hall-and-central-library/"
     ],
     "categories": ["community", "city hall"]
+  },
+  {
+    "answer": "Aalto Theatre / Alvar Aalto, Elissa Aalto / Essen, Germany",
+    "days": [567],
+    "copyrights": [
+      {
+        "*": "Jean Housen (wikimedia)",
+        "4": "Steffen Schmitz (wikimedia)",
+        "5": "Jaimrsilva (wikimedia)",
+        "6": "Tuxyso (wikimedia)"
+      }
+    ],
+    "years": "1983-1988",
+    "links": ["https://en.wikipedia.org/wiki/Aalto_Theatre"],
+    "categories": ["community", "concert hall"]
   }
 ]
