@@ -5,6 +5,7 @@ import FeedbackForm from "../FeedbackForm.vue";
 import BaseModal from "./BaseModal.vue";
 
 import { saveFeedback, getLastFeedback } from "@/services/store";
+import { sendEvent } from "@/services/api";
 
 defineProps({
   isVisible: {
@@ -21,6 +22,7 @@ const closeModal = () => {
 
 const skipModal = (neverAskAgain?: string) => {
   saveFeedback(neverAskAgain);
+  sendEvent("feedback: " + (neverAskAgain || "skipped"));
   closeModal();
 };
 

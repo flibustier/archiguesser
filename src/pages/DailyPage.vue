@@ -72,7 +72,7 @@ const onSubmittedGuess = async (guess: string) => {
       if (
         !lastFeedback ||
         (lastFeedback.value === "skipped" &&
-          getRealDayNumber() - lastFeedback.day > 3)
+          getRealDayNumber() - lastFeedback.day > 5)
       ) {
         emit("showFeedbackModal");
       }

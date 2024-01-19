@@ -106,6 +106,7 @@ export const sendFeedback = async (value: string): Promise<void> => {
         email: getCredentials().email,
       }),
     });
+    sendEvent("feedback: " + value);
   } catch (error) {
     console.error(error);
   }
