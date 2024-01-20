@@ -6838,5 +6838,17 @@
     "years": "1983-1988",
     "links": ["https://en.wikipedia.org/wiki/Aalto_Theatre"],
     "categories": ["community", "concert hall"]
+  },
+  {
+    "answer": "E-1027 House (Villa, Maison en bord de mer E-1027) / Eileen Gray, Jean Badovici / Roquebrune-Cap-Martin, France",
+    "days": [568],
+    "copyrights": [
+      {
+        "*": "Manuel Bougot"
+      }
+    ],
+    "years": "1926-1929",
+    "links": ["https://en.wikipedia.org/wiki/E-1027"],
+    "categories": ["modernism", "community"]
   }
 ]
