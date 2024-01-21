@@ -48,7 +48,11 @@ const feedbackAlreadySkipped = computed(
       <div v-if="!submitted">
         <p class="text">
           Thank you for playing today’s ArchiGuesser!<br />
-          You’re one of our best players. 🏆<br />
+          <span v-if="!getLastFeedback() || feedbackAlreadySkipped">
+            You’re one of our best players. 🏆
+          </span>
+          <span v-else>Your last suggestion was greatly appreciated!</span>
+          <br />
           <br />
           You get to write down a project you would like to see on ArchiGuesser
         </p>

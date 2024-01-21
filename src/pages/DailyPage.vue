@@ -67,11 +67,11 @@ const onSubmittedGuess = async (guess: string) => {
     updateStats(score);
     percent.value = await sendResult(dayNumber, score, guesses, stats);
     syncUser();
-    if (hasWon.value && dayNumber === getRealDayNumber() && getScore() > 20) {
+    if (hasWon.value && dayNumber === getRealDayNumber() && getScore() > 30) {
       const lastFeedback = getLastFeedback();
       if (
         !lastFeedback ||
-        (lastFeedback.value === "skipped" &&
+        (lastFeedback.value !== "never" &&
           getRealDayNumber() - lastFeedback.day > 5)
       ) {
         emit("showFeedbackModal");
