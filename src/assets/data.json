@@ -2433,15 +2433,18 @@
   },
   {
     "answer": "Centraal Beheer hoofdkantoor / Herman Hertzberger / Apeldoorn, Netherlands",
-    "days": [155],
+    "days": [155, 570],
     "copyrights": [
       {
         "4": "Apdency (wikimedia)",
         "*": "Willem Diepraam"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1968-1972",
+    "links": [
+      "https://www.ahh.nl/index.php/en/projects2/12-utiliteitsbouw/85-centraal-beheer-offices-apeldoorn"
+    ],
+    "categories": ["office"]
   },
   {
     "answer": "Calouste Gulbenkian Foundation and Museum / Rui Jervis Atouguia, Pedro Cid, Alberto Pessoa / Lisbon, Portugal",
