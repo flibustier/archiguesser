@@ -2444,7 +2444,7 @@
     "links": [
       "https://www.ahh.nl/index.php/en/projects2/12-utiliteitsbouw/85-centraal-beheer-offices-apeldoorn"
     ],
-    "categories": ["office"]
+    "categories": ["community", "office"]
   },
   {
     "answer": "Calouste Gulbenkian Foundation and Museum / Rui Jervis Atouguia, Pedro Cid, Alberto Pessoa / Lisbon, Portugal",
@@ -6861,5 +6861,20 @@
     "years": "1926-1929",
     "links": ["https://en.wikipedia.org/wiki/E-1027"],
     "categories": ["modernism", "community"]
+  },
+  {
+    "answer": "Sullivan Center (Carson, Pirie, Scott and Company Building) / Louis Sullivan, Daniel Burnham, Holabird & Root / Chicago, Illinois, United States of America (USA)",
+    "days": [571],
+    "copyrights": [
+      {
+        "*": "w_lemay (wikimedia)",
+        "1": "Darren and Brad (wikiarquitectura)",
+        "2": "Darren and Brad (wikiarquitectura)",
+        "5": "Beyond My Ken (wikimedia)"
+      }
+    ],
+    "years": "1899-1903",
+    "links": ["https://en.wikipedia.org/wiki/Sullivan_Center"],
+    "categories": ["chicago-school"]
   }
 ]
