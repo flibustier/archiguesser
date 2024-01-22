@@ -6876,5 +6876,18 @@
     "years": "1899-1903",
     "links": ["https://en.wikipedia.org/wiki/Sullivan_Center"],
     "categories": ["chicago-school"]
+  },
+  {
+    "answer": "Z33 House for Contemporary Art Extension / Francesca Torzo Architetto / Hasselt, Belgium",
+    "days": [572],
+    "copyrights": [
+      {
+        "*": "Gion Balthasar von Albertini"
+      }
+    ],
+    "years": "2019",
+    "links": ["https://en.wikipedia.org/wiki/Art_Museum_Z33"],
+    "categories": ["community"]
   }
+
 ]
