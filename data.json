@@ -6888,6 +6888,21 @@
     "years": "2019",
     "links": ["https://en.wikipedia.org/wiki/Art_Museum_Z33"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Palau de la Música Catalana (Palace of Catalan Music) / Lluís Domènech i Montaner / Barcelona, Spain",
+    "days": [573],
+    "copyrights": [
+      {
+        "*": "wikiarquitectura",
+        "1": "Amadalvarez (wikimedia)",
+        "2": "Courtesy of the Owner",
+        "3": "Josep Renalias (wikimedia)",
+        "6": "Ralf Roletschek (wikimedia)"
+      }
+    ],
+    "years": "1905–1908",
+    "links": ["https://en.wikipedia.org/wiki/Palau_de_la_M%C3%BAsica_Catalana"],
+    "categories": ["community", "Catalan art nouveau"]
   }
-
 ]
