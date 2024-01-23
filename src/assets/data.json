@@ -6904,5 +6904,18 @@
     "years": "1905–1908",
     "links": ["https://en.wikipedia.org/wiki/Palau_de_la_M%C3%BAsica_Catalana"],
     "categories": ["community", "Catalan art nouveau"]
+  },
+  {
+    "answer": "Musée Soulages (Soulages Museum) / RCR Arquitectes, Passelac & Roques Architectes / Rodez, France",
+    "days": [574],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "6": "Calips (wikimedia)"
+      }
+    ],
+    "years": "2014",
+    "links": ["https://fr.wikipedia.org/wiki/Mus%C3%A9e_Soulages"],
+    "categories": ["museum"]
   }
 ]
