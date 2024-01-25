@@ -2734,7 +2734,7 @@
   },
   {
     "answer": "Windsor Castle / Hugh May / Windsor, Berkshire, United Kingdom (UK)",
-    "days": [175],
+    "days": [175, 575],
     "copyrights": [
       {
         "1": "Empirically Grounded (wikimedia)",
@@ -2745,6 +2745,7 @@
         "6": "Diliff (wikimedia)"
       }
     ],
+    "years": "~11th century",
     "links": ["https://en.wikipedia.org/wiki/Windsor_Castle"],
     "categories": ["monument", "castle"]
   },
@@ -6916,6 +6917,6 @@
     ],
     "years": "2014",
     "links": ["https://fr.wikipedia.org/wiki/Mus%C3%A9e_Soulages"],
-    "categories": ["museum"]
+    "categories": ["community", "museum"]
   }
 ]
