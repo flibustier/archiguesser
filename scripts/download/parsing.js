@@ -8,7 +8,12 @@ const handleRelativeURL =
       return imageURL;
     }
     // relative URL -> Absolute URL
-    return "//" + new URL(rootURL).hostname + imageURL;
+    return (
+      "//" +
+      new URL(rootURL).hostname +
+      (imageURL.startsWith("/") ? "" : "/") +
+      imageURL
+    );
   };
 
 const decodeHTMLentities = (url) => url.replaceAll("&#39;", "'");
@@ -16,7 +21,7 @@ const decodeHTMLentities = (url) => url.replaceAll("&#39;", "'");
 const blacklistURLs = (imageURL) => !imageURL.startsWith("//assets.adsttc.com");
 
 const imageRegex =
-  /['"](?:https?:)?(\/\/?[./\w\d_'&©#;%-]+?\.(?:jpg|JPG|jpeg|JPEG|webp))\??[^'"]*['"]/g;
+  /['"](?:https?:)?(\/?\/?[./\w\d_'&©#;%-]+?\.(?:jpg|JPG|jpeg|JPEG|webp))\??[^'"]*['"]/g;
 const captionRegex = /<figcaption .* id='(.*)'>([^<]*)<\/figcaption>/g;
 
 const extractImageURLs = (url, html) => {

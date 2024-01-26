@@ -6918,5 +6918,20 @@
     "years": "2014",
     "links": ["https://fr.wikipedia.org/wiki/Mus%C3%A9e_Soulages"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Moreira Salles Institute IMS (Image and Sound Museum) / Andrade Morettin Arquitetos Associados / Avenue Paulista, Sao Paulo, Brazil",
+    "days": [576],
+    "copyrights": [
+      {
+        "*": "Nelson Kon",
+        "1": "Pedro Vannucchi",
+        "4": "Pedro Vannucchi",
+        "5": "Pedro Vannucchi"
+      }
+    ],
+    "years": "2017",
+    "links": ["https://pt.wikipedia.org/wiki/Instituto_Moreira_Salles"],
+    "categories": ["community", "museum"]
   }
 ]
