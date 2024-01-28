@@ -6933,5 +6933,17 @@
     "years": "2017",
     "links": ["https://pt.wikipedia.org/wiki/Instituto_Moreira_Salles"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Rietveld Pavilion at the Kröller-Müller Sculpture Garden (Rietveldpaviljoen) / Gerrit Rietveld / Otterlo, Netherlands",
+    "days": [577],
+    "copyrights": [
+      {
+        "*": "Unknown (archdaily)"
+      }
+    ],
+    "years": "1954-1955",
+    "links": ["https://en.wikipedia.org/wiki/Kr%C3%B6ller-M%C3%BCller_Museum"],
+    "categories": ["community", "pavilion"]
   }
 ]
