@@ -6945,5 +6945,17 @@
     "years": "1954-1955",
     "links": ["https://en.wikipedia.org/wiki/Kr%C3%B6ller-M%C3%BCller_Museum"],
     "categories": ["community", "pavilion"]
+  },
+  {
+    "answer": "High Line Park in New York / James Corner, Diller Scofidio + Renfro, Piet Oudolf / Manhattan, New York, United States of America (USA)",
+    "days": [578],
+    "copyrights": [
+      {
+        "*": "Iwan Baan"
+      }
+    ],
+    "years": "2004-2009",
+    "links": ["https://en.wikipedia.org/wiki/High_Line"],
+    "categories": ["community"]
   }
 ]
