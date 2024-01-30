@@ -6962,5 +6962,24 @@
     "years": "2004-2009",
     "links": ["https://en.wikipedia.org/wiki/High_Line"],
     "categories": ["community", "park"]
+  },
+  {
+    "answer": "Fondazione Prada / OMA, Rem Koolhaas / Milan, Italy",
+    "days": [579],
+    "copyrights": [
+      {
+        "*": "Bas Princen",
+        "1": "Philippe Ruault",
+        "2": "Iwan Baan",
+        "3": "Courtesy of the Architect",
+        "6": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2008-2018",
+    "links": [
+      "https://en.wikipedia.org/wiki/Fondazione_Prada",
+      "https://www.oma.com/projects/fondazione-prada"
+    ],
+    "categories": ["community", "contemporary", "museum"]
   }
 ]
