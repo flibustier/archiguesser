@@ -6981,5 +6981,22 @@
       "https://www.oma.com/projects/fondazione-prada"
     ],
     "categories": ["community", "contemporary", "museum"]
+  },
+  {
+    "answer": "Casa de Pilatos (Pilate's House) / Seville, Spain",
+    "days": [580],
+    "copyrights": [
+      {
+        "1": "Ajay Suresh (wikimedia)",
+        "2": "Matthias Bethke (wikimedia)",
+        "3": "Anual (wikimedia)",
+        "4": "Ajay Suresh (wikimedia)",
+        "5": "James Gordon (wikimedia)",
+        "6": "Chabe01 (wikimedia)"
+      }
+    ],
+    "years": "~15th century",
+    "links": ["https://en.wikipedia.org/wiki/Casa_de_Pilatos"],
+    "categories": ["community", "monument"]
   }
 ]
