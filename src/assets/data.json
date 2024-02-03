@@ -7004,5 +7004,24 @@
     "years": "~15th century",
     "links": ["https://en.wikipedia.org/wiki/Casa_de_Pilatos"],
     "categories": ["community", "monument"]
+  },
+  {
+    "answer": "Pennsylvania Academy of the Fine Arts (PAFA) / Frank Furness, George W. Hewitt / Philadelphia, United States of America (USA)",
+    "days": [582],
+    "copyrights": [
+      {
+        "1": "Bestbudbrian (wikimedia)",
+        "2": "Carol M. Highsmith (wikimedia)",
+        "3": "Beyond My Ken (wikimedia)",
+        "4": "VAN INCEN-SNYDEY (wikimedia)",
+        "5": "chrisinphilly5448 (wikimedia)",
+        "6": "Difference engine (wikimedia)"
+      }
+    ],
+    "years": "1871–1876",
+    "links": [
+      "https://en.wikipedia.org/wiki/Pennsylvania_Academy_of_the_Fine_Arts"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
