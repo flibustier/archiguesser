@@ -7039,6 +7039,23 @@
       "http://www.studiolada.fr/bp/marche-saint-dizier/",
       "https://www.archdaily.com/1007805/saint-diziers-market-studiolada"
     ],
-    "categories": ["market"]
+    "categories": ["community", "market"]
+  },
+  {
+    "answer": "Villa Verde Housing (Half an House) / ELEMENTAL, Alejandro Aravena / Constitución, Chile",
+    "days": [584],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Architect",
+        "2": "Cristian Martinez",
+        "3": "Cristian Martinez",
+        "4": "Courtesy of the Architect",
+        "5": "Suyin Chia",
+        "6": "Felipe Díaz Contardo"
+      }
+    ],
+    "years": "2009-2013",
+    "links": ["https://www.archdaily.com/447381/villa-verde-housing-elemental"],
+    "categories": ["community", "housing"]
   }
 ]
