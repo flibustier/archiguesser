@@ -7023,5 +7023,22 @@
       "https://en.wikipedia.org/wiki/Pennsylvania_Academy_of_the_Fine_Arts"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Marché couvert de Saint-Dizier (Saint Dizier’s Covered Market) / Studiolada, Christophe Aubertin, Aurélie Husson / Saint-Dizier, France",
+    "days": [583],
+    "copyrights": [
+      {
+        "*": "Olivier Mathiotte",
+        "3": "Courtesy of the Architect",
+        "6": "Eric Colin"
+      }
+    ],
+    "years": "2023",
+    "links": [
+      "http://www.studiolada.fr/bp/marche-saint-dizier/",
+      "https://www.archdaily.com/1007805/saint-diziers-market-studiolada"
+    ],
+    "categories": ["market"]
   }
 ]
