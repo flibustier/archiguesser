@@ -3289,7 +3289,7 @@
   },
   {
     "answer": "Royal Pavilion of Brighton / John Nash / Brighton, United Kingdom (UK)",
-    "days": [213],
+    "days": [213, 585],
     "copyrights": [
       {
         "1": "Bryan Ledgard (wikimedia)",
@@ -3299,7 +3299,8 @@
         "*": "Courtesy of the Owner"
       }
     ],
-    "links": [],
+    "years": "1787-1823",
+    "links": ["https://en.wikipedia.org/wiki/Royal_Pavilion"],
     "categories": ["monument"]
   },
   {
