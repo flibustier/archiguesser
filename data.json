@@ -7058,5 +7058,21 @@
     "years": "2009-2013",
     "links": ["https://www.archdaily.com/447381/villa-verde-housing-elemental"],
     "categories": ["community", "housing"]
+  },
+  {
+    "answer": "Australian Islamic Centre / Glenn Murcutt, Elevli Plus / Newport, Australia",
+    "days": [586],
+    "copyrights": [
+      {
+        "*": "Anthony Browell",
+        "2": "Tobias Titz",
+        "5": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2019",
+    "links": [
+      "https://www.archdaily.com/919964/australian-islamic-centre-glenn-murcutt-plus-elevli-plus"
+    ],
+    "categories": ["community", "religious"]
   }
 ]
