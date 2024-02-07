@@ -7074,5 +7074,20 @@
       "https://www.archdaily.com/919964/australian-islamic-centre-glenn-murcutt-plus-elevli-plus"
     ],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Beyeler Foundation (Fondation Beyeler) / Renzo Piano / Riehen, Switzerland",
+    "days": [587],
+    "copyrights": [
+      {
+        "*": "Christian Richters",
+        "2": "Courtesy of the Architect",
+        "3": "Jean Housen (wikimedia)",
+        "4": "Thomas Dix"
+      }
+    ],
+    "years": "1992-1997",
+    "links": ["https://en.wikipedia.org/wiki/Beyeler_Foundation"],
+    "categories": ["community", "museum"]
   }
 ]
