@@ -7089,5 +7089,21 @@
     "years": "1992-1997",
     "links": ["https://en.wikipedia.org/wiki/Beyeler_Foundation"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Murinsel (Mur Island Bridge) / Acconci Studio, Vito Acconci / Graz, Austria",
+    "days": [588],
+    "copyrights": [
+      {
+        "*": "wikiarquitectura",
+        "1": "Petr Svarc",
+        "2": "Zairon (wikimedia)",
+        "3": "Unknown",
+        "6": "Petr Svarc"
+      }
+    ],
+    "years": "2003",
+    "links": ["https://en.wikipedia.org/wiki/Murinsel"],
+    "categories": ["community", "bridge"]
   }
 ]
