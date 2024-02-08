@@ -7105,5 +7105,22 @@
     "years": "2003",
     "links": ["https://en.wikipedia.org/wiki/Murinsel"],
     "categories": ["community", "bridge"]
+  },
+  {
+    "answer": "Het Schip (The Ship) / Michel de Klerk / Spaarndammerbuurt, Amsterdam, Netherlands",
+    "days": [589],
+    "copyrights": [
+      {
+        "1": "Niels O. Kellerman (wikimedia)",
+        "2": "Fred Romero (wikimedia)",
+        "3": "Fred Romero (wikimedia)",
+        "4": "Derbrauni (wikimedia)",
+        "5": "Derbrauni (wikimedia)",
+        "6": "Janericloebe (wikimedia)"
+      }
+    ],
+    "years": "1917-1921",
+    "links": ["https://en.wikipedia.org/wiki/Het_Schip"],
+    "categories": ["community"]
   }
 ]
