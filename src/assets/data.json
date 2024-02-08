@@ -3108,7 +3108,7 @@
   },
   {
     "answer": "Seagram Building / Ludwig Mies van der Rohe, Philip Johnson / New York, United States of America (USA)",
-    "days": [199],
+    "days": [199, 590],
     "copyrights": [
       {
         "1": "Peter Reitzfeld",
@@ -3124,7 +3124,7 @@
       "https://en.wikipedia.org/wiki/Seagram_Building",
       "https://en.wikiarquitectura.com/building/Seagram-Building/"
     ],
-    "categories": []
+    "categories": ["classic", "favorites"]
   },
   {
     "answer": "Mont-Saint-Michel Abbey / Normandie, France",
