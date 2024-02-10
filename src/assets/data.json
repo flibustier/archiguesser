@@ -3140,7 +3140,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Mont-Saint-Michel_Abbey"],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "favorites"]
   },
   {
     "answer": "Lingotto factory building (Fiat) / Giacomo Matté-Trucco, Renzo Piano / Turin, Italy",
@@ -7122,5 +7122,19 @@
     "years": "1917-1921",
     "links": ["https://en.wikipedia.org/wiki/Het_Schip"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Galeria Claudia Andujar (Claudia Andujar Art Gallery, Inhotim) / Arquitetos Associados / Brumadinho, Brazil",
+    "days": [591],
+    "copyrights": [
+      {
+        "*": "Leonardo Finotti"
+      }
+    ],
+    "years": "2014-2015",
+    "links": [
+      "https://arquitetosassociados.arq.br/en/claudia-andujar-gallery/"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
