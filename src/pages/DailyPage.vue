@@ -72,7 +72,7 @@ const onSubmittedGuess = async (guess: string) => {
       if (
         !lastFeedback ||
         (lastFeedback.value !== "never" &&
-          getRealDayNumber() - lastFeedback.day > 5)
+          getRealDayNumber() - lastFeedback.day > 6)
       ) {
         emit("showFeedbackModal");
       }
