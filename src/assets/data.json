@@ -3875,8 +3875,8 @@
     "categories": ["monument"]
   },
   {
-    "answer": "Neviges Mariendom Pilgrimage Church / Gottfried Böhm / Neviges, Germany",
-    "days": [253],
+    "answer": "Neviges Mariendom Pilgrimage Church (Maria, Königin des Friedens) / Gottfried Böhm / Neviges, Germany",
+    "days": [253, 592],
     "copyrights": [
       {
         "1": "Yuri Palmin",
@@ -3886,8 +3886,8 @@
       }
     ],
     "years": "1972",
-    "links": [],
-    "categories": []
+    "links": ["https://en.wikipedia.org/wiki/Maria,_K%C3%B6nigin_des_Friedens"],
+    "categories": ["religious", "community"]
   },
   {
     "answer": "Villa dall’Ava / Rem Koolhaas, OMA / Paris, France",
