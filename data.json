@@ -2562,7 +2562,7 @@
   },
   {
     "answer": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert, Jean-Paul Philippon / Roubaix, Nord-Pas-de-Calais, France",
-    "days": [163],
+    "days": [163, 594],
     "copyrights": [
       {
         "2": "Arend (flickr)",
@@ -2570,6 +2570,13 @@
         "5": "Michel Legret (flickr)",
         "6": "Perry Tak (flickr)",
         "*": "Fred Romero (flickr)"
+      },
+      {
+        "*": "Jonathan Platteau",
+        "1": "Fred Romero (flickr)",
+        "2": "Arend (flickr)",
+        "5": "Michel Legret (flickr)",
+        "6": "Perry Tak (flickr)"
       }
     ],
     "years": "1927-1932,2000",
