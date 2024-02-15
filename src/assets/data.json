@@ -7158,5 +7158,21 @@
       "https://arquitetosassociados.arq.br/en/claudia-andujar-gallery/"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Reading Between the Lines (See-through Church) / Gijs Van Vaerenbergh / Looz, Belgium",
+    "days": [595],
+    "copyrights": [
+      {
+        "*": "Filip Dujardin",
+        "3": "Nolde16 (wikimedia)"
+      }
+    ],
+    "years": "2011",
+    "links": [
+      "https://fr.wikipedia.org/wiki/Reading_between_the_lines",
+      "https://www.archdaily.com/298693/reading-between-the-lines-gijs-van-vaerenbergh"
+    ],
+    "categories": ["community", "religious"]
   }
 ]
