@@ -7174,5 +7174,21 @@
       "https://www.archdaily.com/298693/reading-between-the-lines-gijs-van-vaerenbergh"
     ],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Hampton Court Palace / Hampton Court, Greater London, United Kingdom (UK)",
+    "days": [596],
+    "copyrights": [
+      {
+        "1": "Diliff (wikimedia)",
+        "2": "Calstanhope (wikimedia)",
+        "*": "DiscoA340 (wikimedia)",
+        "5": "Andreas Tille (wikimedia)",
+        "6": "Luke Nicolaides (wikimedia)"
+      }
+    ],
+    "years": "1514",
+    "links": ["https://en.wikipedia.org/wiki/Hampton_Court_Palace"],
+    "categories": ["community", "monument"]
   }
 ]
