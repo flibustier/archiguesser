@@ -1,6 +1,11 @@
+import data from "../../assets/data.json";
 import suggestions from "../../assets/suggestions.json";
 
-const MAX_SUGGESTIONS = 25;
+const suggestionsWithAnswers = data
+  .map(({ answer }) => answer)
+  .concat(suggestions);
+
+const MAX_SUGGESTIONS = 30;
 const MIN_WORD_LENGTH = 2;
 
 const byScore = (a: scoredSuggestion, b: scoredSuggestion) => b.score - a.score;
@@ -18,7 +23,7 @@ const normalize = (str: string): string =>
     .replace(/\(|\)|\]|\[/g, "");
 
 const splitWords = (str: string): string[] =>
-  str.split(/\s+|,|\//).filter((word) => word.length > MIN_WORD_LENGTH);
+  str.split(/\s+|,|\//).filter((word) => word.length >= MIN_WORD_LENGTH);
 
 interface scoredSuggestion {
   suggestion: string;
@@ -65,7 +70,10 @@ const buildScoredSuggestions =
     return acc;
   };
 
-export const search = (searchTerms: string, suggestionList = suggestions) => {
+export const search = (
+  searchTerms: string,
+  suggestionList = suggestionsWithAnswers,
+) => {
   const searchWords = splitWords(normalize(searchTerms));
 
   return suggestionList.reduce(buildScoredSuggestions(searchWords), []);
