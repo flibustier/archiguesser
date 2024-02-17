@@ -7190,5 +7190,58 @@
     "years": "1514",
     "links": ["https://en.wikipedia.org/wiki/Hampton_Court_Palace"],
     "categories": ["community", "monument"]
+  },
+  {
+    "answer": "North Carolina Museum of Art / Thomas Phifer and Partners / Raleigh, North Carolina, United States of America (USA)",
+    "days": [597],
+    "copyrights": [
+      {
+        "*": "Iwan Baan",
+        "4": "Scott Frances",
+        "5": "Scott Frances",
+        "6": "Scott Frances"
+      }
+    ],
+    "years": "2010",
+    "links": [
+      "https://en.wikipedia.org/wiki/North_Carolina_Museum_of_Art",
+      "https://www.thomasphifer.com/projects/north-carolina-museum-of-art-iwan-baan"
+    ],
+    "categories": ["community", "museum"]
+  },
+
+  {
+    "answer": "25 Green (Condominio 25 Verde) / Luciano Pia / Torino, Italy",
+    "days": [599],
+    "copyrights": [
+      {
+        "*": "Beppe Giardino"
+      }
+    ],
+    "years": "2010-2013",
+    "links": [
+      "https://it.wikipedia.org/wiki/Condominio_25_verde",
+      "https://www.archdaily.com/609260/25-green-luciano-pia"
+    ],
+    "categories": ["community", "housing"]
+  },
+  {
+    "answer": "Basilica of Notre-Dame de Fourvière (Basilique Notre-Dame de Fourvière) / Pierre Bossan, Louis Sainte-Marie Perrin / Lyon, France",
+    "days": [600],
+    "copyrights": [
+      {
+        "1": "Jean-Christophe BENOIST (wikimedia)",
+        "2": "Jean-Christophe BENOIST (wikimedia)",
+        "3": "Vassil (wikimedia)",
+        "4": "Davric (wikimedia)",
+        "5": "Anonyme (wikimedia)",
+        "6": "MickaëlG (wikimedia)"
+      }
+    ],
+    "years": "1872-1884",
+    "links": [
+      "https://en.wikipedia.org/wiki/Basilica_of_Notre-Dame_de_Fourvi%C3%A8re"
+    ],
+    "categories": ["religious", "favorites"]
   }
 ]
