@@ -7192,6 +7192,25 @@
     "categories": ["community", "monument"]
   },
   {
+    "answer": "North Carolina Museum of Art / Thomas Phifer and Partners / Raleigh, North Carolina, United States of America (USA)",
+    "days": [597],
+    "copyrights": [
+      {
+        "*": "Iwan Baan",
+        "4": "Scott Frances",
+        "5": "Scott Frances",
+        "6": "Scott Frances"
+      }
+    ],
+    "years": "2010",
+    "links": [
+      "https://en.wikipedia.org/wiki/North_Carolina_Museum_of_Art",
+      "https://www.thomasphifer.com/projects/north-carolina-museum-of-art-iwan-baan"
+    ],
+    "categories": ["community", "museum"]
+  },
+
+  {
     "answer": "25 Green (Condominio 25 Verde) / Luciano Pia / Torino, Italy",
     "days": [599],
     "copyrights": [
