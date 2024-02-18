@@ -3,6 +3,8 @@ import { capitalize, ref } from "vue";
 
 import BaseModal from "./BaseModal.vue";
 import IconTrophy from "../icons/IconTrophy.vue";
+import IconLocked from "../icons/IconLocked.vue";
+import IconUnlocked from "../icons/IconUnlocked.vue";
 
 import {
   ITEMS_PER_LEVEL,
@@ -10,10 +12,8 @@ import {
   LISTED_CATEGORIES,
   LOCKED_CATEGORIES_LOGGED,
 } from "@/config.json";
-import { getChallenges, isLogged } from "@/services/store";
 import { getProjectsByCategory } from "@/services/projects";
-import IconLocked from "../icons/IconLocked.vue";
-import IconUnlocked from "../icons/IconUnlocked.vue";
+import { getChallenges, isLogged } from "@/services/store";
 
 const categories = [...LISTED_CATEGORIES, ...LOCKED_CATEGORIES_LOGGED];
 
@@ -92,15 +92,19 @@ const maxLevel = (category: string) =>
                 :alt="`#${i}`"
               />
               <div class="thumbnail-overlay">
-                <span class="category">{{ capitalize(category) }}</span>
-                <span class="level">
-                  <IconTrophy />
-                  {{ currentLevel(category) }}/{{ maxLevel(category) }}
-                </span>
-                <template v-if="isCategoryLocked(category)">
-                  <span>{{ dynamicTextByCategory[category] }}</span>
-                  <IconLocked v-if="!isLogged()" />
-                  <IconUnlocked v-else />
+                <span v-if="dynamicTextByCategory[category] !== ''">{{
+                  dynamicTextByCategory[category]
+                }}</span>
+                <template v-else>
+                  <span class="category">{{ capitalize(category) }}</span>
+                  <span class="level">
+                    <IconTrophy />
+                    {{ currentLevel(category) }}/{{ maxLevel(category) }}
+                  </span>
+                  <template v-if="isCategoryLocked(category)">
+                    <IconLocked v-if="!isLogged()" />
+                    <IconUnlocked v-else />
+                  </template>
                 </template>
               </div>
             </div>
@@ -165,6 +169,7 @@ const maxLevel = (category: string) =>
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  overflow: hidden;
 }
 
 .clickable:hover {
