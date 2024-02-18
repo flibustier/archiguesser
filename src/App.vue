@@ -2,7 +2,9 @@
 import { ref } from "vue";
 
 import { isLogged } from "./services/store";
-import { LISTED_CATEGORIES } from "./config.json";
+import { LISTED_CATEGORIES, LOCKED_CATEGORIES_LOGGED } from "./config.json";
+
+const ALL_CATEGORIES = [...LISTED_CATEGORIES, ...LOCKED_CATEGORIES_LOGGED];
 
 import InfoModal from "./components/modals/InfoModal.vue";
 import BackModal from "./components/modals/BackModal.vue";
@@ -25,7 +27,7 @@ const showArcadeModal = ref(false);
 const showFeedbackModal = ref(false);
 
 const urlParameters = new URLSearchParams(window.location.search);
-const isArcadeMode = LISTED_CATEGORIES.includes(
+const isArcadeMode = ALL_CATEGORIES.includes(
   urlParameters.get("challenge") || "",
 );
 </script>
@@ -36,8 +38,11 @@ const isArcadeMode = LISTED_CATEGORIES.includes(
   <UserModal v-model:is-visible="showUserModal" />
   <ScoreModal v-model:is-visible="showScoreModal" />
   <LogInModal v-model:is-visible="showLogInModal" />
-  <ArcadeModal v-model:is-visible="showArcadeModal" />
   <FeedbackModal v-model:is-visible="showFeedbackModal" />
+  <ArcadeModal
+    v-model:is-visible="showArcadeModal"
+    @showLogInModal="showLogInModal = true"
+  />
 
   <HeaderNavigator
     @showBackModal="showBackModal = true"
