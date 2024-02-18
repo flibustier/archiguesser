@@ -1,12 +1,28 @@
 <script setup lang="ts">
-import { capitalize } from "vue";
+import { capitalize, ref } from "vue";
 
 import BaseModal from "./BaseModal.vue";
 import IconTrophy from "../icons/IconTrophy.vue";
 
-import { ITEMS_PER_LEVEL, MAX_LEVEL, LISTED_CATEGORIES } from "@/config.json";
+import {
+  ITEMS_PER_LEVEL,
+  MAX_LEVEL,
+  LISTED_CATEGORIES,
+  LOCKED_CATEGORIES_LOGGED,
+} from "@/config.json";
+import { getChallenges, isLogged } from "@/services/store";
 import { getProjectsByCategory } from "@/services/projects";
-import { getChallenges } from "@/services/store";
+import IconLocked from "../icons/IconLocked.vue";
+import IconUnlocked from "../icons/IconUnlocked.vue";
+
+const categories = [...LISTED_CATEGORIES, ...LOCKED_CATEGORIES_LOGGED];
+
+const dynamicTextByCategory = ref(
+  categories.reduce(
+    (byCategory, category) => ({ ...byCategory, [category]: "" }),
+    {} as { [key: string]: string },
+  ),
+);
 
 defineProps({
   isVisible: {
@@ -15,11 +31,27 @@ defineProps({
   },
 });
 
-const emit = defineEmits(["update:isVisible"]);
+const emit = defineEmits(["update:isVisible", "showLogInModal"]);
 const closeModal = () => emit("update:isVisible", false);
 
-const goToCategory = (category: string) =>
-  (window.location.href = `/?challenge=${category}`);
+const isCategoryLocked = (category: string) =>
+  LOCKED_CATEGORIES_LOGGED.includes(category);
+
+const goToCategory = (category: string) => {
+  if (isCategoryLocked(category) && !isLogged()) {
+    if (dynamicTextByCategory.value[category] !== "") {
+      closeModal();
+      emit("showLogInModal");
+    }
+    dynamicTextByCategory.value[category] =
+      "You must be signed in to play this challenge (click again to sign in)";
+    setTimeout(() => {
+      dynamicTextByCategory.value[category] = "";
+    }, 10_000);
+  } else {
+    window.location.href = `/?challenge=${category}`;
+  }
+};
 
 const currentLevel = (category: string) => getChallenges()[category] || 0;
 const maxLevel = (category: string) =>
@@ -49,7 +81,7 @@ const maxLevel = (category: string) =>
 
         <div class="image-grid">
           <div
-            v-for="(category, i) of LISTED_CATEGORIES"
+            v-for="(category, i) of categories"
             :key="category"
             @click="goToCategory(category)"
           >
@@ -61,11 +93,15 @@ const maxLevel = (category: string) =>
               />
               <div class="thumbnail-overlay">
                 <span class="category">{{ capitalize(category) }}</span>
-                <span class="level"
-                  ><IconTrophy />{{ currentLevel(category) }}/{{
-                    maxLevel(category)
-                  }}</span
-                >
+                <span class="level">
+                  <IconTrophy />
+                  {{ currentLevel(category) }}/{{ maxLevel(category) }}
+                </span>
+                <template v-if="isCategoryLocked(category)">
+                  <span>{{ dynamicTextByCategory[category] }}</span>
+                  <IconLocked v-if="!isLogged()" />
+                  <IconUnlocked v-else />
+                </template>
               </div>
             </div>
           </div>

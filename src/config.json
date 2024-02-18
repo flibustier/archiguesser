@@ -6,20 +6,13 @@
   "ITEMS_PER_LEVEL": 5,
   "MAX_LEVEL": 5,
   "ANONYMOUS_RETRIES": 3,
-  "LOGGED_RETRIES": 7,
-  "LOCKED_CATEGORIES": [
-    "concert hall",
-    "contemporary",
-    "Netherlands",
-    "Renzo Piano"
-  ],
+  "LOGGED_RETRIES": 6,
   "LISTED_CATEGORIES": [
     "famous",
     "monument",
     "museum",
     "castle",
     "library",
-    "modernism",
     "religious",
     "skyscraper",
     "United States of America (USA)",
@@ -32,7 +25,16 @@
     "Portugal",
     "Italy",
     "Le Corbusier",
-    "Zaha Hadid",
-    "Jean Nouvel"
+    "Zaha Hadid"
+  ],
+  "LOCKED_CATEGORIES_LOGGED": [
+    "Jean Nouvel",
+    "Renzo Piano",
+    "concert hall",
+    "modernism",
+    "contemporary",
+    "housing",
+    "Netherlands",
+    "Brazil"
   ]
 }
