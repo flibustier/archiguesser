@@ -7209,7 +7209,18 @@
     ],
     "categories": ["community", "museum"]
   },
-
+  {
+    "answer": "Green School New Zealand / BOON TEAM Architects / Taranaki, New Zealand",
+    "days": [598],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2020",
+    "links": ["https://www.boon.co.nz/projects/green-school-new-zealand/"],
+    "categories": ["community", "school"]
+  },
   {
     "answer": "25 Green (Condominio 25 Verde) / Luciano Pia / Torino, Italy",
     "days": [599],
