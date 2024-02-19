@@ -149,10 +149,11 @@ export const signIn = async (
 };
 
 export const fetchWikipediaSummary = async (link: string): Promise<string> => {
-  if (link.includes("https://en.wikipedia.org/wiki/")) {
-    const pageTitle = link.slice("https://en.wikipedia.org/wiki/".length);
+  if (link.includes("wikipedia.org/wiki/")) {
+    const pageTitle = link.slice("https://**.wikipedia.org/wiki/".length);
+    const domain = link.slice(0, "https://**.wikipedia.org".length);
     const resp = await fetch(
-      `https://en.wikipedia.org/w/api.php?origin=*&format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${pageTitle}`,
+      `${domain}/w/api.php?origin=*&format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${pageTitle}`,
     );
     if (resp.ok) {
       const {
