@@ -3633,7 +3633,7 @@
   },
   {
     "answer": "SESC Pompeia Factory / Lina Bo Bardi / Sao Paulo, Brazil",
-    "days": [237],
+    "days": [237, 601],
     "copyrights": [
       {
         "4": "Courtesy of the Architect",
@@ -3642,8 +3642,11 @@
       }
     ],
     "years": "1977-1986",
-    "links": ["https://en.wikiarquitectura.com/building/SESC-Pompeia-Factory/"],
-    "categories": []
+    "links": [
+      "https://pt.wikipedia.org/wiki/Sesc_Pompeia",
+      "https://en.wikiarquitectura.com/building/SESC-Pompeia-Factory/"
+    ],
+    "categories": ["refurbishment"]
   },
   {
     "answer": "Ca' d'Oro (Palazzo Santa Sofia) / Marco d'Amadio / Venice, Italy",
