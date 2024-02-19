@@ -5,6 +5,12 @@ const getProjectByDayNumber = (dayNumber: number) =>
   data.find(({ days }) => days.includes(dayNumber));
 
 export const lastDay = () => Math.max(...data.flatMap(({ days }) => days));
+const lastDayBeforeRealDayNumber = () =>
+  Math.max(
+    ...data
+      .flatMap(({ days }) => days)
+      .filter((day) => day <= getRealDayNumber()),
+  );
 
 export const isMonument = (dayNumber: number): boolean => {
   const { categories = [] } = getProjectByDayNumber(dayNumber) || {};
@@ -38,8 +44,8 @@ export const getProjectInformation = (
   let dayNumber = day ? parseInt(day) : getRealDayNumber();
 
   if (!data.some(({ days }) => days.includes(dayNumber))) {
-    // fallback on last day when the day is not available yet
-    dayNumber = lastDay();
+    // fallback on last previous day when the day is not available yet
+    dayNumber = lastDayBeforeRealDayNumber();
   }
 
   const dayInformation = getProjectByDayNumber(dayNumber);
