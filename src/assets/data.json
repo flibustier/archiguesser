@@ -7257,5 +7257,18 @@
       "https://en.wikipedia.org/wiki/Basilica_of_Notre-Dame_de_Fourvi%C3%A8re"
     ],
     "categories": ["religious", "favorites"]
+  },
+  {
+    "answer": "Casa Vicens (Vicens House) / Antoni Gaudí / Barcelona, Spain",
+    "days": [602],
+    "copyrights": [
+      {
+        "*": "Canaan (wikimedia)",
+        "5": "Pol Viladoms (wikimedia)"
+      }
+    ],
+    "years": "1883-1885",
+    "links": ["https://en.wikipedia.org/wiki/Casa_Vicens"],
+    "categories": ["Catalan art nouveau"]
   }
 ]
