@@ -7270,5 +7270,17 @@
     "years": "1883-1885",
     "links": ["https://en.wikipedia.org/wiki/Casa_Vicens"],
     "categories": ["Catalan art nouveau"]
+  },
+  {
+    "answer": "Holmes ROAD studios / Peter Barber Architects / Kentish Town, Camden, London, United Kingdom (UK)",
+    "days": [603],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2014-2016",
+    "links": ["https://www.peterbarberarchitects.com/holmes-road-studios"],
+    "categories": ["community", "housing", "social housing"]
   }
 ]
