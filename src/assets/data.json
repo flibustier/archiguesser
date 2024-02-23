@@ -7282,5 +7282,21 @@
     "years": "2014-2016",
     "links": ["https://www.peterbarberarchitects.com/holmes-road-studios"],
     "categories": ["community", "housing", "social housing"]
+  },
+  {
+    "answer": "AT&T Long Lines Building / John Carl Warnecke & Associates / 33 Thomas Street, New York, United States of America (USA)",
+    "days": [604],
+    "copyrights": [
+      {
+        "*": "Billie Grace Ward (wikimedia)",
+        "2": "Courtesy of the Architect",
+        "3": "Jeremy Keith (flickr)",
+        "4": "Courtesy of the Architect",
+        "6": "Gunnar Klack (wikimedia)"
+      }
+    ],
+    "years": "1974",
+    "links": ["https://en.wikipedia.org/wiki/33_Thomas_Street"],
+    "categories": ["community", "brutalism"]
   }
 ]
