@@ -7282,5 +7282,39 @@
     "years": "2014-2016",
     "links": ["https://www.peterbarberarchitects.com/holmes-road-studios"],
     "categories": ["community", "housing", "social housing"]
+  },
+  {
+    "answer": "AT&T Long Lines Building / John Carl Warnecke & Associates / 33 Thomas Street, New York, United States of America (USA)",
+    "days": [604],
+    "copyrights": [
+      {
+        "*": "Billie Grace Ward (wikimedia)",
+        "2": "Courtesy of the Architect",
+        "3": "Jeremy Keith (flickr)",
+        "4": "Courtesy of the Architect",
+        "6": "Gunnar Klack (wikimedia)"
+      }
+    ],
+    "years": "1974",
+    "links": ["https://en.wikipedia.org/wiki/33_Thomas_Street"],
+    "categories": ["community", "brutalism"]
+  },
+  {
+    "answer": "Parlement Européen Louise-Weiss (IPE 4, Seat of the European Parliament in Strasbourg) / Architecture Studio / Strasbourg, France",
+    "days": [605],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "1": "Le Commissaire (wikimedia)",
+        "4": "Diliff (wikimedia)",
+        "5": "Archives DNA",
+        "6": "Claude Truong-Ngoc (wikimedia)"
+      }
+    ],
+    "years": "1993-1999",
+    "links": [
+      "https://en.wikipedia.org/wiki/Seat_of_the_European_Parliament_in_Strasbourg"
+    ],
+    "categories": ["community", "institution"]
   }
 ]
