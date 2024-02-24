@@ -7316,5 +7316,36 @@
       "https://en.wikipedia.org/wiki/Seat_of_the_European_Parliament_in_Strasbourg"
     ],
     "categories": ["community", "institution"]
+  },
+  {
+    "answer": "Dresden Frauenkirche (Church of Our Lady) / George Bähr / Dresden, Germany",
+    "days": [606],
+    "copyrights": [
+      {
+        "1": "T meltzer (wikimedia)",
+        "2": "Gryffindor (wikimedia)",
+        "3": "NoRud (wikimedia)",
+        "4": "DONTORBO (wikimedia)",
+        "5": "Unknown (1880, wikimedia)",
+        "6": "Netopyr (wikimedia)"
+      }
+    ],
+    "years": "1726-1743",
+    "links": ["https://en.wikipedia.org/wiki/Frauenkirche,_Dresden"],
+    "categories": ["religious"]
+  },
+  {
+    "answer": "Koninklijk Theater Tuschinski (Royal Theatre Tuschinski) / Hijman Louis de Jong, Willem Kromhout / Amsterdam, Netherlands",
+    "days": [607],
+    "copyrights": [
+      {
+        "*": "Txllxt TxllxT (wikimedia)",
+        "2": "Hoogewoud, R. (wikimedia)",
+        "6": "Thomas Laconis (wikimedia)"
+      }
+    ],
+    "years": "1919-1921",
+    "links": ["https://en.wikipedia.org/wiki/Tuschinski_Theatre"],
+    "categories": ["community", "art-nouveau"]
   }
 ]
