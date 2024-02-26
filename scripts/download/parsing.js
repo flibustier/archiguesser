@@ -1,4 +1,4 @@
-const { uniq } = require("./utils");
+const { uniq, filename } = require("./utils");
 
 const handleRelativeURL =
   (rootURL) =>
@@ -16,12 +16,17 @@ const handleRelativeURL =
     );
   };
 
-const decodeHTMLentities = (url) => url.replaceAll("&#39;", "'");
+const decodeHTMLentities = (url) =>
+  url.replaceAll("&#39;", "'").replaceAll("&amp;", "&");
 
-const blacklistURLs = (imageURL) => !imageURL.startsWith("//assets.adsttc.com");
+const blacklistURLs = (imageURL) =>
+  !(
+    imageURL.startsWith("//assets.adsttc.com") ||
+    imageURL.startsWith("//snoopy.archdaily.com")
+  );
 
 const imageRegex =
-  /['"](?:https?:)?(\/?\/?[./\w\d_'&©#;%-]+?\.(?:jpg|JPG|jpeg|JPEG|webp))\??[^'"]*['"]/g;
+  /['"\s](?:https?:)?(\/?\/?[./\w\d_'&©#;%-]+?\.(?:jpg|JPG|jpeg|JPEG|webp)\??[^'"\s]*)['"\s]/g;
 const captionRegex = /<figcaption .* id='(.*)'>([^<]*)<\/figcaption>/g;
 
 const extractImageURLs = (url, html) => {
@@ -30,11 +35,36 @@ const extractImageURLs = (url, html) => {
       .map(handleRelativeURL(url))
       .map(decodeHTMLentities)
       .filter(blacklistURLs),
-  );
+  )
+    .reduce(selectBestQualityWhenSameFileName, [])
+    .map(({ url }) => url);
 
   console.log(imageURLs);
 
   return imageURLs.slice(0);
+};
+
+const selectBestQualityWhenSameFileName = (filtered, currentURL) => {
+  const currentFileName = filename(currentURL);
+  const params = new URLSearchParams(currentURL);
+  const width = parseInt(params.get("w") || "0");
+  const current = {
+    filename: currentFileName,
+    url: currentURL,
+    width,
+  };
+
+  const sameFileNameExists = filtered.findIndex(
+    ({ filename }) => filename === currentFileName,
+  );
+
+  if (sameFileNameExists === -1) {
+    filtered.push(current);
+  } else if (width > filtered[sameFileNameExists].width) {
+    filtered[sameFileNameExists] = current;
+  }
+
+  return filtered;
 };
 
 const patchArchDailyID = (imageID) =>

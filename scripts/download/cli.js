@@ -1,9 +1,10 @@
 const axios = require("axios");
 const { createWriteStream, existsSync, mkdirSync } = require("fs");
-const { basename, join } = require("path");
+const { join } = require("path");
 
-const { extractImageURLs } = require("./parsing");
+const { filename } = require("./utils");
 const { patchURLs } = require("./transformers");
+const { extractImageURLs } = require("./parsing");
 
 // some https website have no intermediate certificate, causing axios panic error
 // as we are only fetching from this website without sensible data, we can simply disable tls encryption
@@ -82,9 +83,7 @@ const downloadFile = (directory) => (url, index) =>
     responseType: "stream",
   }).then((response) =>
     response.data.pipe(
-      createWriteStream(
-        `./${directory}/x${index}-${decodeURI(basename(url.split("?")[0]))}`,
-      ),
+      createWriteStream(`./${directory}/x${index}-${filename(url)}`),
     ),
   );
 
