@@ -7318,21 +7318,18 @@
     "categories": ["community", "institution"]
   },
   {
-    "answer": "Dresden Frauenkirche (Church of Our Lady) / George Bähr / Dresden, Germany",
+    "answer": "Heidelberg Castle (Heidelberger Schloss) / Heidelberg, Germany",
     "days": [606],
     "copyrights": [
       {
-        "1": "T meltzer (wikimedia)",
-        "2": "Gryffindor (wikimedia)",
-        "3": "NoRud (wikimedia)",
-        "4": "DONTORBO (wikimedia)",
-        "5": "Unknown (1880, wikimedia)",
-        "6": "Netopyr (wikimedia)"
+        "*": "Jean-Christophe BENOIST (wikimedia)",
+        "4": "Jacques Fouquières (1620, wikimedia)",
+        "6": "Pumuckel42 (wikimedia)"
       }
     ],
-    "years": "1726-1743",
-    "links": ["https://en.wikipedia.org/wiki/Frauenkirche,_Dresden"],
-    "categories": ["religious"]
+    "years": "1214",
+    "links": ["https://en.wikipedia.org/wiki/Heidelberg_Castle"],
+    "categories": ["community", "castle"]
   },
   {
     "answer": "Koninklijk Theater Tuschinski (Royal Theatre Tuschinski) / Hijman Louis de Jong, Willem Kromhout / Amsterdam, Netherlands",
@@ -7347,5 +7344,20 @@
     "years": "1919-1921",
     "links": ["https://en.wikipedia.org/wiki/Tuschinski_Theatre"],
     "categories": ["community", "art-nouveau"]
+  },
+  {
+    "answer": "Scion Innovation Hub / RTA Studio, Irving Smith Architects / Rotorua, New Zealand",
+    "days": [608],
+    "copyrights": [
+      {
+        "*": "Patrick Reynolds"
+      }
+    ],
+    "years": "2020",
+    "links": [
+      "https://rtastudio.co.nz/portfolio/scion-hub",
+      "https://www.archdaily.com/972151/scion-innovation-hub-rta-studio-plus-irving-smith-architects"
+    ],
+    "categories": ["community", "office"]
   }
 ]
