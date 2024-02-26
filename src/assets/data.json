@@ -7371,5 +7371,19 @@
     "years": "2018-2023",
     "links": ["https://www.snohetta.com/projects/beijing-city-library"],
     "categories": ["library", "contemporary"]
+  },
+  {
+    "answer": "Hasselt Court of Justice (Gerechtsgebouw, De Hazelaar) / J. Mayer H. Architects, a2o architecten, Lens°Ass architecten / Hasselt, Belgium",
+    "days": [610],
+    "copyrights": [
+      {
+        "*": "Filip Dujardin "
+      }
+    ],
+    "years": "2007",
+    "links": [
+      "https://www.archdaily.com/309779/hasselt-court-of-justice-j-mayer-h-architects-a2o-architecten-lensass-architecten"
+    ],
+    "categories": ["community", "courthouse"]
   }
 ]
