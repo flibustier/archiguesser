@@ -7359,5 +7359,17 @@
       "https://www.archdaily.com/972151/scion-innovation-hub-rta-studio-plus-irving-smith-architects"
     ],
     "categories": ["community", "office"]
+  },
+  {
+    "answer": "Beijing City Library / Snøhetta, ECADI / Beijing, China",
+    "days": [609],
+    "copyrights": [
+      {
+        "*": "Yumeng Zhu"
+      }
+    ],
+    "years": "2018-2023",
+    "links": ["https://www.snohetta.com/projects/beijing-city-library"],
+    "categories": ["library", "contemporary"]
   }
 ]
