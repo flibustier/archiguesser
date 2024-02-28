@@ -7400,5 +7400,23 @@
     "years": "1887",
     "links": ["https://en.wikipedia.org/wiki/Eldridge_Street_Synagogue"],
     "categories": ["religious"]
+  },
+  {
+    "answer": "Villa Majorelle (Villa Jika) / Henri Sauvage, Lucien Weissenburger / Nancy, France",
+    "days": [612],
+    "copyrights": [
+      {
+        "*": "Olivier Mathiotte (wikimedia)",
+        "2": "Liné1 (wikimedia)",
+        "4": "Philippe Caron (wikimedia)",
+        "5": "Frantz Jourdain’s Article (wikimedia)",
+        "6": "Chabe01 (wikimedia)"
+      }
+    ],
+    "years": "1901-1902",
+    "links": [
+      "https://en.wikipedia.org/wiki/Louis_Majorelle#The_Villa_Majorelle"
+    ],
+    "categories": ["community", "art-nouveau"]
   }
 ]
