@@ -1,6 +1,14 @@
 const { uniq } = require("./utils");
 
-const patchWikipediaURL = (thumbnailURL) => thumbnailURL.replace("thumb/", "");
+const wikipediaURL =
+  /^(.*\/wikipedia\/commons\/(?:thumb\/)?.*?)(?:\/\d{2,4}px-.*)?$/;
+const patchWikipediaURL = (thumbnailURL) => {
+  const match = wikipediaURL.exec(thumbnailURL);
+  if (match && match.length === 2) {
+    return match[1].replace("thumb/", "");
+  }
+  return thumbnailURL;
+};
 
 const patchWordPressURL = (thumbnailURL) =>
   thumbnailURL.replace(/[-.]\d+x\d+\.jpg/, ".jpg");

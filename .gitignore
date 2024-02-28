@@ -1,6 +1,7 @@
 data
 stats.html
 sources
+.env
 
 # Logs
 logs
