@@ -21,19 +21,19 @@ defineEmits([
         <a href="/" id="brand">ArchiGuesser</a>
       </div>
       <div class="nav-block nav-right">
-        <a @click="$emit('showBackModal')">
+        <a @click="$emit('showBackModal')" href="#">
           <IconBack />
         </a>
-        <a @click="$emit('showArcadeModal')">
+        <a @click="$emit('showArcadeModal')" href="#">
           <IconTrophy />
         </a>
-        <a @click="$emit('showScoreModal')">
+        <a @click="$emit('showScoreModal')" href="#">
           <IconScoreboard />
         </a>
-        <a @click="$emit('showUserModal')">
+        <a @click="$emit('showUserModal')" href="#">
           <IconUser />
         </a>
-        <a @click="$emit('showInfoModal')">
+        <a @click="$emit('showInfoModal')" href="#">
           <IconHelp />
         </a>
       </div>
