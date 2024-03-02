@@ -7382,8 +7382,41 @@
     ],
     "years": "2007",
     "links": [
+      "https://nl.wikipedia.org/wiki/Gerechtsgebouw_(Hasselt)",
       "https://www.archdaily.com/309779/hasselt-court-of-justice-j-mayer-h-architects-a2o-architecten-lensass-architecten"
     ],
     "categories": ["community", "courthouse"]
+  },
+  {
+    "answer": "Eldridge Street Synagogue / Peter Herter, Francis William Herter / New York, United States of America (USA)",
+    "days": [611],
+    "copyrights": [
+      {
+        "*": "AnneRuthmann (wikimedia)",
+        "4": "Rhododendrites (wikimedia)",
+        "6": "GK tramrunner (wikimedia)"
+      }
+    ],
+    "years": "1887",
+    "links": ["https://en.wikipedia.org/wiki/Eldridge_Street_Synagogue"],
+    "categories": ["religious"]
+  },
+  {
+    "answer": "Villa Majorelle (Villa Jika) / Henri Sauvage, Lucien Weissenburger / Nancy, France",
+    "days": [612],
+    "copyrights": [
+      {
+        "*": "Olivier Mathiotte (wikimedia)",
+        "2": "Liné1 (wikimedia)",
+        "4": "Philippe Caron (wikimedia)",
+        "5": "Frantz Jourdain’s Article (wikimedia)",
+        "6": "Chabe01 (wikimedia)"
+      }
+    ],
+    "years": "1901-1902",
+    "links": [
+      "https://en.wikipedia.org/wiki/Louis_Majorelle#The_Villa_Majorelle"
+    ],
+    "categories": ["community", "art-nouveau"]
   }
 ]
