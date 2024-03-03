@@ -7418,5 +7418,34 @@
       "https://en.wikipedia.org/wiki/Louis_Majorelle#The_Villa_Majorelle"
     ],
     "categories": ["community", "art-nouveau"]
+  },
+  {
+    "answer": "The Weston Visitor Centre and Gallery / Feilden Fowles / Yorkshire Sculpture Park, West Bretton, United Kingdom (UK)",
+    "days": [613],
+    "copyrights": [
+      {
+        "*": "Peter Cook"
+      }
+    ],
+    "years": "2019",
+    "links": ["https://www.feildenfowles.co.uk/the-weston/"],
+    "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Château Frontenac / Bruce Price / Quebec, Canada",
+    "days": [614],
+    "copyrights": [
+      {
+        "1": "Thomas1313 (wikimedia)",
+        "2": "Wilfredo Rafael Rodriguez Hernandez (wikimedia)",
+        "3": "Courtesy of the Architect",
+        "4": "Detroit Publishing Co(wikimedia)",
+        "5": "0x010C (wikimedia)",
+        "6": "Bernard Gagnon (wikimedia)"
+      }
+    ],
+    "years": "1893",
+    "links": ["https://en.wikipedia.org/wiki/Ch%C3%A2teau_Frontenac"],
+    "categories": ["castle"]
   }
 ]
