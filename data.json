@@ -2364,8 +2364,8 @@
     "categories": ["monument", "famous"]
   },
   {
-    "answer": "Kunsthaus de Graz / Colin Fournier, Peter Cook / Graz, Austria",
-    "days": [151],
+    "answer": "Kunsthaus Graz (Graz Art Museum) / Colin Fournier, Peter Cook / Graz, Austria",
+    "days": [151, 613],
     "copyrights": [
       {
         "1": "Christian Plach",
@@ -2377,8 +2377,8 @@
       }
     ],
     "years": "2001-2003",
-    "links": ["https://en.wikiarquitectura.com/building/Kunsthaus-de-Graz/"],
-    "categories": []
+    "links": ["https://en.wikipedia.org/wiki/Kunsthaus_Graz"],
+    "categories": ["museum"]
   },
   {
     "answer": "Central Library of the National Autonomous University of Mexico (UNAM) / Juan O'Gorman / Ciudad Universitaria, Coyoacán, Mexico City, Mexico",
@@ -7418,5 +7418,34 @@
       "https://en.wikipedia.org/wiki/Louis_Majorelle#The_Villa_Majorelle"
     ],
     "categories": ["community", "art-nouveau"]
+  },
+  {
+    "answer": "The Weston Visitor Centre and Gallery / Feilden Fowles / Yorkshire Sculpture Park, West Bretton, United Kingdom (UK)",
+    "days": [615],
+    "copyrights": [
+      {
+        "*": "Peter Cook"
+      }
+    ],
+    "years": "2019",
+    "links": ["https://www.feildenfowles.co.uk/the-weston/"],
+    "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Château Frontenac / Bruce Price / Quebec, Canada",
+    "days": [614],
+    "copyrights": [
+      {
+        "1": "Thomas1313 (wikimedia)",
+        "2": "Wilfredo Rafael Rodriguez Hernandez (wikimedia)",
+        "3": "Courtesy of the Architect",
+        "4": "Detroit Publishing Co(wikimedia)",
+        "5": "0x010C (wikimedia)",
+        "6": "Bernard Gagnon (wikimedia)"
+      }
+    ],
+    "years": "1893",
+    "links": ["https://en.wikipedia.org/wiki/Ch%C3%A2teau_Frontenac"],
+    "categories": ["castle"]
   }
 ]
