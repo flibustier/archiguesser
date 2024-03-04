@@ -2364,8 +2364,8 @@
     "categories": ["monument", "famous"]
   },
   {
-    "answer": "Kunsthaus de Graz / Colin Fournier, Peter Cook / Graz, Austria",
-    "days": [151],
+    "answer": "Kunsthaus Graz (Graz Art Museum) / Colin Fournier, Peter Cook / Graz, Austria",
+    "days": [151, 613],
     "copyrights": [
       {
         "1": "Christian Plach",
@@ -2377,8 +2377,8 @@
       }
     ],
     "years": "2001-2003",
-    "links": ["https://en.wikiarquitectura.com/building/Kunsthaus-de-Graz/"],
-    "categories": []
+    "links": ["https://en.wikipedia.org/wiki/Kunsthaus_Graz"],
+    "categories": ["museum"]
   },
   {
     "answer": "Central Library of the National Autonomous University of Mexico (UNAM) / Juan O'Gorman / Ciudad Universitaria, Coyoacán, Mexico City, Mexico",
@@ -7421,7 +7421,7 @@
   },
   {
     "answer": "The Weston Visitor Centre and Gallery / Feilden Fowles / Yorkshire Sculpture Park, West Bretton, United Kingdom (UK)",
-    "days": [613],
+    "days": [615],
     "copyrights": [
       {
         "*": "Peter Cook"
