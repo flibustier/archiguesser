@@ -2881,15 +2881,16 @@
   },
   {
     "answer": "4x4 House / Tadao Ando / Tarumi-ku, Kobe, Hyogo, Japan",
-    "days": [184],
+    "days": [184, 616],
     "copyrights": [
       {
         "3": "Thibault.Patou (pinterest)",
         "*": "Hiromitsu Morimoto (wikiarquitectura)"
       }
     ],
-    "links": ["https://en.wikiarquitectura.com/building/4x4-House/"],
-    "categories": []
+    "years": "2003",
+    "links": ["https://en.wikipedia.org/wiki/4x4_house"],
+    "categories": ["housing"]
   },
   {
     "answer": "New Museum of Contemporary Art / SANAA, Ryue Nishizawa, Kazuyo Sejima / New York, United States of America (USA)",
