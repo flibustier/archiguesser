@@ -7421,18 +7421,6 @@
     "categories": ["community", "art-nouveau"]
   },
   {
-    "answer": "The Weston Visitor Centre and Gallery / Feilden Fowles / Yorkshire Sculpture Park, West Bretton, United Kingdom (UK)",
-    "days": [615],
-    "copyrights": [
-      {
-        "*": "Peter Cook"
-      }
-    ],
-    "years": "2019",
-    "links": ["https://www.feildenfowles.co.uk/the-weston/"],
-    "categories": ["community", "museum"]
-  },
-  {
     "answer": "Château Frontenac / Bruce Price / Quebec, Canada",
     "days": [614],
     "copyrights": [
@@ -7448,5 +7436,31 @@
     "years": "1893",
     "links": ["https://en.wikipedia.org/wiki/Ch%C3%A2teau_Frontenac"],
     "categories": ["castle"]
+  },
+  {
+    "answer": "The Weston Visitor Centre and Gallery / Feilden Fowles / Yorkshire Sculpture Park, West Bretton, United Kingdom (UK)",
+    "days": [615],
+    "copyrights": [
+      {
+        "*": "Peter Cook"
+      }
+    ],
+    "years": "2019",
+    "links": ["https://www.feildenfowles.co.uk/the-weston/"],
+    "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Educar II SESC-CE School / Rede Arquitetos / Fortaleza, Brazil",
+    "days": [617],
+    "copyrights": [
+      {
+        "*": "Igor Ribeiro"
+      }
+    ],
+    "years": "2022",
+    "links": [
+      "https://www.archdaily.com/996127/educar-ii-sesc-ce-school-rede-arquitetos"
+    ],
+    "categories": ["community", "school"]
   }
 ]
