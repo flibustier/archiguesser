@@ -786,7 +786,7 @@
       "https://en.wikipedia.org/wiki/Chandigarh",
       "https://en.wikiarquitectura.com/building/Chandigarh/"
     ],
-    "categories": ["modernism"]
+    "categories": ["modernism", "brutalism"]
   },
   {
     "answer": "House in Monsaraz / Aires Mateus / Monsaraz, Portugal",
@@ -872,7 +872,7 @@
       "https://en.wikipedia.org/wiki/Geisel_Library",
       "https://en.wikiarquitectura.com/building/Geisel-Library/"
     ],
-    "categories": ["library"]
+    "categories": ["library", "brutalism"]
   },
   {
     "answer": "(Great) Ziggurat of Ur / Tell el-Muqayyar, Dhi Qar Province, Iraq",
@@ -955,7 +955,7 @@
   },
   {
     "answer": "Villa Savoye / Le Corbusier / Poissy, Paris, France",
-    "days": [55, 339],
+    "days": [55, 339, 619],
     "copyrights": [
       {
         "*": "Paul Kozlowski"
@@ -966,7 +966,7 @@
       "https://en.wikipedia.org/wiki/Villa_Savoye",
       "https://en.wikiarquitectura.com/building/Villa-Savoye/"
     ],
-    "categories": []
+    "categories": ["modernism"]
   },
   {
     "answer": "Japan Pavillion Expo 2000 Hannover / Shigeru Ban, Frei Otto / Hannover, Germany",
@@ -997,7 +997,7 @@
       "https://en.wikipedia.org/wiki/Salk_Institute_for_Biological_Studies",
       "https://en.wikiarquitectura.com/building/Salk-Institute-for-Biological-Studies/"
     ],
-    "categories": []
+    "categories": ["brutalism"]
   },
   {
     "answer": "Cultural Center Jean Marie Tjibaou / Renzo Piano / Nouméa, Nouvelle-Calédonie, France",
@@ -1389,7 +1389,7 @@
       "https://en.wikipedia.org/wiki/Sainte_Marie_de_La_Tourette",
       "https://en.wikiarquitectura.com/building/Convent-of-Sainte-Marie-Tourette/"
     ],
-    "categories": ["modernism"]
+    "categories": ["modernism", "brutalism"]
   },
   {
     "answer": "Eco Boulevard in Vallecas / Ecosistema Urbano, Belinda Tato, Jose Luis Vallejo, Diego García-Setién / Madrid, Spain",
@@ -2787,7 +2787,7 @@
     ],
     "years": "1947-1952",
     "links": ["https://fr.wikipedia.org/wiki/Cit%C3%A9_radieuse_de_Marseille"],
-    "categories": ["modernism"]
+    "categories": ["modernism", "brutalism"]
   },
   {
     "answer": "Capilla San Bernardo (chapel) / Nicolás Campodonico / La Playosa, Argentina",
@@ -3321,8 +3321,9 @@
         "*": "Courtesy of the Owner"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1973-2006",
+    "links": ["https://en.wikipedia.org/wiki/Saint-Pierre,_Firminy"],
+    "categories": ["modernism"]
   },
   {
     "answer": "Luis Barragan House and Studio / Luis Barragán / Miguel Hidalgo district, Mexico City, Mexico",
@@ -3647,7 +3648,7 @@
       "https://pt.wikipedia.org/wiki/Sesc_Pompeia",
       "https://en.wikiarquitectura.com/building/SESC-Pompeia-Factory/"
     ],
-    "categories": ["refurbishment"]
+    "categories": ["refurbishment", "brutalism"]
   },
   {
     "answer": "Ca' d'Oro (Palazzo Santa Sofia) / Marco d'Amadio / Venice, Italy",
@@ -4575,7 +4576,7 @@
     ],
     "years": "1953-1955",
     "links": ["https://en.wikipedia.org/wiki/Notre-Dame_du_Haut"],
-    "categories": []
+    "categories": ["modernism"]
   },
   {
     "answer": "WoZoCo Apartments / MVRDV / Amsterdam, Netherlands",
@@ -5253,7 +5254,7 @@
     ],
     "years": "2009-2013",
     "links": ["https://www.oma.com/projects/de-rotterdam"],
-    "categories": ["contemporary"]
+    "categories": ["modernism"]
   },
   {
     "answer": "CN Tower / John Andrews, Webb Zerafa, Menkes Housden / Toronto, Canada",
@@ -7462,5 +7463,19 @@
       "https://www.archdaily.com/996127/educar-ii-sesc-ce-school-rede-arquitetos"
     ],
     "categories": ["community", "school"]
+  },
+  {
+    "answer": "Bank of London and South America (Banco de Londres y América del Sur) / Clorindo Testa, SEPRA (Santiago Sánchez Elía, Federico Peralta Ramos, Alfredo Agostini) / Buenos Aires, Argentina",
+    "days": [618],
+    "copyrights": [
+      {
+        "*": "Federico Cairoli"
+      }
+    ],
+    "years": "1966",
+    "links": [
+      "https://en.wikipedia.org/wiki/Banco_de_Londres_y_Am%C3%A9rica_del_Sur_Headquarters"
+    ],
+    "categories": ["community", "brutalism"]
   }
 ]
