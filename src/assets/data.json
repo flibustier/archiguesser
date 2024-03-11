@@ -7477,5 +7477,37 @@
       "https://en.wikipedia.org/wiki/Banco_de_Londres_y_Am%C3%A9rica_del_Sur_Headquarters"
     ],
     "categories": ["community", "brutalism"]
+  },
+  {
+    "answer": "Dresden Frauenkirche (Church of Our Lady) / George Bähr / Dresden, Germany",
+    "days": [620],
+    "copyrights": [
+      {
+        "1": "T meltzer (wikimedia)",
+        "2": "Gryffindor (wikimedia)",
+        "3": "NoRud (wikimedia)",
+        "4": "DONTORBO (wikimedia)",
+        "5": "Unknown (1880, wikimedia)",
+        "6": "Netopyr (wikimedia)"
+      }
+    ],
+    "years": "1726-1743",
+    "links": ["https://en.wikipedia.org/wiki/Frauenkirche,_Dresden"],
+    "categories": ["religious"]
+  },
+  {
+    "answer": "41 Cooper Square - The Cooper Union for the Advancement of Science and Art / Morphosis Architects / New York, United States of America (USA)",
+    "days": [621],
+    "copyrights": [
+      {
+        "*": "Iwan Baan",
+        "6": "A. Zahner Company"
+      }
+    ],
+    "years": "2007-2009",
+    "links": [
+      "https://fr.wikiarquitectura.com/b%C3%A2timent/41-cooper-square-cooper-union/"
+    ],
+    "categories": ["community", "institution"]
   }
 ]
