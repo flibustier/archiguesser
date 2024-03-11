@@ -55,7 +55,8 @@ const selectBestQualityWhenSameFileName = (filtered, currentURL) => {
   };
 
   const sameFileNameExists = filtered.findIndex(
-    ({ filename }) => filename === currentFileName,
+    ({ filename }) =>
+      filename === currentFileName && filename !== "stringio.jpg",
   );
 
   if (sameFileNameExists === -1) {

@@ -81,10 +81,13 @@ const downloadFile = (directory) => (url, index) =>
     method: "get",
     url,
     responseType: "stream",
-  }).then((response) =>
-    response.data.pipe(
-      createWriteStream(`./${directory}/x${index}-${filename(url)}`),
-    ),
-  );
+  }).then((response) => {
+    let file = filename(url);
+    if (file === "stringio.jpg") {
+      file = `x${index}-` + file;
+    }
+
+    return response.data.pipe(createWriteStream(`./${directory}/${file}`));
+  });
 
 main();
