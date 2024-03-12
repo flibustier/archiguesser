@@ -7509,5 +7509,19 @@
       "https://fr.wikiarquitectura.com/b%C3%A2timent/41-cooper-square-cooper-union/"
     ],
     "categories": ["community", "institution"]
+  },
+  {
+    "answer": "Brion tomb (Brion sanctuary, Brion-Vega tomba) / Carlo Scarpa / San Vito d'Altivole, Italy",
+    "days": [622],
+    "copyrights": [
+      {
+        "*": "Wittylama (wikimedia)",
+        "1": "Filippo Poli (wikimedia)",
+        "3": "Filippo Poli (wikimedia)"
+      }
+    ],
+    "years": "1968-1978",
+    "links": ["https://en.wikipedia.org/wiki/Brion_tomb"],
+    "categories": ["community", "movie set"]
   }
 ]
