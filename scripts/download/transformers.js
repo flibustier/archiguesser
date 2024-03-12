@@ -1,7 +1,7 @@
 const { uniq } = require("./utils");
 
 const wikipediaURL =
-  /^(.*\/wikipedia\/commons\/(?:thumb\/)?.*?)(?:\/\d{2,4}px-.*)?$/;
+  /^(.*\/wikipedia\/(?:commons|en)\/(?:thumb\/)?.*?)(?:\/\d{2,4}px-.*)?$/;
 const patchWikipediaURL = (thumbnailURL) => {
   const match = wikipediaURL.exec(thumbnailURL);
   if (match && match.length === 2) {

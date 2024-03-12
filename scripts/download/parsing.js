@@ -17,7 +17,10 @@ const handleRelativeURL =
   };
 
 const decodeHTMLentities = (url) =>
-  url.replaceAll("&#39;", "'").replaceAll("&amp;", "&");
+  decodeURI(url)
+    .replaceAll("&#39;", "'")
+    .replaceAll("&amp;", "&")
+    .replaceAll("%2C", ",");
 
 const blacklistURLs = (imageURL) =>
   !(
