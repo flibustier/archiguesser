@@ -7522,6 +7522,24 @@
     ],
     "years": "1968-1978",
     "links": ["https://en.wikipedia.org/wiki/Brion_tomb"],
-    "categories": ["community", "movie set"]
+    "categories": ["community", "modernism", "movie set"]
+  },
+  {
+    "answer": "Barcelona Museum of Contemporary Art (MACBA) / Richard Meier / Barcelona, Spain",
+    "days": [623],
+    "copyrights": [
+      {
+        "*": "Robertgombos (wikimedia)",
+        "2": "Kippelboy (wikimedia)",
+        "4": "Kippelboy (wikimedia)",
+        "5": "Graham Rogers (wikimedia)",
+        "6": "Kim FOR sure (wikimedia)"
+      }
+    ],
+    "years": "1995",
+    "links": [
+      "https://en.wikipedia.org/wiki/Barcelona_Museum_of_Contemporary_Art"
+    ],
+    "categories": ["community", "modernism", "museum"]
   }
 ]
