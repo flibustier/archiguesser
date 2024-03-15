@@ -7541,5 +7541,22 @@
       "https://en.wikipedia.org/wiki/Barcelona_Museum_of_Contemporary_Art"
     ],
     "categories": ["community", "modernism", "museum"]
+  },
+  {
+    "answer": "Peak Tower (凌霄閣) / Terry Farrell (TFP Farrells), Arup / Victoria Gap, Hong Kong",
+    "days": [624],
+    "copyrights": [
+      {
+        "1": "ken93110 (wikimedia)",
+        "2": "Wpcpey (wikimedia)",
+        "3": "Nesnad (wikimedia)",
+        "4": "Nesnad (wikimedia)",
+        "5": "edwin.11 (wikimedia)",
+        "6": "PrzemekJaczewski (wikimedia)"
+      }
+    ],
+    "years": "1993-1997",
+    "links": ["https://en.wikipedia.org/wiki/Peak_Tower"],
+    "categories": ["community", "postmodern"]
   }
 ]
