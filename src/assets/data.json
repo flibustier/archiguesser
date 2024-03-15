@@ -7558,5 +7558,20 @@
     "years": "1993-1997",
     "links": ["https://en.wikipedia.org/wiki/Peak_Tower"],
     "categories": ["community", "postmodern"]
+  },
+  {
+    "answer": "Hill House / Charles Rennie Mackintosh, Margaret MacDonald Mackintosh / Helensburgh, Scotland, United Kingdom (UK)",
+    "days": [625],
+    "copyrights": [
+      {
+        "*": "Tom Parnell (wikimedia)",
+        "3": "Tony Hisgett (wikimedia)",
+        "5": "Remi Mathis (wikimedia)",
+        "6": "Remi Mathis (wikimedia)"
+      }
+    ],
+    "years": "1902-1904",
+    "links": ["https://en.wikipedia.org/wiki/Hill_House,_Helensburgh"],
+    "categories": ["community", "housing"]
   }
 ]
