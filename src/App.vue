@@ -18,12 +18,12 @@ import HeaderNavigator from "./components/HeaderNavigator.vue";
 import DailyPage from "./pages/DailyPage.vue";
 import ArcadePage from "./pages/ArcadePage.vue";
 
-const showBackModal = ref(false);
-const showInfoModal = ref(false);
+const showBackModal = ref(window.location.hash === "#replay");
+const showInfoModal = ref(window.location.hash === "#info");
 const showUserModal = ref(false);
-const showScoreModal = ref(false);
-const showLogInModal = ref(false);
-const showArcadeModal = ref(false);
+const showScoreModal = ref(window.location.hash === "#score");
+const showLogInModal = ref(window.location.hash === "#login");
+const showArcadeModal = ref(window.location.hash === "#challenges");
 const showFeedbackModal = ref(false);
 
 const urlParameters = new URLSearchParams(window.location.search);
