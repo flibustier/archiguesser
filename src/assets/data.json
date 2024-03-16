@@ -7573,5 +7573,19 @@
     "years": "1902-1904",
     "links": ["https://en.wikipedia.org/wiki/Hill_House,_Helensburgh"],
     "categories": ["community", "housing"]
+  },
+  {
+    "answer": "Wall House 2 (A. E. Bye House) / John Hejduk, Otonomo Architecten, Thomas Muller, van Raimann Architekten / Gröningen, Netherlands",
+    "days": [627],
+    "copyrights": [
+      {
+        "*": "Dage - Looking For Europe (wikimedia)",
+        "1": "Hardscarf (wikimedia)",
+        "6": "Wenkbrauwalbatros (wikimedia)"
+      }
+    ],
+    "years": "2001",
+    "links": ["https://en.wikipedia.org/wiki/Wall_House_II"],
+    "categories": ["community", "housing"]
   }
 ]
