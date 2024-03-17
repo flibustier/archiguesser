@@ -3085,7 +3085,7 @@
   },
   {
     "answer": "Blue Mosque (Sultan Ahmed Mosque) / Sedefkâr Mehmed Agha / Fatih, Istanbul, Turkey",
-    "days": [196],
+    "days": [196, 626],
     "copyrights": [
       {
         "1": "Christian Perez (wikimedia)",
@@ -3096,7 +3096,8 @@
         "6": "Jorge Láscar (wikimedia)"
       }
     ],
-    "links": ["https://en.wikipedia.org/wiki/Blue_Mosque"],
+    "years": "1609-1617",
+    "links": ["https://en.wikipedia.org/wiki/Blue_Mosque,_Istanbul"],
     "categories": ["monument", "religious"]
   },
   {
