@@ -7588,5 +7588,18 @@
     "years": "2001",
     "links": ["https://en.wikipedia.org/wiki/Wall_House_II"],
     "categories": ["community", "housing"]
+  },
+  {
+    "answer": "Bosjes Chapel / Steyn Studio / Witzenberg, South Africa",
+    "days": [628],
+    "copyrights": [
+      {
+        "*": "Adam Letch",
+        "2": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2011-2016",
+    "links": ["http://www.steynstudio.com/projects/bosjes_chapel/"],
+    "categories": ["community", "religious"]
   }
 ]
