@@ -7601,5 +7601,20 @@
     "years": "2011-2016",
     "links": ["http://www.steynstudio.com/projects/bosjes_chapel/"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Maison du Brésil (Pavillon Brésilien) / Lucio Costa, Le Corbusier / Paris, France",
+    "days": [629],
+    "copyrights": [
+      {
+        "1": "Lucien Hervé (FLC/ADAGP)",
+        "2": "VinDel24 (wikimedia)",
+        "4": "Guilhem Vellut (wikimedia)",
+        "*": "Manuel Bougot (FLC/ADAGP)"
+      }
+    ],
+    "years": "1957",
+    "links": ["https://en.wikipedia.org/wiki/Maison_du_Br%C3%A9sil"],
+    "categories": ["community", "modernism"]
   }
 ]
