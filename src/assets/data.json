@@ -7616,5 +7616,17 @@
     "years": "1957",
     "links": ["https://en.wikipedia.org/wiki/Maison_du_Br%C3%A9sil"],
     "categories": ["community", "modernism"]
+  },
+  {
+    "answer": "Under Pohutukawa / Herbst Architects / Auckland, New Zealand",
+    "days": [631],
+    "copyrights": [
+      {
+        "*": "Patrick Reynolds"
+      }
+    ],
+    "years": "2012",
+    "links": ["https://herbstarchitects.co.nz/projects/under-pohutukawa"],
+    "categories": ["community", "housing"]
   }
 ]
