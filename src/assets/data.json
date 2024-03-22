@@ -819,14 +819,14 @@
   },
   {
     "answer": "La Muralla Roja / Ricardo Bofill / Calpe, Spain",
-    "days": [47, 399],
+    "days": [47, 399, 633],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/La_Muralla_Roja"],
-    "categories": ["housing"]
+    "categories": ["housing", "community"]
   },
   {
     "answer": "Art Museum of Sao Paulo / Lina Bo Bardi / Sao Paulo, Brazil",
@@ -2598,7 +2598,7 @@
   },
   {
     "answer": "Red Fort (Lal Qila) / Ustad Ahmad Lahori / Old Delhi, Delhi, India",
-    "days": [165],
+    "days": [165, 632],
     "copyrights": [
       {
         "1": "Syed07 (wikimedia)",
@@ -2609,6 +2609,7 @@
         "6": "A.Savin (wikimedia)"
       }
     ],
+    "years": "1639",
     "links": ["https://en.wikipedia.org/wiki/Red_Fort"],
     "categories": ["monument"]
   },
