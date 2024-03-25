@@ -3103,18 +3103,19 @@
   },
   {
     "answer": "Bank of China Tower / Ieoh Ming Pei, Sherman Kung / Western financial district, Hong Kong, People's Republic of China",
-    "days": [197],
+    "days": [197, 634],
     "copyrights": [
       {
         "3": "Cmglee (wikimedia)",
         "*": "wikiarquitectura"
       }
     ],
+    "years": "1985-1990",
     "links": [
-      "https://en.wikipedia.org/wiki/Bank_of_China_Tower",
+      "https://en.wikipedia.org/wiki/Bank_of_China_Tower_(Hong_Kong)",
       "https://en.wikiarquitectura.com/building/Bank-of-China-Tower/"
     ],
-    "categories": []
+    "categories": ["office"]
   },
   {
     "answer": "Seagram Building / Ludwig Mies van der Rohe, Philip Johnson / New York, United States of America (USA)",
