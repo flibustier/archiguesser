@@ -7630,5 +7630,20 @@
     "years": "2012",
     "links": ["https://herbstarchitects.co.nz/projects/under-pohutukawa"],
     "categories": ["community", "housing"]
+  },
+  {
+    "answer": "Casa de Vidro (Glass House) / Lina Bo Bardi / Sao Paulo, Brazil",
+    "days": [635],
+    "copyrights": [
+      {
+        "*": "Nelson Kon",
+        "1": "Francisco Albuquerque",
+        "2": "Courtesy of the Foundation",
+        "6": "Peter Scheier"
+      }
+    ],
+    "years": "1951",
+    "links": ["https://pt.wikipedia.org/wiki/Casa_de_Vidro"],
+    "categories": ["community", "modernism"]
   }
 ]
