@@ -7645,5 +7645,20 @@
     "years": "1951",
     "links": ["https://pt.wikipedia.org/wiki/Casa_de_Vidro"],
     "categories": ["community", "modernism"]
+  },
+  {
+    "answer": "Viikki Church (Viikin kirkko, Viks kyrka) / JKMM Architects / Helsinki, Finland",
+    "days": [636],
+    "copyrights": [
+      {
+        "*": "Kimmo Räisänen",
+        "3": "Arno de la Chapelle",
+        "4": "Arno de la Chapelle",
+        "5": "Arno de la Chapelle"
+      }
+    ],
+    "years": "2005",
+    "links": ["https://en.wikipedia.org/wiki/Viikki_Church"],
+    "categories": ["community", "religious"]
   }
 ]
