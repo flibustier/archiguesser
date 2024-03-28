@@ -2909,8 +2909,8 @@
     "categories": ["museum"]
   },
   {
-    "answer": "Basilica of San Lorenzo / Filippo Brunelleschi, Antonio Manetti / Florence, Italy",
-    "days": [186],
+    "answer": "Basilica of San Lorenzo (Basilica of St. Lawrence) / Filippo Brunelleschi, Antonio Manetti / Florence, Italy",
+    "days": [186, 637],
     "copyrights": [
       {
         "1": "Livioandronico2013 (wikimedia)",
@@ -2923,10 +2923,10 @@
     ],
     "years": "1422-1470",
     "links": [
-      "https://en.wikipedia.org/wiki/Basilica_of_San_Lorenzo",
+      "https://en.wikipedia.org/wiki/Basilica_of_San_Lorenzo,_Florence",
       "https://en.wikiarquitectura.com/building/Basilica-of-San-Lorenzo/"
     ],
-    "categories": ["monument"]
+    "categories": ["monument", "religious"]
   },
   {
     "answer": "City of Arts and Sciences (Ciudad de las Artes y las Ciencias) / Santiago Calatrava, Félix Candela / Valencia, Spain",
