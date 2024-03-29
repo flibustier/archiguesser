@@ -2219,7 +2219,7 @@
         "*": "KotomiCreations (flickr)"
       }
     ],
-    "years": "1859", 
+    "years": "1859",
     "links": ["https://en.wikipedia.org/wiki/Red_House,_Bexleyheath"],
     "categories": ["arts-and-crafts", "housing"]
   },
@@ -3227,7 +3227,7 @@
   },
   {
     "answer": "Atomium / André et Jean Polak, André Waterkeyn / Brussels, Belgium",
-    "days": [207],
+    "days": [207, 640],
     "copyrights": [
       {
         "1": "Daan Noske / Anefo (wikimedia)",
@@ -3238,6 +3238,7 @@
         "6": "Marek Śliwecki (wikimedia)"
       }
     ],
+    "years": "1956-1958",
     "links": ["https://en.wikipedia.org/wiki/Atomium"],
     "categories": ["famous", "favorites"]
   },
