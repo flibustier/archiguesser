@@ -7660,5 +7660,19 @@
     "years": "2005",
     "links": ["https://en.wikipedia.org/wiki/Viikki_Church"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Unileão School Veterinary Hospital / Lins Arquitetos Associados / Juazeiro do Norte, Brazil",
+    "days": [638],
+    "copyrights": [
+      {
+        "*": "Joana França"
+      }
+    ],
+    "years": "2023",
+    "links": [
+      "https://www.archdaily.com/1011616/unileao-school-veterinary-hospital-lins-arquitetos-associados"
+    ],
+    "categories": ["community"]
   }
 ]
