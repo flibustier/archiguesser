@@ -3057,15 +3057,16 @@
   },
   {
     "answer": "Casa das Histórias Paula Rego / Eduardo Souto de Moura / Cascais, Portugal",
-    "days": [194],
+    "days": [194, 641],
     "copyrights": [
       {
         "1": "Luis Ferreira Alves",
         "*": "James Florio"
       }
     ],
+    "years": "2009",
     "links": ["https://en.wikipedia.org/wiki/Casa_das_Histórias_Paula_Rego"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Philharmonie de Paris / Jean Nouvel / Parc de La Villette, Paris, France",
