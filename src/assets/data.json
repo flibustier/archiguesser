@@ -2514,8 +2514,8 @@
     "categories": ["monument"]
   },
   {
-    "answer": "Cité de la Musique (City of Music - Philharmonie 2) / Christian Portzamparc / Parc de la Villette, Paris, France",
-    "days": [160],
+    "answer": "Cité de la Musique (City of Music, Philharmonie 2) / Christian Portzamparc / Parc de la Villette, Paris, France",
+    "days": [160, 642],
     "copyrights": [
       {
         "2": "W. Beaucardet",
@@ -2524,8 +2524,9 @@
         "*": "Nicolas Borel"
       }
     ],
+    "years": "1995",
     "links": ["https://en.wikipedia.org/wiki/Cité_de_la_Musique"],
-    "categories": ["concert hall"]
+    "categories": ["concert hall", "community"]
   },
   {
     "answer": "Los Manantiales Restaurant / Félix Candela / Mexico City, Mexico",
