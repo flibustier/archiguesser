@@ -2837,7 +2837,7 @@
   },
   {
     "answer": "Potala Palace / Lobsang Gyatso / Lhasa, Tibet, China",
-    "days": [181],
+    "days": [181, 644],
     "copyrights": [
       {
         "1": "Gerd Eichmann (wikimedia)",
@@ -2848,6 +2848,7 @@
         "6": "Lhasa Government (wikimedia)"
       }
     ],
+    "years": "1649",
     "links": ["https://en.wikipedia.org/wiki/Potala_Palace"],
     "categories": ["monument"]
   },
