@@ -7696,5 +7696,18 @@
     "years": "1937",
     "links": ["https://en.wikipedia.org/wiki/Taliesin_West"],
     "categories": ["community", "housing"]
+  },
+  {
+    "answer": "Negozio Olivetti / Carlo Scarpa / Venice, Italy",
+    "days": [645],
+    "copyrights": [
+      {
+        "*": "ORCH_Chemollo",
+        "4": "Stefano Bertolotti"
+      }
+    ],
+    "years": "1957-1958",
+    "links": ["https://it.wikipedia.org/wiki/Negozio_Olivetti_(Venezia)"],
+    "categories": ["community", "shopping"]
   }
 ]
