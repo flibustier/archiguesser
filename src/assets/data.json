@@ -7709,5 +7709,21 @@
     "years": "1957-1958",
     "links": ["https://it.wikipedia.org/wiki/Negozio_Olivetti_(Venezia)"],
     "categories": ["community", "shopping"]
+  },
+  {
+    "answer": "Kanzlerbungalow / Sep Ruf / Bonn, Germany",
+    "days": [646],
+    "copyrights": [
+      {
+        "*": "Tomas Riehle",
+        "1": "Wahlenbernd (wikimedia)",
+        "2": "Engelbert Reineke (wikimedia)",
+        "4": "Sir James (wikimedia)",
+        "5": "Wolkenkratzer (wikimedia)"
+      }
+    ],
+    "years": "1963-1964",
+    "links": ["https://de.wikipedia.org/wiki/Kanzlerbungalow"],
+    "categories": ["community", "housing"]
   }
 ]
