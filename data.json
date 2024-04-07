@@ -7725,5 +7725,23 @@
     "years": "1963-1964",
     "links": ["https://de.wikipedia.org/wiki/Kanzlerbungalow"],
     "categories": ["community", "housing"]
+  },
+  {
+    "answer": "Museum of Art, Architecture and Technology (MAAT, Museu de Arte, Arquitetura e Tecnologia) / Amanda Levete / Lisbon, Portugal",
+    "days": [647],
+    "copyrights": [
+      {
+        "*": "Francisco Nogueira",
+        "1": "Hufton+Crow",
+        "3": "Hufton+Crow",
+        "4": "Hufton+Crow",
+        "6": "Stefan Bethke (wikimedia)"
+      }
+    ],
+    "years": "2016",
+    "links": [
+      "https://en.wikipedia.org/wiki/Museum_of_Art,_Architecture_and_Technology"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
