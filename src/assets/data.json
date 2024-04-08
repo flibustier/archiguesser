@@ -1948,16 +1948,17 @@
     "categories": ["monument", "castle"]
   },
   {
-    "answer": "Rogers House / Richard & Su Rogers / London, United Kingdom (UK)",
-    "days": [123],
+    "answer": "22 Parkside (Rogers House, Wimbledon House) / Richard & Su Rogers / London, United Kingdom (UK)",
+    "days": [123, 648],
     "copyrights": [
       {
         "6": "Rogers Stirk Harbour + Partners LLP",
         "*": "Tim Crocker"
       }
     ],
-    "links": ["https://en.wikipedia.org/wiki/Rogers_House"],
-    "categories": []
+    "years": "1968-1969",
+    "links": ["https://en.wikipedia.org/wiki/22_Parkside"],
+    "categories": ["housing", "high-tech"]
   },
   {
     "answer": "Under / Snøhetta / Lindesnes, Norway",
