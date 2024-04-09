@@ -7744,5 +7744,24 @@
       "https://en.wikipedia.org/wiki/Museum_of_Art,_Architecture_and_Technology"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Church of Saint Francis of Assisi (Igreja de Sao Francisco de Assis, Igreja da Pampulha) / Oscar Niemeyer / Belo Horizonte, Minas Gerais, Brazil",
+    "days": [649],
+    "copyrights": [
+      {
+        "1": "Marcelor",
+        "2": "إيان (wikimedia)",
+        "3": "إيان (wikimedia)",
+        "4": "Ronaldo De Carvalho",
+        "5": "Sérgio Mourão (wikimedia)",
+        "6": "Jani Pereira (wikimedia)"
+      }
+    ],
+    "years": "1943",
+    "links": [
+      "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi"
+    ],
+    "categories": ["community", "religious", "modernism"]
   }
 ]
