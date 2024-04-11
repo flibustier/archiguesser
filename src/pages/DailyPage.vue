@@ -105,7 +105,7 @@ const onSubmittedGuess = async (guess: string) => {
     :answer="answer"
     :percent="percent"
     :links="links"
-    :is-community="categories?.includes('community')"
+    :categories="categories"
     @showBackModal="$emit('showBackModal')"
   />
 </template>

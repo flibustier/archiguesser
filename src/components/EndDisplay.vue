@@ -45,11 +45,13 @@ const props = defineProps({
     type: Array<string>,
     default: [],
   },
-  isCommunity: {
-    type: Boolean,
-    default: false,
+  categories: {
+    type: Array<string>,
+    default: [],
   },
 });
+
+const isCommunity = computed(() => props.categories.includes("community"));
 
 const resultSquares = computed(() => {
   const redSquares = `<span class="square red">🟥</span> `.repeat(
@@ -149,8 +151,18 @@ onMounted(async () => {
         </button>
       </div>
     </div>
-    <p v-if="description" class="description">« {{ description }} »</p>
-    <div v-if="isCommunity">
+    <div class="extra">
+      <p v-if="description" class="description">« {{ description }} »</p>
+      <a
+        v-if="props.categories.includes('modernism')"
+        href="https://amzn.to/4aiOqrL"
+        target="_blank"
+      >
+        <p style="text-align: center">Today’s suggestion</p>
+        <img src="/recommendations/modernism.jpg" height="180px" />
+      </a>
+    </div>
+    <div v-if="isCommunity" style="text-align: center">
       This project has been brought to you by one of ArchiGuesser’s players.
       Thank you 👏
     </div>
@@ -247,6 +259,19 @@ button svg {
 
 .history-icon {
   display: flex;
+}
+
+.extra {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 32rem) {
+  .extra {
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
 }
 
 .description {
