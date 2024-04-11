@@ -7763,5 +7763,19 @@
       "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi"
     ],
     "categories": ["community", "religious", "modernism"]
+  },
+  {
+    "answer": "Villa Tugendhat (Vila Tugendhat) / Ludwig Mies van der Rohe, Lilly Reich / Brno, Czech Republic",
+    "days": [651],
+    "copyrights": [
+      {
+        "4": "Harold (wikimedia)",
+        "5": "L. Teplý",
+        "*": "Petr1987 (wikimedia)"
+      }
+    ],
+    "years": "1928-1930",
+    "links": ["https://en.wikipedia.org/wiki/Villa_Tugendhat"],
+    "categories": ["community", "housing", "modernism"]
   }
 ]
