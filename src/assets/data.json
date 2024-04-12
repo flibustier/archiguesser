@@ -7777,5 +7777,17 @@
     "years": "1928-1930",
     "links": ["https://en.wikipedia.org/wiki/Villa_Tugendhat"],
     "categories": ["community", "housing", "modernism"]
+  },
+  {
+    "answer": "Cycling through water (Fietsen door het water) / Lens°Ass Architecten / Bokrijk (Genk), Limburg, Belgium",
+    "days": [652],
+    "copyrights": [
+      {
+        "*": "Mel Zagers (Courtesy of the Architect)"
+      }
+    ],
+    "years": "2017-2018",
+    "links": ["https://lensass.be/vijverbeleving-bokrijk"],
+    "categories": ["community"]
   }
 ]
