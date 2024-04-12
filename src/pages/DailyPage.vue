@@ -7,7 +7,7 @@ import { getRealDayNumber } from "@/services/date";
 import { getProjectInformation } from "@/services/projects";
 import { sendEvent, sendResult } from "@/services/api";
 
-import EndDisplay from "../components/EndDisplay.vue";
+import EndDisplay from "../components/daily/EndDisplay.vue";
 import GuessingForm from "../components/guessing/GuessingForm.vue";
 import PictureDisplay from "../components/picture-display/PictureDisplay.vue";
 import GuessingHistory from "../components/guessing/GuessingHistory.vue";

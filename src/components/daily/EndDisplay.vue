@@ -1,15 +1,17 @@
 <script setup lang="ts">
 import { computed, onMounted, ref } from "vue";
 
-import { URL, APP_NAME } from "../config.json";
+import { URL, APP_NAME } from "@/config.json";
 
 import { sendEvent, fetchWikipediaSummary } from "@/services/api";
 
-import IconBack from "./icons/IconBack.vue";
-import IconCopy from "./icons/IconCopy.vue";
-import IconWiki from "./icons/IconWiki.vue";
-import IconCheck from "./icons/IconCheck.vue";
-import IconTimes from "./icons/IconTimes.vue";
+import IconBack from "../icons/IconBack.vue";
+import IconCopy from "../icons/IconCopy.vue";
+import IconWiki from "../icons/IconWiki.vue";
+import IconCheck from "../icons/IconCheck.vue";
+import IconTimes from "../icons/IconTimes.vue";
+
+import RecommendationLink from "./RecommendationLink.vue";
 
 const description = ref("");
 const showGuesses = ref(false);
@@ -153,15 +155,7 @@ onMounted(async () => {
     </div>
     <div class="extra">
       <p v-if="description" class="description">« {{ description }} »</p>
-      <a
-        v-if="props.categories.includes('modernism')"
-        href="https://amzn.to/4aiOqrL"
-        target="_blank"
-        @click="() => sendEvent('recommendations: modernism')"
-      >
-        <p style="text-align: center">Today’s suggestion</p>
-        <img src="/recommendations/modernism.jpg" height="180px" />
-      </a>
+      <RecommendationLink :categories="props.categories" />
     </div>
     <div v-if="isCommunity" style="text-align: center">
       This project has been brought to you by one of ArchiGuesser’s players.
