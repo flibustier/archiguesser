@@ -7,6 +7,8 @@ export const sendEvent = (event: string) => {
     } catch (e) {
       console.log(e);
     }
+  } else {
+    console.log("EVENT: ", event);
   }
 };
 

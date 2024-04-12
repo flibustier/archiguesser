@@ -157,6 +157,7 @@ onMounted(async () => {
         v-if="props.categories.includes('modernism')"
         href="https://amzn.to/4aiOqrL"
         target="_blank"
+        @click="() => sendEvent('recommendations: modernism')"
       >
         <p style="text-align: center">Today’s suggestion</p>
         <img src="/recommendations/modernism.jpg" height="180px" />
