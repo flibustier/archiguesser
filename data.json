@@ -7789,5 +7789,21 @@
     "years": "2017-2018",
     "links": ["https://lensass.be/vijverbeleving-bokrijk"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Ministry of Social Welfare and Employment / Herman Hertzberger / The Hague, Netherlands",
+    "days": [653],
+    "copyrights": [
+      {
+        "*": "Gerhard Jaeger, Ger van der Vlugt, Robert Oerlemans and Joop van Reeken",
+        "2": "Anna Odulinska",
+        "4": "Courtesy of the Architect"
+      }
+    ],
+    "years": "1979-1990",
+    "links": [
+      "https://www.ahh.nl/index.php/nl/projecten2/12-utiliteitsbouw/120-ministerie-van-sociale-zaken-en-werkgelegenheid-den-haag"
+    ],
+    "categories": ["community", "institution"]
   }
 ]
