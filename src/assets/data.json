@@ -7805,5 +7805,20 @@
       "https://www.ahh.nl/index.php/nl/projecten2/12-utiliteitsbouw/120-ministerie-van-sociale-zaken-en-werkgelegenheid-den-haag"
     ],
     "categories": ["community", "institution"]
+  },
+  {
+    "answer": "Elrod House / John Lautner / Palm Springs, California, United States of America (USA)",
+    "days": [654],
+    "copyrights": [
+      {
+        "*": "Nelson-Moe Properties/Coldwell Banker Residential Brokerage",
+        "2": "wikiarquitectura",
+        "4": "wikiarquitectura",
+        "6": "wikiarquitectura"
+      }
+    ],
+    "years": "1966-1968",
+    "links": ["https://en.wikipedia.org/wiki/Elrod_House"],
+    "categories": ["community", "housing", "organic"]
   }
 ]
