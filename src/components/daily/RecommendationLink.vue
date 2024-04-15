@@ -18,6 +18,13 @@ const recommendation = computed(() => {
       event: "recommendations: modernism",
     };
   }
+  if (props.categories.includes("organic")) {
+    return {
+      link: "https://amzn.to/3TYEYD5",
+      picture: "/recommendations/lautner.jpg",
+      event: "recommendations: lautner",
+    };
+  }
   return null;
 });
 </script>
