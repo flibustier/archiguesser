@@ -3248,7 +3248,7 @@
   },
   {
     "answer": "Trinity College and Library / Thomas Burgh, Thomas Deane, Benjamin Woodward, William Chambers / Dublin, Ireland",
-    "days": [208],
+    "days": [208, 655],
     "copyrights": [
       {
         "1": "Stephen Bergin (wikimedia)",
@@ -3259,6 +3259,7 @@
         "6": "Courtesy of the Owner"
       }
     ],
+    "years": "1592",
     "links": [
       "https://en.wikipedia.org/wiki/Library_of_Trinity_College_Dublin"
     ],
