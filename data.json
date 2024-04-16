@@ -7821,5 +7821,22 @@
     "years": "1966-1968",
     "links": ["https://en.wikipedia.org/wiki/Elrod_House"],
     "categories": ["community", "housing", "organic"]
+  },
+  {
+    "answer": "Pavilhão Ciccillo Matarazzo (Ciccillo Matarazzo Pavilion) / Oscar Niemeyer / Parque do Ibirapuera, Sao Paulo, Brazil",
+    "days": [656],
+    "copyrights": [
+      {
+        "1": "ARTExplorer (flickr)",
+        "2": "Pedro Kok (flickr)",
+        "3": "Andres Otero",
+        "4": "Sailko (wikimedia)",
+        "5": "Pedro Kok (flickr)",
+        "6": "Sérgio Valle Duarte (wikimedia)"
+      }
+    ],
+    "years": "1955-1957",
+    "links": ["https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Art_Biennial"],
+    "categories": ["community", "pavilion", "niemeyer"]
   }
 ]
