@@ -7838,5 +7838,19 @@
     "years": "1955-1957",
     "links": ["https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Art_Biennial"],
     "categories": ["community", "pavilion", "niemeyer"]
+  },
+  {
+    "answer": "Grand Egyptian Museum (GEM) / Heneghan Peng Architects, Róisín Heneghan, Shi-Fu Peng / Giza, Greater Cairo, Egypt",
+    "days": [657],
+    "copyrights": [
+      {
+        "*": "Farida Bustani",
+        "5": "International Finance Corporation",
+        "6": "International Finance Corporation"
+      }
+    ],
+    "years": "2012-2024",
+    "links": ["https://en.wikipedia.org/wiki/Grand_Egyptian_Museum"],
+    "categories": ["community", "museum"]
   }
 ]
