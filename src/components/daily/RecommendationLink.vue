@@ -25,6 +25,13 @@ const recommendation = computed(() => {
       event: "recommendations: lautner",
     };
   }
+  if (props.categories.includes("niemeyer")) {
+    return {
+      link: "https://amzn.to/3U28d7J",
+      picture: "/recommendations/niemeyer.jpg",
+      event: "recommendations: niemeyer",
+    };
+  }
   return null;
 });
 </script>
