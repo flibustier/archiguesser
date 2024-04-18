@@ -7852,5 +7852,19 @@
     "years": "2012-2024",
     "links": ["https://en.wikipedia.org/wiki/Grand_Egyptian_Museum"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Len Lye Centre / Patterson Associates / New Plymouth, New Zealand",
+    "days": [658],
+    "copyrights": [
+      {
+        "*": "John Smith",
+        "3": "Patrick Reynolds",
+        "4": "Patrick Reynolds"
+      }
+    ],
+    "years": "2015",
+    "links": ["https://pattersons.com/project/len-lye-centre/"],
+    "categories": ["community", "gallery"]
   }
 ]
