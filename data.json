@@ -7866,5 +7866,21 @@
     "years": "2015",
     "links": ["https://pattersons.com/project/len-lye-centre/"],
     "categories": ["community", "gallery"]
+  },
+  {
+    "answer": "Maison de Jean Prouvé (Jean Prouvé House) / Jean Prouvé / Nancy, France",
+    "days": [659],
+    "copyrights": [
+      {
+        "*": "Musée des Beaux-Arts",
+        "3": "Dejan Jovanovic",
+        "4": "Vitra",
+        "6": "Dejan Jovanovic"
+      }
+    ],
+    "years": "1954",
+    "links": ["https://fr.wikipedia.org/wiki/Maison_de_Jean_Prouv%C3%A9"],
+    "categories": ["community", "housing", "Iconic Houses"]
   }
+
 ]
