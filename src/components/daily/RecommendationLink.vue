@@ -32,6 +32,13 @@ const recommendation = computed(() => {
       event: "recommendations: niemeyer",
     };
   }
+  if (props.categories.includes("Iconic Houses")) {
+    return {
+      link: "https://amzn.to/3U8n28W",
+      picture: "recommendations/iconic.jpg",
+      event: "recommendations: iconic",
+    };
+  }
   return null;
 });
 </script>
