@@ -2686,7 +2686,7 @@
   },
   {
     "answer": "Fujian Tulou (Hakka Walled Villages) / Fujian Province, China",
-    "days": [171],
+    "days": [171, 660],
     "copyrights": [
       {
         "1": "Jasin Boland",
@@ -2697,8 +2697,9 @@
         "6": "Gisling (wikimedia)"
       }
     ],
+    "years": "~12th century",
     "links": ["https://en.wikipedia.org/wiki/Fujian_Tulou"],
-    "categories": ["monument"]
+    "categories": ["monument", "community", "mulan"]
   },
   {
     "answer": "Kafka's Castle / Ricardo Bofill Taller de Arquitecturas / Sant Pere de Ribes, Spain",

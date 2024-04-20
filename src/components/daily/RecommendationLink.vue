@@ -39,6 +39,13 @@ const recommendation = computed(() => {
       event: "recommendations: iconic",
     };
   }
+  if (props.categories.includes("mulan")) {
+    return {
+      link: "https://amzn.to/49LYV5T",
+      picture: "recommendations/mulan.jpg",
+      event: "recommendations: mulan",
+    };
+  }
   return null;
 });
 </script>
