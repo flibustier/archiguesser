@@ -2198,18 +2198,18 @@
   },
   {
     "answer": "Court of Justice of the European Union / Dominique Perrault / Kirchberg Plateau, Luxembourg",
-    "days": [140],
+    "days": [140, 661],
     "copyrights": [
       {
         "*": "Georges Fessy"
       }
     ],
-    "years": "2009- 2019",
+    "years": "2009-2019",
     "links": [
       "https://en.wikipedia.org/wiki/Court_of_Justice_of_the_European_Union",
       "https://en.wikiarquitectura.com/building/Court-of-Justice-of-the-European-Union/"
     ],
-    "categories": []
+    "categories": ["courthouse"]
   },
   {
     "answer": "Red House / William Morris, Philip Webb / Bexleyheath, London, United Kingdom (UK)",
