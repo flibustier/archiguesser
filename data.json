@@ -3172,6 +3172,7 @@
         "6": "Enrico Cano - Michel Denancé"
       }
     ],
+    "years": "",
     "links": [],
     "categories": []
   },
@@ -7882,6 +7883,22 @@
     "years": "1954",
     "links": ["https://fr.wikipedia.org/wiki/Maison_de_Jean_Prouv%C3%A9"],
     "categories": ["community", "housing", "Iconic Houses"]
+  },
+  {
+    "answer": "Shakespeare's Globe (Globe Theatre) / Theo Crosby / Southwark, London, United Kingdom (UK)",
+    "days": [663],
+    "copyrights": [
+      {
+        "1": "Clive Sherlock",
+        "2": "Pete Le May",
+        "3": "Tohma (wikimedia)",
+        "4": "Courtesy of the Owner",
+        "5": "Dickbauch (wikimedia)",
+        "6": "Diego Delso (wikimedia)"
+      }
+    ],
+    "years": "1599,1997",
+    "links": ["https://en.wikipedia.org/wiki/Shakespeare%27s_Globe"],
+    "categories": ["community", "concert hall"]
   }
-
 ]
