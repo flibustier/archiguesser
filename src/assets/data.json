@@ -7900,5 +7900,18 @@
     "years": "1599,1997",
     "links": ["https://en.wikipedia.org/wiki/Shakespeare%27s_Globe"],
     "categories": ["community", "concert hall"]
+  },
+  {
+    "answer": "The Chamber Church / Büro Ziyu Zhuang / Qingdao, China",
+    "days": [665],
+    "copyrights": [
+      {
+        "*": "Shengliang Su"
+      }
+    ],
+    "years": "2021",
+    "links": ["http://buzzarchitects.com/project/3953"],
+    "categories": ["community", "religious"]
   }
+
 ]
