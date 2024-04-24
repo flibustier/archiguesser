@@ -3161,7 +3161,7 @@
   },
   {
     "answer": "Lingotto factory building (Fiat) / Giacomo Matté-Trucco, Renzo Piano / Turin, Italy",
-    "days": [201],
+    "days": [201, 664],
     "copyrights": [
       {
         "1": "IIVQ / Tijmen Stam (wikimedia)",
@@ -3172,9 +3172,9 @@
         "6": "Enrico Cano - Michel Denancé"
       }
     ],
-    "years": "",
-    "links": [],
-    "categories": []
+    "years": "1916-1923",
+    "links": ["https://en.wikipedia.org/wiki/Lingotto"],
+    "categories": ["industrial"]
   },
   {
     "answer": "Tour Bois-le-Prêtre (Transformation) / Frédéric Druot, Lacaton & Vassal / Paris, France",
@@ -7900,5 +7900,18 @@
     "years": "1599,1997",
     "links": ["https://en.wikipedia.org/wiki/Shakespeare%27s_Globe"],
     "categories": ["community", "concert hall"]
+  },
+  {
+    "answer": "The Chamber Church / Büro Ziyu Zhuang / Qingdao, China",
+    "days": [665],
+    "copyrights": [
+      {
+        "*": "Shengliang Su"
+      }
+    ],
+    "years": "2021",
+    "links": ["http://buzzarchitects.com/project/3953"],
+    "categories": ["community", "religious"]
   }
+
 ]
