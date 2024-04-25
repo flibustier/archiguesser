@@ -7912,6 +7912,17 @@
     "years": "2021",
     "links": ["http://buzzarchitects.com/project/3953"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Devil's Corner / Cumulus Studio / Apslawn, Australia",
+    "days": [666],
+    "copyrights": [
+      {
+        "*": "Tanja Milbourne"
+      }
+    ],
+    "years": "2015",
+    "links": ["https://www.cumulus.studio/devils-corner"],
+    "categories": []
   }
-
 ]
