@@ -73,7 +73,7 @@ const resultSquares = computed(() => {
 const shareMessage = computed(() => {
   return `${APP_NAME} #${props.dayNumber}\n🏛 ${
     document.getElementById("share-message")?.textContent || ""
-  }\n\n${URL}`;
+  }\n\n${URL}/?day=${props.dayNumber}`;
 });
 
 const copy = async () => {
