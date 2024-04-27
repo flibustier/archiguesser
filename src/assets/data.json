@@ -7924,5 +7924,17 @@
     "years": "2015",
     "links": ["https://www.cumulus.studio/devils-corner"],
     "categories": []
+  },
+  {
+    "answer": "Town Hall Eysturkommuna / Henning Larsen / Nordragota, Faroe Islands",
+    "days": [667],
+    "copyrights": [
+      {
+        "*": "Nic Lehoux"
+      }
+    ],
+    "years": "2013-2018",
+    "links": ["https://henninglarsen.com/projects/eystur-town-hall"],
+    "categories": ["community", "city hall"]
   }
 ]
