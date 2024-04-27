@@ -10,6 +10,8 @@ import { isMonument } from "@/services/projects";
 import { getRealDayNumber } from "@/services/date";
 import { getStats, getSettings, setSetting } from "@/services/store";
 
+const IMG_EXT = "avif";
+
 const realCurrentDay = getRealDayNumber();
 // range of 60 numbers starting at real current day
 const days = [...Array(realCurrentDay).keys()]
@@ -94,7 +96,11 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
               ]"
               v-else
             >
-              <img class="thumbnail" :src="`${i}/0.jpg`" :alt="`#${i}`" />
+              <img
+                class="thumbnail"
+                :src="`${i}/0.${IMG_EXT}`"
+                :alt="`#${i}`"
+              />
               <div v-if="isDayPlayed(i)" class="thumbnail-overlay">
                 <span style="margin-right: 0.5rem">#{{ i }}</span>
                 <div class="icon icon-check"><IconCheck /></div>
