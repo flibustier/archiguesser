@@ -53,9 +53,8 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
       :href="imgSrc(pictureShown + 1)"
     />
     <div class="credit">
-      #{{ props.dayNumber }} <span v-if="pictureCopyright">📷</span>&nbsp;{{
-        pictureCopyright
-      }}
+      <span v-if="$props.dayNumber === 666">#{{ props.dayNumber }}&nbsp;</span>
+      <span v-if="pictureCopyright">📷</span>&nbsp;{{ pictureCopyright }}
     </div>
 
     <PicturePaginator

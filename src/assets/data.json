@@ -7936,5 +7936,22 @@
     "years": "2013-2018",
     "links": ["https://henninglarsen.com/projects/eystur-town-hall"],
     "categories": ["community", "city hall"]
+  },
+  {
+    "answer": "Les Étoiles d’Ivry (Ivry-sur-Seine Social Housing Project) / Jean Renaudie and Renée Gailhoustet / Paris, France",
+    "days": [668],
+    "copyrights": [
+      {
+        "1": "Centre Pompidou / Bibliotheque Kandinsky",
+        "2": "Archives Municipales de la ville",
+        "3": "Lorenzo Zandri",
+        "4": "Courtesy of the Architect",
+        "5": "(hidden architecture)",
+        "6": "(hidden architecture)"
+      }
+    ],
+    "years": "1969-1975",
+    "links": ["https://fr.wikipedia.org/wiki/Les_%C3%89toiles_d%27Ivry"],
+    "categories": ["community", "social housing", "brutalism"]
   }
 ]
