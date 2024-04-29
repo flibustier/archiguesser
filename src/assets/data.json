@@ -3291,7 +3291,7 @@
   },
   {
     "answer": "Crown Hall / Ludwig Mies van der Rohe / Illinois Institute of Technology (IIT), Chicago, Illinois, United States of America (USA)",
-    "days": [212],
+    "days": [212, 669],
     "copyrights": [
       {
         "3": "Hagen Stier",
@@ -3305,7 +3305,7 @@
       "https://en.wikipedia.org/wiki/Crown_Hall",
       "https://en.wikiarquitectura.com/building/Crown-Hall/"
     ],
-    "categories": []
+    "categories": ["modernism", "international"]
   },
   {
     "answer": "Royal Pavilion of Brighton / John Nash / Brighton, United Kingdom (UK)",
