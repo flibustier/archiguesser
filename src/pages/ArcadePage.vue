@@ -19,6 +19,7 @@ import IconWiki from "@/components/icons/IconWiki.vue";
 import IconRetry from "@/components/icons/IconRetry.vue";
 import IconScore from "@/components/icons/IconScoreboard.vue";
 import IconTrophy from "@/components/icons/IconTrophy.vue";
+import AnimatedGIF from "@/components/basic/AnimatedGIF.vue";
 import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
 import GuessingMultipleChoice from "@/components/guessing/GuessingMultipleChoice.vue";
 
@@ -106,14 +107,16 @@ const openLinks = () => {
 
 <template>
   <main v-if="isRetryQuotaExceeded" class="expended">
-    <img v-if="isLogged()" src="@/assets/img/strong.gif" class="gif" />
+    <AnimatedGIF v-if="isLogged()" filename="strong" alt="Stay Strong!" />
     <a
       v-else
-      class="gif"
+      style="margin: auto"
       href="https://giphy.com/gifs/architect-le-corbusier-fIqbLgD1VWxkt06EFa"
+      aria-label="Animation of Le Corbusier"
     >
-      <img src="@/assets/img/corbusier.gif" />
+      <AnimatedGIF filename="corbusier" alt="Corbusier is watching" />
     </a>
+
     <header>
       <p>You’ve reached your {{ retryQuota }} daily retry! 🥲</p>
       <p v-if="isLogged()">Nice work!! Keep trying tomorrow!</p>
@@ -141,7 +144,7 @@ const openLinks = () => {
       :day-number="currentProject.days[0]"
       :copyrights="currentProject.copyrights[0]"
     />
-    <img v-else src="@/assets/img/applause.gif" class="gif" />
+    <AnimatedGIF v-else filename="applause" alt="congrats!" />
     <header v-if="!isGameEnded">
       You’re playing the <b>{{ requestedCategory }}</b> challenge (<b
         >level {{ currentLevel }}</b
@@ -303,9 +306,5 @@ button svg {
 
 .center {
   align-self: center;
-}
-
-.gif {
-  margin: auto;
 }
 </style>
