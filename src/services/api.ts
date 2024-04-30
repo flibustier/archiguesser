@@ -163,7 +163,7 @@ export const fetchWikipediaSummary = async (link: string): Promise<string> => {
       } = await resp.json();
 
       for (const page in pages) {
-        return pages[page].extract;
+        return pages[page].extract.replace("\n", "<br />");
       }
     }
   }

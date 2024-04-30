@@ -154,7 +154,7 @@ onMounted(async () => {
       </div>
     </div>
     <div class="extra">
-      <p v-if="description" class="description">« {{ description }} »</p>
+      <p v-if="description" class="description" v-html="description" />
       <RecommendationLink :categories="props.categories" />
     </div>
     <div v-if="isCommunity" style="text-align: center">
@@ -262,7 +262,7 @@ button svg {
   align-items: center;
 }
 
-@media screen and (max-width: 32rem) {
+@media screen and (max-width: 48rem) {
   .extra {
     flex-direction: column-reverse;
     gap: 1rem;
@@ -273,6 +273,8 @@ button svg {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   padding: 1rem;
+  text-align: justify;
+  max-width: 62rem;
 }
 
 .sponsor {
