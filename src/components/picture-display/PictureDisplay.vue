@@ -74,8 +74,9 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 
 .picture {
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 -1rem 1rem;
   width: 100%;
+  width: calc(100% + 2rem);
   height: 27rem;
   inset: 0px;
   box-sizing: border-box;
@@ -85,8 +86,10 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
   text-align: center;
 }
 
-@media screen and (min-width: 62rem) {
+@media screen and (min-width: 48rem) {
   .picture {
+    margin: 0 auto 1rem;
+    width: 100%;
     height: 36rem;
   }
 }

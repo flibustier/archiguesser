@@ -106,7 +106,7 @@ const openLinks = () => {
 </script>
 
 <template>
-  <main v-if="isRetryQuotaExceeded" class="expended">
+  <div v-if="isRetryQuotaExceeded" class="column column-gap-2r">
     <AnimatedGIF v-if="isLogged()" filename="strong" alt="Stay Strong!" />
     <a
       v-else
@@ -136,8 +136,8 @@ const openLinks = () => {
     <button class="primary-btn" @click="$emit('showLogInModal')" v-else>
       <span>Sign Up/Sign In</span>
     </button>
-  </main>
-  <main v-else :class="hasWon ? 'expended' : ''">
+  </div>
+  <div v-else :class="{ column: true, 'column-gap-2r': hasWon }">
     <PictureDisplay
       v-if="!hasWon"
       :only-last-picture="true"
@@ -227,17 +227,17 @@ const openLinks = () => {
         </div>
       </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <style scoped>
-main {
+.column {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-main.expended {
+.column-gap-2r {
   gap: 2rem;
 }
 

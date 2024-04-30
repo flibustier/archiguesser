@@ -45,6 +45,20 @@ const showCountryHint = computed(
 );
 const showHint = computed(() => showCountryHint.value || showYearsHint.value);
 
+const hint = computed(
+  () =>
+    "Hint: " +
+    (showYearsHint.value
+      ? "Built in " + clickableBuiltYears.value + ". "
+      : "") +
+    (showCountryHint.value
+      ? "The location is <b>" + country.value + "</b>"
+      : "") +
+    (isLastGuessRemaining.value && city.value
+      ? ", <b>" + city.value + "</b>"
+      : ""),
+);
+
 const answerWords = computed(() =>
   props.answer.split(/\/|,|-|\s/).filter(Boolean),
 );
@@ -60,16 +74,7 @@ const highlight = (guess: string) =>
   <div class="guesses">
     <div class="guess" v-if="showHint">
       <span class="guess-icon"><IconInfo /></span>
-      <span>Hint:&nbsp;</span>
-      <span v-if="showYearsHint">
-        Built in <span v-html="clickableBuiltYears" />.&nbsp;
-      </span>
-      <span v-if="showCountryHint"
-        >The location is <b>{{ country }}</b>
-      </span>
-      <span v-if="isLastGuessRemaining && city"
-        >, <b>{{ city }}</b>
-      </span>
+      <span v-html="hint" />
     </div>
     <div class="guess" v-for="guess of guessesReverseOrder" :key="guess">
       <span class="guess-icon"><IconTimes /></span>
