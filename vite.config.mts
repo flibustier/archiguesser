@@ -16,6 +16,7 @@ export default defineConfig({
     port: 4000,
   },
   build: {
+    cssMinify: "lightningcss",
     rollupOptions: {
       output: {
         manualChunks: {
