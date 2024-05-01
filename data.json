@@ -7953,5 +7953,22 @@
     "years": "1969-1975",
     "links": ["https://fr.wikipedia.org/wiki/Les_%C3%89toiles_d%27Ivry"],
     "categories": ["community", "social housing", "brutalism"]
+  },
+  {
+    "answer": "Schloss Sanssouci (Palace) / Georg Wenzeslaus von Knobelsdorff / Potsdam, Germany",
+    "days": [671],
+    "copyrights": [
+      {
+        "1": "Janstoecklin (wikimedia)",
+        "2": "Paul Odörfer (wikimedia)",
+        "3": "Raimond Spekking  (wikimedia)",
+        "4": "Suse (wikimedia)",
+        "5": "Carsten Steger  (wikimedia)",
+        "6": "Mbzt  (wikimedia)"
+      }
+    ],
+    "years": "1745-1747",
+    "links": ["https://en.wikipedia.org/wiki/Sanssouci"],
+    "categories": ["monument", "community", "Rococo"]
   }
 ]
