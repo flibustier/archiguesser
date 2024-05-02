@@ -7970,5 +7970,19 @@
     "years": "1745-1747",
     "links": ["https://en.wikipedia.org/wiki/Sanssouci"],
     "categories": ["monument", "community", "Rococo"]
+  },
+  {
+    "answer": "National Museum of Scotland / Benson & Forsyth, Gareth Hoskins Architects / Edinburgh, Scotland, United Kingdom (UK)",
+    "days": [672],
+    "copyrights": [
+      {
+        "*": "Andrew Lee",
+        "4": "Brian McNeil (wikimedia)",
+        "5": "Maccoinnich~commonswiki (wikimedia)"
+      }
+    ],
+    "years": "1861-1866,1998,2011",
+    "links": ["https://en.wikipedia.org/wiki/National_Museum_of_Scotland"],
+    "categories": ["community", "museum"]
   }
 ]
