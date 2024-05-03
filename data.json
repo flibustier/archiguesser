@@ -7984,5 +7984,17 @@
     "years": "1861-1866,1998,2011",
     "links": ["https://en.wikipedia.org/wiki/National_Museum_of_Scotland"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Estação das Artes / Carvalho Araújo / Fortaleza, Brasil",
+    "days": [673],
+    "copyrights": [
+      {
+        "*": "Felipe Petrovsky"
+      }
+    ],
+    "years": "2022",
+    "links": ["https://www.carvalhoaraujo.com/en/project/estacao-das-artes/"],
+    "categories": ["community"]
   }
 ]
