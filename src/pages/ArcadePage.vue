@@ -231,22 +231,12 @@ const openLinks = () => {
 </template>
 
 <style scoped>
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 .column-gap-2r {
   gap: 2rem;
 }
 
 header {
   text-align: center;
-}
-
-b {
-  font-weight: 600;
 }
 
 .progress {

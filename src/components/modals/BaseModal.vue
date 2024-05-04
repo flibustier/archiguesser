@@ -28,7 +28,7 @@ const closeModal = () => {
           <IconClose />
         </div>
       </div>
-      <div class="modal-body">
+      <div class="column modal-body">
         <slot></slot>
         <div class="modal-footer" v-if="$slots.footer">
           <slot name="footer"></slot>
@@ -80,9 +80,6 @@ const closeModal = () => {
 }
 
 .modal-body {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
   margin-top: 1rem;
 }
 

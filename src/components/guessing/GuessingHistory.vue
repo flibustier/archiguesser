@@ -71,7 +71,7 @@ const highlight = (guess: string) =>
 </script>
 
 <template>
-  <div class="guesses">
+  <div class="column guesses">
     <div class="guess" v-if="showHint">
       <span class="guess-icon"><IconInfo /></span>
       <span v-html="hint" />
@@ -80,18 +80,16 @@ const highlight = (guess: string) =>
       <span class="guess-icon"><IconTimes /></span>
       <span v-html="highlight(guess)"></span>
     </div>
-    <div class="remaining" v-if="isLastGuessRemaining">
-      Last guess remaining!
+    <div class="text-center text-small">
+      <span v-if="isLastGuessRemaining">Last guess remaining!</span>
+      <span v-else>{{ guessesRemaining }} guesses remaining</span>
     </div>
-    <div class="remaining" v-else>{{ guessesRemaining }} guesses remaining</div>
   </div>
 </template>
 
 <style scoped>
 .guesses {
   margin: 0.5rem 0;
-  display: flex;
-  flex-direction: column;
   width: 100%;
   gap: 0.5rem;
 }
@@ -115,14 +113,8 @@ const highlight = (guess: string) =>
   height: 100%;
 }
 
-.remaining {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-
-  text-align: center;
-}
-
 :deep(b) {
   background-color: var(--color-highlight);
+  font-weight: initial;
 }
 </style>

@@ -65,7 +65,7 @@ const submit = async () => {
     @update:is-visible="closeModal"
   >
     <template #default>
-      <div class="created-info" v-if="isAccountCreated">
+      <div class="column" v-if="isAccountCreated">
         <p>Your account has been created!</p>
         <button class="primary-btn" @click="closeAndRefresh">Got it!</button>
       </div>
@@ -116,18 +116,8 @@ p {
   text-align: center;
 }
 
-b {
-  font-weight: 600;
-}
-
 .error-message {
   color: #c85503;
-}
-
-.created-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 }
 
 form {

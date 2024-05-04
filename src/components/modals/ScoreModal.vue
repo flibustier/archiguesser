@@ -34,8 +34,8 @@ const closeModal = () => emit("update:isVisible", false);
     @update:is-visible="closeModal"
   >
     <template #default>
-      <div class="main">
-        <div class="scores">
+      <div class="column">
+        <div class="text-center">
           <h1>{{ score }}</h1>
           <h3>Daily Challenges: {{ getDailiesScore() }}</h3>
           <h3>Theme Challenges: {{ getChallengesScore() }}</h3>
@@ -45,7 +45,7 @@ const closeModal = () => emit("update:isVisible", false);
           <h3>You’re ranked <b>1th</b></h3>
         </div>
 
-        <a class="details" @click="showDetails = true">
+        <a class="text-center" @click="showDetails = true">
           <IconHelp /> <span> How are points counted ?</span></a
         >
 
@@ -66,24 +66,9 @@ const closeModal = () => emit("update:isVisible", false);
 </template>
 
 <style scoped>
-.scores,
-.details {
-  text-align: center;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 a > svg {
   vertical-align: text-top;
   filter: invert(48%) sepia(73%) saturate(406%) hue-rotate(342deg)
     brightness(97%) contrast(83%);
-}
-
-b {
-  font-weight: 500;
 }
 </style>
