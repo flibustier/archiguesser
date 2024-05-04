@@ -52,7 +52,7 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
       type="image/jpeg"
       :href="imgSrc(pictureShown + 1)"
     />
-    <div class="credit">
+    <div class="text-center text-small">
       <span v-if="$props.dayNumber === 666">#{{ props.dayNumber }}&nbsp;</span>
       <span v-if="pictureCopyright">📷</span>&nbsp;{{ pictureCopyright }}
     </div>
@@ -66,16 +66,9 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 </template>
 
 <style scoped>
-.credit {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  text-align: center;
-}
-
 .picture {
   display: block;
   margin: 0 -1rem 1rem;
-  width: 100%;
   width: calc(100% + 2rem);
   height: 27rem;
   inset: 0px;

@@ -110,7 +110,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="end-display">
+  <div class="column end-display">
     <div class="result">
       <h2 v-if="hasWon">You got it! 🎉</h2>
       <h2 v-else>
@@ -123,7 +123,7 @@ onMounted(async () => {
     </div>
     <div id="share-message" v-html="resultSquares" />
     <div class="guesses-display">
-      <button class="show-guesses-btn" @click="toggleGuesses">
+      <button class="show-guesses-btn text-small" @click="toggleGuesses">
         {{ showGuesses ? "Hide" : "Show" }} Guesses
       </button>
       <div v-if="showGuesses" class="history">
@@ -175,10 +175,7 @@ onMounted(async () => {
 
 <style scoped>
 .end-display {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
   margin-top: 0.5rem;
 }
 
@@ -235,8 +232,6 @@ button svg {
 
 .show-guesses-btn {
   text-decoration-line: underline;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
   background-color: transparent;
   background-image: none;
 }
