@@ -68,21 +68,23 @@ const navigate = (direction: "up" | "down") => {
 
 <template>
   <div>
-    <ul
-      v-if="!hasSelectedSuggestion && filteredSuggestions.length"
-      class="suggestions"
-    >
-      <li
-        v-for="(filteredResult, index) in filteredSuggestions"
-        :key="index"
-        ref="suggestionsRefs"
-        :class="{ 'is-focus': preselected === index }"
-        @click="validateGuess(filteredResult.suggestion)"
-        @mouseover="() => (preselected = index)"
+    <Transition>
+      <ul
+        v-if="!hasSelectedSuggestion && filteredSuggestions.length"
+        class="suggestions"
       >
-        <span v-html="filteredResult.highlightedSuggestion"></span>
-      </li>
-    </ul>
+        <li
+          v-for="(filteredResult, index) in filteredSuggestions"
+          :key="index"
+          ref="suggestionsRefs"
+          :class="{ 'is-focus': preselected === index }"
+          @click="validateGuess(filteredResult.suggestion)"
+          @mouseover="() => (preselected = index)"
+        >
+          <span v-html="filteredResult.highlightedSuggestion"></span>
+        </li>
+      </ul>
+    </Transition>
 
     <div class="input-row">
       <div class="input-wrap">
@@ -191,5 +193,16 @@ const navigate = (direction: "up" | "down") => {
 
 button {
   width: 15%;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: all 0.5s;
+  height: 9rem;
+}
+
+.v-enter-from,
+.v-leave-to {
+  height: 0px;
 }
 </style>
