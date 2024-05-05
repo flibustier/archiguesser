@@ -3004,8 +3004,8 @@
     "categories": []
   },
   {
-    "answer": "Grand National Theater of China / Paul Andreu / Beijing, China",
-    "days": [191],
+    "answer": "National Centre for the Performing Arts (Grand National Theater, The Giant Egg) / Paul Andreu / Beijing, China",
+    "days": [191, 675],
     "copyrights": [
       {
         "1": "Aurelio Asiain (flickr)",
@@ -3015,9 +3015,9 @@
     ],
     "years": "2002-2007",
     "links": [
-      "https://en.wikiarquitectura.com/building/Grand-National-Theater-of-China/"
+      "https://en.wikipedia.org/wiki/National_Centre_for_the_Performing_Arts_(China)"
     ],
-    "categories": []
+    "categories": ["concert hall"]
   },
   {
     "answer": "Carcassonne Castle / Eugéne Viollet Le-Duc / Carcassonne, Aude, Occitanie, France",
