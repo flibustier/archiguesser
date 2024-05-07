@@ -8023,5 +8023,21 @@
     "years": "2015",
     "links": ["https://en.wikipedia.org/wiki/Grace_Farms"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Memorial to the Murdered Jews of Europe (Holocaust Memorial) / Peter Eisenman / Berlin, Germany",
+    "days": [677],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "2": "Georgie Pauwels (wikimedia)",
+        "6": "Alexander Blum (wikimedia)"
+      }
+    ],
+    "years": "2003-2004",
+    "links": [
+      "https://en.wikipedia.org/wiki/Memorial_to_the_Murdered_Jews_of_Europe"
+    ],
+    "categories": []
   }
 ]
