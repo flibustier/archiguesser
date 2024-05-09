@@ -86,7 +86,7 @@ const navigate = (direction: "up" | "down") => {
 
     <div class="form-line">
       <div class="search">
-        <span class="icon-search">
+        <span class="icon icon-search">
           <IconSearch />
         </span>
         <input
@@ -100,7 +100,11 @@ const navigate = (direction: "up" | "down") => {
           @keyup.up="navigate('up')"
           @keyup.down="navigate('down')"
         />
-        <span class="icon-times" v-if="searchTerms" @click="resetSearchTerms">
+        <span
+          class="icon icon-times"
+          v-if="searchTerms"
+          @click="resetSearchTerms"
+        >
           <IconBackspace />
         </span>
       </div>
@@ -142,9 +146,7 @@ const navigate = (direction: "up" | "down") => {
 .suggestions li {
   display: list-item;
   cursor: pointer;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-
+  padding: 0 0.25rem;
   margin: 0.25rem 0.35em;
   border-radius: var(--border-radius);
 }
@@ -167,26 +169,23 @@ const navigate = (direction: "up" | "down") => {
   color: var(--color-background);
 }
 
-.search .icon-search {
+.search .icon {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
   display: flex;
   align-items: center;
-  padding-left: 0.5rem;
   z-index: 1;
 }
 
+.search .icon-search {
+  left: 0;
+  padding-left: var(--gap);
+}
+
 .search .icon-times {
-  position: absolute;
-  top: 0;
-  bottom: 0;
   right: 0;
-  display: flex;
-  align-items: center;
-  padding-right: 0.5rem;
-  z-index: 1;
+  padding-right: var(--gap);
   cursor: pointer;
 }
 
