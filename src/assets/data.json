@@ -8053,5 +8053,21 @@
     "years": "2006-2013",
     "links": ["https://fr.wikipedia.org/wiki/H%C3%A9liodome"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Cardboard Cathedral (Transitional Cathedral) / Shigeru Ban / Christchurch, New Zealand",
+    "days": [679],
+    "copyrights": [
+      {
+        "*": "Bridgit Anderson",
+        "1": "Jocelyn Kinghorn (wikimedia)",
+        "2": "Unknown (architectural review)",
+        "3": "Jocelyn Kinghorn (wikimedia)",
+        "6": "Tony Hisgett (wikimedia)"
+      }
+    ],
+    "years": "2013",
+    "links": ["https://en.wikipedia.org/wiki/Cardboard_Cathedral"],
+    "categories": ["community", "religious"]
   }
 ]
