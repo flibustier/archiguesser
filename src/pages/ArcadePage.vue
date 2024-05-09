@@ -15,10 +15,8 @@ import { getProjectsByCategory } from "@/services/projects";
 import { sendChallengeResult, sendEvent } from "@/services/api";
 import { getChallenges, isLogged, setChallenges } from "@/services/store";
 
-import IconWiki from "@/components/icons/IconWiki.vue";
 import IconRetry from "@/components/icons/IconRetry.vue";
-import IconScore from "@/components/icons/IconScoreboard.vue";
-import IconTrophy from "@/components/icons/IconTrophy.vue";
+import EndActions from "@/components/arcade/EndActions.vue";
 import AnimatedGIF from "@/components/basic/AnimatedGIF.vue";
 import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
 import GuessingMultipleChoice from "@/components/guessing/GuessingMultipleChoice.vue";
@@ -69,7 +67,6 @@ const blackSquares = computed(
 
 const currentProject = computed(() => projects[remainingGuesses.value - 1]);
 
-const refresh = () => window.location.reload();
 const goHome = () => window.location.replace("/");
 
 const sendResult = (failedOn = "") => {
@@ -98,11 +95,6 @@ const onSubmittedGuess = (guess: string) => {
     }
   }
 };
-
-const openLinks = () => {
-  window.open(currentProject.value.links[0], "_blank")?.focus();
-  sendEvent("Learn");
-};
 </script>
 
 <template>
@@ -117,7 +109,7 @@ const openLinks = () => {
       <AnimatedGIF filename="corbusier" alt="Corbusier is watching" />
     </a>
 
-    <header>
+    <header class="text-center">
       <p>You’ve reached your {{ retryQuota }} daily retry! 🥲</p>
       <p v-if="isLogged()">Nice work!! Keep trying tomorrow!</p>
       <p v-else>
@@ -125,11 +117,7 @@ const openLinks = () => {
         an account (free & instant)!
       </p>
     </header>
-    <button
-      class="btn-white icon-btn center"
-      @click="goHome()"
-      v-if="isLogged()"
-    >
+    <button class="btn-white center" @click="goHome()" v-if="isLogged()">
       <span>Back to daily challenge</span>
       <IconRetry />
     </button>
@@ -164,68 +152,15 @@ const openLinks = () => {
         @submitted="onSubmittedGuess"
       />
     </div>
-    <div class="end-display" v-else>
-      <div v-if="hasWon">
-        <h2>You got it!! 🎉</h2>
-        <br />
-        <h3 v-if="hasReachMaxLevel">
-          You’ve reached the maximum level for this challenge! 🏆 Congrats!!
-          👏<br />
-          New levels will be added soon, stay tuned!
-        </h3>
-        <h3 v-else>
-          You’re now level {{ currentLevel }}! 🏆 You’ve earned
-          {{ currentLevel * 50 }} points!
-        </h3>
-        <br />
-      </div>
-      <div v-else>
-        <h2>
-          The answer was:
-          <span class="answer">{{ currentProject.answer }}</span>
-        </h2>
-      </div>
-      <div class="buttons">
-        <button
-          v-if="hasWon && !hasReachMaxLevel"
-          class="primary-btn"
-          @click="refresh()"
-        >
-          <span>Next Level!</span>
-          <IconTrophy style="fill: white" />
-        </button>
-        <button v-else-if="!hasWon" class="primary-btn" @click="refresh()">
-          <span>Retry</span>
-          <IconRetry style="fill: white" />
-        </button>
-        <div class="separator" v-if="!hasReachMaxLevel"></div>
-        <div class="btns-group">
-          <button
-            class="btn-white icon-btn"
-            @click="openLinks()"
-            v-if="!hasWon && currentProject.links.length > 0"
-          >
-            <span>Learn more about it</span>
-            <IconWiki />
-          </button>
-          <button
-            v-if="hasWon"
-            class="btn-white icon-btn"
-            @click="$emit('showScoreModal')"
-          >
-            <span>Check your score</span>
-            <IconScore />
-          </button>
-          <button class="btn-white icon-btn" @click="$emit('showArcadeModal')">
-            <span>Try another challenge</span>
-            <IconTrophy />
-          </button>
-          <button class="btn-white icon-btn" @click="goHome()">
-            <span>Back to daily challenge</span>
-            <IconRetry />
-          </button>
-        </div>
-      </div>
+    <div class="column end-display" v-else>
+      <EndActions
+        :hasWon="hasWon"
+        :hasReachMaxLevel="hasReachMaxLevel"
+        :currentLevel="currentLevel"
+        :currentProject="currentProject"
+        @showArcadeModal="$emit('showArcadeModal')"
+        @showScoreModal="$emit('showScoreModal')"
+      />
     </div>
   </div>
 </template>
@@ -233,10 +168,6 @@ const openLinks = () => {
 <style scoped>
 .column-gap-2r {
   gap: 2rem;
-}
-
-header {
-  text-align: center;
 }
 
 .progress {
@@ -247,26 +178,12 @@ header {
 
 /* end display */
 .end-display {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
 }
 
 .answer {
   display: block;
   font-weight: 500;
-}
-
-.buttons {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.separator {
-  background-color: var(--color-border);
-  width: 1px;
 }
 
 button {
@@ -288,10 +205,6 @@ button svg {
   line-height: 1.75rem;
   color: var(--color-primary-inverted);
   background-color: var(--color-primary);
-}
-
-.icon-btn {
-  justify-content: space-between;
 }
 
 .center {

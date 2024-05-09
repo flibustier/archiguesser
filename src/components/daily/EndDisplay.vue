@@ -122,10 +122,10 @@ onMounted(async () => {
       </div>
     </div>
     <div id="share-message" v-html="resultSquares" />
-    <div class="guesses-display">
-      <button class="show-guesses-btn text-small" @click="toggleGuesses">
+    <div class="column-stretch">
+      <a class="text-small text-center" href="#" @click="toggleGuesses">
         {{ showGuesses ? "Hide" : "Show" }} Guesses
-      </button>
+      </a>
       <div v-if="showGuesses" class="history">
         <div v-for="(guess, i) of guesses" :key="guess" class="history-row">
           <span class="history-icon">
@@ -142,12 +142,12 @@ onMounted(async () => {
         <IconCopy style="fill: white" />
       </button>
       <div class="separator"></div>
-      <div class="right-buttons">
-        <button class="white-btn" @click="openLinks" v-if="links.length > 0">
+      <div class="column-stretch">
+        <button class="btn-white" @click="openLinks" v-if="links.length > 0">
           <span>Learn more about it</span>
           <IconWiki />
         </button>
-        <button class="white-btn" @click="$emit('showBackModal')">
+        <button class="btn-white" @click="$emit('showBackModal')">
           <span>Try another one!</span>
           <IconBack />
         </button>
@@ -210,30 +210,12 @@ button svg {
   vertical-align: text-top;
 }
 
-.right-buttons,
-.guesses-display {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
 .share-btn {
   font-size: 1.1rem;
   align-self: center;
 
   color: var(--color-primary-inverted);
   background-color: var(--color-primary);
-}
-
-.white-btn {
-  border: 1px solid;
-  background-color: var(--background-color);
-}
-
-.show-guesses-btn {
-  text-decoration-line: underline;
-  background-color: transparent;
-  background-image: none;
 }
 
 .history {
@@ -253,8 +235,8 @@ button svg {
 
 .extra {
   display: flex;
-  gap: 2rem;
   align-items: center;
+  gap: 2rem;
 }
 
 @media screen and (max-width: 48rem) {

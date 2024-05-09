@@ -48,7 +48,7 @@ const select = (choice: string, choseIdx: number) => {
 </script>
 
 <template>
-  <div class="btns-group">
+  <div class="column-stretch">
     <button
       v-for="(choice, i) in choices"
       :key="i"
