@@ -8069,5 +8069,19 @@
     "years": "2013",
     "links": ["https://en.wikipedia.org/wiki/Cardboard_Cathedral"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Pinacoteca do Estado de São Paulo / Paulo Mendes da Rocha, Eduardo Colonelli, Weliton Ricoy Torres / São Paulo, Brazil",
+    "days": [680],
+    "copyrights": [
+      {
+        "*": "Nelson Kon"
+      }
+    ],
+    "years": "1998",
+    "links": [
+      "https://www.archdaily.com/894758/pinacoteca-do-estado-de-sao-paulo-paulo-mendes-da-rocha-plus-eduardo-colonelli-plus-weliton-ricoy-torres"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
