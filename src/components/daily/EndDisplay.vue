@@ -137,7 +137,7 @@ onMounted(async () => {
       </div>
     </div>
     <div class="buttons">
-      <button class="share-btn" @click="copy">
+      <button class="btn-primary" @click="copy">
         <span>{{ shareBtnContent }}</span>
         <IconCopy style="fill: white" />
       </button>
@@ -157,10 +157,10 @@ onMounted(async () => {
       <p v-if="description" class="description" v-html="description" />
       <RecommendationLink :categories="props.categories" />
     </div>
-    <div v-if="isCommunity" style="text-align: center">
+    <p v-if="isCommunity" class="text-center">
       This project has been brought to you by one of ArchiGuesser’s players.
       Thank you 👏
-    </div>
+    </p>
     <div>
       <span>Next challenge <b class="emphasis">tomorrow</b>! 🕛</span>
     </div>
@@ -200,22 +200,8 @@ onMounted(async () => {
   width: 1px;
 }
 
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-}
-
-button svg {
-  margin-left: 0.25rem;
-  vertical-align: text-top;
-}
-
-.share-btn {
+.btn-primary {
   font-size: 1.1rem;
-  align-self: center;
-
-  color: var(--color-primary-inverted);
-  background-color: var(--color-primary);
 }
 
 .history {

@@ -54,9 +54,9 @@ const select = (choice: string, choseIdx: number) => {
       :key="i"
       :class="{
         'btn-white': true,
-        'btn-chose': true,
-        'btn-chose-wrong': choseIndex === i && !hasChosenRight,
-        'btn-chose-success': choseIndex === i && hasChosenRight,
+        'btn-animated': true,
+        wrong: choseIndex === i && !hasChosenRight,
+        success: choseIndex === i && hasChosenRight,
       }"
       @click="select(choice, i)"
     >
@@ -66,20 +66,15 @@ const select = (choice: string, choseIdx: number) => {
 </template>
 
 <style scoped>
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-}
-
-.btn-chose {
+.btn-animated {
   transition: background-color 0.3s ease-out;
 }
 
-.btn-chose-success {
+.success {
   background-color: rgb(171, 217, 171);
 }
 
-.btn-chose-wrong {
+.wrong {
   background-color: #fb545457;
 }
 </style>

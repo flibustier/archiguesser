@@ -31,23 +31,21 @@ const logout = () => {
     @update:is-visible="closeModal"
   >
     <template #default>
-      <p>Your progress is saved on your logged devices!<br /></p>
-      <div class="form-line">
+      <p class="text-center">Your progress is saved on your logged devices!</p>
+      <div class="form-row">
         <label for="email">Email</label>
         <input v-model="email" type="text" id="email" disabled />
       </div>
 
-      <button class="white-btn" @click="logout()">Logout</button>
+      <button class="btn-white btn-small self-center" @click="logout()">
+        Logout
+      </button>
     </template>
   </BaseModal>
 </template>
 
 <style scoped>
-p {
-  text-align: center;
-}
-
-.form-line {
+.form-row {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -55,7 +53,7 @@ p {
 }
 
 @media screen and (max-width: 456px) {
-  .form-line {
+  .form-row {
     flex-direction: column;
   }
 }
@@ -68,16 +66,5 @@ input {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   background-color: var(--color-background);
-}
-
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-}
-
-.white-btn {
-  border: 1px solid var(--color-border);
-  background-color: var(--color-background);
-  align-self: center;
 }
 </style>

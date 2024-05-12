@@ -46,11 +46,11 @@ const openLinks = () => {
   </div>
   <div class="buttons">
     <template v-if="!hasReachMaxLevel">
-      <button v-if="hasWon" class="primary-btn" @click="refresh()">
+      <button v-if="hasWon" class="btn-primary" @click="refresh()">
         <span>Next Level!</span>
         <IconTrophy style="fill: white" />
       </button>
-      <button v-else class="primary-btn" @click="refresh()">
+      <button v-else class="btn-primary" @click="refresh()">
         <span>Retry</span>
         <IconRetry style="fill: white" />
       </button>

@@ -117,11 +117,11 @@ const onSubmittedGuess = (guess: string) => {
         an account (free & instant)!
       </p>
     </header>
-    <button class="btn-white center" @click="goHome()" v-if="isLogged()">
+    <button class="btn-white self-center" @click="goHome()" v-if="isLogged()">
       <span>Back to daily challenge</span>
       <IconRetry />
     </button>
-    <button class="primary-btn" @click="$emit('showLogInModal')" v-else>
+    <button class="btn-primary" @click="$emit('showLogInModal')" v-else>
       <span>Sign Up/Sign In</span>
     </button>
   </div>
@@ -184,30 +184,5 @@ const onSubmittedGuess = (guess: string) => {
 .answer {
   display: block;
   font-weight: 500;
-}
-
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-button svg {
-  margin-left: 0.5rem;
-  vertical-align: text-top;
-}
-
-.primary-btn {
-  align-self: center;
-  font-size: 0.875rem;
-  line-height: 1.75rem;
-  color: var(--color-primary-inverted);
-  background-color: var(--color-primary);
-}
-
-.center {
-  align-self: center;
 }
 </style>

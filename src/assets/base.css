@@ -55,8 +55,32 @@ button {
   font-family: inherit;
   line-height: inherit;
   text-transform: none;
-  padding: 0;
+  padding: 0.25rem 0.75rem;
   color: var(--color-text);
+  border-radius: var(--border-radius);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 60%;
+  transition: opacity 0.4s;
+}
+
+button svg {
+  margin-left: 0.5rem;
+  vertical-align: text-top;
+}
+
+button:has(svg) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  color: var(--color-primary-inverted);
+  background-color: var(--color-primary);
+  align-self: center;
 }
 
 .btn-white {
@@ -64,17 +88,18 @@ button {
   background-color: var(--background-color);
 }
 
-.btn-white:has(svg) {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.btn-small {
+  padding: 0.05rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
 }
 
 a {
   color: var(--color-primary);
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -103,7 +128,12 @@ h3,
   line-height: 1.25rem;
 }
 
-.column, .column-stretch {
+.self-center {
+  align-self: center;
+}
+
+.column,
+.column-stretch {
   display: flex;
   flex-direction: column;
 }
@@ -114,6 +144,10 @@ h3,
 
 .column-stretch {
   gap: var(--gap);
+}
+
+.mt-1 {
+  margin-top: var(--gap);
 }
 
 .square {

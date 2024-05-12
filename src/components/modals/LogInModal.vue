@@ -67,7 +67,9 @@ const submit = async () => {
     <template #default>
       <div class="column" v-if="isAccountCreated">
         <p>Your account has been created!</p>
-        <button class="primary-btn" @click="closeAndRefresh">Got it!</button>
+        <button class="btn-primary btn-small" @click="closeAndRefresh">
+          Got it!
+        </button>
       </div>
       <div v-else>
         <p>
@@ -76,8 +78,8 @@ const submit = async () => {
           Also you will have <b>{{ LOGGED_RETRIES }} daily retries</b> for
           challenges and earn points for the (future) scoreboard!
         </p>
-        <form @submit.prevent="submit">
-          <div class="form-line">
+        <form class="column" @submit.prevent="submit">
+          <div class="form-row">
             <label for="email">Email</label>
             <input
               v-model="email"
@@ -87,7 +89,7 @@ const submit = async () => {
             />
           </div>
 
-          <div class="form-line">
+          <div class="form-row">
             <label for="password">Password</label>
             <input
               v-model="password"
@@ -100,7 +102,7 @@ const submit = async () => {
           <p class="error-message" v-if="error">{{ error }}</p>
 
           <button
-            class="primary-btn"
+            class="btn-primary btn-small"
             :disabled="!isEmailValid || !isPasswordValid || isLoading"
           >
             {{ isLoading ? "Please Wait…" : "Sign In/Sign Up" }}
@@ -121,14 +123,12 @@ p {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 1.5rem;
   margin-top: 1rem;
 }
 
-.form-line {
+.form-row {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -150,31 +150,8 @@ input:focus-visible {
   box-shadow: 0px 0px 3px 0px var(--color-border);
 }
 
-.primary-btn {
-  margin-top: 0.5rem;
-  padding: 0.05rem 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.75rem;
-}
-
-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  border-radius: var(--border-radius);
-  color: var(--color-primary-inverted);
-  background-color: var(--color-primary);
-}
-
-.primary-btn:disabled {
-  cursor: not-allowed;
-  opacity: 60%;
-  transition: opacity 0.4s;
-}
-
 @media screen and (max-width: 456px) {
-  .form-line {
+  .form-row {
     flex-direction: column;
   }
 }
