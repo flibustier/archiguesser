@@ -3393,8 +3393,8 @@
     "categories": []
   },
   {
-    "answer": "Jerónimos (Hieronymites) Monastery / Diogo de Boitaca / Belém, Lisbon, Portugal",
-    "days": [220],
+    "answer": "Jerónimos Monastery (Hieronymites Monastery, Mosteiro dos Jerónimos) / Diogo de Boitaca / Belém, Lisbon, Portugal",
+    "days": [220, 682],
     "copyrights": [
       {
         "1": "Uticencis (wikimedia)",
@@ -3404,7 +3404,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Jerónimos__Monastery"],
-    "categories": ["monument"]
+    "categories": ["monument", "religious"]
   },
   {
     "answer": "Kubuswoningen (Cube Houses) / Piet Blom / Rotterdam, Netherlands",
