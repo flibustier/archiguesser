@@ -46,7 +46,7 @@ const feedbackAlreadySkipped = computed(
   >
     <template #default>
       <div v-if="!submitted">
-        <p class="text">
+        <p class="text-center">
           Thank you for playing today’s ArchiGuesser!<br />
           <span v-if="!getLastFeedback() || feedbackAlreadySkipped">
             You’re one of our best players. 🏆
@@ -57,37 +57,26 @@ const feedbackAlreadySkipped = computed(
           You get to write down a project you would like to see on ArchiGuesser
         </p>
 
-        <FeedbackForm @submitted="onSubmitted" />
+        <FeedbackForm @submitted="onSubmitted" class="mt-1" />
       </div>
-      <p v-else class="text">Thank you for your suggestion!</p>
+      <p v-else class="text-center">Thank you for your suggestion!</p>
     </template>
 
     <template v-if="!submitted" #footer>
       <button
         v-if="feedbackAlreadySkipped"
-        class="white-btn"
+        class="btn-white"
         @click="() => skipModal('never')"
       >
         Don’t ask me again
       </button>
-      <button class="white-btn" @click="() => skipModal()">Maybe later</button>
+      <button class="btn-white" @click="() => skipModal()">Maybe later</button>
     </template>
   </BaseModal>
 </template>
 
 <style scoped>
-.text {
-  text-align: center;
-}
-
-button {
-  border-radius: var(--border-radius);
-  padding: 0.25rem 0.75rem;
-}
-
-.white-btn {
-  border: 1px solid var(--color-border);
-  background-color: var(--color-background);
+.btn-white {
   margin: auto;
 }
 </style>
