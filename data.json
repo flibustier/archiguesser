@@ -5914,7 +5914,7 @@
   },
   {
     "answer": "Ray and Maria Stata Center (MIT Building 32) / Frank Gehry / Cambridge, Massachusetts, United States of America (USA)",
-    "days": [432],
+    "days": [432, 683],
     "copyrights": [
       {
         "1": "Sintakso (wikimedia)",
@@ -5927,7 +5927,7 @@
     ],
     "years": "2004",
     "links": ["https://en.wikipedia.org/wiki/Stata_Center"],
-    "categories": ["university", "deconstructivist"]
+    "categories": ["university", "deconstructivist", "community"]
   },
   {
     "answer": "Rushton Triangular Lodge / Sir Thomas Tresham / Rushton, Northamptonshire, United Kingdom (UK)",
