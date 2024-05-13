@@ -117,7 +117,11 @@ const onSubmittedGuess = (guess: string) => {
         an account (free & instant)!
       </p>
     </header>
-    <button class="btn-white self-center" @click="goHome()" v-if="isLogged()">
+    <button
+      class="btn-secondary self-center"
+      @click="goHome()"
+      v-if="isLogged()"
+    >
       <span>Back to daily challenge</span>
       <IconRetry />
     </button>

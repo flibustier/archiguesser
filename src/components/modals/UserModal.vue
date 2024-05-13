@@ -37,7 +37,7 @@ const logout = () => {
         <input v-model="email" type="text" id="email" disabled />
       </div>
 
-      <button class="btn-white btn-small self-center" @click="logout()">
+      <button class="btn-secondary btn-small self-center" @click="logout()">
         Logout
       </button>
     </template>

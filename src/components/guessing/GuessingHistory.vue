@@ -72,11 +72,11 @@ const highlight = (guess: string) =>
 
 <template>
   <div class="column guesses">
-    <div class="guess" v-if="showHint">
+    <div class="guess border" v-if="showHint">
       <span class="guess-icon"><IconInfo /></span>
       <span v-html="hint" />
     </div>
-    <div class="guess" v-for="guess of guessesReverseOrder" :key="guess">
+    <div class="guess border" v-for="guess of guessesReverseOrder" :key="guess">
       <span class="guess-icon"><IconTimes /></span>
       <span v-html="highlight(guess)"></span>
     </div>
@@ -99,8 +99,6 @@ const highlight = (guess: string) =>
   align-items: center;
 
   padding: 0.5rem;
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
   min-height: 2rem;
 }
 

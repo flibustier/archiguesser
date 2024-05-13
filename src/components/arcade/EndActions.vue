@@ -58,22 +58,26 @@ const openLinks = () => {
     </template>
     <div class="column-stretch">
       <button
-        class="btn-white"
+        class="btn-secondary"
         @click="openLinks()"
         v-if="!hasWon && currentProject.links.length > 0"
       >
         <span>Learn more about it</span>
         <IconWiki />
       </button>
-      <button v-if="hasWon" class="btn-white" @click="$emit('showScoreModal')">
+      <button
+        v-if="hasWon"
+        class="btn-secondary"
+        @click="$emit('showScoreModal')"
+      >
         <span>Check your score</span>
         <IconScore />
       </button>
-      <button class="btn-white" @click="$emit('showArcadeModal')">
+      <button class="btn-secondary" @click="$emit('showArcadeModal')">
         <span>Try another challenge</span>
         <IconTrophy />
       </button>
-      <button class="btn-white" @click="goHome()">
+      <button class="btn-secondary" @click="goHome()">
         <span>Back to daily challenge</span>
         <IconRetry />
       </button>
@@ -84,7 +88,6 @@ const openLinks = () => {
 <style scoped>
 .buttons {
   display: flex;
-  justify-content: space-between;
   gap: var(--gap-2x);
 }
 

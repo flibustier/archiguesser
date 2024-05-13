@@ -109,7 +109,7 @@ const navigate = (direction: "up" | "down") => {
         </span>
       </div>
       <input
-        class="submit-btn"
+        class="submit-btn btn-primary btn-small"
         type="submit"
         :value="searchTerms === '' ? 'SKIP' : 'SUBMIT'"
         @mousedown="submitGuess"
@@ -210,12 +210,7 @@ const navigate = (direction: "up" | "down") => {
   border-radius: var(--border-radius);
   width: 15%;
   height: 100%;
-  padding: 0.05rem 0.5rem;
-  font-size: 0.875rem;
-  line-height: 1.75rem;
   cursor: pointer;
-  color: var(--color-primary-inverted);
-  background-color: var(--color-primary);
   text-align: center;
   opacity: 100%;
 }

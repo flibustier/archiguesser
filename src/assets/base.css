@@ -57,6 +57,10 @@ button {
   text-transform: none;
   padding: 0.25rem 0.75rem;
   color: var(--color-text);
+}
+
+.border,
+button {
   border-radius: var(--border-radius);
 }
 
@@ -83,9 +87,13 @@ button:has(svg) {
   align-self: center;
 }
 
-.btn-white {
-  border: 1px solid;
+.btn-secondary {
   background-color: var(--background-color);
+}
+
+.border,
+.btn-secondary {
+  border: 1px solid var(--color-border);
 }
 
 .btn-small {
@@ -144,6 +152,11 @@ h3,
 
 .column-stretch {
   gap: var(--gap);
+}
+
+.row {
+  display: flex;
+  gap: var(--gap-2x);
 }
 
 .mt-1 {

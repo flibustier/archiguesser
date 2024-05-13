@@ -53,7 +53,7 @@ const select = (choice: string, choseIdx: number) => {
       v-for="(choice, i) in choices"
       :key="i"
       :class="{
-        'btn-white': true,
+        'btn-secondary': true,
         'btn-animated': true,
         wrong: choseIndex === i && !hasChosenRight,
         success: choseIndex === i && hasChosenRight,

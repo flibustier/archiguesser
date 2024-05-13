@@ -34,7 +34,6 @@ const updatePictureShown = (value: number) =>
 .paginator {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: var(--gap-2x);
   gap: var(--gap);
 }
