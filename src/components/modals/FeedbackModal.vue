@@ -65,18 +65,20 @@ const feedbackAlreadySkipped = computed(
     <template v-if="!submitted" #footer>
       <button
         v-if="feedbackAlreadySkipped"
-        class="btn-white"
+        class="btn-secondary"
         @click="() => skipModal('never')"
       >
         Don’t ask me again
       </button>
-      <button class="btn-white" @click="() => skipModal()">Maybe later</button>
+      <button class="btn-secondary" @click="() => skipModal()">
+        Maybe later
+      </button>
     </template>
   </BaseModal>
 </template>
 
 <style scoped>
-.btn-white {
+.btn-secondary {
   margin: auto;
 }
 </style>

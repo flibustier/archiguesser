@@ -143,18 +143,22 @@ onMounted(async () => {
       </button>
       <div class="separator"></div>
       <div class="column-stretch">
-        <button class="btn-white" @click="openLinks" v-if="links.length > 0">
+        <button
+          class="btn-secondary"
+          @click="openLinks"
+          v-if="links.length > 0"
+        >
           <span>Learn more about it</span>
           <IconWiki />
         </button>
-        <button class="btn-white" @click="$emit('showBackModal')">
+        <button class="btn-secondary" @click="$emit('showBackModal')">
           <span>Try another one!</span>
           <IconBack />
         </button>
       </div>
     </div>
     <div class="extra">
-      <p v-if="description" class="description" v-html="description" />
+      <p v-if="description" class="description border" v-html="description" />
       <RecommendationLink :categories="props.categories" />
     </div>
     <p v-if="isCommunity" class="text-center">
@@ -191,8 +195,7 @@ onMounted(async () => {
 
 .buttons {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  gap: var(--gap-2x);
 }
 
 .separator {
@@ -233,8 +236,6 @@ onMounted(async () => {
 }
 
 .description {
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
   padding: 1rem;
   text-align: justify;
   max-width: 62rem;
