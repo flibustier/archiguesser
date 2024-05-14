@@ -8099,5 +8099,17 @@
     "years": "2009",
     "links": ["https://en.wikipedia.org/wiki/Samuel_Beckett_Bridge"],
     "categories": ["bridge"]
+  },
+  {
+    "answer": "Carmen Würth Forum / David Chipperfield Architects / Künzelsau, Germany",
+    "days": [684],
+    "copyrights": [
+      {
+        "*": "Simon Menges"
+      }
+    ],
+    "years": "2006-2020",
+    "links": ["https://davidchipperfield.com/projects/carmen-wuerth-forum"],
+    "categories": ["community", "museum"]
   }
 ]
