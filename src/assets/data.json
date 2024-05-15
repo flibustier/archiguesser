@@ -3408,7 +3408,7 @@
   },
   {
     "answer": "Kubuswoningen (Cube Houses) / Piet Blom / Rotterdam, Netherlands",
-    "days": [221],
+    "days": [221, 685],
     "copyrights": [
       {
         "1": "Cmglee (wikimedia)",
@@ -3419,6 +3419,7 @@
         "6": "Hanselpedia (wikimedia)"
       }
     ],
+    "years": "1974",
     "links": ["https://en.wikipedia.org/wiki/Kubuswoningen"],
     "categories": []
   },
