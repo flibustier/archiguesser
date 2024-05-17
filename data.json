@@ -5271,7 +5271,7 @@
   },
   {
     "answer": "CN Tower / John Andrews, Webb Zerafa, Menkes Housden / Toronto, Canada",
-    "days": [363],
+    "days": [363, 686],
     "copyrights": [
       {
         "1": "Franklin.vp (wikimedia)",
@@ -5284,7 +5284,7 @@
     ],
     "years": "1973-1976",
     "links": ["https://en.wikipedia.org/wiki/CN_Tower"],
-    "categories": ["skyscraper"]
+    "categories": ["skyscraper", "community"]
   },
   {
     "answer": "Buckingham Palace / Capt. William Winde, Sir John Nash, Edward Blore FSA, Aston Webb / Westminster, London, United Kingdom (UK)",
