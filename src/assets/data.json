@@ -8112,5 +8112,18 @@
     "years": "2006-2020",
     "links": ["https://davidchipperfield.com/projects/carmen-wuerth-forum"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Lycée Jean Moulin (High School) / Duncan Lewis Scape Architecture / Revin, France",
+    "days": [687],
+    "copyrights": [
+      {
+        "*": "Cyrille Weiner",
+        "6": "Matthieu Tregoat"
+      }
+    ],
+    "years": "2016",
+    "links": ["https://www.duncan-lewis.com/PROJETS/112.REVIN/Revintext.html"],
+    "categories": ["community", "school"]
   }
 ]
