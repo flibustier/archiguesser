@@ -3455,7 +3455,7 @@
   },
   {
     "answer": "TWA Terminal at JFK airport / Eero Saarinen, Gensler Studio / New York, United States of America (USA)",
-    "days": [224],
+    "days": [224, 691],
     "copyrights": [
       {
         "*": "Cameron Blaylock"
@@ -3463,9 +3463,10 @@
     ],
     "years": "1956-1962",
     "links": [
+      "https://en.wikipedia.org/wiki/TWA_Flight_Center",
       "https://en.wikiarquitectura.com/building/TWA-Terminal-at-JFK-airport/"
     ],
-    "categories": []
+    "categories": ["infrastructure"]
   },
   {
     "answer": "Palais des Papes (Palace of the Popes) / Pierre Poisson, Jean de Louvres, Bertran Nogayrol / Avignon, France",
