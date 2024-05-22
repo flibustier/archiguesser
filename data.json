@@ -3515,14 +3515,15 @@
   },
   {
     "answer": "Temppeliaukio Kirkko (Church of the Rock) / Timo Suomalainen, Tuomo Suomalainen / Töölö, Helsinki, Finland",
-    "days": [228],
+    "days": [228, 690],
     "copyrights": [
       {
         "*": "Aleksandra Kostadinovska"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1969",
+    "links": ["https://en.wikipedia.org/wiki/Temppeliaukio_Church"],
+    "categories": ["religious"]
   },
   {
     "answer": "Temple of Heaven / Ming Emperor Shizong / Dongcheng, Beijing, China",
