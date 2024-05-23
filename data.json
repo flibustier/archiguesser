@@ -918,7 +918,7 @@
   },
   {
     "answer": "Kunsthaus Bregenz / Peter Zumthor / Bregenz, Vorarlberg, Austria",
-    "days": [53, 464],
+    "days": [53, 464, 692],
     "copyrights": [
       {
         "1": "mightymightymatze",
@@ -934,7 +934,7 @@
       "https://en.wikipedia.org/wiki/Kunsthaus_Bregenz",
       "https://en.wikiarquitectura.com/building/Kunsthaus-Bregenz/"
     ],
-    "categories": ["museum"]
+    "categories": ["museum", "community"]
   },
   {
     "answer": "Neuschwanstein Castle / Eduard Riedel / Hohenschwangau, Germany",
