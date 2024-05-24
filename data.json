@@ -8127,5 +8127,18 @@
     "years": "2016",
     "links": ["https://www.duncan-lewis.com/PROJETS/112.REVIN/Revintext.html"],
     "categories": ["community", "school"]
+  },
+  {
+    "answer": "Fjordenhus / Olafur Eliasson, Sebastian Behmann (Studio Olafur Eliasson) / Vejle, Denmark",
+    "days": [693],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau",
+        "6": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2018",
+    "links": ["https://olafureliasson.net/artwork/fjordenhus-2009-2018/"],
+    "categories": ["favorites"]
   }
 ]
