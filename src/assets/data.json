@@ -3500,7 +3500,7 @@
   },
   {
     "answer": "Montreal Biosphere / Richard Buckminster Fuller / Montreal, Canada",
-    "days": [227],
+    "days": [227, 695],
     "copyrights": [
       {
         "1": "Ehsan (flickr)",
@@ -3511,6 +3511,7 @@
         "6": "abdallahh (flickr)"
       }
     ],
+    "years": "1967",
     "links": ["https://en.wikipedia.org/wiki/Montreal_Biosphere"],
     "categories": []
   },

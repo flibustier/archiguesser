@@ -6,6 +6,7 @@ import IconBack from "../icons/IconBack.vue";
 import IconCheck from "../icons/IconCheck.vue";
 import ToggleSwitch from "../basic/ToggleSwitch.vue";
 
+import { SKIPPED_DAYS } from "@/config.json";
 import { isMonument } from "@/services/projects";
 import { getRealDayNumber } from "@/services/date";
 import { getStats, getSettings, setSetting } from "@/services/store";
@@ -13,7 +14,7 @@ import { getStats, getSettings, setSetting } from "@/services/store";
 const realCurrentDay = getRealDayNumber();
 // range of 60 numbers starting at real current day
 const days = [...Array(realCurrentDay).keys()]
-  .filter((day) => ![198, 214, 332, 484, 491, 519, 547].includes(day))
+  .filter((day) => !SKIPPED_DAYS.includes(day))
   .slice(realCurrentDay - 62)
   .reverse();
 
