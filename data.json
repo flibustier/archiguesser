@@ -8141,5 +8141,18 @@
     "years": "2018",
     "links": ["https://olafureliasson.net/artwork/fjordenhus-2009-2018/"],
     "categories": ["favorites"]
+  },
+  {
+    "answer": "Langen Foundation / Tadao Ando / Neuss, North Rhine-Westphalia, Germany",
+    "days": [697],
+    "copyrights": [
+      {
+        "*": "Lorenzo Zandri",
+        "6": "Anil Öztas (wikimedia)"
+      }
+    ],
+    "years": "2004",
+    "links": ["https://en.wikipedia.org/wiki/Langen_Foundation"],
+    "categories": ["community", "museum"]
   }
 ]
