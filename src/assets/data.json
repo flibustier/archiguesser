@@ -8154,5 +8154,19 @@
     "years": "2004",
     "links": ["https://en.wikipedia.org/wiki/Langen_Foundation"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Dutch Holocaust Memorial of Names (Holocaust Namenmonument) / Daniel Libeskind / Amsterdam, Netherlands",
+    "days": [699],
+    "copyrights": [
+      {
+        "*": "Kees Hummel"
+      }
+    ],
+    "years": "2013-2021",
+    "links": [
+      "https://en.wikipedia.org/wiki/National_Holocaust_Names_Memorial_(Amsterdam)"
+    ],
+    "categories": ["community"]
   }
 ]
