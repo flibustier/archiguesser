@@ -8168,5 +8168,22 @@
       "https://en.wikipedia.org/wiki/National_Holocaust_Names_Memorial_(Amsterdam)"
     ],
     "categories": ["community"]
+  },
+  {
+    "answer": "Laurentian Library (Biblioteca Medicea Laurenziana) / Michelangelo, Tribolo, Vasari, Ammannati / Florence, Italy",
+    "days": [700],
+    "copyrights": [
+      {
+        "1": "Sailko (wikimedia)",
+        "2": "Unknown (wikimedia)",
+        "3": "La Reale Accademia d'Italia (wikimedia)",
+        "4": "Sailko (wikimedia)",
+        "5": "StuartCahill (wikimedia)",
+        "6": "Richardfabi (wikimedia)"
+      }
+    ],
+    "years": "1525-1571",
+    "links": ["https://en.wikipedia.org/wiki/Laurentian_Library"],
+    "categories": []
   }
 ]
