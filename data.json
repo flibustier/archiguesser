@@ -8184,6 +8184,20 @@
     ],
     "years": "1525-1571",
     "links": ["https://en.wikipedia.org/wiki/Laurentian_Library"],
+    "categories": ["monument"]
+  },
+  {
+    "answer": "Wing's Castle / Toni Ann, Peter Wing / Millbrook, New York, United States of America (USA)",
+    "days": [701],
+    "copyrights": [
+      {
+        "*": "Chris Mottalini"
+      }
+    ],
+    "years": "",
+    "links": [
+      "https://www.architecturaldigest.com/story/wings-castle-hudson-valley"
+    ],
     "categories": []
   }
 ]
