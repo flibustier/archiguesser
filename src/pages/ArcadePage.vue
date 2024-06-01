@@ -19,7 +19,7 @@ import IconRetry from "@/components/icons/IconRetry.vue";
 import EndActions from "@/components/arcade/EndActions.vue";
 import AnimatedGIF from "@/components/basic/AnimatedGIF.vue";
 import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
-import GuessingMultipleChoice from "@/components/guessing/GuessingMultipleChoice.vue";
+import GuessingMultipleChoice from "@/components/input/GuessingMultipleChoice.vue";
 
 defineEmits(["showArcadeModal", "showLogInModal", "showScoreModal"]);
 

@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import { reactive, computed, ref } from "vue";
 
-import { getLastFeedback, getStats, getScore } from "@/services/store";
 import { syncUser } from "@/services/user";
 import { getRealDayNumber } from "@/services/date";
 import { getProjectInformation } from "@/services/projects";
 import { sendEvent, sendResult } from "@/services/api";
+import { getLastFeedback, getStats, getScore } from "@/services/store";
 
-import EndDisplay from "../components/daily/EndDisplay.vue";
-import GuessingForm from "../components/guessing/GuessingForm.vue";
-import PictureDisplay from "../components/picture-display/PictureDisplay.vue";
-import GuessingHistory from "../components/guessing/GuessingHistory.vue";
+import EndDisplay from "@/components/daily/EndDisplay.vue";
+import GuessingForm from "@/components/input/GuessingForm.vue";
+import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
+import GuessingHistory from "@/components/input/GuessingHistory.vue";
 
 const emit = defineEmits(["showBackModal", "showFeedbackModal"]);
 

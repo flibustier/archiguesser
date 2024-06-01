@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 
-import FeedbackForm from "../FeedbackForm.vue";
 import BaseModal from "./BaseModal.vue";
+import FeedbackForm from "@/components/input/FeedbackForm.vue";
 
 import { saveFeedback, getLastFeedback } from "@/services/store";
 import { sendEvent } from "@/services/api";

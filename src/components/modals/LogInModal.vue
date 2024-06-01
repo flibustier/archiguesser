@@ -79,7 +79,7 @@ const submit = async () => {
           challenges and earn points for the (future) scoreboard!
         </p>
         <form class="column" @submit.prevent="submit">
-          <div class="form-row">
+          <div class="input-row">
             <label for="email">Email</label>
             <input
               v-model="email"
@@ -89,7 +89,7 @@ const submit = async () => {
             />
           </div>
 
-          <div class="form-row">
+          <div class="input-row">
             <label for="password">Password</label>
             <input
               v-model="password"
@@ -128,10 +128,7 @@ form {
   margin-top: 1rem;
 }
 
-.form-row {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.input-row {
   max-width: 25rem;
 }
 
@@ -140,19 +137,5 @@ input {
   width: 100%;
   max-width: 20rem;
   padding: 0.05rem 0.5rem;
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  background-color: var(--color-background);
-}
-
-input:focus-visible {
-  outline: 0px solid transparent;
-  box-shadow: 0px 0px 3px 0px var(--color-border);
-}
-
-@media screen and (max-width: 456px) {
-  .form-row {
-    flex-direction: column;
-  }
 }
 </style>

@@ -32,9 +32,9 @@ const logout = () => {
   >
     <template #default>
       <p class="text-center">Your progress is saved on your logged devices!</p>
-      <div class="form-row">
+      <div class="input-row">
         <label for="email">Email</label>
-        <input v-model="email" type="text" id="email" disabled />
+        <input v-model="email" type="text" id="email" name="email" disabled />
       </div>
 
       <button class="btn-secondary btn-small self-center" @click="logout()">
@@ -45,26 +45,7 @@ const logout = () => {
 </template>
 
 <style scoped>
-.form-row {
-  display: flex;
+.input-row {
   justify-content: space-evenly;
-  width: 100%;
-  max-width: 25rem;
-}
-
-@media screen and (max-width: 456px) {
-  .form-row {
-    flex-direction: column;
-  }
-}
-
-input {
-  height: 1.5rem;
-  width: 100%;
-  max-width: 15rem;
-  padding: 0.05rem 0.5rem;
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  background-color: var(--color-background);
 }
 </style>

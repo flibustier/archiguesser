@@ -84,8 +84,8 @@ const navigate = (direction: "up" | "down") => {
       </li>
     </ul>
 
-    <div class="form-line">
-      <div class="search">
+    <div class="input-row">
+      <div class="input-wrap">
         <span class="icon icon-search">
           <IconSearch />
         </span>
@@ -108,13 +108,14 @@ const navigate = (direction: "up" | "down") => {
           <IconBackspace />
         </span>
       </div>
-      <input
-        class="submit-btn btn-primary btn-small"
+      <button
+        class="btn-primary btn-small"
         type="submit"
-        :value="searchTerms === '' ? 'SKIP' : 'SUBMIT'"
-        @mousedown="submitGuess"
         :disabled="!isSelectionDone"
-      />
+        @mousedown="submitGuess"
+      >
+        {{ searchTerms === "" ? "SKIP" : "SUBMIT" }}
+      </button>
     </div>
   </div>
 </template>
@@ -130,7 +131,7 @@ const navigate = (direction: "up" | "down") => {
   bottom: 100%;
   top: auto;
   width: 100%;
-  max-height: 9rem;
+  max-height: 18rem;
   margin: 0;
   padding: 0;
 
@@ -155,21 +156,12 @@ const navigate = (direction: "up" | "down") => {
   background-color: var(--color-light-background);
 }
 
-.form-line {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  gap: 0.5rem;
-}
-
-.search {
-  position: relative;
+.input-wrap {
   width: 85%;
   color: var(--color-background);
 }
 
-.search .icon {
+.input-wrap .icon {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -178,60 +170,26 @@ const navigate = (direction: "up" | "down") => {
   z-index: 1;
 }
 
-.search .icon-search {
+.input-wrap .icon-search {
   left: 0;
   padding-left: var(--gap);
 }
 
-.search .icon-times {
+.input-wrap .icon-times {
   right: 0;
   padding-right: var(--gap);
   cursor: pointer;
 }
 
-.search .search-input {
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius);
-  width: 100%;
-  padding-right: 0.5rem;
+.input-wrap .search-input {
   padding-left: 2.5rem;
 }
 
-.search .search-input.is-not-empty {
+.input-wrap .search-input.is-not-empty {
   padding-right: 2.5rem;
 }
 
-.search .search-input:focus-visible {
-  outline: 0px solid transparent;
-  box-shadow: 0px 0px 3px 0px var(--color-border);
-}
-
-.submit-btn {
-  border-radius: var(--border-radius);
+button {
   width: 15%;
-  height: 100%;
-  cursor: pointer;
-  text-align: center;
-  opacity: 100%;
-}
-
-.submit-btn:disabled {
-  cursor: not-allowed;
-  opacity: 60%;
-  transition: opacity 0.4s;
-}
-
-@media screen and (max-width: 456px) {
-  .form-line {
-    flex-direction: column;
-  }
-
-  .search {
-    width: 100%;
-  }
-
-  .submit-btn {
-    width: 100%;
-  }
 }
 </style>
