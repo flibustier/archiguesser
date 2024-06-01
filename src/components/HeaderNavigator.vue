@@ -17,16 +17,21 @@ defineEmits([
 <template>
   <header>
     <div class="nav-bar">
-      <div class="nav-block nav-left">
-        <a href="/" id="brand" aria-label="Back to the daily challenge"
+      <div class="nav-left">
+        <a
+          href="/"
+          id="brand"
+          aria-label="Back to the daily challenge"
+          tabindex="0"
           >ArchiGuesser</a
         >
       </div>
-      <div class="nav-block nav-right">
+      <div class="nav-right">
         <a
           @click="$emit('showBackModal')"
           href="#replay"
           aria-label="Replay previous days"
+          tabindex="1"
         >
           <IconBack />
         </a>
@@ -34,6 +39,7 @@ defineEmits([
           @click="$emit('showArcadeModal')"
           href="#challenges"
           aria-label="Play themed challenges"
+          tabindex="2"
         >
           <IconTrophy />
         </a>
@@ -41,6 +47,7 @@ defineEmits([
           @click="$emit('showScoreModal')"
           href="#score"
           aria-label="Show your score"
+          tabindex="3"
         >
           <IconScoreboard />
         </a>
@@ -48,6 +55,7 @@ defineEmits([
           @click="$emit('showUserModal')"
           href="#login"
           aria-label="LogIn to your account or show informations if you’re already connected"
+          tabindex="4"
         >
           <IconUser />
         </a>
@@ -55,6 +63,7 @@ defineEmits([
           @click="$emit('showInfoModal')"
           href="#info"
           aria-label="Show informations about ArchiGuesser"
+          tabindex="5"
         >
           <IconHelp />
         </a>
@@ -65,18 +74,11 @@ defineEmits([
 
 <style scoped>
 header {
-  display: block;
-  position: relative;
-  left: 0;
-  right: 0;
   border-bottom: 1px solid var(--color-border);
-  transition: background 0.7s;
 }
 
 .nav-bar {
   display: flex;
-  align-items: center;
-  flex-direction: row;
   justify-content: space-between;
   max-width: var(--max-width);
   margin: 0 auto;
@@ -84,27 +86,27 @@ header {
   line-height: 3rem;
 }
 
-.nav-block {
+.nav-left,
+.nav-right {
   display: flex;
-  flex-direction: row;
 }
 
 .nav-bar a {
   padding: 0 0.5rem;
   color: inherit;
   text-decoration: none;
-  transition: border 0.4s;
-}
 
-.nav-bar a:hover {
-  transition: filter 0.3s;
+  &:hover,
+  &:focus-visible {
+    transition: filter 0.3s;
 
-  filter: invert(48%) sepia(73%) saturate(406%) hue-rotate(342deg)
-    brightness(97%) contrast(83%);
-}
+    filter: invert(48%) sepia(73%) saturate(406%) hue-rotate(342deg)
+      brightness(97%) contrast(83%);
+  }
 
-.nav-bar a svg {
-  height: 100%;
+  svg {
+    height: 100%;
+  }
 }
 
 #brand {
@@ -120,11 +122,6 @@ header {
   .nav-right {
     width: 100%;
     justify-content: center;
-    gap: 1rem;
-  }
-
-  .nav-bar {
-    height: 2rem;
   }
 }
 </style>

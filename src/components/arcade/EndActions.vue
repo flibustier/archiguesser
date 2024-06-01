@@ -44,7 +44,7 @@ const openLinks = () => {
       <span class="answer">{{ currentProject.answer }}</span>
     </h2>
   </div>
-  <div class="buttons">
+  <div class="row">
     <template v-if="!hasReachMaxLevel">
       <button v-if="hasWon" class="btn-primary" @click="refresh()">
         <span>Next Level!</span>
@@ -86,13 +86,22 @@ const openLinks = () => {
 </template>
 
 <style scoped>
-.buttons {
-  display: flex;
-  gap: var(--gap-2x);
-}
-
 .separator {
   background-color: var(--color-border);
   width: 1px;
+}
+
+@media screen and (max-width: 400px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
 }
 </style>

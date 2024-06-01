@@ -124,8 +124,7 @@ p {
 
 form {
   align-items: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .input-row {
