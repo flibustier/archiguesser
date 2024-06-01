@@ -19,7 +19,7 @@ const refresh = () => window.location.reload();
 const goHome = () => window.location.replace("/");
 
 const openLinks = () => {
-  window.open(props.currentProject.value.links[0], "_blank")?.focus();
+  window.open(props.currentProject.links[0], "_blank")?.focus();
   sendEvent("Learn");
 };
 </script>

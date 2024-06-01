@@ -136,7 +136,7 @@ onMounted(async () => {
         </div>
       </div>
     </div>
-    <div class="buttons">
+    <div class="row">
       <button class="btn-primary" @click="copy">
         <span>{{ shareBtnContent }}</span>
         <IconCopy style="fill: white" />
@@ -191,11 +191,6 @@ onMounted(async () => {
 .answer {
   display: block;
   font-weight: 500;
-}
-
-.buttons {
-  display: flex;
-  gap: var(--gap-2x);
 }
 
 .separator {
