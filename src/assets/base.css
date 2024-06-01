@@ -49,6 +49,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input[type="text"] {
+  width: 100%;
+  padding: 0 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+input:focus-visible {
+  outline: 0px solid transparent;
+  box-shadow: 0px 0px 3px 0px var(--color-border);
+}
+
+.border,
+.btn-secondary,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+}
+
 button {
   cursor: pointer;
   font-size: 100%;
@@ -57,10 +78,6 @@ button {
   text-transform: none;
   padding: 0.25rem 0.75rem;
   color: var(--color-text);
-}
-
-.border,
-button {
   border-radius: var(--border-radius);
 }
 
@@ -89,11 +106,6 @@ button:has(svg) {
 
 .btn-secondary {
   background-color: var(--background-color);
-}
-
-.border,
-.btn-secondary {
-  border: 1px solid var(--color-border);
 }
 
 .btn-small {
@@ -157,6 +169,28 @@ h3,
 .row {
   display: flex;
   gap: var(--gap-2x);
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: var(--gap);
+}
+
+@media screen and (max-width: 456px) {
+  .input-row {
+    flex-direction: column;
+
+    label {
+      margin-bottom: -0.5rem;
+    }
+
+    button,
+    .input-wrap {
+      width: 100%;
+    }
+  }
 }
 
 .mt-1 {
