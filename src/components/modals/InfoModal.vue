@@ -44,18 +44,18 @@ const closeModal = () => {
         >.
       </p>
       <p>Each day an architectural project is picked from a curated list</p>
-      <div class="text-with-icon">
+      <div class="row">
         <IconPictures />
         <p>Use the image provided to guess the name of the project.</p>
       </div>
-      <div class="text-with-icon">
+      <div class="row">
         <IconEye />
         <p>
           If you get a guess wrong a new image from the project is revealed.<br />
           A hint is given after 3 tries.
         </p>
       </div>
-      <div class="text-with-icon">
+      <div class="row">
         <IconList />
         <p>
           You have a maximum of 6 tries (which means 6 pictures) to find the
@@ -96,10 +96,8 @@ const closeModal = () => {
 </template>
 
 <style scoped>
-.text-with-icon {
-  display: flex;
+.row {
   align-items: center;
-  gap: 1rem;
 }
 
 .space-before {
