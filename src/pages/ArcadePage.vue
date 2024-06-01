@@ -137,7 +137,7 @@ const onSubmittedGuess = (guess: string) => {
       :copyrights="currentProject.copyrights[0]"
     />
     <AnimatedGIF v-else filename="applause" alt="congrats!" />
-    <header v-if="!isGameEnded">
+    <header class="text-center" v-if="!isGameEnded">
       You’re playing the <b>{{ requestedCategory }}</b> challenge (<b
         >level {{ currentLevel }}</b
       >), you have <b>{{ remainingGuesses }}</b> projects to guess properly to
