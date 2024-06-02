@@ -4200,8 +4200,8 @@
     "categories": ["classic", "museum"]
   },
   {
-    "answer": "Satellite Towers / Luis Barragán / Naucalpan de Juárez, Mexico City, Mexico",
-    "days": [274],
+    "answer": "Torres de Satélite (Satellite Towers) / Luis Barragán / Naucalpan de Juárez, Mexico City, Mexico",
+    "days": [274, 703],
     "copyrights": [
       {
         "1": "Júbilo Haku",
@@ -4211,7 +4211,10 @@
       }
     ],
     "years": "1957-1958",
-    "links": ["https://en.wikiarquitectura.com/building/Satellite-Towers/"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Torres_de_Sat%C3%A9lite",
+      "https://en.wikiarquitectura.com/building/Satellite-Towers/"
+    ],
     "categories": []
   },
   {
