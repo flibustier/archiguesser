@@ -8218,5 +8218,20 @@
     "years": "1973",
     "links": ["https://en.wikipedia.org/wiki/Robarts_Library"],
     "categories": ["brutalism", "library", "AD Classics"]
+  },
+  {
+    "answer": "Hospices de Beaune (Hôtel-Dieu de Beaune) / Beaune, France",
+    "days": [705],
+    "copyrights": [
+      {
+        "*": "Velvet (wikimedia)",
+        "2": "Arnaud 25 (wikimedia)",
+        "4": "Arnaud 25 (wikimedia)",
+        "5": "Thierry (wikimedia)"
+      }
+    ],
+    "years": "1443-1457",
+    "links": ["https://en.wikipedia.org/wiki/Hospices_de_Beaune"],
+    "categories": ["community", "monument"]
   }
 ]
