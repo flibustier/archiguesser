@@ -4,7 +4,11 @@ import { ref } from "vue";
 import { isLogged } from "./services/store";
 import { LISTED_CATEGORIES, LOCKED_CATEGORIES_LOGGED } from "./config.json";
 
-const ALL_CATEGORIES = [...LISTED_CATEGORIES, ...LOCKED_CATEGORIES_LOGGED];
+const ALL_CATEGORIES = [
+  ...LISTED_CATEGORIES,
+  ...LOCKED_CATEGORIES_LOGGED,
+  "test",
+];
 
 import InfoModal from "./components/modals/InfoModal.vue";
 import BackModal from "./components/modals/BackModal.vue";
