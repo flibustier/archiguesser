@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "test": "node --test",
+    "test:unit": "node --test",
+    "test:e2e": "playwright test",
     "build": "vue-tsc --noEmit & vite build",
     "preview": "vite preview --port 4173",
     "deploy": "./scripts/deploy.sh",
