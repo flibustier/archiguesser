@@ -3215,8 +3215,8 @@
     "categories": []
   },
   {
-    "answer": "Central Building of the BMW Plant / Zaha Hadid, Patrick Schumacher / Leipzig, Halle, Germany",
-    "days": [206],
+    "answer": "Central Building of the BMW Plant / Zaha Hadid, Patrick Schumacher / Leipzig, Germany",
+    "days": [206, 707],
     "copyrights": [
       {
         "1": "Roland Halbe",
@@ -3227,6 +3227,7 @@
     ],
     "years": "2002-2005",
     "links": [
+      "https://en.wikipedia.org/wiki/BMW_Central_Building",
       "https://en.wikiarquitectura.com/building/Central-Building-of-the-BMW-Plant/"
     ],
     "categories": []
