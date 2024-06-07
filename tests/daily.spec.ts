@@ -1,7 +1,15 @@
 import { test, expect } from "@playwright/test";
+import { json } from "./api.mock";
 
 test.beforeEach(async ({ page }) => {
   await page.goto("/?day=0");
+
+  await page.route(
+    "https://en.wikipedia.org/w/api.php?origin=*&format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=Eiffel_Tower",
+    async (route) => {
+      await route.fulfill({ json });
+    },
+  );
 });
 
 test("win a daily game", async ({ page }) => {
@@ -54,7 +62,7 @@ test("win a daily game", async ({ page }) => {
     "🟥 🟥 🟥 🟩 ⬛ ⬛",
   );
   await page.getByRole("button", { name: "Show Guesses" }).click();
-  await expect(page).toHaveScreenshot();
+  await expect(page).toHaveScreenshot({ fullPage: true });
 
   // click on "Learn more about it" button
   const page1Promise = page.waitForEvent("popup");
@@ -86,5 +94,5 @@ test("lose a daily game", async ({ page }) => {
 
   await expect(page.getByText("🟥 🟥 🟥 🟥 🟥 🟥")).toBeVisible();
   await page.getByRole("button", { name: "Show Guesses" }).click();
-  await expect(page).toHaveScreenshot();
+  await expect(page).toHaveScreenshot({ fullPage: true });
 });
