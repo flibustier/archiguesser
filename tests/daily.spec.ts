@@ -4,7 +4,7 @@ test.beforeEach(async ({ page }) => {
   await page.goto("/?day=0");
 });
 
-test("play a daily game", async ({ page }) => {
+test("win a daily game", async ({ page }) => {
   // skip first guess
   await page.getByRole("button", { name: "SKIP" }).click();
   // second picture should show
@@ -73,4 +73,18 @@ test("play a daily game", async ({ page }) => {
     .click();
   // we should have 6 guesses remaining
   await expect(page.getByRole("main")).toContainText("6 guesses remaining");
+});
+
+test("lose a daily game", async ({ page }) => {
+  // skip all guesses
+  await page.getByRole("button", { name: "SKIP" }).click();
+  await page.getByRole("button", { name: "SKIP" }).click();
+  await page.getByRole("button", { name: "SKIP" }).click();
+  await page.getByRole("button", { name: "SKIP" }).click();
+  await page.getByRole("button", { name: "SKIP" }).click();
+  await page.getByRole("button", { name: "SKIP" }).click();
+
+  await expect(page.getByText("🟥 🟥 🟥 🟥 🟥 🟥")).toBeVisible();
+  await page.getByRole("button", { name: "Show Guesses" }).click();
+  await expect(page).toHaveScreenshot();
 });
