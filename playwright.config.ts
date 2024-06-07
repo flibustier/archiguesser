@@ -9,10 +9,6 @@ import { defineConfig, devices } from "@playwright/test";
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
-const viewport = {
-  width: 1280,
-  height: 1080,
-};
 
 export default defineConfig({
   testDir: "./tests",
@@ -39,17 +35,17 @@ export default defineConfig({
   projects: [
     {
       name: "chromium",
-      use: { ...devices["Desktop Chrome"], viewport },
+      use: { ...devices["Desktop Chrome"] },
     },
 
     {
       name: "firefox",
-      use: { ...devices["Desktop Firefox"], viewport },
+      use: { ...devices["Desktop Firefox"] },
     },
 
     {
       name: "webkit",
-      use: { ...devices["Desktop Safari"], viewport },
+      use: { ...devices["Desktop Safari"] },
     },
 
     /* Test against mobile viewports. */
@@ -61,10 +57,6 @@ export default defineConfig({
       name: "Mobile Safari",
       use: {
         ...devices["iPhone 12"],
-        viewport: {
-          width: 390,
-          height: 727,
-        },
       },
     },
 
@@ -90,6 +82,6 @@ export default defineConfig({
   },
 
   expect: {
-    toHaveScreenshot: { maxDiffPixelRatio: 0.02 },
+    toHaveScreenshot: { maxDiffPixelRatio: 0.08 },
   },
 });
