@@ -81,10 +81,10 @@ export default defineConfig({
 
   /* Run your local dev server before starting the tests */
   webServer: {
-    command: "yarn preview --host 0.0.0.0",
+    command: process.env.CI ? "yarn preview --host 0.0.0.0" : "yarn dev",
     port: 4173,
     reuseExistingServer: !process.env.CI,
-    timeout: 60 * 1000,
+    timeout: 30 * 1000,
   },
 
   expect: {
