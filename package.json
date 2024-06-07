@@ -7,6 +7,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "test:unit": "node --test",
     "test:e2e": "playwright test",
+    "test:e2e:linux": "docker run -it --rm --ipc=host --volume=./:/mnt  mcr.microsoft.com/playwright:v1.44.1-jammy /bin/sh -c 'cd /mnt && npx --yes playwright test --update-snapshots'",
     "build": "vue-tsc --noEmit & vite build",
     "preview": "vite preview --port 4173",
     "deploy": "./scripts/deploy.sh",
