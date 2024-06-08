@@ -1406,12 +1406,13 @@
   },
   {
     "answer": "Teatro Oficina / Lina Bo Bardi & Edson Elito / Sao Paulo, Brazil",
-    "days": [84],
+    "days": [84, 709],
     "copyrights": [
       {
         "*": "Nelson Kon"
       }
     ],
+    "years": "1984",
     "links": ["https://en.wikipedia.org/wiki/Teatro_Oficina"],
     "categories": []
   },
