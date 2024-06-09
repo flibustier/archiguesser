@@ -8251,5 +8251,23 @@
     "years": "1956-1958",
     "links": ["https://en.wikipedia.org/wiki/Torre_Velasca"],
     "categories": ["community", "skyscraper"]
+  },
+  {
+    "answer": "Old Towns of Djénné / Djénné, Mali",
+    "days": [710],
+    "copyrights": [
+      {
+        "1": "Bakonirina Rakotomamonjy",
+        "2": "Thierry Joffroy",
+        "3": "Thierry Joffroy",
+        "4": "Francesco Bandarin",
+        "5": "Thierry Joffroy",
+        "6": "Ko Hon Chiu Vincent"
+      }
+    ],
+    "years": "-250",
+    "links": ["https://en.wikipedia.org/wiki/Djenn%C3%A9"],
+    "categories": ["community", "monument", "unesco"]
   }
+
 ]
