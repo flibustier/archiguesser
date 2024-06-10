@@ -20,7 +20,7 @@
       "https://en.wikipedia.org/wiki/Eiffel_Tower",
       "https://en.wikiarquitectura.com/building/Eiffel-Tower/"
     ],
-    "categories": ["monument", "famous"]
+    "categories": ["test", "monument", "famous"]
   },
   {
     "answer": "German Pavilion in Barcelona / Ludwig Mies van der Rohe / Barcelona, Spain",
@@ -8268,6 +8268,20 @@
     "years": "-250",
     "links": ["https://en.wikipedia.org/wiki/Djenn%C3%A9"],
     "categories": ["community", "monument", "unesco"]
+  },
+  {
+    "answer": "Vessel / Heatherwick Studio, Thomas Heatherwick, Laurence Dudeney / Manhattan, New York City, United States of America (USA)",
+    "days": [711],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "3": "Hugo L. González (wikimedia)",
+        "5": "Stefan Kemmerling (wikimedia)",
+        "6": "Ajay Suresh (wikimedia)"
+      }
+    ],
+    "years": "2017-2019",
+    "links": ["https://en.wikipedia.org/wiki/Vessel_(structure)"],
+    "categories": ["folly", "sculpture"]
   }
-
 ]
