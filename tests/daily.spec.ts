@@ -61,7 +61,7 @@ test("win a daily game", async ({ page }) => {
   await expect(page.locator("#share-message")).toContainText(
     "🟥 🟥 🟥 🟩 ⬛ ⬛",
   );
-  await page.getByRole("button", { name: "Show Guesses" }).click();
+  await page.getByRole("link", { name: "Show Guesses" }).click();
   await expect(page).toHaveScreenshot({ fullPage: true });
 
   // click on "Learn more about it" button
@@ -93,6 +93,6 @@ test("lose a daily game", async ({ page }) => {
   await page.getByRole("button", { name: "SKIP" }).click();
 
   await expect(page.getByText("🟥 🟥 🟥 🟥 🟥 🟥")).toBeVisible();
-  await page.getByRole("button", { name: "Show Guesses" }).click();
+  await page.getByRole("link", { name: "Show Guesses" }).click();
   await expect(page).toHaveScreenshot({ fullPage: true });
 });
