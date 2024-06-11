@@ -8283,5 +8283,19 @@
     "years": "2017-2019",
     "links": ["https://en.wikipedia.org/wiki/Vessel_(structure)"],
     "categories": ["folly", "sculpture"]
+  },
+  {
+    "answer": "Depot Boijmans Van Beuningen Museum / MVRDV / Rotterdam, Netherlands",
+    "days": [712],
+    "copyrights": [
+      {
+        "*": "Ossip van Duivenbode"
+      }
+    ],
+    "years": "2021",
+    "links": [
+      "https://en.wikipedia.org/wiki/Depot_Museum_Boijmans_Van_Beuningen"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
