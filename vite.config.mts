@@ -24,6 +24,7 @@ export default defineConfig({
           suggestions: ["src/assets/suggestions.json"],
           vue: ["vue"],
         },
+        // intro: 'import "./src/assets/base.css";',
       },
     },
   },

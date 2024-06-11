@@ -37,4 +37,8 @@ const updatePictureShown = (value: number) =>
   margin: var(--gap-2x);
   gap: var(--gap);
 }
+
+button:hover:not(.btn-primary) {
+  background-color: hsl(0, 0%, 87%);
+}
 </style>
