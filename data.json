@@ -8297,5 +8297,21 @@
       "https://en.wikipedia.org/wiki/Depot_Museum_Boijmans_Van_Beuningen"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Église Saint-Joseph du Havre (St. Joseph's Church, Le Havre) / Auguste Perret / Le Havre, Normandie, France",
+    "days": [713],
+    "copyrights": [
+      {
+        "*": "Courtesy of the City",
+        "2": "Fred Romero (wikimedia)",
+        "3": "Anhelina Livia Starkova (wikimedia)",
+        "4": "Catherine Mosiniak-Paillier (wikimedia)",
+        "6": "Aerith (wikimedia)"
+      }
+    ],
+    "years": "1951-1958",
+    "links": ["https://en.wikipedia.org/wiki/St._Joseph%27s_Church,_Le_Havre"],
+    "categories": ["community", "religious", "modernism"]
   }
 ]
