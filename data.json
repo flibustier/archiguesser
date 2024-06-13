@@ -2703,15 +2703,16 @@
     "categories": ["monument", "community", "mulan"]
   },
   {
-    "answer": "Kafka's Castle / Ricardo Bofill Taller de Arquitecturas / Sant Pere de Ribes, Spain",
-    "days": [172],
+    "answer": "Kafka's Castle (El Castillo de Kafka) / Ricardo Bofill Taller de Arquitecturas / Sant Pere de Ribes, Spain",
+    "days": [172, 714],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1968",
+    "links": ["https://en.wikipedia.org/wiki/El_Castillo_de_Kafka"],
+    "categories": ["AD Classics"]
   },
   {
     "answer": "(The) Shard London Bridge / Renzo Piano / London, United Kingdom (UK)",
