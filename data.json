@@ -8314,5 +8314,22 @@
     "years": "1951-1958",
     "links": ["https://en.wikipedia.org/wiki/St._Joseph%27s_Church,_Le_Havre"],
     "categories": ["community", "religious", "modernism"]
+  },
+  {
+    "answer": "Parliament House (Capital Hill) / Romaldo Giurgola, Mitchell Giurgola, Thorp Architects / Canberra, Australia",
+    "days": [715],
+    "copyrights": [
+      {
+        "1": "JJ Harrison (wikimedia)",
+        "2": "JJ Harrison (wikimedia)",
+        "3": "Thennicke (wikimedia)",
+        "4": "Sheba_Also (wikimedia)",
+        "5": "Thennicke (wikimedia)",
+        "6": "CSIRO (wikimedia)"
+      }
+    ],
+    "years": "1981-1988",
+    "links": ["https://en.wikipedia.org/wiki/Parliament_House,_Canberra"],
+    "categories": ["community", "institution"]
   }
 ]
