@@ -8331,5 +8331,24 @@
     "years": "1981-1988",
     "links": ["https://en.wikipedia.org/wiki/Parliament_House,_Canberra"],
     "categories": ["community", "institution"]
+  },
+  {
+    "answer": "St. Michael's Cathedral Basilica / William Thomas / Toronto, Ontario, Canada",
+    "days": [716],
+    "copyrights": [
+      {
+        "1": "Paul Bica (flickr)",
+        "2": "Jfvoll (wikimedia)",
+        "3": "hobvias sudoneighm (wikimedia)",
+        "4": "Loozrboy (wikimedia)",
+        "5": "Ladybugs100 (wikimedia)",
+        "6": "Brian (flickr)"
+      }
+    ],
+    "years": "1845-1848",
+    "links": [
+      "https://en.wikipedia.org/wiki/St._Michael%27s_Cathedral_Basilica_(Toronto)"
+    ],
+    "categories": ["community", "religious"]
   }
 ]
