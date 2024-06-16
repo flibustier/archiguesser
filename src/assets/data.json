@@ -4428,8 +4428,8 @@
     "categories": ["museum"]
   },
   {
-    "answer": "Reichstag, New German Parliament / Norman Foster / Berlin, Germany",
-    "days": [294],
+    "answer": "Reichstag, New German Parliament / Norman Foster, Gottfried Böhm / Berlin, Germany",
+    "days": [294, 717],
     "copyrights": [
       {
         "2": "txmx-2 (flickr)",
@@ -4438,8 +4438,8 @@
       }
     ],
     "years": "1992-1998",
-    "links": [],
-    "categories": []
+    "links": ["https://en.wikipedia.org/wiki/Reichstag_building"],
+    "categories": ["institution", "AD Classics"]
   },
   {
     "answer": "Saline Royale (Royal Saltworks) / Claude-Nicolas Ledoux / Arc-et-Senans, France",
