@@ -123,7 +123,7 @@ const navigate = (direction: "up" | "down") => {
 <style scoped>
 .suggestions,
 .search-input {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.75rem;
 }
 .suggestions {
