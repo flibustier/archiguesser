@@ -1,5 +1,7 @@
 <script setup lang="ts">
-defineProps({
+import { onMounted, onUnmounted } from "vue";
+
+const props = defineProps({
   currentRound: {
     type: Number,
     required: true,
@@ -15,6 +17,24 @@ const emit = defineEmits(["update:pictureShown"]);
 
 const updatePictureShown = (value: number) =>
   emit("update:pictureShown", value);
+
+const onKeyDown = (e: KeyboardEvent) => {
+  if (e.key === "ArrowLeft" && props.pictureShown > 1) {
+    updatePictureShown(props.pictureShown - 1);
+  } else if (
+    e.key === "ArrowRight" &&
+    props.pictureShown < props.currentRound
+  ) {
+    updatePictureShown(props.pictureShown + 1);
+  }
+};
+
+onMounted(() => {
+  window.addEventListener("keydown", onKeyDown);
+});
+onUnmounted(() => {
+  window.removeEventListener("keydown", onKeyDown);
+});
 </script>
 
 <template>
