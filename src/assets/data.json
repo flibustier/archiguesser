@@ -3798,7 +3798,7 @@
       }
     ],
     "years": "1995-2000",
-    "links": [],
+    "links": ["https://en.wikipedia.org/wiki/National_Botanic_Garden_of_Wales"],
     "categories": []
   },
   {
@@ -4952,14 +4952,14 @@
   },
   {
     "answer": "Hopkins House / Michael Hopkins, Patty Hopkins / 49a Downshire Hill, Hampstead, London, United Kingdom (UK)",
-    "days": [337],
+    "days": [337, 718],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
     "years": "1976",
-    "links": ["https://en.wikipedia.org/wiki/Hopkins_House"],
+    "links": ["https://en.wikipedia.org/wiki/Hopkins_House,_Hampstead"],
     "categories": ["house", "high-tech"]
   },
   {
