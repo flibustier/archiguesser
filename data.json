@@ -8350,5 +8350,21 @@
       "https://en.wikipedia.org/wiki/St._Michael%27s_Cathedral_Basilica_(Toronto)"
     ],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Mesa Verde National Park (Cliff Palace) / Montezuma County, Colorado, United States of America (USA)",
+    "days": [720],
+    "copyrights": [
+      {
+        "*": "Rationalobserver (wikimedia)",
+        "2": "Judson McCranie (wikimedia)",
+        "3": "KimonBerlin (wikimedia)",
+        "4": "Judson McCranie (wikimedia)",
+        "6": "Massimo Catarinella (wikimedia)"
+      }
+    ],
+    "years": "~1190",
+    "links": ["https://en.wikipedia.org/wiki/Mesa_Verde_National_Park"],
+    "categories": ["community", "monument"]
   }
 ]
