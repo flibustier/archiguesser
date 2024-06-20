@@ -3272,14 +3272,15 @@
   },
   {
     "answer": "Saint Benedict Chapel / Peter Zumthor / Sumvitg, Graubünden, Switzerland",
-    "days": [209],
+    "days": [209, 721],
     "copyrights": [
       {
         "*": "Felipe Camus"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1985-1989",
+    "links": ["https://en.wikipedia.org/wiki/St_Benedict%27s_Chapel,_Sumvitg"],
+    "categories": ["AD Classics", "religious", "wood"]
   },
   {
     "answer": "Les Espaces d'Abraxas / Ricardo Bofill / Noisy-le-Grand, France",
