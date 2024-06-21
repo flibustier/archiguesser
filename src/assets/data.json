@@ -8367,5 +8367,17 @@
     "years": "~1190",
     "links": ["https://en.wikipedia.org/wiki/Mesa_Verde_National_Park"],
     "categories": ["community", "monument"]
+  },
+  {
+    "answer": "Palais idéal du facteur Cheval / Ferdinand Cheval / Hauterives, France",
+    "days": [722],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau (wikimedia)"
+      }
+    ],
+    "years": "1879-1912",
+    "links": ["https://fr.wikipedia.org/wiki/Palais_id%C3%A9al"],
+    "categories": ["community"]
   }
 ]
