@@ -1977,15 +1977,16 @@
   },
   {
     "answer": "Fredericks-White House / Glenn Murcutt / Jamberoo, New South Wales, Australia",
-    "days": [125],
+    "days": [125, 723],
     "copyrights": [
       {
         "5": "Max Dupain",
         "*": "Anthony Browell"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1981-1982",
+    "links": ["https://www.ozetecture.org/fredericks-white-house"],
+    "categories": ["house"]
   },
   {
     "answer": "Les Bains des Docks (Aquatic Center) / Jean Nouvel / Le Havre, France",
