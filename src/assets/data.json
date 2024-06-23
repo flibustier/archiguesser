@@ -4057,18 +4057,18 @@
   },
   {
     "answer": "Silodam / MVRDV / Amsterdam, Netherlands",
-    "days": [263],
+    "days": [263, 724],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
-    "years": "2003",
+    "years": "1995-2003",
     "links": [
       "https://en.wikipedia.org/wiki/Silodam",
       "https://en.wikiarquitectura.com/building/Silodam/"
     ],
-    "categories": []
+    "categories": ["housing"]
   },
   {
     "answer": "Brooklyn Bridge / John Augustus Roebling / New York, United States of America (USA)",
