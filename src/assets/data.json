@@ -3534,7 +3534,7 @@
   },
   {
     "answer": "Temple of Heaven / Ming Emperor Shizong / Dongcheng, Beijing, China",
-    "days": [229],
+    "days": [229, 725],
     "copyrights": [
       {
         "1": "Juan Frias-Velatti",
@@ -3544,6 +3544,7 @@
         "*": "VCG"
       }
     ],
+    "years": "1406-1420",
     "links": ["https://en.wikipedia.org/wiki/Temple_of_Heaven"],
     "categories": ["monument"]
   },
