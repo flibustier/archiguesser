@@ -8381,5 +8381,21 @@
     "years": "1879-1912",
     "links": ["https://fr.wikipedia.org/wiki/Palais_id%C3%A9al"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Philharmonie Luxembourg (Grande-Duchesse Joséphine-Charlotte Concert Hall) / Christian de Portzamparc / Kirchberg, Luxembourg City, Luxembourg",
+    "days": [726],
+    "copyrights": [
+      {
+        "*": "Clewe2807 (wikimedia)",
+        "1": "Nicolas Borel",
+        "2": "Christian Richters",
+        "4": "Wade Zimmerman",
+        "6": "Mathieu Faliu"
+      }
+    ],
+    "years": "2002-2005",
+    "links": ["https://en.wikipedia.org/wiki/Philharmonie_Luxembourg"],
+    "categories": ["community", "concert hall"]
   }
 ]
