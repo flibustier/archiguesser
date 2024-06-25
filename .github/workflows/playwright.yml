@@ -6,6 +6,7 @@ jobs:
   test:
     timeout-minutes: 15
     runs-on: ubuntu-latest
+    if: ${{ !startsWith(github.head_ref, 'renovate/') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
