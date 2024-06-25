@@ -29,7 +29,7 @@ const blacklistURLs = (imageURL) =>
   );
 
 const imageRegex =
-  /['"\s](?:https?:)?(\/?\/?[./\w\d_'&©#;%-]+?\.(?:jpg|JPG|jpeg|JPEG|webp)\??[^'"\s]*)['"\s]/g;
+  /['"\s](?:https?:)?(\/?\/?[./\w\d_'&©#,;%-]+?\.(?:jpg|JPG|jpeg|JPEG|webp)\??[^'"\s]*)['"\s]/g;
 const captionRegex = /<figcaption .* id='(.*)'>([^<]*)<\/figcaption>/g;
 
 const extractImageURLs = (url, html) => {

@@ -22,6 +22,9 @@ const patchFigureGroundURL = (thumbnailURL) =>
 const patchArquitecturaVivaURL = (thumbnailURL) =>
   thumbnailURL.replace(/av_(thumb|medium)__/, "");
 
+const patchDivisareURL = (thumbnailURL) =>
+  thumbnailURL.replace(/\/\/images\/[^/]*\//, "/images/");
+
 const patchURLs = (urls) =>
   uniq(
     urls
@@ -29,7 +32,8 @@ const patchURLs = (urls) =>
       .map(patchWikipediaURL)
       .map(patchWordPressURL)
       .map(patchArquitecturaVivaURL)
-      .map(patchFigureGroundURL),
+      .map(patchFigureGroundURL)
+      .map(patchDivisareURL),
   );
 
 module.exports = {
