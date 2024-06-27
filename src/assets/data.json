@@ -8397,5 +8397,22 @@
     "years": "2002-2005",
     "links": ["https://en.wikipedia.org/wiki/Philharmonie_Luxembourg"],
     "categories": ["community", "concert hall"]
+  },
+  {
+    "answer": "St. John's Abbey Church / Marcel Breuer / Collegeville, United States",
+    "days": [728],
+    "copyrights": [
+      {
+        "*": "rburzel (flickr)",
+        "1": "Richard Anderson (flickr)",
+        "4": "Courtesy of the Architect",
+        "6": "Bobak Ha'Eri (wikimedia)"
+      }
+    ],
+    "years": "1958-1961",
+    "links": [
+      "https://en.wikipedia.org/wiki/Saint_John%27s_Abbey,_Collegeville"
+    ],
+    "categories": ["community", "religious", "AD Classics"]
   }
 ]
