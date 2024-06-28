@@ -8414,5 +8414,18 @@
       "https://en.wikipedia.org/wiki/Saint_John%27s_Abbey,_Collegeville"
     ],
     "categories": ["community", "religious", "AD Classics"]
+  },
+  {
+    "answer": "Athfield House and Office / Athfield Architects / Wellington, New Zealand",
+    "days": [729],
+    "copyrights": [
+      {
+        "*": "AAL Archive",
+        "4": "Simon Devitt",
+        "6": "Courtesy of the Architect"
+      }
+    ],
+    "links": ["https://athfieldarchitects.co.nz/studio/"],
+    "categories": ["community"]
   }
 ]
