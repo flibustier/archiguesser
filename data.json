@@ -8427,5 +8427,21 @@
     ],
     "links": ["https://athfieldarchitects.co.nz/studio/"],
     "categories": ["community"]
+  },
+  {
+    "answer": "École Nationale Supérieure d'Architecture de Paris-Val de Seine (ENSAPVS) / Frédéric Borel, Guy Lebris, Joseph Leclaire / Paris, France",
+    "days": [730],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "4": "Pymouss (wikimedia)",
+        "5": "Mbzt (wikimedia)"
+      }
+    ],
+    "years": "1891, 2007-2017",
+    "links": [
+      "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_d%27architecture_de_Paris-Val_de_Seine"
+    ],
+    "categories": ["community", "university", "ENSA"]
   }
 ]
