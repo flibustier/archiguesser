@@ -11,7 +11,7 @@ import IconWiki from "../icons/IconWiki.vue";
 import IconCheck from "../icons/IconCheck.vue";
 import IconTimes from "../icons/IconTimes.vue";
 
-import RecommendationLink from "./RecommendationLink.vue";
+/* import RecommendationLink from "./RecommendationLink.vue"; */
 
 const description = ref("");
 const showGuesses = ref(false);
@@ -159,7 +159,7 @@ onMounted(async () => {
     </div>
     <div class="extra">
       <p v-if="description" class="description border" v-html="description" />
-      <RecommendationLink :categories="props.categories" />
+      <!--RecommendationLink :categories="props.categories" /-->
     </div>
     <p v-if="isCommunity" class="text-center">
       This project has been brought to you by one of ArchiGuesser’s players.
