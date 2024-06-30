@@ -5269,7 +5269,7 @@
   },
   {
     "answer": "De Rotterdam / OMA, Rem Koolhaas / Rotterdam, Netherlands",
-    "days": [361],
+    "days": [361, 731],
     "copyrights": [
       {
         "*": "Courtesy of the Architect",
@@ -5278,8 +5278,11 @@
       }
     ],
     "years": "2009-2013",
-    "links": ["https://www.oma.com/projects/de-rotterdam"],
-    "categories": ["modernism"]
+    "links": [
+      "https://en.wikipedia.org/wiki/De_Rotterdam",
+      "https://www.oma.com/projects/de-rotterdam"
+    ],
+    "categories": ["modernism", "community"]
   },
   {
     "answer": "CN Tower / John Andrews, Webb Zerafa, Menkes Housden / Toronto, Canada",
