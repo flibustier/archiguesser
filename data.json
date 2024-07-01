@@ -3877,8 +3877,8 @@
     "categories": []
   },
   {
-    "answer": "James-Simon-Galerie / David Chipperfield / Berlin, Germany",
-    "days": [251],
+    "answer": "James Simon Gallery (James-Simon-Galerie) / David Chipperfield / Berlin, Germany",
+    "days": [251, 732],
     "copyrights": [
       {
         "2": "Simon Menges",
@@ -3888,8 +3888,8 @@
       }
     ],
     "years": "2018",
-    "links": [],
-    "categories": []
+    "links": ["https://en.wikipedia.org/wiki/James_Simon_Gallery"],
+    "categories": ["gallery"]
   },
   {
     "answer": "Pena Palace (Palácio da Pena) / Wilhelm Ludwig von Eschwege / Sintra, Portugal",
@@ -8402,7 +8402,7 @@
     "categories": ["community", "concert hall"]
   },
   {
-    "answer": "St. John's Abbey Church / Marcel Breuer / Collegeville, United States",
+    "answer": "St. John's Abbey Church / Marcel Breuer / Collegeville, United States of America (USA)",
     "days": [728],
     "copyrights": [
       {
