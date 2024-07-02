@@ -8446,5 +8446,22 @@
       "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_d%27architecture_de_Paris-Val_de_Seine"
     ],
     "categories": ["community", "university", "ENSA"]
+  },
+  {
+    "answer": "Libertad Palace (Palacio Libertad, Kirchner Cultural Centre) / Norbert Maillart / Buenos Aires, Argentina",
+    "days": [733],
+    "copyrights": [
+      {
+        "1": "Blmurch (wikimedia)",
+        "2": "Banfield (wikimedia)",
+        "3": "Banfield (wikimedia)",
+        "4": "Ministerio de Obras Públicas de la Argentina (wikimedia)",
+        "5": "Andrzej Otrębski (wikimedia)",
+        "6": "Gobierno de la Ciudad Autónoma de Buenos Aires (wikimedia)"
+      }
+    ],
+    "years": "1908-1928",
+    "links": ["https://en.wikipedia.org/wiki/Libertad_Palace"],
+    "categories": ["community"]
   }
 ]
