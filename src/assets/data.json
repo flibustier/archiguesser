@@ -8463,5 +8463,21 @@
     "years": "1908-1928",
     "links": ["https://en.wikipedia.org/wiki/Libertad_Palace"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Battersea Power Station / Giles Gilbert Scott, J. Theo Halliday / Nine Elms, Battersea,  London Borough of Wandsworth, United Kingdom (UK)",
+    "days": [735],
+    "copyrights": [
+      {
+        "*": "amandabhslater (wikimedia)",
+        "3": "Ashley Pomeroy (wikimedia)",
+        "4": "The wub (wikimedia)",
+        "5": "Heresy0uk (wikimedia)",
+        "6": "Aurelien Guichard (wikimedia)"
+      }
+    ],
+    "years": "1929-1933",
+    "links": ["https://en.wikipedia.org/wiki/Battersea_Power_Station"],
+    "categories": ["community"]
   }
 ]
