@@ -8479,5 +8479,17 @@
     "years": "1929-1933",
     "links": ["https://en.wikipedia.org/wiki/Battersea_Power_Station"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Nelson Airport Terminal / Studio Pacific Architecture / Nelson, New Zealand",
+    "days": [736],
+    "copyrights": [
+      {
+        "*": "Jason Mann Photography"
+      }
+    ],
+    "years": "2019",
+    "links": ["https://www.studiopacific.co.nz/projects/featured/nelson-airport-terminal/"],
+    "categories": ["community", "infrastructure"]
   }
 ]
