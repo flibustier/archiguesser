@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@babel/types": "7.24.7",
-    "@playwright/test": "1.45.0",
+    "@playwright/test": "1.45.1",
     "@rushstack/eslint-patch": "1.10.3",
     "@types/node": "20.14.9",
     "@vitejs/plugin-vue": "5.0.5",
