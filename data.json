@@ -8489,7 +8489,21 @@
       }
     ],
     "years": "2019",
-    "links": ["https://www.studiopacific.co.nz/projects/featured/nelson-airport-terminal/"],
+    "links": [
+      "https://www.studiopacific.co.nz/projects/featured/nelson-airport-terminal/"
+    ],
     "categories": ["community", "infrastructure"]
+  },
+  {
+    "answer": "Centre National du Graphisme (Le Signe) / Moatti-Rivière / Chaumont, France",
+    "days": [737],
+    "copyrights": [
+      {
+        "*": "Michel Denancé"
+      }
+    ],
+    "years": "2014",
+    "links": ["https://fr.wikipedia.org/wiki/Centre_national_du_graphisme"],
+    "categories": ["community", "cultural"]
   }
 ]
