@@ -8505,5 +8505,19 @@
     "years": "2014",
     "links": ["https://fr.wikipedia.org/wiki/Centre_national_du_graphisme"],
     "categories": ["community", "cultural"]
+  },
+  {
+    "answer": "Palais Bourbon (Assemblée Nationale Française, French National Assembly) / Lorenzo Giardini, Pierre Cailleteau, Jean Aubert, Jacques V Gabriel / Paris, France",
+    "days": [738],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau (wikimedia)",
+        "4": "Benoit-caen (wikimedia)",
+        "6": "ZeusUpsistos (wikimedia)"
+      }
+    ],
+    "years": "1722-1728",
+    "links": ["https://en.wikipedia.org/wiki/Palais_Bourbon"],
+    "categories": ["institution"]
   }
 ]
