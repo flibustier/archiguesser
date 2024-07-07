@@ -8519,5 +8519,22 @@
     "years": "1722-1728",
     "links": ["https://en.wikipedia.org/wiki/Palais_Bourbon"],
     "categories": ["institution"]
+  },
+  {
+    "answer": "Kauffman Center for the Performing Arts / Moshe Safdie / Kansas City, Missouri, United States of America (USA)",
+    "days": [739],
+    "copyrights": [
+      {
+        "*": "Tim Hursley",
+        "2": "Nightryder84 (wikimedia)",
+        "3": "Brit By Birth (wikimedia)",
+        "6": "Rex Hughes (wikimedia)"
+      }
+    ],
+    "years": "2011",
+    "links": [
+      "https://en.wikipedia.org/wiki/Kauffman_Center_for_the_Performing_Arts"
+    ],
+    "categories": ["community", "concert hall"]
   }
 ]
