@@ -4108,7 +4108,7 @@
   },
   {
     "answer": "Braga’s Municipal Stadium (Estádio Municipal de Braga) / Eduardo Souto de Moura / Braga, Portugal",
-    "days": [267],
+    "days": [267, 740],
     "copyrights": [
       {
         "1": "wikiarquitectura",
@@ -4118,8 +4118,8 @@
       }
     ],
     "years": "2003",
-    "links": [],
-    "categories": []
+    "links": ["https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Braga"],
+    "categories": ["stadium"]
   },
   {
     "answer": "Joan Miró Foundation / Josep Lluís Sert / Gardens of Montjuïc, Barcelona, Spain",
