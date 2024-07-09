@@ -8536,5 +8536,22 @@
       "https://en.wikipedia.org/wiki/Kauffman_Center_for_the_Performing_Arts"
     ],
     "categories": ["community", "concert hall"]
+  },
+  {
+    "answer": "Binnenhof (Inner Court) / The Hague, Netherlands",
+    "days": [741],
+    "copyrights": [
+      {
+        "1": "Txllxt TxllxT (wikimedia)",
+        "2": "Bartholomeus van Bassen (1651, wikimedia)",
+        "3": "GVR (wikimedia)",
+        "4": "Minister-president Rutte (wikimedia)",
+        "5": "Ralf Roletschek (wikimedia)",
+        "6": "Zairon (wikimedia)"
+      }
+    ],
+    "years": "~ 13th century",
+    "links": ["https://en.wikipedia.org/wiki/Binnenhof"],
+    "categories": ["community", "historic", "institution"]
   }
 ]
