@@ -8553,5 +8553,19 @@
     "years": "~ 13th century",
     "links": ["https://en.wikipedia.org/wiki/Binnenhof"],
     "categories": ["community", "historic", "institution"]
+  },
+  {
+    "answer": "Neues Museum Nürnberg (NMN) / Volker Staab / Nuremberg, Germany",
+    "days": [743],
+    "copyrights": [
+      {
+        "*": "Marcus Ebener",
+        "1": "Lothar M. Peter",
+        "5": "Margherita Spiluttini (wikimedia)"
+      }
+    ],
+    "years": "1992–1999",
+    "links": ["https://en.wikipedia.org/wiki/Neues_Museum_N%C3%BCrnberg"],
+    "categories": ["community", "museum"]
   }
 ]
