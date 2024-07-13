@@ -3387,15 +3387,16 @@
   },
   {
     "answer": "Football Stadium Arena Borisov / OFIS Arhitekti / Borisov, Belarus",
-    "days": [219],
+    "days": [219, 744],
     "copyrights": [
       {
         "2": "Courtesy of the Architect",
         "*": "Tomaz Gregoric"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2014",
+    "links": ["https://en.wikipedia.org/wiki/Borisov_Arena"],
+    "categories": ["stadium"]
   },
   {
     "answer": "Jerónimos Monastery (Hieronymites Monastery, Mosteiro dos Jerónimos) / Diogo de Boitaca / Belém, Lisbon, Portugal",
@@ -8567,5 +8568,17 @@
     "years": "1992–1999",
     "links": ["https://en.wikipedia.org/wiki/Neues_Museum_N%C3%BCrnberg"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Lindemann Performing Arts Center / REX / Brown University, Providence, Rhode Island, United States of America (USA)",
+    "days": [745],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2019-2023",
+    "links": ["https://en.wikipedia.org/wiki/Lindemann_Performing_Arts_Center"],
+    "categories": ["community", "concert hall"]
   }
 ]
