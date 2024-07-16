@@ -8580,5 +8580,18 @@
     "years": "2019-2023",
     "links": ["https://en.wikipedia.org/wiki/Lindemann_Performing_Arts_Center"],
     "categories": ["community", "concert hall"]
+  },
+  {
+    "answer": "C42 Citroën Flagship Showroom / Manuelle Gautrand / 42 Avenue des Champs-Élysées, Paris, France",
+    "days": [747],
+    "copyrights": [
+      {
+        "*": "Philippe Ruault",
+        "5": "bigup21 (wikimedia)"
+      }
+    ],
+    "years": "2002-2007",
+    "links": ["https://fr.wikipedia.org/wiki/Citro%C3%ABn_C42"],
+    "categories": ["community"]
   }
 ]
