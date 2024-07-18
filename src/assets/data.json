@@ -4281,8 +4281,8 @@
     "categories": []
   },
   {
-    "answer": "Millennium Dome (O2 Arena) / Richard Rogers, Rogers Stirk Harbour + Partners / London, United Kingdom (UK)",
-    "days": [281],
+    "answer": "Millennium Dome (O2 Arena) / Richard Rogers, Rogers Stirk Harbour and Partners / London, United Kingdom (UK)",
+    "days": [281, 749],
     "copyrights": [
       {
         "1": "Chris Dixon (flickr)",
@@ -4298,7 +4298,7 @@
       "https://en.wikipedia.org/wiki/Millennium_Dome",
       "https://en.wikiarquitectura.com/building/Millennium-Dome/"
     ],
-    "categories": []
+    "categories": ["stadium"]
   },
   {
     "answer": "Valley / MVRDV / Amsterdam, Netherlands",
