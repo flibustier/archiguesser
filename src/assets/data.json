@@ -8593,5 +8593,23 @@
     "years": "2002-2007",
     "links": ["https://fr.wikipedia.org/wiki/Citro%C3%ABn_C42"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Alpine Shelter Skuta / OFIS Architects, AKT II, Harvard GSD Students / Zgornje Jezersko, Slovenia",
+    "days": [751],
+    "copyrights": [
+      {
+        "*": "Anze Cokl",
+        "2": "Janez Martincic",
+        "3": "Courtesy of the Architect",
+        "4": "Courtesy of the Architect",
+        "6": "Janez Martincic"
+      }
+    ],
+    "years": "2015",
+    "links": [
+      "https://www.archdaily.com/773265/alpine-shelter-skuta-ofis-arhitekti-plus-akt-ii-plus-harvard-gsd-students"
+    ],
+    "categories": ["community", "cabins"]
   }
 ]
