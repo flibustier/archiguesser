@@ -11,6 +11,7 @@ const props = defineProps({
 });
 
 const recommendation = computed(() => {
+  /*
   if (props.categories.includes("modernism")) {
     return {
       link: "https://amzn.to/4aiOqrL",
@@ -46,6 +47,19 @@ const recommendation = computed(() => {
       event: "recommendations: mulan",
     };
   }
+    */
+  if (props.categories.includes("scandinavian")) {
+    return {
+      picture: "scandinavian.png",
+      link: "https://www.taschen.com/en/books/architecture-design/42322/scandinavian-design-40th-ed/?utm_source=RakutenMarketing&utm_medium=Affiliate&utm_campaign=4254102:ArchiGuesser&utm_content=2&utm_term=UKNetwork&ranMID=42784&ranEAID=F0FMjO8yDu0&ranSiteID=F0FMjO8yDu0-trFwdsWl_Vrwi3x_dfz7Aw",
+    };
+  }
+  if (props.categories.includes("cabins")) {
+    return {
+      picture: "cabins.png",
+      link: "https://www.taschen.com/en/books/architecture-design/49363/cabins/?utm_source=RakutenMarketing&utm_medium=Affiliate&utm_campaign=4254102:ArchiGuesser&utm_content=2&utm_term=UKNetwork&ranMID=42784&ranEAID=F0FMjO8yDu0&ranSiteID=F0FMjO8yDu0-lCZQ2wIrBHZiPUxUnAKegQ",
+    };
+  }
   return null;
 });
 </script>
@@ -56,9 +70,9 @@ const recommendation = computed(() => {
     :href="recommendation.link"
     rel="sponsored"
     target="_blank"
-    @click="sendEvent(recommendation.event)"
+    @click="sendEvent(recommendation.picture.replace('.png', ''))"
   >
     <p style="text-align: center">Today’s suggestion</p>
-    <img :src="recommendation.picture" height="180px" />
+    <img :src="'recommendations/' + recommendation.picture" height="180px" />
   </a>
 </template>
