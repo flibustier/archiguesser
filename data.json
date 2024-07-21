@@ -3847,7 +3847,7 @@
   },
   {
     "answer": "Bolwoningen (Ball House) / Dries Kreijkamp / Den Bosch, Netherlands",
-    "days": [249],
+    "days": [249, 752],
     "copyrights": [
       {
         "1": "",
@@ -3860,7 +3860,7 @@
     ],
     "years": "1984",
     "links": ["https://en.wikipedia.org/wiki/Bolwoningen"],
-    "categories": []
+    "categories": ["AD Classics", "housing"]
   },
   {
     "answer": "Oculus – World Trade Center Station / Santiago Calatrava / Ground Zero, New York, United States of America (USA)",
