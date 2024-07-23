@@ -3612,16 +3612,17 @@
     "categories": []
   },
   {
-    "answer": "Palais Bulles / Antti Lovag / Théoule-sur-Mer, France",
-    "days": [234],
+    "answer": "Palais Bulles (Bubble Palace) / Antti Lovag / Théoule-sur-Mer, France",
+    "days": [234, 753],
     "copyrights": [
       {
         "4": "Courtesy of the Architect",
         "*": "archilio.fr"
       }
     ],
+    "years": "1975-1989",
     "links": ["https://en.wikipedia.org/wiki/Palais_Bulles"],
-    "categories": []
+    "categories": ["housing", "community"]
   },
   {
     "answer": "Castle of the Teutonic Order in Malbork / Siegfried von Feuchtwangen / Malbork, Poland",
