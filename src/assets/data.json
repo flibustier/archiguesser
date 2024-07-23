@@ -4124,8 +4124,8 @@
     "categories": ["stadium"]
   },
   {
-    "answer": "Joan Miró Foundation / Josep Lluís Sert / Gardens of Montjuïc, Barcelona, Spain",
-    "days": [268],
+    "answer": "Joan Miró Foundation, Centre of Studies of Contemporary Art (Fundació Joan Miró) / Josep Lluís Sert / Gardens of Montjuïc, Barcelona, Spain",
+    "days": [268, 754],
     "copyrights": [
       {
         "1": "Ana Rodríguez",
@@ -4136,7 +4136,7 @@
     ],
     "years": "1975",
     "links": ["https://en.wikipedia.org/wiki/Joan_Miró_Foundation"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "King's College Chapel / Unknown / University of Cambridge, Cambridge, United Kingdom (UK)",
