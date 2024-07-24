@@ -8612,5 +8612,23 @@
       "https://www.archdaily.com/773265/alpine-shelter-skuta-ofis-arhitekti-plus-akt-ii-plus-harvard-gsd-students"
     ],
     "categories": ["community", "cabins"]
+  },
+  {
+    "answer": "Basilica di San Vitale / Ravenna, Italy",
+    "days": [755],
+    "copyrights": [
+      {
+        "1": "Aneta Ribarska (wikimedia)",
+        "2": "Edisonblus (wikimedia)",
+        "3": "Courtesy of the Architect",
+        "4": "Commonists (wikimedia)",
+        "5": "Paolo forconi (wikimedia)",
+        "6": "Ingo Mehling (wikimedia)"
+      }
+    ],
+    "years": "527-547",
+    "links": ["https://en.wikipedia.org/wiki/Basilica_of_San_Vitale"],
+    "categories": ["community", "monument", "religious"]
   }
+
 ]
