@@ -34,7 +34,7 @@
     "rollup-plugin-visualizer": "5.12.0",
     "typescript": "5.5.4",
     "vite": "5.3.5",
-    "vue-tsc": "2.0.28"
+    "vue-tsc": "2.0.29"
   },
   "prettier": "@vue/eslint-config-prettier"
 }
