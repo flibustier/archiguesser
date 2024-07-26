@@ -8629,6 +8629,17 @@
     "years": "527-547",
     "links": ["https://en.wikipedia.org/wiki/Basilica_of_San_Vitale"],
     "categories": ["community", "monument", "religious"]
+  },
+  {
+    "answer": "Archipelago House / Tham and Videgård Arkitekter / Stockholm, Sweden",
+    "days": [757],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2006",
+    "links": ["https://www.thamvidegard.se/work/houses/archipelago-house/"],
+    "categories": ["community", "house"]
   }
-
 ]
