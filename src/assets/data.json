@@ -8641,5 +8641,17 @@
     "years": "2006",
     "links": ["https://www.thamvidegard.se/work/houses/archipelago-house/"],
     "categories": ["community", "house"]
+  },
+  {
+    "answer": "La Samaritaine / SANAA, LAGNEAU Architectes, Francois Brugel Architectes Associes, SRA Architectes / Paris, France",
+    "days": [759],
+    "copyrights": [
+      {
+        "*": "Jared Chulski"
+      }
+    ],
+    "years": "2021",
+    "links": ["https://en.wikipedia.org/wiki/La_Samaritaine"],
+    "categories": ["shopping"]
   }
 ]
