@@ -4732,8 +4732,8 @@
     "categories": []
   },
   {
-    "answer": "Munich Olympic Stadium / Günther Behnisch, Frei Otto / Munich, Germany",
-    "days": [315],
+    "answer": "Olympiastadion (Munich Olympic Stadium) / Günther Behnisch, Frei Otto / Munich, Germany",
+    "days": [315, 761],
     "copyrights": [
       {
         "*": "wikiarquitectura"
@@ -4741,9 +4741,10 @@
     ],
     "years": "1968-1972",
     "links": [
+      "https://en.wikipedia.org/wiki/Olympiastadion_(Munich)",
       "https://en.wikiarquitectura.com/building/munich-olympic-stadium/"
     ],
-    "categories": []
+    "categories": ["stadium"]
   },
   {
     "answer": "Schwerin Castle (Schwerin Palace) / Georg Adolf Demmler / Schwerin, Mecklenburg-Vorpommern, Germany",
