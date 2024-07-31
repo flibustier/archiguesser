@@ -60,6 +60,12 @@ const recommendation = computed(() => {
       link: "https://www.taschen.com/en/books/architecture-design/49363/cabins/?utm_source=RakutenMarketing&utm_medium=Affiliate&utm_campaign=4254102:ArchiGuesser&utm_content=2&utm_term=UKNetwork&ranMID=42784&ranEAID=F0FMjO8yDu0&ranSiteID=F0FMjO8yDu0-lCZQ2wIrBHZiPUxUnAKegQ",
     };
   }
+  if (props.categories.includes("kuma")) {
+    return {
+      picture: "kuma.png",
+      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278413964194940177913468&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f01192%2fkuma-complete-works-1988-today%2f%3fforceCountry%3dGB",
+    };
+  }
   return null;
 });
 </script>
@@ -72,7 +78,13 @@ const recommendation = computed(() => {
     target="_blank"
     @click="sendEvent(recommendation.picture.replace('.png', ''))"
   >
-    <p style="text-align: center">Today’s suggestion</p>
+    <p style="text-align: center">Today’s reading</p>
     <img :src="'recommendations/' + recommendation.picture" height="180px" />
+    <img
+      border="0"
+      width="1"
+      height="1"
+      src="https://ad.linksynergy.com/fs-bin/show?id=F0FMjO8yDu0&bids=518265.4278413964194940177913468&type=2&subid=0"
+    />
   </a>
 </template>
