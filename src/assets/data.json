@@ -8667,5 +8667,21 @@
     "years": "2022",
     "links": ["https://kkaa.co.jp/en/project/tottori-takahama-cafe/"],
     "categories": ["community", "commercial", "kuma"]
+  },
+  {
+    "answer": "Giant Dog and Big Sheep / Steven Clothier / Tirau, New Zealand",
+    "days": [764],
+    "copyrights": [
+      {
+        "*": "rachelrummel (Atlas Obscura)",
+        "1": "Gavin (Atlas Obscura)",
+        "2": "Emilee Rader (Flickr)",
+        "3": "J Brew (Flickr)",
+        "4": "teddrake (Atlas Obscura)"
+      }
+    ],
+    "years": "~1990",
+    "links": ["https://www.atlasobscura.com/places/big-dog-and-sheep"],
+    "categories": ["community", "novelty"]
   }
 ]
