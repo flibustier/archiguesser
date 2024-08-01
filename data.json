@@ -3360,8 +3360,8 @@
     "categories": []
   },
   {
-    "answer": "Little Island Park / Heatherwick Studio, MNLA / New York, United States of America (USA)",
-    "days": [217],
+    "answer": "Little Island Park at Pier 55 / Heatherwick Studio, MNLA / New York, United States of America (USA)",
+    "days": [217, 763],
     "copyrights": [
       {
         "2": "China News Service (Getty Images)",
@@ -3369,7 +3369,8 @@
         "*": "Timothy Schenck"
       }
     ],
-    "links": [],
+    "years": "2021",
+    "links": ["https://en.wikipedia.org/wiki/Little_Island_at_Pier_55"],
     "categories": []
   },
   {
