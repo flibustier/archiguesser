@@ -66,6 +66,12 @@ const recommendation = computed(() => {
       link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278413964194940177913468&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f01192%2fkuma-complete-works-1988-today%2f%3fforceCountry%3dGB",
     };
   }
+  if (props.categories.includes("foster")) {
+    return {
+      picture: "foster.png",
+      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278412929871400615978700&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f08111%2fnorman-foster-complete-works-1965-today%2f%3fforceCountry%3dGB",
+    };
+  }
   return null;
 });
 </script>

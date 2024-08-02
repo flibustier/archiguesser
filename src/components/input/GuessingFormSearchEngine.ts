@@ -19,6 +19,7 @@ const normalize = (str: string): string =>
     .replace(/\p{Diacritic}/gu, "")
     .replace("ø", "o")
     .replace("-", " ")
+    .replace("+", " ")
     .replace("’", "'")
     .replace(/\(|\)|\]|\[/g, "");
 

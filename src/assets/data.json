@@ -8683,5 +8683,19 @@
     "years": "~1990",
     "links": ["https://www.atlasobscura.com/places/big-dog-and-sheep"],
     "categories": ["community", "novelty"]
+  },
+  {
+    "answer": "Varso Tower / Foster + Partners / Warsaw, Poland",
+    "days": [765],
+    "copyrights": [
+      {
+        "*": "Aaron Hargreaves"
+      }
+    ],
+    "years": "2022",
+    "links": [
+      "https://www.fosterandpartners.com/news/foster-plus-partners-completes-the-eu-s-tallest-building"
+    ],
+    "categories": ["community", "office", "foster"]
   }
 ]

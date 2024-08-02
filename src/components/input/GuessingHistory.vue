@@ -60,7 +60,7 @@ const hint = computed(
 );
 
 const answerWords = computed(() =>
-  props.answer.split(/\/|,|-|\s/).filter(Boolean),
+  props.answer.split(/\/|,|-|\+|\s/).filter(Boolean),
 );
 
 const highlight = (guess: string) =>
