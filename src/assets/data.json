@@ -3960,7 +3960,7 @@
   },
   {
     "answer": "Ponte Vecchio / Neri di Fioravante, Taddeo Gaddi / Florence, Italy",
-    "days": [256],
+    "days": [256, 766],
     "copyrights": [
       {
         "5": "Civvi~commonswiki (wikimedia)",
@@ -3968,8 +3968,9 @@
         "*": "Sailko (wikimedia)"
       }
     ],
+    "years": "1335-1345",
     "links": ["https://en.wikipedia.org/wiki/Ponte_Vecchio"],
-    "categories": ["monument"]
+    "categories": ["monument", "bridge"]
   },
   {
     "answer": "Lloyd’s Building (Inside-Out Building) / Richard Rogers / London, United Kingdom (UK)",
