@@ -4318,8 +4318,8 @@
     "categories": []
   },
   {
-    "answer": "Beijing Olympic Stadium / Herzog & de Meuron, Jacques Herzog, Pierre De Meuron / Beijing, China",
-    "days": [284],
+    "answer": "Beijing Olympic Stadium (Bird's Nest) / Herzog & de Meuron, Jacques Herzog, Pierre De Meuron / Beijing, China",
+    "days": [284, 769],
     "copyrights": [
       {
         "*": "Iwan Baan"
@@ -4330,7 +4330,7 @@
       "https://en.wikipedia.org/wiki/Beijing_Olympic_Stadium",
       "https://en.wikiarquitectura.com/building/Beijing-Olympic-Stadium/"
     ],
-    "categories": []
+    "categories": ["stadium"]
   },
   {
     "answer": "Château de Chenonceau (Castle) / Katherine Briçonnet, Philibert Delorme, Jean Bullant, Eugène Lambert, Félix Roguet / Chenonceaux, France",
