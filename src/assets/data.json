@@ -4045,7 +4045,7 @@
   },
   {
     "answer": "The Hive (NTU Learning Hub South) / Heatherwick Studio, Thomas Heatherwick / Nanyang Technological University, Singapore",
-    "days": [262],
+    "days": [262, 772],
     "copyrights": [
       {
         "4": "Courtesy of the Architect",
@@ -4055,10 +4055,10 @@
     ],
     "years": "2012-2015",
     "links": [
-      "https://en.wikipedia.org/wiki/The_Hive",
+      "https://en.wikipedia.org/wiki/The_Hive,_Singapore",
       "https://en.wikiarquitectura.com/building/The-Hive/"
     ],
-    "categories": []
+    "categories": ["university"]
   },
   {
     "answer": "Silodam / MVRDV / Amsterdam, Netherlands",
