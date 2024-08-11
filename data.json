@@ -4304,8 +4304,8 @@
     "categories": ["stadium"]
   },
   {
-    "answer": "Valley / MVRDV / Amsterdam, Netherlands",
-    "days": [283],
+    "answer": "Valley Towers / MVRDV / Amsterdam, Netherlands",
+    "days": [283, 773],
     "copyrights": [
       {
         "4": "Courtesy of the Architect",
@@ -4314,8 +4314,11 @@
       }
     ],
     "years": "2022",
-    "links": ["https://en.wikipedia.org/wiki/Valley"],
-    "categories": []
+    "links": [
+      "https://nl.wikipedia.org/wiki/Valley_(Amsterdam)",
+      "https://www.mvrdv.com/projects/233/valley"
+    ],
+    "categories": ["housing"]
   },
   {
     "answer": "Beijing Olympic Stadium (Bird's Nest) / Herzog & de Meuron, Jacques Herzog, Pierre De Meuron / Beijing, China",
