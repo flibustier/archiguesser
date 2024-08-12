@@ -8718,5 +8718,17 @@
     "years": "2013-2017",
     "links": ["https://en.wikipedia.org/wiki/Amager_Bakke"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Palais Jacques-Cœur / Pierre Jobert, Jacquelin Collet, Guillot Trépan / Bourges, France",
+    "days": [774],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau (wikimedia)"
+      }
+    ],
+    "years": "1443-1451",
+    "links": ["https://en.wikipedia.org/wiki/Palais_Jacques_Coeur"],
+    "categories": ["monument", "flamboyant"]
   }
 ]
