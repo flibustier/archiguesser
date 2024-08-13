@@ -4354,7 +4354,7 @@
   },
   {
     "answer": "HSB Turning Torso / Santiago Calatrava / Malmö, Sweden",
-    "days": [286],
+    "days": [286, 775],
     "copyrights": [
       {
         "1": "Jonathan Platteau",
@@ -4370,7 +4370,7 @@
       "https://en.wikipedia.org/wiki/HSB_Turning_Torso",
       "https://en.wikiarquitectura.com/building/HSB-Turning-Torso/"
     ],
-    "categories": ["contemporary"]
+    "categories": ["contemporary", "calatrava"]
   },
   {
     "answer": "Borgund Stave Church (Borgund Stavkyrkje) / Unknown / Lærdal, Vestland, Norway",
