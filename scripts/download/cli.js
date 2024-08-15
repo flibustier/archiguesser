@@ -65,9 +65,9 @@ const downloadFileList = async (
 
       // fallback for image not found in "original" quality
       const fallbackURL = patchedURLs[index].includes("original")
-        ? patchedURLs[index].replace("original", "slideshow")
+        ? patchedURLs[index].replace("original", "large_jpg")
         : originalURLs[index];
-      console.log(`🥈 Fallback => ${fallbackURL}`);
+      console.log(`Fallback => ${fallbackURL}`);
 
       return download(fallbackURL, index);
     }),
@@ -79,7 +79,7 @@ const downloadFileList = async (
 const downloadFile = (directory) => (url, index) =>
   axios({
     method: "get",
-    url,
+    url: url.startsWith("//") ? `https:${url}` : url,
     responseType: "stream",
   }).then((response) => {
     let file = filename(url);

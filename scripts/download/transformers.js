@@ -14,7 +14,9 @@ const patchWordPressURL = (thumbnailURL) =>
   thumbnailURL.replace(/[-.]\d+x\d+\.jpg/, ".jpg");
 
 const patchArchDailyImageURL = (thumbnailURL) =>
-  thumbnailURL.replace(/newsletter|\w+_jpg/, "original");
+  thumbnailURL
+    //.replace(/\/[a-z]+_jpg\//, "/large_jpg/")
+    .replace(/newsletter|\w+_jpg/, "original");
 
 const patchFigureGroundURL = (thumbnailURL) =>
   thumbnailURL.replace(/\dt\.jpg/, ".jpg");
