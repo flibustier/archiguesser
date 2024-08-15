@@ -8730,5 +8730,17 @@
     "years": "1443-1451",
     "links": ["https://en.wikipedia.org/wiki/Palais_Jacques_Coeur"],
     "categories": ["monument", "flamboyant"]
+  },
+  {
+    "answer": "Kolumba Museum (Diözesanmuseum) / Peter Zumthor / Cologne, Germany",
+    "days": [777],
+    "copyrights": [
+      {
+        "*": "Jose Fernando Vazquez"
+      }
+    ],
+    "years": "2007",
+    "links": ["https://en.wikipedia.org/wiki/Kolumba"],
+    "categories": ["community", "museum"]
   }
 ]
