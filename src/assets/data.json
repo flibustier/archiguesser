@@ -3709,7 +3709,7 @@
   },
   {
     "answer": "Space Needle / Edward E. Carlson, John Graham & Company / Seattle, United States of America (USA)",
-    "days": [240],
+    "days": [240, 778],
     "copyrights": [
       {
         "1": "Municipal Archives",
@@ -3725,7 +3725,7 @@
       "https://en.wikipedia.org/wiki/Space_Needle",
       "https://en.wikiarquitectura.com/building/Space-Needle/"
     ],
-    "categories": []
+    "categories": ["tower"]
   },
   {
     "answer": "Wohnhaus Schlesisches Tor (Bonjour Tristesse) / Álvaro Siza Vieira, Peter Brinkert / Kreuzberg, Berlin, Germany",
