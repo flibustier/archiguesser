@@ -5498,7 +5498,7 @@
   },
   {
     "answer": "Gardens by the Bay (Supertree Grove) / Grant Associates, Wilkinson Eyre Architects / Marina South, Singapore",
-    "days": [380],
+    "days": [380, 780],
     "copyrights": [
       {
         "1": "Ong Chi Hang (wikimedia)",
@@ -5511,7 +5511,7 @@
     ],
     "years": "2012",
     "links": ["https://en.wikipedia.org/wiki/Gardens_by_the_Bay"],
-    "categories": ["park", "contemporary"]
+    "categories": ["park", "contemporary", "community"]
   },
   {
     "answer": "Royal Ontario Museum (ROM) / Daniel Libeskind, Bregman + Hamann Architects, Frank Darling & John A. Pearson, Chapman & Oxley / Toronto, Ontario, Canada",
