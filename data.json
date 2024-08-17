@@ -8742,5 +8742,17 @@
     "years": "2007",
     "links": ["https://en.wikipedia.org/wiki/Kolumba"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Ravenscar House Museum / Patterson Associates / Christchurch, New Zealand",
+    "days": [779],
+    "copyrights": [
+      {
+        "*": "Sam Hartnett"
+      }
+    ],
+    "years": "2022",
+    "links": ["https://en.wikipedia.org/wiki/Ravenscar_House_Museum"],
+    "categories": ["community", "museum"]
   }
 ]
