@@ -8754,5 +8754,20 @@
     "years": "2022",
     "links": ["https://en.wikipedia.org/wiki/Ravenscar_House_Museum"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Espace Oscar Niemeyer (Oscar Niemeyer Library, Le Petit Volcan) / Oscar Niemeyer, Dominique Deshoulières, Hubert Jeanneau, Françoise Sogno / Le Havre, France",
+    "days": [781],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau (wikimedia)",
+        "3": "Philippe Breard (wikimedia)",
+        "4": "Philippe ROUDAUT (wikimedia)",
+        "6": "Alexandre Prevot (wikimedia)"
+      }
+    ],
+    "years": "1978-1982, 2011-2015",
+    "links": ["https://fr.wikipedia.org/wiki/Biblioth%C3%A8que_Oscar-Niemeyer"],
+    "categories": ["community", "library", "niemeyer", "modernism"]
   }
 ]
