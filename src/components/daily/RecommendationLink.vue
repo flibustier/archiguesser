@@ -26,13 +26,6 @@ const recommendation = computed(() => {
       event: "recommendations: lautner",
     };
   }
-  if (props.categories.includes("niemeyer")) {
-    return {
-      link: "https://amzn.to/3U28d7J",
-      picture: "/recommendations/niemeyer.jpg",
-      event: "recommendations: niemeyer",
-    };
-  }
   if (props.categories.includes("Iconic Houses")) {
     return {
       link: "https://amzn.to/3U8n28W",
@@ -76,6 +69,12 @@ const recommendation = computed(() => {
     return {
       picture: "calatrava.png",
       link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278414257896043665763664&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f08123%2fcalatrava-complete-works-1979-today%2f%3fforceCountry%3dGB",
+    };
+  }
+  if (props.categories.includes("niemeyer")) {
+    return {
+      picture: "niemeyer.jpg",
+      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.427845776677642023176160&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49282%2fniemeyer%2f%3fforceCountry%3dGB",
     };
   }
   return null;
