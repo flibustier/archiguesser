@@ -8756,7 +8756,7 @@
     "categories": ["community", "museum"]
   },
   {
-    "answer": "Espace Oscar Niemeyer (Oscar Niemeyer Library, Le Petit Volcan) / Oscar Niemeyer, Dominique Deshoulières, Hubert Jeanneau, Françoise Sogno / Le Havre, France",
+    "answer": "Espace Oscar Niemeyer (Oscar Niemeyer Library, Le Petit Volcan, Maison de la Culture) / Oscar Niemeyer, Dominique Deshoulières, Hubert Jeanneau, Françoise Sogno / Le Havre, France",
     "days": [781],
     "copyrights": [
       {
@@ -8769,5 +8769,22 @@
     "years": "1978-1982, 2011-2015",
     "links": ["https://fr.wikipedia.org/wiki/Biblioth%C3%A8que_Oscar-Niemeyer"],
     "categories": ["community", "library", "niemeyer", "modernism"]
+  },
+  {
+    "answer": "Glasgow Riverside Museum of Transport / Zaha Hadid Architects / Glasgow, Scotland, United Kingdom (UK)",
+    "days": [782],
+    "copyrights": [
+      {
+        "1": "McAteer",
+        "2": "Midwich Cuckoo (wikimedia)",
+        "3": "Midwich Cuckoo (wikimedia)",
+        "4": "Hélène Binet",
+        "5": "Hufton & Crow",
+        "6": "Cutkiller2018 (wikimedia)"
+      }
+    ],
+    "years": "2004-2011",
+    "links": ["https://en.wikipedia.org/wiki/Riverside_Museum"],
+    "categories": ["community", "museum", "hadid"]
   }
 ]
