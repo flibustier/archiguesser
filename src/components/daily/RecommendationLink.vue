@@ -73,8 +73,14 @@ const recommendation = computed(() => {
   }
   if (props.categories.includes("niemeyer")) {
     return {
-      picture: "niemeyer.jpg",
+      picture: "niemeyer.png",
       link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.427845776677642023176160&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49282%2fniemeyer%2f%3fforceCountry%3dGB",
+    };
+  }
+  if (props.categories.includes("hadid")) {
+    return {
+      picture: "hadid.png",
+      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.42784161945682992796130&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f03441%2fzaha-hadid-complete-works-1979-today-2020-edition%2f%3fforceCountry%3dGB",
     };
   }
   return null;
