@@ -16,5 +16,23 @@
     "years": "1969-1981",
     "links": ["https://en.wikipedia.org/wiki/Beehive_(New_Zealand)"],
     "categories": ["community", "brutalism"]
+  },
+  {
+    "answer": "Walmer Yard / Peter Salter, Mole Architects, John Comparelli Architects / London, United Kingdom (UK)",
+    "days": ["yard"],
+    "copyrights": [
+      {
+        "*": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
+      }
+    ],
+    "years": "2016",
+    "links": [],
+    "categories": ["community", "housing"]
   }
 ]
