@@ -3896,7 +3896,7 @@
   },
   {
     "answer": "Pena Palace (Palácio da Pena) / Wilhelm Ludwig von Eschwege / Sintra, Portugal",
-    "days": [252],
+    "days": [252, 783],
     "copyrights": [
       {
         "1": "Y.ssk (wikimedia)",
@@ -3907,7 +3907,7 @@
         "6": "Singa Hitam (wikimedia)"
       }
     ],
-    "years": "1838",
+    "years": "1854",
     "links": ["https://en.wikipedia.org/wiki/Pena_Palace"],
     "categories": ["monument"]
   },
