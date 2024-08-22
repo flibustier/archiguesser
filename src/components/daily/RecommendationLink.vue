@@ -83,6 +83,12 @@ const recommendation = computed(() => {
       link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.42784161945682992796130&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f03441%2fzaha-hadid-complete-works-1979-today-2020-edition%2f%3fforceCountry%3dGB",
     };
   }
+  if (props.categories.includes("aalto")) {
+    return {
+      picture: "aalto.png",
+      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278417177940821616289025&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49207%2faalto%2f%3fforceCountry%3dGB",
+    };
+  }
   return null;
 });
 </script>

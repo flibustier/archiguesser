@@ -4518,16 +4518,16 @@
     "categories": []
   },
   {
-    "answer": "Villa Aalto (Aalto House) / Alvar Aalto / Helsinki, Finland",
-    "days": [299],
+    "answer": "Villa Aalto (Aalto House) / Alvar Aalto, Aino Aalto / Helsinki, Finland",
+    "days": [299, 784],
     "copyrights": [
       {
-        "*": "Jonathan Platteau"
+        "*": "Jonathan Platteau (wikimedia)"
       }
     ],
     "years": "1936",
     "links": ["https://en.wikipedia.org/wiki/Villa_Aalto"],
-    "categories": ["housing", "classic"]
+    "categories": ["housing", "classic", "aalto"]
   },
   {
     "answer": "Château de Chambord / Pierre Nepveu, Jacques Sourdeau / Chambord, France",
