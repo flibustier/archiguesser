@@ -8786,5 +8786,21 @@
     "years": "2004-2011",
     "links": ["https://en.wikipedia.org/wiki/Riverside_Museum"],
     "categories": ["community", "museum", "hadid"]
+  },
+  {
+    "answer": "Museu Brasileiro da Escultura e Ecologia (MuBE) / Paulo Mendes da Rocha / Sao Paulo, Brazil",
+    "days": [785],
+    "copyrights": [
+      {
+        "*": "Manuel Sá",
+        "1": "Ghiraldini (wikimedia)",
+        "5": "Ghiraldini (wikimedia)"
+      }
+    ],
+    "years": "1995",
+    "links": [
+      "https://pt.wikipedia.org/wiki/Museu_Brasileiro_da_Escultura_e_Ecologia"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
