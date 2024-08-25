@@ -1922,17 +1922,18 @@
     "categories": ["monument"]
   },
   {
-    "answer": "Cathedral of Our Lady of the Angels / Rafael Moneo / Los Angeles, California, United States of America (USA)",
-    "days": [121],
+    "answer": "Cathedral of Our Lady of the Angels (COLA) / Rafael Moneo / Los Angeles, California, United States of America (USA)",
+    "days": [121, 786],
     "copyrights": [
       {
         "*": "Liao Yusheng"
       }
     ],
+    "years": "2002",
     "links": [
       "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_of_the_Angels"
     ],
-    "categories": []
+    "categories": ["religious"]
   },
   {
     "answer": "Bran Castle (Dracula’s Castle) / Karel Zdeněk Líman / Bran, near Brașov, Transylvania, Romania",
