@@ -8803,5 +8803,17 @@
       "https://pt.wikipedia.org/wiki/Museu_Brasileiro_da_Escultura_e_Ecologia"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Kunstsilo Art Gallery / Mestres Wåge Arquitectes, BAX, Mendoza Partida / Kristiansand, Odderøya, Norway",
+    "days": [787],
+    "copyrights": [
+      {
+        "*": "Alan Williams"
+      }
+    ],
+    "years": "2024",
+    "links": ["https://no.wikipedia.org/wiki/Kunstsilo"],
+    "categories": ["community", "museum", "refurbishment"]
   }
 ]
