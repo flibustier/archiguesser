@@ -22,17 +22,11 @@
     "days": ["yard"],
     "copyrights": [
       {
-        "*": "",
-        "1": "",
-        "2": "",
-        "3": "",
-        "4": "",
-        "5": "",
-        "6": ""
+        "*": "Hélène Binet"
       }
     ],
     "years": "2016",
-    "links": [],
+    "links": ["https://www.archdaily.com/800485/walmer-yard-peter-salter"],
     "categories": ["community", "housing"]
   }
 ]
