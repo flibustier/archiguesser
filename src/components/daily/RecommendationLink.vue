@@ -89,6 +89,12 @@ const recommendation = computed(() => {
       link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278417177940821616289025&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49207%2faalto%2f%3fforceCountry%3dGB",
     };
   }
+  if (props.categories.includes("nouvel")) {
+    return {
+      picture: "nouvel.png",
+      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278417319316290579951234&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f08146%2fjean-nouvel-by-jean-nouvel-1981-2022%2f%3fforceCountry%3dGB",
+    };
+  }
   return null;
 });
 </script>
