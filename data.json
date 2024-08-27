@@ -2735,8 +2735,8 @@
     "categories": ["skyscraper"]
   },
   {
-    "answer": "Nemausus Housing / Jean Nouvel / Nimes, France",
-    "days": [174],
+    "answer": "Nemausus 1 / Jean Nouvel / Nimes, France",
+    "days": [174, 788],
     "copyrights": [
       {
         "3": "wikiarquitectura",
@@ -2745,8 +2745,11 @@
       }
     ],
     "years": "1985-1987",
-    "links": ["https://en.wikiarquitectura.com/building/Nemausus-Housing/"],
-    "categories": []
+    "links": [
+      "https://fr.wikipedia.org/wiki/Nemausus_1",
+      "https://en.wikiarquitectura.com/building/Nemausus-Housing/"
+    ],
+    "categories": ["housing"]
   },
   {
     "answer": "Windsor Castle / Hugh May / Windsor, Berkshire, United Kingdom (UK)",
