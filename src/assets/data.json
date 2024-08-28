@@ -8818,5 +8818,18 @@
     "years": "2024",
     "links": ["https://no.wikipedia.org/wiki/Kunstsilo"],
     "categories": ["community", "museum", "refurbishment"]
+  },
+  {
+    "answer": "Dongdaemun Design Plaza (DDP) / Zaha Hadid, Samoo / Seoul, South Korea",
+    "days": [790],
+    "copyrights": [
+      {
+        "*": "Virgile Simon Bertrand",
+        "6": "Eugene Lim (wikimedia)"
+      }
+    ],
+    "years": "2009-2013",
+    "links": ["https://en.wikipedia.org/wiki/Dongdaemun_Design_Plaza"],
+    "categories": ["hadid"]
   }
 ]
