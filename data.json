@@ -8831,5 +8831,17 @@
     "years": "2009-2013",
     "links": ["https://en.wikipedia.org/wiki/Dongdaemun_Design_Plaza"],
     "categories": ["hadid"]
+  },
+  {
+    "answer": "Walmer Yard / Peter Salter, Mole Architects, John Comparelli Architects / London, United Kingdom (UK)",
+    "days": [792],
+    "copyrights": [
+      {
+        "*": "Hélène Binet"
+      }
+    ],
+    "years": "2016",
+    "links": ["https://www.archdaily.com/800485/walmer-yard-peter-salter"],
+    "categories": ["community", "housing"]
   }
 ]
