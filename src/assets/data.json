@@ -4550,7 +4550,7 @@
   },
   {
     "answer": "Horta Museum (Horta's house and workshop) / Victor Horta / Brussels, Belgium",
-    "days": [301],
+    "days": [301, 791],
     "copyrights": [
       {
         "1": "Jean-Pol GRANDMONT (wikimedia)",
@@ -4566,7 +4566,7 @@
       "https://en.wikipedia.org/wiki/Horta_Museum",
       "https://en.wikiarquitectura.com/building/Horta-Museum/"
     ],
-    "categories": []
+    "categories": ["art-nouveau"]
   },
   {
     "answer": "Rock-hewn Churches of Lalibela / Lalibela, Ethiopia",
