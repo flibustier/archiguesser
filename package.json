@@ -18,7 +18,7 @@
     "vue": "3.4.38"
   },
   "devDependencies": {
-    "@babel/types": "7.25.4",
+    "@babel/types": "7.25.6",
     "@playwright/test": "1.46.1",
     "@rushstack/eslint-patch": "1.10.4",
     "@types/node": "20.16.1",
