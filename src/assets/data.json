@@ -3869,8 +3869,8 @@
     "categories": ["AD Classics", "housing"]
   },
   {
-    "answer": "Oculus – World Trade Center Station / Santiago Calatrava / Ground Zero, New York, United States of America (USA)",
-    "days": [250],
+    "answer": "Oculus (World Trade Center Station) / Santiago Calatrava / Ground Zero, New York, United States of America (USA)",
+    "days": [250, 793],
     "copyrights": [
       {
         "1": "Jonathan Platteau",
@@ -3880,8 +3880,8 @@
       }
     ],
     "years": "2004-2016",
-    "links": [],
-    "categories": []
+    "links": ["https://en.wikipedia.org/wiki/Westfield_World_Trade_Center"],
+    "categories": ["infrastructure", "calatrava"]
   },
   {
     "answer": "James Simon Gallery (James-Simon-Galerie) / David Chipperfield / Berlin, Germany",

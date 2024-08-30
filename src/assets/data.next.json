@@ -16,5 +16,19 @@
     "years": "1969-1981",
     "links": ["https://en.wikipedia.org/wiki/Beehive_(New_Zealand)"],
     "categories": ["community", "brutalism"]
+  },
+  {
+    "answer": "De Krook Library / Coussée & Goris, RCR Arquitectes / Ghent, Belgium",
+    "days": ["krook"],
+    "copyrights": [
+      {
+        "*": "Tim Van de Velde",
+        "4": "Paul Hermans (wikimedia)",
+        "5": "Paul Hermans (wikimedia)"
+      }
+    ],
+    "years": "2018",
+    "links": ["https://en.wikipedia.org/wiki/De_Krook"],
+    "categories": ["library"]
   }
 ]
