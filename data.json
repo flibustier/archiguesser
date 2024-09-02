@@ -4616,7 +4616,7 @@
   },
   {
     "answer": "WoZoCo Apartments / MVRDV / Amsterdam, Netherlands",
-    "days": [306],
+    "days": [306, 795],
     "copyrights": [
       {
         "4": "Maria Gonzalez",
@@ -4625,7 +4625,7 @@
     ],
     "years": "1997",
     "links": ["https://www.mvrdv.nl/projects/170/wozoco"],
-    "categories": []
+    "categories": ["housing"]
   },
   {
     "answer": "Papal Basilica of Saint Peter (San Pietro) / Michelangelo, Donato Bramante, Antonio da Sangallo the Younger, Giacomo Barozzi da Vignola, Giacomo della Porta, Carlo Maderno, Gian Lorenzo Bernini, Carlo Fontana / Vatican City",
