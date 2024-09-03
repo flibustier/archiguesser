@@ -3289,14 +3289,15 @@
   },
   {
     "answer": "Les Espaces d'Abraxas / Ricardo Bofill / Noisy-le-Grand, France",
-    "days": [210],
+    "days": [210, 796],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
+    "years": "1978-1982",
     "links": ["https://en.wikipedia.org/wiki/Les_Espaces_d'Abraxas"],
-    "categories": []
+    "categories": ["housing", "postmodern"]
   },
   {
     "answer": "Crown Hall / Ludwig Mies van der Rohe / Illinois Institute of Technology (IIT), Chicago, Illinois, United States of America (USA)",
