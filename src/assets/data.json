@@ -8844,5 +8844,19 @@
     "years": "2016",
     "links": ["https://www.archdaily.com/800485/walmer-yard-peter-salter"],
     "categories": ["community", "housing"]
+  },
+  {
+    "answer": "De Krook Library / Coussée & Goris, RCR Arquitectes / Ghent, Belgium",
+    "days": [797],
+    "copyrights": [
+      {
+        "*": "Tim Van de Velde",
+        "4": "Paul Hermans (wikimedia)",
+        "5": "Paul Hermans (wikimedia)"
+      }
+    ],
+    "years": "2018",
+    "links": ["https://en.wikipedia.org/wiki/De_Krook"],
+    "categories": ["community", "library"]
   }
 ]
