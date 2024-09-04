@@ -4488,7 +4488,7 @@
   },
   {
     "answer": "National Assembly of Bangladesh (Jatiya Sangsad Bhaban) / Louis I. Kahn / Dakha, Bangladesh",
-    "days": [297],
+    "days": [297, 798],
     "copyrights": [
       {
         "1": "Unknown (archdaily)",
@@ -4504,7 +4504,7 @@
       "https://en.wikipedia.org/wiki/National_Assembly_of_Bangladesh",
       "https://en.wikiarquitectura.com/building/National-Assembly-of-Bangladesh/"
     ],
-    "categories": []
+    "categories": ["institution", "kahn"]
   },
   {
     "answer": "Kaufmann House / Richard Neutra / 470 West Vista de Chino, Palm Springs, California, United States of America (USA)",
