@@ -8858,5 +8858,17 @@
     "years": "2018",
     "links": ["https://en.wikipedia.org/wiki/De_Krook"],
     "categories": ["community", "library"]
+  },
+  {
+    "answer": "Ngāmotu House / BOON TEAM Architects / New Plymouth, New Zealand",
+    "days": [799],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2024",
+    "links": ["https://www.boon.co.nz/projects/ngamotu-house/"],
+    "categories": ["community", "refurbishment"]
   }
 ]
