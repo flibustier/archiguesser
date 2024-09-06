@@ -2354,7 +2354,7 @@
   },
   {
     "answer": "Machu Picchu / Urubamba Province, Cusco Region, Peru",
-    "days": [150],
+    "days": [150, 800],
     "copyrights": [
       {
         "1": "Colegota (wikimedia)",
@@ -2365,6 +2365,7 @@
         "6": "icelight (wikimedia)"
       }
     ],
+    "years": "~15th century",
     "links": ["https://en.wikipedia.org/wiki/Machu_Picchu"],
     "categories": ["monument", "famous"]
   },
