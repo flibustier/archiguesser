@@ -8871,5 +8871,22 @@
     "years": "2024",
     "links": ["https://www.boon.co.nz/projects/ngamotu-house/"],
     "categories": ["community", "refurbishment"]
+  },
+  {
+    "answer": "Roy and Diana Vagelos Education Center / Diller Scofidio + Renfro / New York, United States of America (USA)",
+    "days": [801],
+    "copyrights": [
+      {
+        "*": "Nic Lehoux",
+        "3": "Iwan Baan",
+        "5": "Iwan Baan",
+        "6": "Iwan Baan"
+      }
+    ],
+    "years": "2016",
+    "links": [
+      "https://dsrny.com/project/roy-and-diana-vagelos-education-center"
+    ],
+    "categories": ["community"]
   }
 ]
