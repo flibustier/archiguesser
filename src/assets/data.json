@@ -2471,7 +2471,7 @@
   },
   {
     "answer": "Crystal Palace / Joseph Paxton / Hyde Park, London, United Kingdom (UK)",
-    "days": [157, 468],
+    "days": [157, 468, 802],
     "copyrights": [
       {
         "*": "wikimedia",
@@ -2483,7 +2483,7 @@
     ],
     "years": "1851",
     "links": [
-      "https://en.wikipedia.org/wiki/Crystal_Palace",
+      "https://en.wikipedia.org/wiki/The_Crystal_Palace",
       "https://en.wikiarquitectura.com/building/Crystal-Palace/"
     ],
     "categories": []
