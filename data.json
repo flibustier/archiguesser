@@ -2471,7 +2471,7 @@
   },
   {
     "answer": "Crystal Palace / Joseph Paxton / Hyde Park, London, United Kingdom (UK)",
-    "days": [157, 468],
+    "days": [157, 468, 802],
     "copyrights": [
       {
         "*": "wikimedia",
@@ -2483,7 +2483,7 @@
     ],
     "years": "1851",
     "links": [
-      "https://en.wikipedia.org/wiki/Crystal_Palace",
+      "https://en.wikipedia.org/wiki/The_Crystal_Palace",
       "https://en.wikiarquitectura.com/building/Crystal-Palace/"
     ],
     "categories": []
@@ -8871,5 +8871,22 @@
     "years": "2024",
     "links": ["https://www.boon.co.nz/projects/ngamotu-house/"],
     "categories": ["community", "refurbishment"]
+  },
+  {
+    "answer": "Roy and Diana Vagelos Education Center / Diller Scofidio + Renfro / New York, United States of America (USA)",
+    "days": [801],
+    "copyrights": [
+      {
+        "*": "Nic Lehoux",
+        "3": "Iwan Baan",
+        "5": "Iwan Baan",
+        "6": "Iwan Baan"
+      }
+    ],
+    "years": "2016",
+    "links": [
+      "https://dsrny.com/project/roy-and-diana-vagelos-education-center"
+    ],
+    "categories": ["community"]
   }
 ]
