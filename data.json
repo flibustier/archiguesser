@@ -2719,7 +2719,7 @@
   },
   {
     "answer": "(The) Shard London Bridge / Renzo Piano / London, United Kingdom (UK)",
-    "days": [173, 523],
+    "days": [173, 523, 804],
     "copyrights": [
       {
         "*": "Michel Denancé",
@@ -2733,7 +2733,7 @@
       "https://en.wikipedia.org/wiki/Shard_London_Bridge",
       "https://en.wikiarquitectura.com/building/Shard-London-Bridge/"
     ],
-    "categories": ["skyscraper"]
+    "categories": ["skyscraper", "piano"]
   },
   {
     "answer": "Nemausus 1 / Jean Nouvel / Nimes, France",
@@ -8888,5 +8888,17 @@
       "https://dsrny.com/project/roy-and-diana-vagelos-education-center"
     ],
     "categories": ["community"]
+  },
+  {
+    "answer": "Amsterdam University College / Mecanoo / Amsterdam Science Park, Amsterdam, Netherlands",
+    "days": [803],
+    "copyrights": [
+      {
+        "*": "Christian Richters"
+      }
+    ],
+    "years": "2010-2012",
+    "links": ["https://en.wikipedia.org/wiki/Amsterdam_University_College"],
+    "categories": ["community", "university"]
   }
 ]
