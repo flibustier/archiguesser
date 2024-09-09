@@ -16,17 +16,5 @@
     "years": "1969-1981",
     "links": ["https://en.wikipedia.org/wiki/Beehive_(New_Zealand)"],
     "categories": ["community", "brutalism"]
-  },
-  {
-    "answer": "Amsterdam University College / Mecanoo / Amsterdam Science Park, Amsterdam, Netherlands",
-    "days": ["amsterdam"],
-    "copyrights": [
-      {
-        "*": "Christian Richters"
-      }
-    ],
-    "years": "2012",
-    "links": ["https://en.wikipedia.org/wiki/Amsterdam_University_College"],
-    "categories": ["community"]
   }
 ]

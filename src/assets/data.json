@@ -8888,5 +8888,17 @@
       "https://dsrny.com/project/roy-and-diana-vagelos-education-center"
     ],
     "categories": ["community"]
+  },
+  {
+    "answer": "Amsterdam University College / Mecanoo / Amsterdam Science Park, Amsterdam, Netherlands",
+    "days": [803],
+    "copyrights": [
+      {
+        "*": "Christian Richters"
+      }
+    ],
+    "years": "2010-2012",
+    "links": ["https://en.wikipedia.org/wiki/Amsterdam_University_College"],
+    "categories": ["community", "university"]
   }
 ]
