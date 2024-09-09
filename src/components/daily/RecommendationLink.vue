@@ -101,6 +101,12 @@ const recommendation = computed(() => {
       link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278410893472738852540316&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49294%2flouis-i-kahn%2f%3fforceCountry%3dGB",
     };
   }
+  if (props.categories.includes("piano")) {
+    return {
+      picture: "piano.png",
+      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.427841856899548776616285&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f03446%2fpiano-complete-works-1966-today-2021-edition%2f%3fforceCountry%3dGB",
+    };
+  }
   return null;
 });
 </script>

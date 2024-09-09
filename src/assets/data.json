@@ -2719,7 +2719,7 @@
   },
   {
     "answer": "(The) Shard London Bridge / Renzo Piano / London, United Kingdom (UK)",
-    "days": [173, 523],
+    "days": [173, 523, 804],
     "copyrights": [
       {
         "*": "Michel Denancé",
@@ -2733,7 +2733,7 @@
       "https://en.wikipedia.org/wiki/Shard_London_Bridge",
       "https://en.wikiarquitectura.com/building/Shard-London-Bridge/"
     ],
-    "categories": ["skyscraper"]
+    "categories": ["skyscraper", "piano"]
   },
   {
     "answer": "Nemausus 1 / Jean Nouvel / Nimes, France",
