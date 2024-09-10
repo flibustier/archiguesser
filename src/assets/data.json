@@ -8900,5 +8900,18 @@
     "years": "2010-2012",
     "links": ["https://en.wikipedia.org/wiki/Amsterdam_University_College"],
     "categories": ["community", "university"]
+  },
+  {
+    "answer": "Ascension Paysagère / MVRDV / Rennes, France",
+    "days": [805],
+    "copyrights": [
+      {
+        "*": "Ossip van Duivenbode",
+        "3": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2022",
+    "links": ["https://www.mvrdv.com/projects/252/ascension-paysagere"],
+    "categories": ["community"]
   }
 ]
