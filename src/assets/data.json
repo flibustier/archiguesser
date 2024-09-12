@@ -8913,5 +8913,24 @@
     "years": "2022",
     "links": ["https://www.mvrdv.com/projects/252/ascension-paysagere"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Antwerpen-Centraal Railway Station (Gare d'Anvers-Central) / Louis De La Censerie / Antwerp, Belgium",
+    "days": [807],
+    "copyrights": [
+      {
+        "1": "Trougnouf (wikimedia)",
+        "2": "T meltzer (wikimedia)",
+        "3": "T meltzer (wikimedia)",
+        "4": "PhilippeCPhoto (wikimedia)",
+        "5": "Alvesgaspar (wikimedia)",
+        "6": "DRG-fan (wikimedia)"
+      }
+    ],
+    "years": "1895-1905",
+    "links": [
+      "https://en.wikipedia.org/wiki/Antwerpen-Centraal_railway_station"
+    ],
+    "categories": ["community", "infrastructure"]
   }
 ]
