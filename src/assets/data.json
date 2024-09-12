@@ -4680,7 +4680,7 @@
   },
   {
     "answer": "Vitra Fire Station / Zaha Hadid / Weil am Rhein, Germany",
-    "days": [311],
+    "days": [311, 808],
     "copyrights": [
       {
         "1": "Helene Binet",
@@ -4690,8 +4690,11 @@
       }
     ],
     "years": "1990-1993",
-    "links": ["https://www.zaha-hadid.com/architecture/vitra-fire-station-2/"],
-    "categories": []
+    "links": [
+      "https://en.wikipedia.org/wiki/Vitra_Fire_Station",
+      "https://www.zaha-hadid.com/architecture/vitra-fire-station-2/"
+    ],
+    "categories": ["hadid"]
   },
   {
     "answer": "Karnak Temple Complex / El-Karnak, Luxor, Egypt",
