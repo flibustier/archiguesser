@@ -3650,19 +3650,19 @@
     "categories": ["monument", "castle"]
   },
   {
-    "answer": "Farnsworth House / Ludwig Mies van der Rohe / Springfield, Illinois, United States of America (USA)",
-    "days": [236],
+    "answer": "Edith Farnsworth House / Ludwig Mies van der Rohe / Springfield, Illinois, United States of America (USA)",
+    "days": [236, 809],
     "copyrights": [
       {
         "*": "wikiarquitectura"
       }
     ],
-    "years": "1950-1951",
+    "years": "1945-1951",
     "links": [
       "https://en.wikipedia.org/wiki/Farnsworth_House",
       "https://en.wikiarquitectura.com/building/Farnsworth-House/"
     ],
-    "categories": []
+    "categories": ["AD Classics", "mies"]
   },
   {
     "answer": "SESC Pompeia Factory / Lina Bo Bardi / Sao Paulo, Brazil",
