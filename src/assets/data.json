@@ -8918,8 +8918,23 @@
     "categories": ["community"]
   },
   {
-    "answer": "Antwerpen-Centraal Railway Station (Gare d'Anvers-Central) / Louis De La Censerie / Antwerp, Belgium",
+    "answer": "Phoenix Hall Byōdō-in / Fujiwara no Yorimichi / Uji, Kyoto Prefecture, Japan",
     "days": [807],
+    "copyrights": [
+      {
+        "*": "Jonathan Platteau (wikimedia)",
+        "1": "663highland (wikimedia)",
+        "2": "Fg2 (wikimedia)",
+        "6": "Martin Falbisoner (wikimedia)"
+      }
+    ],
+    "years": "1052",
+    "links": ["https://en.wikipedia.org/wiki/By%C5%8Dd%C5%8D-in"],
+    "categories": ["religious", "meta"]
+  },
+  {
+    "answer": "Antwerpen-Centraal Railway Station (Gare d'Anvers-Central) / Louis De La Censerie / Antwerp, Belgium",
+    "days": [810],
     "copyrights": [
       {
         "1": "Trougnouf (wikimedia)",
