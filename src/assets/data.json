@@ -8950,5 +8950,17 @@
       "https://en.wikipedia.org/wiki/Antwerpen-Centraal_railway_station"
     ],
     "categories": ["community", "infrastructure"]
+  },
+  {
+    "answer": "Transformation of 530 dwellings (Transformation de 530 logements, bâtiments G, H, I, quartier du Grand Parc) / Lacaton & Vassal, Frédéric Druot, Christophe Hutin / Bordeaux, France",
+    "days": [811],
+    "copyrights": [
+      {
+        "*": "Philippe Ruault"
+      }
+    ],
+    "years": "2016",
+    "links": ["https://www.lacatonvassal.com/index.php?idp=80"],
+    "categories": ["community", "housing", "refurbishment"]
   }
 ]
