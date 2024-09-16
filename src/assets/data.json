@@ -4794,7 +4794,7 @@
   },
   {
     "answer": "Torre Glòries (Torre Agbar) / Jean Nouvel, B720 Fermín Vázquez Arquitectos / Barcelona, Spain",
-    "days": [320],
+    "days": [320, 812],
     "copyrights": [
       {
         "3": "Philippe Ruault",
@@ -4803,7 +4803,7 @@
     ],
     "years": "1999-2005",
     "links": ["https://en.wikipedia.org/wiki/Torre_Gl%C3%B2ries"],
-    "categories": []
+    "categories": ["skyscraper"]
   },
   {
     "answer": "Villa La Rotonda (Villa Almerico Capra Valmarana) / Adrea Palladio / Vicenza, Italy",
