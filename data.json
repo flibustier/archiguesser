@@ -8962,5 +8962,35 @@
     "years": "2016",
     "links": ["https://www.lacatonvassal.com/index.php?idp=80"],
     "categories": ["community", "housing", "refurbishment"]
+  },
+  {
+    "answer": "Casa Das Canoas / Oscar Niemeyer / Rio De Janeiro, Brazil",
+    "days": [813],
+    "copyrights": [
+      {
+        "*": "Frank Van Leersum (flickr)",
+        "2": "Ana María León (flickr)",
+        "3": "Courtesy of the Architect",
+        "4": "architectuul"
+      }
+    ],
+    "years": "1951",
+    "links": ["https://en.wikiarquitectura.com/building/das-canoas-house/"],
+    "categories": ["community", "housing", "niemeyer"]
+  },
+  {
+    "answer": "Miu Miu Aoyama Store / Herzog & de Meuron / Tokyo, Japan",
+    "days": [814],
+    "copyrights": [
+      {
+        "*": "Nacasa & Partners",
+        "6": "Éléonore Lefebvre"
+      }
+    ],
+    "years": "2014-2015",
+    "links": [
+      "https://www.herzogdemeuron.com/projects/412-miu-miu-aoyama/lightbox/15278/"
+    ],
+    "categories": ["community", "shopping"]
   }
 ]
