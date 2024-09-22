@@ -1086,7 +1086,7 @@
   },
   {
     "answer": "Villa Cavrois / Robert Mallet-Stevens / Croix, Lille, France",
-    "days": [63, 278],
+    "days": [63, 278, 817],
     "copyrights": [
       {
         "*": "GAUTHIER"
@@ -1094,6 +1094,10 @@
       {
         "5": "ViteParallele (wikimedia)",
         "*": "Jonathan Platteau"
+      },
+      {
+        "5": "ViteParallele (wikimedia)",
+        "*": "Jonathan Platteau (wikimedia)"
       }
     ],
     "years": "1932 & 2015",
@@ -1101,7 +1105,7 @@
       "https://en.wikipedia.org/wiki/Villa_Cavrois",
       "https://en.wikiarquitectura.com/building/Villa-Cavrois/"
     ],
-    "categories": []
+    "categories": ["housing", "modernism", "community"]
   },
   {
     "answer": "Stahl House (Case Study House nº22) / Pierre Koenig / Los Angeles, California, United States of America (USA)",
