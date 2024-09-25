@@ -4943,7 +4943,7 @@
   },
   {
     "answer": "Würzburg Residence Palace / Balthasar Neumann / Würzburg, Germany",
-    "days": [334],
+    "days": [334, 818],
     "copyrights": [
       {
         "1": "Andreas Faessler (wikimedia)",
@@ -4955,7 +4955,7 @@
       }
     ],
     "years": "1720-1744",
-    "links": [],
+    "links": ["https://en.wikipedia.org/wiki/W%C3%BCrzburg_Residence"],
     "categories": ["monument", "castle"]
   },
   {
