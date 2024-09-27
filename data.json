@@ -9009,5 +9009,17 @@
     "years": "2023",
     "links": ["https://www.tiltarchitecture.co.nz/bagshot"],
     "categories": ["community", "movie set"]
+  },
+  {
+    "answer": "Vroenhoven Bridge (De Brug) / Ney & Partners / Riemst, Belgium",
+    "days": [820],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2011",
+    "links": ["https://nl.wikipedia.org/wiki/De_Brug_(Vroenhoven)"],
+    "categories": ["community"]
   }
 ]
