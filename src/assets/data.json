@@ -4606,8 +4606,8 @@
     "categories": []
   },
   {
-    "answer": "Chapel of Notre Dame du Haut / Le Corbusier / Ronchamp, France",
-    "days": [305],
+    "answer": "Chapelle Notre-Dame du Haut (Our Lady of the Heights) / Le Corbusier / Ronchamp, France",
+    "days": [305, 824],
     "copyrights": [
       {
         "4": "Cara Hyde-Basso",
@@ -4618,7 +4618,7 @@
     ],
     "years": "1953-1955",
     "links": ["https://en.wikipedia.org/wiki/Notre-Dame_du_Haut"],
-    "categories": ["modernism"]
+    "categories": ["modernism", "religious", "corbusier"]
   },
   {
     "answer": "WoZoCo Apartments / MVRDV / Amsterdam, Netherlands",
