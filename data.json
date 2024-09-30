@@ -4606,8 +4606,8 @@
     "categories": []
   },
   {
-    "answer": "Chapel of Notre Dame du Haut / Le Corbusier / Ronchamp, France",
-    "days": [305],
+    "answer": "Chapelle Notre-Dame du Haut (Our Lady of the Heights) / Le Corbusier / Ronchamp, France",
+    "days": [305, 824],
     "copyrights": [
       {
         "4": "Cara Hyde-Basso",
@@ -4618,7 +4618,7 @@
     ],
     "years": "1953-1955",
     "links": ["https://en.wikipedia.org/wiki/Notre-Dame_du_Haut"],
-    "categories": ["modernism"]
+    "categories": ["modernism", "religious", "corbusier"]
   },
   {
     "answer": "WoZoCo Apartments / MVRDV / Amsterdam, Netherlands",
@@ -9021,5 +9021,18 @@
     "years": "2011",
     "links": ["https://nl.wikipedia.org/wiki/De_Brug_(Vroenhoven)"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Salt Lake City Public Library / Moshe Safdie and Associates, VCBO Architecture / Salt Lake City, Utah, United States of America (USA)",
+    "days": [823],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect",
+        "4": "Streamline1989 (wikimedia)"
+      }
+    ],
+    "years": "2003",
+    "links": ["https://en.wikipedia.org/wiki/Salt_Lake_City_Public_Library"],
+    "categories": ["community", "library"]
   }
 ]
