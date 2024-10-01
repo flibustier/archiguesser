@@ -9034,5 +9034,20 @@
     "years": "2003",
     "links": ["https://en.wikipedia.org/wiki/Salt_Lake_City_Public_Library"],
     "categories": ["community", "library"]
+  },
+  {
+    "answer": "Wat Rong Khun (White Temple) / Chalermchai Kositpipat / Pa O Don Chai, Mueang District, Chiang Rai, Thailand",
+    "days": [825],
+    "copyrights": [
+      {
+        "*": "Ddalbiez (wikimedia)",
+        "1": "Photo Dharma (wikimedia)",
+        "3": "Jorge Láscar (wikimedia)",
+        "6": "JJ Harrison (wikimedia)"
+      }
+    ],
+    "years": "1997-now",
+    "links": ["https://en.wikipedia.org/wiki/Wat_Rong_Khun"],
+    "categories": ["community"]
   }
 ]
