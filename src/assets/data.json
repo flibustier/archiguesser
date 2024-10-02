@@ -7679,7 +7679,7 @@
   },
   {
     "answer": "Casa de Vidro (Glass House) / Lina Bo Bardi / Sao Paulo, Brazil",
-    "days": [635],
+    "days": [635, 825],
     "copyrights": [
       {
         "*": "Nelson Kon",
@@ -9037,7 +9037,7 @@
   },
   {
     "answer": "Wat Rong Khun (White Temple) / Chalermchai Kositpipat / Pa O Don Chai, Mueang District, Chiang Rai, Thailand",
-    "days": [825],
+    "days": [826],
     "copyrights": [
       {
         "*": "Ddalbiez (wikimedia)",
@@ -9046,7 +9046,7 @@
         "6": "JJ Harrison (wikimedia)"
       }
     ],
-    "years": "1997-now",
+    "years": "1997-2070",
     "links": ["https://en.wikipedia.org/wiki/Wat_Rong_Khun"],
     "categories": ["community"]
   }
