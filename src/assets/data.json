@@ -9049,5 +9049,17 @@
     "years": "1997-2070",
     "links": ["https://en.wikipedia.org/wiki/Wat_Rong_Khun"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Bishop Selwyn Chapel / Fearon Hay Architects / Auckland, New Zealand",
+    "days": [827],
+    "copyrights": [
+      {
+        "*": "Patrick Reynolds"
+      }
+    ],
+    "years": "2016",
+    "links": ["https://fearonhay.com/bishop-selwyn-chapel"],
+    "categories": ["community", "religious"]
   }
 ]
