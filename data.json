@@ -9061,5 +9061,17 @@
     "years": "2016",
     "links": ["https://fearonhay.com/bishop-selwyn-chapel"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Central European University / O’Donnell + Tuomey / Budapest, Hungary",
+    "days": [828],
+    "copyrights": [
+      {
+        "*": "Tamás Bujnovszky"
+      }
+    ],
+    "years": "2016",
+    "links": ["https://odonnell-tuomey.ie/central-european-university"],
+    "categories": ["community", "university"]
   }
 ]
