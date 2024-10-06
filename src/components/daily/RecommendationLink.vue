@@ -119,6 +119,12 @@ const recommendation = computed(() => {
       link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.427844416328881477793060&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49211%2fle-corbusier%2f%3fforceCountry%3dGB",
     };
   }
+  if (props.categories.includes("Bauhaus")) {
+    return {
+      picture: "bauhaus.png",
+      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278414287569873547626028&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f43440%2fbauhaus-updated-edition%2f%3fforceCountry%3dGB",
+    };
+  }
   return null;
 });
 </script>

@@ -9073,5 +9073,20 @@
     "years": "2016",
     "links": ["https://odonnell-tuomey.ie/central-european-university"],
     "categories": ["community", "university"]
+  },
+  {
+    "answer": "Haus am Horn / Georg Muche / Weimar, Germany",
+    "days": [829],
+    "copyrights": [
+      {
+        "*": "Cameron Blaylock",
+        "4": "Thomas Müller",
+        "5": "Courtesy of the Architect",
+        "6": "Most Curious (wikimedia)"
+      }
+    ],
+    "years": "1923",
+    "links": ["https://en.wikipedia.org/wiki/Haus_am_Horn"],
+    "categories": ["community", "AD Classics", "Bauhaus"]
   }
 ]
