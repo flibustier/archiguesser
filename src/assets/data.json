@@ -3040,8 +3040,8 @@
     "categories": ["concert hall"]
   },
   {
-    "answer": "Carcassonne Castle / Eugéne Viollet Le-Duc / Carcassonne, Aude, Occitanie, France",
-    "days": [192],
+    "answer": "Cité de Carcassonne (Historic Fortified City of Carcassonne) / Eugéne Viollet Le-Duc, Paul Boeswillwald / Carcassonne, Occitanie, France",
+    "days": [192, 830],
     "copyrights": [
       {
         "1": "Pinpin (wikimedia)",
@@ -3052,9 +3052,9 @@
         "6": "Chensiyuan (wikimedia)"
       }
     ],
-    "years": "1130",
+    "years": "1130, 1853-1911",
     "links": [
-      "https://en.wikipedia.org/wiki/Carcassonne_Castle",
+      "https://en.wikipedia.org/wiki/Cit%C3%A9_de_Carcassonne",
       "https://en.wikiarquitectura.com/building/Carcassonne-Castle/"
     ],
     "categories": ["monument", "castle"]
