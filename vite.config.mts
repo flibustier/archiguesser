@@ -20,9 +20,10 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
+          vue: ["vue"],
           data: ["src/assets/data.json"],
           suggestions: ["src/assets/suggestions.json"],
-          vue: ["vue"],
+          recommendations: ["src/assets/recommendations.json"],
         },
         // intro: 'import "./src/assets/base.css";',
       },
