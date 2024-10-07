@@ -51,6 +51,10 @@ const props = defineProps({
     type: Array<string>,
     default: [],
   },
+  recommendation: {
+    type: String,
+    default: undefined,
+  },
 });
 
 const isCommunity = computed(() => props.categories.includes("community"));
@@ -159,7 +163,7 @@ onMounted(async () => {
     </div>
     <div class="extra">
       <p v-if="description" class="description border" v-html="description" />
-      <RecommendationLink :categories="props.categories" />
+      <RecommendationLink :recommendation="props.recommendation" />
     </div>
     <p v-if="isCommunity" class="text-center">
       This project has been brought to you by one of ArchiGuesser’s players.
