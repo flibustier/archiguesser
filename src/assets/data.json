@@ -440,7 +440,8 @@
       "https://en.wikipedia.org/wiki/Three_Powers_Square",
       "https://en.wikiarquitectura.com/building/Three-Powers-Square/"
     ],
-    "categories": ["modernism"]
+    "categories": ["modernism"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "Heydar Aliyev Cultural Center / Zaha Hadid, Patrick Schumacher, Saffet Kaya Bekiroglu / Baku, Azerbaijan",
@@ -725,7 +726,8 @@
       "https://en.wikipedia.org/wiki/Brasilia_Cathedral",
       "https://en.wikiarquitectura.com/building/Brasilia-Cathedral/"
     ],
-    "categories": ["religious", "modernism"]
+    "categories": ["religious", "modernism"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "Aluminium Forest Building / Micha de Hass / Houten, Utrecht, Netherlands",
@@ -786,7 +788,8 @@
       "https://en.wikipedia.org/wiki/Chandigarh",
       "https://en.wikiarquitectura.com/building/Chandigarh/"
     ],
-    "categories": ["modernism", "brutalism"]
+    "categories": ["modernism", "brutalism"],
+    "recommendation": "corbusier"
   },
   {
     "answer": "House in Monsaraz / Aires Mateus / Monsaraz, Portugal",
@@ -966,7 +969,8 @@
       "https://en.wikipedia.org/wiki/Villa_Savoye",
       "https://en.wikiarquitectura.com/building/Villa-Savoye/"
     ],
-    "categories": ["modernism"]
+    "categories": ["modernism"],
+    "recommendation": "corbusier"
   },
   {
     "answer": "Japan Pavillion Expo 2000 Hannover / Shigeru Ban, Frei Otto / Hannover, Germany",
@@ -1393,7 +1397,8 @@
       "https://en.wikipedia.org/wiki/Sainte_Marie_de_La_Tourette",
       "https://en.wikiarquitectura.com/building/Convent-of-Sainte-Marie-Tourette/"
     ],
-    "categories": ["modernism", "brutalism"]
+    "categories": ["modernism", "brutalism"],
+    "recommendation": "corbusier"
   },
   {
     "answer": "Eco Boulevard in Vallecas / Ecosistema Urbano, Belinda Tato, Jose Luis Vallejo, Diego García-Setién / Madrid, Spain",
@@ -1692,7 +1697,8 @@
       "https://en.wikipedia.org/wiki/Headquarters_of_the_French_Communist_Party",
       "https://en.wikiarquitectura.com/building/French-Communist-Party-Headquarters/"
     ],
-    "categories": ["modernism"]
+    "categories": ["modernism"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "Vanna Venturi House / Robert Venturi / Chestnut Hill, Philadelphia, Pennsylvania, United States of America (USA)",
@@ -2423,7 +2429,8 @@
       "https://en.wikipedia.org/wiki/Niter%C3%B3i_Contemporary_Art_Museum",
       "https://en.wikiarquitectura.com/building/Museum-of-Contemporary-Art-in-Niteroi/"
     ],
-    "categories": ["museum"]
+    "categories": ["museum"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "Brussels Town Hall (Hôtel de ville de Bruxelles) / Jacques van Thienen, Jean Bornoy, G. Vander Broecke, Guillaume de Vogel, Jean van Ruysbroeck, Corneille van Nerven / Brussels, Belgium",
@@ -2804,7 +2811,8 @@
     ],
     "years": "1947-1952",
     "links": ["https://fr.wikipedia.org/wiki/Cit%C3%A9_radieuse_de_Marseille"],
-    "categories": ["modernism", "brutalism"]
+    "categories": ["modernism", "brutalism"],
+    "recommendation": "corbusier"
   },
   {
     "answer": "Capilla San Bernardo (chapel) / Nicolás Campodonico / La Playosa, Argentina",
@@ -3350,7 +3358,8 @@
     ],
     "years": "1973-2006",
     "links": ["https://en.wikipedia.org/wiki/Saint-Pierre,_Firminy"],
-    "categories": ["modernism"]
+    "categories": ["modernism"],
+    "recommendation": "corbusier"
   },
   {
     "answer": "Luis Barragan House and Studio / Luis Barragán / Miguel Hidalgo district, Mexico City, Mexico",
@@ -4618,7 +4627,8 @@
     ],
     "years": "1953-1955",
     "links": ["https://en.wikipedia.org/wiki/Notre-Dame_du_Haut"],
-    "categories": ["modernism", "religious", "corbusier"]
+    "categories": ["modernism", "religious"],
+    "recommendation": "corbusier"
   },
   {
     "answer": "WoZoCo Apartments / MVRDV / Amsterdam, Netherlands",
@@ -5205,7 +5215,8 @@
     "links": [
       "https://en.wikipedia.org/wiki/Oscar_Niemeyer_International_Cultural_Centre"
     ],
-    "categories": ["museum"]
+    "categories": ["museum"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "British Museum / Robert Smirke, Sidney Smirke, John Taylor, Norman Foster / London, United Kingdom (UK)",
@@ -5777,7 +5788,8 @@
     "links": [
       "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
     ],
-    "categories": ["modernism"]
+    "categories": ["modernism"],
+    "recommendation": "corbusier"
   },
   {
     "answer": "Harpa Concert and Conference Centre / Batteriið Architects, Henning Larsen Architects, Olafur Eliasson / Reykjavik, Iceland",
@@ -7663,7 +7675,8 @@
     ],
     "years": "1957",
     "links": ["https://en.wikipedia.org/wiki/Maison_du_Br%C3%A9sil"],
-    "categories": ["community", "modernism"]
+    "categories": ["community", "modernism"],
+    "recommendation": "corbusier"
   },
   {
     "answer": "Under Pohutukawa / Herbst Architects / Auckland, New Zealand",
@@ -7802,7 +7815,8 @@
     "links": [
       "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi"
     ],
-    "categories": ["community", "religious", "modernism"]
+    "categories": ["community", "religious", "modernism"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "Villa Tugendhat (Vila Tugendhat) / Ludwig Mies van der Rohe, Lilly Reich / Brno, Czech Republic",
@@ -7876,7 +7890,8 @@
     ],
     "years": "1955-1957",
     "links": ["https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Art_Biennial"],
-    "categories": ["community", "pavilion", "niemeyer"]
+    "categories": ["community", "pavilion"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "Grand Egyptian Museum (GEM) / Heneghan Peng Architects, Róisín Heneghan, Shi-Fu Peng / Giza, Greater Cairo, Egypt",
@@ -8781,7 +8796,8 @@
     ],
     "years": "1978-1982, 2011-2015",
     "links": ["https://fr.wikipedia.org/wiki/Biblioth%C3%A8que_Oscar-Niemeyer"],
-    "categories": ["community", "library", "niemeyer", "modernism"]
+    "categories": ["community", "library", "modernism"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "Glasgow Riverside Museum of Transport / Zaha Hadid Architects / Glasgow, Scotland, United Kingdom (UK)",
@@ -8980,7 +8996,8 @@
     ],
     "years": "1951",
     "links": ["https://en.wikiarquitectura.com/building/das-canoas-house/"],
-    "categories": ["community", "housing", "niemeyer"]
+    "categories": ["community", "housing"],
+    "recommendation": "niemeyer"
   },
   {
     "answer": "Miu Miu Aoyama Store / Herzog & de Meuron / Tokyo, Japan",
@@ -9087,6 +9104,7 @@
     ],
     "years": "1923",
     "links": ["https://en.wikipedia.org/wiki/Haus_am_Horn"],
-    "categories": ["community", "AD Classics", "Bauhaus"]
+    "categories": ["community", "AD Classics", "Bauhaus"],
+    "recommendation": "Bauhaus"
   }
 ]

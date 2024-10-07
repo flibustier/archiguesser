@@ -2,128 +2,18 @@
 import { computed } from "vue";
 
 import { sendEvent } from "@/services/api";
+import recommendations from "@/assets/recommendations.json";
 
 const props = defineProps({
-  categories: {
-    type: Array<string>,
-    default: [],
+  recommendation: {
+    type: String,
+    default: "",
   },
 });
 
 const recommendation = computed(() => {
-  /*
-  if (props.categories.includes("modernism")) {
-    return {
-      link: "https://amzn.to/4aiOqrL",
-      picture: "/recommendations/modernism.jpg",
-      event: "recommendations: modernism",
-    };
-  }
-  if (props.categories.includes("organic")) {
-    return {
-      link: "https://amzn.to/3TYEYD5",
-      picture: "/recommendations/lautner.jpg",
-      event: "recommendations: lautner",
-    };
-  }
-  if (props.categories.includes("Iconic Houses")) {
-    return {
-      link: "https://amzn.to/3U8n28W",
-      picture: "recommendations/iconic.jpg",
-      event: "recommendations: iconic",
-    };
-  }
-  if (props.categories.includes("mulan")) {
-    return {
-      link: "https://amzn.to/49LYV5T",
-      picture: "recommendations/mulan.jpg",
-      event: "recommendations: mulan",
-    };
-  }
-    */
-  if (props.categories.includes("scandinavian")) {
-    return {
-      picture: "scandinavian.png",
-      link: "https://www.taschen.com/en/books/architecture-design/42322/scandinavian-design-40th-ed/?utm_source=RakutenMarketing&utm_medium=Affiliate&utm_campaign=4254102:ArchiGuesser&utm_content=2&utm_term=UKNetwork&ranMID=42784&ranEAID=F0FMjO8yDu0&ranSiteID=F0FMjO8yDu0-trFwdsWl_Vrwi3x_dfz7Aw",
-    };
-  }
-  if (props.categories.includes("cabins")) {
-    return {
-      picture: "cabins.png",
-      link: "https://www.taschen.com/en/books/architecture-design/49363/cabins/?utm_source=RakutenMarketing&utm_medium=Affiliate&utm_campaign=4254102:ArchiGuesser&utm_content=2&utm_term=UKNetwork&ranMID=42784&ranEAID=F0FMjO8yDu0&ranSiteID=F0FMjO8yDu0-lCZQ2wIrBHZiPUxUnAKegQ",
-    };
-  }
-  if (props.categories.includes("kuma")) {
-    return {
-      picture: "kuma.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278413964194940177913468&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f01192%2fkuma-complete-works-1988-today%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("foster")) {
-    return {
-      picture: "foster.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278412929871400615978700&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f08111%2fnorman-foster-complete-works-1965-today%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("calatrava")) {
-    return {
-      picture: "calatrava.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278414257896043665763664&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f08123%2fcalatrava-complete-works-1979-today%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("niemeyer")) {
-    return {
-      picture: "niemeyer.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.427845776677642023176160&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49282%2fniemeyer%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("hadid")) {
-    return {
-      picture: "hadid.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.42784161945682992796130&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f03441%2fzaha-hadid-complete-works-1979-today-2020-edition%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("aalto")) {
-    return {
-      picture: "aalto.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278417177940821616289025&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49207%2faalto%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("nouvel")) {
-    return {
-      picture: "nouvel.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278417319316290579951234&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f08146%2fjean-nouvel-by-jean-nouvel-1981-2022%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("kahn")) {
-    return {
-      picture: "kahn.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278410893472738852540316&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49294%2flouis-i-kahn%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("piano")) {
-    return {
-      picture: "piano.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.427841856899548776616285&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f03446%2fpiano-complete-works-1966-today-2021-edition%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("mies")) {
-    return {
-      picture: "mies.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.427848761100655792272335&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49212%2fmies-van-der-rohe%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("corbusier")) {
-    return {
-      picture: "corbusier.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.427844416328881477793060&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f49211%2fle-corbusier%2f%3fforceCountry%3dGB",
-    };
-  }
-  if (props.categories.includes("Bauhaus")) {
-    return {
-      picture: "bauhaus.png",
-      link: "https://click.linksynergy.com/link?id=F0FMjO8yDu0&offerid=518265.4278414287569873547626028&type=2&murl=https%3a%2f%2ftaschen.com%2fen%2fbooks%2farchitecture-design%2f43440%2fbauhaus-updated-edition%2f%3fforceCountry%3dGB",
-    };
+  if (props.recommendation in recommendations) {
+    return (recommendations as any)[props.recommendation];
   }
   return null;
 });

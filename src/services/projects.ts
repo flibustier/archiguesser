@@ -40,6 +40,7 @@ export const getProjectInformation = (
   copyrights?: any;
   links?: string[];
   categories?: string[];
+  recommendation?: string;
 } => {
   let dayNumber = day ? parseInt(day) : getRealDayNumber();
 
@@ -69,6 +70,7 @@ export const getProjectInformation = (
       copyrights,
       links: dayInformation.links,
       categories: dayInformation.categories,
+      recommendation: dayInformation.recommendation,
     };
   }
 
