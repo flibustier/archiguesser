@@ -9106,5 +9106,22 @@
     "links": ["https://en.wikipedia.org/wiki/Haus_am_Horn"],
     "categories": ["community", "AD Classics", "Bauhaus"],
     "recommendation": "Bauhaus"
+  },
+  {
+    "answer": "Majorelle Garden (Jardin Majorelle, Villa Bou Saf Saf) / Robert Poisson, Paul Sinoir / Marrakesh, Morocco",
+    "days": [831],
+    "copyrights": [
+      {
+        "1": "Migeo53 (wikimedia)",
+        "2": "Viault (wikimedia)",
+        "3": "Bjørn Christian Tørrissen (wikimedia)",
+        "4": "Alexander Leisser (wikimedia)",
+        "5": "Arnaud 25 (wikimedia)",
+        "6": "Nicolas Matheus"
+      }
+    ],
+    "years": "1929-1932",
+    "links": ["https://en.wikipedia.org/wiki/Majorelle_Garden"],
+    "categories": ["community", "art-deco", "garden"]
   }
 ]
