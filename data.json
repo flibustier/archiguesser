@@ -4662,7 +4662,7 @@
   },
   {
     "answer": "Petronas Towers / Cesar Pelli / Kuala Lumpur, Malaysia",
-    "days": [308],
+    "days": [308, 832],
     "copyrights": [
       {
         "1": "Ali K (wikimedia)",
@@ -4675,7 +4675,7 @@
     ],
     "years": "1998",
     "links": ["https://en.wikipedia.org/wiki/Petronas_Towers"],
-    "categories": []
+    "categories": ["skyscraper"]
   },
   {
     "answer": "Warsaw University Library and Garden (BUW) / Marek Budzinski, Zbigniew Badovski, Irena Bajerska / Warsaw, Poland",
