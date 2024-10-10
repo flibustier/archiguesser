@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "replay": "deno run --allow-write --allow-read --allow-sys --allow-env scripts/dev/replay.ts"
+  }
+}

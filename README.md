@@ -72,3 +72,8 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Work in Progress
+
+Some new scripts are using [Deno](https://deno.com/) > 2.0 (`scripts/dev`)
+This is optional for now
