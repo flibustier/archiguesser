@@ -9123,5 +9123,19 @@
     "years": "1929-1932",
     "links": ["https://en.wikipedia.org/wiki/Majorelle_Garden"],
     "categories": ["community", "art-deco", "garden"]
+  },
+  {
+    "answer": "MASS MoCA Building 6 / Bruner Cott & Associates / North Adams, Massachusetts, United States of America (USA)",
+    "days": [833],
+    "copyrights": [
+      {
+        "*": "Michael Moran"
+      }
+    ],
+    "years": "2017",
+    "links": [
+      "https://en.wikipedia.org/wiki/Massachusetts_Museum_of_Contemporary_Art"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
