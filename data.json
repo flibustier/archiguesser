@@ -9137,5 +9137,22 @@
       "https://en.wikipedia.org/wiki/Massachusetts_Museum_of_Contemporary_Art"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Bank of Georgia Headquarters (Ministry of Transportation) / George Chakhava, Zurab Jalaghania / Tbilisi, Georgia",
+    "days": [834],
+    "copyrights": [
+      {
+        "1": "Lucem Lightbeton",
+        "2": "Courtesy of the Architect",
+        "3": "Simona Rota",
+        "4": "Courtesy of the Architect",
+        "5": "Brian Barbieri",
+        "6": "Marco Fieber (flickr)"
+      }
+    ],
+    "years": "1975",
+    "links": ["https://en.wikipedia.org/wiki/Bank_of_Georgia_headquarters"],
+    "categories": ["community", "brutalism"]
   }
 ]
