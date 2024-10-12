@@ -9154,5 +9154,20 @@
     "years": "1975",
     "links": ["https://en.wikipedia.org/wiki/Bank_of_Georgia_headquarters"],
     "categories": ["community", "brutalism"]
+  },
+  {
+    "answer": "Public library Ana María Matute / RSP arquitectos / Madrid, Spain",
+    "days": [835],
+    "copyrights": [
+      {
+        "*": "Alfredo Arias",
+        "3": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2012",
+    "links": [
+      "https://www.archdaily.com/332852/public-library-ana-maria-matute-rsp-arquitectos"
+    ],
+    "categories": ["community", "library"]
   }
 ]
