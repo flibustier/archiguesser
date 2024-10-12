@@ -184,11 +184,11 @@
         "*": "wikiarquitectura"
       },
       {
-        "*": "wikiarquitectura",
         "1": "Julius Schorzman (wikimedia)",
         "2": "Dogears (wikimedia)",
         "3": "New York Architecture",
-        "4": "Postdlf (wikimedia)"
+        "4": "Postdlf (wikimedia)",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "1928-1930",
@@ -297,11 +297,11 @@
         "*": "wikiarquitectura"
       },
       {
-        "*": "Scoutty007 (wikimedia)",
         "2": "Ad Meskens (wikimedia)",
         "3": "Malay_EA (wikimapia)",
         "5": "wikiarquitectura",
-        "6": "Schölla Schwarz (wikimedia)"
+        "6": "Schölla Schwarz (wikimedia)",
+        "*": "Scoutty007 (wikimedia)"
       }
     ],
     "links": [
@@ -418,9 +418,9 @@
         "*": "wikiarquitectura"
       },
       {
-        "*": "wikiarquitectura",
         "2": "Andrea Ceriani",
-        "6": "Andrea Ceriani"
+        "6": "Andrea Ceriani",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "1993-1996",
@@ -598,10 +598,10 @@
     "days": [33, 526],
     "copyrights": [
       {
-        "*": "Ed Brodzinsky",
         "1": "wikiarquitectura",
         "5": "Pablo Sanchez",
-        "6": ""
+        "6": "",
+        "*": "Ed Brodzinsky"
       }
     ],
     "years": "1965-1972",
@@ -1042,12 +1042,12 @@
         "*": ""
       },
       {
-        "*": "",
         "1": "Courtesy of the Architect",
         "2": "Gottscho-Schleisner (wikimedia)",
         "3": "Eleonore Lefebvre",
         "4": "T meltzer (wikimedia)",
-        "5": "Eleonore Lefebvre"
+        "5": "Eleonore Lefebvre",
+        "*": ""
       }
     ],
     "years": "1956-1959",
@@ -1239,15 +1239,15 @@
     "days": [73, 429],
     "copyrights": [
       {
-        "*": "Samuel Ludwig",
         "3": "jacqueline.poggi",
-        "5": "jacqueline.poggi"
+        "5": "jacqueline.poggi",
+        "*": "Samuel Ludwig"
       },
       {
-        "*": "Samuel Ludwig",
         "3": "jacqueline.poggi",
         "4": "Jaume Meneses (wikimedia)",
-        "5": "Kyle Taylor (wikimedia)"
+        "5": "Kyle Taylor (wikimedia)",
+        "*": "Samuel Ludwig"
       }
     ],
     "years": "1906-1912",
@@ -1387,9 +1387,9 @@
     "days": [82, 485],
     "copyrights": [
       {
-        "*": "Jonathan Platteau",
         "4": "Unknown",
-        "6": "wikiarquitectura"
+        "6": "wikiarquitectura",
+        "*": "Jonathan Platteau"
       }
     ],
     "years": "1953-1961",
@@ -2485,11 +2485,11 @@
     "days": [157, 468, 802],
     "copyrights": [
       {
-        "*": "wikimedia",
         "1": "Architect’s plan (wikimedia)",
         "4": "J. McNeven (wikimedia)",
         "5": "Dickinson Brothers (wikimedia)",
-        "6": "Philip Henry Delamotte (wikimedia)"
+        "6": "Philip Henry Delamotte (wikimedia)",
+        "*": "wikimedia"
       }
     ],
     "years": "1851",
@@ -2590,11 +2590,11 @@
         "*": "Fred Romero (flickr)"
       },
       {
-        "*": "Jonathan Platteau",
         "1": "Fred Romero (flickr)",
         "2": "Arend (flickr)",
         "5": "Michel Legret (flickr)",
-        "6": "Perry Tak (flickr)"
+        "6": "Perry Tak (flickr)",
+        "*": "Jonathan Platteau"
       }
     ],
     "years": "1927-1932,2000",
@@ -2733,10 +2733,10 @@
     "days": [173, 523, 804],
     "copyrights": [
       {
-        "*": "Michel Denancé",
         "2": "@hutongshard (instagram)",
         "3": "Rob Telford",
-        "4": "Courtesy of the Architect"
+        "4": "Courtesy of the Architect",
+        "*": "Michel Denancé"
       }
     ],
     "years": "2009-2012",
@@ -4215,10 +4215,10 @@
         "*": "Simon Menges"
       },
       {
-        "*": "Simon Menges",
         "2": "Jonathan Platteau (wikimedia)",
         "4": "Horst Siegmann",
-        "5": "Jonathan Platteau (wikimedia)"
+        "5": "Jonathan Platteau (wikimedia)",
+        "*": "Simon Menges"
       }
     ],
     "years": "1968, 2021",
@@ -4712,7 +4712,7 @@
   },
   {
     "answer": "Karnak Temple Complex / El-Karnak, Luxor, Egypt",
-    "days": [312],
+    "days": [312, 836],
     "copyrights": [
       {
         "1": "Diego Delso (wikimedia)",
@@ -5033,11 +5033,11 @@
     "days": [341],
     "copyrights": [
       {
-        "*": "wikiarquitectura",
         "1": "Pierre De Meuron",
         "2": "Duccio Malagamba",
         "3": "Courtesy of the Architect",
-        "5": "Robert Hösl"
+        "5": "Robert Hösl",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "2001-2004",
@@ -5091,10 +5091,10 @@
     "days": [344],
     "copyrights": [
       {
-        "*": "wikiarquitectura",
         "1": "architectuul",
         "2": "architectuul",
-        "4": "architectuul"
+        "4": "architectuul",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "1885",
@@ -5126,9 +5126,9 @@
     "days": [346],
     "copyrights": [
       {
-        "*": "Claudio Margottini (unesco)",
         "2": "David Adamec (wikimedia)",
-        "6": "David Adamec (wikimedia)"
+        "6": "David Adamec (wikimedia)",
+        "*": "Claudio Margottini (unesco)"
       }
     ],
     "years": "~12th",
@@ -5189,9 +5189,9 @@
     "days": [352],
     "copyrights": [
       {
-        "*": "Iwan Baan",
         "3": "Edmund Sumner (dezeen)",
-        "6": "Courtesy of the Architect"
+        "6": "Courtesy of the Architect",
+        "*": "Iwan Baan"
       }
     ],
     "years": "2010",
@@ -5205,10 +5205,10 @@
     "days": [353],
     "copyrights": [
       {
-        "*": "Duccio Malagamba",
         "2": "SurfAst (wikimedia)",
         "4": "SurfAst (wikimedia)",
-        "5": "Zarateman (wikimedia)"
+        "5": "Zarateman (wikimedia)",
+        "*": "Duccio Malagamba"
       }
     ],
     "years": "2011",
@@ -5240,10 +5240,10 @@
     "days": [356],
     "copyrights": [
       {
-        "*": "Christopher Frederick Jones",
         "1": "Courtesy of the Architect",
         "2": "Angus Martin",
-        "6": "Zairon (wikimedia)"
+        "6": "Zairon (wikimedia)",
+        "*": "Christopher Frederick Jones"
       }
     ],
     "years": "2007-2010",
@@ -5255,10 +5255,10 @@
     "days": [357],
     "copyrights": [
       {
-        "*": "Courtesy of the Owner",
         "3": "Myr Muratet",
         "5": "Benh LIEU SONG (flickr)",
-        "6": "Dimitri Destugues (wikimedia)"
+        "6": "Dimitri Destugues (wikimedia)",
+        "*": "Courtesy of the Owner"
       }
     ],
     "years": "1894",
@@ -5272,10 +5272,10 @@
     "days": [359],
     "copyrights": [
       {
-        "*": "Tim Griffith",
         "2": "Nic Lehoux",
         "3": "Courtesy of the Architect",
-        "6": "Dennis Jarvis (wikimedia)"
+        "6": "Dennis Jarvis (wikimedia)",
+        "*": "Tim Griffith"
       }
     ],
     "years": "2008",
@@ -5304,9 +5304,9 @@
     "days": [361, 731],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "1": "Martin Falbisoner (wikimedia)",
-        "6": "Martin Falbisoner (wikimedia)"
+        "6": "Martin Falbisoner (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "2009-2013",
@@ -5338,13 +5338,13 @@
     "days": [364],
     "copyrights": [
       {
-        "*": "",
         "1": "Derry Moore, Peter Smith",
         "2": "William Westall (wikimedia)",
         "3": "The White House (wikimedia)",
         "4": "Shealah Craighead (wikimedia)",
         "5": "Diliff (wikimedia)",
-        "6": "Matthew Gerry Gerrard (wikimedia)"
+        "6": "Matthew Gerry Gerrard (wikimedia)",
+        "*": ""
       }
     ],
     "years": "1703-1826",
@@ -5356,9 +5356,9 @@
     "days": [365],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "1": "E. de Rolland & D. Clouzet (Bibliothèque nationale de France) (wikimedia)",
-        "6": "Robot8A (wikimedia)"
+        "6": "Robot8A (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "1831,1986-1993",
@@ -5385,8 +5385,8 @@
     "days": [368],
     "copyrights": [
       {
-        "*": "Adam Mørk",
-        "6": "Julian Herzog (wikimedia)"
+        "6": "Julian Herzog (wikimedia)",
+        "*": "Adam Mørk"
       }
     ],
     "years": "2001-2004",
@@ -5444,10 +5444,10 @@
     "days": [373],
     "copyrights": [
       {
-        "*": "Michel Denancé",
         "4": "Wade Zimmerman",
         "5": "Ajay Suresh (wikimedia)",
-        "6": "Defears (wikimedia)"
+        "6": "Defears (wikimedia)",
+        "*": "Michel Denancé"
       }
     ],
     "years": "2004-2007",
@@ -5496,10 +5496,10 @@
     "days": [377],
     "copyrights": [
       {
-        "*": "Kakidai (wikimedia)",
         "2": "Namazu-tron (wikimedia)",
         "3": "Alexey laa (wikimedia)",
-        "4": "Basile Morin (wikimedia)"
+        "4": "Basile Morin (wikimedia)",
+        "*": "Kakidai (wikimedia)"
       }
     ],
     "years": "2008-2012",
@@ -5511,9 +5511,9 @@
     "days": [379],
     "copyrights": [
       {
-        "*": "Courtesy of the Monument",
         "2": "Martin Falbisoner (wikimedia)",
-        "6": "KimonBerlin (wikimedia)"
+        "6": "KimonBerlin (wikimedia)",
+        "*": "Courtesy of the Monument"
       }
     ],
     "years": "778,1633",
@@ -5612,10 +5612,10 @@
     "days": [388],
     "copyrights": [
       {
-        "*": "wikiarquitectura",
         "2": "Flibust1er (flickr)",
         "5": "Florent Pécassou (wikimedia)",
-        "6": "Matthew Bellemare (wikimedia)"
+        "6": "Matthew Bellemare (wikimedia)",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "2006-2013",
@@ -5627,10 +5627,10 @@
     "days": [390],
     "copyrights": [
       {
-        "*": "Diego Delso (wikimedia)",
         "3": "Gisling (wikimedia)",
         "4": "Supanut Arunoprayote (wikimedia)",
-        "6": "Unknown"
+        "6": "Unknown",
+        "*": "Diego Delso (wikimedia)"
       }
     ],
     "years": "1782",
@@ -5654,10 +5654,10 @@
     "days": [393],
     "copyrights": [
       {
-        "*": "Nick Stanley",
         "1": "TomFawls (wikimedia)",
         "2": "TomFawls (wikimedia)",
-        "6": "w_lemay (wikimedia)"
+        "6": "w_lemay (wikimedia)",
+        "*": "Nick Stanley"
       }
     ],
     "years": "1896",
@@ -5686,10 +5686,10 @@
     "days": [397],
     "copyrights": [
       {
-        "*": "Ivan Brodey",
         "4": "Abdullah A Alshammary",
         "5": "Courtesy of the Architect",
-        "6": "Courtesy of the Architect"
+        "6": "Courtesy of the Architect",
+        "*": "Ivan Brodey"
       }
     ],
     "years": "2007-2018",
@@ -5737,8 +5737,8 @@
     "days": [401],
     "copyrights": [
       {
-        "*": "Jonathan Platteau",
-        "6": "Andreas Tuffé (wikimedia)"
+        "6": "Andreas Tuffé (wikimedia)",
+        "*": "Jonathan Platteau"
       }
     ],
     "years": "1988",
@@ -5779,9 +5779,9 @@
     "days": [407],
     "copyrights": [
       {
-        "*": "Steve Cadman",
         "4": "Rory Hyde",
-        "5": "Rory Hyde"
+        "5": "Rory Hyde",
+        "*": "Steve Cadman"
       }
     ],
     "years": "1923-1925",
@@ -5796,9 +5796,9 @@
     "days": [409],
     "copyrights": [
       {
-        "*": "Jonathan Platteau",
         "2": "Courtesy of the Architect",
-        "4": "Courtesy of the Architect"
+        "4": "Courtesy of the Architect",
+        "*": "Jonathan Platteau"
       }
     ],
     "years": "2007-2011",
@@ -5822,9 +5822,9 @@
     "days": [414],
     "copyrights": [
       {
-        "*": "Unknown (archdaily)",
         "3": "Courtesy of the Architect",
-        "6": "evdropkick"
+        "6": "evdropkick",
+        "*": "Unknown (archdaily)"
       }
     ],
     "years": "1960",
@@ -5853,8 +5853,8 @@
     "days": [417],
     "copyrights": [
       {
-        "*": "FritzDaCat (wikimedia)",
-        "5": "Wikiemirati (wikimedia)"
+        "5": "Wikiemirati (wikimedia)",
+        "*": "FritzDaCat (wikimedia)"
       }
     ],
     "years": "1996-2007",
@@ -5880,10 +5880,10 @@
     "days": [421],
     "copyrights": [
       {
-        "*": "Anonymous Blogger",
         "1": "Lute66 (wikimedia)",
         "2": "Pei Cobb Freed",
-        "5": "xiquinhosilva (wikimedia)"
+        "5": "xiquinhosilva (wikimedia)",
+        "*": "Anonymous Blogger"
       }
     ],
     "years": "1962-1963",
@@ -5895,10 +5895,10 @@
     "days": [423],
     "copyrights": [
       {
-        "*": "Holger.Ellgaard (wikimedia)",
         "4": "Jorge Franganillo (wikimedia)",
         "5": "Ray Swi-hymn (wikimedia)",
-        "6": "Sergey Ashmarin (wikimedia)"
+        "6": "Sergey Ashmarin (wikimedia)",
+        "*": "Holger.Ellgaard (wikimedia)"
       }
     ],
     "years": "1911-1923",
@@ -5910,10 +5910,10 @@
     "days": [424],
     "copyrights": [
       {
-        "*": "wikiarquitectura",
         "1": "L.S.&.P.Co.",
         "3": "Heresy0uk (wikimedia)",
-        "6": "Colin (wikimedia)"
+        "6": "Colin (wikimedia)",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "1886-1894",
@@ -5925,8 +5925,8 @@
     "days": [426],
     "copyrights": [
       {
-        "*": "Jonathan Platteau",
-        "6": "Trogain (wikimedia)"
+        "6": "Trogain (wikimedia)",
+        "*": "Jonathan Platteau"
       }
     ],
     "years": "1955",
@@ -5938,11 +5938,11 @@
     "days": [428],
     "copyrights": [
       {
-        "*": "Jonathan Platteau",
         "1": "Chabe01 (wikimedia)",
         "2": "Auguste Mathieu",
         "5": "Semnoz (wikimedia)",
-        "6": "Benoît Prieur (wikimedia)"
+        "6": "Benoît Prieur (wikimedia)",
+        "*": "Jonathan Platteau"
       }
     ],
     "years": "1506-1532",
@@ -6017,11 +6017,11 @@
     "days": [437],
     "copyrights": [
       {
-        "*": "Arthur",
         "3": "Koppchen (wikimedia)",
         "4": "Jules Verne Times Two (wikimedia)",
         "5": "Holger Uwe Schmitt (wikimedia)",
-        "6": "Diego Delso (wikimedia)"
+        "6": "Diego Delso (wikimedia)",
+        "*": "Arthur"
       }
     ],
     "years": "1997-2003",
@@ -6067,11 +6067,11 @@
     "days": [442],
     "copyrights": [
       {
-        "*": "Luis Miguel Bugallo Sáchez (wikimedia)",
         "2": "el Buho nº30 (wikimedia)",
         "3": "Don Joseph Cornide (wikimedia)",
         "4": "Zarateman (wikimedia)",
-        "5": "Alessio Damato (wikimedia)"
+        "5": "Alessio Damato (wikimedia)",
+        "*": "Luis Miguel Bugallo Sáchez (wikimedia)"
       }
     ],
     "years": "1st century, 1791 (restoration)",
@@ -6083,10 +6083,10 @@
     "days": [443],
     "copyrights": [
       {
-        "*": "Txllxt TxllxT (wikimedia)",
         "2": "Tony Hisgett (wikimedia)",
         "5": "Reading Tom (wikimedia)",
-        "6": "Garry Knight (wikimedia)"
+        "6": "Garry Knight (wikimedia)",
+        "*": "Txllxt TxllxT (wikimedia)"
       }
     ],
     "years": "1994",
@@ -6098,10 +6098,10 @@
     "days": [446],
     "copyrights": [
       {
-        "*": "Stefan Müller (wikimedia)",
         "2": "Courtesy of the Architect",
         "5": "Mussklprozz (wikimedia)",
-        "6": "Pjt56 (wikimedia)"
+        "6": "Pjt56 (wikimedia)",
+        "*": "Stefan Müller (wikimedia)"
       }
     ],
     "years": "2011",
@@ -6181,10 +6181,10 @@
     "days": [458],
     "copyrights": [
       {
-        "*": "Nic Lehoux",
         "3": "Courtesy of the Architect",
         "5": "MusikAnimal (wikimedia)",
-        "6": "Ajay Suresh (wikimedia)"
+        "6": "Ajay Suresh (wikimedia)",
+        "*": "Nic Lehoux"
       }
     ],
     "years": "2015",
@@ -6196,8 +6196,8 @@
     "days": [459],
     "copyrights": [
       {
-        "*": "Edmund Sumner",
-        "5": "Courtesy of the Architect"
+        "5": "Courtesy of the Architect",
+        "*": "Edmund Sumner"
       }
     ],
     "years": "2010",
@@ -6243,11 +6243,11 @@
     "days": [465],
     "copyrights": [
       {
-        "*": "Daniel Schwen (wikimedia)",
         "1": "Robert Lawton (wikimedia)",
         "4": "Kelly (wikimedia)",
         "5": "Starkin (wikimedia)",
-        "6": "Bev Sykes (wikimedia)"
+        "6": "Bev Sykes (wikimedia)",
+        "*": "Daniel Schwen (wikimedia)"
       }
     ],
     "years": "1963-1965",
@@ -6259,10 +6259,10 @@
     "days": [467],
     "copyrights": [
       {
-        "*": "Helene Binet",
         "1": "James Taylor-Foster",
         "3": "James Taylor-Foster",
-        "6": "Veit Mueller (wikimedia)"
+        "6": "Veit Mueller (wikimedia)",
+        "*": "Helene Binet"
       }
     ],
     "years": "2003",
@@ -6274,10 +6274,10 @@
     "days": [469],
     "copyrights": [
       {
-        "*": "Mikkel Frost",
         "3": "Laketown (wikimedia)",
         "5": "Slaunger (wikimedia)",
-        "6": "Slaunger (wikimedia)"
+        "6": "Slaunger (wikimedia)",
+        "*": "Mikkel Frost"
       }
     ],
     "years": "2013",
@@ -6323,8 +6323,8 @@
     "days": [475],
     "copyrights": [
       {
-        "*": "Fernando Guerra",
-        "3": "Leon (wikimedia)"
+        "3": "Leon (wikimedia)",
+        "*": "Fernando Guerra"
       }
     ],
     "years": "1985-1996",
@@ -6336,10 +6336,10 @@
     "days": [476],
     "copyrights": [
       {
-        "*": "Marie-Lan Nguyen (wikimedia)",
         "1": "Courtesy of the Architect",
         "4": "Priscille Leroy (wikimedia)",
-        "6": "Communication BSG (wikimedia)"
+        "6": "Communication BSG (wikimedia)",
+        "*": "Marie-Lan Nguyen (wikimedia)"
       }
     ],
     "years": "1838-1851",
@@ -6385,11 +6385,11 @@
     "days": [480],
     "copyrights": [
       {
-        "*": "Berthold Werner (wikimedia)",
         "2": "Sailko (wikimedia)",
         "3": "Sailko (wikimedia)",
         "4": "Travus (wikimedia)",
-        "5": "Michael Fritz (wikimedia)"
+        "5": "Michael Fritz (wikimedia)",
+        "*": "Berthold Werner (wikimedia)"
       }
     ],
     "years": "1240–1250",
@@ -6523,11 +6523,11 @@
     "days": [499],
     "copyrights": [
       {
-        "*": "MNXANL (wikimedia)",
         "1": "Courtesy of the Architect",
         "2": "Courtesy of the Architect",
         "3": "Evan Chakroff",
-        "6": "Evan Chakroff"
+        "6": "Evan Chakroff",
+        "*": "MNXANL (wikimedia)"
       }
     ],
     "years": "2002",
@@ -6585,11 +6585,11 @@
     "days": [505],
     "copyrights": [
       {
-        "*": "Courtesy of the Owner",
         "1": "Courtesy of the Architect",
         "3": "wikiarquitectura",
         "5": "B.alotaby (wikimedia)",
-        "6": "GN-z11 (wikimedia)"
+        "6": "GN-z11 (wikimedia)",
+        "*": "Courtesy of the Owner"
       }
     ],
     "years": "2008",
@@ -6601,10 +6601,10 @@
     "days": [507],
     "copyrights": [
       {
-        "*": "Ɱ (wikimedia)",
         "3": "wikiarquitectura",
         "5": "DVD R W (wikimedia)",
-        "6": "wikiarquitectura"
+        "6": "wikiarquitectura",
+        "*": "Ɱ (wikimedia)"
       }
     ],
     "years": "2002-2004",
@@ -6616,9 +6616,9 @@
     "days": [509],
     "copyrights": [
       {
-        "*": "Roland Halbe",
         "1": "Nicolas Borel",
-        "2": "Nicolas Borel"
+        "2": "Nicolas Borel",
+        "*": "Roland Halbe"
       }
     ],
     "years": "2005-2011",
@@ -6647,11 +6647,11 @@
     "days": [515],
     "copyrights": [
       {
-        "*": "Roland Halbe",
         "2": "Murray Fredericks",
         "4": "MDRX (wikimedia)",
         "5": "Sardaka (wikimedia)",
-        "6": "Murray Fredericks"
+        "6": "Murray Fredericks",
+        "*": "Roland Halbe"
       }
     ],
     "years": "2008-2014",
@@ -6680,8 +6680,8 @@
     "days": [522],
     "copyrights": [
       {
-        "*": "Maria Gonzalez",
-        "5": "Orf3us (wikimedia)"
+        "5": "Orf3us (wikimedia)",
+        "*": "Maria Gonzalez"
       }
     ],
     "years": "2008",
@@ -6693,11 +6693,11 @@
     "days": [524],
     "copyrights": [
       {
-        "*": "Courtesy of the Foundation",
         "2": "Santeri Viinamäki (wikimedia)",
         "3": "Courtesy of the Architect",
         "5": "Kotivalo (wikimedia)",
-        "6": "Ninara (wikimedia)"
+        "6": "Ninara (wikimedia)",
+        "*": "Courtesy of the Foundation"
       }
     ],
     "years": "1960-1968",
@@ -6726,9 +6726,9 @@
     "days": [532],
     "copyrights": [
       {
-        "*": "David Poultney",
         "3": "Courtesy of the Architect",
-        "6": "Anthony Palmer"
+        "6": "Anthony Palmer",
+        "*": "David Poultney"
       }
     ],
     "years": "2009-2011",
@@ -6754,11 +6754,11 @@
     "days": [541],
     "copyrights": [
       {
-        "*": "diephotodesigner.de",
         "1": "Ketil Jacobsen",
         "2": "Ketil Jacobsen",
         "3": "Roger Brendhagen",
-        "4": "Jon Andreas Klokkehaug"
+        "4": "Jon Andreas Klokkehaug",
+        "*": "diephotodesigner.de"
       }
     ],
     "years": "2009-2011",
@@ -6770,9 +6770,9 @@
     "days": [544],
     "copyrights": [
       {
-        "*": "wikiarquitectura",
         "1": "Deepak gupta (wikimedia)",
-        "6": "Tazz M (wikimedia)"
+        "6": "Tazz M (wikimedia)",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "1971-1976",
@@ -6784,9 +6784,9 @@
     "days": [550],
     "copyrights": [
       {
-        "*": "Trevor Patt",
         "2": "Unknown (archeyes.com)",
-        "3": "Unknown (archeyes.com)"
+        "3": "Unknown (archeyes.com)",
+        "*": "Trevor Patt"
       }
     ],
     "years": "1936-1939, 1944",
@@ -6798,10 +6798,10 @@
     "days": [551],
     "copyrights": [
       {
-        "*": "Christopher Heaney",
         "2": "Ardfern (wikimedia)",
         "3": "Gareth O'Cathain",
-        "6": "Ardfern (wikimedia)"
+        "6": "Ardfern (wikimedia)",
+        "*": "Christopher Heaney"
       }
     ],
     "years": "2009-2012",
@@ -6813,11 +6813,11 @@
     "days": [557],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "2": "No Swan So Fine (wikimedia)",
         "3": "Jorge Royan (wikimedia)",
         "4": "Jpbowen (wikimedia)",
-        "6": "-wuppertaler (wikimedia)"
+        "6": "-wuppertaler (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "1855-1860",
@@ -6845,9 +6845,9 @@
     "days": [562],
     "copyrights": [
       {
-        "*": "R. Arlt (AIP)",
         "4": "Courtesy of the Architect",
-        "6": "Astrophysikalisches Institut Potsdam (wikimedia)"
+        "6": "Astrophysikalisches Institut Potsdam (wikimedia)",
+        "*": "R. Arlt (AIP)"
       }
     ],
     "years": "1919-1921",
@@ -6876,8 +6876,8 @@
     "days": [564],
     "copyrights": [
       {
-        "*": "Shigeo Ogawa",
-        "2": "Courtesy of the Architect"
+        "2": "Courtesy of the Architect",
+        "*": "Shigeo Ogawa"
       }
     ],
     "years": "2017-2019",
@@ -6921,10 +6921,10 @@
     "days": [567],
     "copyrights": [
       {
-        "*": "Jean Housen (wikimedia)",
         "4": "Steffen Schmitz (wikimedia)",
         "5": "Jaimrsilva (wikimedia)",
-        "6": "Tuxyso (wikimedia)"
+        "6": "Tuxyso (wikimedia)",
+        "*": "Jean Housen (wikimedia)"
       }
     ],
     "years": "1983-1988",
@@ -6948,10 +6948,10 @@
     "days": [571],
     "copyrights": [
       {
-        "*": "w_lemay (wikimedia)",
         "1": "Darren and Brad (wikiarquitectura)",
         "2": "Darren and Brad (wikiarquitectura)",
-        "5": "Beyond My Ken (wikimedia)"
+        "5": "Beyond My Ken (wikimedia)",
+        "*": "w_lemay (wikimedia)"
       }
     ],
     "years": "1899-1903",
@@ -6975,11 +6975,11 @@
     "days": [573],
     "copyrights": [
       {
-        "*": "wikiarquitectura",
         "1": "Amadalvarez (wikimedia)",
         "2": "Courtesy of the Owner",
         "3": "Josep Renalias (wikimedia)",
-        "6": "Ralf Roletschek (wikimedia)"
+        "6": "Ralf Roletschek (wikimedia)",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "1905–1908",
@@ -6991,8 +6991,8 @@
     "days": [574],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
-        "6": "Calips (wikimedia)"
+        "6": "Calips (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "2014",
@@ -7004,10 +7004,10 @@
     "days": [576, 776],
     "copyrights": [
       {
-        "*": "Nelson Kon",
         "1": "Pedro Vannucchi",
         "4": "Pedro Vannucchi",
-        "5": "Pedro Vannucchi"
+        "5": "Pedro Vannucchi",
+        "*": "Nelson Kon"
       }
     ],
     "years": "2017",
@@ -7048,11 +7048,11 @@
     "days": [579],
     "copyrights": [
       {
-        "*": "Bas Princen",
         "1": "Philippe Ruault",
         "2": "Iwan Baan",
         "3": "Courtesy of the Architect",
-        "6": "Courtesy of the Architect"
+        "6": "Courtesy of the Architect",
+        "*": "Bas Princen"
       }
     ],
     "years": "2008-2018",
@@ -7103,9 +7103,9 @@
     "days": [583],
     "copyrights": [
       {
-        "*": "Olivier Mathiotte",
         "3": "Courtesy of the Architect",
-        "6": "Eric Colin"
+        "6": "Eric Colin",
+        "*": "Olivier Mathiotte"
       }
     ],
     "years": "2023",
@@ -7137,9 +7137,9 @@
     "days": [586],
     "copyrights": [
       {
-        "*": "Anthony Browell",
         "2": "Tobias Titz",
-        "5": "Courtesy of the Architect"
+        "5": "Courtesy of the Architect",
+        "*": "Anthony Browell"
       }
     ],
     "years": "2019",
@@ -7153,10 +7153,10 @@
     "days": [587],
     "copyrights": [
       {
-        "*": "Christian Richters",
         "2": "Courtesy of the Architect",
         "3": "Jean Housen (wikimedia)",
-        "4": "Thomas Dix"
+        "4": "Thomas Dix",
+        "*": "Christian Richters"
       }
     ],
     "years": "1992-1997",
@@ -7168,11 +7168,11 @@
     "days": [588],
     "copyrights": [
       {
-        "*": "wikiarquitectura",
         "1": "Petr Svarc",
         "2": "Zairon (wikimedia)",
         "3": "Unknown",
-        "6": "Petr Svarc"
+        "6": "Petr Svarc",
+        "*": "wikiarquitectura"
       }
     ],
     "years": "2003",
@@ -7201,10 +7201,10 @@
     "days": [591],
     "copyrights": [
       {
-        "*": "Benh LIEU SONG (wikimedia)",
         "1": "Riccardo Lelli (wikimedia)",
         "2": "Didier Descouens (wikimedia)",
-        "6": "Didier Descouens (wikimedia)"
+        "6": "Didier Descouens (wikimedia)",
+        "*": "Benh LIEU SONG (wikimedia)"
       }
     ],
     "years": "1340",
@@ -7230,8 +7230,8 @@
     "days": [595],
     "copyrights": [
       {
-        "*": "Filip Dujardin",
-        "3": "Nolde16 (wikimedia)"
+        "3": "Nolde16 (wikimedia)",
+        "*": "Filip Dujardin"
       }
     ],
     "years": "2011",
@@ -7248,9 +7248,9 @@
       {
         "1": "Diliff (wikimedia)",
         "2": "Calstanhope (wikimedia)",
-        "*": "DiscoA340 (wikimedia)",
         "5": "Andreas Tille (wikimedia)",
-        "6": "Luke Nicolaides (wikimedia)"
+        "6": "Luke Nicolaides (wikimedia)",
+        "*": "DiscoA340 (wikimedia)"
       }
     ],
     "years": "1514",
@@ -7262,10 +7262,10 @@
     "days": [597],
     "copyrights": [
       {
-        "*": "Iwan Baan",
         "4": "Scott Frances",
         "5": "Scott Frances",
-        "6": "Scott Frances"
+        "6": "Scott Frances",
+        "*": "Iwan Baan"
       }
     ],
     "years": "2010",
@@ -7326,8 +7326,8 @@
     "days": [602],
     "copyrights": [
       {
-        "*": "Canaan (wikimedia)",
-        "5": "Pol Viladoms (wikimedia)"
+        "5": "Pol Viladoms (wikimedia)",
+        "*": "Canaan (wikimedia)"
       }
     ],
     "years": "1883-1885",
@@ -7351,11 +7351,11 @@
     "days": [604],
     "copyrights": [
       {
-        "*": "Billie Grace Ward (wikimedia)",
         "2": "Courtesy of the Architect",
         "3": "Jeremy Keith (flickr)",
         "4": "Courtesy of the Architect",
-        "6": "Gunnar Klack (wikimedia)"
+        "6": "Gunnar Klack (wikimedia)",
+        "*": "Billie Grace Ward (wikimedia)"
       }
     ],
     "years": "1974",
@@ -7367,11 +7367,11 @@
     "days": [605],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "1": "Le Commissaire (wikimedia)",
         "4": "Diliff (wikimedia)",
         "5": "Archives DNA",
-        "6": "Claude Truong-Ngoc (wikimedia)"
+        "6": "Claude Truong-Ngoc (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "1993-1999",
@@ -7385,9 +7385,9 @@
     "days": [606],
     "copyrights": [
       {
-        "*": "Jean-Christophe BENOIST (wikimedia)",
         "4": "Jacques Fouquières (1620, wikimedia)",
-        "6": "Pumuckel42 (wikimedia)"
+        "6": "Pumuckel42 (wikimedia)",
+        "*": "Jean-Christophe BENOIST (wikimedia)"
       }
     ],
     "years": "1214",
@@ -7399,9 +7399,9 @@
     "days": [607],
     "copyrights": [
       {
-        "*": "Txllxt TxllxT (wikimedia)",
         "2": "Hoogewoud, R. (wikimedia)",
-        "6": "Thomas Laconis (wikimedia)"
+        "6": "Thomas Laconis (wikimedia)",
+        "*": "Txllxt TxllxT (wikimedia)"
       }
     ],
     "years": "1919-1921",
@@ -7455,9 +7455,9 @@
     "days": [611],
     "copyrights": [
       {
-        "*": "AnneRuthmann (wikimedia)",
         "4": "Rhododendrites (wikimedia)",
-        "6": "GK tramrunner (wikimedia)"
+        "6": "GK tramrunner (wikimedia)",
+        "*": "AnneRuthmann (wikimedia)"
       }
     ],
     "years": "1887",
@@ -7469,11 +7469,11 @@
     "days": [612],
     "copyrights": [
       {
-        "*": "Olivier Mathiotte (wikimedia)",
         "2": "Liné1 (wikimedia)",
         "4": "Philippe Caron (wikimedia)",
         "5": "Frantz Jourdain’s Article (wikimedia)",
-        "6": "Chabe01 (wikimedia)"
+        "6": "Chabe01 (wikimedia)",
+        "*": "Olivier Mathiotte (wikimedia)"
       }
     ],
     "years": "1901-1902",
@@ -7561,8 +7561,8 @@
     "days": [621],
     "copyrights": [
       {
-        "*": "Iwan Baan",
-        "6": "A. Zahner Company"
+        "6": "A. Zahner Company",
+        "*": "Iwan Baan"
       }
     ],
     "years": "2007-2009",
@@ -7576,9 +7576,9 @@
     "days": [622],
     "copyrights": [
       {
-        "*": "Wittylama (wikimedia)",
         "1": "Filippo Poli (wikimedia)",
-        "3": "Filippo Poli (wikimedia)"
+        "3": "Filippo Poli (wikimedia)",
+        "*": "Wittylama (wikimedia)"
       }
     ],
     "years": "1968-1978",
@@ -7590,11 +7590,11 @@
     "days": [623],
     "copyrights": [
       {
-        "*": "Robertgombos (wikimedia)",
         "2": "Kippelboy (wikimedia)",
         "4": "Kippelboy (wikimedia)",
         "5": "Graham Rogers (wikimedia)",
-        "6": "Kim FOR sure (wikimedia)"
+        "6": "Kim FOR sure (wikimedia)",
+        "*": "Robertgombos (wikimedia)"
       }
     ],
     "years": "1995",
@@ -7625,10 +7625,10 @@
     "days": [625],
     "copyrights": [
       {
-        "*": "Tom Parnell (wikimedia)",
         "3": "Tony Hisgett (wikimedia)",
         "5": "Remi Mathis (wikimedia)",
-        "6": "Remi Mathis (wikimedia)"
+        "6": "Remi Mathis (wikimedia)",
+        "*": "Tom Parnell (wikimedia)"
       }
     ],
     "years": "1902-1904",
@@ -7640,9 +7640,9 @@
     "days": [627],
     "copyrights": [
       {
-        "*": "Dage - Looking For Europe (wikimedia)",
         "1": "Hardscarf (wikimedia)",
-        "6": "Wenkbrauwalbatros (wikimedia)"
+        "6": "Wenkbrauwalbatros (wikimedia)",
+        "*": "Dage - Looking For Europe (wikimedia)"
       }
     ],
     "years": "2001",
@@ -7654,8 +7654,8 @@
     "days": [628],
     "copyrights": [
       {
-        "*": "Adam Letch",
-        "2": "Courtesy of the Architect"
+        "2": "Courtesy of the Architect",
+        "*": "Adam Letch"
       }
     ],
     "years": "2011-2016",
@@ -7695,10 +7695,10 @@
     "days": [635, 825],
     "copyrights": [
       {
-        "*": "Nelson Kon",
         "1": "Francisco Albuquerque",
         "2": "Courtesy of the Foundation",
-        "6": "Peter Scheier"
+        "6": "Peter Scheier",
+        "*": "Nelson Kon"
       }
     ],
     "years": "1951",
@@ -7710,10 +7710,10 @@
     "days": [636],
     "copyrights": [
       {
-        "*": "Kimmo Räisänen",
         "3": "Arno de la Chapelle",
         "4": "Arno de la Chapelle",
-        "5": "Arno de la Chapelle"
+        "5": "Arno de la Chapelle",
+        "*": "Kimmo Räisänen"
       }
     ],
     "years": "2005",
@@ -7756,8 +7756,8 @@
     "days": [645],
     "copyrights": [
       {
-        "*": "ORCH_Chemollo",
-        "4": "Stefano Bertolotti"
+        "4": "Stefano Bertolotti",
+        "*": "ORCH_Chemollo"
       }
     ],
     "years": "1957-1958",
@@ -7769,11 +7769,11 @@
     "days": [646],
     "copyrights": [
       {
-        "*": "Tomas Riehle",
         "1": "Wahlenbernd (wikimedia)",
         "2": "Engelbert Reineke (wikimedia)",
         "4": "Sir James (wikimedia)",
-        "5": "Wolkenkratzer (wikimedia)"
+        "5": "Wolkenkratzer (wikimedia)",
+        "*": "Tomas Riehle"
       }
     ],
     "years": "1963-1964",
@@ -7785,11 +7785,11 @@
     "days": [647],
     "copyrights": [
       {
-        "*": "Francisco Nogueira",
         "1": "Hufton+Crow",
         "3": "Hufton+Crow",
         "4": "Hufton+Crow",
-        "6": "Stefan Bethke (wikimedia)"
+        "6": "Stefan Bethke (wikimedia)",
+        "*": "Francisco Nogueira"
       }
     ],
     "years": "2016",
@@ -7849,9 +7849,9 @@
     "days": [653],
     "copyrights": [
       {
-        "*": "Gerhard Jaeger, Ger van der Vlugt, Robert Oerlemans and Joop van Reeken",
         "2": "Anna Odulinska",
-        "4": "Courtesy of the Architect"
+        "4": "Courtesy of the Architect",
+        "*": "Gerhard Jaeger, Ger van der Vlugt, Robert Oerlemans and Joop van Reeken"
       }
     ],
     "years": "1979-1990",
@@ -7865,10 +7865,10 @@
     "days": [654],
     "copyrights": [
       {
-        "*": "Nelson-Moe Properties/Coldwell Banker Residential Brokerage",
         "2": "wikiarquitectura",
         "4": "wikiarquitectura",
-        "6": "wikiarquitectura"
+        "6": "wikiarquitectura",
+        "*": "Nelson-Moe Properties/Coldwell Banker Residential Brokerage"
       }
     ],
     "years": "1966-1968",
@@ -7898,9 +7898,9 @@
     "days": [657],
     "copyrights": [
       {
-        "*": "Farida Bustani",
         "5": "International Finance Corporation",
-        "6": "International Finance Corporation"
+        "6": "International Finance Corporation",
+        "*": "Farida Bustani"
       }
     ],
     "years": "2012-2024",
@@ -7912,9 +7912,9 @@
     "days": [658],
     "copyrights": [
       {
-        "*": "John Smith",
         "3": "Patrick Reynolds",
-        "4": "Patrick Reynolds"
+        "4": "Patrick Reynolds",
+        "*": "John Smith"
       }
     ],
     "years": "2015",
@@ -7926,10 +7926,10 @@
     "days": [659],
     "copyrights": [
       {
-        "*": "Musée des Beaux-Arts",
         "3": "Dejan Jovanovic",
         "4": "Vitra",
-        "6": "Dejan Jovanovic"
+        "6": "Dejan Jovanovic",
+        "*": "Musée des Beaux-Arts"
       }
     ],
     "years": "1954",
@@ -8028,9 +8028,9 @@
     "days": [672],
     "copyrights": [
       {
-        "*": "Andrew Lee",
         "4": "Brian McNeil (wikimedia)",
-        "5": "Maccoinnich~commonswiki (wikimedia)"
+        "5": "Maccoinnich~commonswiki (wikimedia)",
+        "*": "Andrew Lee"
       }
     ],
     "years": "1861-1866,1998,2011",
@@ -8054,8 +8054,8 @@
     "days": [674],
     "copyrights": [
       {
-        "*": "Ossip van Duivenbode",
-        "4": "Fred Ernst"
+        "4": "Fred Ernst",
+        "*": "Ossip van Duivenbode"
       }
     ],
     "years": "2011-2015",
@@ -8067,9 +8067,9 @@
     "days": [676],
     "copyrights": [
       {
-        "*": "Iwan Baan",
         "1": "Karl Thomas Moore (wikimedia)",
-        "5": "Dean Kaufman"
+        "5": "Dean Kaufman",
+        "*": "Iwan Baan"
       }
     ],
     "years": "2015",
@@ -8081,9 +8081,9 @@
     "days": [677],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "2": "Georgie Pauwels (wikimedia)",
-        "6": "Alexander Blum (wikimedia)"
+        "6": "Alexander Blum (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "2003-2004",
@@ -8097,9 +8097,9 @@
     "days": [678],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "2": "Frederick Florin (AFP)",
-        "6": "Frederick Florin (AFP)"
+        "6": "Frederick Florin (AFP)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "2006-2013",
@@ -8111,11 +8111,11 @@
     "days": [679],
     "copyrights": [
       {
-        "*": "Bridgit Anderson",
         "1": "Jocelyn Kinghorn (wikimedia)",
         "2": "Unknown (architectural review)",
         "3": "Jocelyn Kinghorn (wikimedia)",
-        "6": "Tony Hisgett (wikimedia)"
+        "6": "Tony Hisgett (wikimedia)",
+        "*": "Bridgit Anderson"
       }
     ],
     "years": "2013",
@@ -8141,11 +8141,11 @@
     "days": [681],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "1": "Metro Centric (wikimedia)",
         "2": "William Murphy (wikimedia)",
         "3": "William Murphy (wikimedia)",
-        "4": "Ajolk (wikimedia)"
+        "4": "Ajolk (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "2009",
@@ -8169,8 +8169,8 @@
     "days": [687],
     "copyrights": [
       {
-        "*": "Cyrille Weiner",
-        "6": "Matthieu Tregoat"
+        "6": "Matthieu Tregoat",
+        "*": "Cyrille Weiner"
       }
     ],
     "years": "2016",
@@ -8182,8 +8182,8 @@
     "days": [693],
     "copyrights": [
       {
-        "*": "Jonathan Platteau",
-        "6": "Courtesy of the Architect"
+        "6": "Courtesy of the Architect",
+        "*": "Jonathan Platteau"
       }
     ],
     "years": "2018",
@@ -8195,8 +8195,8 @@
     "days": [697],
     "copyrights": [
       {
-        "*": "Lorenzo Zandri",
-        "6": "Anil Öztas (wikimedia)"
+        "6": "Anil Öztas (wikimedia)",
+        "*": "Lorenzo Zandri"
       }
     ],
     "years": "2004",
@@ -8253,11 +8253,11 @@
     "days": [702],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "1": "Andrew Louis (flickr)",
         "4": "Sebastian Mieth (flickr)",
         "5": "Bing Maps",
-        "6": "Dr.K. (wikimedia)"
+        "6": "Dr.K. (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "1973",
@@ -8269,10 +8269,10 @@
     "days": [705],
     "copyrights": [
       {
-        "*": "Velvet (wikimedia)",
         "2": "Arnaud 25 (wikimedia)",
         "4": "Arnaud 25 (wikimedia)",
-        "5": "Thierry (wikimedia)"
+        "5": "Thierry (wikimedia)",
+        "*": "Velvet (wikimedia)"
       }
     ],
     "years": "1443-1457",
@@ -8284,11 +8284,11 @@
     "days": [708],
     "copyrights": [
       {
-        "*": "Courtesy of Asti Architetti",
         "1": "Paolo Monti (wikimedia)",
         "2": "MarkusMark (wikimedia)",
         "3": "Deensel (wikimedia)",
-        "5": "Uwe Aranas (wikimedia)"
+        "5": "Uwe Aranas (wikimedia)",
+        "*": "Courtesy of Asti Architetti"
       }
     ],
     "years": "1956-1958",
@@ -8317,10 +8317,10 @@
     "days": [711],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "3": "Hugo L. González (wikimedia)",
         "5": "Stefan Kemmerling (wikimedia)",
-        "6": "Ajay Suresh (wikimedia)"
+        "6": "Ajay Suresh (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "2017-2019",
@@ -8346,11 +8346,11 @@
     "days": [713],
     "copyrights": [
       {
-        "*": "Courtesy of the City",
         "2": "Fred Romero (wikimedia)",
         "3": "Anhelina Livia Starkova (wikimedia)",
         "4": "Catherine Mosiniak-Paillier (wikimedia)",
-        "6": "Aerith (wikimedia)"
+        "6": "Aerith (wikimedia)",
+        "*": "Courtesy of the City"
       }
     ],
     "years": "1951-1958",
@@ -8398,11 +8398,11 @@
     "days": [720],
     "copyrights": [
       {
-        "*": "Rationalobserver (wikimedia)",
         "2": "Judson McCranie (wikimedia)",
         "3": "KimonBerlin (wikimedia)",
         "4": "Judson McCranie (wikimedia)",
-        "6": "Massimo Catarinella (wikimedia)"
+        "6": "Massimo Catarinella (wikimedia)",
+        "*": "Rationalobserver (wikimedia)"
       }
     ],
     "years": "~1190",
@@ -8426,11 +8426,11 @@
     "days": [726],
     "copyrights": [
       {
-        "*": "Clewe2807 (wikimedia)",
         "1": "Nicolas Borel",
         "2": "Christian Richters",
         "4": "Wade Zimmerman",
-        "6": "Mathieu Faliu"
+        "6": "Mathieu Faliu",
+        "*": "Clewe2807 (wikimedia)"
       }
     ],
     "years": "2002-2005",
@@ -8442,10 +8442,10 @@
     "days": [728],
     "copyrights": [
       {
-        "*": "rburzel (flickr)",
         "1": "Richard Anderson (flickr)",
         "4": "Courtesy of the Architect",
-        "6": "Bobak Ha'Eri (wikimedia)"
+        "6": "Bobak Ha'Eri (wikimedia)",
+        "*": "rburzel (flickr)"
       }
     ],
     "years": "1958-1961",
@@ -8459,9 +8459,9 @@
     "days": [729],
     "copyrights": [
       {
-        "*": "AAL Archive",
         "4": "Simon Devitt",
-        "6": "Courtesy of the Architect"
+        "6": "Courtesy of the Architect",
+        "*": "AAL Archive"
       }
     ],
     "links": ["https://athfieldarchitects.co.nz/studio/"],
@@ -8472,9 +8472,9 @@
     "days": [730],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
         "4": "Pymouss (wikimedia)",
-        "5": "Mbzt (wikimedia)"
+        "5": "Mbzt (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "1891, 2007-2017",
@@ -8505,11 +8505,11 @@
     "days": [735],
     "copyrights": [
       {
-        "*": "amandabhslater (wikimedia)",
         "3": "Ashley Pomeroy (wikimedia)",
         "4": "The wub (wikimedia)",
         "5": "Heresy0uk (wikimedia)",
-        "6": "Aurelien Guichard (wikimedia)"
+        "6": "Aurelien Guichard (wikimedia)",
+        "*": "amandabhslater (wikimedia)"
       }
     ],
     "years": "1929-1933",
@@ -8547,9 +8547,9 @@
     "days": [738],
     "copyrights": [
       {
-        "*": "Jonathan Platteau (wikimedia)",
         "4": "Benoit-caen (wikimedia)",
-        "6": "ZeusUpsistos (wikimedia)"
+        "6": "ZeusUpsistos (wikimedia)",
+        "*": "Jonathan Platteau (wikimedia)"
       }
     ],
     "years": "1722-1728",
@@ -8561,10 +8561,10 @@
     "days": [739],
     "copyrights": [
       {
-        "*": "Tim Hursley",
         "2": "Nightryder84 (wikimedia)",
         "3": "Brit By Birth (wikimedia)",
-        "6": "Rex Hughes (wikimedia)"
+        "6": "Rex Hughes (wikimedia)",
+        "*": "Tim Hursley"
       }
     ],
     "years": "2011",
@@ -8595,9 +8595,9 @@
     "days": [743],
     "copyrights": [
       {
-        "*": "Marcus Ebener",
         "1": "Lothar M. Peter",
-        "5": "Margherita Spiluttini (wikimedia)"
+        "5": "Margherita Spiluttini (wikimedia)",
+        "*": "Marcus Ebener"
       }
     ],
     "years": "1992–1999",
@@ -8621,8 +8621,8 @@
     "days": [747],
     "copyrights": [
       {
-        "*": "Philippe Ruault",
-        "5": "bigup21 (wikimedia)"
+        "5": "bigup21 (wikimedia)",
+        "*": "Philippe Ruault"
       }
     ],
     "years": "2002-2007",
@@ -8634,11 +8634,11 @@
     "days": [751],
     "copyrights": [
       {
-        "*": "Anze Cokl",
         "2": "Janez Martincic",
         "3": "Courtesy of the Architect",
         "4": "Courtesy of the Architect",
-        "6": "Janez Martincic"
+        "6": "Janez Martincic",
+        "*": "Anze Cokl"
       }
     ],
     "years": "2015",
@@ -8705,11 +8705,11 @@
     "days": [764],
     "copyrights": [
       {
-        "*": "rachelrummel (Atlas Obscura)",
         "1": "Gavin (Atlas Obscura)",
         "2": "Emilee Rader (Flickr)",
         "3": "J Brew (Flickr)",
-        "4": "teddrake (Atlas Obscura)"
+        "4": "teddrake (Atlas Obscura)",
+        "*": "rachelrummel (Atlas Obscura)"
       }
     ],
     "years": "~1990",
@@ -8788,10 +8788,10 @@
     "days": [781],
     "copyrights": [
       {
-        "*": "Jonathan Platteau (wikimedia)",
         "3": "Philippe Breard (wikimedia)",
         "4": "Philippe ROUDAUT (wikimedia)",
-        "6": "Alexandre Prevot (wikimedia)"
+        "6": "Alexandre Prevot (wikimedia)",
+        "*": "Jonathan Platteau (wikimedia)"
       }
     ],
     "years": "1978-1982, 2011-2015",
@@ -8821,9 +8821,9 @@
     "days": [785],
     "copyrights": [
       {
-        "*": "Manuel Sá",
         "1": "Ghiraldini (wikimedia)",
-        "5": "Ghiraldini (wikimedia)"
+        "5": "Ghiraldini (wikimedia)",
+        "*": "Manuel Sá"
       }
     ],
     "years": "1995",
@@ -8849,8 +8849,8 @@
     "days": [790],
     "copyrights": [
       {
-        "*": "Virgile Simon Bertrand",
-        "6": "Eugene Lim (wikimedia)"
+        "6": "Eugene Lim (wikimedia)",
+        "*": "Virgile Simon Bertrand"
       }
     ],
     "years": "2009-2013",
@@ -8874,9 +8874,9 @@
     "days": [797],
     "copyrights": [
       {
-        "*": "Tim Van de Velde",
         "4": "Paul Hermans (wikimedia)",
-        "5": "Paul Hermans (wikimedia)"
+        "5": "Paul Hermans (wikimedia)",
+        "*": "Tim Van de Velde"
       }
     ],
     "years": "2018",
@@ -8900,10 +8900,10 @@
     "days": [801],
     "copyrights": [
       {
-        "*": "Nic Lehoux",
         "3": "Iwan Baan",
         "5": "Iwan Baan",
-        "6": "Iwan Baan"
+        "6": "Iwan Baan",
+        "*": "Nic Lehoux"
       }
     ],
     "years": "2016",
@@ -8929,8 +8929,8 @@
     "days": [805],
     "copyrights": [
       {
-        "*": "Ossip van Duivenbode",
-        "3": "Courtesy of the Architect"
+        "3": "Courtesy of the Architect",
+        "*": "Ossip van Duivenbode"
       }
     ],
     "years": "2022",
@@ -8942,10 +8942,10 @@
     "days": [807],
     "copyrights": [
       {
-        "*": "Jonathan Platteau (wikimedia)",
         "1": "663highland (wikimedia)",
         "2": "Fg2 (wikimedia)",
-        "6": "Martin Falbisoner (wikimedia)"
+        "6": "Martin Falbisoner (wikimedia)",
+        "*": "Jonathan Platteau (wikimedia)"
       }
     ],
     "years": "1052",
@@ -8988,10 +8988,10 @@
     "days": [813],
     "copyrights": [
       {
-        "*": "Frank Van Leersum (flickr)",
         "2": "Ana María León (flickr)",
         "3": "Courtesy of the Architect",
-        "4": "architectuul"
+        "4": "architectuul",
+        "*": "Frank Van Leersum (flickr)"
       }
     ],
     "years": "1951",
@@ -9004,8 +9004,8 @@
     "days": [814],
     "copyrights": [
       {
-        "*": "Nacasa & Partners",
-        "6": "Éléonore Lefebvre"
+        "6": "Éléonore Lefebvre",
+        "*": "Nacasa & Partners"
       }
     ],
     "years": "2014-2015",
@@ -9019,8 +9019,8 @@
     "days": [816],
     "copyrights": [
       {
-        "*": "Courtesy of the Owner",
-        "4": "Courtesy of the Architect"
+        "4": "Courtesy of the Architect",
+        "*": "Courtesy of the Owner"
       }
     ],
     "years": "2023",
@@ -9044,8 +9044,8 @@
     "days": [823],
     "copyrights": [
       {
-        "*": "Courtesy of the Architect",
-        "4": "Streamline1989 (wikimedia)"
+        "4": "Streamline1989 (wikimedia)",
+        "*": "Courtesy of the Architect"
       }
     ],
     "years": "2003",
@@ -9057,10 +9057,10 @@
     "days": [826],
     "copyrights": [
       {
-        "*": "Ddalbiez (wikimedia)",
         "1": "Photo Dharma (wikimedia)",
         "3": "Jorge Láscar (wikimedia)",
-        "6": "JJ Harrison (wikimedia)"
+        "6": "JJ Harrison (wikimedia)",
+        "*": "Ddalbiez (wikimedia)"
       }
     ],
     "years": "1997-2070",
@@ -9096,10 +9096,10 @@
     "days": [829],
     "copyrights": [
       {
-        "*": "Cameron Blaylock",
         "4": "Thomas Müller",
         "5": "Courtesy of the Architect",
-        "6": "Most Curious (wikimedia)"
+        "6": "Most Curious (wikimedia)",
+        "*": "Cameron Blaylock"
       }
     ],
     "years": "1923",
@@ -9160,8 +9160,8 @@
     "days": [835],
     "copyrights": [
       {
-        "*": "Alfredo Arias",
-        "3": "Courtesy of the Architect"
+        "3": "Courtesy of the Architect",
+        "*": "Alfredo Arias"
       }
     ],
     "years": "2012",
@@ -9169,5 +9169,20 @@
       "https://www.archdaily.com/332852/public-library-ana-maria-matute-rsp-arquitectos"
     ],
     "categories": ["community", "library"]
+  },
+  {
+    "answer": "Steilneset Memorial / Louise Bourgeois, Peter Zumthor / Vardø, Norway",
+    "days": [837],
+    "copyrights": [
+      {
+        "1": "Wolfmann (wikimedia)",
+        "5": "Bjarne Riesto (wikimedia)",
+        "6": "Frankemann (wikimedia)",
+        "*": "Andrew Meredith"
+      }
+    ],
+    "years": "2011",
+    "links": ["https://en.wikipedia.org/wiki/Steilneset_Memorial"],
+    "categories": ["community", "memorial"]
   }
 ]
