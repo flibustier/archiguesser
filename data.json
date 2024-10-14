@@ -4114,7 +4114,7 @@
   },
   {
     "answer": "Quai Branly Museum - Jacques Chirac / Jean Nouvel / Paris, France",
-    "days": [266],
+    "days": [266, 838],
     "copyrights": [
       {
         "1": "Jean-Pierre Dalbéra (wikimedia)",
@@ -4127,7 +4127,8 @@
     "links": [
       "https://en.wikipedia.org/wiki/Mus%C3%A9e_du_Quai_Branly_%E2%80%93_Jacques_Chirac"
     ],
-    "categories": ["museum"]
+    "categories": ["museum"],
+    "recommendation": "nouvel"
   },
   {
     "answer": "Braga’s Municipal Stadium (Estádio Municipal de Braga) / Eduardo Souto de Moura / Braga, Portugal",
