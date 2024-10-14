@@ -9185,5 +9185,20 @@
     "years": "2011",
     "links": ["https://en.wikipedia.org/wiki/Steilneset_Memorial"],
     "categories": ["community", "memorial"]
+  },
+  {
+    "answer": "Buhais Geology Park Interpretive Centre / Hopkins Architects / Sharjah, United Arab Emirates (UAE)",
+    "days": [839],
+    "copyrights": [
+      {
+        "3": "Courtesy of the Architects",
+        "*": "Marc Goodwin"
+      }
+    ],
+    "years": "2019",
+    "links": [
+      "https://www.hopkins.co.uk/projects/civic-and-culture/buhais-geology-park-interpretive-centre/"
+    ],
+    "categories": ["community", "exhibition"]
   }
 ]
