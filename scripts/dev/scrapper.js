@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const axios = require("axios");
 const { readFile, writeFile } = require("fs/promises");
 
@@ -34,7 +33,7 @@ const buildIndexes = async () => {
     const existingIndexes = await readFile(INDEXES_FILE, "utf8");
 
     return JSON.parse(existingIndexes);
-  } catch (e) {
+  } catch {
     console.log(`${INDEXES_FILE} will be created`);
   }
 
@@ -70,7 +69,7 @@ const getBuildingInfos = async (urls) => {
   try {
     const existingFile = await readFile(OUTPUT_FILE, "utf8");
     existing = JSON.parse(existingFile);
-  } catch (e) {
+  } catch {
     console.log(`${OUTPUT_FILE} will be created`);
   }
 
