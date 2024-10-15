@@ -20,7 +20,7 @@ const categories = [...LISTED_CATEGORIES, ...LOCKED_CATEGORIES_LOGGED];
 const dynamicTextByCategory = ref(
   categories.reduce(
     (byCategory, category) => ({ ...byCategory, [category]: "" }),
-    {} as { [key: string]: string },
+    {} as Record<string, string>,
   ),
 );
 
