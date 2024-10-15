@@ -629,8 +629,8 @@
     "categories": ["monument"]
   },
   {
-    "answer": "Dancing House / Frank Gehry, Vlado Milunic / Prague, Czech Republic",
-    "days": [35, 326],
+    "answer": "Dancing House (Ginger and Fred) / Vlado Milunić, Frank Gehry / Prague, Czech Republic",
+    "days": [35, 326, 840],
     "copyrights": [
       {
         "6": "A.Savin",
@@ -640,10 +640,9 @@
     "years": "1992-1996",
     "links": [
       "https://en.wikipedia.org/wiki/Dancing_House",
-      "https://en.wikiarquitectura.com/building/Dancing-House/",
-      "https://en.wikipedia.org/wiki/Dancing_House"
+      "https://en.wikiarquitectura.com/building/Dancing-House/"
     ],
-    "categories": []
+    "categories": ["deconstructivist", "community"]
   },
   {
     "answer": "Maison Hermès Tokyo / Renzo Piano / Tokyo, Japan",
