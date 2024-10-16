@@ -1,4 +1,4 @@
-const { uniq, filename } = require("./utils");
+import { uniq, filename } from "./utils.js";
 
 const handleRelativeURL =
   (rootURL) =>
@@ -32,7 +32,7 @@ const imageRegex =
   /['"\s](?:https?:)?(\/?\/?[./\w\d_'&©#,;%-]+?\.(?:jpg|JPG|jpeg|JPEG|webp)\??[^'"\s]*)['"\s]/g;
 const captionRegex = /<figcaption .* id='(.*)'>([^<]*)<\/figcaption>/g;
 
-const extractImageURLs = (url, html) => {
+export const extractImageURLs = (url, html) => {
   const imageURLs = uniq(
     [...html.matchAll(imageRegex)]
       .map(handleRelativeURL(url))
@@ -77,7 +77,7 @@ const patchArchDailyID = (imageID) =>
     .match(/.{1,4}/g)
     .join("/");
 
-const extractCopyrights = (imageURLs, html) => {
+export const extractCopyrights = (imageURLs, html) => {
   const copyrights = [...html.matchAll(captionRegex)].reduce(
     (others, [, id, copyrights]) => ({
       ...others,
@@ -91,9 +91,4 @@ const extractCopyrights = (imageURLs, html) => {
   console.log(JSON.stringify(copyrights, null, 2));
 
   return copyrights;
-};
-
-module.exports = {
-  extractImageURLs,
-  extractCopyrights,
 };

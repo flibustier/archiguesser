@@ -1,5 +1,5 @@
-const axios = require("axios");
-const { readFile, writeFile } = require("fs/promises");
+import axios from "axios";
+import { readFile, writeFile } from "node:fs/promises";
 
 const OUTPUT_FILE = "./data.json";
 const INDEXES_FILE = "./indexes.json";
