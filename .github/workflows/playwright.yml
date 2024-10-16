@@ -22,7 +22,7 @@ jobs:
         if: contains(github.event.pull_request.labels.*.name, 'update snapshots')
         run: yarn test:e2e --update-snapshots
       - name: Run Playwright tests
-        if:  ${{ !contains(github.event.pull_request.labels.*.name, 'update snapshots') }}
+        if: ${{ !contains(github.event.pull_request.labels.*.name, 'update snapshots') }}
         run: yarn test:e2e
       - uses: actions/upload-artifact@v4
         if: always()
