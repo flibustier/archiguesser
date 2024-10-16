@@ -1,4 +1,4 @@
-const { uniq } = require("./utils");
+import { uniq } from "./utils.js";
 
 const wikipediaURL =
   /^(.*\/wikipedia\/(?:commons|en)\/(?:thumb\/)?.*?)(?:\/\d{2,4}px-.*)?$/;
@@ -27,7 +27,7 @@ const patchArquitecturaVivaURL = (thumbnailURL) =>
 const patchDivisareURL = (thumbnailURL) =>
   thumbnailURL.replace(/\/\/images\/[^/]*\//, "/images/");
 
-const patchURLs = (urls) =>
+export const patchURLs = (urls) =>
   uniq(
     urls
       .map(patchArchDailyImageURL)
@@ -37,7 +37,3 @@ const patchURLs = (urls) =>
       .map(patchFigureGroundURL)
       .map(patchDivisareURL),
   );
-
-module.exports = {
-  patchURLs,
-};

@@ -2,6 +2,7 @@
   "name": "archiguesser",
   "version": "2.4.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
