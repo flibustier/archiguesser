@@ -1,9 +1,8 @@
 #!/usr/bin/node
+import { writeFileSync } from "node:fs";
 
-const { writeFileSync } = require("fs");
-
-const data = require("../../src/assets/data.json");
-const suggestions = require("../../src/assets/suggestions.json");
+import data from "../../src/assets/data.json" with { type: "json" };
+import suggestions from "../../src/assets/suggestions.json" with { type: "json" };
 
 const OUTPUT_FILE = "src/assets/suggestions.json";
 

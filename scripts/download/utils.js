@@ -1,9 +1,4 @@
-const { basename } = require("path");
+import { basename } from "node:path";
 
-const uniq = (array) => [...new Set(array)];
-const filename = (url) => basename(url.split("?")[0]);
-
-module.exports = {
-  uniq,
-  filename,
-};
+export const uniq = (array) => [...new Set(array)];
+export const filename = (url) => basename(url.split("?")[0]);
