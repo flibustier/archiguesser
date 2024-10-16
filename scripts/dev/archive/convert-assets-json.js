@@ -1,11 +1,11 @@
-const { writeFileSync } = require("fs");
+import { writeFileSync } from "node:fs" with { type: "json" };
 
-const answers = require("../../src/assets/answers.json");
-const years = require("../../src/assets/years.json");
-const copyrights = require("../../src/assets/copyrights.json");
-const monuments = require("../../src/assets/monuments.json");
-const links = require("../../src/assets/links.json");
-const suggestions = require("../../src/assets/suggestions.json");
+import answers from "../../src/assets/answers.json" with { type: "json" };
+import years from "../../src/assets/years.json" with { type: "json" };
+import copyrights from "../../src/assets/copyrights.json" with { type: "json" };
+import monuments from "../../src/assets/monuments.json" with { type: "json" };
+import links from "../../src/assets/links.json" with { type: "json" };
+import suggestions from "../../../src/assets/suggestions.json" with { type: "json" };
 
 const OUTPUT_FILE = "src/assets/data.json";
 

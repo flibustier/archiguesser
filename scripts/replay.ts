@@ -1,4 +1,4 @@
-import data from "../../src/assets/data.json" with { type: "json" };
+import data from "../src/assets/data.json" with { type: "json" };
 
 import { format } from "prettier";
 const formatterConfig = {
