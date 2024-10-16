@@ -1,4 +1,4 @@
-import { getRealDayNumber } from "./date";
+import { getRealDayNumber } from "./date.ts";
 
 enum ObjectName {
   Challenges = "challenges",
@@ -10,7 +10,7 @@ enum ObjectName {
 
 const fetchObject = (name: ObjectName) =>
   JSON.parse(localStorage.getItem(name) || "{}");
-const fetchArray = (name: ObjectName) =>
+const fetchArray = (name: ObjectName): unknown[] =>
   JSON.parse(localStorage.getItem(name) || "[]");
 
 export const getStats = () => fetchObject(ObjectName.Stats);
@@ -91,7 +91,12 @@ export const getChallengesScore = () => {
 export const getScore = () =>
   getDailiesScore() + getChallengesScore() + (isLogged() ? 50 : 0);
 
-export const saveFeedback = (value: string = "skipped") => {
+interface Feedback {
+  day: number;
+  value: string;
+}
+
+export const saveFeedback = (value = "skipped") => {
   const feedback = fetchArray(ObjectName.Feedback);
   feedback.push({
     day: getRealDayNumber(),
@@ -102,7 +107,7 @@ export const saveFeedback = (value: string = "skipped") => {
 };
 
 export const getLastFeedback = () => {
-  return fetchArray(ObjectName.Feedback)
-    .sort((a: any, b: any) => a.day - b.day)
+  return (fetchArray(ObjectName.Feedback) as Feedback[])
+    .sort((a: Feedback, b: Feedback) => a.day - b.day)
     .pop();
 };

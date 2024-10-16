@@ -84,7 +84,7 @@ const copy = async () => {
   const copyText = shareMessage.value;
   try {
     await navigator.clipboard.writeText(copyText);
-  } catch (e) {
+  } catch {
     console.log("fallback copy");
     const textArea = document.createElement("textarea");
     textArea.textContent = copyText;

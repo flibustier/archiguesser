@@ -1,4 +1,4 @@
-const data = require("../../src/assets/data.json");
+import data from "../../src/assets/data.json" with { type: "json" };
 
 const stats = {};
 

@@ -1,4 +1,5 @@
-import { getCredentials } from "./store";
+import process from "node:process";
+import { getCredentials } from "./store.ts";
 
 export const sendEvent = (event: string) => {
   if (process.env.NODE_ENV === "production") {
@@ -61,7 +62,7 @@ export const sendResult = async (
     const successPercent = await response.json();
 
     return successPercent;
-  } catch (error) {
+  } catch {
     return undefined;
   }
 };

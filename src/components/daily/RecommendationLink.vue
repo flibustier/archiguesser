@@ -13,7 +13,7 @@ const props = defineProps({
 
 const recommendation = computed(() => {
   if (props.recommendation in recommendations) {
-    return (recommendations as any)[props.recommendation];
+    return recommendations[props.recommendation];
   }
   return null;
 });

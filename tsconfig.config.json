@@ -3,6 +3,6 @@
   "include": ["vite.config.mts"],
   "compilerOptions": {
     "composite": true,
-    "types": ["node"],
+    "types": ["node"]
   }
 }
