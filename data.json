@@ -5556,7 +5556,7 @@
   },
   {
     "answer": "Tokyo Metropolitan Government Building (東京都庁舎) / Kenzo Tange, Taisei Corporation / Shinjuku, Tokyo, Japan",
-    "days": [383],
+    "days": [383, 842],
     "copyrights": [
       {
         "1": "江戸村のとくぞう (wikimedia)",
@@ -9199,5 +9199,22 @@
       "https://www.hopkins.co.uk/projects/civic-and-culture/buhais-geology-park-interpretive-centre/"
     ],
     "categories": ["community", "exhibition"]
+  },
+  {
+    "answer": "Pruitt–Igoe (Wendell O. Pruitt Homes and William Igoe Apartments) / Minoru Yamasaki / St. Louis, Missouri, United States of America (USA)",
+    "days": [841],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Fondation",
+        "2": "Courtesy of the Architect",
+        "3": "Junkyardsparkle (wikimedia)",
+        "4": "Bettmann/Corbis",
+        "5": "Courtesy of the Fondation",
+        "6": "Cadastral (wikimedia)"
+      }
+    ],
+    "years": "1951–1955",
+    "links": ["https://en.wikipedia.org/wiki/Pruitt%E2%80%93Igoe"],
+    "categories": ["community", "international", "demolished", "AD Classics"]
   }
 ]
