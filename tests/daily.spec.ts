@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { json } from "./api.mock";
+import { json } from "./api.mock.ts";
 
 test.beforeEach(async ({ page }) => {
   await page.goto("/?day=0");
