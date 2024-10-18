@@ -1,7 +1,6 @@
 {
   "version": "4",
   "specifiers": {
-    "npm:@rushstack/eslint-patch@1.10.4": "1.10.4",
     "npm:@types/node@20.16.10": "20.16.10",
     "npm:@vue/tsconfig@0.5.1": "0.5.1",
     "npm:axios@1.7.7": "1.7.7",
@@ -127,9 +126,6 @@
     },
     "@rollup/rollup-win32-x64-msvc@4.24.0": {
       "integrity": "sha512-fbMkAF7fufku0N2dE5TBXcNlg0pt0cJue4xBRE2Qc5Vqikxr4VCgKj/ht6SMdFcOacVA9rqF70APJ8RN/4vMJw=="
-    },
-    "@rushstack/eslint-patch@1.10.4": {
-      "integrity": "sha512-WJgX9nzTqknM393q1QJDJmoW28kUfEnybeTfVNcNAPnIx210RXm2DiXiHzfNPJNIUUb1tJnz/l4QGtJ30PgWmA=="
     },
     "@types/estree@1.0.6": {
       "integrity": "sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw=="
@@ -445,10 +441,9 @@
       "dependencies": [
         "npm:@babel/types@7.25.8",
         "npm:@playwright/test@1.48.0",
-        "npm:@rushstack/eslint-patch@1.10.4",
         "npm:@types/node@20.16.11",
         "npm:@vitejs/plugin-vue@5.1.4",
-        "npm:@vue/eslint-config-prettier@9.0.0",
+        "npm:@vue/eslint-config-prettier@10.0.0",
         "npm:@vue/eslint-config-typescript@14.1.1",
         "npm:@vue/tsconfig@0.5.1",
         "npm:axios@1.7.7",
