@@ -1,4 +1,7 @@
-import { join } from "node:path";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
 import { test, expect } from "@playwright/test";
 
 test("play test challenge", async ({ page }) => {
