@@ -1,8 +1,9 @@
-import process from "node:process";
 import { getCredentials } from "./store.ts";
 
+const isProduction = import.meta.env.PROD;
+
 export const sendEvent = (event: string) => {
-  if (process.env.NODE_ENV === "production") {
+  if (isProduction) {
     try {
       cabin.event(event);
     } catch (e) {
@@ -13,10 +14,9 @@ export const sendEvent = (event: string) => {
   }
 };
 
-const endpoint =
-  process.env.NODE_ENV === "production"
-    ? "https://stats.archiguesser.com/"
-    : "http://localhost:8080/";
+const endpoint = isProduction
+  ? "https://stats.archiguesser.com/"
+  : "http://localhost:8080/";
 
 interface StatsObject {
   firstPlayed: number;
