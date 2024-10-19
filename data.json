@@ -5068,7 +5068,7 @@
   },
   {
     "answer": "Marina Bay Sands / Moshe Safdie / Singapore",
-    "days": [343],
+    "days": [343, 844],
     "copyrights": [
       {
         "1": "Cmglee (wikimedia)",
@@ -9216,5 +9216,18 @@
     "years": "1951–1955",
     "links": ["https://en.wikipedia.org/wiki/Pruitt%E2%80%93Igoe"],
     "categories": ["community", "international", "demolished", "AD Classics"]
+  },
+  {
+    "answer": "Valletta City Gate (Parliament House, Dar il-Parlament) / Renzo Piano Building Workshop / Valletta, Malta",
+    "days": [843],
+    "copyrights": [
+      {
+        "*": "Michel Denancé"
+      }
+    ],
+    "years": "2011-2015",
+    "links": ["https://en.wikipedia.org/wiki/Parliament_House_(Malta)"],
+    "categories": ["community", "institution", "refurbishment"],
+    "recommendation": "piano"
   }
 ]
