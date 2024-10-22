@@ -9234,5 +9234,18 @@
     "links": ["https://en.wikipedia.org/wiki/Parliament_House_(Malta)"],
     "categories": ["community", "institution", "refurbishment"],
     "recommendation": "piano"
+  },
+  {
+    "answer": "Bund Finance Centre / Foster + Partners, Heatherwick Studio / Shanghai, China",
+    "days": [846],
+    "copyrights": [
+      {
+        "*": "Laurian Ghinitoiu",
+        "1": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2017",
+    "links": ["https://en.wikipedia.org/wiki/The_Bund_Finance_Center"],
+    "categories": ["community"]
   }
 ]
