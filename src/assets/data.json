@@ -97,17 +97,22 @@
     "categories": ["museum"]
   },
   {
-    "answer": "Arch of Defense (Grande Arche) / Paul Andreu, Johan Otto Von Spreckelsen / Paris, France",
-    "days": [5, 309],
+    "answer": "La Grande Arche de la Défense (Arch of the Defense) / Johan Otto Von Spreckelsen, Erik Reitzel, Paul Andreu / Paris, France",
+    "days": [5, 309, 845],
     "copyrights": [
       {
         "*": "wikiarquitectura"
+      },
+      {
+        "*": "wikiarquitectura",
+        "4": "David Wintzer (wikimedia)",
+        "6": "Arthur Weidmann (wikimedia)"
       }
     ],
     "years": "1985-1989",
     "links": [
-      "https://en.wikiarquitectura.com/building/Arch-of-Defense/",
-      "https://en.wikipedia.org/wiki/Grande_Arche"
+      "https://en.wikipedia.org/wiki/Grande_Arche",
+      "https://en.wikiarquitectura.com/building/Arch-of-Defense/"
     ],
     "categories": []
   },
