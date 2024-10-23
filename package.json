@@ -24,7 +24,7 @@
     "@playwright/test": "1.48.1",
     "@types/node": "20.16.12",
     "@vitejs/plugin-vue": "5.1.4",
-    "@vue/eslint-config-prettier": "10.0.0",
+    "@vue/eslint-config-prettier": "10.1.0",
     "@vue/eslint-config-typescript": "14.1.2",
     "@vue/tsconfig": "0.5.1",
     "axios": "1.7.7",
