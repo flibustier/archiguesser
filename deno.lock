@@ -231,7 +231,7 @@
         "npm:@types/node@20.16.12",
         "npm:@vitejs/plugin-vue@5.1.4",
         "npm:@vue/eslint-config-prettier@10.0.0",
-        "npm:@vue/eslint-config-typescript@14.1.1",
+        "npm:@vue/eslint-config-typescript@14.1.2",
         "npm:@vue/tsconfig@0.5.1",
         "npm:axios@1.7.7",
         "npm:eslint-plugin-vue@9.29.0",
