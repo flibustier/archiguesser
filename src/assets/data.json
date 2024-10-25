@@ -9247,5 +9247,19 @@
     "years": "2017",
     "links": ["https://en.wikipedia.org/wiki/The_Bund_Finance_Center"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Ancienne Royale Belge / René Stapels, Pierre Dufau / Watermael-Boitsfort, Brussels, Belgium",
+    "days": [848],
+    "copyrights": [
+      {
+        "*": "Ma²",
+        "3": "Courtesy of the Architect",
+        "6": "Zinneke (wikimedia)"
+      }
+    ],
+    "years": "1967-1970",
+    "links": ["https://en.wikipedia.org/wiki/Royale_Belge"],
+    "categories": ["community", "functionalism"]
   }
 ]
