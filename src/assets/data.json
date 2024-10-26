@@ -9261,5 +9261,23 @@
     "years": "1967-1970",
     "links": ["https://en.wikipedia.org/wiki/Royale_Belge"],
     "categories": ["community", "functionalism"]
+  },
+  {
+    "answer": "Frederick C. Robie House / Frank Lloyd Wright / Chicago, Illinois, United States of America (USA)",
+    "days": [849],
+    "copyrights": [
+      {
+        "1": "Cervin Robinson (wikimedia)",
+        "2": "Ernst Wasmuth (wikimedia)",
+        "3": "Sailko (wikimedia)",
+        "4": "Payton Chung (wikimedia)",
+        "5": "Lykantrop (wikimedia)",
+        "6": "Teemu08 (wikimedia)"
+      }
+    ],
+    "years": "1909-1910",
+    "links": ["https://en.wikipedia.org/wiki/Robie_House"],
+    "categories": ["community"],
+    "recommendation": "wright"
   }
 ]
