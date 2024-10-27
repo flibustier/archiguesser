@@ -2519,7 +2519,7 @@
   },
   {
     "answer": "Saint Basil's Cathedral (Cathedral of Vasily the Blessed) / Postnik Yakovlev / Red Square, Moscow, Russia",
-    "days": [159],
+    "days": [159, 850],
     "copyrights": [
       {
         "1": "Alessio Damato (wikimedia)",
@@ -2530,6 +2530,7 @@
         "6": "Tsy1980 (wikimedia)"
       }
     ],
+    "years": "1555-1561",
     "links": ["https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral"],
     "categories": ["monument"]
   },
@@ -9253,9 +9254,9 @@
     "days": [848],
     "copyrights": [
       {
-        "*": "Ma²",
         "3": "Courtesy of the Architect",
-        "6": "Zinneke (wikimedia)"
+        "6": "Zinneke (wikimedia)",
+        "*": "Ma²"
       }
     ],
     "years": "1967-1970",
