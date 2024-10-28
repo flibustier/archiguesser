@@ -2518,7 +2518,7 @@
     "categories": ["military"]
   },
   {
-    "answer": "Saint Basil's Cathedral (Cathedral of Vasily the Blessed) / Postnik Yakovlev / Red Square, Moscow, Russia",
+    "answer": "Saint Basil's Cathedral (Cathedral of Vasily the Blessed) / Ivan Barma, Postnik Yakovlev / Red Square, Moscow, Russia",
     "days": [159, 850],
     "copyrights": [
       {
@@ -5036,7 +5036,7 @@
   },
   {
     "answer": "Cottbus Technical University Library – “IKMZ” / Christine Binswanger, Herzog & de Meuron, Jacques Herzog, Pierre De Meuron / Cottbus, Brandenburg, Germany",
-    "days": [341],
+    "days": [341, 851],
     "copyrights": [
       {
         "1": "Pierre De Meuron",
@@ -5048,6 +5048,7 @@
     ],
     "years": "2001-2004",
     "links": [
+      "https://de.wikipedia.org/wiki/Informations-,_Kommunikations-_und_Medienzentrum_Cottbus",
       "https://en.wikiarquitectura.com/building/cottbus-technical-university-library-ikmz/"
     ],
     "categories": ["library"]
