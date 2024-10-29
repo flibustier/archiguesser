@@ -2355,14 +2355,15 @@
     "categories": []
   },
   {
-    "answer": "Cité du Vin / XTU Agency, Anouk Legendre, Nicolas Desmazières / Bordeaux, France",
-    "days": [149],
+    "answer": "Cité du Vin (Wine Museum) / XTU Agency, Anouk Legendre, Nicolas Desmazières / Bordeaux, France",
+    "days": [149, 852],
     "copyrights": [
       {
         "1": "Valentin Gautier (wikimedia)",
         "*": "Anaka XTU"
       }
     ],
+    "years": "2013-2016",
     "links": ["https://en.wikipedia.org/wiki/Cité_du_Vin"],
     "categories": []
   },
