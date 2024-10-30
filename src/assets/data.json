@@ -1951,10 +1951,21 @@
   },
   {
     "answer": "Bran Castle (Dracula’s Castle) / Karel Zdeněk Líman / Bran, near Brașov, Transylvania, Romania",
-    "days": [122, 488],
+    "days": [122, 488, 853],
     "copyrights": [
       {
         "4": "Andreea Alexandru (Associated Press)",
+        "6": "Dobre Cezar (wikimedia)",
+        "*": ""
+      },
+      {
+        "4": "Andreea Alexandru (Associated Press)",
+        "6": "Dobre Cezar (wikimedia)",
+        "*": ""
+      },
+      {
+        "3": "Vislupus (wikimedia)",
+        "5": "Andreea Alexandru (Associated Press)",
         "6": "Dobre Cezar (wikimedia)",
         "*": ""
       }
