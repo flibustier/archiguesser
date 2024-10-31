@@ -9293,5 +9293,22 @@
     "links": ["https://en.wikipedia.org/wiki/Robie_House"],
     "categories": ["community"],
     "recommendation": "wright"
+  },
+  {
+    "answer": "Chernobyl & New Safe Confinement / Pripyat, Ukraine",
+    "days": [854],
+    "copyrights": [
+      {
+        "1": "oinkylicious (flickr)",
+        "2": "entoropi (flickr)",
+        "3": "Bert Kaufmann (flickr)",
+        "4": "paszczak000 (flickr)",
+        "5": "entoropi (flickr)",
+        "6": "Tim Porter (wikimedia)"
+      }
+    ],
+    "years": "1986-2016",
+    "links": ["https://en.wikipedia.org/wiki/Chernobyl_New_Safe_Confinement"],
+    "categories": ["community"]
   }
 ]
