@@ -9310,5 +9310,22 @@
     "years": "1986-2016",
     "links": ["https://en.wikipedia.org/wiki/Chernobyl_New_Safe_Confinement"],
     "categories": ["community"]
+  },
+  {
+    "answer": "The Witch House (Jonathan Corwin House) / Frank Chouteau Brown, Gordon Robb / Salem, Massachusetts, United States of America (USA)",
+    "days": [855],
+    "copyrights": [
+      {
+        "1": "Ira J. Patch (wikimedia)",
+        "2": "District Court of Massachusetts (wikimedia)",
+        "3": "Crisco 1492 (wikimedia)",
+        "4": "RoastedGarlic2018 (wikimedia)",
+        "5": "massmatt (wikimedia)",
+        "6": "chensiyuan (wikimedia)"
+      }
+    ],
+    "years": "1642, 1945",
+    "links": ["https://en.wikipedia.org/wiki/The_Witch_House"],
+    "categories": ["community"]
   }
 ]
