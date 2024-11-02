@@ -9327,5 +9327,21 @@
     "years": "1642, 1945",
     "links": ["https://en.wikipedia.org/wiki/The_Witch_House"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Sigmaringen Castle (Schloss Sigmaringen) / Emanuel von Seidl, Lambert / Sigmaringen, Baden-Württemberg, Germany",
+    "days": [856],
+    "copyrights": [
+      {
+        "1": "Tobyc75 (wikimedia)",
+        "2": "Zollernalb (wikimedia)",
+        "4": "Roland Nonnenmacher (wikimedia)",
+        "5": "Jörg Braukmann (wikimedia)",
+        "*": "Berthold Werner (wikimedia)"
+      }
+    ],
+    "years": "~11th century",
+    "links": ["https://en.wikipedia.org/wiki/Sigmaringen_Castle"],
+    "categories": ["community", "castle"]
   }
 ]
