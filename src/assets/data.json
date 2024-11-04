@@ -9343,5 +9343,19 @@
     "years": "~11th century",
     "links": ["https://en.wikipedia.org/wiki/Sigmaringen_Castle"],
     "categories": ["community", "castle"]
+  },
+  {
+    "answer": "Kiasma Museum of Contemporary Art (Nykytaiteen museo Kiasma) / Steven Holl Architects / Kluuvi, Helsinki, Finland",
+    "days": [858],
+    "copyrights": [
+      {
+        "4": "Petri Virtanen (wikimedia)",
+        "6": "Petri Virtanen (wikimedia)",
+        "*": "Pirje Mykkänen (wikimedia)"
+      }
+    ],
+    "years": "1998",
+    "links": ["https://en.wikipedia.org/wiki/Kiasma"],
+    "categories": ["community", "AD Classics", "museum"]
   }
 ]
