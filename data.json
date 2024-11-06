@@ -9357,5 +9357,22 @@
     "years": "1998",
     "links": ["https://en.wikipedia.org/wiki/Kiasma"],
     "categories": ["community", "classics", "museum"]
+  },
+  {
+    "answer": "Cardiff Castle (Castell Caerdydd) / William Burges / Cardiff, Wales, United Kingdom (UK)",
+    "days": [861],
+    "copyrights": [
+      {
+        "1": "IsaacIvanov (wikimedia)",
+        "2": "Wolfgang Sauber (wikimedia)",
+        "3": "Unknown (Detroit Publishing Co. Wikimedia)",
+        "4": "Amybobs (wikimedia)",
+        "5": "Colin Smith (wikimedia)",
+        "6": "Farwestern (wikimedia)"
+      }
+    ],
+    "years": "1091",
+    "links": ["https://en.wikipedia.org/wiki/Cardiff_Castle"],
+    "categories": ["community", "castle"]
   }
 ]
