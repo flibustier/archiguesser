@@ -9374,5 +9374,22 @@
     "years": "1091",
     "links": ["https://en.wikipedia.org/wiki/Cardiff_Castle"],
     "categories": ["community", "castle"]
+  },
+  {
+    "answer": "Queen Victoria Building / George McRae / Sydney, New South Wales, Australia",
+    "days": [862],
+    "copyrights": [
+      {
+        "1": "Hpeterswald (wikimedia)",
+        "2": "Kgbo (wikimedia)",
+        "3": "Bahnfrend (wikimedia)",
+        "4": "Maksym Kozlenko (wikimedia)",
+        "5": "Prue Vickery Photography (wikimedia)",
+        "6": "Dietmar Rabich (wikimedia)"
+      }
+    ],
+    "years": "1893-1898",
+    "links": ["https://en.wikipedia.org/wiki/Queen_Victoria_Building"],
+    "categories": ["community"]
   }
 ]
