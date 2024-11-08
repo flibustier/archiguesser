@@ -6725,7 +6725,7 @@
   },
   {
     "answer": "Fernsehturm Berlin (Television Tower) / Hermann Henselmann, Jörg Streitparth / Berlin, Germany",
-    "days": [530],
+    "days": [530, 863],
     "copyrights": [
       {
         "1": "Frank Eberlein (wikimedia)",
@@ -6738,7 +6738,7 @@
     ],
     "years": "1965-1969",
     "links": ["https://en.wikipedia.org/wiki/Fernsehturm_Berlin"],
-    "categories": ["tower"]
+    "categories": ["tower", "community"]
   },
   {
     "answer": "London 2012 Velodrome (Lee Valley VeloPark) / Hopkins Architects, Grant Associates / Queen Elizabeth Olympic Park, Stratford, London, United Kingdom (UK)",
@@ -9391,5 +9391,19 @@
     "years": "1893-1898",
     "links": ["https://en.wikipedia.org/wiki/Queen_Victoria_Building"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Gabriel García Márquez Library / SUMA Arquitectura / Barcelona, Spain",
+    "days": [864],
+    "copyrights": [
+      {
+        "*": "Jesús Granada"
+      }
+    ],
+    "years": "2022",
+    "links": [
+      "https://en.wikipedia.org/wiki/Biblioteca_Gabriel_Garc%C3%ADa_M%C3%A1rquez"
+    ],
+    "categories": ["library"]
   }
 ]

@@ -228,7 +228,7 @@
       "dependencies": [
         "npm:@babel/types@7.26.0",
         "npm:@playwright/test@1.48.2",
-        "npm:@types/node@20.17.5",
+        "npm:@types/node@22.9.0",
         "npm:@vitejs/plugin-vue@5.1.4",
         "npm:@vue/eslint-config-prettier@10.1.0",
         "npm:@vue/eslint-config-typescript@14.1.3",
