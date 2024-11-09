@@ -9405,5 +9405,20 @@
       "https://en.wikipedia.org/wiki/Biblioteca_Gabriel_Garc%C3%ADa_M%C3%A1rquez"
     ],
     "categories": ["library"]
+  },
+  {
+    "answer": "432 Park Avenue / Rafael Viñoly, SLCE Architects, LLP / Manhattan, New York City, United States of America (USA)",
+    "days": [865],
+    "copyrights": [
+      {
+        "*": "DBOX",
+        "3": "Dezeen",
+        "4": "Mike Peel (wikimedia)",
+        "5": "GrissJr (wikimedia)"
+      }
+    ],
+    "years": "2011-2015",
+    "links": ["https://en.wikipedia.org/wiki/432_Park_Avenue"],
+    "categories": ["community", "housing", "skyscraper"]
   }
 ]
