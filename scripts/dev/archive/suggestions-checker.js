@@ -1,7 +1,7 @@
 import process from "node:process";
 
-import data from "../../src/assets/data.json" with { type: "json" };
-import suggestions from "../../src/assets/suggestions.json" with { type: "json" };
+import data from "../../../src/assets/data.json" with { type: "json" };
+import suggestions from "../../../src/assets/suggestions.json" with { type: "json" };
 
 const suggestionTitles = suggestions.map((str) => ({
   original: str,
