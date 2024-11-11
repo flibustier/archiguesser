@@ -134,7 +134,7 @@
     ],
     "years": "1964",
     "links": ["https://en.wikipedia.org/wiki/St._Mary%27s_Cathedral,_Tokyo"],
-    "categories": ["religious"]
+    "categories": ["religious", "Architecture Classics"]
   },
   {
     "answer": "Louvre Museum (Musée du Louvre) / Pierre Lescot, Ieoh Ming Pei / Paris, France",
@@ -201,7 +201,7 @@
       "https://en.wikipedia.org/wiki/Chrysler_Building",
       "https://en.wikiarquitectura.com/building/Chrysler-Building/"
     ],
-    "categories": ["skyscraper"]
+    "categories": ["skyscraper", "Architecture Classics"]
   },
   {
     "answer": "100 11th Avenue Building / Jean Nouvel / Chelsea, New York, United States of America (USA)",
@@ -267,7 +267,7 @@
       "https://en.wikipedia.org/wiki/Flatiron_Building",
       "https://en.wikiarquitectura.com/building/Flatiron-Building/"
     ],
-    "categories": ["famous"]
+    "categories": ["famous", "Architecture Classics"]
   },
   {
     "answer": "Villa La Mediterranee / Boeri Studio / Marseille, France",
@@ -581,7 +581,7 @@
     ],
     "years": "1960-1963",
     "links": ["https://en.wikipedia.org/wiki/Berliner_Philharmonie"],
-    "categories": ["concert hall"]
+    "categories": ["concert hall", "Architecture Classics"]
   },
   {
     "answer": "Portuguese Pavilion Expo ’98 / Álvaro Siza Vieira / Lisboa, Portugal",
@@ -596,7 +596,7 @@
     ],
     "years": "1998",
     "links": [],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Phillips Exeter Academy Library / Louis I. Kahn / Exeter, New Hampshire, United States of America (USA)",
@@ -730,7 +730,7 @@
       "https://en.wikipedia.org/wiki/Brasilia_Cathedral",
       "https://en.wikiarquitectura.com/building/Brasilia-Cathedral/"
     ],
-    "categories": ["religious", "modernism"],
+    "categories": ["religious", "modernism", "Architecture Classics"],
     "recommendation": "niemeyer"
   },
   {
@@ -777,7 +777,7 @@
       "https://en.wikipedia.org/wiki/Parthenon",
       "https://en.wikiarquitectura.com/building/Parthenon/"
     ],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "Architecture Classics"]
   },
   {
     "answer": "Chandigarh / Le Corbusier / Punjab-Haryane, Chandigarh, India",
@@ -792,7 +792,7 @@
       "https://en.wikipedia.org/wiki/Chandigarh",
       "https://en.wikiarquitectura.com/building/Chandigarh/"
     ],
-    "categories": ["modernism", "brutalism"],
+    "categories": ["modernism", "brutalism", "Architecture Classics"],
     "recommendation": "corbusier"
   },
   {
@@ -833,7 +833,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/La_Muralla_Roja"],
-    "categories": ["housing", "community"]
+    "categories": ["housing", "community", "Architecture Classics"]
   },
   {
     "answer": "Art Museum of Sao Paulo / Lina Bo Bardi / Sao Paulo, Brazil",
@@ -850,7 +850,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/Art-Museum-of-Sao-Paulo/"
     ],
-    "categories": ["museum"]
+    "categories": ["museum", "Architecture Classics"]
   },
   {
     "answer": "Gando Primary School Extension / Kéré Architecture / Gando, Burkina Faso",
@@ -879,7 +879,7 @@
       "https://en.wikipedia.org/wiki/Geisel_Library",
       "https://en.wikiarquitectura.com/building/Geisel-Library/"
     ],
-    "categories": ["library", "brutalism"]
+    "categories": ["library", "brutalism", "Architecture Classics"]
   },
   {
     "answer": "(Great) Ziggurat of Ur / Tell el-Muqayyar, Dhi Qar Province, Iraq",
@@ -941,7 +941,7 @@
       "https://en.wikipedia.org/wiki/Kunsthaus_Bregenz",
       "https://en.wikiarquitectura.com/building/Kunsthaus-Bregenz/"
     ],
-    "categories": ["museum", "community"]
+    "categories": ["museum", "community", "Architecture Classics"]
   },
   {
     "answer": "Neuschwanstein Castle / Eduard Riedel / Hohenschwangau, Germany",
@@ -958,7 +958,7 @@
     ],
     "years": "1869-1886",
     "links": ["https://en.wikipedia.org/wiki/Neuschwanstein_Castle"],
-    "categories": ["monument", "castle"]
+    "categories": ["monument", "castle", "Architecture Classics"]
   },
   {
     "answer": "Villa Savoye / Le Corbusier / Poissy, Paris, France",
@@ -1142,7 +1142,7 @@
     "links": [
       "https://www.archdaily.com/544946/ad-classics-cenotaph-for-newton-etienne-louis-boullee"
     ],
-    "categories": ["paper"]
+    "categories": ["paper", "Architecture Classics"]
   },
   {
     "answer": "Mt. Fuji World Heritage Centre / Shigeru Ban / Fujinomiya, Shizuoka, Japan",
@@ -1175,7 +1175,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/France-National-Library/"
     ],
-    "categories": ["library"]
+    "categories": ["library", "Architecture Classics"]
   },
   {
     "answer": "Aatrial House / KWK PROMES, Robert Konieczny / Opole, Poland",
@@ -1365,7 +1365,7 @@
     ],
     "years": "1406–1420",
     "links": ["https://en.wikipedia.org/wiki/Forbidden_City"],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "Architecture Classics"]
   },
   {
     "answer": "Bauhaus building in Dessau / Walter Gropius / Dessau, Germany",
@@ -1384,7 +1384,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/Bauhaus-building-in-Dessau/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Couvent Sainte-Marie de La Tourette / Le Corbusier, Fernand Gardien / Éveux, France",
@@ -1427,7 +1427,7 @@
     ],
     "years": "1984",
     "links": ["https://en.wikipedia.org/wiki/Teatro_Oficina"],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Himeji Castle (Himeji-jo) / Ikeda Terumasa / Himeji, Hyogo Prefecture, Japan",
@@ -1444,7 +1444,7 @@
     ],
     "years": "1581-1618",
     "links": ["https://en.wikipedia.org/wiki/Himeji_Castle"],
-    "categories": ["monument", "castle"]
+    "categories": ["monument", "castle", "Architecture Classics"]
   },
   {
     "answer": "Xanadú / Ricardo Bofill / La Manzanera, Alicante, Spain",
@@ -1455,7 +1455,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "The Museum of Modern Art (MoMA) / Yoshio Taniguchi, Cesar Pelli and Associates, Philip Johnson, Philip Goodwin, Edward Durell Stone / Manhattan, New York, United States of America (USA)",
@@ -1530,7 +1530,7 @@
       "https://en.wikipedia.org/wiki/Maison_de_Verre",
       "https://en.wikiarquitectura.com/building/Maison-de-Verre/"
     ],
-    "categories": ["housing"]
+    "categories": ["housing", "Architecture Classics"]
   },
   {
     "answer": "Casa Batlló (Batllo House, Casa dels ossos, House of Bones) / Antoni Gaudí / Barcelona, Spain",
@@ -1629,7 +1629,7 @@
     ],
     "years": "1964-1966",
     "links": ["https://en.wikipedia.org/wiki/945_Madison_Avenue"],
-    "categories": ["museum", "brutalism", "modernism"]
+    "categories": ["museum", "brutalism", "modernism", "Architecture Classics"]
   },
   {
     "answer": "Maison à Bordeaux (House in Bordeaux) / Rem Koolhaas, OMA / Bordeaux, France",
@@ -1701,7 +1701,7 @@
       "https://en.wikipedia.org/wiki/Headquarters_of_the_French_Communist_Party",
       "https://en.wikiarquitectura.com/building/French-Communist-Party-Headquarters/"
     ],
-    "categories": ["modernism"],
+    "categories": ["modernism", "Architecture Classics"],
     "recommendation": "niemeyer"
   },
   {
@@ -1749,7 +1749,7 @@
       "https://en.wikipedia.org/wiki/Fisher_House",
       "https://en.wikiarquitectura.com/building/Fisher-House/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Port Authority Building (Havenhuis, Port House) / Zaha Hadid Architects / Antwerp, Belgium",
@@ -1798,7 +1798,7 @@
       "https://en.wikipedia.org/wiki/Ennis_House",
       "https://en.wikiarquitectura.com/building/Ennis-House/"
     ],
-    "categories": ["movie set"]
+    "categories": ["movie set", "Architecture Classics"]
   },
   {
     "answer": "Nakagin Capsule Tower / Kisho Kurokawa / Tokyo, Japan",
@@ -1917,7 +1917,7 @@
     ],
     "years": "1959-1963",
     "links": ["https://en.wikiarquitectura.com/building/Boa-Nova-Tea-House/"],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Trulli di Alberobello (Trullo house) / Alberobello, Bari, Apulia, Italy",
@@ -2042,7 +2042,7 @@
       "https://en.wikipedia.org/wiki/Kresge_Auditorium",
       "https://en.wikiarquitectura.com/building/Kresge-Auditorium/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Petra / Ma'an Governorate, Jordan",
@@ -2222,7 +2222,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/Wolfsburg-Cultural-Center/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Court of Justice of the European Union / Dominique Perrault / Kirchberg Plateau, Luxembourg",
@@ -2250,7 +2250,7 @@
     ],
     "years": "1859",
     "links": ["https://en.wikipedia.org/wiki/Red_House,_Bexleyheath"],
-    "categories": ["arts-and-crafts", "housing"]
+    "categories": ["arts-and-crafts", "housing", "Architecture Classics"]
   },
   {
     "answer": "Monteagudo Museum / Amann Canovas Maruri / Murcia, Spain",
@@ -2318,7 +2318,7 @@
       "https://en.wikipedia.org/wiki/Stockholm_Public_Library",
       "https://en.wikiarquitectura.com/building/Stockholm-Public-Library/"
     ],
-    "categories": ["library"]
+    "categories": ["library", "Architecture Classics"]
   },
   {
     "answer": "Aqua Tower / Studio Gang Firm, Jeanne Gang / Lakeshore East, Chicago, Illinois, United States of America (USA)",
@@ -2363,7 +2363,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Cité du Vin (Wine Museum) / XTU Agency, Anouk Legendre, Nicolas Desmazières / Bordeaux, France",
@@ -2513,7 +2513,7 @@
       "https://en.wikipedia.org/wiki/The_Crystal_Palace",
       "https://en.wikiarquitectura.com/building/Crystal-Palace/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Hangar One / Dr. Karl Arnstein, Wilbur Watson Associates Architects and Engineers / Moffett Field, Mountain View, California, United States of America (USA)",
@@ -2578,7 +2578,7 @@
     "links": [
       "https://en.wikiarquitectura.com/building/Los-Manantiales-Restaurant/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Thorncrown Chapel / E. Fay Jones / Eureka Springs, United States of America (USA)",
@@ -2593,7 +2593,7 @@
       "https://en.wikipedia.org/wiki/Thorncrown_Chapel",
       "https://en.wikiarquitectura.com/building/Thorncrown-Chapel/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "La Piscine – Museum of Art and Industry André Diligent / Albert Baert, Jean-Paul Philippon / Roubaix, Nord-Pas-de-Calais, France",
@@ -2629,7 +2629,7 @@
     ],
     "years": "1958-1962",
     "links": ["https://en.wikipedia.org/wiki/Nordic_pavilion"],
-    "categories": ["pavilion"]
+    "categories": ["pavilion", "Architecture Classics"]
   },
   {
     "answer": "Red Fort (Lal Qila) / Ustad Ahmad Lahori / Old Delhi, Delhi, India",
@@ -3005,7 +3005,7 @@
       "https://en.wikipedia.org/wiki/Scottish_Parliament_Building",
       "https://en.wikiarquitectura.com/building/Scottish-Parliament/"
     ],
-    "categories": ["postmodern", "favorites"]
+    "categories": ["postmodern", "favorites", "Architecture Classics"]
   },
   {
     "answer": "Viipuri Library / Alvar Aalto / City Park, Vyborg (Viipuri), Russia",
@@ -3024,7 +3024,7 @@
       "https://en.wikipedia.org/wiki/Viipuri_Library",
       "https://en.wikiarquitectura.com/building/Viipuri-Library/"
     ],
-    "categories": ["library"]
+    "categories": ["library", "Architecture Classics"]
   },
   {
     "answer": "The Barn / Antonin ZIEGLER architecte / Notre-Dame-de-Bliquetuit, France",
@@ -3238,7 +3238,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Limoges_Concert_Hall"],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Bodø Town Hall / Atelier Lorentzen Langkilde / Bodø, Norway",
@@ -3464,7 +3464,7 @@
     ],
     "years": "1974",
     "links": ["https://en.wikipedia.org/wiki/Kubuswoningen"],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "CCTV Headquarters / Rem Koolhaas, OMA, Ove Arup & Partners / Beijing, China",
@@ -3523,7 +3523,7 @@
       }
     ],
     "links": ["https://en.wikipedia.org/wiki/Palais_des_Papes"],
-    "categories": ["monument"]
+    "categories": ["monument", "Architecture Classics"]
   },
   {
     "answer": "Torres del Parque (Towers) / Rogelio Salmona / Bogotá, Colombia",
@@ -3556,7 +3556,7 @@
     ],
     "years": "1967",
     "links": ["https://en.wikipedia.org/wiki/Montreal_Biosphere"],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Temppeliaukio Kirkko (Church of the Rock) / Timo Suomalainen, Tuomo Suomalainen / Töölö, Helsinki, Finland",
@@ -3613,7 +3613,7 @@
       "https://en.wikipedia.org/wiki/Bonnefanten_Museum",
       "https://en.wikiarquitectura.com/building/Bonnefanten-Museum/"
     ],
-    "categories": ["museum"]
+    "categories": ["museum", "Architecture Classics"]
   },
   {
     "answer": "Smith House / Richard Meier / Darien, Connecticut, United States of America (USA)",
@@ -3629,7 +3629,7 @@
       "https://en.wikipedia.org/wiki/Smith_House",
       "https://en.wikiarquitectura.com/building/Smith-House/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Marina City / Bertrand Goldberg / Chicago, United States of America (USA)",
@@ -3646,7 +3646,7 @@
       "https://en.wikipedia.org/wiki/Marina_City",
       "https://en.wikiarquitectura.com/building/Marina-City/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Palais Bulles (Bubble Palace) / Antti Lovag / Théoule-sur-Mer, France",
@@ -3659,7 +3659,7 @@
     ],
     "years": "1975-1989",
     "links": ["https://en.wikipedia.org/wiki/Palais_Bulles"],
-    "categories": ["housing", "community"]
+    "categories": ["housing", "community", "Architecture Classics"]
   },
   {
     "answer": "Castle of the Teutonic Order in Malbork / Siegfried von Feuchtwangen / Malbork, Poland",
@@ -3761,7 +3761,7 @@
       "https://en.wikipedia.org/wiki/Space_Needle",
       "https://en.wikiarquitectura.com/building/Space-Needle/"
     ],
-    "categories": ["tower"]
+    "categories": ["tower", "Architecture Classics"]
   },
   {
     "answer": "Wohnhaus Schlesisches Tor (Bonjour Tristesse) / Álvaro Siza Vieira, Peter Brinkert / Kreuzberg, Berlin, Germany",
@@ -3777,7 +3777,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Duomo di Milano (Metropolitan Cathedral-Basilica of the Nativity of Saint Mary) / Simone da Orsenigo / Milan, Italy",
@@ -3811,7 +3811,7 @@
     ],
     "years": "1941",
     "links": ["https://en.wikipedia.org/wiki/Aarhus_City_Hall"],
-    "categories": ["city hall", "scandinavian"]
+    "categories": ["city hall", "scandinavian", "Architecture Classics"]
   },
   {
     "answer": "Piscine Tournesol (Sunflower Pool) / Bernard Schoeller, Thémis Constantinidis / France",
@@ -3852,7 +3852,7 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Prieto López House (Casa Pedregal) / Luis Barragán / Jardines del Pedregal, Mexico City, Mexico",
@@ -4033,7 +4033,7 @@
     ],
     "years": "1963-1967",
     "links": [],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Bastille (Saint-Antoine) / Hugues Aubriot / Paris, France",
@@ -4063,7 +4063,7 @@
     ],
     "years": "1949-1956",
     "links": ["https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial_Museum"],
-    "categories": ["museum"]
+    "categories": ["museum", "Architecture Classics"]
   },
   {
     "answer": "St. Ignatius Chapel / Steven Holl / Seattle University, Seattle, Washington, United States of America (USA)",
@@ -4077,7 +4077,7 @@
     ],
     "years": "1994-1997",
     "links": ["https://en.wikiarquitectura.com/building/St.-Ignatius-Chapel/"],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "The Hive (NTU Learning Hub South) / Heatherwick Studio, Thomas Heatherwick / Nanyang Technological University, Singapore",
@@ -4127,7 +4127,7 @@
       "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
       "https://en.wikiarquitectura.com/building/Brooklyn-Bridge/"
     ],
-    "categories": ["monument", "bridge", "famous"]
+    "categories": ["monument", "bridge", "famous", "Architecture Classics"]
   },
   {
     "answer": "Quai Branly Museum - Jacques Chirac / Jean Nouvel / Paris, France",
@@ -4262,7 +4262,7 @@
       "https://en.wikipedia.org/wiki/Torres_de_Sat%C3%A9lite",
       "https://en.wikiarquitectura.com/building/Satellite-Towers/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Mosque of Cordoba / Hernán Ruiz, Juan De Ochoa / Cordoba, Spain",
@@ -4338,7 +4338,7 @@
       "https://en.wikipedia.org/wiki/Millennium_Dome",
       "https://en.wikiarquitectura.com/building/Millennium-Dome/"
     ],
-    "categories": ["stadium"]
+    "categories": ["stadium", "Architecture Classics"]
   },
   {
     "answer": "Valley Towers / MVRDV / Amsterdam, Netherlands",
@@ -4536,7 +4536,7 @@
       "https://en.wikipedia.org/wiki/National_Assembly_of_Bangladesh",
       "https://en.wikiarquitectura.com/building/National-Assembly-of-Bangladesh/"
     ],
-    "categories": ["institution", "kahn"]
+    "categories": ["institution", "kahn", "Architecture Classics"]
   },
   {
     "answer": "Kaufmann House / Richard Neutra / 470 West Vista de Chino, Palm Springs, California, United States of America (USA)",
@@ -4552,7 +4552,7 @@
       "https://en.wikipedia.org/wiki/Kaufmann_House",
       "https://en.wikiarquitectura.com/building/Kaufmann-House/"
     ],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Villa Aalto (Aalto House) / Alvar Aalto, Aino Aalto / Helsinki, Finland",
@@ -4726,7 +4726,7 @@
       "https://en.wikipedia.org/wiki/Vitra_Fire_Station",
       "https://www.zaha-hadid.com/architecture/vitra-fire-station-2/"
     ],
-    "categories": ["hadid"]
+    "categories": ["hadid", "Architecture Classics"]
   },
   {
     "answer": "Karnak Temple Complex / El-Karnak, Luxor, Egypt",
@@ -4775,7 +4775,7 @@
     ],
     "years": "1985-1997",
     "links": ["https://en.wikipedia.org/wiki/Getty_Center"],
-    "categories": []
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Olympiastadion (Munich Olympic Stadium) / Günther Behnisch, Frei Otto / Munich, Germany",
@@ -4790,7 +4790,7 @@
       "https://en.wikipedia.org/wiki/Olympiastadion_(Munich)",
       "https://en.wikiarquitectura.com/building/munich-olympic-stadium/"
     ],
-    "categories": ["stadium"]
+    "categories": ["stadium", "Architecture Classics"]
   },
   {
     "answer": "Schwerin Castle (Schwerin Palace) / Georg Adolf Demmler / Schwerin, Mecklenburg-Vorpommern, Germany",
@@ -5000,7 +5000,7 @@
       "https://en.wikipedia.org/wiki/Lovell_Health_House",
       "https://en.wikiarquitectura.com/building/Lovell-Health-House/"
     ],
-    "categories": ["house"]
+    "categories": ["house", "Architecture Classics"]
   },
   {
     "answer": "Hopkins House / Michael Hopkins, Patty Hopkins / 49a Downshire Hill, Hampstead, London, United Kingdom (UK)",
@@ -5027,7 +5027,7 @@
     ],
     "years": "1908",
     "links": ["https://en.wikipedia.org/wiki/Unity_Temple"],
-    "categories": ["religious"]
+    "categories": ["religious", "Architecture Classics"]
   },
   {
     "answer": "Summer Palace (颐和园) / Haidian District, Beijing, China",
@@ -5083,7 +5083,7 @@
       "https://en.wikipedia.org/wiki/Crystal_Cathedral",
       "https://en.wikiarquitectura.com/building/Crystal-Cathedral/"
     ],
-    "categories": ["religious"]
+    "categories": ["religious", "Architecture Classics"]
   },
   {
     "answer": "Marina Bay Sands / Moshe Safdie / Singapore",
@@ -5234,7 +5234,7 @@
     "links": [
       "https://en.wikipedia.org/wiki/Oscar_Niemeyer_International_Cultural_Centre"
     ],
-    "categories": ["museum"],
+    "categories": ["museum", "Architecture Classics"],
     "recommendation": "niemeyer"
   },
   {
@@ -5456,7 +5456,7 @@
     ],
     "years": "1934-1941",
     "links": ["https://en.wikiarquitectura.com/building/zarzuelas-hippodrome/"],
-    "categories": ["modernism"]
+    "categories": ["modernism", "Architecture Classics"]
   },
   {
     "answer": "New York Times Building / Renzo Piano / New York, United States of America (USA)",
@@ -5607,7 +5607,7 @@
     ],
     "years": "1016,1840–1876",
     "links": ["https://en.wikipedia.org/wiki/Palace_of_Westminster"],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "Architecture Classics"]
   },
   {
     "answer": "Abbey Church of Sainte-Foy (Abbatiale Sainte-Foy de Conques) / Conques, France",
@@ -5732,7 +5732,7 @@
     ],
     "years": "1961-1964",
     "links": ["https://en.wikipedia.org/wiki/Yoyogi_National_Gymnasium"],
-    "categories": ["stadium"]
+    "categories": ["stadium", "Architecture Classics"]
   },
   {
     "answer": "Great Wall of China (长城) / China",
@@ -5762,7 +5762,7 @@
     ],
     "years": "1988",
     "links": ["https://en.wikipedia.org/wiki/Kreuzberg_Tower_and_Wings"],
-    "categories": ["housing"]
+    "categories": ["housing", "Architecture Classics"]
   },
   {
     "answer": "Helsinki Central Library Oodi / ALA Architects / Helsinki, Finland",
@@ -5848,7 +5848,7 @@
     ],
     "years": "1960",
     "links": ["https://en.wikipedia.org/wiki/Chemosphere"],
-    "categories": ["modernism"]
+    "categories": ["modernism", "Architecture Classics"]
   },
   {
     "answer": "Tower of London (Royal Palace and Fortress) / London, United Kingdom (UK)",
@@ -6271,7 +6271,7 @@
     ],
     "years": "1963-1965",
     "links": ["https://en.wikipedia.org/wiki/Gateway_Arch"],
-    "categories": ["expressionism"]
+    "categories": ["expressionism", "Architecture Classics"]
   },
   {
     "answer": "Bergisel Ski Jump / Zaha Hadid / Bersigel, Innsbruck, Austria",
@@ -6286,7 +6286,7 @@
     ],
     "years": "2003",
     "links": ["https://www.zaha-hadid.com/architecture/bergisel-ski-jump/"],
-    "categories": ["contemporary"]
+    "categories": ["contemporary", "Architecture Classics"]
   },
   {
     "answer": "Isbjerget (The Iceberg Building) / JDS Architects, CEBRA, SeArch, Louis Paillard / Aarhus, Denmark",
@@ -6380,7 +6380,7 @@
     ],
     "years": "1965-1976",
     "links": ["https://en.wikipedia.org/wiki/Barbican_Estate"],
-    "categories": ["brutalism"]
+    "categories": ["brutalism", "Architecture Classics"]
   },
   {
     "answer": "Metropol Parasol (Las Setas) / Jürgen Hermann Mayer, Arup / Sevilla, Spain",
@@ -6597,7 +6597,7 @@
     ],
     "years": "2002",
     "links": ["https://en.wikipedia.org/wiki/%C5%8Csanbashi_Pier"],
-    "categories": ["infrastructure"]
+    "categories": ["infrastructure", "Architecture Classics"]
   },
   {
     "answer": "Bahrain World Trade Center (BWTC) / W. S. Atkins & Partners / Manama, Bahrain",
@@ -6871,7 +6871,7 @@
     ],
     "years": "1919-1921",
     "links": ["https://en.wikipedia.org/wiki/Einstein_Tower"],
-    "categories": ["modernism"]
+    "categories": ["modernism", "Architecture Classics"]
   },
   {
     "answer": "White House / James Hoban / 1600 Pennsylvania Ave NW, Washington, D.C., United States of America (USA)",
@@ -7849,7 +7849,7 @@
     ],
     "years": "1928-1930",
     "links": ["https://en.wikipedia.org/wiki/Villa_Tugendhat"],
-    "categories": ["community", "housing", "modernism"]
+    "categories": ["community", "housing", "modernism", "Architecture Classics"]
   },
   {
     "answer": "Cycling through water (Fietsen door het water) / Lens°Ass Architecten / Bokrijk (Genk), Limburg, Belgium",
@@ -9234,7 +9234,12 @@
     ],
     "years": "1951–1955",
     "links": ["https://en.wikipedia.org/wiki/Pruitt%E2%80%93Igoe"],
-    "categories": ["community", "international", "demolished", "Architecture Classics"]
+    "categories": [
+      "community",
+      "international",
+      "demolished",
+      "Architecture Classics"
+    ]
   },
   {
     "answer": "Valletta City Gate (Parliament House, Dar il-Parlament) / Renzo Piano Building Workshop / Valletta, Malta",
@@ -9291,7 +9296,7 @@
     ],
     "years": "1909-1910",
     "links": ["https://en.wikipedia.org/wiki/Robie_House"],
-    "categories": ["community"],
+    "categories": ["community", "Architecture Classics"],
     "recommendation": "wright"
   },
   {
