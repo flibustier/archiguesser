@@ -173,6 +173,12 @@
       ]
     }
   },
+  "redirects": {
+    "https://deno.land/x/string_similarity/mod.ts": "https://deno.land/x/string_similarity@v1.0.1/mod.ts"
+  },
+  "remote": {
+    "https://deno.land/x/string_similarity@v1.0.1/mod.ts": "a3e2d24237cd0076198339a8c2976d8da9529c7a1e78d15fb1827e7527fe1bc1"
+  },
   "workspace": {
     "packageJson": {
       "dependencies": [
