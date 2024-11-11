@@ -5271,7 +5271,7 @@
   },
   {
     "answer": "Galeries Lafayette Haussmann / Georges Chedanne, Louis Majorelle, Pierre Patout, Ferdinand Chanut / Paris, France",
-    "days": [357],
+    "days": [357, 866],
     "copyrights": [
       {
         "3": "Myr Muratet",
@@ -9404,17 +9404,17 @@
     "links": [
       "https://en.wikipedia.org/wiki/Biblioteca_Gabriel_Garc%C3%ADa_M%C3%A1rquez"
     ],
-    "categories": ["library"]
+    "categories": ["community", "library"]
   },
   {
     "answer": "432 Park Avenue / Rafael Viñoly, SLCE Architects, LLP / Manhattan, New York City, United States of America (USA)",
     "days": [865],
     "copyrights": [
       {
-        "*": "DBOX",
         "3": "Dezeen",
         "4": "Mike Peel (wikimedia)",
-        "5": "GrissJr (wikimedia)"
+        "5": "GrissJr (wikimedia)",
+        "*": "DBOX"
       }
     ],
     "years": "2011-2015",
