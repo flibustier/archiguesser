@@ -17,7 +17,7 @@ const answers = data.map(({ days, answer }) => {
 });
 
 const adclassics = ADClassics.map((answer) => answer.split("/")).filter(
-  (x) => x.length > 1
+  (x) => x.length > 1,
 );
 
 function normalizeString(str: string): string {
@@ -41,11 +41,11 @@ for (const adProject of adclassics) {
   for (const ansProject of answers) {
     const nameSimilarity = compareTwoStrings(
       normalizeString(adProject[0]),
-      normalizeString(ansProject.name)
+      normalizeString(ansProject.name),
     );
     const architectsSimilarity = compareTwoStrings(
       normalizeString(adProject[1]),
-      normalizeString(ansProject.architects)
+      normalizeString(ansProject.architects),
     );
 
     if (nameSimilarity > THRESHOLD && architectsSimilarity > THRESHOLD) {
