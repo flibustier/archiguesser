@@ -5602,7 +5602,7 @@
   },
   {
     "answer": "Tokyo Skytree (東京スカイツリー) / Nikken Sekkei, Tadao Kamei, Shigeru Yoshino, Tetsuo Tsuchiya / Sumida, Tokyo, Japan",
-    "days": [377],
+    "days": [377, 867],
     "copyrights": [
       {
         "2": "Namazu-tron (wikimedia)",
@@ -5613,7 +5613,8 @@
     ],
     "years": "2008-2012",
     "links": ["https://en.wikipedia.org/wiki/Tokyo_Skytree"],
-    "categories": ["skyscraper", "neo-futurism"]
+    "categories": ["skyscraper", "neo-futurism"],
+    "recommendation": "japanese"
   },
   {
     "answer": "Kiyomizu-dera (清水寺) / Kyoto, Japan",
@@ -5748,7 +5749,7 @@
   },
   {
     "answer": "Oslo Public Library (Deichman Library) / Atelier Oslo, Lundhagem Arkitekter / Oslo, Norway",
-    "days": [392],
+    "days": [392, 868],
     "copyrights": [
       {
         "*": "Einar Aslaksen"
@@ -5756,7 +5757,8 @@
     ],
     "years": "2019",
     "links": ["https://en.wikipedia.org/wiki/Oslo_Public_Library"],
-    "categories": ["library"]
+    "categories": ["library"],
+    "recommendation": "scandinavian"
   },
   {
     "answer": "Prudential (Garanty) Building / Louis Sullivan, Dankmar Adler / Buffalo, New York, United States of America (USA)",

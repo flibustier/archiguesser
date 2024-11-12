@@ -37,7 +37,7 @@ const recommendation = computed(() => {
     @click="sendEvent('Recommendation: ' + recommendation.name)"
   >
     <p style="text-align: center">Today’s reading</p>
-    <img :src="'recommendations/' + recommendation.picture" height="180px" />
+    <img :src="'recommendations/' + recommendation.picture" height="200px" />
     <img
       v-if="recommendation.bids"
       border="0"
