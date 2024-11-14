@@ -74,7 +74,7 @@ const onSubmittedGuess = async (guess: string) => {
     updateStats(score);
     percent.value = await sendResult(dayNumber, score, guesses, stats);
     syncUser();
-    if (hasWon.value && dayNumber === getRealDayNumber() && getScore() > 60) {
+    if (hasWon.value && dayNumber === getRealDayNumber() && getScore() > 100) {
       const lastFeedback = getLastFeedback();
       if (
         !lastFeedback ||
