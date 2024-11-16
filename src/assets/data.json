@@ -9587,5 +9587,19 @@
     "years": "1874",
     "links": ["https://en.wikipedia.org/wiki/Royal_Greenhouses_of_Laeken"],
     "categories": ["community", "garden", "art-nouveau"]
+  },
+  {
+    "answer": "Kaiser Wilhelm Memorial Church / Franz Schwechten, Egon Heinemann / Breitscheidplatz, Berlin, Germany",
+    "days": [871],
+    "copyrights": [
+      {
+        "4": "Unknown author (Library of Congress, wikimedia)",
+        "5": "GerardM (wikimedia)",
+        "*": "Jonathan Platteau (wikimedia)"
+      }
+    ],
+    "years": "1891–1906, 1959–1963",
+    "links": ["https://en.wikipedia.org/wiki/Kaiser_Wilhelm_Memorial_Church"],
+    "categories": ["community", "religious", "modernism", "favorites"]
   }
 ]
