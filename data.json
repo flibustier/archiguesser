@@ -9554,5 +9554,52 @@
     "years": "2011-2015",
     "links": ["https://en.wikipedia.org/wiki/432_Park_Avenue"],
     "categories": ["community", "housing", "skyscraper"]
+  },
+  {
+    "answer": "Christ Church Cathedral (The Cathedral of the Holy Trinity) / George Street, Matthew Price / Dublin, Ireland",
+    "days": [869],
+    "copyrights": [
+      {
+        "1": "Blackfish (wikimedia)",
+        "2": "Diliff (wikimedia)",
+        "3": "Mike Peel (wikimedia)",
+        "4": "John W. Cross (wikimedia)",
+        "5": "DXR (wikimedia)",
+        "6": "Donaldytong (wikimedia)"
+      }
+    ],
+    "years": "~1030, 1871-1878",
+    "links": ["https://en.wikipedia.org/wiki/Christ_Church_Cathedral,_Dublin"],
+    "categories": ["community", "religious", "monument", "gothic"]
+  },
+  {
+    "answer": "Royal Greenhouses of Laeken (Serres Royales de Laeken) / Alphonse Balat / Laeken, Brussels, Belgium",
+    "days": [870],
+    "copyrights": [
+      {
+        "2": "Daderot (wikimedia)",
+        "3": "Daderot (wikimedia)",
+        "4": "Joseph Smeeton, Auguste Tilly (wikimedia)",
+        "5": "Ad Meskens (wikimedia)",
+        "*": "Jean-Pol GRANDMONT (wikimedia)"
+      }
+    ],
+    "years": "1874",
+    "links": ["https://en.wikipedia.org/wiki/Royal_Greenhouses_of_Laeken"],
+    "categories": ["community", "garden", "art-nouveau"]
+  },
+  {
+    "answer": "Kaiser Wilhelm Memorial Church / Franz Schwechten, Egon Heinemann / Breitscheidplatz, Berlin, Germany",
+    "days": [871],
+    "copyrights": [
+      {
+        "4": "Unknown author (Library of Congress, wikimedia)",
+        "5": "GerardM (wikimedia)",
+        "*": "Jonathan Platteau (wikimedia)"
+      }
+    ],
+    "years": "1891–1906, 1959–1963",
+    "links": ["https://en.wikipedia.org/wiki/Kaiser_Wilhelm_Memorial_Church"],
+    "categories": ["community", "religious", "modernism", "favorites"]
   }
 ]
