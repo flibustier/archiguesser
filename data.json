@@ -9601,5 +9601,21 @@
     "years": "1891–1906, 1959–1963",
     "links": ["https://en.wikipedia.org/wiki/Kaiser_Wilhelm_Memorial_Church"],
     "categories": ["community", "religious", "modernism", "favorites"]
+  },
+  {
+    "answer": "20 Fenchurch Street (The Walkie-Talkie) / Rafael Viñoly Architects / London, United Kingdom (UK)",
+    "days": [873],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Architect",
+        "2": "Fred Romero (wikimedia)",
+        "4": "tictac (wikimedia)",
+        "5": "sebastiandoe5 (wikimedia)",
+        "*": "Colin (wikimedia)"
+      }
+    ],
+    "years": "2009-2014",
+    "links": ["https://en.wikipedia.org/wiki/20_Fenchurch_Street"],
+    "categories": ["community", "neo-futurism"]
   }
 ]
