@@ -16,5 +16,25 @@
     "years": "1969-1981",
     "links": ["https://en.wikipedia.org/wiki/Beehive_(New_Zealand)"],
     "categories": ["community", "brutalism"]
+  },
+  {
+    "answer": "Thames Lido / Marshall and Kendon Architects / Reading, United Kingdom (UK)",
+    "days": ["lido"],
+    "copyrights": [
+      {
+        "*": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": ""
+      }
+    ],
+    "years": "2017",
+    "links": [
+      "https://www.archdaily.com/904201/thames-lido-marshall-and-kendon-architects"
+    ],
+    "categories": ["community", "refurbishment", "aquatic"]
   }
 ]
