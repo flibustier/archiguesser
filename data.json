@@ -2872,7 +2872,7 @@
   },
   {
     "answer": "Unite d’habitation of Marseille (Cité radieuse, fada house) / Le Corbusier / Marseille, France",
-    "days": [177],
+    "days": [177, 874],
     "copyrights": [
       {
         "1": "Steve de Vriendt",
@@ -2884,7 +2884,7 @@
       }
     ],
     "years": "1947-1952",
-    "links": ["https://fr.wikipedia.org/wiki/Cit%C3%A9_radieuse_de_Marseille"],
+    "links": ["https://en.wikipedia.org/wiki/Unit%C3%A9_d%27habitation"],
     "categories": ["modernism", "brutalism", "Architecture Classics"],
     "recommendation": "corbusier"
   },
