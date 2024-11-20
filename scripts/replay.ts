@@ -44,16 +44,29 @@ try {
   const convertCommand = new Deno.Command("scripts/convert.sh", {
     args: [day.toString()],
   });
-  let { success, stdout } = await convertCommand.output();
+  let { success } = await convertCommand.output();
 
-  console.log({ success, stdout });
+  if (success) {
+    console.log(`%cConverted ${day}`, "color: PowderBlue");
+  }
+
+  const addCommand = new Deno.Command("git", {
+    args: ["add", "public"],
+  });
+  ({ success } = await addCommand.output());
+
+  if (success) {
+    console.log(`%cGit files added`, "color: PowderBlue");
+  }
 
   const commitCommand = new Deno.Command("git", {
-    args: ["c", `"feat(data): add day ${nextDay} (${day})"`],
+    args: ["c", `feat(data): add day ${nextDay} (${day})`],
   });
-  ({ success, stdout } = await commitCommand.output());
+  ({ success } = await commitCommand.output());
 
-  console.log({ success, stdout });
+  if (success) {
+    console.log(`%cGit committed`, "color: PowderBlue");
+  }
 } catch (error) {
   console.warn(error);
 }
