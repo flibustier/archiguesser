@@ -12,7 +12,7 @@ const formatterConfig = {
 if (Deno.args.length < 1) {
   console.log(
     "%cUsage: replay [PREVIOUS DAY NUMBER] ([NEXT DAY NUMBER])",
-    "color: red",
+    "color: red"
   );
 }
 
@@ -33,9 +33,29 @@ dayData.days.push(nextDay);
 
 await Deno.writeTextFile(
   "src/assets/data.json",
-  await format(JSON.stringify(data, null, 2), formatterConfig),
+  await format(JSON.stringify(data, null, 2), formatterConfig)
 );
 
 await Deno.symlink(`${day}`, `public/${nextDay}`);
+
+try {
+  await Deno.stat(`sources/${day}`);
+
+  const convertCommand = new Deno.Command("scripts/convert.sh", {
+    args: [day.toString()],
+  });
+  let { success, stdout } = await convertCommand.output();
+
+  console.log({ success, stdout });
+
+  const commitCommand = new Deno.Command("git", {
+    args: ["c", `"feat(data): add day ${nextDay} (${day})"`],
+  });
+  ({ success, stdout } = await commitCommand.output());
+
+  console.log({ success, stdout });
+} catch (error) {
+  console.warn(error);
+}
 
 console.log("%cUpdated :\n" + JSON.stringify(dayData, null, 2), "color: green");
