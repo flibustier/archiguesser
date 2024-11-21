@@ -9617,5 +9617,17 @@
     "years": "2009-2014",
     "links": ["https://en.wikipedia.org/wiki/20_Fenchurch_Street"],
     "categories": ["community", "neo-futurism"]
+  },
+  {
+    "answer": "Bishop Edward King Chapel / Niall McLaughlin Architects / Oxfordshire, United Kingdom (UK)",
+    "days": [876],
+    "copyrights": [
+      {
+        "*": "NAARO"
+      }
+    ],
+    "years": "2013",
+    "links": ["https://en.wikipedia.org/wiki/Bishop_Edward_King_Chapel"],
+    "categories": ["community", "religious"]
   }
 ]
