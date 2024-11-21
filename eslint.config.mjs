@@ -10,7 +10,7 @@ export default [
     extends: ["recommended", "stylistic"],
   }),
   {
-    ignores: ["dist"],
+    ignores: ["dist", "scripts/*.ts"],
   },
   {
     rules: {
