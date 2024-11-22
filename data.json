@@ -9629,5 +9629,22 @@
     "years": "2013",
     "links": ["https://en.wikipedia.org/wiki/Bishop_Edward_King_Chapel"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Royal Palace of Brussels (Palais royal de Bruxelles) / Ghislain-Joseph Henry, Charles Vander Straeten, Tilman-François Suys, Alphonse Balat, Henri Maquet, Octave Flanneau / Brussels, Belgium",
+    "days": [877],
+    "copyrights": [
+      {
+        "1": "Marc Ryckaert (wikimedia)",
+        "2": "Lahmenfurst (wikimedia)",
+        "3": "Government of Thailand (wikimedia)",
+        "4": "William Wyld (1843)",
+        "5": "Velvet (wikimedia)",
+        "6": "Diego Delso (wikimedia)"
+      }
+    ],
+    "years": "1783-1934",
+    "links": ["https://en.wikipedia.org/wiki/Royal_Palace_of_Brussels"],
+    "categories": ["community", "neoclassical"]
   }
 ]
