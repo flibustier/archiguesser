@@ -4357,13 +4357,21 @@
   },
   {
     "answer": "Empire State Building / William Lamb / New York, United States of America (USA)",
-    "days": [279],
+    "days": [279, 878],
     "copyrights": [
       {
         "1": "BigMac (wikimedia)",
         "2": "Lewis Hine (wikimedia)",
         "3": "wikiarquitectura",
         "4": "James Petts (wikimedia)",
+        "5": "DanielPenfield (wikimedia)",
+        "6": "Sam Valadi (wikimedia)"
+      },
+      {
+        "1": "James Petts (wikimedia)",
+        "2": "Lewis Hine (wikimedia)",
+        "3": "wikiarquitectura",
+        "4": "BigMac (wikimedia)",
         "5": "DanielPenfield (wikimedia)",
         "6": "Sam Valadi (wikimedia)"
       }
