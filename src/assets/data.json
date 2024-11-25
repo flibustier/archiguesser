@@ -9671,5 +9671,21 @@
     "years": "1569-1571",
     "links": ["https://en.wikipedia.org/wiki/Humayun%27s_Tomb"],
     "categories": ["community", "Mughal"]
+  },
+  {
+    "answer": "BMW Headquarters (BMW Tower, BMW-Vierzylinder, BMW-Turm) / Karl Schwanzer / Munich, Germany",
+    "days": [880],
+    "copyrights": [
+      {
+        "1": "Myrzik and Jarisch",
+        "2": "Attenberger, Karl",
+        "3": "Neubert Sigrid",
+        "5": "Paul Bergmeir paulbrgmr (unsplash)",
+        "*": "Diego Delso (wikimedia)"
+      }
+    ],
+    "years": "1968-1973",
+    "links": ["https://en.wikipedia.org/wiki/BMW_Headquarters"],
+    "categories": ["community", "modernism", "office"]
   }
 ]
