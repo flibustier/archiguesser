@@ -297,7 +297,7 @@
       "https://en.wikipedia.org/wiki/Taj_Mahal",
       "https://en.wikiarquitectura.com/building/Taj-Mahal/"
     ],
-    "categories": ["monument", "famous"]
+    "categories": ["monument", "famous", "Mughal"]
   },
   {
     "answer": "Musical Instrument Museum MIM (Old England) / Barnabé Guimard, Paul Saintenoy / Brussels, Belgium",
@@ -9654,5 +9654,38 @@
     "years": "1783-1934",
     "links": ["https://en.wikipedia.org/wiki/Royal_Palace_of_Brussels"],
     "categories": ["community", "neoclassical"]
+  },
+  {
+    "answer": "Humâyûn's tomb (Maqbara-i Humayun) / Mirak Mirza Ghiyath, Sayyid Muhammad / Delhi, India",
+    "days": [879],
+    "copyrights": [
+      {
+        "1": "Hemant banswal (wikimedia)",
+        "2": "Nina Garman (wikimedia)",
+        "3": "posk (flickr)",
+        "4": "Himeshrahi (wikimedia)",
+        "5": "Rtype909 (wikimedia)",
+        "6": "Muhammad Mahdi Karim (wikimedia)"
+      }
+    ],
+    "years": "1569-1571",
+    "links": ["https://en.wikipedia.org/wiki/Humayun%27s_Tomb"],
+    "categories": ["community", "Mughal"]
+  },
+  {
+    "answer": "BMW Headquarters (BMW Tower, BMW-Vierzylinder, BMW-Turm) / Karl Schwanzer / Munich, Germany",
+    "days": [880],
+    "copyrights": [
+      {
+        "1": "Myrzik and Jarisch",
+        "2": "Attenberger, Karl",
+        "3": "Neubert Sigrid",
+        "5": "Paul Bergmeir paulbrgmr (unsplash)",
+        "*": "Diego Delso (wikimedia)"
+      }
+    ],
+    "years": "1968-1973",
+    "links": ["https://en.wikipedia.org/wiki/BMW_Headquarters"],
+    "categories": ["community", "modernism", "office"]
   }
 ]
