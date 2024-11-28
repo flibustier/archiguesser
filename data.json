@@ -3579,7 +3579,7 @@
   },
   {
     "answer": "Palais des Papes (Palace of the Popes) / Pierre Poisson, Jean de Louvres, Bertran Nogayrol / Avignon, France",
-    "days": [225],
+    "days": [225, 882],
     "copyrights": [
       {
         "1": "Velvet (wikimedia)",
@@ -3588,6 +3588,7 @@
         "*": "Jean-Marc Rosier (wikimedia)"
       }
     ],
+    "years": "1317",
     "links": ["https://en.wikipedia.org/wiki/Palais_des_Papes"],
     "categories": ["monument", "Architecture Classics"]
   },
