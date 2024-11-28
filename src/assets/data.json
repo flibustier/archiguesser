@@ -9688,5 +9688,22 @@
     "years": "1968-1973",
     "links": ["https://en.wikipedia.org/wiki/BMW_Headquarters"],
     "categories": ["community", "modernism", "office"]
+  },
+  {
+    "answer": "Dunedin railway station / Georges Troup / Dunedin, South Island, New Zealand",
+    "days": [883],
+    "copyrights": [
+      {
+        "1": "Benchill (wikimedia)",
+        "2": "Tony Hisgett (wikimedia)",
+        "3": "Paul Carmona (wikimedia)",
+        "4": "Bernard Spragg (wikimedia)",
+        "5": "Mark Oliver Dittrich (wikimedia)",
+        "6": "Antilived (wikimedia)"
+      }
+    ],
+    "years": "1903-1906",
+    "links": ["https://en.wikipedia.org/wiki/Dunedin_railway_station"],
+    "categories": ["community", "Renaissance Revival", "station"]
   }
 ]
