@@ -72,3 +72,5 @@ try {
 }
 
 console.log("%cUpdated :\n" + JSON.stringify(dayData, null, 2), "color: green");
+
+console.log("http://localhost:4000/?day=" + nextDay);
