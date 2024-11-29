@@ -9705,5 +9705,20 @@
     "years": "1903-1906",
     "links": ["https://en.wikipedia.org/wiki/Dunedin_railway_station"],
     "categories": ["community", "Renaissance Revival", "station"]
+  },
+  {
+    "answer": "Thames Lido / Marshall and Kendon Architects / Reading, United Kingdom (UK)",
+    "days": [884],
+    "copyrights": [
+      {
+        "*": "Jon Reid (Arch.Photos)"
+      }
+    ],
+    "years": "1902, 2014-2017",
+    "links": [
+      "https://marshallandkendon.co.uk/2024/07/05/thames-lido-reading/",
+      "https://www.archdaily.com/904201/thames-lido-marshall-and-kendon-architects"
+    ],
+    "categories": ["community", "refurbishment", "aquatic"]
   }
 ]
