@@ -857,21 +857,36 @@
     "categories": ["housing", "community", "Architecture Classics"]
   },
   {
-    "answer": "Art Museum of Sao Paulo / Lina Bo Bardi / Sao Paulo, Brazil",
-    "days": [48, 211],
+    "answer": "São Paulo Museum of Art (Museu de Arte de São Paulo, MASP) / Lina Bo Bardi / São Paulo, Brazil",
+    "days": [48, 211, 887],
     "copyrights": [
       {
         "2": "Juliana Magro",
         "5": "Carol^-^",
         "6": "Rodrigo_Soldon",
         "*": "wikiarquitectura"
+      },
+      {
+        "2": "Juliana Magro",
+        "5": "Carol^-^",
+        "6": "Rodrigo_Soldon",
+        "*": "wikiarquitectura"
+      },
+      {
+        "1": "Mike Peel (wikimedia)",
+        "2": "seier+seier (wikimedia)",
+        "3": "Pedro Kok (flickr)",
+        "4": "Carol^-^ (flickr)",
+        "5": "Benjamin Thompson (wikimedia)",
+        "6": "Wilfredor (wikimedia)"
       }
     ],
     "years": "1956-1968",
     "links": [
+      "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Museum_of_Art",
       "https://en.wikiarquitectura.com/building/Art-Museum-of-Sao-Paulo/"
     ],
-    "categories": ["museum", "Architecture Classics"]
+    "categories": ["museum", "Architecture Classics", "community"]
   },
   {
     "answer": "Gando Primary School Extension / Kéré Architecture / Gando, Burkina Faso",
@@ -1451,7 +1466,7 @@
     "categories": []
   },
   {
-    "answer": "Teatro Oficina / Lina Bo Bardi & Edson Elito / Sao Paulo, Brazil",
+    "answer": "Teatro Oficina / Lina Bo Bardi & Edson Elito / São Paulo, Brazil",
     "days": [84, 709],
     "copyrights": [
       {
@@ -3764,7 +3779,7 @@
     "recommendation": "mies"
   },
   {
-    "answer": "SESC Pompeia Factory / Lina Bo Bardi / Sao Paulo, Brazil",
+    "answer": "SESC Pompeia Factory / Lina Bo Bardi / São Paulo, Brazil",
     "days": [237, 601],
     "copyrights": [
       {
@@ -7136,7 +7151,7 @@
     "categories": ["community", "museum"]
   },
   {
-    "answer": "Moreira Salles Institute IMS (Image and Sound Museum) / Andrade Morettin Arquitetos Associados / Avenue Paulista, Sao Paulo, Brazil",
+    "answer": "Moreira Salles Institute IMS (Image and Sound Museum) / Andrade Morettin Arquitetos Associados / Avenue Paulista, São Paulo, Brazil",
     "days": [576, 776],
     "copyrights": [
       {
@@ -7831,7 +7846,7 @@
     "categories": ["community", "housing"]
   },
   {
-    "answer": "Casa de Vidro (Glass House) / Lina Bo Bardi / Sao Paulo, Brazil",
+    "answer": "Casa de Vidro (Glass House) / Lina Bo Bardi / São Paulo, Brazil",
     "days": [635, 825],
     "copyrights": [
       {
@@ -8024,7 +8039,7 @@
     "recommendation": "lautner"
   },
   {
-    "answer": "Pavilhão Ciccillo Matarazzo (Ciccillo Matarazzo Pavilion) / Oscar Niemeyer / Parque do Ibirapuera, Sao Paulo, Brazil",
+    "answer": "Pavilhão Ciccillo Matarazzo (Ciccillo Matarazzo Pavilion) / Oscar Niemeyer / Parque do Ibirapuera, São Paulo, Brazil",
     "days": [656],
     "copyrights": [
       {
@@ -8973,7 +8988,7 @@
     "recommendation": "hadid"
   },
   {
-    "answer": "Museu Brasileiro da Escultura e Ecologia (MuBE) / Paulo Mendes da Rocha / Sao Paulo, Brazil",
+    "answer": "Museu Brasileiro da Escultura e Ecologia (MuBE) / Paulo Mendes da Rocha / São Paulo, Brazil",
     "days": [785],
     "copyrights": [
       {
