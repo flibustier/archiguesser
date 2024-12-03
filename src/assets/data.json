@@ -5835,7 +5835,7 @@
   },
   {
     "answer": "Yoyogi National Gymnasium (Stadium) / Kenzo Tange / Tokyo, Japan",
-    "days": [398],
+    "days": [398, 888],
     "copyrights": [
       {
         "1": "STB-1 (wikimedia)",
@@ -5848,7 +5848,8 @@
     ],
     "years": "1961-1964",
     "links": ["https://en.wikipedia.org/wiki/Yoyogi_National_Gymnasium"],
-    "categories": ["stadium", "Architecture Classics"]
+    "categories": ["stadium", "Architecture Classics"],
+    "recommendation": "japanese"
   },
   {
     "answer": "Great Wall of China (长城) / China",
