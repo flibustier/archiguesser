@@ -3491,7 +3491,7 @@
   },
   {
     "answer": "Arc 1600 / Charlotte Perriand, Guy Rey Millet / Station Les Arcs, Bourg-Saint-Maurice, Savoie, France",
-    "days": [218],
+    "days": [218, 890],
     "copyrights": [
       {
         "2": "Nicolas Joly (Le Monde)",
@@ -3499,6 +3499,7 @@
         "*": "DR (ideat.fr)"
       }
     ],
+    "years": "1967",
     "links": ["https://en.wikipedia.org/wiki/Arc_1600"],
     "categories": []
   },
