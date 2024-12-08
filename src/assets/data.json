@@ -9737,5 +9737,21 @@
       "https://www.archdaily.com/904201/thames-lido-marshall-and-kendon-architects"
     ],
     "categories": ["community", "refurbishment", "aquatic"]
+  },
+  {
+    "answer": "Castell Coch (Red Castle) / John Crichton-Stuart, William Burges / Tongwynlais, Cardiff, Wales, United Kingdom (UK)",
+    "days": [891],
+    "copyrights": [
+      {
+        "1": "dwadeer (flickr)",
+        "3": "Nilfanion (wikimedia)",
+        "4": "Andy Dingley (wikimedia)",
+        "5": "DeFacto (wikimedia)",
+        "*": "Tony Hisgett (wikimedia)"
+      }
+    ],
+    "years": "11th–13th centuries, Rebuilt 1875–1891",
+    "links": ["https://en.wikipedia.org/wiki/Castell_Coch"],
+    "categories": ["community", "castle", "Gothic Revival"]
   }
 ]
