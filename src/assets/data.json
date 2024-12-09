@@ -9753,5 +9753,18 @@
     "years": "11th–13th centuries, Rebuilt 1875–1891",
     "links": ["https://en.wikipedia.org/wiki/Castell_Coch"],
     "categories": ["community", "castle", "Gothic Revival"]
+  },
+  {
+    "answer": "Entenza House (Case Study House nº9) / Ray Eames, Charles Eames, Eero Saarinen / Los Angeles, California, United States of America (USA)",
+    "days": [892],
+    "copyrights": [
+      {
+        "*": "Julius Shulman Photography Archive"
+      }
+    ],
+    "years": "1950",
+    "links": ["https://en.wikipedia.org/wiki/Entenza_House"],
+    "categories": ["community"],
+    "recommendation": "case study houses"
   }
 ]
