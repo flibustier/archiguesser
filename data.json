@@ -5930,17 +5930,18 @@
   },
   {
     "answer": "Harpa Concert and Conference Centre / Batteriið Architects, Henning Larsen Architects, Olafur Eliasson / Reykjavik, Iceland",
-    "days": [409],
+    "days": [409, 895],
     "copyrights": [
       {
         "2": "Courtesy of the Architect",
         "4": "Courtesy of the Architect",
-        "*": "Jonathan Platteau"
+        "*": "Jonathan Platteau (wikimedia)"
       }
     ],
     "years": "2007-2011",
     "links": ["https://en.wikipedia.org/wiki/Harpa_(concert_hall)"],
-    "categories": ["contemporary", "concert hall"]
+    "categories": ["contemporary", "concert hall"],
+    "recommendation": "scandinavian"
   },
   {
     "answer": "Reflections at Keppel Bay / Daniel Libeskind / Singapore",
