@@ -9768,5 +9768,22 @@
     "links": ["https://en.wikipedia.org/wiki/Entenza_House"],
     "categories": ["community"],
     "recommendation": "case study houses"
+  },
+  {
+    "answer": "Great Pagoda / Sir William Chambers, Austin-Smith:Lord / Kew Gardens, London, United Kingdom (UK)",
+    "days": [897],
+    "copyrights": [
+      {
+        "1": "AndyScott (wikimedia)",
+        "2": "James Petts (wikimedia)",
+        "3": "LizzieVar (wikimedia)",
+        "4": "William Chambers (wikimedia)",
+        "5": "AndyScott (wikimedia)",
+        "6": "Mx. Granger (wikimedia)"
+      }
+    ],
+    "years": "1761, 2018",
+    "links": ["https://en.wikipedia.org/wiki/Great_Pagoda,_Kew_Gardens"],
+    "categories": ["community"]
   }
 ]
