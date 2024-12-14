@@ -9785,5 +9785,22 @@
     "years": "1761, 2018",
     "links": ["https://en.wikipedia.org/wiki/Great_Pagoda,_Kew_Gardens"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Øresund Bridge (Öresund) / Jørgen Nissen, Klaus Falbe Hansen, Niels Gimsing, Georg Rotne / Denmark-Sweden",
+    "days": [898],
+    "copyrights": [
+      {
+        "1": "Väsk (wikimedia)",
+        "2": "Olga (wikimedia)",
+        "3": "Justass & Friman (wikimedia)",
+        "4": "Philaweb (wikimedia)",
+        "5": "Kopa (wikimedia)",
+        "6": "Nick-D (wikimedia)"
+      }
+    ],
+    "years": "1996–2000",
+    "links": ["https://en.wikipedia.org/wiki/%C3%98resund_Bridge"],
+    "categories": ["community", "infrastructure", "bridge"]
   }
 ]
