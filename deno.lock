@@ -131,8 +131,8 @@
     "packageJson": {
       "dependencies": [
         "npm:@babel/types@7.26.3",
-        "npm:@playwright/test@1.49.0",
-        "npm:@types/node@22.10.1",
+        "npm:@playwright/test@1.49.1",
+        "npm:@types/node@22.10.2",
         "npm:@vitejs/plugin-vue@5.2.1",
         "npm:@vue/eslint-config-prettier@10.1.0",
         "npm:@vue/eslint-config-typescript@14.1.4",
