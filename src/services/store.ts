@@ -151,3 +151,9 @@ export const getClientID = () => {
 
   return clientID;
 };
+
+export const setFirstTime = getClientID;
+
+export const isFirstTime = (): boolean => {
+  return getScore() === 0 && !localStorage.getItem(ObjectName.ClientID);
+};

@@ -16,6 +16,7 @@ const emit = defineEmits(["update:isVisible"]);
 
 const closeModal = () => {
   emit("update:isVisible", false);
+  window.location.hash = "";
 };
 </script>
 
