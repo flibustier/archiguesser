@@ -6,6 +6,7 @@ import IconList from "../icons/IconList.vue";
 import IconPictures from "../icons/IconPictures.vue";
 
 import { lastDay } from "@/services/projects";
+import { isFirstTime, setFirstTime } from "@/services/store";
 
 defineProps({
   isVisible: {
@@ -17,13 +18,16 @@ defineProps({
 const emit = defineEmits(["update:isVisible"]);
 
 const closeModal = () => {
+  if (isFirstTime()) {
+    setFirstTime();
+  }
   emit("update:isVisible", false);
 };
 </script>
 
 <template>
   <BaseModal
-    title="About"
+    :title="isFirstTime() ? 'Welcome to ArchiGuesser!' : 'About'"
     :is-visible="isVisible"
     @update:is-visible="closeModal"
   >
@@ -72,7 +76,7 @@ const closeModal = () => {
       </p>
     </template>
 
-    <template #footer>
+    <template v-if="!isFirstTime()" #footer>
       <div>
         <p>
           Got a suggestion or want to contribute ? Contact me via
@@ -92,6 +96,11 @@ const closeModal = () => {
         </p>
       </div>
     </template>
+    <template v-else #footer>
+      <button class="btn-secondary btn-small self-center" @click="closeModal">
+        Start playing!
+      </button>
+    </template>
   </BaseModal>
 </template>
 
@@ -102,5 +111,9 @@ const closeModal = () => {
 
 .space-before {
   margin-top: 1rem;
+}
+
+.self-center {
+  margin: auto;
 }
 </style>

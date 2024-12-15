@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-import { isLogged } from "./services/store";
+import { isLogged, isFirstTime } from "./services/store";
 import { LISTED_CATEGORIES, LOCKED_CATEGORIES_LOGGED } from "./config.json";
 
 const ALL_CATEGORIES = [
@@ -23,7 +23,7 @@ import DailyPage from "./pages/DailyPage.vue";
 import ArcadePage from "./pages/ArcadePage.vue";
 
 const showBackModal = ref(window.location.hash === "#replay");
-const showInfoModal = ref(window.location.hash === "#info");
+const showInfoModal = ref(window.location.hash === "#info" || isFirstTime());
 const showUserModal = ref(false);
 const showScoreModal = ref(window.location.hash === "#score");
 const showLogInModal = ref(false);
