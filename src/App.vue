@@ -26,7 +26,7 @@ const showBackModal = ref(window.location.hash === "#replay");
 const showInfoModal = ref(window.location.hash === "#info");
 const showUserModal = ref(false);
 const showScoreModal = ref(window.location.hash === "#score");
-const showLogInModal = ref(window.location.hash === "#login");
+const showLogInModal = ref(false);
 const showArcadeModal = ref(window.location.hash === "#challenges");
 const showFeedbackModal = ref(false);
 
