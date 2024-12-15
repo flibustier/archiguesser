@@ -1,5 +1,5 @@
-import data from "../assets/data.json";
-import { getRealDayNumber } from "./date";
+import data from "../assets/data.json" with { type: "json" };
+import { getRealDayNumber } from "./date.ts";
 
 const getProjectByDayNumber = (dayNumber: number) =>
   data.find(({ days }) => days.includes(dayNumber));
@@ -30,18 +30,7 @@ export const getProjectsByCategory = (category: string) => {
   return data.filter(({ answer }) => answer.includes(category));
 };
 
-export const getProjectInformation = (
-  day?: string | null,
-): {
-  dayNumber: number;
-  answer: string;
-  isMonument: boolean;
-  constructionYears?: string;
-  copyrights?: any;
-  links?: string[];
-  categories?: string[];
-  recommendation?: string;
-} => {
+export const getProjectInformation = (day?: string | null) => {
   let dayNumber = day ? parseInt(day) : getRealDayNumber();
 
   if (!data.some(({ days }) => days.includes(dayNumber))) {

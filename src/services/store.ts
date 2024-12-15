@@ -1,11 +1,20 @@
 import { getRealDayNumber } from "./date.ts";
 
+export type Challenges = Record<string, number>;
+export type Settings = Record<string, boolean>;
+export interface Stats {
+  firstPlayed: number;
+  lastPlayed: number;
+  [day: string]: number;
+}
+
 enum ObjectName {
   Challenges = "challenges",
   Stats = "stats",
   Settings = "settings",
   LogIn = "login",
   Feedback = "feedback",
+  ClientID = "clientID",
 }
 
 const fetchObject = (name: ObjectName) =>
@@ -13,24 +22,31 @@ const fetchObject = (name: ObjectName) =>
 const fetchArray = (name: ObjectName): unknown[] =>
   JSON.parse(localStorage.getItem(name) || "[]");
 
-export const getStats = () => fetchObject(ObjectName.Stats);
-export const getSettings = () => fetchObject(ObjectName.Settings);
-export const getChallenges = () => fetchObject(ObjectName.Challenges);
+export const getStats = (): Stats => fetchObject(ObjectName.Stats);
+export const getSettings = (): Settings => fetchObject(ObjectName.Settings);
+export const getChallenges = (): Challenges =>
+  fetchObject(ObjectName.Challenges);
 
-const setObject = (object: ObjectName) => (entry: string, value: any) =>
-  localStorage.setItem(
-    object,
-    JSON.stringify({
-      ...fetchObject(object),
-      [entry]: value,
-    }),
-  );
+const setObject =
+  <T>(object: ObjectName) =>
+  (entry: string, value: T) =>
+    localStorage.setItem(
+      object,
+      JSON.stringify({
+        ...fetchObject(object),
+        [entry]: value,
+      }),
+    );
 
-export const setSetting = setObject(ObjectName.Settings);
-export const setChallenges = setObject(ObjectName.Challenges);
+export const setSetting = setObject<Settings>(ObjectName.Settings);
+export const setChallenges = setObject<Challenges>(ObjectName.Challenges);
 
 const overrideObject =
-  (object: ObjectName) => (stringifiedValue: string, additionalData?: any) =>
+  (object: ObjectName) =>
+  (
+    stringifiedValue: string,
+    additionalData?: Record<string, number | undefined>,
+  ) =>
     localStorage.setItem(
       object,
       JSON.stringify({
@@ -67,7 +83,11 @@ export const getCredentials = (): Credentials => {
 export const isLogged = () => localStorage.getItem(ObjectName.LogIn) != null;
 
 export const getDailiesScore = () => {
-  const { firstPlayed, lastPlayed, ...stats } = getStats();
+  const {
+    firstPlayed: _firstPlayed,
+    lastPlayed: _lastPlayed,
+    ...stats
+  } = getStats();
 
   return (Object.values(stats) as number[]).reduce(
     (total, dailyScore) => total + 1 + ((7 - dailyScore) % 7),
@@ -75,7 +95,11 @@ export const getDailiesScore = () => {
   );
 };
 export const getChallengesScore = () => {
-  const { dayNumber, retryCount, ...challengeLevels } = getChallenges();
+  const {
+    dayNumber: _dayNumber,
+    retryCount: _retryCount,
+    ...challengeLevels
+  } = getChallenges();
 
   return (Object.values(challengeLevels) as number[]).reduce(
     (total, challengeLevel) => {
@@ -110,4 +134,20 @@ export const getLastFeedback = () => {
   return (fetchArray(ObjectName.Feedback) as Feedback[])
     .sort((a: Feedback, b: Feedback) => a.day - b.day)
     .pop();
+};
+
+export const getClientID = () => {
+  let clientID = localStorage.getItem(ObjectName.ClientID);
+  if (clientID) {
+    return clientID;
+  }
+
+  try {
+    clientID = crypto.randomUUID();
+  } catch {
+    clientID = Math.random().toString(16).substring(2, 15);
+  }
+  localStorage.setItem(ObjectName.ClientID, clientID);
+
+  return clientID;
 };

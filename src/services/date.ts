@@ -1,4 +1,4 @@
-import { STARTING_DATE } from "../config.json";
+import { STARTING_DATE } from "../config.json" with { type: "json" };
 
 const StartDate = Date.UTC(
   STARTING_DATE[0],

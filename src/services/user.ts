@@ -1,3 +1,4 @@
+import type { UserData } from "./api.ts";
 import { signIn } from "./api.ts";
 import {
   getChallenges,
@@ -8,12 +9,6 @@ import {
   overrideStats,
 } from "./store.ts";
 
-interface UserData {
-  stats: string;
-  challenges: string;
-  start_day?: number;
-  last_day?: number;
-}
 export const storeStatsAndChallenges = (userData: UserData) => {
   if (userData.stats) {
     overrideStats(userData.stats, {

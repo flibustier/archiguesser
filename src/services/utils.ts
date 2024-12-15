@@ -1,4 +1,4 @@
-export const shuffle = (array: any[]) => {
+export const shuffle = (array: unknown[]) => {
   let randIndex;
   let currIndex = array.length;
 
