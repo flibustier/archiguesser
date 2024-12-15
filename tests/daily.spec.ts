@@ -2,6 +2,10 @@ import { test, expect } from "@playwright/test";
 import { json } from "./api.mock.ts";
 
 test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => {
+    window.localStorage.setItem("clientID", "test");
+  });
+
   await page.goto("/?day=0");
 
   await page.route(
