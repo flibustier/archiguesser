@@ -5298,8 +5298,8 @@
     "categories": ["contemporary"]
   },
   {
-    "answer": "Notre-Dame de Paris (Cathedral) / Jean de Chelles, Pierre de Chelles, Pierre de Montreuil, Eugène-Emmanuel Viollet-le-Duc / Paris, France",
-    "days": [350],
+    "answer": "Cathédrale Notre-Dame de Paris (Cathedral of Our Lady of Paris) / Jean de Chelles, Pierre de Chelles, Pierre de Montreuil, Jean Ravy, Jean Le Bouteiller, Raymond Du Temple, Eugène-Emmanuel Viollet-le-Duc, Philippe Villeneuve / Paris, France",
+    "days": [350, 900],
     "copyrights": [
       {
         "1": "Zachi Evenor (wikimedia)",
@@ -5308,11 +5308,18 @@
         "4": "GodefroyParis (wikimedia)",
         "5": "Peter Haas (wikimedia)",
         "6": "Zuffe (wikimedia)"
+      },
+      {
+        "3": "Christophe Petit Tesson (AFP)",
+        "4": "GodefroyParis (wikimedia)",
+        "5": "Peter Haas (wikimedia)",
+        "6": "Zuffe (wikimedia)",
+        "*": "Stephane De Sakutin (AFP)"
       }
     ],
     "years": "1163-1345",
     "links": ["https://en.wikipedia.org/wiki/Notre-Dame_de_Paris"],
-    "categories": ["monument", "famous", "religious"]
+    "categories": ["monument", "famous", "religious", "gothic"]
   },
   {
     "answer": "Tokyo Apartments / Sou Fujimoto Architects / Komone, Itabashiku, Tokyo, Japan",
