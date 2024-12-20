@@ -9825,5 +9825,18 @@
     "years": "685–692",
     "links": ["https://en.wikipedia.org/wiki/Dome_of_the_Rock"],
     "categories": ["community", "religious", "monument"]
+  },
+  {
+    "answer": "Apple Fifth Avenue / Bohlin Cywinski Jackson, Foster + Partners / 767 Fifth Avenue, Manhattan, New York City, United States of America (USA)",
+    "days": [905],
+    "copyrights": [
+      {
+        "*": "Aaron Hargreaves"
+      }
+    ],
+    "years": "2006, 2017–2019",
+    "links": ["https://en.wikipedia.org/wiki/Apple_Fifth_Avenue"],
+    "categories": ["community"],
+    "recommendation": "foster"
   }
 ]
