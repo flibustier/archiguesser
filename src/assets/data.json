@@ -9809,5 +9809,21 @@
     "years": "1996–2000",
     "links": ["https://en.wikipedia.org/wiki/%C3%98resund_Bridge"],
     "categories": ["community", "infrastructure", "bridge"]
+  },
+  {
+    "answer": "Dome of the Rock / Temple Mount (Al-Aqsa), Old City of Jerusalem, Jerusalem",
+    "days": [904],
+    "copyrights": [
+      {
+        "2": "Leon petrosyan (wikimedia)",
+        "3": "Georg Dehio/Gustav von Bezold (wikimedia)",
+        "4": "David Baum (wikimedia)",
+        "6": "Emilio García (wikimedia)",
+        "*": "Andrew Shiva (wikimedia)"
+      }
+    ],
+    "years": "685–692",
+    "links": ["https://en.wikipedia.org/wiki/Dome_of_the_Rock"],
+    "categories": ["community", "religious", "monument"]
   }
 ]
