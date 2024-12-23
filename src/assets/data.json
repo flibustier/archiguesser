@@ -5492,7 +5492,7 @@
   },
   {
     "answer": "Opéra national de Lyon (Nouvel Opera House) / Jean Nouvel, Antoine-Marie Chenavard, Jean-Marie Pollet / Lyon, France",
-    "days": [365],
+    "days": [365, 907],
     "copyrights": [
       {
         "1": "E. de Rolland & D. Clouzet (Bibliothèque nationale de France) (wikimedia)",
@@ -5502,8 +5502,8 @@
     ],
     "years": "1831,1986-1993",
     "links": [
-      "http://www.jeannouvel.com/en/projects/opera-3/",
-      "https://en.wikipedia.org/wiki/Op%C3%A9ra_Nouvel"
+      "https://en.wikipedia.org/wiki/Op%C3%A9ra_Nouvel",
+      "http://www.jeannouvel.com/en/projects/opera-3/"
     ],
     "categories": ["concert hall"],
     "recommendation": "nouvel"
