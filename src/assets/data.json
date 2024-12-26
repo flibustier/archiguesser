@@ -9838,5 +9838,22 @@
     "links": ["https://en.wikipedia.org/wiki/Apple_Fifth_Avenue"],
     "categories": ["community"],
     "recommendation": "foster"
+  },
+  {
+    "answer": "World Trade Center (WTC Twin Towers) / Minoru Yamasaki, Emery Roth & Sons / Lower Manhattan, New York, United States of America (USA)",
+    "days": [911],
+    "copyrights": [
+      {
+        "2": "TedQuackenbush (wikimedia)",
+        "4": "Karl Döringer (wikimedia)",
+        "6": "Carol M. Highsmith (wikimedia)",
+        "*": "Balthazar Korab (wikimedia)"
+      }
+    ],
+    "years": "1973–2001",
+    "links": [
+      "https://en.wikipedia.org/wiki/World_Trade_Center_(1973%E2%80%932001)"
+    ],
+    "categories": ["community", "famous", "demolished"]
   }
 ]
