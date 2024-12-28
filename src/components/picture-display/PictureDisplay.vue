@@ -53,7 +53,7 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
       :href="imgSrc(pictureShown + 1)"
     />
     <div class="text-center text-small">
-      <span v-if="true || [666, 911].includes($props.dayNumber)">
+      <span v-if="[666, 911].includes($props.dayNumber)">
         #{{ props.dayNumber }}&nbsp;
       </span>
       <span v-if="pictureCopyright">📷</span>&nbsp;{{ pictureCopyright }}

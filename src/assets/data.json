@@ -9855,5 +9855,20 @@
       "https://en.wikipedia.org/wiki/World_Trade_Center_(1973%E2%80%932001)"
     ],
     "categories": ["community", "famous", "demolished"]
+  },
+  {
+    "answer": "Erdene Zuu Monastery / Abtai Sain Khan / Kharkhorin, Övörkhangai Province, Mongolia",
+    "days": [912],
+    "copyrights": [
+      {
+        "3": "Marcin Konsek (wikimedia)",
+        "4": "Marcin Konsek (wikimedia)",
+        "5": "Marcin Konsek (wikimedia)",
+        "*": "Bernard Gagnon (wikimedia)"
+      }
+    ],
+    "years": "1585",
+    "links": ["https://en.wikipedia.org/wiki/Erdene_Zuu_Monastery"],
+    "categories": ["community", "unesco", "buddhist"]
   }
 ]
