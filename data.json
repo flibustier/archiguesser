@@ -3532,7 +3532,7 @@
   },
   {
     "answer": "Kubuswoningen (Cube Houses) / Piet Blom / Rotterdam, Netherlands",
-    "days": [221, 685],
+    "days": [221, 685, 913],
     "copyrights": [
       {
         "1": "Cmglee (wikimedia)",
@@ -3545,7 +3545,7 @@
     ],
     "years": "1974",
     "links": ["https://en.wikipedia.org/wiki/Kubuswoningen"],
-    "categories": ["Architecture Classics"]
+    "categories": ["Architecture Classics", "community"]
   },
   {
     "answer": "CCTV Headquarters / Rem Koolhaas, OMA, Ove Arup & Partners / Beijing, China",
