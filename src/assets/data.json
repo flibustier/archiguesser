@@ -9870,5 +9870,22 @@
     "years": "1585",
     "links": ["https://en.wikipedia.org/wiki/Erdene_Zuu_Monastery"],
     "categories": ["community", "unesco", "buddhist"]
+  },
+  {
+    "answer": "Hotakubo Housing / Riken Yamamoto / Kumamoto, Japan",
+    "days": [914],
+    "copyrights": [
+      {
+        "3": "MK Products (wikimedia)",
+        "4": "Shinkenchiku Sha",
+        "5": "Courtesy of the Architect",
+        "*": "Tomio Ohashi"
+      }
+    ],
+    "years": "1991",
+    "links": [
+      "https://www.riken-yamamoto.co.jp/index.html?page=ry_proj_detail&id=122&lng=_Eng"
+    ],
+    "categories": ["Pritzker", "housing", "Architecture Classics"]
   }
 ]
