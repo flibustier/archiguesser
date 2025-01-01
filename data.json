@@ -3270,6 +3270,7 @@
         "6": "Amaustan (wikimedia)"
       }
     ],
+    "years": "965-1523",
     "links": ["https://en.wikipedia.org/wiki/Mont-Saint-Michel_Abbey"],
     "categories": ["monument", "famous", "favorites"]
   },
@@ -9887,5 +9888,24 @@
       "https://www.riken-yamamoto.co.jp/index.html?page=ry_proj_detail&id=122&lng=_Eng"
     ],
     "categories": ["Pritzker", "housing", "Architecture Classics"]
+  },
+  {
+    "answer": "Santiago Baháʼí House of Worship (Temple) / Siamak Hariri / Santiago, Chile",
+    "days": [916],
+    "copyrights": [
+      {
+        "1": "Sebastian Wilson Leon",
+        "2": "Guy Wenborne",
+        "3": "Ian David",
+        "4": "Andrés Silva",
+        "5": "Vanessa Guillen",
+        "6": "Carlos Figueroa (wikimedia)"
+      }
+    ],
+    "years": "2007-2016",
+    "links": [
+      "https://en.wikipedia.org/wiki/Santiago_Bah%C3%A1%27%C3%AD_Temple"
+    ],
+    "categories": ["community", "religious"]
   }
 ]
