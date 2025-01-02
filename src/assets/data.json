@@ -5475,7 +5475,7 @@
   },
   {
     "answer": "Buckingham Palace / Capt. William Winde, Sir John Nash, Edward Blore FSA, Aston Webb / Westminster, London, United Kingdom (UK)",
-    "days": [364],
+    "days": [364, 917],
     "copyrights": [
       {
         "1": "Derry Moore, Peter Smith",
@@ -5483,8 +5483,7 @@
         "3": "The White House (wikimedia)",
         "4": "Shealah Craighead (wikimedia)",
         "5": "Diliff (wikimedia)",
-        "6": "Matthew Gerry Gerrard (wikimedia)",
-        "*": ""
+        "6": "Matthew Gerry Gerrard (wikimedia)"
       }
     ],
     "years": "1703-1826",
