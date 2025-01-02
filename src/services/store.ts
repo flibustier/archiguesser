@@ -19,7 +19,7 @@ enum ObjectName {
 
 const fetchObject = (name: ObjectName) =>
   JSON.parse(localStorage.getItem(name) || "{}");
-const fetchArray = (name: ObjectName): unknown[] =>
+const fetchArray = <T>(name: ObjectName): T[] =>
   JSON.parse(localStorage.getItem(name) || "[]");
 
 export const getStats = (): Stats => fetchObject(ObjectName.Stats);
@@ -119,6 +119,14 @@ interface Feedback {
   day: number;
   value: string;
 }
+
+export const getSavedFeedbacks = () => {
+  const feedbacks = fetchArray<Feedback>(ObjectName.Feedback);
+
+  return feedbacks
+    .map(({ value }) => value)
+    .filter((value) => !["skipped", "never"].includes(value));
+};
 
 export const saveFeedback = (value = "skipped") => {
   const feedback = fetchArray(ObjectName.Feedback);
