@@ -4,7 +4,7 @@ import { reactive, computed, ref } from "vue";
 import { syncUser } from "@/services/user";
 import { getRealDayNumber } from "@/services/date";
 import { getProjectInformation } from "@/services/projects";
-import { sendEvent, sendResult } from "@/services/api";
+import { sendEvent, sendResult, tagFeedbacks } from "@/services/api";
 import { getLastFeedback, getStats, getScore } from "@/services/store";
 
 import EndDisplay from "@/components/daily/EndDisplay.vue";
@@ -86,6 +86,9 @@ const onSubmittedGuess = async (guess: string) => {
     }
   }
 };
+
+// temp
+tagFeedbacks();
 </script>
 
 <template>
