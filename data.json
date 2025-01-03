@@ -9906,5 +9906,21 @@
       "https://en.wikipedia.org/wiki/Santiago_Bah%C3%A1%27%C3%AD_Temple"
     ],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Tanghalang Pambansa (National Theater of Performing Arts) / Leandro Valencia Locsin / Manila, Philippines",
+    "days": [918],
+    "copyrights": [
+      {
+        "1": "Nixenzo (wikimedia)",
+        "4": "Nixwrites (wikimedia)",
+        "5": "Patrick Roque (wikimedia)",
+        "6": "Patrickroque01 (wikimedia)",
+        "*": "Ramon FVelasquez (wikimedia)"
+      }
+    ],
+    "years": "1966-1969",
+    "links": ["https://en.wikipedia.org/wiki/Tanghalang_Pambansa"],
+    "categories": ["community", "brutalism"]
   }
 ]
