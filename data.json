@@ -9922,5 +9922,22 @@
     "years": "1966-1969",
     "links": ["https://en.wikipedia.org/wiki/Tanghalang_Pambansa"],
     "categories": ["community", "brutalism"]
+  },
+  {
+    "answer": "Krak des Chevaliers / Al-Husn, Talkalakh District, Syria",
+    "days": [925],
+    "copyrights": [
+      {
+        "1": "High Contrast (wikimedia)",
+        "2": "M. Benoist (wikimedia)",
+        "3": "Bernard Gagnon (wikimedia)",
+        "4": "Bernard Gagnon (wikimedia)",
+        "5": "Guillaume Rey (wikimedia)",
+        "6": "Gianfranco Gazzetti (wikimedia)"
+      }
+    ],
+    "years": "~12th century",
+    "links": ["https://en.wikipedia.org/wiki/Krak_des_Chevaliers"],
+    "categories": ["community", "castle"]
   }
 ]
