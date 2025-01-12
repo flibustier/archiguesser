@@ -9939,5 +9939,22 @@
     "years": "~12th century",
     "links": ["https://en.wikipedia.org/wiki/Krak_des_Chevaliers"],
     "categories": ["community", "castle"]
+  },
+  {
+    "answer": "Palais Garnier (Nouvel Opéra Garnier) / Charles Garnier / Paris, France",
+    "days": [927],
+    "copyrights": [
+      {
+        "1": "Neoclassicism Enthusiast (wikimedia)",
+        "2": "Degrémont Anthony (wikimedia)",
+        "3": "Joe deSousa (wikimedia)",
+        "4": "Pierre Bourru (wikimedia)",
+        "5": "Philippe Alès (wikimedia)",
+        "6": "Alexander Hoernigk (wikimedia)"
+      }
+    ],
+    "years": "1861-1875",
+    "links": ["https://en.wikipedia.org/wiki/Palais_Garnier"],
+    "categories": ["community", "monument", "famous", "concert hall"]
   }
 ]
