@@ -9956,5 +9956,19 @@
     "years": "1861-1875",
     "links": ["https://en.wikipedia.org/wiki/Palais_Garnier"],
     "categories": ["community", "monument", "famous", "concert hall"]
+  },
+  {
+    "answer": "Mercedes-Benz Museum / UNStudio, Ben van Berkel, Caroline Bos / Stuttgart, Germany",
+    "days": [928],
+    "copyrights": [
+      {
+        "2": "Courtesy of the Architect",
+        "6": "Julian Herzog (wikimedia)",
+        "*": "Eva Bloem"
+      }
+    ],
+    "years": "2006",
+    "links": ["https://en.wikipedia.org/wiki/Mercedes-Benz_Museum"],
+    "categories": ["community", "museum"]
   }
 ]
