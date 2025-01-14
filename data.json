@@ -9970,5 +9970,22 @@
     "years": "2006",
     "links": ["https://en.wikipedia.org/wiki/Mercedes-Benz_Museum"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Tomb of I'timād-ud-Daulah (I'timād-ud-Daulah Maqbara) / Agra, Uttar Pradesh, India",
+    "days": [929],
+    "copyrights": [
+      {
+        "1": "Rupeshsarkar (wikimedia)",
+        "2": "Royroydeb (wikimedia)",
+        "3": "Syed Atif Nazir (wikimedia)",
+        "4": "A.Savin (wikimedia)",
+        "5": "Amaninder (wikimedia)",
+        "6": "Muhammad Mahdi Karim (wikimedia)"
+      }
+    ],
+    "years": "1622-1628",
+    "links": ["https://en.wikipedia.org/wiki/Tomb_of_I%27tim%C4%81d-ud-Daulah"],
+    "categories": ["community", "Mughal", "mausoleum"]
   }
 ]
