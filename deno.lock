@@ -11,10 +11,10 @@
       "dependencies": [
         "npm:@babel/types@7.26.5",
         "npm:@playwright/test@1.49.1",
-        "npm:@types/node@22.10.5",
+        "npm:@types/node@22.10.7",
         "npm:@vitejs/plugin-vue@5.2.1",
         "npm:@vue/eslint-config-prettier@10.1.0",
-        "npm:@vue/eslint-config-typescript@14.2.0",
+        "npm:@vue/eslint-config-typescript@14.3.0",
         "npm:@vue/tsconfig@0.7.0",
         "npm:axios@1.7.9",
         "npm:eslint-plugin-vue@9.32.0",
