@@ -10022,5 +10022,20 @@
     ],
     "categories": ["community", "religious", "Orthodox"],
     "style": "Russian Revival"
+  },
+  {
+    "answer": "La Fábrica / Ricardo Bofill / Sant Just Desvern, Spain",
+    "days": [934],
+    "copyrights": [
+      {
+        "6": "Till F. Teenck (wikimedia)",
+        "*": "María González"
+      }
+    ],
+    "years": "1973-1975",
+    "links": [
+      "https://en.wikipedia.org/wiki/La_F%C3%A1brica_(Sant_Just_Desvern)"
+    ],
+    "categories": ["community", "refurbishment"]
   }
 ]
