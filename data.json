@@ -10002,5 +10002,40 @@
     "links": ["https://en.wikipedia.org/wiki/Boekentoren"],
     "categories": ["community", "modernism"],
     "recommendation": "modernism"
+  },
+  {
+    "answer": "Alexander Nevsky Cathedral of Tallinn / Mikhail Preobrazhensky / Tallinn, Estonia",
+    "days": [933],
+    "copyrights": [
+      {
+        "1": "A.Savin (wikimedia)",
+        "2": "Pudelek (Marcin Szala) (wikimedia)",
+        "3": "Settimioma (wikimedia)",
+        "4": "Ethan Doyle White (wikimedia)",
+        "5": "Ethan Doyle White (wikimedia)",
+        "6": "Diego Delso (wikimedia)"
+      }
+    ],
+    "years": "1894-1900",
+    "links": [
+      "https://en.wikipedia.org/wiki/Alexander_Nevsky_Cathedral,_Tallinn"
+    ],
+    "categories": ["community", "religious", "Orthodox"],
+    "style": "Russian Revival"
+  },
+  {
+    "answer": "La Fábrica / Ricardo Bofill / Sant Just Desvern, Spain",
+    "days": [934],
+    "copyrights": [
+      {
+        "6": "Till F. Teenck (wikimedia)",
+        "*": "María González"
+      }
+    ],
+    "years": "1973-1975",
+    "links": [
+      "https://en.wikipedia.org/wiki/La_F%C3%A1brica_(Sant_Just_Desvern)"
+    ],
+    "categories": ["community", "refurbishment"]
   }
 ]
