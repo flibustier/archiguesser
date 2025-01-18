@@ -9987,5 +9987,20 @@
     "years": "1622-1628",
     "links": ["https://en.wikipedia.org/wiki/Tomb_of_I%27tim%C4%81d-ud-Daulah"],
     "categories": ["community", "Mughal", "mausoleum"]
+  },
+  {
+    "answer": "Boekentoren (Book Tower) / Henry van de Velde / Ghent, Belgium",
+    "days": [932],
+    "copyrights": [
+      {
+        "3": "Geert Roels Toren (wikimedia)",
+        "6": "Geert Roels (wikimedia)",
+        "*": "Michiel Hendryckx (wikimedia)"
+      }
+    ],
+    "years": "1936-1942",
+    "links": ["https://en.wikipedia.org/wiki/Boekentoren"],
+    "categories": ["community", "modernism"],
+    "recommendation": "modernism"
   }
 ]
