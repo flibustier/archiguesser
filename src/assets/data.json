@@ -4642,8 +4642,8 @@
     "recommendation": "kahn"
   },
   {
-    "answer": "Kaufmann House / Richard Neutra / 470 West Vista de Chino, Palm Springs, California, United States of America (USA)",
-    "days": [298],
+    "answer": "Kaufmann Desert House / Richard Neutra / 470 West Vista de Chino, Palm Springs, California, United States of America (USA)",
+    "days": [298, 936],
     "copyrights": [
       {
         "6": "Brent Harris (wikimedia)",
@@ -4652,11 +4652,12 @@
     ],
     "years": "1946-1947",
     "links": [
-      "https://en.wikipedia.org/wiki/Kaufmann_House",
+      "https://en.wikipedia.org/wiki/Kaufmann_Desert_House",
       "https://en.wikiarquitectura.com/building/Kaufmann-House/"
     ],
     "categories": ["Architecture Classics"],
-    "recommendation": "neutra"
+    "recommendation": "neutra",
+    "style": "International"
   },
   {
     "answer": "Villa Aalto (Aalto House) / Alvar Aalto, Aino Aalto / Helsinki, Finland",
