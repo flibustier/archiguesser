@@ -664,7 +664,8 @@
       "https://en.wikipedia.org/wiki/Dancing_House",
       "https://en.wikiarquitectura.com/building/Dancing-House/"
     ],
-    "categories": ["deconstructivist", "community"]
+    "categories": ["community"],
+    "style": "Deconstructivism"
   },
   {
     "answer": "Maison Hermès Tokyo / Renzo Piano / Ginza, Tokyo, Japan",
@@ -704,7 +705,8 @@
     ],
     "years": "1993-1998",
     "links": ["https://en.wikipedia.org/wiki/Jewish_Museum_Berlin"],
-    "categories": ["museum"]
+    "categories": ["museum"],
+    "style": "Deconstructivism"
   },
   {
     "answer": "Sheikh Lotfollah Mosque / Mohammad Reza ibn Ustad Husayn Banna Isfahani / Isfahan, Iran",
@@ -3169,7 +3171,8 @@
       "https://en.wikipedia.org/wiki/Walt_Disney_Concert_Hall",
       "https://en.wikiarquitectura.com/building/Walt-Disney-Concert-Hall/"
     ],
-    "categories": ["concert hall", "contemporary", "Architecture Classics"]
+    "categories": ["concert hall", "contemporary", "Architecture Classics"],
+    "style": "Deconstructivism"
   },
   {
     "answer": "Casa das Histórias Paula Rego / Eduardo Souto de Moura / Cascais, Portugal",
@@ -4418,7 +4421,8 @@
       "https://en.wikipedia.org/wiki/Louis_Vuitton_Foundation",
       "https://en.wikiarquitectura.com/building/Louis-Vuitton-Foundation/"
     ],
-    "categories": []
+    "categories": [],
+    "style": "Deconstructivism"
   },
   {
     "answer": "Millennium Dome (O2 Arena) / Richard Rogers, Rogers Stirk Harbour and Partners / London, United Kingdom (UK)",
@@ -6125,7 +6129,8 @@
     ],
     "years": "2004",
     "links": ["https://en.wikipedia.org/wiki/Stata_Center"],
-    "categories": ["university", "deconstructivist", "community"]
+    "categories": ["university", "community"],
+    "style": "Deconstructivism"
   },
   {
     "answer": "Rushton Triangular Lodge / Sir Thomas Tresham / Rushton, Northamptonshire, United Kingdom (UK)",
@@ -6752,7 +6757,7 @@
     "categories": ["skyscraper"]
   },
   {
-    "answer": "Seattle Central Public Library / OMA/LMN, Rem Koolhaas, Joshua Prince-Ramus / Seattle, Washington, United States of America (USA)",
+    "answer": "Seattle Central Public Library / LMN Architects, Office for Metropolitan Architecture (OMA), Rem Koolhaas, Joshua Prince-Ramus / Seattle, Washington, United States of America (USA)",
     "days": [507],
     "copyrights": [
       {
@@ -6764,7 +6769,8 @@
     ],
     "years": "2002-2004",
     "links": ["https://en.wikipedia.org/wiki/Seattle_Central_Library"],
-    "categories": ["library", "contemporary"]
+    "categories": ["library", "contemporary"],
+    "style": "Deconstructivism"
   },
   {
     "answer": "Cube Orange (The Orange Cube) / Jakob + Macfarlane Architects / Quai Rambaud, Lyon, France",
