@@ -23,7 +23,7 @@
         "npm:prettier@3.4.2",
         "npm:rollup-plugin-visualizer@5.14.0",
         "npm:typescript@5.7.3",
-        "npm:vite@6.0.7",
+        "npm:vite@6.0.9",
         "npm:vue-tsc@2.2.0",
         "npm:vue@3.5.13"
       ]

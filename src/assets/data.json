@@ -10044,5 +10044,22 @@
       "https://en.wikipedia.org/wiki/La_F%C3%A1brica_(Sant_Just_Desvern)"
     ],
     "categories": ["community", "refurbishment"]
+  },
+  {
+    "answer": "Ajanta Caves / Aurangabad district, Maharashtra, India",
+    "days": [939],
+    "copyrights": [
+      {
+        "1": "Dey.sandip (wikimedia)",
+        "2": "James Fergusson / James Burgess (wikimedia)",
+        "3": "Photo Dharma (wikimedia)",
+        "4": "C .SHELARE (wikimedia)",
+        "5": "Soman (wikimedia)",
+        "6": "Freakyyash (wikimedia)"
+      }
+    ],
+    "years": "~200 BCE",
+    "links": ["https://en.wikipedia.org/wiki/Ajanta_Caves"],
+    "categories": ["community", "archaeological", "buddhist"]
   }
 ]
