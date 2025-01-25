@@ -10,10 +10,10 @@
     "packageJson": {
       "dependencies": [
         "npm:@babel/types@7.26.5",
-        "npm:@playwright/test@1.49.1",
-        "npm:@types/node@22.10.7",
+        "npm:@playwright/test@1.50.0",
+        "npm:@types/node@22.10.10",
         "npm:@vitejs/plugin-vue@5.2.1",
-        "npm:@vue/eslint-config-prettier@10.1.0",
+        "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.3.0",
         "npm:@vue/tsconfig@0.7.0",
         "npm:axios@1.7.9",
@@ -23,7 +23,7 @@
         "npm:prettier@3.4.2",
         "npm:rollup-plugin-visualizer@5.14.0",
         "npm:typescript@5.7.3",
-        "npm:vite@6.0.9",
+        "npm:vite@6.0.11",
         "npm:vue-tsc@2.2.0",
         "npm:vue@3.5.13"
       ]
