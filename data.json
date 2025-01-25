@@ -10061,5 +10061,23 @@
     "years": "~200 BCE",
     "links": ["https://en.wikipedia.org/wiki/Ajanta_Caves"],
     "categories": ["community", "archaeological", "buddhist"]
+  },
+  {
+    "answer": "St. Henry’s Ecumenical Art Chapel (Pyhän Henrikin ekumeeninen taidekappeli) / Matti Sanaksenaho / Turku, Finland",
+    "days": [940],
+    "copyrights": [
+      {
+        "2": "Htm (wikimedia)",
+        "3": "Courtesy of the Architect",
+        "4": "Courtesy of the Architect",
+        "6": "MKFI (wikimedia)",
+        "*": "Stefan Flöper (wikimedia)"
+      }
+    ],
+    "years": "2004",
+    "links": [
+      "https://fi.wikipedia.org/wiki/Pyh%C3%A4n_Henrikin_ekumeeninen_taidekappeli"
+    ],
+    "categories": ["community", "religious"]
   }
 ]
