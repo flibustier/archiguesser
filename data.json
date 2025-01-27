@@ -10079,5 +10079,23 @@
       "https://fi.wikipedia.org/wiki/Pyh%C3%A4n_Henrikin_ekumeeninen_taidekappeli"
     ],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Chilehaus (Chile House) / Fritz Höger / Hamburg, Germany",
+    "days": [942],
+    "copyrights": [
+      {
+        "1": "Ajepbah (wikimedia)",
+        "2": "Dietmar Rabich (wikimedia)",
+        "3": "Ajepbah (wikimedia)",
+        "4": "KMJ (wikimedia)",
+        "5": "Martina Nolte (wikimedia)",
+        "6": "Esther Westerveld (wikimedia)"
+      }
+    ],
+    "years": "1921-1924",
+    "links": ["https://en.wikipedia.org/wiki/Chilehaus"],
+    "categories": ["community"],
+    "style": "Brick Expressionism"
   }
 ]
