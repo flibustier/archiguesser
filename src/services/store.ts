@@ -129,7 +129,9 @@ export const getSavedFeedbacks = () => {
 };
 
 export const saveFeedback = (value = "skipped") => {
-  const feedback = fetchArray(ObjectName.Feedback);
+  const feedback = fetchArray<Feedback>(ObjectName.Feedback).filter(
+    ({ value }) => value !== "skipped",
+  );
   feedback.push({
     day: getRealDayNumber(),
     value,
