@@ -7,6 +7,11 @@ export interface Stats {
   lastPlayed: number;
   [day: string]: number;
 }
+export interface FeedbackFormData {
+  email: string;
+  want_credit: boolean;
+  credit_name: string;
+}
 
 enum ObjectName {
   Challenges = "challenges",
@@ -15,6 +20,7 @@ enum ObjectName {
   LogIn = "login",
   Feedback = "feedback",
   ClientID = "clientID",
+  FeedbackForm = "feedbackForm",
 }
 
 const fetchObject = (name: ObjectName) =>
@@ -26,6 +32,14 @@ export const getStats = (): Stats => fetchObject(ObjectName.Stats);
 export const getSettings = (): Settings => fetchObject(ObjectName.Settings);
 export const getChallenges = (): Challenges =>
   fetchObject(ObjectName.Challenges);
+
+export const getFeedbackFormRecurringData = (): FeedbackFormData =>
+  ({
+    email: "",
+    want_credit: false,
+    credit_name: "",
+    ...fetchObject(ObjectName.FeedbackForm),
+  }) as FeedbackFormData;
 
 const setObject =
   <T>(object: ObjectName) =>
@@ -40,6 +54,19 @@ const setObject =
 
 export const setSetting = setObject<Settings>(ObjectName.Settings);
 export const setChallenges = setObject<Challenges>(ObjectName.Challenges);
+
+export const setFeedbackFormRecurringData = (
+  feedbackForm: FeedbackFormData,
+) => {
+  localStorage.setItem(
+    ObjectName.FeedbackForm,
+    JSON.stringify({
+      email: feedbackForm.email,
+      want_credit: feedbackForm.want_credit,
+      credit_name: feedbackForm.credit_name,
+    }),
+  );
+};
 
 const overrideObject =
   (object: ObjectName) =>

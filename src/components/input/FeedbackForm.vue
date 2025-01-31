@@ -4,26 +4,28 @@ import { ref, computed, reactive } from "vue";
 import ToggleSwitch from "@/components/basic/ToggleSwitch.vue";
 
 import { sendFeedback } from "@/services/api";
-import { saveFeedback, isLogged, getSavedFeedbacks } from "@/services/store";
+import {
+  isLogged,
+  saveFeedback,
+  getSavedFeedbacks,
+  getFeedbackFormRecurringData,
+  setFeedbackFormRecurringData,
+} from "@/services/store";
 
 const isSending = ref(false);
 
 const formData = reactive({
+  ...getFeedbackFormRecurringData(),
   link: "",
-  email: localStorage.getItem("feedback/email") || "",
   project: "",
   is_involved: false,
-  want_credit: localStorage.getItem("feedback/want_credit") === "true",
-  credit_name: localStorage.getItem("feedback/credit_name") || "",
 });
 
 const emit = defineEmits(["submitted"]);
 
 const submit = async () => {
   isSending.value = true;
-  localStorage.setItem("feedback/email", formData.email);
-  localStorage.setItem("feedback/want_credit", formData.want_credit.toString());
-  localStorage.setItem("feedback/credit_name", formData.credit_name);
+  setFeedbackFormRecurringData(formData);
   await sendFeedback(formData);
   saveFeedback(formData.project);
   emit("submitted");

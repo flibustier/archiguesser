@@ -117,9 +117,9 @@ interface Feedback {
   link: string;
   email: string;
   project: string;
-  isInvolved: boolean;
-  wantCredit: boolean;
-  creditName: string;
+  is_involved: boolean;
+  want_credit: boolean;
+  credit_name: string;
 }
 
 export const sendFeedback = async (feedback: Feedback): Promise<void> => {
