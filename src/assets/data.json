@@ -10112,5 +10112,22 @@
     "years": "1637-1638",
     "links": ["https://en.wikipedia.org/wiki/Punakha_Dzong"],
     "categories": ["community", "buddhist"]
+  },
+  {
+    "answer": "Queen’s House / Inigo Jones / Greenwich, London, United Kingdom",
+    "days": [947],
+    "copyrights": [
+      {
+        "2": "Courtesy of the Architect",
+        "3": "MrsEllacott (wikimedia)",
+        "4": "Colin (wikimedia)",
+        "6": "Bill Bertram (wikimedia)",
+        "*": "Mcginnly (wikimedia)"
+      }
+    ],
+    "years": "1616-1635",
+    "links": ["https://en.wikipedia.org/wiki/Queen%27s_House"],
+    "categories": ["community"],
+    "style": "Palladian architecture"
   }
 ]
