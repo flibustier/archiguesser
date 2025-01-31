@@ -113,14 +113,21 @@ export const sendChallengeResult = async (
   }
 };
 
-export const sendFeedback = async (value: string): Promise<void> => {
+interface Feedback {
+  link: string;
+  email: string;
+  project: string;
+  isInvolved: boolean;
+  wantCredit: boolean;
+  creditName: string;
+}
+
+export const sendFeedback = async (feedback: Feedback): Promise<void> => {
   try {
-    await postData("feedback", {
-      value,
-    });
+    await postData("feedback", feedback);
   } catch (error) {
     console.error(error);
-    sendEvent("feedback: " + value);
+    sendEvent("feedback: " + feedback.project);
   }
 };
 

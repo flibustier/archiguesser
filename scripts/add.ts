@@ -11,10 +11,7 @@ const formatterConfig = {
 };
 
 if (Deno.args.length > 1) {
-  console.log(
-    "%cUsage: add ([LINK])",
-    "color: red"
-  );
+  console.log("%cUsage: add ([LINK])", "color: red");
 }
 
 const link = Deno.args[0] || "";
@@ -30,7 +27,7 @@ data.push(dayData);
 
 await Deno.writeTextFile(
   "src/assets/data.json",
-  await format(JSON.stringify(data, null, 2), formatterConfig)
+  await format(JSON.stringify(data, null, 2), formatterConfig),
 );
 
 console.log("%cUpdated :\n" + JSON.stringify(dayData, null, 2), "color: green");

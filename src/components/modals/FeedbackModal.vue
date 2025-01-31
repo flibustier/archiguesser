@@ -54,7 +54,6 @@ const feedbackAlreadySkipped = computed(
           <span v-else>Your last suggestion was greatly appreciated!</span>
           <br />
           <br />
-          You get to write down a project you would like to see on ArchiGuesser
         </p>
 
         <FeedbackForm @submitted="onSubmitted" class="mt-1" />
