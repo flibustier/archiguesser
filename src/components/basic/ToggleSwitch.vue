@@ -8,6 +8,10 @@ defineProps({
     type: String,
     default: "",
   },
+  id: {
+    type: String,
+    default: "",
+  },
 });
 defineEmits(["update:modelValue"]);
 </script>
@@ -17,6 +21,8 @@ defineEmits(["update:modelValue"]);
     <span style="margin-right: 0.5rem">{{ label }}</span>
     <label class="switch">
       <input
+        :id="id"
+        :name="id"
         type="checkbox"
         :checked="modelValue"
         @input="

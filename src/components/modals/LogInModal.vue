@@ -129,12 +129,13 @@ form {
 
 .input-row {
   max-width: 25rem;
-}
 
-input {
-  height: 1.5rem;
-  width: 100%;
-  max-width: 20rem;
-  padding: 0.05rem 0.5rem;
+  input {
+    height: 1.5rem;
+    width: 100%;
+    max-width: 20rem;
+    padding: 0.05rem 0.5rem;
+    font-size: small;
+  }
 }
 </style>

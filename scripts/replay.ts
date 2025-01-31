@@ -12,7 +12,7 @@ const formatterConfig = {
 if (Deno.args.length < 1) {
   console.log(
     "%cUsage: replay [PREVIOUS DAY NUMBER] ([NEXT DAY NUMBER])",
-    "color: red"
+    "color: red",
   );
 }
 
@@ -33,7 +33,7 @@ dayData.days.push(nextDay);
 
 await Deno.writeTextFile(
   "src/assets/data.json",
-  await format(JSON.stringify(data, null, 2), formatterConfig)
+  await format(JSON.stringify(data, null, 2), formatterConfig),
 );
 
 await Deno.symlink(`${day}`, `public/${nextDay}`);
