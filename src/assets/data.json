@@ -10097,5 +10097,20 @@
     "links": ["https://en.wikipedia.org/wiki/Chilehaus"],
     "categories": ["community"],
     "style": "Brick Expressionism"
+  },
+  {
+    "answer": "Punakha Dzong (Pungthang Dewa chhenbi Phodrang) / Zowe Palep / Punakha, Bhutan",
+    "days": [946],
+    "copyrights": [
+      {
+        "2": "Leon petrosyan (wikimedia)",
+        "3": "David Broad (wikimedia)",
+        "5": "Richard Mortel (wikimedia)",
+        "*": "Bernard Gagnon (wikimedia)"
+      }
+    ],
+    "years": "1637-1638",
+    "links": ["https://en.wikipedia.org/wiki/Punakha_Dzong"],
+    "categories": ["community", "buddhist"]
   }
 ]
