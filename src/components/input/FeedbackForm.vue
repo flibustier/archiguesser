@@ -56,7 +56,7 @@ const hasAlreadyContribute = getSavedFeedbacks().length > 0;
     <template v-if="isFormValid || hasAlreadyContribute">
       <div class="input-wrap-line">
         <label for="is-involved">
-          Were you involved in this project or worked for the agency that
+          Were you involved in this project or worked for the studio that
           carried out this project?
         </label>
         <ToggleSwitch id="is-involved" v-model="formData.is_involved" />
