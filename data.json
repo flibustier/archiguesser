@@ -5909,7 +5909,7 @@
   },
   {
     "answer": "Trevi Fountain (Fontana di Trevi) / Nicola Salvi, Giuseppe Pannini / Rome, Italy",
-    "days": [405],
+    "days": [405, 949],
     "copyrights": [
       {
         "1": "Livioandronico2013 (wikimedia)",
@@ -5922,7 +5922,7 @@
     ],
     "years": "1732–1762",
     "links": ["https://en.wikipedia.org/wiki/Trevi_Fountain"],
-    "categories": []
+    "categories": ["famous"]
   },
   {
     "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
