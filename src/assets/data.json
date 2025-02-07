@@ -10143,5 +10143,22 @@
     "years": "2013",
     "links": ["https://en.wikipedia.org/wiki/Landesarchiv_Nordrhein-Westfalen"],
     "categories": ["community", "refurbishment"]
+  },
+  {
+    "answer": "Royal Museum of Fine Arts Antwerp (Koninklijk Museum voor Schone Kunsten Antwerpen, KMSKA) / KAAN Architecten, Jean-Jacques Winders, Frans Van Dijk / Antwerp, Belgium",
+    "days": [953],
+    "copyrights": [
+      {
+        "2": "L: Karin Borghouts, R: Stijn Bollaert",
+        "3": "L: Karin Borghouts, R: Stijn Bollaert",
+        "5": "TheGoodEndedHappily (wikimedia)",
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "1884-1894,",
+    "links": [
+      "https://en.wikipedia.org/wiki/Royal_Museum_of_Fine_Arts_Antwerp"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
