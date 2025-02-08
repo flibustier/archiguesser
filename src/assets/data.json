@@ -10160,5 +10160,18 @@
       "https://en.wikipedia.org/wiki/Royal_Museum_of_Fine_Arts_Antwerp"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Villa Necchi Campiglio / Piero Portaluppi, Tomaso Buzzi / Milan, Italy",
+    "days": [954],
+    "copyrights": [
+      {
+        "*": "FAI-Fondo (arenaimmagini.it)"
+      }
+    ],
+    "years": "1932–1935",
+    "links": ["https://en.wikipedia.org/wiki/Villa_Necchi_Campiglio"],
+    "categories": ["community", "movie set", "house"],
+    "style": "Rationalist"
   }
 ]
