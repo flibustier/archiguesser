@@ -10173,5 +10173,22 @@
     "links": ["https://en.wikipedia.org/wiki/Villa_Necchi_Campiglio"],
     "categories": ["community", "movie set", "house"],
     "style": "Rationalist"
+  },
+  {
+    "answer": "London Eye (Millennium Wheel) / David Marks, Julia Barfield, Josvoll Oslo, Malcolm Cook, Mark Sparrowhawk, Steven Chilton, Frank Anatole, Joanna Bailey, Nic Bailey / London, United Kingdom (UK)",
+    "days": [956],
+    "copyrights": [
+      {
+        "1": "Sauron9 (wikimedia)",
+        "2": "Christine Matthews (wikimedia)",
+        "3": "Misterweiss (wikimedia)",
+        "4": "Tim-desser (wikimedia)",
+        "5": "LA(PHOT) PAUL A'BARROW/MOD (wikimedia)",
+        "6": "Khamtran (wikimedia)"
+      }
+    ],
+    "years": "1998-1999",
+    "links": ["https://en.wikipedia.org/wiki/London_Eye"],
+    "categories": ["community"]
   }
 ]
