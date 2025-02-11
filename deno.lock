@@ -18,7 +18,7 @@
         "npm:@vue/tsconfig@0.7.0",
         "npm:axios@1.7.9",
         "npm:eslint-plugin-vue@9.32.0",
-        "npm:eslint@9.19.0",
+        "npm:eslint@9.20.0",
         "npm:lightningcss@1.29.1",
         "npm:prettier@3.4.2",
         "npm:rollup-plugin-visualizer@5.14.0",
