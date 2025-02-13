@@ -6413,8 +6413,8 @@
     "recommendation": "saarinen"
   },
   {
-    "answer": "Bergisel Ski Jump / Zaha Hadid / Bersigel, Innsbruck, Austria",
-    "days": [467],
+    "answer": "Bergisel Ski Jump (Bergiselschanze) / Zaha Hadid / Bersigel, Innsbruck, Austria",
+    "days": [467, 959],
     "copyrights": [
       {
         "1": "James Taylor-Foster",
@@ -6424,7 +6424,10 @@
       }
     ],
     "years": "2003",
-    "links": ["https://www.zaha-hadid.com/architecture/bergisel-ski-jump/"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Bergisel_Ski_Jump",
+      "https://www.zaha-hadid.com/architecture/bergisel-ski-jump/"
+    ],
     "categories": ["contemporary", "Architecture Classics"],
     "recommendation": "hadid"
   },

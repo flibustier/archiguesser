@@ -9,18 +9,18 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@babel/types@7.26.7",
+        "npm:@babel/types@7.26.8",
         "npm:@playwright/test@1.50.1",
         "npm:@types/node@22.13.1",
         "npm:@vitejs/plugin-vue@5.2.1",
         "npm:@vue/eslint-config-prettier@10.2.0",
-        "npm:@vue/eslint-config-typescript@14.3.0",
+        "npm:@vue/eslint-config-typescript@14.4.0",
         "npm:@vue/tsconfig@0.7.0",
         "npm:axios@1.7.9",
         "npm:eslint-plugin-vue@9.32.0",
-        "npm:eslint@9.20.0",
+        "npm:eslint@9.20.1",
         "npm:lightningcss@1.29.1",
-        "npm:prettier@3.4.2",
+        "npm:prettier@3.5.0",
         "npm:rollup-plugin-visualizer@5.14.0",
         "npm:typescript@5.7.3",
         "npm:vite@6.1.0",
