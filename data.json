@@ -10193,5 +10193,22 @@
     "years": "1998-1999",
     "links": ["https://en.wikipedia.org/wiki/London_Eye"],
     "categories": ["community"]
+  },
+  {
+    "answer": "James R. Thompson Center (JRTC) / Helmut Jahn / Chicago, Illinois, United States of America (USA)",
+    "days": [960],
+    "copyrights": [
+      {
+        "1": "Tribune Archive Photos",
+        "3": "Mobilus In Mobili (wikimedia)",
+        "5": "William Zbaren Photography",
+        "6": "ajay_suresh (wikimedia)",
+        "*": "Serhii Chrucky"
+      }
+    ],
+    "years": "1979-1985",
+    "links": ["https://en.wikipedia.org/wiki/James_R._Thompson_Center"],
+    "categories": ["community", "postmodern"],
+    "credits": "N.R."
   }
 ]
