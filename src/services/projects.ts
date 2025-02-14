@@ -52,14 +52,11 @@ export const getProjectInformation = (day?: string | null) => {
     }
 
     return {
+      ...dayInformation,
       dayNumber,
-      answer: dayInformation.answer,
       isMonument: (dayInformation.categories as string[]).includes("monument"),
       constructionYears: dayInformation.years,
       copyrights,
-      links: dayInformation.links,
-      categories: dayInformation.categories,
-      recommendation: dayInformation.recommendation,
     };
   }
 

@@ -31,33 +31,19 @@ const props = defineProps({
     type: Array<string>,
     required: true,
   },
-  dayNumber: {
-    type: Number,
-    required: true,
-  },
-  answer: {
-    type: String,
-    required: true,
-  },
   percent: {
     type: Number,
     required: false,
   },
-  links: {
-    type: Array<string>,
-    default: [],
-  },
-  categories: {
-    type: Array<string>,
-    default: [],
-  },
-  recommendation: {
-    type: String,
-    default: undefined,
+  project: {
+    type: Object,
+    required: true,
   },
 });
 
-const isCommunity = computed(() => props.categories.includes("community"));
+const isCommunity = computed(() =>
+  props.project.categories.includes("community"),
+);
 
 const resultSquares = computed(() => {
   const redSquares = `<span class="square red">🟥</span> `.repeat(
@@ -75,9 +61,9 @@ const resultSquares = computed(() => {
 });
 
 const shareMessage = computed(() => {
-  return `${APP_NAME} #${props.dayNumber}\n🏛 ${
+  return `${APP_NAME} #${props.project.dayNumber}\n🏛 ${
     document.getElementById("share-message")?.textContent || ""
-  }\n\n${URL}/?day=${props.dayNumber}`;
+  }\n\n${URL}/?day=${props.project.dayNumber}`;
 });
 
 const copy = async () => {
@@ -102,13 +88,13 @@ const copy = async () => {
 };
 
 const openLinks = () => {
-  window.open(props.links[0], "_blank")?.focus();
+  window.open(props.project.links[0], "_blank")?.focus();
   sendEvent("Learn");
 };
 
 onMounted(async () => {
-  if (props.links.length > 0) {
-    description.value = await fetchWikipediaSummary(props.links[0]);
+  if (props.project.links.length > 0) {
+    description.value = await fetchWikipediaSummary(props.project.links[0]);
   }
 });
 </script>
@@ -118,7 +104,7 @@ onMounted(async () => {
     <div class="result">
       <h2 v-if="hasWon">You got it! 🎉</h2>
       <h2 v-else>
-        The answer was: <span class="answer">{{ answer }}</span>
+        The answer was: <span class="answer">{{ project.answer }}</span>
       </h2>
       <div v-if="percent && percent < 50" class="emphasis">
         🥇 Only {{ percent }}% found it in {{ guesses.length }} tries or less!
@@ -150,7 +136,7 @@ onMounted(async () => {
         <button
           class="btn-secondary"
           @click="openLinks"
-          v-if="links.length > 0"
+          v-if="project.links.length > 0"
         >
           <span>Learn more about it</span>
           <IconWiki />
@@ -163,11 +149,12 @@ onMounted(async () => {
     </div>
     <div class="extra">
       <p v-if="description" class="description border" v-html="description" />
-      <RecommendationLink :recommendation="props.recommendation" />
+      <RecommendationLink :recommendation="project.recommendation" />
     </div>
     <p v-if="isCommunity" class="text-center">
-      This project has been brought to you by one of ArchiGuesser’s players.
-      Thank you 👏
+      This project has been brought to you by
+      {{ project.credits ? project.credits + ", an" : "one of" }} ArchiGuesser’s
+      players. Thank you 👏
     </p>
     <div>
       <span>Next challenge <b class="emphasis">tomorrow</b>! 🕛</span>
