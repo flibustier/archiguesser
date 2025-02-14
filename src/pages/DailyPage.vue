@@ -29,15 +29,8 @@ if (
 const stats = getStats();
 const percent = ref();
 const guesses: string[] = reactive([]);
-const {
-  dayNumber,
-  answer,
-  constructionYears,
-  copyrights,
-  links,
-  categories,
-  recommendation,
-} = reactive(getProjectInformation(requestedDay));
+const project = reactive(getProjectInformation(requestedDay));
+const { dayNumber, answer, constructionYears, copyrights } = project;
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
@@ -111,12 +104,8 @@ tagFeedbacks();
     v-else
     :guesses="guesses"
     :has-won="hasWon"
-    :day-number="dayNumber"
-    :answer="answer"
     :percent="percent"
-    :links="links"
-    :categories="categories"
-    :recommendation="recommendation"
+    :project="project"
     @showBackModal="$emit('showBackModal')"
   />
 </template>
