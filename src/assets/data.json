@@ -10210,5 +10210,22 @@
     "links": ["https://en.wikipedia.org/wiki/James_R._Thompson_Center"],
     "categories": ["community", "postmodern"],
     "credits": "N.R."
+  },
+  {
+    "answer": "De La Warr Pavilion / Erich Mendelsohn, Serge Chermayeff / Bexhill-on-Sea, United Kingdom (UK)",
+    "days": [961],
+    "copyrights": [
+      {
+        "1": "Brian Hession (wikimedia)",
+        "2": "Antony J Shepherd",
+        "3": "Handolio",
+        "4": "vince2012",
+        "5": "Anthony F. Kersting (wikimedia)",
+        "6": "Alan Stanton (wikimedia)"
+      }
+    ],
+    "years": "1935",
+    "links": ["https://en.wikipedia.org/wiki/De_La_Warr_Pavilion"],
+    "categories": ["community", "modernism", "international"]
   }
 ]
