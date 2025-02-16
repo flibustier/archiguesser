@@ -10226,6 +10226,28 @@
     ],
     "years": "1935",
     "links": ["https://en.wikipedia.org/wiki/De_La_Warr_Pavilion"],
-    "categories": ["community", "modernism", "international"]
+    "categories": [
+      "community",
+      "modernism",
+      "international",
+      "Architecture Classics"
+    ]
+  },
+  {
+    "answer": "Aachen Cathedral (Aachener Dom, Aix-la-Chapelle) / Eudes de Metz / Aachen, Germany",
+    "days": [962],
+    "copyrights": [
+      {
+        "1": "Geolina163 (wikimedia)",
+        "2": "Arnoldius (wikimedia)",
+        "3": "Berthold Werner (wikimedia)",
+        "4": "Sascha Faber (wikimedia)",
+        "5": "Unknown author (wikimedia)",
+        "6": "CEphoto, Uwe Aranas (wikimedia)"
+      }
+    ],
+    "years": "796-805",
+    "links": ["https://en.wikipedia.org/wiki/Aachen_Cathedral"],
+    "categories": ["community", "religious"]
   }
 ]
