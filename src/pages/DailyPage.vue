@@ -32,6 +32,8 @@ const guesses: string[] = reactive([]);
 const project = reactive(getProjectInformation(requestedDay));
 const { dayNumber, answer, constructionYears, copyrights } = project;
 
+document.title = `ArchiGuesser #${dayNumber} - Guess the daily architectural project from the pictures`;
+
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
 } else {

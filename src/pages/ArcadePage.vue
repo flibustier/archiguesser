@@ -67,6 +67,8 @@ const blackSquares = computed(
 
 const currentProject = computed(() => projects[remainingGuesses.value - 1]);
 
+document.title = `ArchiGuesser ${requestedCategory} challenge - Level ${currentLevel.value} / ${maxLevel}`;
+
 const goHome = () => window.location.replace("/");
 
 const sendResult = (failedOn = "") => {
