@@ -10250,5 +10250,21 @@
     "years": "796-805",
     "links": ["https://en.wikipedia.org/wiki/Aachen_Cathedral"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Louisiana Museum of Modern Art / Jørgen Bo, Wilhelm Wohlert, Claus Wohlert / Humlebæk, Denmark",
+    "days": [967],
+    "copyrights": [
+      {
+        "1": "Ulrik Jantzen",
+        "3": "Jeremy Jachym",
+        "4": "IK's world Trip (wikimedia)",
+        "6": "Lars Plougmann (wikimedia)",
+        "*": "Kim Hansen"
+      }
+    ],
+    "years": "1958",
+    "links": ["https://en.wikipedia.org/wiki/Louisiana_Museum_of_Modern_Art"],
+    "categories": ["community", "museum"]
   }
 ]
