@@ -10266,5 +10266,22 @@
     "years": "1958",
     "links": ["https://en.wikipedia.org/wiki/Louisiana_Museum_of_Modern_Art"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Philharmonic Hall Szczecin (Mieczysław Karłowicz Philharmonic) / Studio Barozzi Veiga / Szczecin, Poland",
+    "days": [969],
+    "copyrights": [
+      {
+        "1": "Simon Menges",
+        "2": "Simon Menges",
+        "3": "Courtesy of the Architect",
+        "4": "DrKssn (wikimedia)",
+        "5": "DrKssn (wikimedia)",
+        "6": "Kapitel (wikimedia)"
+      }
+    ],
+    "years": "2014",
+    "links": ["https://en.wikipedia.org/wiki/Szczecin_Philharmonic"],
+    "categories": ["community", "concert hall", "favorites"]
   }
 ]
