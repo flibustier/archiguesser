@@ -1602,14 +1602,15 @@
   },
   {
     "answer": "Museo Jumex / David Chipperfield / Mexico City, Mexico",
-    "days": [93],
+    "days": [93, 970],
     "copyrights": [
       {
         "*": "Simon Menges"
       }
     ],
+    "years": "2013",
     "links": ["https://en.wikipedia.org/wiki/Museo_Jumex"],
-    "categories": []
+    "categories": ["museum"]
   },
   {
     "answer": "Yusuhara Marche (Community Market) / Kengo Kuma & Associates / Yusuhara, Takaoka-gun, Koch, Japan",
