@@ -10284,5 +10284,21 @@
     "years": "2014",
     "links": ["https://en.wikipedia.org/wiki/Szczecin_Philharmonic"],
     "categories": ["community", "concert hall", "favorites"]
+  },
+  {
+    "answer": "Basilica of Our Lady of Meritxell (Basílica Santuari de Nostra Senyora de Meritxell) / Ricardo Bofill / Canillo, Andorra",
+    "days": [971],
+    "copyrights": [
+      {
+        "1": "Don-vip (wikimedia)",
+        "2": "MARIA ROSA FERRE (wikimedia)",
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "1975-1976",
+    "links": [
+      "https://ca.wikipedia.org/wiki/Bas%C3%ADlica_Santuari_de_Nostra_Senyora_de_Meritxell"
+    ],
+    "categories": ["community", "religious"]
   }
 ]
