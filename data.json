@@ -4307,16 +4307,16 @@
   },
   {
     "answer": "Palais de Justice (Courthouse) / Jean Nouvel / Nantes, France",
-    "days": [272],
+    "days": [272, 972],
     "copyrights": [
       {
-        "1": "Jonathan Platteau",
-        "6": "Jonathan Platteau",
+        "1": "Jonathan Platteau (wikimedia)",
+        "6": "Jonathan Platteau (wikimedia)",
         "*": "Courtesy of the Architect"
       }
     ],
     "years": "1993-2000",
-    "links": ["https://en.wikipedia.org/wiki/Palais_de_Justice"],
+    "links": ["https://fr.wikipedia.org/wiki/Palais_de_justice_de_Nantes"],
     "categories": ["courthouse"],
     "recommendation": "nouvel"
   },
