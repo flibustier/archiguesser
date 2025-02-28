@@ -27,7 +27,7 @@
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/eslint-config-typescript": "14.4.0",
     "@vue/tsconfig": "0.7.0",
-    "axios": "1.7.9",
+    "axios": "1.8.1",
     "eslint": "9.21.0",
     "eslint-plugin-vue": "9.32.0",
     "lightningcss": "1.29.1",
