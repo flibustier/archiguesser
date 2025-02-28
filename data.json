@@ -10300,5 +10300,19 @@
       "https://ca.wikipedia.org/wiki/Bas%C3%ADlica_Santuari_de_Nostra_Senyora_de_Meritxell"
     ],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Musée L (Musée universitaire de Louvain, Louvain University Museum) / André Jacqmain, Jules Wabbes / Louvain-la-Neuve, Walloon Brabant, Belgium",
+    "days": [974],
+    "copyrights": [
+      {
+        "5": "EmDee (wikimedia)",
+        "6": "EmDee (wikimedia)",
+        "*": "boussolemagique.com"
+      }
+    ],
+    "years": "1970-1975, 2015-2017",
+    "links": ["https://en.wikipedia.org/wiki/Mus%C3%A9e_L"],
+    "categories": ["community", "museum", "refurbishment"]
   }
 ]
