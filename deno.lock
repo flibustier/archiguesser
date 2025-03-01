@@ -16,15 +16,15 @@
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.4.0",
         "npm:@vue/tsconfig@0.7.0",
-        "npm:axios@1.7.9",
+        "npm:axios@1.8.1",
         "npm:eslint-plugin-vue@9.32.0",
         "npm:eslint@9.21.0",
         "npm:lightningcss@1.29.1",
-        "npm:prettier@3.5.1",
+        "npm:prettier@3.5.2",
         "npm:rollup-plugin-visualizer@5.14.0",
-        "npm:typescript@5.7.3",
-        "npm:vite@6.1.1",
-        "npm:vue-tsc@2.2.2",
+        "npm:typescript@5.8.2",
+        "npm:vite@6.2.0",
+        "npm:vue-tsc@2.2.4",
         "npm:vue@3.5.13"
       ]
     }

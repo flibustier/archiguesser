@@ -10314,5 +10314,21 @@
     "years": "1970-1975, 2015-2017",
     "links": ["https://en.wikipedia.org/wiki/Mus%C3%A9e_L"],
     "categories": ["community", "museum", "refurbishment"]
+  },
+  {
+    "answer": "Siemensstadt Settlement (Großsiedlung Siemensstadt, Ring Settlement, Ringsiedlung) / Hans Scharoun, Fred Forbát, Otto Bartning, Walter Gropius, Paul Rudolph Henning, Hugo Häring / Charlottenburg-Wilmersdorf, Berlin, Germany",
+    "days": [975],
+    "copyrights": [
+      {
+        "3": "architectuul",
+        "5": "Deutsche Bild Galerie",
+        "6": "Courtesy of the Architect",
+        "*": "Doris Antony (wikimedia)"
+      }
+    ],
+    "years": "1929-1931",
+    "links": ["https://en.wikipedia.org/wiki/Gro%C3%9Fsiedlung_Siemensstadt"],
+    "categories": ["community", "housing"],
+    "recommendation": "gropius"
   }
 ]
