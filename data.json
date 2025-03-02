@@ -10330,5 +10330,23 @@
     "links": ["https://en.wikipedia.org/wiki/Gro%C3%9Fsiedlung_Siemensstadt"],
     "categories": ["community", "housing"],
     "recommendation": "gropius"
+  },
+  {
+    "answer": "Milwaukee Art Museum (MAM) / Santiago Calatrava, Eero Saarinen, David Kahler, James Shields / Milwaukee, Wisconsin, United States of America (USA)",
+    "days": [976],
+    "copyrights": [
+      {
+        "1": "chris.rycroft (wikimedia)",
+        "2": "Sailko (wikimedia)",
+        "3": "adam orcutt (wikimedia)",
+        "4": "Uriel-carmen (wikimedia)",
+        "5": "Steven Andrew Miller (wikimedia)",
+        "6": "Carol M. Highsmith (wikimedia)"
+      }
+    ],
+    "years": "1957, 2001",
+    "links": ["https://en.wikipedia.org/wiki/Milwaukee_Art_Museum"],
+    "categories": ["community", "museum"],
+    "recommendation": "calatrava"
   }
 ]
