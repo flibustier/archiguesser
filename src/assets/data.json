@@ -2428,13 +2428,14 @@
   },
   {
     "answer": "San Cataldo Cemetery / Aldo Rossi / Modena, Italy",
-    "days": [148],
+    "days": [148, 979],
     "copyrights": [
       {
         "*": "Laurian Ghinitoiu"
       }
     ],
-    "links": [],
+    "years": "1971",
+    "links": ["https://it.wikipedia.org/wiki/Cimitero_di_San_Cataldo"],
     "categories": ["Architecture Classics"]
   },
   {
