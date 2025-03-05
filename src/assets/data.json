@@ -10349,5 +10349,19 @@
     "links": ["https://en.wikipedia.org/wiki/Milwaukee_Art_Museum"],
     "categories": ["community", "museum"],
     "recommendation": "calatrava"
+  },
+  {
+    "answer": "Tbilisi Public Service Hall / Studio Fuksas, Doriana Fuksas, Massimiliano Fuksas / Tbilisi, Georgia",
+    "days": [980],
+    "copyrights": [
+      {
+        "2": "Moreno Maggi",
+        "5": "Moreno Maggi",
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2012",
+    "links": ["https://en.wikipedia.org/wiki/Public_Service_Hall"],
+    "categories": ["community", "institution"]
   }
 ]
