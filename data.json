@@ -10363,5 +10363,21 @@
     "years": "2012",
     "links": ["https://en.wikipedia.org/wiki/Public_Service_Hall"],
     "categories": ["community", "institution"]
+  },
+  {
+    "answer": "Résidence Salmson Le Point du Jour / Fernand Pouillon, Jacques Henri-Labourdette / Boulogne-Billancourt, France",
+    "days": [981],
+    "copyrights": [
+      {
+        "2": "Olivier Amsellem",
+        "3": "Olivier Amsellem",
+        "*": "Vincevinss (wikimedia)"
+      }
+    ],
+    "years": "1958-1963",
+    "links": [
+      "https://fr.wikipedia.org/wiki/R%C3%A9sidence_Salmson_Le_Point_du_Jour"
+    ],
+    "categories": ["community", "modernism"]
   }
 ]
