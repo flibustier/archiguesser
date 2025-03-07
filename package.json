@@ -35,6 +35,6 @@
     "rollup-plugin-visualizer": "5.14.0",
     "typescript": "5.8.2",
     "vite": "6.2.1",
-    "vue-tsc": "2.2.4"
+    "vue-tsc": "2.2.8"
   }
 }
