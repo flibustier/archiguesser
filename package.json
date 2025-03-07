@@ -30,7 +30,7 @@
     "axios": "1.8.1",
     "eslint": "9.21.0",
     "eslint-plugin-vue": "9.32.0",
-    "lightningcss": "1.29.1",
+    "lightningcss": "1.29.2",
     "prettier": "3.5.2",
     "rollup-plugin-visualizer": "5.14.0",
     "typescript": "5.8.2",
