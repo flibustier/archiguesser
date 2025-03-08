@@ -11,20 +11,20 @@
       "dependencies": [
         "npm:@babel/types@7.26.9",
         "npm:@playwright/test@1.50.1",
-        "npm:@types/node@22.13.7",
+        "npm:@types/node@22.13.9",
         "npm:@vitejs/plugin-vue@5.2.1",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.4.0",
         "npm:@vue/tsconfig@0.7.0",
-        "npm:axios@1.8.1",
+        "npm:axios@1.8.2",
         "npm:eslint-plugin-vue@9.32.0",
         "npm:eslint@9.21.0",
-        "npm:lightningcss@1.29.1",
-        "npm:prettier@3.5.2",
+        "npm:lightningcss@1.29.2",
+        "npm:prettier@3.5.3",
         "npm:rollup-plugin-visualizer@5.14.0",
         "npm:typescript@5.8.2",
-        "npm:vite@6.2.0",
-        "npm:vue-tsc@2.2.4",
+        "npm:vite@6.2.1",
+        "npm:vue-tsc@2.2.8",
         "npm:vue@3.5.13"
       ]
     }
