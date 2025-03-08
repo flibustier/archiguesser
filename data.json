@@ -10379,5 +10379,19 @@
       "https://fr.wikipedia.org/wiki/R%C3%A9sidence_Salmson_Le_Point_du_Jour"
     ],
     "categories": ["community", "modernism"]
+  },
+  {
+    "answer": "Tākina – Wellington Convention and Exhibition Centre / Studio Pacific Architecture / Wellington, New Zealand",
+    "days": [982],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2023",
+    "links": [
+      "https://www.studiopacific.co.nz/projects/featured/takina-the-wellington-convention-and-exhibition-centre/"
+    ],
+    "categories": ["community"]
   }
 ]
