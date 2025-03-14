@@ -10393,5 +10393,18 @@
       "https://www.studiopacific.co.nz/projects/featured/takina-the-wellington-convention-and-exhibition-centre/"
     ],
     "categories": ["community"]
+  },
+  {
+    "answer": "C-Mine Labyrinth / Gijs Van Vaerenbergh / Genk, Belgium",
+    "days": [988],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Architect",
+        "*": "Filip Dujardin"
+      }
+    ],
+    "years": "2015",
+    "links": ["https://nl.wikipedia.org/wiki/C-Mine"],
+    "categories": ["community"]
   }
 ]
