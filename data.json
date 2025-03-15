@@ -10406,5 +10406,21 @@
     "years": "2015",
     "links": ["https://nl.wikipedia.org/wiki/C-Mine"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Pirelli Tower (Pirellone) / Gio Ponti, Pier Luigi Nervi / Milan, Italy",
+    "days": [989],
+    "copyrights": [
+      {
+        "3": "mava (flickr)",
+        "4": "Daniel Case (wikimedia)",
+        "5": "LapoLuchini (wikimedia)",
+        "6": "Francisco Anzola",
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "1956-1958",
+    "links": ["https://en.wikipedia.org/wiki/Pirelli_Tower"],
+    "categories": ["community", "Architecture Classics"]
   }
 ]
