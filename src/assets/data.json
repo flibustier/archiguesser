@@ -10422,5 +10422,22 @@
     "years": "1956-1958",
     "links": ["https://en.wikipedia.org/wiki/Pirelli_Tower"],
     "categories": ["community", "Architecture Classics"]
+  },
+  {
+    "answer": "Markthal Rotterdam (Market Hall) / MVRDV / Rotterdam, Netherlands",
+    "days": [993],
+    "copyrights": [
+      {
+        "1": "Nico Saieh",
+        "2": "Courtesy of the Architect",
+        "3": "Maria Gonzalez",
+        "4": "Arno Coenen (wikimedia)",
+        "5": "Nico Saieh",
+        "6": "Frans Berkelaar (wikimedia)"
+      }
+    ],
+    "years": "2009-2014",
+    "links": ["https://en.wikipedia.org/wiki/Market_Hall_(Rotterdam)"],
+    "categories": ["community"]
   }
 ]
