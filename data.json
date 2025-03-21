@@ -10439,5 +10439,20 @@
     "years": "2009-2014",
     "links": ["https://en.wikipedia.org/wiki/Market_Hall_(Rotterdam)"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Tim Van Laere Gallery / OFFICE Kersten Geers David Van Severen / Antwerpen, Belgium",
+    "days": [995],
+    "copyrights": [
+      {
+        "1": "KL679 (wikimedia)",
+        "5": "Courtesy of the Architect",
+        "6": "KL679 (wikimedia)",
+        "*": "Bas Princen"
+      }
+    ],
+    "years": "2019",
+    "links": ["https://en.wikipedia.org/wiki/Tim_Van_Laere_Gallery"],
+    "categories": ["community", "gallery"]
   }
 ]
