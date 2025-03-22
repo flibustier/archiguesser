@@ -10454,5 +10454,22 @@
     "years": "2019",
     "links": ["https://en.wikipedia.org/wiki/Tim_Van_Laere_Gallery"],
     "categories": ["community", "gallery"]
+  },
+  {
+    "answer": "Church of Saint Clement of Ohrid (Соборна црква – Свети Климент Охридски) / Slavko Brezoski / Skopje, Republic of North Macedonia",
+    "days": [996],
+    "copyrights": [
+      {
+        "1": "Diego Delso (wikimedia)",
+        "3": "johovac (wikimedia)",
+        "4": "Courtesy of the Architect",
+        "5": "Richard Schofield (wikimedia)",
+        "*": "xiquinhosilva (wikimedia)"
+      }
+    ],
+    "years": "1972-1990",
+    "links": ["https://en.wikipedia.org/wiki/Church_of_St._Clement_of_Ohrid"],
+    "categories": ["community", "religious"],
+    "style": "Modernism"
   }
 ]
