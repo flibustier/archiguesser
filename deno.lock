@@ -10,13 +10,13 @@
     "packageJson": {
       "dependencies": [
         "npm:@babel/types@7.26.10",
-        "npm:@playwright/test@1.51.0",
-        "npm:@types/node@22.13.10",
-        "npm:@vitejs/plugin-vue@5.2.1",
+        "npm:@playwright/test@1.51.1",
+        "npm:@types/node@22.13.11",
+        "npm:@vitejs/plugin-vue@5.2.3",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.5.0",
         "npm:@vue/tsconfig@0.7.0",
-        "npm:axios@1.8.3",
+        "npm:axios@1.8.4",
         "npm:eslint-plugin-vue@9.33.0",
         "npm:eslint@9.22.0",
         "npm:lightningcss@1.29.3",
