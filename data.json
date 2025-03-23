@@ -3857,7 +3857,7 @@
   },
   {
     "answer": "Wohnhaus Schlesisches Tor (Bonjour Tristesse) / Álvaro Siza Vieira, Peter Brinkert / Kreuzberg, Berlin, Germany",
-    "days": [241],
+    "days": [241, 997],
     "copyrights": [
       {
         "1": "Humberto Marum (flickr)",
@@ -3868,7 +3868,8 @@
         "6": "Georg Slickers (wikimedia)"
       }
     ],
-    "links": [],
+    "years": "1984",
+    "links": ["https://en.wikipedia.org/wiki/Bonjour_Tristesse_(building)"],
     "categories": ["Architecture Classics"]
   },
   {
