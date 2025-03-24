@@ -5929,8 +5929,8 @@
     "categories": ["famous"]
   },
   {
-    "answer": "La Roche – Jeanneret House / Le Corbusier / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
-    "days": [407],
+    "answer": "Maison La Roche – Jeanneret House / Le Corbusier, Pierre Jeanneret / 8-10 Square du Docteur-Blanche, Auteuil, Paris, France",
+    "days": [407, 998],
     "copyrights": [
       {
         "4": "Rory Hyde",
@@ -5940,6 +5940,7 @@
     ],
     "years": "1923-1925",
     "links": [
+      "https://en.wikipedia.org/wiki/Villa_La_Roche",
       "https://en.wikiarquitectura.com/building/la-roche-jeanneret-house/"
     ],
     "categories": ["modernism"],
