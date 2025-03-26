@@ -3191,7 +3191,7 @@
     "categories": ["museum"]
   },
   {
-    "answer": "Philharmonie de Paris / Jean Nouvel / Parc de La Villette, Paris, France",
+    "answer": "Philharmonie de Paris / Jean Nouvel / Parc de la Villette, Paris, France",
     "days": [195, 767],
     "copyrights": [
       {
@@ -10473,5 +10473,22 @@
     "links": ["https://en.wikipedia.org/wiki/Church_of_St._Clement_of_Ohrid"],
     "categories": ["community", "religious"],
     "style": "Modernism"
+  },
+  {
+    "answer": "Paris, France",
+    "days": [1000],
+    "hors-serie": "City",
+    "copyrights": [
+      {
+        "1": "Hans Werlemann",
+        "2": "Siren-Com (wikimedia)",
+        "3": "Mathieu.clabaut (wikimedia)",
+        "4": "SiefkinDR (wikimedia)",
+        "5": "Gilbert Bochenek (wikimedia)",
+        "6": "Yann Caradec (wikimedia)"
+      }
+    ],
+    "links": [],
+    "categories": []
   }
 ]
