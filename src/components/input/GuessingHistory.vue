@@ -16,6 +16,10 @@ const props = defineProps({
   constructionYears: {
     type: String,
   },
+  withoutHints: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const clickableBuiltYears = computed(() => {
@@ -43,7 +47,9 @@ const showYearsHint = computed(
 const showCountryHint = computed(
   () => guessesRemaining.value <= 3 && country.value,
 );
-const showHint = computed(() => showCountryHint.value || showYearsHint.value);
+const showHint = computed(
+  () => !props.withoutHints && (showCountryHint.value || showYearsHint.value),
+);
 
 const hint = computed(
   () =>

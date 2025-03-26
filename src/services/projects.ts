@@ -30,7 +30,9 @@ export const getProjectsByCategory = (category: string) => {
   return data.filter(({ answer }) => answer.includes(category));
 };
 
-export const getProjectInformation = (day?: string | null) => {
+export const getProjectInformation = () => {
+  const urlParameters = new URLSearchParams(window.location.search);
+  const day = urlParameters.get("day");
   let dayNumber = day ? parseInt(day) : getRealDayNumber();
 
   if (!data.some(({ days }) => days.includes(dayNumber))) {

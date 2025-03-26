@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
-import { isLogged, isFirstTime } from "./services/store";
-import { LISTED_CATEGORIES, LOCKED_CATEGORIES_LOGGED } from "./config.json";
+import { isLogged, isFirstTime } from "@/services/store";
+import { getRealDayNumber } from "@/services/date";
+import { LISTED_CATEGORIES, LOCKED_CATEGORIES_LOGGED } from "@/config.json";
 
 const ALL_CATEGORIES = [
   ...LISTED_CATEGORIES,
@@ -31,9 +32,19 @@ const showArcadeModal = ref(window.location.hash === "#challenges");
 const showFeedbackModal = ref(false);
 
 const urlParameters = new URLSearchParams(window.location.search);
+const requestedDay = urlParameters.get("day");
 const isArcadeMode = ALL_CATEGORIES.includes(
   urlParameters.get("challenge") || "",
 );
+
+// disable days in future when it’s production
+if (
+  process.env.NODE_ENV === "production" &&
+  requestedDay &&
+  parseInt(requestedDay) > getRealDayNumber()
+) {
+  window.location.href = "/";
+}
 </script>
 
 <template>

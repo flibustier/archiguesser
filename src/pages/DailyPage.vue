@@ -14,22 +14,10 @@ import GuessingHistory from "@/components/input/GuessingHistory.vue";
 
 const emit = defineEmits(["showBackModal", "showFeedbackModal"]);
 
-const urlParameters = new URLSearchParams(window.location.search);
-const requestedDay = urlParameters.get("day");
-
-// disable days in future when it’s production
-if (
-  process.env.NODE_ENV === "production" &&
-  requestedDay &&
-  parseInt(requestedDay) > getRealDayNumber()
-) {
-  window.location.href = "/";
-}
-
 const stats = getStats();
 const percent = ref();
 const guesses: string[] = reactive([]);
-const project = reactive(getProjectInformation(requestedDay));
+const project = reactive(getProjectInformation());
 const { dayNumber, answer, constructionYears, copyrights } = project;
 
 document.title = `ArchiGuesser #${dayNumber} - Guess the daily architectural project from the pictures`;
@@ -41,6 +29,7 @@ if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   localStorage.setItem("guesses", JSON.stringify([]));
 }
 
+const isHorsSerie = computed(() => !!project["hors-serie"]);
 const currentRound = computed(() => guesses.length + 1);
 const hasWon = computed(
   () => guesses.length > 0 && guesses[guesses.length - 1] === answer,
@@ -87,6 +76,14 @@ tagFeedbacks();
 </script>
 
 <template>
+  <template v-if="isHorsSerie && !isGameEnded">
+    <h3>Today is ArchiGuesser <b>#1000</b>! 🎉</h3>
+    <p class="text-intro">
+      For this special occasion, today is the first <i>Hors-Série</i> : Try to
+      guess the <b>city</b> from the architecture! Good luck! 👏
+    </p>
+  </template>
+
   <PictureDisplay
     :max-pictures="isGameEnded ? 6 : Math.min(currentRound, 6)"
     :day-number="dayNumber"
@@ -94,8 +91,12 @@ tagFeedbacks();
   />
 
   <div v-if="!isGameEnded">
-    <GuessingForm @submitted-guess="onSubmittedGuess" />
+    <GuessingForm
+      @submitted-guess="onSubmittedGuess"
+      :placeholder="project['hors-serie']"
+    />
     <GuessingHistory
+      :without-hints="isHorsSerie"
       :guesses="guesses"
       :answer="answer"
       :constructionYears="constructionYears"
@@ -111,3 +112,10 @@ tagFeedbacks();
     @showBackModal="$emit('showBackModal')"
   />
 </template>
+
+<style scoped>
+.text-intro {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+</style>
