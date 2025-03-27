@@ -10490,5 +10490,17 @@
     ],
     "links": [],
     "categories": []
+  },
+  {
+    "answer": "NürnbergMesse Hall 3A & 3C / Zaha Hadid Architects / Nuremberg, Germany",
+    "days": [1001],
+    "copyrights": [
+      {
+        "*": "Heiko Stahl"
+      }
+    ],
+    "years": "2014-2018",
+    "links": ["https://www.zaha-hadid.com/architecture/nurnbergmesse-hall-3a/"],
+    "categories": ["community", "exhibition"]
   }
 ]
