@@ -6969,7 +6969,7 @@
   },
   {
     "answer": "Titanic Belfast / CivicArts, Todd Architects, Eric Kuhne and Associates / Belfast, United Kingdom (UK)",
-    "days": [551],
+    "days": [551, 1003],
     "copyrights": [
       {
         "2": "Ardfern (wikimedia)",
@@ -10502,5 +10502,21 @@
     "years": "2014-2018",
     "links": ["https://www.zaha-hadid.com/architecture/nurnbergmesse-hall-3a/"],
     "categories": ["community", "exhibition"]
+  },
+  {
+    "answer": "Umayyad Mosque (Great Mosque of Damascus) / Damascus, Syria",
+    "days": [1002],
+    "copyrights": [
+      {
+        "1": "Lars Mongs, Arxfoto (wikimedia)",
+        "2": "Jerzy Strzelecki (wikimedia)",
+        "4": "Francis Bedford (wikimedia)",
+        "5": "Tareq Mnadili (wikimedia)",
+        "*": "Bernard Gagnon (wikimedia)"
+      }
+    ],
+    "years": "715",
+    "links": ["https://en.wikipedia.org/wiki/Umayyad_Mosque"],
+    "categories": ["community", "religious"]
   }
 ]
