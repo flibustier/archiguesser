@@ -1,9 +1,6 @@
-import data from "../../assets/data.json" with { type: "json" };
-import suggestions from "../../assets/suggestions.json" with { type: "json" };
+import { getSuggestions } from "../../services/suggestions.ts";
 
-const suggestionsWithAnswers = data
-  .map(({ answer }) => answer)
-  .concat(suggestions);
+const suggestionsWithAnswers = getSuggestions();
 
 const MAX_SUGGESTIONS = 30;
 const MIN_WORD_LENGTH = 2;

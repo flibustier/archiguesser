@@ -3191,7 +3191,7 @@
     "categories": ["museum"]
   },
   {
-    "answer": "Philharmonie de Paris / Jean Nouvel / Parc de La Villette, Paris, France",
+    "answer": "Philharmonie de Paris / Jean Nouvel / Parc de la Villette, Paris, France",
     "days": [195, 767],
     "copyrights": [
       {
@@ -6969,7 +6969,7 @@
   },
   {
     "answer": "Titanic Belfast / CivicArts, Todd Architects, Eric Kuhne and Associates / Belfast, United Kingdom (UK)",
-    "days": [551],
+    "days": [551, 1003],
     "copyrights": [
       {
         "2": "Ardfern (wikimedia)",
@@ -10473,5 +10473,50 @@
     "links": ["https://en.wikipedia.org/wiki/Church_of_St._Clement_of_Ohrid"],
     "categories": ["community", "religious"],
     "style": "Modernism"
+  },
+  {
+    "answer": "Paris, France",
+    "days": [1000],
+    "hors-serie": "City",
+    "copyrights": [
+      {
+        "1": "Hans Werlemann",
+        "2": "Siren-Com (wikimedia)",
+        "3": "Mathieu.clabaut (wikimedia)",
+        "4": "SiefkinDR (wikimedia)",
+        "5": "Gilbert Bochenek (wikimedia)",
+        "6": "Yann Caradec (wikimedia)"
+      }
+    ],
+    "links": [],
+    "categories": []
+  },
+  {
+    "answer": "NürnbergMesse Hall 3A & 3C / Zaha Hadid Architects / Nuremberg, Germany",
+    "days": [1001],
+    "copyrights": [
+      {
+        "*": "Heiko Stahl"
+      }
+    ],
+    "years": "2014-2018",
+    "links": ["https://www.zaha-hadid.com/architecture/nurnbergmesse-hall-3a/"],
+    "categories": ["community", "exhibition"]
+  },
+  {
+    "answer": "Umayyad Mosque (Great Mosque of Damascus) / Damascus, Syria",
+    "days": [1002],
+    "copyrights": [
+      {
+        "1": "Lars Mongs, Arxfoto (wikimedia)",
+        "2": "Jerzy Strzelecki (wikimedia)",
+        "4": "Francis Bedford (wikimedia)",
+        "5": "Tareq Mnadili (wikimedia)",
+        "*": "Bernard Gagnon (wikimedia)"
+      }
+    ],
+    "years": "715",
+    "links": ["https://en.wikipedia.org/wiki/Umayyad_Mosque"],
+    "categories": ["community", "religious"]
   }
 ]

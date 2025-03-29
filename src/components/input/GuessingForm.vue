@@ -9,6 +9,19 @@ const hasSelectedSuggestion = ref(false);
 const preselected = ref();
 const suggestionsRefs = ref([] as (HTMLElement | null)[]);
 
+const props = defineProps({
+  placeholder: {
+    type: String,
+  },
+});
+
+const placeholder = computed(() => {
+  if (props.placeholder === "City") {
+    return "Search for city…";
+  }
+  return "Search for building name / architect / place…";
+});
+
 const filteredSuggestions = computed(() => search(searchTerms.value));
 const isSelectionDone = computed(
   () => hasSelectedSuggestion.value || searchTerms.value.length === 0,
@@ -92,7 +105,7 @@ const navigate = (direction: "up" | "down") => {
         <input
           type="text"
           :class="`search-input ${searchTerms.length ? 'is-not-empty' : ''}`"
-          placeholder="Search for building name / architect / place…"
+          :placeholder="placeholder"
           autocomplete="off"
           v-model="searchTerms"
           @input="guessInput"

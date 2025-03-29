@@ -16,6 +16,7 @@ import RecommendationLink from "./RecommendationLink.vue";
 const description = ref("");
 const showGuesses = ref(false);
 const shareBtnContent = ref("SHARE");
+const voted = ref(false);
 
 const toggleGuesses = () => {
   sendEvent("Show Guesses");
@@ -87,6 +88,11 @@ const copy = async () => {
   }
 };
 
+const vote = (result) => {
+  sendEvent("HS1: " + result);
+  voted.value = true;
+};
+
 const openLinks = () => {
   window.open(props.project.links[0], "_blank")?.focus();
   sendEvent("Learn");
@@ -126,6 +132,15 @@ onMounted(async () => {
         </div>
       </div>
     </div>
+    <p v-if="project['hors-serie']" style="text-align: center">
+      <template v-if="!voted">
+        <b>Did you enjoy this <i>Hors-Série</i>?<br /></b>
+        <a @click="vote('yes')">Yes, I want to play more of these!</a>
+        <br />
+        <a @click="vote('no')">No, I prefer the daily challenge</a>
+      </template>
+      <template v-else> Thank you for your feedback! </template>
+    </p>
     <div class="row">
       <button class="btn-primary" @click="copy">
         <span>{{ shareBtnContent }}</span>
@@ -148,6 +163,29 @@ onMounted(async () => {
       </div>
     </div>
     <div class="extra">
+      <p v-if="project['hors-serie']">
+        Featured projects :<br />
+        1.
+        <a href="https://www.oma.com/projects/parc-de-la-villette"
+          >Parc de la Villette / OMA / 1982</a
+        ><br />
+        2.
+        <a href="https://fr.wikipedia.org/wiki/Maison_de_Loo">Maison de Loo</a
+        ><br />
+        3.
+        <a
+          href="https://en.wikipedia.org/wiki/Passerelle_L%C3%A9opold-S%C3%A9dar-Senghor"
+          >Passerelle Léopold-Sédar-Senghor (passerelle Solférino) / Marc
+          Mimram</a
+        ><br />
+        4.
+        <a href="https://en.wikipedia.org/wiki/Plan_Voisin"
+          >Plan Voisin / Le Corbusier</a
+        ><br />
+        5.
+        <a href="https://en.wikipedia.org/wiki/Gare_de_l%27Est">Gare de l’Est</a
+        ><br />
+      </p>
       <p v-if="description" class="description border" v-html="description" />
       <RecommendationLink :recommendation="project.recommendation" />
     </div>
