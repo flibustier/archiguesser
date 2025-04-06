@@ -89,7 +89,7 @@ const copy = async () => {
 };
 
 const vote = (result) => {
-  sendEvent("HS1: " + result);
+  sendEvent("Vote " + props.project.dayNumber + " : " + result);
   voted.value = true;
 };
 
@@ -163,30 +163,20 @@ onMounted(async () => {
       </div>
     </div>
     <div class="extra">
-      <p v-if="project['hors-serie']">
+      <p v-if="project['hors-serie'] && project['features']">
         Featured projects :<br />
-        1.
-        <a href="https://www.oma.com/projects/parc-de-la-villette"
-          >Parc de la Villette / OMA / 1982</a
-        ><br />
-        2.
-        <a href="https://fr.wikipedia.org/wiki/Maison_de_Loo">Maison de Loo</a
-        ><br />
-        3.
-        <a
-          href="https://en.wikipedia.org/wiki/Passerelle_L%C3%A9opold-S%C3%A9dar-Senghor"
-          >Passerelle Léopold-Sédar-Senghor (passerelle Solférino) / Marc
-          Mimram</a
-        ><br />
-        4.
-        <a href="https://en.wikipedia.org/wiki/Plan_Voisin"
-          >Plan Voisin / Le Corbusier</a
-        ><br />
-        5.
-        <a href="https://en.wikipedia.org/wiki/Gare_de_l%27Est">Gare de l’Est</a
-        ><br />
+        <span v-for="(feature, index) in project['features']" :key="index">
+          {{ index }}.
+          <a v-if="feature.link" :href="feature.link" target="_blank">
+            {{ feature.title }} </a
+          ><span v-else>{{ feature.title }}</span> <br />
+        </span>
       </p>
-      <p v-if="description" class="description border" v-html="description" />
+      <p
+        v-else-if="description"
+        class="description border"
+        v-html="description"
+      />
       <RecommendationLink :recommendation="project.recommendation" />
     </div>
     <p v-if="isCommunity" class="text-center">

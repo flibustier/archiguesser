@@ -77,10 +77,10 @@ tagFeedbacks();
 
 <template>
   <template v-if="isHorsSerie && !isGameEnded">
-    <h3>Today is ArchiGuesser <b>#1000</b>! 🎉</h3>
+    <h3>Today is an <i>Hors-Série</i>!</h3>
     <p class="text-intro">
-      For this special occasion, today is the first <i>Hors-Série</i> : Try to
-      guess the <b>city</b> from the architecture! Good luck! 👏
+      Try to guess the <b>{{ project["hors-serie"].toLowerCase() }}</b> from the
+      architecture! Good luck! 👏
     </p>
   </template>
 
