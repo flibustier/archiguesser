@@ -10490,7 +10490,29 @@
       }
     ],
     "links": [],
-    "categories": []
+    "categories": [],
+    "features": {
+      "1": {
+        "title": "Parc de la Villette / OMA / 1982",
+        "link": "https://www.oma.com/projects/parc-de-la-villette"
+      },
+      "2": {
+        "title": "Maison de Loo",
+        "link": "https://fr.wikipedia.org/wiki/Maison_de_Loo"
+      },
+      "3": {
+        "title": "Passerelle Léopold-Sédar-Senghor (passerelle Solférino) / Marc Mimram",
+        "link": "https://en.wikipedia.org/wiki/Passerelle_L%C3%A9opold-S%C3%A9dar-Senghor"
+      },
+      "4": {
+        "title": "Plan Voisin / Le Corbusier",
+        "link": "https://en.wikipedia.org/wiki/Plan_Voisin"
+      },
+      "5": {
+        "title": "Gare de l’Est",
+        "link": "https://en.wikipedia.org/wiki/Gare_de_l%27Est"
+      }
+    }
   },
   {
     "answer": "NürnbergMesse Hall 3A & 3C / Zaha Hadid Architects / Nuremberg, Germany",
@@ -10519,5 +10541,49 @@
     "years": "715",
     "links": ["https://en.wikipedia.org/wiki/Umayyad_Mosque"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Marcel Breuer",
+    "days": [1011],
+    "hors-serie": "Architect",
+    "copyrights": [
+      {
+        "1": "Spiral5800 (wikimedia)",
+        "2": "Courtesy of the Architect",
+        "3": "Spyrosdrakopoulos (wikimedia)",
+        "4": "Unknown (wikimedia)",
+        "5": "Bobak Ha'Eri (wikimedia)",
+        "6": "Ajay Suresh (wikimedia)"
+      }
+    ],
+    "years": "1902-1981",
+    "links": ["https://en.wikipedia.org/wiki/Marcel_Breuer"],
+    "categories": [],
+    "recommendation": "breuer",
+    "features": {
+      "1": {
+        "title": "Hooper House II",
+        "link": "https://en.wikipedia.org/wiki/Hooper_House_(Baltimore_County,_Maryland)"
+      },
+      "2": {
+        "title": "Department Store « De Bijenkorf » (1955-57) in Rotterdam, Netherland"
+      },
+      "3": {
+        "title": "Wassily Chair (Model B3 chair, 1925)",
+        "link": "https://en.wikipedia.org/wiki/Wassily_Chair"
+      },
+      "4": {
+        "title": "Ariston Club (1948)",
+        "link": "https://en.wikipedia.org/wiki/Ariston_Club"
+      },
+      "5": {
+        "title": "St. John's Abbey Church",
+        "link": "https://en.wikipedia.org/wiki/Saint_John%27s_Abbey,_Collegeville"
+      },
+      "6": {
+        "title": "945 Madison Avenue",
+        "link": "https://en.wikipedia.org/wiki/945_Madison_Avenue"
+      }
+    }
   }
 ]
