@@ -32,5 +32,24 @@ export const getSuggestions = () => {
     ];
   }
 
+  if (horsSerie === "Architect") {
+    return [
+      ...new Set(
+        suggestionsWithAnswers.flatMap((suggestion) => {
+          const splitted = suggestion.split("/");
+
+          if (splitted.length > 2) {
+            return splitted[1]
+              .trim()
+              .split(", ")
+              .map((archi) => archi.trim());
+          }
+
+          return [];
+        }),
+      ),
+    ];
+  }
+
   return suggestionsWithAnswers;
 };

@@ -19,6 +19,9 @@ const placeholder = computed(() => {
   if (props.placeholder === "City") {
     return "Search for city…";
   }
+  if (props.placeholder === "Architect") {
+    return "Search for an architect…";
+  }
   return "Search for building name / architect / place…";
 });
 
