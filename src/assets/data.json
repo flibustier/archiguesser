@@ -10585,5 +10585,20 @@
         "link": "https://en.wikipedia.org/wiki/945_Madison_Avenue"
       }
     }
+  },
+  {
+    "answer": "Toledo Metro Art Station / Oscar Tusquets Blanca / Naples, Italy",
+    "days": [1016],
+    "copyrights": [
+      {
+        "4": "Courtesy of the Architect",
+        "5": "Zaiar95 (wikimedia)",
+        "6": "ParsonsPhotographyNL (wikimedia)",
+        "*": "wikiarquitectura"
+      }
+    ],
+    "years": "2005-2012",
+    "links": ["https://en.wikipedia.org/wiki/Toledo_station_(Naples)"],
+    "categories": ["community"]
   }
 ]
