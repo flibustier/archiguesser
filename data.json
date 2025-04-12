@@ -10600,5 +10600,19 @@
     "years": "2005-2012",
     "links": ["https://en.wikipedia.org/wiki/Toledo_station_(Naples)"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Nová Scéna (New Stage) / Karel Prager / Prague, Czech Republic",
+    "days": [1017],
+    "copyrights": [
+      {
+        "1": "Courtesy of the owner",
+        "3": "VitVit (wikimedia)",
+        "*": "Lucas Reitz"
+      }
+    ],
+    "years": "1977-1983",
+    "links": ["https://cs.wikipedia.org/wiki/Nov%C3%A1_sc%C3%A9na_(Praha)"],
+    "categories": ["community", "concert hall"]
   }
 ]
