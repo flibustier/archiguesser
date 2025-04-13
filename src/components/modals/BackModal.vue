@@ -15,7 +15,7 @@ const realCurrentDay = getRealDayNumber();
 // range of 60 numbers starting at real current day
 const days = [...Array(realCurrentDay).keys()]
   .filter((day) => !SKIPPED_DAYS.includes(day))
-  .slice(realCurrentDay - 62)
+  .slice(process.env.NODE_ENV === "development" ? 0 : realCurrentDay - 62)
   .reverse();
 
 defineProps({

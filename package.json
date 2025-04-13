@@ -14,6 +14,7 @@
     "preview": "vite preview --port 4173",
     "deploy": "./scripts/deploy.sh",
     "convert": "./scripts/convert.sh",
+    "convert:all": "for dir in $(ls -1 sources/ | grep -E '^[0-9]+$' | sort -n); do echo 'Processing $dir...'; yarn convert $dir; done",
     "download": "node ./scripts/download/cli.js"
   },
   "dependencies": {
