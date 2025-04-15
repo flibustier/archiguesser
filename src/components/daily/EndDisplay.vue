@@ -40,6 +40,10 @@ const props = defineProps({
     type: Object,
     required: true,
   },
+  withGuesses: {
+    type: Boolean,
+    default: true,
+  },
 });
 
 const isCommunity = computed(() =>
@@ -118,7 +122,7 @@ onMounted(async () => {
       </div>
     </div>
     <div id="share-message" v-html="resultSquares" />
-    <div class="column-stretch">
+    <div class="column-stretch" v-if="withGuesses">
       <a class="text-small text-center" href="#" @click="toggleGuesses">
         {{ showGuesses ? "Hide" : "Show" }} Guesses
       </a>
