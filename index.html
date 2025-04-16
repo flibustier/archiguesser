@@ -20,15 +20,51 @@
     <meta property="og:image" content="https://archiguesser.com/preview.png" />
     <meta name="google-site-verification" content="dfed74pTSq2iCaT-_Es3kCZClkR7cG7Ob3YqYv04I-E" />
     <title>ArchiGuesser - Guess the daily architectural project from the pictures</title>
-    <script type="module" crossorigin src="/assets/index-BYba7XHI.js"></script>
+    <script type="module" crossorigin src="/assets/index-CkoJzXwI.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/vue-C9vI-zu8.js">
-    <link rel="modulepreload" crossorigin href="/assets/data-Bx8rQKSd.js">
+    <link rel="modulepreload" crossorigin href="/assets/data-klVW3ojC.js">
     <link rel="modulepreload" crossorigin href="/assets/recommendations-W0UItl8S.js">
     <link rel="modulepreload" crossorigin href="/assets/suggestions-DFgebKqF.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-RErJufaG.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-D2_-34kl.css">
   </head>
   <body>
     <div id="app"></div>
     <script async defer src="https://cabin.archiguesser.com/hello.js"></script>
+    <script>
+      try {
+        const urlParameters = new URLSearchParams(window.location.search);
+        const requestedDay = urlParameters.get("day");
+        const isArcadeMode = urlParameters.get("challenge") || false;
+
+        if (!isArcadeMode) {
+          let day;
+          if (
+            requestedDay &&
+            !isNaN(parseInt(requestedDay))
+          ) {
+            day = parseInt(requestedDay);
+          } else {
+            const StartDate = Date.UTC(2022,6,1);
+            const now = new Date();
+            const timestamp1 = Date.UTC(
+              now.getFullYear(),
+              now.getMonth(),
+              now.getDate(),
+            );
+            const differenceInMilliseconds = timestamp1 - StartDate;
+            const differenceInDays = differenceInMilliseconds / 1000 / 60 / 60 / 24;
+
+            day = differenceInDays;
+          }
+
+          let link = document.createElement('link');
+          link.as = 'image';
+          link.type = 'image/jpeg';
+          link.rel = 'preload';
+          link.href = `${day}/1.jpg`;
+          document.head.appendChild(link);
+        }
+      } catch (e) { console.error(e); }
+    </script>
   </body>
 </html>
