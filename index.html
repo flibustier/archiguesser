@@ -25,5 +25,41 @@
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
     <script async defer src="https://cabin.archiguesser.com/hello.js"></script>
+    <script>
+      try {
+        const urlParameters = new URLSearchParams(window.location.search);
+        const requestedDay = urlParameters.get("day");
+        const isArcadeMode = urlParameters.get("challenge") || false;
+
+        if (!isArcadeMode) {
+          let day;
+          if (
+            requestedDay &&
+            !isNaN(parseInt(requestedDay))
+          ) {
+            day = parseInt(requestedDay);
+          } else {
+            const StartDate = Date.UTC(2022,6,1);
+            const now = new Date();
+            const timestamp1 = Date.UTC(
+              now.getFullYear(),
+              now.getMonth(),
+              now.getDate(),
+            );
+            const differenceInMilliseconds = timestamp1 - StartDate;
+            const differenceInDays = differenceInMilliseconds / 1000 / 60 / 60 / 24;
+
+            day = differenceInDays;
+          }
+
+          let link = document.createElement('link');
+          link.as = 'image';
+          link.type = 'image/jpeg';
+          link.rel = 'preload';
+          link.href = `${day}/1.jpg`;
+          document.head.appendChild(link);
+        }
+      } catch (e) { console.error(e); }
+    </script>
   </body>
 </html>
