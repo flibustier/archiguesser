@@ -10614,5 +10614,17 @@
     "years": "1977-1983",
     "links": ["https://cs.wikipedia.org/wiki/Nov%C3%A1_sc%C3%A9na_(Praha)"],
     "categories": ["community", "concert hall"]
+  },
+  {
+    "answer": "Basilica of Our Lady of the Holy Rosary of Las Lajas / Gualberto Pérez, Lucindo Espinosa / Ipiales, Nariño, Colombia",
+    "days": [1023],
+    "copyrights": [
+      {
+        "*": "Diego Delso (wikimedia)"
+      }
+    ],
+    "years": "1916-1949",
+    "links": ["https://en.wikipedia.org/wiki/Sanctuary_of_Las_Lajas"],
+    "categories": ["community", "religious"]
   }
 ]
