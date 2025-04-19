@@ -1615,13 +1615,13 @@
   },
   {
     "answer": "Yusuhara Marche (Community Market) / Kengo Kuma & Associates / Yusuhara, Takaoka-gun, Koch, Japan",
-    "days": [94],
+    "days": [94, 1024],
     "copyrights": [
       {
         "*": "Takumi Ota"
       }
     ],
-    "links": [],
+    "links": ["https://kkaa.co.jp/en/project/community-market-yusuhara/"],
     "categories": [],
     "recommendation": "kuma"
   },
