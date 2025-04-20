@@ -10626,5 +10626,19 @@
     "years": "1916-1949",
     "links": ["https://en.wikipedia.org/wiki/Sanctuary_of_Las_Lajas"],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "École nationale supérieure d’architecture de Lyon (ENSAL) / Françoise-Hélène Jourda, Gilles Perraudin / Lyon, France",
+    "days": [1025],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "1987",
+    "links": [
+      "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_d%27architecture_de_Lyon"
+    ],
+    "categories": ["community", "ENSA"]
   }
 ]
