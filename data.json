@@ -10640,5 +10640,17 @@
       "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_d%27architecture_de_Lyon"
     ],
     "categories": ["community", "ENSA"]
+  },
+  {
+    "answer": "New Halifax Central Library / Schmidt Hammer Lassen Architects, Fowler Bauld & Mitchell / Halifax, Canada",
+    "days": [1030],
+    "copyrights": [
+      {
+        "*": "Adam Mørk"
+      }
+    ],
+    "years": "2014",
+    "links": ["https://en.wikipedia.org/wiki/Halifax_Central_Library"],
+    "categories": ["community", "library"]
   }
 ]
