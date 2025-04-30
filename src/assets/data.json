@@ -10652,5 +10652,19 @@
     "years": "2014",
     "links": ["https://en.wikipedia.org/wiki/Halifax_Central_Library"],
     "categories": ["community", "library"]
+  },
+  {
+    "answer": "Kistefos Twist Museum (Kistefos-Museet) / Bjarke Ingels Group (BIG) / Jevnaker, Norway",
+    "days": [1035],
+    "copyrights": [
+      {
+        "*": "Laurian Ghinitoiu"
+      }
+    ],
+    "years": "2019",
+    "links": [
+      "https://en.wikipedia.org/wiki/Kistefos_Museum_and_Sculpture_Park"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
