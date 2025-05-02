@@ -1,4 +1,7 @@
 .PHONY: start
 start:
-	yarn dev
-	
+	deno task dev
+
+.PHONY: deploy
+deploy:
+	deno task deploy
