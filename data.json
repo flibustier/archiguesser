@@ -10666,5 +10666,22 @@
       "https://en.wikipedia.org/wiki/Kistefos_Museum_and_Sculpture_Park"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Swayambhu Maha Chaitya (Swayambhu Great Stupa) / Kathmandu, Nepal",
+    "days": [1037],
+    "copyrights": [
+      {
+        "1": "Gerd Eichmann (wikimedia)",
+        "2": "松岡明芳 (wikimedia)",
+        "3": "S Pakhrin (wikimedia)",
+        "4": "Vyacheslav Argenberg (wikimedia)",
+        "5": "Unknown (1877, wikimedia)",
+        "6": "Harry Paudyal (wikimedia)"
+      }
+    ],
+    "years": "~5th century",
+    "links": ["https://en.wikipedia.org/wiki/Swayambhunath"],
+    "categories": ["community", "buddhist"]
   }
 ]
