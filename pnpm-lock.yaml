@@ -17,8 +17,8 @@ devDependencies:
     specifier: 1.52.0
     version: 1.52.0
   '@types/node':
-    specifier: 22.15.2
-    version: 22.15.2
+    specifier: 22.15.3
+    version: 22.15.3
   '@vitejs/plugin-vue':
     specifier: 5.2.3
     version: 5.2.3(vite@6.3.4)(vue@3.5.13)
@@ -54,7 +54,7 @@ devDependencies:
     version: 5.8.3
   vite:
     specifier: 6.3.4
-    version: 6.3.4(@types/node@22.15.2)(lightningcss@1.29.3)
+    version: 6.3.4(@types/node@22.15.3)(lightningcss@1.29.3)
   vue-tsc:
     specifier: 2.2.10
     version: 2.2.10(typescript@5.8.3)
@@ -623,8 +623,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@22.15.2:
-    resolution: {integrity: sha512-uKXqKN9beGoMdBfcaTY1ecwz6ctxuJAcUlwE55938g0ZJ8lRxwAZqRz2AJ4pzpt5dHdTPMB863UZ0ESiFUcP7A==}
+  /@types/node@22.15.3:
+    resolution: {integrity: sha512-lX7HFZeHf4QG/J7tBZqrCAXwz9J5RD56Y6MpP0eJkka8p+K0RY/yBTW7CYFJ4VGCclxqOLKmiGP5juQc6MKgcw==}
     dependencies:
       undici-types: 6.21.0
     dev: true
@@ -752,7 +752,7 @@ packages:
       vite: ^5.0.0 || ^6.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 6.3.4(@types/node@22.15.2)(lightningcss@1.29.3)
+      vite: 6.3.4(@types/node@22.15.3)(lightningcss@1.29.3)
       vue: 3.5.13(typescript@5.8.3)
     dev: true
 
@@ -2097,7 +2097,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@6.3.4(@types/node@22.15.2)(lightningcss@1.29.3):
+  /vite@6.3.4(@types/node@22.15.3)(lightningcss@1.29.3):
     resolution: {integrity: sha512-BiReIiMS2fyFqbqNT/Qqt4CVITDU9M9vE+DKcVAsB+ZV0wvTKd+3hMbkpxz1b+NmEDMegpVbisKiAZOnvO92Sw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -2137,7 +2137,7 @@ packages:
       yaml:
         optional: true
     dependencies:
-      '@types/node': 22.15.2
+      '@types/node': 22.15.3
       esbuild: 0.25.3
       fdir: 6.4.4(picomatch@4.0.2)
       lightningcss: 1.29.3
