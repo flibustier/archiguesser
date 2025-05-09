@@ -10698,5 +10698,22 @@
     "years": "1969, 2011",
     "links": ["https://en.wikipedia.org/wiki/Nuns%27_Island_gas_station"],
     "categories": ["community"]
+  },
+  {
+    "answer": "Ark of Bukhara / Bukhara, Uzbekistan",
+    "days": [1044],
+    "copyrights": [
+      {
+        "1": "Nassima Chahboun (wikimedia)",
+        "2": "LBM1948 (wikimedia)",
+        "3": "Stomac (wikimedia)",
+        "4": "Kagansky (wikimedia)",
+        "5": "Sergei Prokudin-Gorskii (wikimedia)",
+        "6": "ほっきー (wikimedia)"
+      }
+    ],
+    "years": "~5th century",
+    "links": ["https://en.wikipedia.org/wiki/Ark_of_Bukhara"],
+    "categories": ["community", "fortification"]
   }
 ]
