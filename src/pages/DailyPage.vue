@@ -19,14 +19,25 @@ const percent = ref();
 const guesses: string[] = reactive([]);
 const project = reactive(getProjectInformation());
 const { dayNumber, answer, constructionYears, copyrights } = project;
+const showGuesses = ref(true);
 
 document.title = `ArchiGuesser #${dayNumber} - Guess the daily architectural project from the pictures`;
 
 if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
   guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
 } else {
-  localStorage.setItem("dayNumber", dayNumber.toString());
-  localStorage.setItem("guesses", JSON.stringify([]));
+  if (stats[dayNumber] == undefined) {
+    localStorage.setItem("dayNumber", dayNumber.toString());
+    localStorage.setItem("guesses", JSON.stringify([]));
+  } else {
+    if (stats[dayNumber] > 0) {
+      guesses.push(...Array(stats[dayNumber] - 1).fill(""));
+      guesses.push(project.answer);
+    } else {
+      guesses.push(...Array(6).fill(""));
+    }
+    showGuesses.value = false;
+  }
 }
 
 const isHorsSerie = computed(() => !!project["hors-serie"]);
@@ -109,6 +120,7 @@ tagFeedbacks();
     :has-won="hasWon"
     :percent="percent"
     :project="project"
+    :with-guesses="showGuesses"
     @showBackModal="$emit('showBackModal')"
   />
 </template>

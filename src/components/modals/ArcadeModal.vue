@@ -90,6 +90,7 @@ const maxLevel = (category: string) =>
                 class="thumbnail"
                 :src="`categories/${category}.jpg`"
                 :alt="`#${i}`"
+                loading="lazy"
               />
               <div class="thumbnail-overlay">
                 <span v-if="dynamicTextByCategory[category] !== ''">{{
