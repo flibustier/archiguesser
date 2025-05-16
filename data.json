@@ -1261,7 +1261,7 @@
   },
   {
     "answer": "Quinta Monroy / Alejandro Aravena, ELEMENTAL / Iquique, Chile",
-    "days": [71],
+    "days": [71, 1051],
     "copyrights": [
       {
         "1": "Cristobal Palma / Estudio Palma",
@@ -1270,8 +1270,9 @@
         "*": "ELEMENTAL"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2003",
+    "links": ["https://www.archdaily.com/10775/quinta-monroy-elemental"],
+    "categories": ["housing"]
   },
   {
     "answer": "Apple Park / Norman Foster / Cupertino, California, United States of America (USA)",
