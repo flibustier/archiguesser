@@ -10716,5 +10716,19 @@
     "years": "~5th century",
     "links": ["https://en.wikipedia.org/wiki/Ark_of_Bukhara"],
     "categories": ["community", "fortification"]
+  },
+  {
+    "answer": "Spomeniks (World War II monuments and memorials) / Dušan Džamonja, Vojin Bakić, Jordan and Iskra Grabuloska, Ivan Sabolić / Yugoslavia",
+    "days": [1052],
+    "copyrights": [
+      {
+        "*": "Breese Little Gallery"
+      }
+    ],
+    "years": "~1960s-1970s",
+    "links": [
+      "https://en.wikipedia.org/wiki/World_War_II_monuments_and_memorials_in_Yugoslavia"
+    ],
+    "categories": ["community", "memorial"]
   }
 ]
