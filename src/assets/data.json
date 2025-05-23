@@ -10730,5 +10730,19 @@
       "https://en.wikipedia.org/wiki/World_War_II_monuments_and_memorials_in_Yugoslavia"
     ],
     "categories": ["community", "memorial"]
+  },
+  {
+    "answer": "Kruisherenhotel / Rob Brouwers, SATIJNplus, Henk Vos / Maastricht, Netherlands",
+    "days": [1058],
+    "copyrights": [
+      {
+        "5": "Henk Monster (wikimedia)",
+        "6": "Urban Pixels",
+        "*": "Kleon3 (wikimedia)"
+      }
+    ],
+    "years": "2005",
+    "links": ["https://nl.wikipedia.org/wiki/Kruisherenhotel"],
+    "categories": ["community", "commercial", "hard"]
   }
 ]
