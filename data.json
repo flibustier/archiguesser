@@ -547,7 +547,7 @@
   },
   {
     "answer": "Fallingwater House / Frank Lloyd Wright / Pennsylvania, United States of America (USA)",
-    "days": [29, 319],
+    "days": [29, 319, 1060],
     "copyrights": [
       {
         "*": "wikiarquitectura"
@@ -556,8 +556,7 @@
     "years": "1935-1939",
     "links": [
       "https://en.wikipedia.org/wiki/Fallingwater_House",
-      "https://en.wikiarquitectura.com/building/Fallingwater-House/",
-      "https://en.wikipedia.org/wiki/Fallingwater"
+      "https://en.wikiarquitectura.com/building/Fallingwater-House/"
     ],
     "categories": ["housing", "Architecture Classics", "modernism"],
     "recommendation": "wright"
