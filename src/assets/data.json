@@ -10744,5 +10744,19 @@
     "years": "2005",
     "links": ["https://nl.wikipedia.org/wiki/Kruisherenhotel"],
     "categories": ["community", "commercial", "hard"]
+  },
+  {
+    "answer": "Alexandra and Ainsworth Road estate (Rowley Way) / Neave Brown / London Borough of Camden, London, United Kingdom (UK)",
+    "days": [1063],
+    "copyrights": [
+      {
+        "4": "Oxyman (wikimedia)",
+        "6": "Jonframe1 (wikimedia)",
+        "*": "Scott Wylie (wikimedia)"
+      }
+    ],
+    "years": "1972–1978",
+    "links": ["https://en.wikipedia.org/wiki/Alexandra_Road_Estate"],
+    "categories": ["community", "housing", "brutalism"]
   }
 ]
