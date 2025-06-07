@@ -6925,8 +6925,8 @@
     "recommendation": "hadid"
   },
   {
-    "answer": "Tverrfjellhytta Pavilion (Viewpoint Snøhetta) / Snøhetta, Knut Bjørgum / Hjerkinn, Dovre, Norway",
-    "days": [541],
+    "answer": "Tverrfjellhytta Pavilion (Viewpoint Snøhetta, Norwegian Wild Reindeer Centre) / Snøhetta, Knut Bjørgum / Hjerkinn, Dovre, Norway",
+    "days": [541, 1073],
     "copyrights": [
       {
         "1": "Ketil Jacobsen",
@@ -6938,7 +6938,7 @@
     ],
     "years": "2009-2011",
     "links": ["https://www.snohetta.com/projects/viewpoint-snohetta"],
-    "categories": ["contemporary", "pavilion"]
+    "categories": ["contemporary", "pavilion", "community"]
   },
   {
     "answer": "Kuwait Towers / Malene Björn, Sune Lindström / Kuwait City, Kuwait",
