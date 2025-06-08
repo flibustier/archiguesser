@@ -10758,5 +10758,21 @@
     "years": "1972–1978",
     "links": ["https://en.wikipedia.org/wiki/Alexandra_Road_Estate"],
     "categories": ["community", "housing", "brutalism"]
+  },
+  {
+    "answer": "L’Arbre Blanc Residential Tower / Sou Fujimoto Architects, Nicolas Laisné, OXO Architectes, Dimitri Roussel / Montpellier, France",
+    "days": [1074],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Architect",
+        "2": "Courtesy of the Architect",
+        "*": "Cyrille Weiner"
+      }
+    ],
+    "years": "2019",
+    "links": [
+      "https://www.archdaily.com/918762/larbre-blanc-residential-tower-sou-fujimoto-architects-plus-nicolas-laisne-plus-oxo-architects-plus-dimitri-roussel"
+    ],
+    "categories": ["community", "housing"]
   }
 ]
