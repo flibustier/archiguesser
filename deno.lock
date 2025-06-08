@@ -745,9 +745,9 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@babel/types@7.27.3",
+        "npm:@babel/types@7.27.6",
         "npm:@playwright/test@1.52.0",
-        "npm:@types/node@22.15.29",
+        "npm:@types/node@22.15.30",
         "npm:@vitejs/plugin-vue@5.2.4",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.5.0",
