@@ -10774,5 +10774,20 @@
       "https://www.archdaily.com/918762/larbre-blanc-residential-tower-sou-fujimoto-architects-plus-nicolas-laisne-plus-oxo-architects-plus-dimitri-roussel"
     ],
     "categories": ["community", "housing"]
+  },
+  {
+    "answer": "University of Lethbridge Science Commons / KPMB Architects, Stantec Architecture / Lethbridge, Canada",
+    "days": [1079],
+    "copyrights": [
+      {
+        "2": "Adrien Williams",
+        "*": "Nic Lehoux"
+      }
+    ],
+    "years": "2019",
+    "links": [
+      "https://www.archdaily.com/928560/university-of-lethbridge-science-commons-kpmb-architects-plus-stantec-architecture"
+    ],
+    "categories": ["community", "university"]
   }
 ]
