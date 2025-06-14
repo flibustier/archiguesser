@@ -10516,7 +10516,7 @@
     }
   },
   {
-    "answer": "NürnbergMesse Hall 3A & 3C / Zaha Hadid Architects / Nuremberg, Germany",
+    "answer": "NürnbergMesse Hall 3A & 3C / Zaha Hadid / Nuremberg, Germany",
     "days": [1001],
     "copyrights": [
       {
@@ -10789,5 +10789,21 @@
       "https://www.archdaily.com/928560/university-of-lethbridge-science-commons-kpmb-architects-plus-stantec-architecture"
     ],
     "categories": ["community", "university"]
+  },
+  {
+    "answer": "Mercury Tower / Zaha Hadid / St. Julian's, Malta",
+    "days": [1080],
+    "copyrights": [
+      {
+        "1": "Marcin Floryan",
+        "2": "Flibust1er (wikimedia)",
+        "3": "Flibust1er (wikimedia)",
+        "4": "Marco Del Torchio 95 ",
+        "*": "Courtesy of VA"
+      }
+    ],
+    "years": "2023",
+    "links": ["https://en.wikipedia.org/wiki/Mercury_Tower"],
+    "categories": []
   }
 ]
