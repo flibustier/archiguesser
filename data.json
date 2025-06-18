@@ -4061,8 +4061,8 @@
     "categories": ["religious", "community"]
   },
   {
-    "answer": "Villa dall’Ava / Rem Koolhaas, OMA / Paris, France",
-    "days": [254],
+    "answer": "Villa Dall’Ava / Rem Koolhaas, OMA / Saint-Cloud, France",
+    "days": [254, 1084],
     "copyrights": [
       {
         "5": "Hans Werlemann",
@@ -4071,8 +4071,8 @@
       }
     ],
     "years": "1985-1991",
-    "links": [],
-    "categories": []
+    "links": ["https://fr.wikipedia.org/wiki/Villa_Dall%27Ava"],
+    "categories": ["Architecture Classics", "house"]
   },
   {
     "answer": "Sendai Mediatheque / Toyo Ito / Sendai, Miyagi, Japan",
@@ -7606,7 +7606,7 @@
   },
   {
     "answer": "Beijing City Library / Snøhetta, ECADI / Beijing, China",
-    "days": [609],
+    "days": [609, 1085],
     "copyrights": [
       {
         "*": "Yumeng Zhu"
