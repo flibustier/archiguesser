@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@babel/types": "7.27.6",
-    "@playwright/test": "1.53.0",
+    "@playwright/test": "1.53.1",
     "@types/node": "22.15.31",
     "@vitejs/plugin-vue": "5.2.4",
     "@vue/eslint-config-prettier": "10.2.0",
