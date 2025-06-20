@@ -1983,7 +1983,7 @@
   },
   {
     "answer": "Trulli di Alberobello (Trullo house) / Alberobello, Bari, Apulia, Italy",
-    "days": [120],
+    "days": [120, 1086],
     "copyrights": [
       {
         "1": "MatthiasKabel (wikimedia)",
@@ -1994,8 +1994,8 @@
         "6": "AlMare (wikimedia)"
       }
     ],
-    "links": [],
-    "categories": ["monument"]
+    "links": ["https://en.wikipedia.org/wiki/Trullo"],
+    "categories": ["monument", "city"]
   },
   {
     "answer": "Cathedral of Our Lady of the Angels (COLA) / Rafael Moneo / Los Angeles, California, United States of America (USA)",
