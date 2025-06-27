@@ -13,8 +13,8 @@ importers:
         version: 3.5.17(typescript@5.8.3)
     devDependencies:
       '@babel/types':
-        specifier: 7.27.6
-        version: 7.27.6
+        specifier: 7.27.7
+        version: 7.27.7
       '@playwright/test':
         specifier: 1.53.1
         version: 1.53.1
@@ -76,8 +76,8 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/types@7.27.6':
-    resolution: {integrity: sha512-ETyHEk2VHHvl9b9jZP5IHPavHYk57EhanlRRuae9XCpb/j5bDCbPPMOBfCWhnl/7EDJz0jEMCi/RhccCE8r1+Q==}
+  '@babel/types@7.27.7':
+    resolution: {integrity: sha512-8OLQgDScAOHXnAz2cV+RfzzNMipuLVBz2biuAJFMV9bfkNf393je3VM8CLkjQodW5+iWsSJdSgSWT6rsZoXHPw==}
     engines: {node: '>=6.9.0'}
 
   '@esbuild/aix-ppc64@0.25.5':
@@ -1422,9 +1422,9 @@ snapshots:
 
   '@babel/parser@7.27.5':
     dependencies:
-      '@babel/types': 7.27.6
+      '@babel/types': 7.27.7
 
-  '@babel/types@7.27.6':
+  '@babel/types@7.27.7':
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
