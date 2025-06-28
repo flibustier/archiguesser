@@ -3317,13 +3317,14 @@
     "categories": []
   },
   {
-    "answer": "Limoges Concert Hall / Bernard Tschumi / Limoges, France",
-    "days": [204],
+    "answer": "Limoges Concert Hall (Zénith Limoges Métropole) / Bernard Tschumi / Limoges, France",
+    "days": [204, 1094],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
+    "years": "2005-2007",
     "links": ["https://en.wikipedia.org/wiki/Limoges_Concert_Hall"],
     "categories": ["Architecture Classics"]
   },

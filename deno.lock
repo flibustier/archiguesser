@@ -4,7 +4,6 @@
     "npm:@babel/types@7.27.1": "7.27.1",
     "npm:@types/node@22.15.18": "22.15.18",
     "npm:lightningcss@1.30.1": "1.30.1",
-    "npm:prettier@3.5.3": "3.5.3",
     "npm:typescript@5.8.3": "5.8.3",
     "npm:vite@6.3.5": "6.3.5_@types+node@22.15.18_lightningcss@1.30.1_picomatch@4.0.2",
     "npm:vue-tsc@2.2.10": "2.2.10_typescript@5.8.3"
@@ -502,10 +501,6 @@
         "source-map-js"
       ]
     },
-    "prettier@3.5.3": {
-      "integrity": "sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==",
-      "bin": true
-    },
     "rollup@4.40.2": {
       "integrity": "sha512-tfUOg6DTP4rhQ3VjOO6B4wyrJnGOX85requAXvqYTHsOgb2TFJdZ3aWpT8W2kPoypSGP7dZUyzxJ9ee4buM5Fg==",
       "dependencies": [
@@ -596,9 +591,9 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@babel/types@7.27.6",
+        "npm:@babel/types@7.27.7",
         "npm:@playwright/test@1.53.1",
-        "npm:@types/node@22.15.32",
+        "npm:@types/node@22.15.33",
         "npm:@vitejs/plugin-vue@5.2.4",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.5.1",
@@ -607,7 +602,7 @@
         "npm:eslint-plugin-vue@10.2.0",
         "npm:eslint@9.29.0",
         "npm:lightningcss@1.30.1",
-        "npm:prettier@3.5.3",
+        "npm:prettier@3.6.2",
         "npm:rollup-plugin-visualizer@6.0.3",
         "npm:typescript@5.8.3",
         "npm:vite@6.3.5",
