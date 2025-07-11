@@ -2177,7 +2177,7 @@
   },
   {
     "answer": "Presence in Hormuz 2 / ZAV Architects / Hormuz Island, Iran",
-    "days": [132],
+    "days": [132, 1107],
     "copyrights": [
       {
         "1": "Tahmineh Monzavi",
@@ -2188,8 +2188,9 @@
         "6": "Payman Barkhordari"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2020",
+    "links": ["https://zavarchitects.com/en/works/PRESENCE-IN-HORMOZ-02"],
+    "categories": ["housing"]
   },
   {
     "answer": "Saint Mark's Basilica (Basilica di San Marco) / Doge Domenico I Contarini / Venice, Italy",
