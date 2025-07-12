@@ -3711,7 +3711,7 @@
   },
   {
     "answer": "Smith House / Richard Meier / Darien, Connecticut, United States of America (USA)",
-    "days": [232],
+    "days": [232, 1108],
     "copyrights": [
       {
         "3": "Courtesy of the Architect",
@@ -3720,7 +3720,7 @@
     ],
     "years": "1965-1967",
     "links": [
-      "https://en.wikipedia.org/wiki/Smith_House",
+      "https://en.wikipedia.org/wiki/Frederick_J._Smith_House",
       "https://en.wikiarquitectura.com/building/Smith-House/"
     ],
     "categories": ["Architecture Classics", "house"],
