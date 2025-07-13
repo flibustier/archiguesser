@@ -10807,5 +10807,22 @@
     "years": "2023",
     "links": ["https://en.wikipedia.org/wiki/Mercury_Tower"],
     "categories": []
+  },
+  {
+    "answer": "Élysée Palace (Palais de l'Élysée) / Armand Claude Mollet / Paris, France",
+    "days": [1109],
+    "copyrights": [
+      {
+        "1": "vostok 91 (wikimedia)",
+        "2": "G.Garitan (wikimedia)",
+        "3": "Louis Bretez / Claude Lucas (wikimedia)",
+        "4": "Anonyme, graveur (wikimedia)",
+        "5": "Erwmat (wikimedia)",
+        "6": "Ron Przysucha (wikimedia)"
+      }
+    ],
+    "years": "1718-1722",
+    "links": ["https://en.wikipedia.org/wiki/%C3%89lys%C3%A9e_Palace"],
+    "categories": ["institution"]
   }
 ]
