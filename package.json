@@ -21,7 +21,7 @@
     "vue": "3.5.17"
   },
   "devDependencies": {
-    "@babel/types": "7.28.0",
+    "@babel/types": "7.28.1",
     "@playwright/test": "1.54.1",
     "@types/node": "22.16.3",
     "@vitejs/plugin-vue": "6.0.0",
