@@ -4167,7 +4167,7 @@
   },
   {
     "answer": "St. Ignatius Chapel / Steven Holl / Seattle University, Seattle, Washington, United States of America (USA)",
-    "days": [261],
+    "days": [261, 1115],
     "copyrights": [
       {
         "5": "wikiarquitectura",
@@ -4176,7 +4176,10 @@
       }
     ],
     "years": "1994-1997",
-    "links": ["https://en.wikiarquitectura.com/building/St.-Ignatius-Chapel/"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Chapel_of_St._Ignatius",
+      "https://en.wikiarquitectura.com/building/St.-Ignatius-Chapel/"
+    ],
     "categories": ["Architecture Classics"]
   },
   {
@@ -4629,7 +4632,9 @@
       }
     ],
     "years": "2017",
-    "links": ["https://www.archdaily.com/883075/tipperne-bird-sanctuary-johansen-skovsted-arkitekter"],
+    "links": [
+      "https://www.archdaily.com/883075/tipperne-bird-sanctuary-johansen-skovsted-arkitekter"
+    ],
     "categories": []
   },
   {
