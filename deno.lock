@@ -325,9 +325,9 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@babel/types@7.28.0",
+        "npm:@babel/types@7.28.1",
         "npm:@playwright/test@1.54.1",
-        "npm:@types/node@22.16.3",
+        "npm:@types/node@22.16.4",
         "npm:@vitejs/plugin-vue@6.0.0",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.6.0",
@@ -339,8 +339,8 @@
         "npm:prettier@3.6.2",
         "npm:rollup-plugin-visualizer@6.0.3",
         "npm:typescript@5.8.3",
-        "npm:vite@7.0.4",
-        "npm:vue-tsc@3.0.1",
+        "npm:vite@7.0.5",
+        "npm:vue-tsc@3.0.3",
         "npm:vue@3.5.17"
       ]
     }
