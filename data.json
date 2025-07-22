@@ -10829,5 +10829,23 @@
     "years": "1718-1722",
     "links": ["https://en.wikipedia.org/wiki/%C3%89lys%C3%A9e_Palace"],
     "categories": ["institution"]
+  },
+  {
+    "answer": "National Museum of Western Art (国立西洋美術館, Kokuritsu Seiyō Bijutsukan, Musée National des Beaux-Arts de l’Occident, NMWA) / Le Corbusier, Kunio Maekawa, Junzo Sakakura, Takamasa Yoshizaka / 7-7 Ueno Imperial Grant Park, Taitō, Tokyo, Japan",
+    "days": [1118],
+    "copyrights": [
+      {
+        "1": "Xia Zhi",
+        "2": "wikiarquitectura",
+        "3": "Xia Zhi",
+        "4": "wikiarquitectura",
+        "5": "663highland (wikimedia)",
+        "6": "663highland (wikimedia)"
+      }
+    ],
+    "years": "1958-1959",
+    "links": ["https://en.wikipedia.org/wiki/National_Museum_of_Western_Art"],
+    "categories": ["museum", "community"],
+    "recommendation": "corbusier"
   }
 ]
