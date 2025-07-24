@@ -18,12 +18,12 @@
     "download": "node ./scripts/download/cli.js"
   },
   "dependencies": {
-    "vue": "3.5.17"
+    "vue": "3.5.18"
   },
   "devDependencies": {
-    "@babel/types": "7.28.1",
+    "@babel/types": "7.28.2",
     "@playwright/test": "1.54.1",
-    "@types/node": "22.16.4",
+    "@types/node": "24.1.0",
     "@vitejs/plugin-vue": "6.0.0",
     "@vue/eslint-config-prettier": "10.2.0",
     "@vue/eslint-config-typescript": "14.6.0",
@@ -35,7 +35,7 @@
     "prettier": "3.6.2",
     "rollup-plugin-visualizer": "6.0.3",
     "typescript": "5.8.3",
-    "vite": "7.0.5",
-    "vue-tsc": "3.0.3"
+    "vite": "7.0.6",
+    "vue-tsc": "3.0.4"
   }
 }
