@@ -3331,14 +3331,17 @@
   },
   {
     "answer": "Bodø Town Hall / Atelier Lorentzen Langkilde / Bodø, Norway",
-    "days": [205],
+    "days": [205, 1121],
     "copyrights": [
       {
         "*": "Adam Mørk"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2019",
+    "links": [
+      "https://www.archdaily.com/931586/bodo-town-hall-atelier-lorentzen-langkilde"
+    ],
+    "categories": ["city hall"]
   },
   {
     "answer": "Central Building of the BMW Plant / Zaha Hadid, Patrick Schumacher / Leipzig, Germany",
