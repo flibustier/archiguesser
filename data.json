@@ -10850,5 +10850,19 @@
     "links": ["https://en.wikipedia.org/wiki/National_Museum_of_Western_Art"],
     "categories": ["museum", "community"],
     "recommendation": "corbusier"
+  },
+  {
+    "answer": "Morpheus Hotel / Zaha Hadid Architects / Cotai, Macao (SAR)",
+    "days": [1125],
+    "copyrights": [
+      {
+        "5": "Ivan Dupont",
+        "*": "Virgile Simon Bertrand"
+      }
+    ],
+    "years": "2014-2018",
+    "links": ["https://en.wikipedia.org/wiki/Morpheus_(hotel)"],
+    "categories": ["commercial", "community"],
+    "credits": "bles713"
   }
 ]
