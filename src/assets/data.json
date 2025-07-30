@@ -10862,7 +10862,22 @@
     ],
     "years": "2014-2018",
     "links": ["https://en.wikipedia.org/wiki/Morpheus_(hotel)"],
-    "categories": ["commercial", "community"],
+    "categories": ["community", "commercial"],
     "credits": "bles713"
+  },
+  {
+    "answer": "Asakusa Culture Tourist Information Center / Kengo Kuma & Associates / Asakusa, Taito, Tokyo, Japan",
+    "days": [1126],
+    "copyrights": [
+      {
+        "3": "Flibust1er (wikimedia)",
+        "*": "Takeshi Yamagishi"
+      }
+    ],
+    "years": "2012",
+    "links": [
+      "https://en.wikipedia.org/wiki/Asakusa_Culture_Tourist_Information_Center"
+    ],
+    "categories": ["community", "cultural"]
   }
 ]
