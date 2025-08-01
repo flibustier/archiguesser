@@ -5429,7 +5429,7 @@
   },
   {
     "answer": "Academy of Sciences in California / Renzo Piano, Stantec Architecture / Golden Park, San Francisco, California, United States of America (USA)",
-    "days": [359],
+    "days": [359, 1128],
     "copyrights": [
       {
         "2": "Nic Lehoux",
@@ -5900,11 +5900,11 @@
   },
   {
     "answer": "The Kreuzberg Tower and Wings / John Hejduk / Berlin, Germany",
-    "days": [401],
+    "days": [401, 1129],
     "copyrights": [
       {
         "6": "Andreas Tuffé (wikimedia)",
-        "*": "Jonathan Platteau"
+        "*": "flibust1er (wikimedia)"
       }
     ],
     "years": "1988",
