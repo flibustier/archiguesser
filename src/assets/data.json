@@ -10879,5 +10879,19 @@
       "https://en.wikipedia.org/wiki/Asakusa_Culture_Tourist_Information_Center"
     ],
     "categories": ["community", "cultural"]
+  },
+  {
+    "answer": "La Sucrière (The Sugar-House) / Z Architecture / Lyon, France",
+    "days": [1131],
+    "copyrights": [
+      {
+        "3": "Jean-Pierre Dalbéra (wikimedia)",
+        "4": "Romainbehar (wikimedia)",
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "1925-1930, 2003",
+    "links": ["https://en.wikipedia.org/wiki/La_Sucri%C3%A8re"],
+    "categories": ["community", "refurbishment"]
   }
 ]
