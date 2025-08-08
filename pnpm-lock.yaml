@@ -23,7 +23,7 @@ importers:
         version: 24.2.0
       '@vitejs/plugin-vue':
         specifier: 6.0.1
-        version: 6.0.1(vite@7.0.6(@types/node@24.2.0)(lightningcss@1.30.1))(vue@3.5.18(typescript@5.9.2))
+        version: 6.0.1(vite@7.1.1(@types/node@24.2.0)(lightningcss@1.30.1))(vue@3.5.18(typescript@5.9.2))
       '@vue/eslint-config-prettier':
         specifier: 10.2.0
         version: 10.2.0(eslint@9.32.0)(prettier@3.6.2)
@@ -55,8 +55,8 @@ importers:
         specifier: 5.9.2
         version: 5.9.2
       vite:
-        specifier: 7.0.6
-        version: 7.0.6(@types/node@24.2.0)(lightningcss@1.30.1)
+        specifier: 7.1.1
+        version: 7.1.1(@types/node@24.2.0)(lightningcss@1.30.1)
       vue-tsc:
         specifier: 3.0.5
         version: 3.0.5(typescript@5.9.2)
@@ -1306,8 +1306,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite@7.0.6:
-    resolution: {integrity: sha512-MHFiOENNBd+Bd9uvc8GEsIzdkn1JxMmEeYX35tI3fv0sJBUTfW5tQsoaOwuY4KhBI09A3dUJ/DXf2yxPVPUceg==}
+  vite@7.1.1:
+    resolution: {integrity: sha512-yJ+Mp7OyV+4S+afWo+QyoL9jFWD11QFH0i5i7JypnfTcA1rmgxCbiA8WwAICDEtZ1Z1hzrVhN8R8rGTqkTY8ZQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -1731,10 +1731,10 @@ snapshots:
       '@typescript-eslint/types': 8.35.1
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-vue@6.0.1(vite@7.0.6(@types/node@24.2.0)(lightningcss@1.30.1))(vue@3.5.18(typescript@5.9.2))':
+  '@vitejs/plugin-vue@6.0.1(vite@7.1.1(@types/node@24.2.0)(lightningcss@1.30.1))(vue@3.5.18(typescript@5.9.2))':
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.29
-      vite: 7.0.6(@types/node@24.2.0)(lightningcss@1.30.1)
+      vite: 7.1.1(@types/node@24.2.0)(lightningcss@1.30.1)
       vue: 3.5.18(typescript@5.9.2)
 
   '@volar/language-core@2.4.22':
@@ -2540,7 +2540,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@7.0.6(@types/node@24.2.0)(lightningcss@1.30.1):
+  vite@7.1.1(@types/node@24.2.0)(lightningcss@1.30.1):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.3)
