@@ -5,7 +5,7 @@ set -e
 
 cdate=$(date +"%m-%d-%Y")
 
-yarn build
+deno task build
 
 cd dist
 
