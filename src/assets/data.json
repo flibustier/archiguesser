@@ -3624,7 +3624,7 @@
   },
   {
     "answer": "Torres del Parque (Towers) / Rogelio Salmona / Bogotá, Colombia",
-    "days": [226],
+    "days": [226, 1135],
     "copyrights": [
       {
         "1": "alejo ache (flickr)",
@@ -3635,8 +3635,9 @@
         "6": "Alex Obonaga (flickr)"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1965-1970",
+    "links": ["https://es.wikipedia.org/wiki/Torres_del_Parque"],
+    "categories": ["Architecture Classics"]
   },
   {
     "answer": "Montreal Biosphere / Richard Buckminster Fuller / Montreal, Canada",
@@ -10908,6 +10909,7 @@
     "links": [
       "https://www.archdaily.com/1005192/boston-university-center-for-computing-and-data-sciences-kpmb-architects"
     ],
-    "categories": ["community", "university"]
+    "categories": ["community", "university"],
+    "credits": "Herbivortex"
   }
 ]
