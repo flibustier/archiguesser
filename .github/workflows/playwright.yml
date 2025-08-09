@@ -13,17 +13,17 @@ jobs:
         with:
           node-version: lts/*
       - name: Install dependencies
-        run: npm install -g yarn && yarn
+        run: npm install
       - name: Install Playwright Browsers
-        run: yarn playwright install --with-deps
+        run: npm playwright install --with-deps
       - name: Build for preview
-        run: yarn build
+        run: npm build
       - name: Run Playwright tests and update snapshots
         if: contains(github.event.pull_request.labels.*.name, 'update snapshots')
-        run: yarn test:e2e --update-snapshots
+        run: npm test:e2e --update-snapshots
       - name: Run Playwright tests
         if: ${{ !contains(github.event.pull_request.labels.*.name, 'update snapshots') }}
-        run: yarn test:e2e
+        run: npm test:e2e
       - uses: actions/upload-artifact@v4
         if: always()
         with:

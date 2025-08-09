@@ -9,12 +9,12 @@
     "format": "prettier --write .",
     "test:unit": "node --test",
     "test:e2e": "playwright test",
-    "test:e2e:linux": "docker run -it --rm --ipc=host --volume=./:/mnt --volume=/mnt/node_modules  mcr.microsoft.com/playwright:v1.44.1-jammy /bin/sh -c 'cd /mnt && yarn install && yarn playwright test --update-snapshots'",
+    "test:e2e:linux": "docker run -it --rm --ipc=host --volume=./:/mnt --volume=/mnt/node_modules  mcr.microsoft.com/playwright:v1.44.1-jammy /bin/sh -c 'cd /mnt && npm install && npm run playwright test --update-snapshots'",
     "build": "vue-tsc --noEmit & vite build",
     "preview": "vite preview --port 4173",
     "deploy": "./scripts/deploy.sh",
     "convert": "./scripts/convert.sh",
-    "convert:all": "for dir in $(ls -1 sources/ | grep -E '^[0-9]+$' | sort -n); do echo 'Processing $dir...'; yarn convert $dir; done",
+    "convert:all": "for dir in $(ls -1 sources/ | grep -E '^[0-9]+$' | sort -n); do echo 'Processing $dir...'; deno task convert $dir; done",
     "download": "node ./scripts/download/cli.js"
   },
   "dependencies": {

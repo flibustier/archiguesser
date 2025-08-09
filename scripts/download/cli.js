@@ -31,7 +31,7 @@ const main = async () => {
 
 const extractArguments = () => {
   if (process.argv.length < 4) {
-    console.log(`Usage: yarn download [URL] [DESTINATION_DIRECTORY]`);
+    console.log(`Usage: download [URL] [DESTINATION_DIRECTORY]`);
 
     process.exit(1);
   }

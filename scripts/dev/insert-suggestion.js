@@ -8,7 +8,7 @@ const OUTPUT_FILE = "src/assets/suggestions.json";
 
 const extractArguments = () => {
   if (process.argv.length < 3) {
-    console.log(`Usage: yarn insert [SUGGESTION]`);
+    console.log(`Usage: insert [SUGGESTION]`);
 
     process.exit(1);
   }
