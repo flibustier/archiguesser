@@ -10911,5 +10911,32 @@
     ],
     "categories": ["community", "university"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Küçük Çamlıca TV & Radio Tower / Melike Altınışık Architects / Istanbul, Turkey",
+    "days": [1137],
+    "copyrights": [
+      {
+        "*": "NAARO"
+      }
+    ],
+    "years": "2020",
+    "links": ["https://en.wikipedia.org/wiki/%C3%87aml%C4%B1ca_Tower"],
+    "categories": ["community", "tower"]
+  },
+  {
+    "answer": "Les Docks - La Cité de la mode et du design (City of Fashion and Design) / Jakob + Macfarlane / Paris, France",
+    "days": [1138],
+    "copyrights": [
+      {
+        "*": "Nicolas Borel"
+      }
+    ],
+    "years": "2012",
+    "links": [
+      "https://en.wikipedia.org/wiki/Cit%C3%A9_de_la_mode_et_du_design"
+    ],
+    "categories": ["community"],
+    "credits": "Herbivortex"
   }
 ]
