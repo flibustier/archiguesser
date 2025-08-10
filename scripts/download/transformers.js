@@ -11,7 +11,7 @@ const patchWikipediaURL = (thumbnailURL) => {
 };
 
 const patchWordPressURL = (thumbnailURL) =>
-  thumbnailURL.replace(/[-.]\d+x\d+\.jpg/, ".jpg");
+  thumbnailURL.replace(/[-.]\d+x(-q)?\d+\.jpg/, ".jpg");
 
 const patchArchDailyImageURL = (thumbnailURL) =>
   thumbnailURL
@@ -35,5 +35,5 @@ export const patchURLs = (urls) =>
       .map(patchWordPressURL)
       .map(patchArquitecturaVivaURL)
       .map(patchFigureGroundURL)
-      .map(patchDivisareURL),
+      .map(patchDivisareURL)
   );
