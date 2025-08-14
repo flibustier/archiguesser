@@ -4730,7 +4730,7 @@
   },
   {
     "answer": "Rock-hewn Churches of Lalibela / Lalibela, Ethiopia",
-    "days": [302],
+    "days": [302, 1142],
     "copyrights": [
       {
         "4": "Vincent Long (unesco)",
@@ -4740,7 +4740,10 @@
       }
     ],
     "years": "~12th century",
-    "links": ["https://whc.unesco.org/en/list/18/"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela",
+      "https://whc.unesco.org/en/list/18/"
+    ],
     "categories": ["monument"]
   },
   {
@@ -6483,7 +6486,7 @@
   },
   {
     "answer": "Jefferson Memorial / John Russell Pope, Eggers & Higgins / Washington, D.C., United States of America (USA)",
-    "days": [474],
+    "days": [474, 1141],
     "copyrights": [
       {
         "1": "Jamieadams99 (wikimedia)",
