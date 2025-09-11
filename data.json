@@ -9059,7 +9059,7 @@
   },
   {
     "answer": "Dongdaemun Design Plaza (DDP) / Zaha Hadid, Samoo / Seoul, South Korea",
-    "days": [790],
+    "days": [790, 1169],
     "copyrights": [
       {
         "6": "Eugene Lim (wikimedia)",
@@ -9068,7 +9068,8 @@
     ],
     "years": "2009-2013",
     "links": ["https://en.wikipedia.org/wiki/Dongdaemun_Design_Plaza"],
-    "categories": ["hadid"]
+    "categories": [""],
+    "recommendation": "hadid"
   },
   {
     "answer": "Walmer Yard / Peter Salter, Mole Architects, John Comparelli Architects / London, United Kingdom (UK)",
