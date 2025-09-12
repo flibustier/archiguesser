@@ -4548,19 +4548,19 @@
   },
   {
     "answer": "Tod’s Omotesando Buiding / Toyo Ito / Shibuya-ku, Tokyo, Japan",
-    "days": [289],
+    "days": [289, 1170],
     "copyrights": [
       {
         "1": "Edmund Sumner",
         "2": "Edmund Sumner",
-        "3": "Nathan Rader (narader@syr.edu)",
+        "3": "Nathan Rader",
         "4": "wikiarquitectura",
         "*": "architectuul.com"
       }
     ],
     "years": "2002-2004",
-    "links": [],
-    "categories": []
+    "links": ["https://en.wikiarquitectura.com/building/tods-omotesando-buiding/"],
+    "categories": ["shopping"]
   },
   {
     "answer": "Glass House (Johnson House) / Philip Johnson / New Canaan, Connecticut, United States of America (USA)",
