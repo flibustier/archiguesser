@@ -4559,7 +4559,9 @@
       }
     ],
     "years": "2002-2004",
-    "links": ["https://en.wikiarquitectura.com/building/tods-omotesando-buiding/"],
+    "links": [
+      "https://en.wikiarquitectura.com/building/tods-omotesando-buiding/"
+    ],
     "categories": ["shopping"]
   },
   {
@@ -10942,5 +10944,19 @@
     ],
     "categories": ["community"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Great Mosque of Samarra / Samarra, Saladin Governorate, Iraq",
+    "days": [1171],
+    "copyrights": [
+      {
+        "3": "Arab League User (wikimedia)",
+        "6": "Fakhri Mahmood (wikimedia)",
+        "*": "Mahdi Almasi (wikimedia)"
+      }
+    ],
+    "years": "851–1278",
+    "links": ["https://en.wikipedia.org/wiki/Great_Mosque_of_Samarra"],
+    "categories": ["monument", "community", "religious"]
   }
 ]
