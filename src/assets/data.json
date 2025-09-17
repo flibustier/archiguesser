@@ -10958,5 +10958,18 @@
     "years": "851–1278",
     "links": ["https://en.wikipedia.org/wiki/Great_Mosque_of_Samarra"],
     "categories": ["monument", "community", "religious"]
+  },
+  {
+    "answer": "Museum de Fundatie / Bierman Henket architecten / Zwolle, Netherlands",
+    "days": [1175],
+    "copyrights": [
+      {
+        "*": "Joep Jacobs"
+      }
+    ],
+    "years": "1838-1841, 2013",
+    "links": ["https://en.wikipedia.org/wiki/Museum_de_Fundatie"],
+    "categories": ["community", "museum"],
+    "credits": "Herbivortex"
   }
 ]
