@@ -10971,5 +10971,18 @@
     "links": ["https://en.wikipedia.org/wiki/Museum_de_Fundatie"],
     "categories": ["community", "museum"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Convent de Sant Francesc (Church) / David Closes / Santpedor, Spain",
+    "days": [1177],
+    "copyrights": [
+      {
+        "*": "Jordi Surroca"
+      }
+    ],
+    "years": "2011",
+    "links": ["https://www.archdaily.com/251389/convent-de-sant-francesc"],
+    "categories": ["community"],
+    "credits": "Herbivortex"
   }
 ]
