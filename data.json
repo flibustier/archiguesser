@@ -244,19 +244,25 @@
   },
   {
     "answer": "Le Monde Group Headquarters / Snøhetta / Paris, France",
-    "days": [12],
+    "days": [12, 1178],
     "copyrights": [
       {
         "1": "Ludwig Favre",
         "2": "Ludwig Favre",
-        "3": "JARED CHULSKI",
-        "4": "JARED CHULSKI",
         "5": "Ludwig Favre",
-        "6": "JARED CHULSKI"
+        "*": "JARED CHULSKI"
+      }, 
+      {
+        "1": "Ludwig Favre",
+        "6": "MARWAN HARMOUCHE",
+        "*": "JARED CHULSKI"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2020",
+    "links": [
+      "https://www.archdaily.com/953509/le-monde-group-headquarters-snohetta"
+    ],
+    "categories": ["commercial"]
   },
   {
     "answer": "Flatiron Building / Daniel Hudson Burnham / New York, United States of America (USA)",
