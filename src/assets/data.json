@@ -6806,7 +6806,7 @@
   },
   {
     "answer": "Cube Orange (The Orange Cube) / Jakob + Macfarlane Architects / Quai Rambaud, Lyon, France",
-    "days": [509],
+    "days": [509, 1184],
     "copyrights": [
       {
         "1": "Nicolas Borel",
@@ -6815,7 +6815,10 @@
       }
     ],
     "years": "2005-2011",
-    "links": ["http://www.jakobmacfarlane.com/en/project/orange-cube/"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Orange_Cube",
+      "http://www.jakobmacfarlane.com/en/project/orange-cube/"
+    ],
     "categories": ["contemporary"]
   },
   {
