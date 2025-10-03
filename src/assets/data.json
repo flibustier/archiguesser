@@ -10993,5 +10993,20 @@
     "links": ["https://www.archdaily.com/251389/convent-de-sant-francesc"],
     "categories": ["community"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Greenland Hangzhou Center (Hangzhou Arch) / Skidmore, Owings & Merrill (SOM), East China Architectural Design & Research Institute, Arup Group / Hangzhou, China",
+    "days": [1191],
+    "copyrights": [
+      {
+        "1": "MasaneMiyaPA (wikimedia)",
+        "3": "MasaneMiyaPA (wikimedia)",
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2017-2023",
+    "links": ["https://en.wikipedia.org/wiki/Greenland_Hangzhou_Center"],
+    "categories": ["community"],
+    "credits": "bles713"
   }
 ]
