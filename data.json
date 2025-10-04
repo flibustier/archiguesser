@@ -3308,8 +3308,8 @@
     "recommendation": "piano"
   },
   {
-    "answer": "Tour Bois-le-Prêtre (Transformation) / Frédéric Druot, Lacaton & Vassal / Paris, France",
-    "days": [202],
+    "answer": "Tour Bois-le-Prêtre (Transformation) / Frédéric Druot, Anne Lacaton, Jean-Philippe Vassal (Lacaton & Vassal) / Paris, France",
+    "days": [202, 1192],
     "copyrights": [
       {
         "1": "Raymond Lopez",
@@ -3320,8 +3320,9 @@
         "6": "Courtesy of the Architect"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "1951-1961, 2007-2010",
+    "links": ["https://fr.wikipedia.org/wiki/Tour_Bois-le-Pr%C3%AAtre"],
+    "categories": ["refurbishment", "housing", "favorites"]
   },
   {
     "answer": "Limoges Concert Hall (Zénith Limoges Métropole) / Bernard Tschumi / Limoges, France",
