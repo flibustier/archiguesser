@@ -502,13 +502,13 @@
         "npm:@vue/tsconfig@0.8.1",
         "npm:axios@1.12.2",
         "npm:eslint-plugin-vue@10.5.0",
-        "npm:eslint@9.36.0",
+        "npm:eslint@9.37.0",
         "npm:lightningcss@1.30.2",
         "npm:prettier@3.6.2",
         "npm:rollup-plugin-visualizer@6.0.4",
         "npm:typescript@5.9.3",
         "npm:vite@7.1.9",
-        "npm:vue-tsc@3.0.8",
+        "npm:vue-tsc@3.1.0",
         "npm:vue@3.5.22"
       ]
     }
