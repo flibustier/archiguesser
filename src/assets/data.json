@@ -11009,5 +11009,24 @@
     "links": ["https://en.wikipedia.org/wiki/Greenland_Hangzhou_Center"],
     "categories": ["community"],
     "credits": "bles713"
+  },
+  {
+    "answer": "Pilgrimage Church of Saint John of Nepomuk (Poutní kostel svatého Jana Nepomuckého) / Johann Santini Aichel / Žďár nad Sázavou, Czech Republic",
+    "days": [1198],
+    "copyrights": [
+      {
+        "1": "Ben Skála, Benfoto (wikimedia)",
+        "2": "Jan Beránek (wikimedia)",
+        "3": "Gampe (wikimedia)",
+        "4": "Jan Santini Aichel (wikimedia)",
+        "5": "Gampe (wikimedia)",
+        "6": "Wolkenkratzer (wikimedia)"
+      }
+    ],
+    "years": "1719-1797",
+    "links": [
+      "https://en.wikipedia.org/wiki/Pilgrimage_Church_of_Saint_John_of_Nepomuk"
+    ],
+    "categories": ["community", "religious"]
   }
 ]
