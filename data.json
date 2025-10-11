@@ -6729,7 +6729,7 @@
   },
   {
     "answer": "Statue of Liberty (La Liberté éclairant le monde, Liberty Enlightening the World) / Frédéric Auguste Bartholdi, Eugène Viollet-le-Duc, Gustave Eiffel / Liberty Island, New York, United States of America (USA)",
-    "days": [500],
+    "days": [500, 1200],
     "copyrights": [
       {
         "1": "Daniel Schwen (wikimedia)",
@@ -8208,7 +8208,7 @@
   },
   {
     "answer": "Les Étoiles d’Ivry (Ivry-sur-Seine Social Housing Project) / Jean Renaudie and Renée Gailhoustet / Paris, France",
-    "days": [668],
+    "days": [668, 1199],
     "copyrights": [
       {
         "1": "Centre Pompidou / Bibliotheque Kandinsky",
