@@ -1726,15 +1726,18 @@
     "categories": ["concert hall"]
   },
   {
-    "answer": "Couvent de Saint-François / Amelia Tavella Architectes / Sainte Lucie de Tallano, Corsica, France",
-    "days": [102],
+    "answer": "Couvent de Saint-François (Convent) / Amelia Tavella Architectes / Sainte Lucie de Tallano, Corsica, France",
+    "days": [102, 1205],
     "copyrights": [
       {
         "*": "Thibaut Dini"
       }
     ],
-    "links": [],
-    "categories": []
+    "years": "2021",
+    "links": [
+      "https://www.archdaily.com/966028/convent-saint-francois-amelia-tavella-architectes"
+    ],
+    "categories": ["refurbishment"]
   },
   {
     "answer": "Hearst Headquarters (Tower) / Norman Foster / New York, United States of America (USA)",
