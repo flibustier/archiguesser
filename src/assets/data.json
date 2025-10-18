@@ -11045,5 +11045,18 @@
       "https://it.wikipedia.org/wiki/Chiesa_di_San_Francesco_d%27Assisi_al_Fopponino"
     ],
     "categories": ["community", "religious", "modernism"]
+  },
+  {
+    "answer": "Čoarvemátta Cultural and Educational Hub / Snøhetta, 70°N arkitektur, Joar Nango / Kautokeino, Norway",
+    "days": [1207],
+    "copyrights": [
+      {
+        "*": "Lars Petter Pettersen"
+      }
+    ],
+    "years": "2020-2024",
+    "links": ["https://www.snohetta.com/projects/coarvematta"],
+    "categories": ["community"],
+    "credits": "Herbivortex"
   }
 ]
