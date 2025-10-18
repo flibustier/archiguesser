@@ -11031,5 +11031,32 @@
       "https://en.wikipedia.org/wiki/Pilgrimage_Church_of_Saint_John_of_Nepomuk"
     ],
     "categories": ["community", "religious"]
+  },
+  {
+    "answer": "Church of San Francesco d’Assisi al Fopponino / Gio Ponti / Milan, Italy",
+    "days": [1206],
+    "copyrights": [
+      {
+        "*": "Archweb"
+      }
+    ],
+    "years": "1958-1964",
+    "links": [
+      "https://it.wikipedia.org/wiki/Chiesa_di_San_Francesco_d%27Assisi_al_Fopponino"
+    ],
+    "categories": ["community", "religious", "modernism"]
+  },
+  {
+    "answer": "Čoarvemátta Cultural and Educational Hub / Snøhetta, 70°N arkitektur, Joar Nango / Kautokeino, Norway",
+    "days": [1207],
+    "copyrights": [
+      {
+        "*": "Lars Petter Pettersen"
+      }
+    ],
+    "years": "2020-2024",
+    "links": ["https://www.snohetta.com/projects/coarvematta"],
+    "categories": ["community"],
+    "credits": "Herbivortex"
   }
 ]
