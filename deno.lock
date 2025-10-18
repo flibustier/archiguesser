@@ -467,20 +467,20 @@
     "packageJson": {
       "dependencies": [
         "npm:@babel/types@7.28.4",
-        "npm:@playwright/test@1.56.0",
+        "npm:@playwright/test@1.56.1",
         "npm:@types/node@24.7.1",
         "npm:@vitejs/plugin-vue@6.0.1",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.6.0",
         "npm:@vue/tsconfig@0.8.1",
         "npm:axios@1.12.2",
-        "npm:eslint-plugin-vue@10.5.0",
+        "npm:eslint-plugin-vue@10.5.1",
         "npm:eslint@9.37.0",
         "npm:lightningcss@1.30.2",
         "npm:prettier@3.6.2",
-        "npm:rollup-plugin-visualizer@6.0.4",
+        "npm:rollup-plugin-visualizer@6.0.5",
         "npm:typescript@5.9.3",
-        "npm:vite@7.1.9",
+        "npm:vite@7.1.10",
         "npm:vue-tsc@3.1.1",
         "npm:vue@3.5.22"
       ]
