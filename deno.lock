@@ -493,7 +493,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@babel/types@7.28.4",
+        "npm:@babel/types@7.28.5",
         "npm:@playwright/test@1.56.1",
         "npm:@types/node@24.8.1",
         "npm:@vitejs/plugin-vue@6.0.1",
