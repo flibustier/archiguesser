@@ -382,7 +382,7 @@
   },
   {
     "answer": "Oslo Opera House / Snøhetta, Kjetil Thorsen, Tarald Lundevall, Craig Dykers / Oslo, Norway",
-    "days": [20, 290],
+    "days": [20, 290, 1214],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
@@ -390,6 +390,12 @@
       {
         "1": "Jonathan Platteau",
         "2": "Jonathan Platteau",
+        "5": "Éléonore Lefebvre",
+        "*": "Courtesy of the Architect"
+      },
+      {
+        "1": "Flibust1er (wikimedia)",
+        "2": "Flibust1er (wikimedia)",
         "5": "Éléonore Lefebvre",
         "*": "Courtesy of the Architect"
       }
