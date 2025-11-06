@@ -2429,7 +2429,7 @@
   },
   {
     "answer": "Musée d'Orsay (Orsay Museum) / Victor Laloux, ACT, Gae Aulenti / Paris, France",
-    "days": [147, 543],
+    "days": [147, 543, 1225],
     "copyrights": [
       {
         "1": "",
@@ -2442,7 +2442,7 @@
     ],
     "years": "1898-1900,1986",
     "links": ["https://en.wikipedia.org/wiki/Musée_d'Orsay"],
-    "categories": ["museum"]
+    "categories": ["museum", "favorites"]
   },
   {
     "answer": "San Cataldo Cemetery / Aldo Rossi / Modena, Italy",
