@@ -11064,5 +11064,22 @@
     "links": ["https://www.snohetta.com/projects/coarvematta"],
     "categories": ["community"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Toro House / Estudio Carroll / Puerto Escondido, Mexico",
+    "days": [1226],
+    "copyrights": [
+      {
+        "1": "Richard Stow",
+        "2": "Richard Stow",
+        "3": "Courtesy of the Architect",
+        "4": "Victor Morales",
+        "5": "Cesar Belio",
+        "6": "Cesar Belio"
+      }
+    ],
+    "years": "2023",
+    "links": ["https://www.archdaily.com/1014706/toro-house-estudio-carroll"],
+    "categories": ["house", "community"]
   }
 ]
