@@ -9068,7 +9068,7 @@
   },
   {
     "answer": "Kunstsilo Art Gallery / Mestres Wåge Arquitectes, BAX, Mendoza Partida / Kristiansand, Odderøya, Norway",
-    "days": [787],
+    "days": [787, 1227],
     "copyrights": [
       {
         "*": "Alan Williams"
@@ -11080,6 +11080,7 @@
     ],
     "years": "2023",
     "links": ["https://www.archdaily.com/1014706/toro-house-estudio-carroll"],
-    "categories": ["house", "community"]
+    "categories": ["house", "community"],
+    "credits": "Herbivortex"
   }
 ]
