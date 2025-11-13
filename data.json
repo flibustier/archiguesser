@@ -1210,7 +1210,7 @@
   },
   {
     "answer": "Mt. Fuji World Heritage Centre / Shigeru Ban / Fujinomiya, Shizuoka, Japan",
-    "days": [66, 436],
+    "days": [66, 436, 1232],
     "copyrights": [
       {
         "*": "Hiroyuki Hirai"
@@ -1218,7 +1218,7 @@
     ],
     "years": "2017",
     "links": [
-      "https://www.arup.com/projects/mt-fuji-world-heritage-centre-shizuoka"
+      "https://shigerubanarchitects.com/works/cultural/mt-fuji-world-heritage-centre/"
     ],
     "categories": ["cultural"],
     "recommendation": "ban"
