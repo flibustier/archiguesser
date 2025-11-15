@@ -11090,5 +11090,20 @@
     "links": ["https://www.archdaily.com/1014706/toro-house-estudio-carroll"],
     "categories": ["house", "community"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Treehouse Coliving Apartments / Bo-DAA / Gangnam-gu, South Korea",
+    "days": [1234],
+    "copyrights": [
+      {
+        "4": "Courtesy of the Architect",
+        "*": "Rohspace"
+      }
+    ],
+    "years": "2018",
+    "links": [
+      "https://www.archdaily.com/932735/treehouse-apartment-building-bo-daa"
+    ],
+    "categories": ["community", "housing"]
   }
 ]
