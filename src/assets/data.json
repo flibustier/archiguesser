@@ -223,10 +223,18 @@
   },
   {
     "answer": "Orient Station to Expo’98 (Gare do Oriente) / Santiago Calatrava / Lisbon, Portugal",
-    "days": [11, 376],
+    "days": [11, 376, 1238],
     "copyrights": [
       {
         "*": "wikiarquitectura"
+      },
+      {
+        "1": "António M.L. Cabral (wikimedia)",
+        "2": "Maria Eklind (wikimedia)",
+        "3": "",
+        "4": "wikiarquitectura",
+        "5": "Kent Wang (wikimedia)",
+        "6": "Jonas.tesch (wikimedia)"
       },
       {
         "1": "António M.L. Cabral (wikimedia)",
