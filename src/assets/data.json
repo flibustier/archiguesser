@@ -1315,11 +1315,17 @@
   },
   {
     "answer": "Milà House (La Pedrera) / Antoni Gaudí / Barcelona, Spain",
-    "days": [73, 429],
+    "days": [73, 429, 1239],
     "copyrights": [
       {
         "3": "jacqueline.poggi",
         "5": "jacqueline.poggi",
+        "*": "Samuel Ludwig"
+      },
+      {
+        "3": "jacqueline.poggi",
+        "4": "Jaume Meneses (wikimedia)",
+        "5": "Kyle Taylor (wikimedia)",
         "*": "Samuel Ludwig"
       },
       {
