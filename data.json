@@ -11132,6 +11132,20 @@
     "links": [
       "https://www.dmaa.at/work/expo-cultural-park-greenhouse-garden-shanghai"
     ],
-    "categories": ["community", "cultural"]
+    "categories": ["community", "cultural"],
+    "credits": "Herbivortex"
+  },
+  {
+    "answer": "Felix Nussbaum Museum / Studio Libeskind / Osnabrück, Germany",
+    "days": [1241],
+    "copyrights": [
+      {
+        "2": "Courtesy of the Architect",
+        "*": "Bitter Bredt"
+      }
+    ],
+    "years": "1998",
+    "links": ["https://en.wikipedia.org/wiki/Felix_Nussbaum_Haus"],
+    "categories": ["community", "museum"]
   }
 ]
