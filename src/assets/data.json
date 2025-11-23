@@ -337,11 +337,11 @@
   },
   {
     "answer": "Casa da Musica / Rem Koolhaas, OMA / Porto, Portugal",
-    "days": [17, 264],
+    "days": [17, 264, 1242],
     "copyrights": [
       {
         "6": "Philippe Ruault",
-        "*": "Jonathan Platteau"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "2005",
@@ -349,7 +349,7 @@
       "https://en.wikipedia.org/wiki/Casa_da_Musica",
       "https://en.wikiarquitectura.com/building/Casa-da-Musica/"
     ],
-    "categories": ["contemporary"]
+    "categories": ["contemporary", "concert hall"]
   },
   {
     "answer": "Bosco Verticale (Vertical Forest) / Stefano Boeri, Gianandrea Barreca, Giovanni La Varra / Milan, Italy",
