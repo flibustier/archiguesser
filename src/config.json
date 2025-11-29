@@ -3,7 +3,7 @@
   "URL": "https://archiguesser.com",
   "STARTING_DATE": [2022, 6, 1],
   "_STARTING_DATE": "// Here the first day was July (6) the 2nd (1) of 2022",
-  "SKIPPED_DAYS": [198, 214, 332, 484, 491, 519, 547, 694, 750, 993, 1212],
+  "SKIPPED_DAYS": [198, 214, 332, 484, 491, 519, 547, 694, 750, 993, 1212, 1247],
   "ITEMS_PER_LEVEL": 5,
   "MAX_LEVEL": 5,
   "ANONYMOUS_RETRIES": 3,

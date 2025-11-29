@@ -11155,5 +11155,20 @@
     "years": "1998",
     "links": ["https://en.wikipedia.org/wiki/Felix_Nussbaum_Haus"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Abby Kortrijk / BAROZZI VEIGA / Kortrijk, Belgium",
+    "days": [1248],
+    "copyrights": [
+      {
+        "4": "Dieter Van Caneghem",
+        "5": "Stad Kortrijk",
+        "6": "We Document Art",
+        "*": "Simone Marcolin"
+      }
+    ],
+    "years": "2025",
+    "links": ["https://www.archdaily.com/1032030/abby-kortrijk-barozzi-veiga"],
+    "categories": ["community", "cultural"]
   }
 ]
