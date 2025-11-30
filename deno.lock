@@ -1,8 +1,5 @@
 {
   "version": "5",
-  "specifiers": {
-    "npm:@playwright/test@1.56.1": "1.56.1"
-  },
   "npm": {
     "@esbuild/aix-ppc64@0.25.4": {
       "integrity": "sha512-1VCICWypeQKhVbE9oW/sJaAmjLxhVqacdkvPLEjwlttjfwENRSClS8EjBz0KzRyFSCPDIkuXW34Je/vk7zdB7Q==",
@@ -128,13 +125,6 @@
       "integrity": "sha512-nOT2vZNw6hJ+z43oP1SPea/G/6AbN6X+bGNhNuq8NtRHy4wsMhw765IKLNmnjek7GvjWBYQ8Q5VBoYTFg9y1UQ==",
       "os": ["win32"],
       "cpu": ["x64"]
-    },
-    "@playwright/test@1.56.1": {
-      "integrity": "sha512-vSMYtL/zOcFpvJCW71Q/OEGQb7KYBPAdKh35WNSkaZA75JlAO8ED8UN6GUNTm3drWomcbcqRPFqQbLae8yBTdg==",
-      "dependencies": [
-        "playwright"
-      ],
-      "bin": true
     },
     "@rollup/rollup-android-arm-eabi@4.40.2": {
       "integrity": "sha512-JkdNEq+DFxZfUwxvB58tHMHBHVgX23ew41g1OQinthJ+ryhdRk67O31S7sYw8u2lTjHUPFxwar07BBt1KHp/hg==",
@@ -335,25 +325,6 @@
       "integrity": "sha512-M/fKi4sasCdM8i0aWJjCSFm2qEnYRR8AMLG2kxp6wD13+tMGA4Z1tVAuHkNRjud5SW2EM3naLuK35w9twvf6aA==",
       "os": ["win32"],
       "cpu": ["x64"]
-    },
-    "fsevents@2.3.2": {
-      "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
-      "os": ["darwin"],
-      "scripts": true
-    },
-    "playwright-core@1.56.1": {
-      "integrity": "sha512-hutraynyn31F+Bifme+Ps9Vq59hKuUCz7H1kDOcBs+2oGguKkWTU50bBWrtz34OUWmIwpBTWDxaRPXrIXkgvmQ==",
-      "bin": true
-    },
-    "playwright@1.56.1": {
-      "integrity": "sha512-aFi5B0WovBHTEvpM3DzXTUaeN6eN0qWnTkKx4NQaH4Wvcmc153PdaY2UBdSYKaGYw+UyWXSVyxDUg5DoPEttjw==",
-      "dependencies": [
-        "playwright-core"
-      ],
-      "optionalDependencies": [
-        "fsevents"
-      ],
-      "bin": true
     }
   },
   "redirects": {
@@ -366,21 +337,21 @@
     "packageJson": {
       "dependencies": [
         "npm:@babel/types@7.28.5",
-        "npm:@playwright/test@1.56.1",
+        "npm:@playwright/test@1.57.0",
         "npm:@types/node@24.10.1",
         "npm:@vitejs/plugin-vue@6.0.2",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.6.0",
         "npm:@vue/tsconfig@0.8.1",
         "npm:axios@1.13.2",
-        "npm:eslint-plugin-vue@10.5.1",
+        "npm:eslint-plugin-vue@10.6.2",
         "npm:eslint@9.39.1",
         "npm:lightningcss@1.30.2",
-        "npm:prettier@3.6.2",
+        "npm:prettier@3.7.2",
         "npm:rollup-plugin-visualizer@6.0.5",
         "npm:typescript@5.9.3",
         "npm:vite@7.2.4",
-        "npm:vue-tsc@3.1.4",
+        "npm:vue-tsc@3.1.5",
         "npm:vue@3.5.25"
       ]
     }
