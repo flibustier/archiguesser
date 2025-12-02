@@ -628,8 +628,8 @@
     "categories": ["concert hall", "Architecture Classics"]
   },
   {
-    "answer": "Portuguese Pavilion Expo ’98 / Álvaro Siza Vieira / Lisboa, Portugal",
-    "days": [32, 328],
+    "answer": "Portuguese Pavilion Expo ’98 (Pavilhão de Portugal) / Álvaro Siza Vieira / Lisbon, Portugal",
+    "days": [32, 328, 1251],
     "copyrights": [
       {
         "1": "bricolage 108",
@@ -639,7 +639,7 @@
       }
     ],
     "years": "1998",
-    "links": [],
+    "links": ["https://en.wikipedia.org/wiki/Pavilh%C3%A3o_de_Portugal"],
     "categories": ["Architecture Classics"]
   },
   {
