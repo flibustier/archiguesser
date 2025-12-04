@@ -11170,5 +11170,20 @@
     "years": "2025",
     "links": ["https://www.archdaily.com/1032030/abby-kortrijk-barozzi-veiga"],
     "categories": ["community", "cultural"]
+  },
+  {
+    "answer": "Our Lady of Sorrows Chapel (Kaple Panny Marie Bolestné) / RCNKSK / Nesvačilka, Czech Republic",
+    "days": [1253],
+    "copyrights": [
+      {
+        "*": "Ondřej Bouška"
+      }
+    ],
+    "years": "2024",
+    "links": [
+      "https://cs.wikipedia.org/wiki/Kaple_Panny_Marie_Bolestn%C3%A9_(Nesva%C4%8Dilka)"
+    ],
+    "categories": ["community", "religious"],
+    "credits": "Herbivortex"
   }
 ]
