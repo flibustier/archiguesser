@@ -11185,5 +11185,20 @@
     ],
     "categories": ["community", "religious"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "University of Zurich Law Faculty (Rechtswissenschaftliche Bibliothek) / Santiago Calatrava / Zurich, Switzerland",
+    "days": [1254],
+    "copyrights": [
+      {
+        "*": "Courtesy of the Architect"
+      }
+    ],
+    "years": "2004",
+    "links": [
+      "https://de.wikipedia.org/wiki/Bibliothek_der_Rechtswissenschaftlichen_Fakult%C3%A4t_der_Universit%C3%A4t_Z%C3%BCrich",
+      "https://calatrava.com/projects/university-of-zurich-law-faculty-zuerich.html"
+    ],
+    "categories": ["community", "library"]
   }
 ]
