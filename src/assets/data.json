@@ -5116,8 +5116,8 @@
     "categories": []
   },
   {
-    "answer": "Sears Tower – Willis Tower / Owings & Merrill Skidmore, Bruce Graham / Chicago, Illinois, United States of America (USA)",
-    "days": [331, 332],
+    "answer": "Willis Tower (Sears Tower) / Owings & Merrill Skidmore, Bruce Graham / Chicago, Illinois, United States of America (USA)",
+    "days": [331, 332, 1255],
     "copyrights": [
       {
         "1": "Vincent Desjardins (flickr)",
@@ -5128,7 +5128,7 @@
       }
     ],
     "years": "1970-1974",
-    "links": [],
+    "links": ["https://en.wikipedia.org/wiki/Willis_Tower"],
     "categories": ["skyscraper"]
   },
   {
