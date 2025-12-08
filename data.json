@@ -467,8 +467,8 @@
     "categories": []
   },
   {
-    "answer": "Three Powers Square / Oscar Niemeyer / Brasilia, Brazil",
-    "days": [23, 269],
+    "answer": "Three Powers Square (Praça dos Três Poderes) / Oscar Niemeyer / Brasilia, Brazil",
+    "days": [23, 269, 1258],
     "copyrights": [
       {
         "*": "wikiarquitectura"
@@ -11200,5 +11200,17 @@
       "https://calatrava.com/projects/university-of-zurich-law-faculty-zuerich.html"
     ],
     "categories": ["community", "library"]
+  },
+  {
+    "answer": "LUMA Arles / Gehry Partners / Arles, France",
+    "days": [1257],
+    "copyrights": [
+      {
+        "*": "Iwan Baan"
+      }
+    ],
+    "years": "2021",
+    "links": ["https://en.wikipedia.org/wiki/LUMA_Arles"],
+    "categories": ["community", "exhibition"]
   }
 ]
