@@ -11200,5 +11200,17 @@
       "https://calatrava.com/projects/university-of-zurich-law-faculty-zuerich.html"
     ],
     "categories": ["community", "library"]
+  },
+  {
+    "answer": "LUMA Arles / Gehry Partners / Arles, France",
+    "days": [1257],
+    "copyrights": [
+      {
+        "*": "Iwan Baan"
+      }
+    ],
+    "years": "2021",
+    "links": ["https://en.wikipedia.org/wiki/LUMA_Arles"],
+    "categories": ["community", "exhibition"]
   }
 ]
