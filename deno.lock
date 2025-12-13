@@ -338,8 +338,8 @@
       "dependencies": [
         "npm:@babel/types@7.28.5",
         "npm:@playwright/test@1.57.0",
-        "npm:@types/node@24.10.1",
-        "npm:@vitejs/plugin-vue@6.0.2",
+        "npm:@types/node@24.10.3",
+        "npm:@vitejs/plugin-vue@6.0.3",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.6.0",
         "npm:@vue/tsconfig@0.8.1",
@@ -350,8 +350,8 @@
         "npm:prettier@3.7.4",
         "npm:rollup-plugin-visualizer@6.0.5",
         "npm:typescript@5.9.3",
-        "npm:vite@7.2.6",
-        "npm:vue-tsc@3.1.5",
+        "npm:vite@7.2.7",
+        "npm:vue-tsc@3.1.8",
         "npm:vue@3.5.25"
       ]
     }
