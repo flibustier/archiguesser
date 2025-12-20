@@ -11212,5 +11212,21 @@
     "years": "2021",
     "links": ["https://en.wikipedia.org/wiki/LUMA_Arles"],
     "categories": ["community", "exhibition"]
+  },
+  {
+    "answer": "Steeplechase House / Brooks + Scarpa / Hillsborough, United States of America (USA)",
+    "days": [1268],
+    "copyrights": [
+      {
+        "2": "Courtesy of the Architect",
+        "*": " Mark Herboth"
+      }
+    ],
+    "years": "2024",
+    "links": [
+      "https://www.archdaily.com/1023211/steeplechase-house-brooks-plus-scarpa"
+    ],
+    "categories": ["community", "house"],
+    "credits": "Herbivortex"
   }
 ]
