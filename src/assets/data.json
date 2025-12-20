@@ -11228,5 +11228,19 @@
     ],
     "categories": ["community", "house"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Zayed National Museum / Foster + Partners / Abu Dhabi, United Arab Emirates (UAE)",
+    "days": [1269],
+    "copyrights": [
+      {
+        "*": "Nigel Young"
+      }
+    ],
+    "years": "2025",
+    "links": [
+      "https://www.fosterandpartners.com/projects/zayed-national-museum"
+    ],
+    "categories": ["community", "museum"]
   }
 ]
