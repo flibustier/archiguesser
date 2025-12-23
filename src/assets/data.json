@@ -1689,14 +1689,17 @@
   },
   {
     "answer": "Calgary's new Central Library / Snøhetta / Calgary, Alberta, Canada",
-    "days": [96, 431],
+    "days": [96, 431, 1272],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
     "years": "2013-2018",
-    "links": ["https://www.snohetta.com/projects/calgary-central-library"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Calgary_Central_Library",
+      "https://www.snohetta.com/projects/calgary-central-library"
+    ],
     "categories": ["library"]
   },
   {
