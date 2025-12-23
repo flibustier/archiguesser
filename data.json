@@ -1689,14 +1689,17 @@
   },
   {
     "answer": "Calgary's new Central Library / Snøhetta / Calgary, Alberta, Canada",
-    "days": [96, 431],
+    "days": [96, 431, 1272],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
     "years": "2013-2018",
-    "links": ["https://www.snohetta.com/projects/calgary-central-library"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Calgary_Central_Library",
+      "https://www.snohetta.com/projects/calgary-central-library"
+    ],
     "categories": ["library"]
   },
   {
@@ -2402,7 +2405,7 @@
   },
   {
     "answer": "Cattedrale di Santa Maria del Fiore (Florence Cathedral, Duomo di Firenze) / Filippo Brunelleschi, Arnolfo Di Cambio, Giotto di Bondone, Andrea Pisano, Emilio De Fabris / Florence, Italy",
-    "days": [144, 559],
+    "days": [144, 559, 1273],
     "copyrights": [
       {
         "1": "Livioandronico2013 (wikimedia)",
