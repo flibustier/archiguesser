@@ -16,14 +16,19 @@ const main = async () => {
 
   createDirectoryIfNotExisting(destinationDirectory);
 
-  const { data: html } = await axios.get(url);
+  const { data: html } = await axios.get(url, {
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+    },
+  });
   const originalURLs = extractImageURLs(url, html);
   const patchedURLs = patchURLs(originalURLs);
 
   const success = await downloadFileList(
     patchedURLs,
     originalURLs,
-    destinationDirectory,
+    destinationDirectory
   );
 
   console.log(`🏆 ${success}/${originalURLs.length} images downloaded !`);
@@ -52,7 +57,7 @@ const createDirectoryIfNotExisting = (directory) => {
 const downloadFileList = async (
   patchedURLs,
   originalURLs,
-  destinationDirectory,
+  destinationDirectory
 ) => {
   const download = downloadFile(destinationDirectory);
 
@@ -71,7 +76,7 @@ const downloadFileList = async (
       console.log(`Fallback => ${fallbackURL}`);
 
       return download(fallbackURL, index);
-    }),
+    })
   );
 
   return secondPass.filter(({ status }) => status === "fulfilled").length;
@@ -82,6 +87,10 @@ const downloadFile = (directory) => (url, index) =>
     method: "get",
     url: url.startsWith("//") ? `https:${url}` : url,
     responseType: "stream",
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+    },
   }).then((response) => {
     let file = filename(url);
     if (file === "stringio.jpg") {

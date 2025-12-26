@@ -11245,5 +11245,23 @@
       "https://www.fosterandpartners.com/projects/zayed-national-museum"
     ],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Villa Farnese (Villa Caprarola) / Jacopo Barozzi da Vignola / Caprarola, Lazio, Italy",
+    "days": [1275],
+    "copyrights": [
+      {
+        "1": "Jean-Pierre Dalbéra (wikimedia)",
+        "2": "Daderot (wikimedia)",
+        "3": "Giuseppe Vasi / The architect (wikimedia)",
+        "4": "Livioandronico2013 (wikimedia)",
+        "5": "Seigneur Daviler (wikimedia)",
+        "6": "Smecucci (wikimedia)"
+      }
+    ],
+    "years": "1559-1630",
+    "links": ["https://en.wikipedia.org/wiki/Villa_Farnese"],
+    "categories": ["community"],
+    "style": "Mannerism"
   }
 ]
