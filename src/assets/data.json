@@ -11263,5 +11263,40 @@
     "links": ["https://en.wikipedia.org/wiki/Villa_Farnese"],
     "categories": ["community"],
     "style": "Mannerism"
+  },
+  {
+    "answer": "Žižkov Television Tower (Žižkovský vysílač) / Václav Aulický, Jiří Kozák / Prague, Czech Republic",
+    "days": [1281],
+    "copyrights": [
+      {
+        "1": "VANOCE2022 (wikimedia)",
+        "2": "Tiia Monto (wikimedia)",
+        "3": "České Radiokomunikace (wikimedia)",
+        "4": "Diether (wikimedia)",
+        "5": "Norbert Požár (wikimedia)",
+        "6": "Bengt Nyman (wikimedia)"
+      }
+    ],
+    "years": "1985-1992",
+    "links": [
+      "https://en.wikipedia.org/wiki/%C5%BDi%C5%BEkov_Television_Tower"
+    ],
+    "categories": ["community", "tower"]
+  },
+  {
+    "answer": "Jahad Metro Plaza / KA architecture studio (Mohammad Khavarian) / Tehran, Iran",
+    "days": [1282],
+    "copyrights": [
+      {
+        "6": "Athena Taleqani",
+        "*": "Mohammad Hassan Ettefagh"
+      }
+    ],
+    "years": "2023",
+    "links": [
+      "https://www.archdaily.com/1033623/jahad-metro-plaza-ka-architecture-studio-mohammad-khavarian"
+    ],
+    "categories": ["community", "infrastructure"],
+    "credits": "Alessandro"
   }
 ]
