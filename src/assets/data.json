@@ -11299,5 +11299,21 @@
     ],
     "categories": ["community", "infrastructure"],
     "credits": "Alessandro"
+  },
+  {
+    "answer": "Bell Labs Holmdel Complex (Bell Works) / Eero Saarinen / Holmdel, New Jersey, United States of America (USA)",
+    "days": [1288],
+    "copyrights": [
+      {
+        "1": "MiracleMiles (wikimedia)",
+        "4": "MiracleMiles (wikimedia)",
+        "5": "MiracleMiles (wikimedia)",
+        "6": "Curlyrnd (wikimedia)",
+        "*": "Szeremeta (wikimedia)"
+      }
+    ],
+    "years": "1959-1962, 1965–1966, 1980–1983, 2013",
+    "links": ["https://en.wikipedia.org/wiki/Bell_Labs_Holmdel_Complex"],
+    "categories": ["community", "movie set"]
   }
 ]
