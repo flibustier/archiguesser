@@ -11315,5 +11315,22 @@
     "years": "1959-1962, 1965–1966, 1980–1983, 2013",
     "links": ["https://en.wikipedia.org/wiki/Bell_Labs_Holmdel_Complex"],
     "categories": ["community", "movie set"]
+  },
+  {
+    "answer": "Museum of Modern Art in Warsaw (Muzeum Sztuki Nowoczesnej w Warszawie) / Thomas Phifer and Partners / Warsaw, Poland",
+    "days": [1289],
+    "copyrights": [
+      {
+        "1": "Maja Wirkus",
+        "2": "Maja Wirkus",
+        "3": "Marta Ejsmont",
+        "4": "Scott Frances",
+        "5": "Marta Ejsmont",
+        "6": "Adrian Grycuk (wikimedia)"
+      }
+    ],
+    "years": "2024",
+    "links": ["https://en.wikipedia.org/wiki/Museum_of_Modern_Art,_Warsaw"],
+    "categories": ["community", "museum"]
   }
 ]
