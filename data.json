@@ -11332,5 +11332,19 @@
     "years": "2024",
     "links": ["https://en.wikipedia.org/wiki/Museum_of_Modern_Art,_Warsaw"],
     "categories": ["community", "museum"]
+  },
+  {
+    "answer": "Fenix Art Museum / MAD Architects / Rotterdam, Netherlands",
+    "days": [1290],
+    "copyrights": [
+      {
+        "4": "Iris van den Broek",
+        "*": "Iwan Baan"
+      }
+    ],
+    "years": "2025",
+    "links": ["https://en.wikipedia.org/wiki/FENIX_Museum_of_Migration"],
+    "categories": ["community", "refurbishment", "museum"],
+    "credits": "Herbivortex"
   }
 ]
