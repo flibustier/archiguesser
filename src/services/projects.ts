@@ -9,7 +9,7 @@ const lastDayBeforeRealDayNumber = () =>
   Math.max(
     ...data
       .flatMap(({ days }) => days)
-      .filter((day) => day <= getRealDayNumber()),
+      .filter((day) => day <= getRealDayNumber())
   );
 
 export const isMonument = (dayNumber: number): boolean => {
@@ -20,7 +20,7 @@ export const isMonument = (dayNumber: number): boolean => {
 
 export const getProjectsByCategory = (category: string) => {
   const filtered = data.filter(({ categories = [] }) =>
-    categories.includes(category),
+    categories.includes(category)
   );
 
   if (filtered.length > 0) {
@@ -50,7 +50,10 @@ export const getProjectInformation = () => {
       // search for the dayNumber index on the list of days (ex. 100 is index 1 in days: [1, 100])
       const copyrightIndex = dayInformation.days.indexOf(dayNumber);
       // copyrights are at the same index (ex. copyrights: [{this are copyrights for day 1}, {this are copyrights for day 100 }])
-      copyrights = dayInformation.copyrights[copyrightIndex] || {};
+      copyrights =
+        dayInformation.copyrights[copyrightIndex] ||
+        dayInformation.copyrights[dayInformation.copyrights.length - 1] ||
+        {};
     }
 
     return {
