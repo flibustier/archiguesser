@@ -11346,5 +11346,22 @@
     "links": ["https://en.wikipedia.org/wiki/FENIX_Museum_of_Migration"],
     "categories": ["community", "refurbishment", "museum"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Fuji Broadcasting Center (FCG Building) / Kenzo Tange / Odaiba, Tokyo, Japan",
+    "days": [1295],
+    "copyrights": [
+      {
+        "3": "Guilhem Vellut (wikimedia)",
+        "4": "Guilhem Vellut (wikimedia)",
+        "5": "yuukin (wikimedia)",
+        "6": "Kakidai (wikimedia)",
+        "*": "Dick Thomas Johnson (wikimedia)"
+      }
+    ],
+    "years": "1996",
+    "links": ["https://en.wikipedia.org/wiki/Fuji_Broadcasting_Center"],
+    "categories": ["community", "office"],
+    "credits": "L. K. Bolinger"
   }
 ]
