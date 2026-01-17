@@ -11363,5 +11363,22 @@
     "links": ["https://en.wikipedia.org/wiki/Fuji_Broadcasting_Center"],
     "categories": ["community", "office"],
     "credits": "L. K. Bolinger"
+  },
+  {
+    "answer": "The Lotus Building and People's Park / studio505 / Changzhou, China",
+    "days": [1297],
+    "copyrights": [
+      {
+        "2": "Courtesy of the Architect",
+        "*": "John Gollings"
+      }
+    ],
+    "years": "2013",
+    "links": [
+      "https://www.studio505.com.au/work/project/the-lotus-building/38.html",
+      "https://www.archdaily.com/521699/the-lotus-building-and-people-s-park-studio505"
+    ],
+    "categories": ["community"],
+    "credits": "Herbivortex"
   }
 ]
