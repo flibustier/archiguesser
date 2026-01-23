@@ -11380,5 +11380,21 @@
     ],
     "categories": ["community"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Yerevan Cascade (Կասկադ) / Jim Torosyan, Aslan Mkhitaryan, Sargis Gurzadyan / Yerevan, Armenia",
+    "days": [1303],
+    "copyrights": [
+      {
+        "3": "Vyacheslav Argenberg (wikimedia)",
+        "5": "Marcin Konsek (wikimedia)",
+        "6": "Textfabrikant (wikipedia)",
+        "*": "Gor Navoyan (wikimedia)"
+      }
+    ],
+    "years": "1971-1980",
+    "links": ["https://en.wikipedia.org/wiki/Yerevan_Cascade"],
+    "categories": ["community"],
+    "hints": false
   }
 ]
