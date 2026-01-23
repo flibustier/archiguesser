@@ -4,7 +4,7 @@ import { reactive, computed, ref } from "vue";
 import { syncUser } from "@/services/user";
 import { getRealDayNumber } from "@/services/date";
 import { getProjectInformation } from "@/services/projects";
-import { sendEvent, sendResult, tagFeedbacks } from "@/services/api";
+import { sendEvent, sendResult } from "@/services/api";
 import { getLastFeedback, getStats, getScore } from "@/services/store";
 
 import EndDisplay from "@/components/daily/EndDisplay.vue";
@@ -18,7 +18,7 @@ const stats = getStats();
 const percent = ref();
 const guesses: string[] = reactive([]);
 const project = reactive(getProjectInformation());
-const { dayNumber, answer, constructionYears, copyrights } = project;
+const { dayNumber, answer, constructionYears, copyrights, noHints } = project;
 
 document.title = `ArchiGuesser #${dayNumber} - Guess the daily architectural project from the pictures`;
 
@@ -70,9 +70,6 @@ const onSubmittedGuess = async (guess: string) => {
     }
   }
 };
-
-// temp
-tagFeedbacks();
 </script>
 
 <template>
@@ -96,7 +93,7 @@ tagFeedbacks();
       :placeholder="project['hors-serie']"
     />
     <GuessingHistory
-      :without-hints="isHorsSerie"
+      :without-hints="isHorsSerie || noHints"
       :guesses="guesses"
       :answer="answer"
       :constructionYears="constructionYears"

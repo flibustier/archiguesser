@@ -62,6 +62,7 @@ export const getProjectInformation = () => {
       isMonument: (dayInformation.categories as string[]).includes("monument"),
       constructionYears: dayInformation.years,
       copyrights,
+      noHints: dayInformation.hints === false,
     };
   }
 

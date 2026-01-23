@@ -1,5 +1,5 @@
 import type { Stats, Challenges } from "./store.ts";
-import { getClientID, getCredentials, getSavedFeedbacks } from "./store.ts";
+import { getClientID, getCredentials } from "./store.ts";
 
 export const fetchWikipediaSummary = async (link: string): Promise<string> => {
   if (link.includes("wikipedia.org/wiki/")) {
@@ -128,22 +128,6 @@ export const sendFeedback = async (feedback: Feedback): Promise<void> => {
   } catch (error) {
     console.error(error);
     sendEvent("feedback: " + feedback.project);
-  }
-};
-
-export const tagFeedbacks = async (): Promise<void> => {
-  if (localStorage.getItem("tag") === "ok") {
-    return;
-  }
-
-  try {
-    await postData("tag-feedbacks", {
-      values: getSavedFeedbacks(),
-    });
-
-    localStorage.setItem("tag", "ok");
-  } catch (error) {
-    console.error(error);
   }
 };
 
