@@ -347,12 +347,12 @@
         "npm:eslint-plugin-vue@10.7.0",
         "npm:eslint@9.39.2",
         "npm:lightningcss@1.30.2",
-        "npm:prettier@3.8.0",
+        "npm:prettier@3.8.1",
         "npm:rollup-plugin-visualizer@6.0.5",
         "npm:typescript@5.9.3",
         "npm:vite@7.3.1",
-        "npm:vue-tsc@3.2.2",
-        "npm:vue@3.5.26"
+        "npm:vue-tsc@3.2.3",
+        "npm:vue@3.5.27"
       ]
     }
   }
