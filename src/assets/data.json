@@ -11396,5 +11396,22 @@
     "links": ["https://en.wikipedia.org/wiki/Yerevan_Cascade"],
     "categories": ["community"],
     "hints": false
+  },
+  {
+    "answer": "Great Theatre—National Opera (Teatr Wielki—Opera Narodowa) / Antonio Corazzi, Chrystian Piotr Aigner, Bohdan Pniewski / Warsaw, Poland",
+    "days": [1304],
+    "copyrights": [
+      {
+        "1": "Adrian Grycuk (wikimedia)",
+        "2": "Scotch Mist (wikimedia)",
+        "3": "Unknown (wikimedia)",
+        "4": "Tilman2007 (wikimedia)",
+        "5": "Chris Olszewski (wikimedia)",
+        "6": "Toniklemm (wikimedia)"
+      }
+    ],
+    "years": "1965",
+    "links": ["https://en.wikipedia.org/wiki/Grand_Theatre,_Warsaw"],
+    "categories": ["community", "concert hall"]
   }
 ]
