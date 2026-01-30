@@ -11413,5 +11413,23 @@
     "years": "1965",
     "links": ["https://en.wikipedia.org/wiki/Grand_Theatre,_Warsaw"],
     "categories": ["community", "concert hall"]
+  },
+  {
+    "answer": "Hampi Art Labs / Sameep Padora and Associates / Toranagallu, India",
+    "days": [1310],
+    "copyrights": [
+      {
+        "1": "Kartik Rathod",
+        "3": "Kartik Rathod",
+        "4": "Kartik Rathod",
+        "*": "Aagam Mehta"
+      }
+    ],
+    "years": "2023",
+    "links": [
+      "https://www.archdaily.com/1020014/hampi-art-labs-sameep-padora-and-associates"
+    ],
+    "categories": ["community"],
+    "credits": "Herbivortex"
   }
 ]
