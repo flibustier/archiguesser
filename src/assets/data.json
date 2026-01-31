@@ -2018,7 +2018,7 @@
   },
   {
     "answer": "Boa Nova Tea House (Casa de Chá da Boa Nova) / Álvaro Siza Vieira / Leça da Palmeira, Matosinhos, Portugal",
-    "days": [119, 512],
+    "days": [119, 512, 1311],
     "copyrights": [
       {
         "3": "maurizio.mwg (Flickr)",
@@ -2027,7 +2027,10 @@
       }
     ],
     "years": "1959-1963",
-    "links": ["https://en.wikiarquitectura.com/building/Boa-Nova-Tea-House/"],
+    "links": [
+      "https://en.wikipedia.org/wiki/Casa_de_Ch%C3%A1_da_Boa_Nova",
+      "https://en.wikiarquitectura.com/building/Boa-Nova-Tea-House/"
+    ],
     "categories": ["Architecture Classics"]
   },
   {
