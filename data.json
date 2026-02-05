@@ -8242,7 +8242,7 @@
   },
   {
     "answer": "Town Hall Eysturkommuna / Henning Larsen / Nordragota, Faroe Islands",
-    "days": [667],
+    "days": [667, 1316],
     "copyrights": [
       {
         "*": "Nic Lehoux"
@@ -8250,7 +8250,9 @@
     ],
     "years": "2013-2018",
     "links": ["https://henninglarsen.com/projects/eystur-town-hall"],
-    "categories": ["community", "city hall"]
+    "categories": ["community", "city hall"],
+    "credits": "Alessandro",
+    "hints": false
   },
   {
     "answer": "Les Étoiles d’Ivry (Ivry-sur-Seine Social Housing Project) / Jean Renaudie and Renée Gailhoustet / Paris, France",
