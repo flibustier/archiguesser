@@ -11436,5 +11436,25 @@
     ],
     "categories": ["community"],
     "credits": "Herbivortex"
+  },
+  {
+    "answer": "Exhibition Centre Salvador Da Bahia (Centro de Exposições do Centro Administrativo da Bahia) / João Filgueiras Lima (Lelé) / Salvador, Brasil",
+    "days": [1317],
+    "copyrights": [
+      {
+        "1": "Courtesy of the Architect",
+        "2": "Giancarlo Latorraca, 2000",
+        "3": "Giancarlo Latorraca, 2000",
+        "4": "Courtesy of the Architect",
+        "5": "arcoweb.com.br",
+        "6": "Gil Jacobus (flickr)"
+      }
+    ],
+    "years": "1974",
+    "links": [
+      "https://www.archdaily.com.br/br/761623/classicos-da-arquitetura-centro-de-exposcoes-do-centro-administrativo-da-bahia-joao-filgueiras-lima-lele"
+    ],
+    "categories": ["community", "institution", "brutalism"],
+    "credits": "Bruno Wobeto"
   }
 ]
