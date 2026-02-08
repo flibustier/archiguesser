@@ -337,7 +337,7 @@
     "packageJson": {
       "dependencies": [
         "npm:@babel/types@7.29.0",
-        "npm:@playwright/test@1.58.1",
+        "npm:@playwright/test@1.58.2",
         "npm:@types/node@24.10.11",
         "npm:@vitejs/plugin-vue@6.0.4",
         "npm:@vue/eslint-config-prettier@10.2.0",
