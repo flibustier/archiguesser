@@ -4001,13 +4001,14 @@
   },
   {
     "answer": "Caja Granada Savings Bank / Alberto Campo Baeza / Granada, Spain",
-    "days": [246],
+    "days": [246, 1324],
     "copyrights": [
       {
         "*": "Courtesy of the Architect"
       }
     ],
-    "links": [],
+    "years": "2001",
+    "links": ["https://www.archdaily.com/605350/ad-classics-caja-granada-savings-bank-alberto-campo-baeza"],
     "categories": ["Architecture Classics"]
   },
   {
