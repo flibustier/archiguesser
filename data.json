@@ -4008,20 +4008,24 @@
       }
     ],
     "years": "2001",
-    "links": ["https://www.archdaily.com/605350/ad-classics-caja-granada-savings-bank-alberto-campo-baeza"],
+    "links": [
+      "https://www.archdaily.com/605350/ad-classics-caja-granada-savings-bank-alberto-campo-baeza"
+    ],
     "categories": ["Architecture Classics"]
   },
   {
     "answer": "Prieto López House (Casa Pedregal) / Luis Barragán / Jardines del Pedregal, Mexico City, Mexico",
-    "days": [247],
+    "days": [247, 1325],
     "copyrights": [
       {
         "*": "Giorgio Possenti"
       }
     ],
     "years": "1948-1951",
-    "links": [],
-    "categories": []
+    "links": [
+      "https://www.barragan-foundation.org/works/list/prieto-lopez-house"
+    ],
+    "categories": ["house"]
   },
   {
     "answer": "Charles Bridge (Karlův Most) / Oto, Peter Parler / Prague, Czech Republic",
