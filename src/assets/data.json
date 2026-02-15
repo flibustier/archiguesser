@@ -2337,7 +2337,7 @@
   },
   {
     "answer": "Wolfsburg Cultural Center / Alvar Aalto / Wolfsburg, Germany",
-    "days": [139, 466],
+    "days": [139, 466, 1326],
     "copyrights": [
       {
         "3": "Samuel Ludwig",
@@ -2346,6 +2346,7 @@
     ],
     "years": "1959-1962",
     "links": [
+      "https://en.wikipedia.org/wiki/Alvar_Aalto_Cultural_Centre",
       "https://en.wikiarquitectura.com/building/Wolfsburg-Cultural-Center/"
     ],
     "categories": ["Architecture Classics"],
