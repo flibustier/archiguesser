@@ -44,31 +44,31 @@ try {
   const convertCommand = new Deno.Command("scripts/convert.sh", {
     args: [day.toString()],
   });
-  let { success } = await convertCommand.output();
+  const { success } = await convertCommand.output();
 
   if (success) {
     console.log(`%cConverted ${day}`, "color: PowderBlue");
   }
-
-  const addCommand = new Deno.Command("git", {
-    args: ["add", "public"],
-  });
-  ({ success } = await addCommand.output());
-
-  if (success) {
-    console.log(`%cGit files added`, "color: PowderBlue");
-  }
-
-  const commitCommand = new Deno.Command("git", {
-    args: ["c", `feat(data): add day ${nextDay} (${day})`],
-  });
-  ({ success } = await commitCommand.output());
-
-  if (success) {
-    console.log(`%cGit committed`, "color: PowderBlue");
-  }
 } catch (error) {
   console.warn(error);
+}
+
+const addCommand = new Deno.Command("git", {
+  args: ["add", "public"],
+});
+let { success } = await addCommand.output();
+
+if (success) {
+  console.log(`%cGit files added`, "color: PowderBlue");
+}
+
+const commitCommand = new Deno.Command("git", {
+  args: ["c", `feat(data): add day ${nextDay} (${day})`],
+});
+({ success } = await commitCommand.output());
+
+if (success) {
+  console.log(`%cGit committed`, "color: PowderBlue");
 }
 
 console.log("%cUpdated :\n" + JSON.stringify(dayData, null, 2), "color: green");
