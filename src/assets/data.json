@@ -11462,5 +11462,18 @@
     ],
     "categories": ["community", "institution", "brutalism"],
     "credits": "Bruno Wobeto"
+  },
+  {
+    "answer": "Museum of the Second World War / Studio Architektoniczne Kwadrat / Gdańsk, Poland",
+    "days": [1331],
+    "copyrights": [
+      {
+        "*": "Pawel Paniczko"
+      }
+    ],
+    "years": "2017",
+    "links": ["https://en.wikipedia.org/wiki/Museum_of_the_Second_World_War"],
+    "categories": ["community", "museum"],
+    "credits": "Anel"
   }
 ]
