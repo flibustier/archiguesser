@@ -2596,7 +2596,7 @@
   },
   {
     "answer": "Centraal Beheer hoofdkantoor / Herman Hertzberger / Apeldoorn, Netherlands",
-    "days": [155, 570],
+    "days": [155, 570, 1336],
     "copyrights": [
       {
         "4": "Apdency (wikimedia)",
@@ -2605,6 +2605,7 @@
     ],
     "years": "1968-1972",
     "links": [
+      "https://nl.wikipedia.org/wiki/Centraal_Beheergebouw_van_Herman_Hertzberger",
       "https://www.ahh.nl/index.php/en/projects2/12-utiliteitsbouw/85-centraal-beheer-offices-apeldoorn"
     ],
     "categories": ["community", "office"]
@@ -4394,7 +4395,7 @@
   },
   {
     "answer": "Neue Nationalgalerie (New National Gallery) / Ludwig Mies van der Rohe, David Chipperfield / Berlin, Germany",
-    "days": [273, 581],
+    "days": [273, 581, 1337],
     "copyrights": [
       {
         "4": "Horst Siegmann",
