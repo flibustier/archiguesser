@@ -338,12 +338,12 @@
       "dependencies": [
         "npm:@babel/types@7.29.0",
         "npm:@playwright/test@1.58.2",
-        "npm:@types/node@24.10.13",
+        "npm:@types/node@24.10.15",
         "npm:@vitejs/plugin-vue@6.0.4",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.7.0",
         "npm:@vue/tsconfig@0.8.1",
-        "npm:axios@1.13.5",
+        "npm:axios@1.13.6",
         "npm:eslint-plugin-vue@10.8.0",
         "npm:eslint@9.39.3",
         "npm:lightningcss@1.31.1",
@@ -351,8 +351,8 @@
         "npm:rollup-plugin-visualizer@7.0.0",
         "npm:typescript@5.9.3",
         "npm:vite@7.3.1",
-        "npm:vue-tsc@3.2.4",
-        "npm:vue@3.5.28"
+        "npm:vue-tsc@3.2.5",
+        "npm:vue@3.5.29"
       ]
     }
   }
