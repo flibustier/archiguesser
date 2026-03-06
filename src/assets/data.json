@@ -11476,5 +11476,21 @@
     "links": ["https://en.wikipedia.org/wiki/Museum_of_the_Second_World_War"],
     "categories": ["community", "museum"],
     "credits": "Anel"
+  },
+  {
+    "answer": "Hundertwasserhaus (Hundertwasser house) / Friedensreich Hundertwasser, Peter Pelikan, Josef Krawina / Vienna, Austria",
+    "days": [1345],
+    "copyrights": [
+      {
+        "1": "Ddshaw (wikimedia)",
+        "2": "Paul Bauer",
+        "3": "Paul Bauer",
+        "*": "C.Stadler/Bwag (wikimedia)"
+      }
+    ],
+    "years": "1985",
+    "links": ["https://en.wikipedia.org/wiki/Hundertwasserhaus"],
+    "categories": ["community", "housing", "expressionism"],
+    "credits": "Alessandro"
   }
 ]
