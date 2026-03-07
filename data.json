@@ -11492,5 +11492,21 @@
     "links": ["https://en.wikipedia.org/wiki/Hundertwasserhaus"],
     "categories": ["community", "housing", "expressionism"],
     "credits": "Alessandro"
+  },
+  {
+    "answer": "Mazar-e-Quaid (مزارِ قائد, Tomb of the Leader, Jinnah Mausoleum, National Mausoleum) / Yahya Merchant / Karachi, Pakistan",
+    "days": [1346],
+    "copyrights": [
+      {
+        "1": "Junaidkureshi (wikimedia)",
+        "5": "A.Savin (wikimedia)",
+        "6": "MunawarAhmed7 (wikimedia)"
+      }
+    ],
+    "years": "1960-1971",
+    "links": ["https://en.wikipedia.org/wiki/Mazar-e-Quaid"],
+    "categories": ["community", "mausoleum"],
+    "credits": "Herbivortex",
+    "hints": false
   }
 ]
