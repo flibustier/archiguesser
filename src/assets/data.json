@@ -11508,5 +11508,19 @@
     "categories": ["community", "mausoleum"],
     "credits": "Herbivortex",
     "hints": false
+  },
+  {
+    "answer": "Haus zum Falken / Santiago Calatrava / Zurich, Switzerland",
+    "days": [1347],
+    "copyrights": [
+      {
+        "*": "Ingo Rasp"
+      }
+    ],
+    "years": "2014-2025",
+    "links": [
+      "https://calatrava.com/projects/kreuzbuehlstrasse-kreuzbuehlstrasse-zuerich-switzerland.html"
+    ],
+    "categories": ["community"]
   }
 ]
