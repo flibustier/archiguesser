@@ -16,16 +16,28 @@ export default defineConfig({
     port: 4000,
   },
   build: {
-    cssMinify: "lightningcss",
     rollupOptions: {
       output: {
-        manualChunks: {
-          vue: ["vue"],
-          data: ["src/assets/data.json"],
-          suggestions: ["src/assets/suggestions.json"],
-          recommendations: ["src/assets/recommendations.json"],
+        codeSplitting: {
+          groups: [
+            {
+              test: /node_modules/,
+              name: "vue",
+            },
+            {
+              test: /src\/assets\/data\.json/,
+              name: "data",
+            },
+            {
+              test: /src\/assets\/suggestions\.json/,
+              name: "suggestions",
+            },
+            {
+              test: /src\/assets\/recommendations\.json/,
+              name: "recommendations",
+            },
+          ],
         },
-        // intro: 'import "./src/assets/base.css";',
       },
     },
   },
