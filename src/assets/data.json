@@ -1500,16 +1500,17 @@
   },
   {
     "answer": "Eco Boulevard in Vallecas / Ecosistema Urbano, Belinda Tato, Jose Luis Vallejo, Diego García-Setién / Madrid, Spain",
-    "days": [83],
+    "days": [83, 1359],
     "copyrights": [
       {
         "*": ""
       }
     ],
     "links": [
+      "https://es.wikipedia.org/wiki/Ecobulevar_de_Vallecas",
       "https://en.wikiarquitectura.com/building/Eco-Boulevard-in-Vallecas/"
     ],
-    "categories": []
+    "categories": ["infrastructure"]
   },
   {
     "answer": "Teatro Oficina / Lina Bo Bardi & Edson Elito / São Paulo, Brazil",
