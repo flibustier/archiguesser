@@ -35,5 +35,5 @@ export const patchURLs = (urls) =>
       .map(patchWordPressURL)
       .map(patchArquitecturaVivaURL)
       .map(patchFigureGroundURL)
-      .map(patchDivisareURL)
+      .map(patchDivisareURL),
   );

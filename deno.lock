@@ -343,7 +343,7 @@
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.7.0",
         "npm:@vue/tsconfig@0.9.1",
-        "npm:axios@1.13.6",
+        "npm:axios@1.14.0",
         "npm:eslint-plugin-vue@10.8.0",
         "npm:eslint@9.39.4",
         "npm:lightningcss@1.32.0",

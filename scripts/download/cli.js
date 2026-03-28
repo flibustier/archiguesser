@@ -28,7 +28,7 @@ const main = async () => {
   const success = await downloadFileList(
     patchedURLs,
     originalURLs,
-    destinationDirectory
+    destinationDirectory,
   );
 
   console.log(`🏆 ${success}/${originalURLs.length} images downloaded !`);
@@ -57,7 +57,7 @@ const createDirectoryIfNotExisting = (directory) => {
 const downloadFileList = async (
   patchedURLs,
   originalURLs,
-  destinationDirectory
+  destinationDirectory,
 ) => {
   const download = downloadFile(destinationDirectory);
 
@@ -76,7 +76,7 @@ const downloadFileList = async (
       console.log(`Fallback => ${fallbackURL}`);
 
       return download(fallbackURL, index);
-    })
+    }),
   );
 
   return secondPass.filter(({ status }) => status === "fulfilled").length;

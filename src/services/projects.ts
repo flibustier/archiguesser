@@ -9,7 +9,7 @@ const lastDayBeforeRealDayNumber = () =>
   Math.max(
     ...data
       .flatMap(({ days }) => days)
-      .filter((day) => day <= getRealDayNumber())
+      .filter((day) => day <= getRealDayNumber()),
   );
 
 export const isMonument = (dayNumber: number): boolean => {
@@ -20,7 +20,7 @@ export const isMonument = (dayNumber: number): boolean => {
 
 export const getProjectsByCategory = (category: string) => {
   const filtered = data.filter(({ categories = [] }) =>
-    categories.includes(category)
+    categories.includes(category),
   );
 
   if (filtered.length > 0) {
