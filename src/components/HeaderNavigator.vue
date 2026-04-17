@@ -18,43 +18,43 @@ defineEmits([
   <header>
     <div class="nav-bar">
       <div class="nav-left">
-        <a href="/" id="brand" aria-label="Back to the daily challenge">
+        <a id="brand" href="/" aria-label="Back to the daily challenge">
           ArchiGuesser
         </a>
       </div>
       <div class="nav-right">
         <a
-          @click="$emit('showBackModal')"
           href="#replay"
           aria-label="Replay previous days"
+          @click="$emit('showBackModal')"
         >
           <IconBack />
         </a>
         <a
-          @click="$emit('showArcadeModal')"
           href="#challenges"
           aria-label="Play themed challenges"
+          @click="$emit('showArcadeModal')"
         >
           <IconTrophy />
         </a>
         <a
-          @click="$emit('showScoreModal')"
           href="#score"
           aria-label="Show your score"
+          @click="$emit('showScoreModal')"
         >
           <IconScoreboard />
         </a>
         <a
-          @click="$emit('showUserModal')"
           href="#login"
           aria-label="LogIn to your account or show informations if you’re already connected"
+          @click="$emit('showUserModal')"
         >
           <IconUser />
         </a>
         <a
-          @click="$emit('showInfoModal')"
           href="#info"
           aria-label="Show informations about ArchiGuesser"
+          @click="$emit('showInfoModal')"
         >
           <IconHelp />
         </a>

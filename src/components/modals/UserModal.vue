@@ -34,7 +34,7 @@ const logout = () => {
       <p class="text-center">Your progress is saved on your logged devices!</p>
       <div class="input-row">
         <label for="email">Email</label>
-        <input v-model="email" type="text" id="email" name="email" disabled />
+        <input id="email" v-model="email" type="text" name="email" disabled />
       </div>
 
       <button class="btn-secondary btn-small self-center" @click="logout()">

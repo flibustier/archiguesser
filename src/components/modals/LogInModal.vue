@@ -65,7 +65,7 @@ const submit = async () => {
     @update:is-visible="closeModal"
   >
     <template #default>
-      <div class="column" v-if="isAccountCreated">
+      <div v-if="isAccountCreated" class="column">
         <p>Your account has been created!</p>
         <button class="btn-primary btn-small" @click="closeAndRefresh">
           Got it!
@@ -82,9 +82,9 @@ const submit = async () => {
           <div class="input-row">
             <label for="email">Email</label>
             <input
+              id="email"
               v-model="email"
               type="email"
-              id="email"
               placeholder="ludwig@mvdr.com"
             />
           </div>
@@ -92,14 +92,14 @@ const submit = async () => {
           <div class="input-row">
             <label for="password">Password</label>
             <input
+              id="password"
               v-model="password"
               type="password"
-              id="password"
               placeholder="Password (min 8 characters)"
             />
           </div>
 
-          <p class="error-message" v-if="error">{{ error }}</p>
+          <p v-if="error" class="error-message">{{ error }}</p>
 
           <button
             class="btn-primary btn-small"

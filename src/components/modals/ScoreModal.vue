@@ -41,7 +41,7 @@ const closeModal = () => emit("update:isVisible", false);
           <h3>Theme Challenges: {{ getChallengesScore() }}</h3>
         </div>
 
-        <div class="rank" v-if="rank">
+        <div v-if="rank" class="rank">
           <h3>You’re ranked <b>1th</b></h3>
         </div>
 

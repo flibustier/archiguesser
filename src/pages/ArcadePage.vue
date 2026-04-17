@@ -120,14 +120,14 @@ const onSubmittedGuess = (guess: string) => {
       </p>
     </header>
     <button
+      v-if="isLogged()"
       class="btn-secondary self-center"
       @click="goHome()"
-      v-if="isLogged()"
     >
       <span>Back to daily challenge</span>
       <IconRetry />
     </button>
-    <button class="btn-primary" @click="$emit('showLogInModal')" v-else>
+    <button v-else class="btn-primary" @click="$emit('showLogInModal')">
       <span>Sign Up/Sign In</span>
     </button>
   </div>
@@ -139,33 +139,33 @@ const onSubmittedGuess = (guess: string) => {
       :copyrights="currentProject.copyrights[0]"
     />
     <AnimatedGIF v-else filename="applause" alt="congrats!" />
-    <header class="text-center" v-if="!isGameEnded">
+    <header v-if="!isGameEnded" class="text-center">
       You’re playing the <b>{{ requestedCategory }}</b> challenge (<b
         >level {{ currentLevel }}</b
       >), you have <b>{{ remainingGuesses }}</b> projects to guess properly to
       win!
     </header>
     <div class="progress">
-      <span class="square green" v-for="i in greenSquares" :key="i">🟩</span>
-      <span class="square red" v-if="isGameOver">🟥</span>
-      <span class="square black" v-for="i in blackSquares" :key="i">⬛</span>
+      <span v-for="i in greenSquares" :key="i" class="square green">🟩</span>
+      <span v-if="isGameOver" class="square red">🟥</span>
+      <span v-for="i in blackSquares" :key="i" class="square black">⬛</span>
     </div>
 
     <div v-if="!isGameEnded">
       <GuessingMultipleChoice
-        :possibleAnswers="projectsAnswers"
+        :possible-answers="projectsAnswers"
         :answer="currentProject.answer"
         @submitted="onSubmittedGuess"
       />
     </div>
-    <div class="column end-display" v-else>
+    <div v-else class="column end-display">
       <EndActions
-        :hasWon="hasWon"
-        :hasReachMaxLevel="hasReachMaxLevel"
-        :currentLevel="currentLevel"
-        :currentProject="currentProject"
-        @showArcadeModal="$emit('showArcadeModal')"
-        @showScoreModal="$emit('showScoreModal')"
+        :has-won="hasWon"
+        :has-reach-max-level="hasReachMaxLevel"
+        :current-level="currentLevel"
+        :current-project="currentProject"
+        @show-arcade-modal="$emit('showArcadeModal')"
+        @show-score-modal="$emit('showScoreModal')"
       />
     </div>
   </div>

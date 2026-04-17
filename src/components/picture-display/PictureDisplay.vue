@@ -40,10 +40,10 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 <template>
   <div>
     <img
+      :key="pictureShown"
       :alt="`Picture ${pictureShown} is loading…`"
       class="picture"
       :src="imgSrc(pictureShown)"
-      :key="pictureShown"
     />
     <link
       v-if="pictureShown < 6"
@@ -61,8 +61,8 @@ const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
 
     <PicturePaginator
       v-if="!onlyLastPicture"
-      :current-round="maxPictures"
       v-model:picture-shown="pictureShown"
+      :current-round="maxPictures"
     />
   </div>
 </template>

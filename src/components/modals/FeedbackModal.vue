@@ -56,7 +56,7 @@ const feedbackAlreadySkipped = computed(
           <br />
         </p>
 
-        <FeedbackForm @submitted="onSubmitted" class="mt-1" />
+        <FeedbackForm class="mt-1" @submitted="onSubmitted" />
       </div>
       <p v-else class="text-center">Thank you for your suggestion!</p>
     </template>

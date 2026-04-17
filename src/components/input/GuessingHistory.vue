@@ -78,11 +78,11 @@ const highlight = (guess: string) =>
 
 <template>
   <div class="column guesses">
-    <div class="guess border" v-if="showHint">
+    <div v-if="showHint" class="guess border">
       <span class="guess-icon"><IconInfo /></span>
       <span v-html="hint" />
     </div>
-    <div class="guess border" v-for="guess of guessesReverseOrder" :key="guess">
+    <div v-for="guess of guessesReverseOrder" :key="guess" class="guess border">
       <span class="guess-icon"><IconTimes /></span>
       <span v-html="highlight(guess)"></span>
     </div>

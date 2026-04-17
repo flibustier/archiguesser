@@ -89,14 +89,14 @@ const onSubmittedGuess = async (guess: string) => {
 
   <div v-if="!isGameEnded">
     <GuessingForm
-      @submitted-guess="onSubmittedGuess"
       :placeholder="project['hors-serie']"
+      @submitted-guess="onSubmittedGuess"
     />
     <GuessingHistory
       :without-hints="isHorsSerie || noHints"
       :guesses="guesses"
       :answer="answer"
-      :constructionYears="constructionYears"
+      :construction-years="constructionYears"
     />
   </div>
 
@@ -106,7 +106,7 @@ const onSubmittedGuess = async (guess: string) => {
     :has-won="hasWon"
     :percent="percent"
     :project="project"
-    @showBackModal="$emit('showBackModal')"
+    @show-back-modal="$emit('showBackModal')"
   />
 </template>
 

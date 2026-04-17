@@ -58,9 +58,9 @@ const openLinks = () => {
     </template>
     <div class="column-stretch">
       <button
+        v-if="!hasWon && currentProject.links.length > 0"
         class="btn-secondary"
         @click="openLinks()"
-        v-if="!hasWon && currentProject.links.length > 0"
       >
         <span>Learn more about it</span>
         <IconWiki />

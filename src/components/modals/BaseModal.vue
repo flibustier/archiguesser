@@ -21,7 +21,7 @@ const closeModal = () => {
 </script>
 
 <template>
-  <div class="modal" v-if="isVisible" @click="closeModal">
+  <div v-if="isVisible" class="modal" @click="closeModal">
     <div class="modal-content" @click.stop="">
       <div class="modal-header">
         <h2>{{ title }}</h2>
@@ -31,7 +31,7 @@ const closeModal = () => {
       </div>
       <div class="column modal-body">
         <slot></slot>
-        <div class="modal-footer" v-if="$slots.footer">
+        <div v-if="$slots.footer" class="modal-footer">
           <slot name="footer"></slot>
         </div>
       </div>

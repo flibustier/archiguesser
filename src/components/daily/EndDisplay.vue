@@ -149,9 +149,9 @@ onMounted(async () => {
       <div class="separator"></div>
       <div class="column-stretch">
         <button
+          v-if="project.links.length > 0"
           class="btn-secondary"
           @click="openLinks"
-          v-if="project.links.length > 0"
         >
           <span>Learn more about it</span>
           <IconWiki />
@@ -187,7 +187,7 @@ onMounted(async () => {
     <div>
       <span>Next challenge <b class="emphasis">tomorrow</b>! 🕛</span>
     </div>
-    <p class="sponsor" v-if="false">
+    <p v-if="false" class="sponsor">
       ❤️ {{ APP_NAME }}?
       <a href="https://www.instagram.com/archiguesser/" target="_blank"
         >Follow me on Instagram!</a

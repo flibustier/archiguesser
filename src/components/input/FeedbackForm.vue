@@ -46,10 +46,10 @@ const hasAlreadyContribute = getSavedFeedbacks().length > 0;
       >
       <input
         id="project"
+        v-model="formData.project"
         name="project"
         type="text"
         placeholder="Example: The leaning tower of Pisa…"
-        v-model="formData.project"
       />
     </div>
 
@@ -75,10 +75,10 @@ const hasAlreadyContribute = getSavedFeedbacks().length > 0;
         >
         <input
           id="public-name"
+          v-model="formData.credit_name"
           name="public-name"
           type="text"
           placeholder="Le Corbusier (Ateliers Jean Prouvé)"
-          v-model="formData.credit_name"
         />
       </div>
 
@@ -89,10 +89,10 @@ const hasAlreadyContribute = getSavedFeedbacks().length > 0;
         </label>
         <input
           id="link"
+          v-model="formData.link"
           name="link"
           type="text"
           placeholder="https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
-          v-model="formData.link"
         />
       </div>
 
@@ -103,10 +103,10 @@ const hasAlreadyContribute = getSavedFeedbacks().length > 0;
         >
         <input
           id="email"
+          v-model="formData.email"
           name="email"
           type="email"
           placeholder="Email address"
-          v-model="formData.email"
         />
       </div>
     </template>
@@ -114,8 +114,8 @@ const hasAlreadyContribute = getSavedFeedbacks().length > 0;
     <button
       class="btn-primary btn-small"
       type="submit"
-      @mousedown="submit"
       :disabled="isSending || !isFormValid"
+      @mousedown="submit"
     >
       Submit
     </button>

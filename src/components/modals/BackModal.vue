@@ -71,12 +71,12 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
           </div>
           <div v-for="i in days" :key="i" @click="goToDay(i)">
             <div
+              v-if="!showThumbnail"
               :class="[
                 'day',
                 'text-cell',
                 isDayPlayed(i) ? 'done' : 'clickable',
               ]"
-              v-if="!showThumbnail"
             >
               <div>
                 <span>#{{ i }}</span>
@@ -88,12 +88,12 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
               <div v-else class="icon icon-replay"><IconBack /></div>
             </div>
             <div
+              v-else
               :class="[
                 'day',
                 'image-cell',
                 isDayPlayed(i) ? 'done' : 'clickable',
               ]"
-              v-else
             >
               <img class="thumbnail" :src="`${i}/0.jpg`" :alt="`#${i}`" />
               <div v-if="isDayPlayed(i)" class="thumbnail-overlay">

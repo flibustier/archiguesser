@@ -106,19 +106,19 @@ const navigate = (direction: "up" | "down") => {
           <IconSearch />
         </span>
         <input
+          v-model="searchTerms"
           type="text"
           :class="`search-input ${searchTerms.length ? 'is-not-empty' : ''}`"
           :placeholder="placeholder"
           autocomplete="off"
-          v-model="searchTerms"
           @input="guessInput"
           @keyup.enter="submitGuess"
           @keyup.up="navigate('up')"
           @keyup.down="navigate('down')"
         />
         <span
-          class="icon icon-times"
           v-if="searchTerms"
+          class="icon icon-times"
           @click="resetSearchTerms"
         >
           <IconBackspace />

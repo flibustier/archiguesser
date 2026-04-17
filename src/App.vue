@@ -56,29 +56,29 @@ if (
   <FeedbackModal v-model:is-visible="showFeedbackModal" />
   <ArcadeModal
     v-model:is-visible="showArcadeModal"
-    @showLogInModal="showLogInModal = true"
+    @show-log-in-modal="showLogInModal = true"
   />
 
   <HeaderNavigator
-    @showBackModal="showBackModal = true"
-    @showInfoModal="showInfoModal = true"
-    @showScoreModal="showScoreModal = true"
-    @showArcadeModal="showArcadeModal = true"
-    @showUserModal="
+    @show-back-modal="showBackModal = true"
+    @show-info-modal="showInfoModal = true"
+    @show-score-modal="showScoreModal = true"
+    @show-arcade-modal="showArcadeModal = true"
+    @show-user-modal="
       isLogged() ? (showUserModal = true) : (showLogInModal = true)
     "
   />
   <main>
     <ArcadePage
       v-if="isArcadeMode"
-      @showLogInModal="showLogInModal = true"
-      @showScoreModal="showScoreModal = true"
-      @showArcadeModal="showArcadeModal = true"
+      @show-log-in-modal="showLogInModal = true"
+      @show-score-modal="showScoreModal = true"
+      @show-arcade-modal="showArcadeModal = true"
     />
     <DailyPage
       v-else
-      @showBackModal="showBackModal = true"
-      @showFeedbackModal="showFeedbackModal = true"
+      @show-back-modal="showBackModal = true"
+      @show-feedback-modal="showFeedbackModal = true"
     />
   </main>
 </template>
