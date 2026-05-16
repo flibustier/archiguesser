@@ -336,20 +336,20 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@playwright/test@1.59.1",
+        "npm:@playwright/test@1.60.0",
         "npm:@types/node@25.6.2",
-        "npm:@vitejs/plugin-vue@6.0.6",
+        "npm:@vitejs/plugin-vue@6.0.7",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.7.0",
         "npm:@vue/tsconfig@0.9.1",
-        "npm:axios@1.16.0",
+        "npm:axios@1.16.1",
         "npm:eslint-plugin-vue@10.9.1",
         "npm:eslint@10.3.0",
         "npm:prettier@3.8.3",
         "npm:rollup-plugin-visualizer@7.0.1",
         "npm:typescript@6.0.3",
-        "npm:vite@8.0.11",
-        "npm:vue-tsc@3.2.8",
+        "npm:vite@8.0.13",
+        "npm:vue-tsc@3.2.9",
         "npm:vue@3.5.34"
       ]
     }
