@@ -337,14 +337,14 @@
     "packageJson": {
       "dependencies": [
         "npm:@playwright/test@1.60.0",
-        "npm:@types/node@25.6.2",
+        "npm:@types/node@25.8.0",
         "npm:@vitejs/plugin-vue@6.0.7",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.7.0",
         "npm:@vue/tsconfig@0.9.1",
         "npm:axios@1.16.1",
         "npm:eslint-plugin-vue@10.9.1",
-        "npm:eslint@10.3.0",
+        "npm:eslint@10.4.0",
         "npm:prettier@3.8.3",
         "npm:rollup-plugin-visualizer@7.0.1",
         "npm:typescript@6.0.3",
