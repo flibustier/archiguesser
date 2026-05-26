@@ -3547,7 +3547,7 @@
   },
   {
     "answer": "Little Island Park at Pier 55 / Heatherwick Studio, MNLA / New York, United States of America (USA)",
-    "days": [217, 763],
+    "days": [217, 763, 1426],
     "copyrights": [
       {
         "2": "China News Service (Getty Images)",
@@ -3557,7 +3557,7 @@
     ],
     "years": "2021",
     "links": ["https://en.wikipedia.org/wiki/Little_Island_at_Pier_55"],
-    "categories": []
+    "categories": ["favorites"]
   },
   {
     "answer": "Arc 1600 / Charlotte Perriand, Guy Rey Millet / Station Les Arcs, Bourg-Saint-Maurice, Savoie, France",
