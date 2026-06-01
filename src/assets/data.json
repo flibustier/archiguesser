@@ -1184,7 +1184,7 @@
       },
       {
         "5": "ViteParallele (wikimedia)",
-        "*": "Flibust1er (wikimedia) (wikimedia)"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "1932 & 2015",
@@ -4384,8 +4384,8 @@
     "days": [272, 972],
     "copyrights": [
       {
-        "1": "Flibust1er (wikimedia) (wikimedia)",
-        "6": "Flibust1er (wikimedia) (wikimedia)",
+        "1": "Flibust1er (wikimedia)",
+        "6": "Flibust1er (wikimedia)",
         "*": "Courtesy of the Architect"
       }
     ],
@@ -4403,9 +4403,9 @@
         "*": "Simon Menges"
       },
       {
-        "2": "Flibust1er (wikimedia) (wikimedia)",
+        "2": "Flibust1er (wikimedia)",
         "4": "Horst Siegmann",
-        "5": "Flibust1er (wikimedia) (wikimedia)",
+        "5": "Flibust1er (wikimedia)",
         "*": "Simon Menges"
       }
     ],
@@ -4745,10 +4745,10 @@
   },
   {
     "answer": "Villa Aalto (Aalto House) / Alvar Aalto, Aino Aalto / Helsinki, Finland",
-    "days": [299, 784],
+    "days": [299, 784, 1433],
     "copyrights": [
       {
-        "*": "Flibust1er (wikimedia) (wikimedia)"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "1936",
@@ -6032,7 +6032,7 @@
       {
         "2": "Courtesy of the Architect",
         "4": "Courtesy of the Architect",
-        "*": "Flibust1er (wikimedia) (wikimedia)"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "2007-2011",
@@ -6162,7 +6162,7 @@
     "copyrights": [
       {
         "6": "Trogain (wikimedia)",
-        "*": "Flibust1er (wikimedia) (wikimedia)"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "1955",
@@ -8690,7 +8690,7 @@
     "days": [722],
     "copyrights": [
       {
-        "*": "Flibust1er (wikimedia) (wikimedia)"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "1879-1912",
@@ -9032,7 +9032,7 @@
     "days": [774],
     "copyrights": [
       {
-        "*": "Flibust1er (wikimedia) (wikimedia)"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "1443-1451",
@@ -9071,7 +9071,7 @@
         "3": "Philippe Breard (wikimedia)",
         "4": "Philippe ROUDAUT (wikimedia)",
         "6": "Alexandre Prevot (wikimedia)",
-        "*": "Flibust1er (wikimedia) (wikimedia)"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "1978-1982, 2011-2015",
@@ -9730,7 +9730,7 @@
       {
         "4": "Unknown author (Library of Congress, wikimedia)",
         "5": "GerardM (wikimedia)",
-        "*": "Flibust1er (wikimedia) (wikimedia)"
+        "*": "Flibust1er (wikimedia)"
       }
     ],
     "years": "1891–1906, 1959–1963",
