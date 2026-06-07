@@ -342,7 +342,7 @@
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.8.0",
         "npm:@vue/tsconfig@0.9.1",
-        "npm:axios@1.16.1",
+        "npm:axios@1.17.0",
         "npm:eslint-plugin-vue@10.9.2",
         "npm:eslint@10.4.1",
         "npm:prettier@3.8.3",
