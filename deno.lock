@@ -336,13 +336,13 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@playwright/test@1.60.0",
+        "npm:@playwright/test@1.61.0",
         "npm:@types/node@25.9.4",
         "npm:@vitejs/plugin-vue@6.0.7",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.8.0",
         "npm:@vue/tsconfig@0.9.1",
-        "npm:axios@1.17.0",
+        "npm:axios@1.18.0",
         "npm:eslint-plugin-vue@10.9.2",
         "npm:eslint@10.5.0",
         "npm:prettier@3.8.4",
