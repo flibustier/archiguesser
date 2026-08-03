@@ -336,7 +336,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:@playwright/test@1.61.1",
+        "npm:@playwright/test@1.62.1",
         "npm:@types/node@25.9.5",
         "npm:@vitejs/plugin-vue@6.0.8",
         "npm:@vue/eslint-config-prettier@10.2.0",
