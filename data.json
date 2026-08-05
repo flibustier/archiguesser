@@ -2510,7 +2510,7 @@
   },
   {
     "answer": "Machu Picchu / Urubamba Province, Cusco Region, Peru",
-    "days": [150, 800],
+    "days": [150, 800, 1500],
     "copyrights": [
       {
         "1": "Colegota (wikimedia)",
@@ -4143,7 +4143,7 @@
   },
   {
     "answer": "Sendai Mediatheque / Toyo Ito / Sendai, Miyagi, Japan",
-    "days": [255],
+    "days": [255, 1499],
     "copyrights": [
       {
         "4": "Tomio Ohashi",
@@ -4455,7 +4455,7 @@
   },
   {
     "answer": "Empire State Building / William Lamb / New York, United States of America (USA)",
-    "days": [279, 878],
+    "days": [279, 878, 1497],
     "copyrights": [
       {
         "1": "BigMac (wikimedia)",
@@ -9801,7 +9801,7 @@
   },
   {
     "answer": "BMW Headquarters (BMW Tower, BMW-Vierzylinder, BMW-Turm) / Karl Schwanzer / Munich, Germany",
-    "days": [880],
+    "days": [880, 1498],
     "copyrights": [
       {
         "1": "Myrzik and Jarisch",
