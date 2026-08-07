@@ -344,13 +344,13 @@
         "npm:@vue/tsconfig@0.9.1",
         "npm:axios@1.19.0",
         "npm:eslint-plugin-vue@10.10.0",
-        "npm:eslint@10.7.0",
+        "npm:eslint@10.8.0",
         "npm:picomatch@^4.0.5",
         "npm:prettier@3.9.6",
         "npm:rolldown@^1.1.3",
         "npm:rollup-plugin-visualizer@7.0.1",
         "npm:typescript@6.0.3",
-        "npm:vite@8.1.5",
+        "npm:vite@8.2.0",
         "npm:vue-tsc@3.3.9",
         "npm:vue@3.5.40"
       ]
