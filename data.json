@@ -2934,7 +2934,7 @@
   },
   {
     "answer": "Guardian Building / Smith, Hinchman & Grylls, Donaldson & Meier / Detroit, Michigan, United States of America (USA)",
-    "days": [176],
+    "days": [176, 1506],
     "copyrights": [
       {
         "1": "ellenm1 (wikimedia)",
@@ -3869,7 +3869,7 @@
   },
   {
     "answer": "Ca' d'Oro (Palazzo Santa Sofia) / Marco d'Amadio / Venice, Italy",
-    "days": [238, 748],
+    "days": [238, 748, 1508],
     "copyrights": [
       {
         "1": "Sailko (wikimedia)",
@@ -4097,7 +4097,7 @@
   },
   {
     "answer": "Pena Palace (Palácio da Pena) / Wilhelm Ludwig von Eschwege / Sintra, Portugal",
-    "days": [252, 783],
+    "days": [252, 783, 1510],
     "copyrights": [
       {
         "1": "Y.ssk (wikimedia)",
@@ -4332,7 +4332,7 @@
   },
   {
     "answer": "Joan Miró Foundation, Centre of Studies of Contemporary Art (Fundació Joan Miró) / Josep Lluís Sert / Gardens of Montjuïc, Barcelona, Spain",
-    "days": [268, 754],
+    "days": [268, 754, 1509],
     "copyrights": [
       {
         "1": "Ana Rodríguez",
@@ -5007,7 +5007,7 @@
   },
   {
     "answer": "MuCEM (Museum of European and Mediterranean Civilisations, Musée des Civilisations de l'Europe et de la Méditerranée) / Rudy Ricciotti / Marseille, France",
-    "days": [318, 860],
+    "days": [318, 860, 1511],
     "copyrights": [
       {
         "5": "Olena Ilnytska (wikimedia)",
@@ -5610,7 +5610,7 @@
   },
   {
     "answer": "Copenhagen Opera House (Royal Danish Opera) / Henning Larsen / Copenhagen, Denmark",
-    "days": [368, 875],
+    "days": [368, 875, 1512],
     "copyrights": [
       {
         "6": "Julian Herzog (wikimedia)",
@@ -7762,7 +7762,7 @@
   },
   {
     "answer": "The Weston Visitor Centre and Gallery / Feilden Fowles / Yorkshire Sculpture Park, West Bretton, United Kingdom (UK)",
-    "days": [615],
+    "days": [615, 1507],
     "copyrights": [
       {
         "*": "Peter Cook"
