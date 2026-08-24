@@ -10,10 +10,7 @@
     "npm:axios@1.19.0": "1.19.0",
     "npm:eslint-plugin-vue@10.10.0": "10.10.0_@typescript-eslint+parser@8.66.0__eslint@10.8.0__typescript@6.0.3_eslint@10.8.0_vue-eslint-parser@10.4.1__eslint@10.8.0_typescript@6.0.3",
     "npm:prettier@3.9.6": "3.9.6",
-    "npm:rollup-plugin-visualizer@7.0.1": "7.0.1_rolldown@1.2.3",
-    "npm:typescript@6.0.3": "6.0.3",
-    "npm:vite@8.2.1": "8.2.1_@types+node@25.9.5",
-    "npm:vue-tsc@3.3.9": "3.3.9_typescript@6.0.3"
+    "npm:typescript@6.0.3": "6.0.3"
   },
   "npm": {
     "@babel/helper-string-parser@7.29.7": {
@@ -1488,10 +1485,10 @@
         "npm:eslint-plugin-vue@10.10.0",
         "npm:eslint@10.8.1",
         "npm:prettier@3.9.6",
-        "npm:rollup-plugin-visualizer@7.0.1",
+        "npm:rollup-plugin-visualizer@7.1.1",
         "npm:typescript@6.0.3",
-        "npm:vite@8.2.1",
-        "npm:vue-tsc@3.3.9",
+        "npm:vite@8.2.2",
+        "npm:vue-tsc@3.3.11",
         "npm:vue@3.5.41"
       ]
     }
