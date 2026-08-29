@@ -4299,7 +4299,7 @@
   },
   {
     "answer": "Quai Branly Museum - Jacques Chirac / Jean Nouvel / Paris, France",
-    "days": [266, 838],
+    "days": [266, 838, 1521],
     "copyrights": [
       {
         "1": "Jean-Pierre Dalbéra (wikimedia)",
@@ -5036,7 +5036,7 @@
   },
   {
     "answer": "Villa La Rotonda (Villa Almerico Capra Valmarana) / Adrea Palladio / Vicenza, Italy",
-    "days": [321, 847],
+    "days": [321, 847, 1523],
     "copyrights": [
       {
         "1": "Hans A. Rosbach (wikimedia)",
@@ -6042,7 +6042,7 @@
   },
   {
     "answer": "Reflections at Keppel Bay / Daniel Libeskind / Singapore",
-    "days": [412, 906],
+    "days": [412, 906, 1525],
     "copyrights": [
       {
         "*": "wikiarquitectura"
@@ -6099,7 +6099,7 @@
   },
   {
     "answer": "Jacob and Wilhelm Grimm Centre (Library of Humboldt University of Berlin) / Max Dudler / Berlin, Germany",
-    "days": [420, 909],
+    "days": [420, 909, 1526],
     "copyrights": [
       {
         "*": "Stefan Müller"
@@ -8590,7 +8590,7 @@
   },
   {
     "answer": "Vessel / Heatherwick Studio, Thomas Heatherwick, Laurence Dudeney / Manhattan, New York City, United States of America (USA)",
-    "days": [711],
+    "days": [711, 1522],
     "copyrights": [
       {
         "3": "Hugo L. González (wikimedia)",
@@ -9663,7 +9663,7 @@
   },
   {
     "answer": "Gabriel García Márquez Library / SUMA Arquitectura / Barcelona, Spain",
-    "days": [864],
+    "days": [864, 1524],
     "copyrights": [
       {
         "*": "Jesús Granada"
