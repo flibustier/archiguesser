@@ -7,7 +7,6 @@
     "npm:@vue/eslint-config-prettier@10.2.0": "10.2.0_eslint@10.8.0_prettier@3.9.6",
     "npm:@vue/eslint-config-typescript@14.9.0": "14.9.0_eslint@10.8.0_eslint-plugin-vue@10.10.0__@typescript-eslint+parser@8.66.0___eslint@10.8.0___typescript@6.0.3__eslint@10.8.0__vue-eslint-parser@10.4.1___eslint@10.8.0__typescript@6.0.3_typescript@6.0.3_@typescript-eslint+parser@8.66.0__eslint@10.8.0__typescript@6.0.3",
     "npm:@vue/tsconfig@0.9.1": "0.9.1_typescript@6.0.3_vue@3.5.40__typescript@6.0.3",
-    "npm:axios@1.19.0": "1.19.0",
     "npm:eslint-plugin-vue@10.10.0": "10.10.0_@typescript-eslint+parser@8.66.0__eslint@10.8.0__typescript@6.0.3_eslint@10.8.0_vue-eslint-parser@10.4.1__eslint@10.8.0_typescript@6.0.3",
     "npm:prettier@3.9.6": "3.9.6",
     "npm:typescript@6.0.3": "6.0.3"
@@ -1481,15 +1480,15 @@
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.9.0",
         "npm:@vue/tsconfig@0.9.1",
-        "npm:axios@1.19.0",
+        "npm:axios@1.20.0",
         "npm:eslint-plugin-vue@10.10.0",
-        "npm:eslint@10.8.1",
+        "npm:eslint@10.9.1",
         "npm:prettier@3.9.6",
         "npm:rollup-plugin-visualizer@7.1.1",
         "npm:typescript@6.0.3",
         "npm:vite@8.2.2",
         "npm:vue-tsc@3.3.11",
-        "npm:vue@3.5.41"
+        "npm:vue@3.5.42"
       ]
     }
   }
