@@ -16,11 +16,11 @@ importers:
         specifier: 1.62.1
         version: 1.62.1
       '@types/node':
-        specifier: 25.9.5
-        version: 25.9.5
+        specifier: 25.9.6
+        version: 25.9.6
       '@vitejs/plugin-vue':
         specifier: 6.0.8
-        version: 6.0.8(vite@8.2.2(@types/node@25.9.5))(vue@3.5.42(typescript@6.0.3))
+        version: 6.0.8(vite@8.2.2(@types/node@25.9.6))(vue@3.5.42(typescript@6.0.3))
       '@vue/eslint-config-prettier':
         specifier: 10.2.0
         version: 10.2.0(eslint@10.10.0)(prettier@3.9.6)
@@ -50,7 +50,7 @@ importers:
         version: 6.0.3
       vite:
         specifier: 8.2.2
-        version: 8.2.2(@types/node@25.9.5)
+        version: 8.2.2(@types/node@25.9.6)
       vue-tsc:
         specifier: 3.3.11
         version: 3.3.11(typescript@6.0.3)
@@ -274,8 +274,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@25.9.5':
-    resolution: {integrity: sha512-OScDchr2fwuUmWdf4kZ9h7PcJiYDVInhJizG/biAq3cAvqwYktuy/TYGGdZNMtNTFUP7rnb0NU4TUdm82kt4Rg==}
+  '@types/node@25.9.6':
+    resolution: {integrity: sha512-JR6Q/PV5DKFvjrGFVqQJdeG0qvsqQQLDa3TzFrqVwhqRXqwNaxPo2KYCtCQXpOdIulCouKwT7a6in9nFthBAzw==}
 
   '@typescript-eslint/eslint-plugin@8.66.0':
     resolution: {integrity: sha512-p088eaGrzYz1s+7cov0aMOCkNGTJlVxF4jgubf28c8L0Cv9Rloj8YBHnv4hXLq6IIEE1AsjNWavO+k+8kP2Y0A==}
@@ -1408,7 +1408,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@25.9.5':
+  '@types/node@25.9.6':
     dependencies:
       undici-types: 7.24.6
 
@@ -1503,10 +1503,10 @@ snapshots:
       '@typescript-eslint/types': 8.66.0
       eslint-visitor-keys: 5.0.1
 
-  '@vitejs/plugin-vue@6.0.8(vite@8.2.2(@types/node@25.9.5))(vue@3.5.42(typescript@6.0.3))':
+  '@vitejs/plugin-vue@6.0.8(vite@8.2.2(@types/node@25.9.6))(vue@3.5.42(typescript@6.0.3))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.2.2(@types/node@25.9.5)
+      vite: 8.2.2(@types/node@25.9.6)
       vue: 3.5.42(typescript@6.0.3)
 
   '@volar/language-core@2.4.28':
@@ -2290,7 +2290,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@8.2.2(@types/node@25.9.5):
+  vite@8.2.2(@types/node@25.9.6):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.5
@@ -2298,7 +2298,7 @@ snapshots:
       rolldown: 1.2.5
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 25.9.5
+      '@types/node': 25.9.6
       fsevents: 2.3.3
 
   vscode-uri@3.1.0: {}
