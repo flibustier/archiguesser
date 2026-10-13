@@ -13,3 +13,8 @@ interface Cabin {
 }
 
 declare const cabin: Cabin;
+
+declare module "virtual:picture-folders" {
+  const pictureFolders: Record<number, number>;
+  export default pictureFolders;
+}

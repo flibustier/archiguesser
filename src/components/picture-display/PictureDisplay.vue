@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, watch, computed } from "vue";
 import PicturePaginator from "./PicturePaginator.vue";
+import { pictureFolder } from "@/services/pictures";
 
 const props = defineProps({
   maxPictures: {
@@ -34,7 +35,8 @@ const pictureCopyright = computed(
   () => props.copyrights[pictureShown.value] || props.copyrights["*"] || "",
 );
 
-const imgSrc = (picture: number) => `${props.dayNumber}/${picture}.jpg`;
+const imgSrc = (picture: number) =>
+  `${pictureFolder(props.dayNumber)}/${picture}.jpg`;
 </script>
 
 <template>

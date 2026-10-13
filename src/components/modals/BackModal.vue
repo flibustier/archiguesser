@@ -9,6 +9,7 @@ import ToggleSwitch from "../basic/ToggleSwitch.vue";
 import { SKIPPED_DAYS } from "@/config.json";
 import { isMonument } from "@/services/projects";
 import { getRealDayNumber } from "@/services/date";
+import { pictureFolder } from "@/services/pictures";
 import { getStats, getSettings, setSetting } from "@/services/store";
 
 const realCurrentDay = getRealDayNumber();
@@ -95,7 +96,11 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
                 isDayPlayed(i) ? 'done' : 'clickable',
               ]"
             >
-              <img class="thumbnail" :src="`${i}/0.jpg`" :alt="`#${i}`" />
+              <img
+                class="thumbnail"
+                :src="`${pictureFolder(i)}/0.jpg`"
+                :alt="`#${i}`"
+              />
               <div v-if="isDayPlayed(i)" class="thumbnail-overlay">
                 <span style="margin-right: 0.5rem">#{{ i }}</span>
                 <div class="icon icon-check"><IconCheck /></div>
