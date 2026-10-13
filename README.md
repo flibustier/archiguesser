@@ -51,29 +51,34 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ### Project Setup
 
+Every task is available through `make` (run `make` alone to list them).
+
 ```sh
-npm install
+pnpm install
 ```
 
 #### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 #### Type-Check, Compile and Minify for Production
 
 ```sh
-npm run build
+pnpm run build
 ```
 
 #### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+pnpm run lint
 ```
 
-### Work in Progress
+Dependencies are managed with [pnpm](https://pnpm.io/) only (`pnpm-lock.yaml`).
+New versions are only installed once they are at least 7 days old (see `pnpm-workspace.yaml` and `renovate.json`).
 
-Some new scripts are using [Deno](https://deno.com/) > 2.0 (`scripts/dev`)
-This is optional for now
+### Data Scripts
+
+Some scripts use [Deno](https://deno.com/) > 2.0 for its permission sandbox (`deno task add`, `deno task replay`, `scripts/dev`).
+They use Deno's own cache and never touch `node_modules`.

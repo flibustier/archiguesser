@@ -9,21 +9,23 @@ jobs:
     if: ${{ !startsWith(github.head_ref, 'renovate/') }}
     steps:
       - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:
           node-version: lts/*
+          cache: pnpm
       - name: Install dependencies
-        run: npm install
+        run: pnpm install --frozen-lockfile
       - name: Install Playwright Browsers
-        run: npm playwright install --with-deps
+        run: pnpm exec playwright install --with-deps
       - name: Build for preview
-        run: npm build
+        run: pnpm run build
       - name: Run Playwright tests and update snapshots
         if: contains(github.event.pull_request.labels.*.name, 'update snapshots')
-        run: npm test:e2e --update-snapshots
+        run: pnpm run test:e2e --update-snapshots
       - name: Run Playwright tests
         if: ${{ !contains(github.event.pull_request.labels.*.name, 'update snapshots') }}
-        run: npm test:e2e
+        run: pnpm run test:e2e
       - uses: actions/upload-artifact@v7
         if: always()
         with:

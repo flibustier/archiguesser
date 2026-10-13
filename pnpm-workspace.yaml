@@ -1,0 +1,5 @@
+# Supply-chain hardening: only resolve versions published at least 7 days ago
+# (in minutes, aligned with Renovate's minimumReleaseAge) and fail when a
+# dependency wants to run an install script that is not explicitly allowed.
+minimumReleaseAge: 10080
+strictDepBuilds: true

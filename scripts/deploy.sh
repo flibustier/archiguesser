@@ -5,7 +5,7 @@ set -e
 
 cdate=$(date +"%m-%d-%Y")
 
-deno task build
+pnpm run build
 
 cd dist
 
