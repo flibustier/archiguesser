@@ -1,9 +1,9 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@playwright/test@1.63.0": "1.63.0",
+    "npm:@playwright/test@1.64.0": "1.64.0",
     "npm:@types/node@25.9.9": "25.9.9",
-    "npm:@vitejs/plugin-vue@6.0.9": "6.0.9_vite@8.3.4__@types+node@25.9.9_vue@3.5.43__typescript@6.0.3_@types+node@25.9.9_typescript@6.0.3",
+    "npm:@vitejs/plugin-vue@6.0.9": "6.0.9_vite@8.3.3__@types+node@25.9.9_vue@3.5.43__typescript@6.0.3_@types+node@25.9.9",
     "npm:@vue/eslint-config-prettier@10.2.0": "10.2.0_eslint@10.12.0_prettier@3.9.9",
     "npm:@vue/eslint-config-typescript@14.9.0": "14.9.0_eslint@10.12.0_eslint-plugin-vue@10.11.1__eslint@10.12.0__vue-eslint-parser@10.4.1___eslint@10.12.0_typescript@6.0.3",
     "npm:@vue/tsconfig@0.9.1": "0.9.1_typescript@6.0.3_vue@3.5.43__typescript@6.0.3",
@@ -13,6 +13,7 @@
     "npm:prettier@3.9.9": "3.9.9",
     "npm:rollup-plugin-visualizer@7.1.1": "7.1.1",
     "npm:typescript@6.0.3": "6.0.3",
+    "npm:vite@8.3.3": "8.3.3_@types+node@25.9.9",
     "npm:vue-tsc@3.3.12": "3.3.12_typescript@6.0.3",
     "npm:vue@3.5.43": "3.5.43_typescript@6.0.3"
   },
@@ -153,8 +154,8 @@
     "@pkgr/core@0.3.6": {
       "integrity": "sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA=="
     },
-    "@playwright/test@1.63.0": {
-      "integrity": "sha512-oxMK4vllB9RK5NQ2l1pq1IfOf2AvnEuj/vYGDj0H2nMtmtZpKtCwt/l00GEO6xjGfpBNAvjovvYdCm50dRQkpQ==",
+    "@playwright/test@1.64.0": {
+      "integrity": "sha512-oTN9FNYuN6bqQMwiho6jJKLCG2/QOYCixGXuCjRmzOq23eODeukuY2XiAVoVpAECbuezMt1MHQjAiQxK8F+Y+g==",
       "dependencies": [
         "playwright"
       ],
@@ -351,7 +352,7 @@
         "eslint-visitor-keys@5.0.1"
       ]
     },
-    "@vitejs/plugin-vue@6.0.9_vite@8.3.4__@types+node@25.9.9_vue@3.5.43__typescript@6.0.3_@types+node@25.9.9_typescript@6.0.3": {
+    "@vitejs/plugin-vue@6.0.9_vite@8.3.3__@types+node@25.9.9_vue@3.5.43__typescript@6.0.3_@types+node@25.9.9": {
       "integrity": "sha512-rD/MORlhaZMlXWW0rEn4FB4wMinWC0z/D7Ye160S5+Rs1mC8ZDAdcDp4SjKfUhG5t8q1ktcPVw4xuTkPRlzrSA==",
       "dependencies": [
         "@rolldown/pluginutils",
@@ -1206,12 +1207,12 @@
     "picomatch@4.0.7": {
       "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA=="
     },
-    "playwright-core@1.63.0": {
-      "integrity": "sha512-rYCsBF/M5HjUch52bbtVONEFjv6Xu8sm8h72dNlR5bzIE1fvC/bxgspzkjSfU+MweEMmPM8KJebG6nnyxo5mCg==",
+    "playwright-core@1.64.0": {
+      "integrity": "sha512-T9r+MZkTECl2+oUcZ26YgZzTrYidTsIhYYkJix+6iDOymOb1FB2RLLSOxRGnZGv5DStt+aduIVbt+E8WygXYpg==",
       "bin": true
     },
-    "playwright@1.63.0": {
-      "integrity": "sha512-+7ziBLidS4NaNCdt57SUDT+wYmmd5fmiQejUic/kb+YsYSCPyOOE9sebzMjNmQrsnNpDJqd4WHvV/8lfKfUDUg==",
+    "playwright@1.64.0": {
+      "integrity": "sha512-kVzTnYFYEyQ9RGzBjNCd2+yEqWmVbxl3AHPynv3qQ6JTjv4a+kwRcnqQwIpuP3NnrnIrE/Q6wWAIAvMfIE2/Yg==",
       "dependencies": [
         "playwright-core"
       ],
@@ -1408,8 +1409,8 @@
     "util-deprecate@1.0.2": {
       "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
     },
-    "vite@8.3.4_@types+node@25.9.9": {
-      "integrity": "sha512-IftLE8phJhdNRIGNEV4JCCvfNScoZQVfcXaN8TQropWGJtOHcu+iAB9pHcuGvmEb/kddw0LBe/jS8ztdC6xdiQ==",
+    "vite@8.3.3_@types+node@25.9.9": {
+      "integrity": "sha512-cTAldKPImjg6c+gk48U19POPn3GCBzZwpdsN8ZMEEcbpes+6/wvfqUd0C2y3qYY4wsj8PwgFwrZ/1jBPVttMSg==",
       "dependencies": [
         "@types/node",
         "lightningcss",
@@ -1525,7 +1526,7 @@
     ],
     "packageJson": {
       "dependencies": [
-        "npm:@playwright/test@1.63.0",
+        "npm:@playwright/test@1.64.0",
         "npm:@types/node@25.9.9",
         "npm:@vitejs/plugin-vue@6.0.9",
         "npm:@vue/eslint-config-prettier@10.2.0",
