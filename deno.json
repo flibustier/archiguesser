@@ -1,7 +1,7 @@
 {
   "nodeModulesDir": "none",
   "imports": {
-    "prettier": "npm:prettier@3.9.9"
+    "prettier": "npm:prettier@3.9.10"
   },
   "tasks": {
     "replay": "deno run --allow-run --allow-write --allow-read --allow-sys --allow-env scripts/replay.ts",
