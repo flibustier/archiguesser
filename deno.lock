@@ -1,15 +1,16 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:@playwright/test@1.64.0": "1.64.0",
+    "npm:@playwright/test@1.64.1": "1.64.1",
     "npm:@types/node@25.9.9": "25.9.9",
-    "npm:@vitejs/plugin-vue@6.0.9": "6.0.9_vite@8.3.3__@types+node@25.9.9_vue@3.5.43__typescript@6.0.3_@types+node@25.9.9",
-    "npm:@vue/eslint-config-prettier@10.2.0": "10.2.0_eslint@10.12.0_prettier@3.9.9",
-    "npm:@vue/eslint-config-typescript@14.9.0": "14.9.0_eslint@10.12.0_eslint-plugin-vue@10.11.1__eslint@10.12.0__vue-eslint-parser@10.4.1___eslint@10.12.0_typescript@6.0.3",
-    "npm:@vue/tsconfig@0.9.1": "0.9.1_typescript@6.0.3_vue@3.5.43__typescript@6.0.3",
+    "npm:@vitejs/plugin-vue@6.0.10": "6.0.10_vite@8.3.3_vue@3.5.43",
+    "npm:@vue/eslint-config-prettier@10.2.0": "10.2.0_eslint@10.12.0_prettier@3.9.10",
+    "npm:@vue/eslint-config-typescript@14.9.0": "14.9.0_eslint@10.12.0_eslint-plugin-vue@10.11.1_typescript@6.0.3",
+    "npm:@vue/tsconfig@0.9.1": "0.9.1_typescript@6.0.3_vue@3.5.43",
     "npm:axios@1.20.0": "1.20.0",
-    "npm:eslint-plugin-vue@10.11.1": "10.11.1_eslint@10.12.0_vue-eslint-parser@10.4.1__eslint@10.12.0",
+    "npm:eslint-plugin-vue@10.11.1": "10.11.1_eslint@10.12.0_vue-eslint-parser@10.4.1",
     "npm:eslint@10.12.0": "10.12.0",
+    "npm:prettier@3.9.10": "3.9.10",
     "npm:prettier@3.9.9": "3.9.9",
     "npm:rollup-plugin-visualizer@7.1.1": "7.1.1",
     "npm:typescript@6.0.3": "6.0.3",
@@ -154,8 +155,8 @@
     "@pkgr/core@0.3.6": {
       "integrity": "sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA=="
     },
-    "@playwright/test@1.64.0": {
-      "integrity": "sha512-oTN9FNYuN6bqQMwiho6jJKLCG2/QOYCixGXuCjRmzOq23eODeukuY2XiAVoVpAECbuezMt1MHQjAiQxK8F+Y+g==",
+    "@playwright/test@1.64.1": {
+      "integrity": "sha512-IaYGml/nSOiZWROfPtuIL7neuu9qDOZ3TNvNljUIrhDMxiGTgPjzj/g9p9RxpS2tSepPDRY+UwAaEeiKtUvIAg==",
       "dependencies": [
         "playwright"
       ],
@@ -254,7 +255,7 @@
         "undici-types"
       ]
     },
-    "@typescript-eslint/eslint-plugin@8.66.0_@typescript-eslint+parser@8.66.0__eslint@10.12.0__typescript@6.0.3_eslint@10.12.0_typescript@6.0.3": {
+    "@typescript-eslint/eslint-plugin@8.66.0_@typescript-eslint+parser@8.66.0_eslint@10.12.0_typescript@6.0.3": {
       "integrity": "sha512-p088eaGrzYz1s+7cov0aMOCkNGTJlVxF4jgubf28c8L0Cv9Rloj8YBHnv4hXLq6IIEE1AsjNWavO+k+8kP2Y0A==",
       "dependencies": [
         "@eslint-community/regexpp",
@@ -352,8 +353,8 @@
         "eslint-visitor-keys@5.0.1"
       ]
     },
-    "@vitejs/plugin-vue@6.0.9_vite@8.3.3__@types+node@25.9.9_vue@3.5.43__typescript@6.0.3_@types+node@25.9.9": {
-      "integrity": "sha512-rD/MORlhaZMlXWW0rEn4FB4wMinWC0z/D7Ye160S5+Rs1mC8ZDAdcDp4SjKfUhG5t8q1ktcPVw4xuTkPRlzrSA==",
+    "@vitejs/plugin-vue@6.0.10_vite@8.3.3_vue@3.5.43": {
+      "integrity": "sha512-b80aUQh3n+qEzzZm5oQp3rT2QImeCx58K6eFl/RkJ3d65KW0kTuv5lNsLRVAjbW9YRUpo/wzmvzMgV34bTAItA==",
       "dependencies": [
         "@rolldown/pluginutils",
         "vite",
@@ -415,16 +416,16 @@
         "@vue/shared"
       ]
     },
-    "@vue/eslint-config-prettier@10.2.0_eslint@10.12.0_prettier@3.9.9": {
+    "@vue/eslint-config-prettier@10.2.0_eslint@10.12.0_prettier@3.9.10": {
       "integrity": "sha512-GL3YBLwv/+b86yHcNNfPJxOTtVFJ4Mbc9UU3zR+KVoG7SwGTjPT+32fXamscNumElhcpXW3mT0DgzS9w32S7Bw==",
       "dependencies": [
         "eslint",
         "eslint-config-prettier",
         "eslint-plugin-prettier",
-        "prettier"
+        "prettier@3.9.10"
       ]
     },
-    "@vue/eslint-config-typescript@14.9.0_eslint@10.12.0_eslint-plugin-vue@10.11.1__eslint@10.12.0__vue-eslint-parser@10.4.1___eslint@10.12.0_typescript@6.0.3": {
+    "@vue/eslint-config-typescript@14.9.0_eslint@10.12.0_eslint-plugin-vue@10.11.1_typescript@6.0.3": {
       "integrity": "sha512-E3j9hDlfVf10F30MRcLTPY2IIhWIx1nsvkVukk14kTcuA+oBVot9zsP1hzsO+PAMDxV3Fd9FimBJtUBNBL5KFA==",
       "dependencies": [
         "@typescript-eslint/utils",
@@ -485,7 +486,7 @@
     "@vue/shared@3.5.43": {
       "integrity": "sha512-uksS7YGMR5NZyr4JNq0Rp+QyLns0ueaz20KwzIPW9R0LH1Vnt4E+XUM29PNseEbf1www2gOuhuDi5AKOIXag9Q=="
     },
-    "@vue/tsconfig@0.9.1_typescript@6.0.3_vue@3.5.43__typescript@6.0.3": {
+    "@vue/tsconfig@0.9.1_typescript@6.0.3_vue@3.5.43": {
       "integrity": "sha512-buvjm+9NzLCJL29KY1j1991YYJ5e6275OiK+G4jtmfIb+z4POywbdm0wXusT9adVWqe0xqg70TbI7+mRx4uU9w==",
       "dependencies": [
         "typescript",
@@ -688,12 +689,12 @@
       ],
       "bin": true
     },
-    "eslint-plugin-prettier@5.5.6_eslint@10.12.0_eslint-config-prettier@10.1.8__eslint@10.12.0_prettier@3.9.9": {
+    "eslint-plugin-prettier@5.5.6_eslint@10.12.0_eslint-config-prettier@10.1.8_prettier@3.9.10": {
       "integrity": "sha512-ifetmTcxWfz+4qRW3pH/ujdTq2jQIj59AxJMIN26K5avYgU8dxycUETQonWiW+wPrYXA0j3Try0l1CnwVQtDqQ==",
       "dependencies": [
         "eslint",
         "eslint-config-prettier",
-        "prettier",
+        "prettier@3.9.10",
         "prettier-linter-helpers",
         "synckit"
       ],
@@ -701,7 +702,7 @@
         "eslint-config-prettier"
       ]
     },
-    "eslint-plugin-vue@10.11.1_eslint@10.12.0_vue-eslint-parser@10.4.1__eslint@10.12.0": {
+    "eslint-plugin-vue@10.11.1_eslint@10.12.0_vue-eslint-parser@10.4.1": {
       "integrity": "sha512-pasVXhl7wUmIvhujoqs/m0mJ9r59QW1IR9XXYKGR0FETzSM+Hhlf4qKIYgWiDDP+9YKv4YfbwskD7LqIdVcgQw==",
       "dependencies": [
         "@eslint-community/eslint-utils",
@@ -1207,12 +1208,12 @@
     "picomatch@4.0.7": {
       "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA=="
     },
-    "playwright-core@1.64.0": {
-      "integrity": "sha512-T9r+MZkTECl2+oUcZ26YgZzTrYidTsIhYYkJix+6iDOymOb1FB2RLLSOxRGnZGv5DStt+aduIVbt+E8WygXYpg==",
+    "playwright-core@1.64.1": {
+      "integrity": "sha512-BC4s8y6SEVA6Q1rSxZTto8hI1KUI3xXlHGZgvGqP4IqPdI/a6FX9H29IDNz7vKo9l21b6LfYosScPL6M3xxyDQ==",
       "bin": true
     },
-    "playwright@1.64.0": {
-      "integrity": "sha512-kVzTnYFYEyQ9RGzBjNCd2+yEqWmVbxl3AHPynv3qQ6JTjv4a+kwRcnqQwIpuP3NnrnIrE/Q6wWAIAvMfIE2/Yg==",
+    "playwright@1.64.1": {
+      "integrity": "sha512-HCrVhHr5QQuwYoswEUGTb7gGp522yflbv/ST8nF4sFWGuLjQCt17Q/EubpGGSNKYn1tsTCPZxqHhHCfVURu7UA==",
       "dependencies": [
         "playwright-core"
       ],
@@ -1244,6 +1245,10 @@
       "dependencies": [
         "fast-diff"
       ]
+    },
+    "prettier@3.9.10": {
+      "integrity": "sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==",
+      "bin": true
     },
     "prettier@3.9.9": {
       "integrity": "sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==",
@@ -1522,13 +1527,13 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:prettier@3.9.9"
+      "npm:prettier@3.9.10"
     ],
     "packageJson": {
       "dependencies": [
-        "npm:@playwright/test@1.64.0",
+        "npm:@playwright/test@1.64.1",
         "npm:@types/node@25.9.9",
-        "npm:@vitejs/plugin-vue@6.0.9",
+        "npm:@vitejs/plugin-vue@6.0.10",
         "npm:@vue/eslint-config-prettier@10.2.0",
         "npm:@vue/eslint-config-typescript@14.9.0",
         "npm:@vue/tsconfig@0.9.1",
