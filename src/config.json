@@ -10,6 +10,7 @@
   "MAX_LEVEL": 5,
   "ANONYMOUS_RETRIES": 3,
   "LOGGED_RETRIES": 6,
+  "ENABLE_ADS": false,
   "LISTED_CATEGORIES": [
     "famous",
     "monument",
