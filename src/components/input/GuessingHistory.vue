@@ -4,6 +4,8 @@ import { computed } from "vue";
 import IconInfo from "../icons/IconInfo.vue";
 import IconTimes from "../icons/IconTimes.vue";
 
+import { highlight as highlightWords } from "@/services/search";
+
 const props = defineProps({
   guesses: {
     type: Array<string>,
@@ -70,10 +72,7 @@ const answerWords = computed(() =>
 );
 
 const highlight = (guess: string) =>
-  guess.replace(
-    new RegExp("(" + answerWords.value.join("|") + ")", "gi"),
-    "<b>$1</b>",
-  );
+  highlightWords(guess, answerWords.value, "b");
 </script>
 
 <template>

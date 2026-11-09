@@ -12,11 +12,13 @@ import { getRealDayNumber } from "@/services/date";
 import { pictureFolder } from "@/services/pictures";
 import { getStats, getSettings, setSetting } from "@/services/store";
 
+const REPLAYABLE_DAYS = 60;
+
 const realCurrentDay = getRealDayNumber();
-// range of 60 numbers starting at real current day
+// the last 60 days that were actually played (every day in development)
 const days = [...Array(realCurrentDay).keys()]
   .filter((day) => !SKIPPED_DAYS.includes(day))
-  .slice(process.env.NODE_ENV === "development" ? 0 : realCurrentDay - 62)
+  .slice(process.env.NODE_ENV === "development" ? 0 : -REPLAYABLE_DAYS)
   .reverse();
 
 defineProps({
@@ -26,7 +28,7 @@ defineProps({
   },
 });
 
-const showThumbnail = ref(getSettings().showThumbnail || true);
+const showThumbnail = ref(getSettings().showThumbnail ?? true);
 const toggleShowThumbnail = (value: boolean) => {
   showThumbnail.value = value;
   setSetting("showThumbnail", value);
@@ -98,6 +100,9 @@ const goToDay = (i?: number) => (window.location.href = i ? `/?day=${i}` : "/");
             >
               <img
                 class="thumbnail"
+                loading="lazy"
+                width="200"
+                height="200"
                 :src="`${pictureFolder(i)}/0.jpg`"
                 :alt="`#${i}`"
               />

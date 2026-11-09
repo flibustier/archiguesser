@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
-import { search } from "./GuessingFormSearchEngine";
+import { search } from "@/services/search";
+import { getSuggestions } from "@/services/suggestions";
 import IconSearch from "../icons/IconSearch.vue";
 import IconBackspace from "../icons/IconBackspace.vue";
 
@@ -25,7 +26,10 @@ const placeholder = computed(() => {
   return "Search for building name / architect / place…";
 });
 
-const filteredSuggestions = computed(() => search(searchTerms.value));
+const suggestions = getSuggestions();
+const filteredSuggestions = computed(() =>
+  search(searchTerms.value, suggestions),
+);
 const isSelectionDone = computed(
   () => hasSelectedSuggestion.value || searchTerms.value.length === 0,
 );

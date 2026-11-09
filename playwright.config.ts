@@ -75,7 +75,7 @@ export default defineConfig({
   webServer: {
     command: process.env.CI
       ? "npm run preview --host 0.0.0.0"
-      : "deno task dev --port 4173",
+      : "pnpm run dev --port 4173",
     port: 4173,
     reuseExistingServer: !process.env.CI,
     timeout: 30 * 1000,

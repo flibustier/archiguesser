@@ -1,10 +1,15 @@
 import type { Stats, Challenges } from "./store.ts";
 import { getClientID, getCredentials } from "./store.ts";
 
+// Introduction of a Wikipedia article, as plain text ("" when unavailable)
 export const fetchWikipediaSummary = async (link: string): Promise<string> => {
-  if (link.includes("wikipedia.org/wiki/")) {
-    const pageTitle = link.slice("https://**.wikipedia.org/wiki/".length);
-    const domain = link.slice(0, "https://**.wikipedia.org".length);
+  const [, domain, pageTitle] =
+    link.match(/^(https:\/\/[a-z-]+\.wikipedia\.org)\/wiki\/([^?#]+)/) || [];
+  if (!domain) {
+    return "";
+  }
+
+  try {
     const resp = await fetch(
       `${domain}/w/api.php?origin=*&format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=${pageTitle}`,
     );
@@ -14,9 +19,11 @@ export const fetchWikipediaSummary = async (link: string): Promise<string> => {
       } = await resp.json();
 
       for (const page in pages) {
-        return pages[page].extract.replace("\n", "<br />");
+        return pages[page].extract || "";
       }
     }
+  } catch {
+    // the description is a bonus: never break the end of a game for it
   }
 
   return "";

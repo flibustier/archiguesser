@@ -5,7 +5,13 @@ import { syncUser } from "@/services/user";
 import { getRealDayNumber } from "@/services/date";
 import { getProjectInformation } from "@/services/projects";
 import { sendEvent, sendResult } from "@/services/api";
-import { getLastFeedback, getStats, getScore } from "@/services/store";
+import {
+  getGuesses,
+  getLastFeedback,
+  getScore,
+  getStats,
+  setGuesses,
+} from "@/services/store";
 
 import EndDisplay from "@/components/daily/EndDisplay.vue";
 import GuessingForm from "@/components/input/GuessingForm.vue";
@@ -16,18 +22,12 @@ const emit = defineEmits(["showBackModal", "showFeedbackModal"]);
 
 const stats = getStats();
 const percent = ref();
-const guesses: string[] = reactive([]);
 const project = reactive(getProjectInformation());
 const { dayNumber, answer, constructionYears, copyrights, noHints } = project;
 
 document.title = `ArchiGuesser #${dayNumber} - Guess the daily architectural project from the pictures`;
 
-if (localStorage.getItem("dayNumber") === dayNumber.toString()) {
-  guesses.push(...JSON.parse(localStorage.getItem("guesses") || "[]"));
-} else {
-  localStorage.setItem("dayNumber", dayNumber.toString());
-  localStorage.setItem("guesses", JSON.stringify([]));
-}
+const guesses: string[] = reactive(getGuesses(dayNumber));
 
 const isHorsSerie = computed(() => !!project["hors-serie"]);
 const currentRound = computed(() => guesses.length + 1);
@@ -51,7 +51,7 @@ const updateStats = (score: number) => {
 
 const onSubmittedGuess = async (guess: string) => {
   guesses.push(guess);
-  localStorage.setItem("guesses", JSON.stringify(guesses));
+  setGuesses(dayNumber, guesses);
 
   if (isGameEnded.value) {
     const score = hasWon.value ? currentRound.value - 1 : 0;
