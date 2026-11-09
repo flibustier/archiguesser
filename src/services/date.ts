@@ -1,4 +1,6 @@
-import { STARTING_DATE } from "../config.json" with { type: "json" };
+import config from "../config.json" with { type: "json" };
+
+const { STARTING_DATE } = config;
 
 const StartDate = Date.UTC(
   STARTING_DATE[0],
@@ -6,20 +8,16 @@ const StartDate = Date.UTC(
   STARTING_DATE[2],
 );
 
-const getNumberOfDaysDifferenceWithStartingDate = (date: Date): number => {
-  const timestamp1 = Date.UTC(
+// Number of days between the first ArchiGuesser day and the given date, in the
+// player's own time zone: the day changes at their local midnight.
+export const getDayNumber = (date: Date): number => {
+  const timestamp = Date.UTC(
     date.getFullYear(),
     date.getMonth(),
     date.getDate(),
   );
-  const differenceInMilliseconds = timestamp1 - StartDate;
-  const differenceInDays = differenceInMilliseconds / 1000 / 60 / 60 / 24;
 
-  return differenceInDays;
+  return (timestamp - StartDate) / 1000 / 60 / 60 / 24;
 };
 
-export const getRealDayNumber = (): number => {
-  const now = new Date();
-
-  return getNumberOfDaysDifferenceWithStartingDate(now);
-};
+export const getRealDayNumber = (): number => getDayNumber(new Date());

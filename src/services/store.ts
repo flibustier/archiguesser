@@ -13,20 +13,75 @@ export interface FeedbackFormData {
   credit_name: string;
 }
 
-enum ObjectName {
-  Challenges = "challenges",
-  Stats = "stats",
-  Settings = "settings",
-  LogIn = "login",
-  Feedback = "feedback",
-  ClientID = "clientID",
-  FeedbackForm = "feedbackForm",
-}
+// A plain object rather than an enum: unit tests run this file with Node,
+// which strips types but does not compile enums.
+const ObjectName = {
+  Challenges: "challenges",
+  Stats: "stats",
+  Settings: "settings",
+  LogIn: "login",
+  Feedback: "feedback",
+  ClientID: "clientID",
+  FeedbackForm: "feedbackForm",
+  Games: "games",
+} as const;
+type ObjectName = (typeof ObjectName)[keyof typeof ObjectName];
 
 const fetchObject = (name: ObjectName) =>
   JSON.parse(localStorage.getItem(name) || "{}");
 const fetchArray = <T>(name: ObjectName): T[] =>
   JSON.parse(localStorage.getItem(name) || "[]");
+
+interface Game {
+  day: number;
+  guesses: string[];
+}
+// Each day keeps its own guesses, so that opening another day does not wipe a
+// game in progress. Only the most recently played days are kept.
+const MAX_SAVED_GAMES = 30;
+// Before "games", a single game was saved under these two keys
+const LEGACY_DAY = "dayNumber";
+const LEGACY_GUESSES = "guesses";
+
+export const getGuesses = (day: number): string[] => {
+  const game = fetchArray<Game>(ObjectName.Games).find(
+    (game) => game.day === day,
+  );
+  if (game) {
+    return game.guesses;
+  }
+  if (localStorage.getItem(LEGACY_DAY) === day.toString()) {
+    return JSON.parse(localStorage.getItem(LEGACY_GUESSES) || "[]");
+  }
+
+  return [];
+};
+
+export const setGuesses = (day: number, guesses: string[]) => {
+  const otherGames = fetchArray<Game>(ObjectName.Games).filter(
+    (game) => game.day !== day,
+  );
+  const legacyDay = localStorage.getItem(LEGACY_DAY);
+  if (legacyDay !== null) {
+    // move the game saved by the previous version along with the others
+    if (
+      legacyDay !== day.toString() &&
+      !otherGames.some((game) => game.day === parseInt(legacyDay))
+    ) {
+      otherGames.push({
+        day: parseInt(legacyDay),
+        guesses: JSON.parse(localStorage.getItem(LEGACY_GUESSES) || "[]"),
+      });
+    }
+    localStorage.removeItem(LEGACY_DAY);
+    localStorage.removeItem(LEGACY_GUESSES);
+  }
+
+  localStorage.setItem(
+    ObjectName.Games,
+    JSON.stringify([...otherGames, { day, guesses }].slice(-MAX_SAVED_GAMES)),
+  );
+};
 
 export const getStats = (): Stats => fetchObject(ObjectName.Stats);
 export const getSettings = (): Settings => fetchObject(ObjectName.Settings);

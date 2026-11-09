@@ -78,11 +78,7 @@ test("win a daily game", async ({ page }) => {
   // click on "Try another one!" button
   await page.getByRole("button", { name: "Try another one!" }).click();
   // should show the replay modal
-  await page
-    .locator("div")
-    .filter({ hasText: /^Today$/ })
-    .nth(1)
-    .click();
+  await page.getByText("Today", { exact: true }).click();
   // we should have 6 guesses remaining
   await expect(page.getByRole("main")).toContainText("6 guesses remaining");
 });

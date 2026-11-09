@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { computed, ref } from "vue";
 import { shuffle } from "@/services/utils";
-import { search } from "./GuessingFormSearchEngine";
+import { search } from "@/services/search";
 
 const props = defineProps({
   possibleAnswers: {
