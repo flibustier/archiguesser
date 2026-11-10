@@ -3,9 +3,11 @@
 // - virtual:picture-folders  { day: folder } for replayed days (symlinks)
 // - virtual:game-index       small index of the collection (see GameIndex)
 // - /data/**.json            the split data files, served in dev, written at build
+// - /sw.js                   the service worker, with the list of files to keep offline
 // - one HTML file per URL    so that GitHub Pages answers 200 with the right
 //                            title and preview image on /replay, /day/12, …
 
+import { createHash } from "node:crypto";
 import { readdirSync, readFileSync, realpathSync, rmSync } from "node:fs";
 import { mkdir, writeFile } from "node:fs/promises";
 import { basename, dirname, join, resolve } from "node:path";
@@ -143,7 +145,31 @@ export const game = ({ root }: Options): Plugin => {
     },
 
     // production build: the data files are written next to the app
-    generateBundle() {
+    generateBundle(_options, bundle) {
+      // the service worker keeps the app itself (not the data) for offline use
+      const precache = [
+        "/",
+        "/site.webmanifest",
+        "/android-chrome-192x192.png",
+        ...Object.keys(bundle)
+          .filter((fileName) => /\.(js|css)$/.test(fileName))
+          .sort()
+          .map((fileName) => "/" + fileName),
+      ];
+      this.emitFile({
+        type: "asset",
+        fileName: "sw.js",
+        source: readFileSync(join(root, "build/sw.js"), "utf8")
+          .replace(
+            "__VERSION__",
+            createHash("sha256")
+              .update(precache.join())
+              .digest("hex")
+              .slice(0, 12),
+          )
+          .replace("__PRECACHE__", JSON.stringify(precache)),
+      });
+
       const projects = readProjects();
       const emit = (fileName: string, content: unknown) =>
         this.emitFile({

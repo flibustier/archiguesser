@@ -1,5 +1,6 @@
 import type { Stats, Challenges } from "./store.ts";
-import { getClientID, getCredentials } from "./store.ts";
+import { getClientID, getCredentials, getStats } from "./store.ts";
+import { flushPendingResults, keepForLater } from "./outbox.ts";
 
 // Introduction of a Wikipedia article, as plain text ("" when unavailable)
 export const fetchWikipediaSummary = async (link: string): Promise<string> => {
@@ -57,6 +58,19 @@ export const sendPageView = (path: string) => {
   }
 };
 
+// A few rare events worth following over time (installations of the app).
+// Unlike sendEvent, the names are fixed, so GoatCounter can count them too.
+export const sendMilestone = (name: "app-installed" | "app-opened") => {
+  sendEvent(name);
+  if (isProduction) {
+    try {
+      window.goatcounter?.count?.({ path: name, title: name, event: true });
+    } catch (e) {
+      console.log(e);
+    }
+  }
+};
+
 const endpoint = isProduction
   ? "https://stats.archiguesser.com/"
   : "http://localhost:8085/";
@@ -91,25 +105,44 @@ export const sendResult = async (
   guesses: string[],
   stats: Stats,
 ): Promise<number | undefined> => {
+  let response: Response;
   try {
-    const response = await postData("result", {
+    response = await postData("result", {
       day: dayNumber,
       score,
       guesses,
       ...convertStats(stats),
     });
+  } catch {
+    // offline, or the server cannot be reached: sent again later
+    keepForLater({ day: dayNumber, score, guesses });
 
-    if (score === 0) {
-      return undefined;
-    }
+    return undefined;
+  }
 
-    const successPercent = await response.json();
-
-    return successPercent;
+  try {
+    return score === 0 ? undefined : await response.json();
   } catch {
     return undefined;
   }
 };
+
+// Results played offline are sent when the app starts or is back online
+export const sendPendingResults = () =>
+  flushPendingResults(async ({ day, score, guesses }) => {
+    try {
+      await postData("result", {
+        day,
+        score,
+        guesses,
+        ...convertStats(getStats()),
+      });
+
+      return true;
+    } catch {
+      return false;
+    }
+  });
 
 export const sendChallengeResult = async (
   score: number,
