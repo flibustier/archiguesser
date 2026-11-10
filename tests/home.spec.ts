@@ -206,6 +206,105 @@ test("a signed-in player sees the account and can log out", async ({
   await expect(page.getByRole("heading", { name: "Sign In" })).toBeVisible();
 });
 
+test("a forgotten password can be reset by email", async ({ page }) => {
+  let asked: { email?: string } = {};
+  await page.route(/\/password\/forgot$/, async (route) => {
+    asked = route.request().postDataJSON();
+    await route.fulfill({ body: "ok" });
+  });
+  await page.goto("/account");
+
+  await page.getByRole("button", { name: "Forgot your password?" }).click();
+  await page.getByLabel("Email").fill("Ludwig@MVDR.com");
+  await page.getByRole("button", { name: "Send me a link" }).click();
+
+  await expect(page.getByRole("status")).toContainText(
+    "If an account exists for this address, an email is on its way",
+  );
+  expect(asked.email).toBe("ludwig@mvdr.com");
+});
+
+test("the link received by email sets a new password and signs in", async ({
+  page,
+}) => {
+  let received: { token?: string; password?: string } = {};
+  await page.route(/\/password\/reset$/, async (route) => {
+    received = route.request().postDataJSON();
+    await route.fulfill({ json: "ludwig@mvdr.com" });
+  });
+  await page.route(/\/user$/, (route) =>
+    route.fulfill({ json: { stats: '{"3":2}', challenges: "{}" } }),
+  );
+  await page.goto("/account?reset=" + "a".repeat(64));
+
+  await expect(
+    page.getByRole("heading", { name: "New password" }),
+  ).toBeVisible();
+  const save = page.getByRole("button", { name: "Save my new password" });
+  await page.getByLabel("New password").fill("short");
+  await expect(save).toBeDisabled();
+  await page.getByLabel("New password").fill("less is more");
+  await save.click();
+
+  // signed in, the link is gone from the address bar
+  await expect(page).toHaveURL("/account");
+  await expect(page.getByRole("heading", { name: "Account" })).toBeVisible();
+  await expect(page.getByLabel("Email")).toHaveValue("ludwig@mvdr.com");
+  expect(received).toMatchObject({
+    token: "a".repeat(64),
+    password: "less is more",
+  });
+});
+
+test("an expired link says so", async ({ page }) => {
+  await page.route(/\/password\/reset$/, (route) =>
+    route.fulfill({
+      status: 400,
+      body: "This link is invalid or has expired",
+    }),
+  );
+  await page.goto("/account?reset=" + "b".repeat(64));
+
+  await page.getByLabel("New password").fill("less is more");
+  await page.getByRole("button", { name: "Save my new password" }).click();
+
+  await expect(page.getByRole("alert")).toContainText(
+    "This link is invalid or has expired",
+  );
+});
+
+test("an account can be deleted, after confirmation", async ({ page }) => {
+  let deleted: { email?: string } = {};
+  await page.route(/\/user\/delete$/, async (route) => {
+    deleted = route.request().postDataJSON();
+    await route.fulfill({ body: "deleted" });
+  });
+  await page.addInitScript(() => {
+    if (!window.sessionStorage.getItem("seeded")) {
+      window.sessionStorage.setItem("seeded", "yes");
+      window.localStorage.setItem(
+        "login",
+        btoa("ludwig@mvdr.com:less is more"),
+      );
+      window.localStorage.setItem("stats", JSON.stringify({ 1: 1 }));
+    }
+  });
+  await page.goto("/account");
+
+  await page.getByRole("button", { name: "Delete my account" }).click();
+  await expect(page.getByRole("main")).toContainText("deleted for good");
+  // nothing is sent before the confirmation
+  expect(deleted.email).toBeUndefined();
+
+  await page.getByRole("button", { name: "Yes, delete my account" }).click();
+  await expect(page.getByRole("heading", { name: "Sign In" })).toBeVisible();
+  expect(deleted.email).toBe("ludwig@mvdr.com");
+  // the scores stay on the device
+  expect(await page.evaluate(() => window.localStorage.getItem("stats"))).toBe(
+    '{"1":1}',
+  );
+});
+
 test("about page is working", async ({ page }) => {
   await page.getByLabel("Show informations about").click();
   await expect(page).toHaveURL("/about");
