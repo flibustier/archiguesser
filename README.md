@@ -119,3 +119,22 @@ writes what a server would otherwise compute:
 
 Some scripts use [Deno](https://deno.com/) > 2.0 for its permission sandbox (`deno task add`, `deno task replay`, `scripts/dev`).
 They use Deno's own cache and never touch `node_modules`.
+
+#### Adding a project
+
+```sh
+make propose Q=Q915603     # a Wikidata id, or the address of a Wikipedia article
+```
+
+reads the name, architects, place and dates on Wikidata, adds the entry to
+`data.json` for the next free day, and downloads the best pictures of its
+Wikimedia Commons category (free licences only) into `sources/<day>/`.
+Choose six, rename them `1` to `6`, then:
+
+```sh
+make credits DAY=1600      # writes the author of each chosen picture in data.json
+make convert DAY=1600      # resizes them into public/1600/
+```
+
+`make download URL=<article> DAY=<n>` and `make add` remain for projects that
+are not on Wikidata.
