@@ -1,6 +1,16 @@
 {
-  "name": "",
-  "short_name": "",
+  "id": "/",
+  "name": "ArchiGuesser",
+  "short_name": "ArchiGuesser",
+  "description": "Guess the daily architectural project from the pictures. A new project each day!",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "categories": ["games", "education"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +23,8 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  "shortcuts": [
+    { "name": "Replay previous days", "url": "/replay" },
+    { "name": "Themed challenges", "url": "/challenges" }
+  ]
 }
