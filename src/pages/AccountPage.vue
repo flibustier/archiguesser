@@ -309,7 +309,7 @@ const deleteMyAccount = async () => {
 
 <style scoped>
 .error-message {
-  color: #c85503;
+  color: var(--color-warning);
 }
 
 form {

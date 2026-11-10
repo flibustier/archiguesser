@@ -139,7 +139,7 @@ const isDayPlayed = (day: number) => day in stats.value;
 
   min-width: 6.4rem;
   border-radius: var(--border-radius);
-  box-shadow: rgba(213, 217, 217, 0.5) 1px 2px 5px 0;
+  box-shadow: var(--color-shadow) 1px 2px 5px 0;
 }
 
 .image-cell {
@@ -212,5 +212,14 @@ const isDayPlayed = (day: number) => day in stats.value;
 .icon-check {
   filter: invert(33%) sepia(9%) saturate(3150%) hue-rotate(32deg)
     brightness(115%) contrast(87%);
+}
+
+/* the filter above turns a black icon green: a light icon needs the colour itself */
+:root[data-theme="dark"] .icon-check {
+  filter: none;
+}
+
+:root[data-theme="dark"] .icon-check svg {
+  fill: var(--color-success);
 }
 </style>

@@ -59,6 +59,6 @@ onUnmounted(() => {
 }
 
 button:hover:not(.btn-primary) {
-  background-color: hsl(0, 0%, 87%);
+  background-color: var(--color-muted-background);
 }
 </style>

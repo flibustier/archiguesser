@@ -115,6 +115,11 @@ writes what a server would otherwise compute:
 
 `public/data.json` is still published as a whole for the statistics dashboard.
 
+Every colour is a variable of `src/assets/base.css`, with a second set for the
+dark theme. The app follows the device, and the About page lets the player
+force light or dark (`src/services/theme.ts`); a new colour must be added to
+both sets rather than written in a component.
+
 ### Data Scripts
 
 Some scripts use [Deno](https://deno.com/) > 2.0 for its permission sandbox (`deno task add`, `deno task replay`, `scripts/dev`).

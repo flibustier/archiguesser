@@ -71,10 +71,10 @@ const select = (choice: string, choseIdx: number) => {
 }
 
 .success {
-  background-color: rgb(171, 217, 171);
+  background-color: var(--color-success-background);
 }
 
 .wrong {
-  background-color: #fb545457;
+  background-color: var(--color-failure-background);
 }
 </style>

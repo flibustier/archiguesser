@@ -3,6 +3,14 @@ import AboutContent from "@/components/about/AboutContent.vue";
 
 import { gameIndex } from "@/services/data";
 import { install, installPrompt, isInstalled, isIOS } from "@/services/install";
+import { setThemeChoice, themeChoice } from "@/services/theme";
+import type { ThemeChoice } from "@/services/theme";
+
+const THEMES: { choice: ThemeChoice; label: string }[] = [
+  { choice: "auto", label: "Same as device" },
+  { choice: "light", label: "Light" },
+  { choice: "dark", label: "Dark" },
+];
 
 document.title = "ArchiGuesser - About";
 </script>
@@ -33,6 +41,21 @@ document.title = "ArchiGuesser - About";
       </p>
     </section>
 
+    <section class="appearance">
+      <h2 class="page-title">Appearance</h2>
+      <div class="themes" role="group" aria-label="Colours of the app">
+        <button
+          v-for="{ choice, label } in THEMES"
+          :key="choice"
+          :class="['btn-small', { 'btn-primary': themeChoice === choice }]"
+          :aria-pressed="themeChoice === choice"
+          @click="setThemeChoice(choice)"
+        >
+          {{ label }}
+        </button>
+      </div>
+    </section>
+
     <footer class="footer">
       <p>
         Got a suggestion or want to contribute ? Contact me via
@@ -52,13 +75,21 @@ document.title = "ArchiGuesser - About";
 </template>
 
 <style scoped>
-.install {
+.install,
+.appearance {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--gap);
   text-align: center;
   margin-top: 1rem;
+}
+
+.themes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap);
 }
 
 .footer {

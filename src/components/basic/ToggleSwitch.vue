@@ -54,7 +54,7 @@ defineEmits(["update:modelValue"]);
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--color-switch-off);
   border-radius: 34px;
   -webkit-transition: 0.4s;
   transition: 0.4s;

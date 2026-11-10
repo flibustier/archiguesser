@@ -3,8 +3,10 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import { onNavigation, startRouter } from "./router";
 import { watchInstallation } from "./services/install";
+import { watchTheme } from "./services/theme";
 import { sendPageView, sendPendingResults } from "./services/api";
 
+watchTheme();
 startRouter();
 // the first page is counted by the analytics scripts themselves
 onNavigation(({ path }) => sendPageView(path));
