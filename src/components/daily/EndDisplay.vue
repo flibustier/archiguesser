@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import { computed, onMounted, ref } from "vue";
+import { computed, onMounted, ref, type PropType } from "vue";
 
 import { URL, APP_NAME, ENABLE_ADS } from "@/config.json";
+
+import { dayPath, navigate } from "@/router";
+import type { DayProject } from "@/services/types";
 
 import { sendEvent, fetchWikipediaSummary } from "@/services/api";
 
@@ -37,7 +40,7 @@ const props = defineProps({
     required: false,
   },
   project: {
-    type: Object,
+    type: Object as PropType<DayProject>,
     required: true,
   },
 });
@@ -64,8 +67,25 @@ const resultSquares = computed(() => {
 const shareMessage = computed(() => {
   return `${APP_NAME} #${props.project.dayNumber}\n🏛 ${
     document.getElementById("share-message")?.textContent || ""
-  }\n\n${URL}/?day=${props.project.dayNumber}`;
+  }\n\n${URL}${dayPath(props.project.dayNumber)}`;
 });
+
+// phones and tablets have a share sheet; elsewhere the result is copied
+const canShare =
+  typeof navigator.share === "function" &&
+  window.matchMedia("(pointer: coarse)").matches;
+
+const share = async () => {
+  if (!canShare) {
+    return copy();
+  }
+  try {
+    await navigator.share({ text: shareMessage.value });
+    sendEvent("Shared");
+  } catch {
+    // the share sheet was dismissed
+  }
+};
 
 const copy = async () => {
   const copyText = shareMessage.value;
@@ -142,7 +162,7 @@ onMounted(async () => {
       <template v-else> Thank you for your feedback! </template>
     </p>
     <div class="row">
-      <button class="btn-primary" @click="copy">
+      <button class="btn-primary" @click="share">
         <span>{{ shareBtnContent }}</span>
         <IconCopy style="fill: white" />
       </button>
@@ -156,16 +176,16 @@ onMounted(async () => {
           <span>Learn more about it</span>
           <IconWiki />
         </button>
-        <button class="btn-secondary" @click="$emit('showBackModal')">
+        <button class="btn-secondary" @click="navigate('/replay')">
           <span>Try another one!</span>
           <IconBack />
         </button>
       </div>
     </div>
     <div class="extra">
-      <p v-if="project['hors-serie'] && project['features']">
+      <p v-if="project['hors-serie'] && project.features">
         Featured projects :<br />
-        <span v-for="(feature, index) in project['features']" :key="index">
+        <span v-for="(feature, index) in project.features" :key="index">
           {{ index }}.
           <a v-if="feature.link" :href="feature.link" target="_blank">
             {{ feature.title }} </a

@@ -1,6 +1,12 @@
 {
   "extends": "@vue/tsconfig/tsconfig.json",
-  "include": ["vite.config.mts"],
+  "include": [
+    "vite.config.mts",
+    "build/**/*.ts",
+    "src/services/types.ts",
+    "src/services/slug.ts"
+  ],
+  "exclude": ["build/__tests__/*"],
   "compilerOptions": {
     "composite": true,
     "types": ["node"]

@@ -1,55 +1,36 @@
-import data from "../assets/data.json" with { type: "json" };
-import suggestions from "../assets/suggestions.json" with { type: "json" };
+// What the search field offers. A normal day offers full answers
+// ("Name / Architects / City, Country"); a hors-série only offers the part
+// to guess: cities or architects.
 
-import { getProjectInformation } from "./projects.ts";
+const cityOf = (suggestion: string): string => {
+  const places = (suggestion.split("/").pop() || "").trim().split(", ");
 
-const suggestionsWithAnswers = data
-  .map(({ answer }) => answer)
-  .concat(suggestions);
+  return places.length > 1
+    ? places[places.length - 2] + ", " + places[places.length - 1]
+    : "";
+};
 
-export const getSuggestions = () => {
-  const { ["hors-serie"]: horsSerie } = getProjectInformation();
+const architectsOf = (suggestion: string): string[] => {
+  const parts = suggestion.split("/");
 
+  return parts.length > 2
+    ? parts[1]
+        .trim()
+        .split(", ")
+        .map((architect) => architect.trim())
+    : [];
+};
+
+export const suggestionsFor = (
+  horsSerie: string | undefined,
+  answers: string[],
+): string[] => {
   if (horsSerie === "City") {
-    return [
-      ...new Set(
-        suggestionsWithAnswers.map((suggestion) => {
-          const location = suggestion.split("/").pop()?.trim();
-
-          if (location) {
-            const splited = location.split(", ");
-
-            if (splited.length > 1) {
-              return (
-                splited[splited.length - 2] + ", " + splited[splited.length - 1]
-              );
-            }
-          }
-
-          return "";
-        }),
-      ),
-    ];
+    return [...new Set(answers.map(cityOf))].filter(Boolean);
   }
-
   if (horsSerie === "Architect") {
-    return [
-      ...new Set(
-        suggestionsWithAnswers.flatMap((suggestion) => {
-          const splitted = suggestion.split("/");
-
-          if (splitted.length > 2) {
-            return splitted[1]
-              .trim()
-              .split(", ")
-              .map((archi) => archi.trim());
-          }
-
-          return [];
-        }),
-      ),
-    ];
+    return [...new Set(answers.flatMap(architectsOf))].filter(Boolean);
   }
 
-  return suggestionsWithAnswers;
+  return answers;
 };

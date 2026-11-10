@@ -107,8 +107,8 @@ const setObject =
       }),
     );
 
-export const setSetting = setObject<Settings>(ObjectName.Settings);
-export const setChallenges = setObject<Challenges>(ObjectName.Challenges);
+export const setSetting = setObject<boolean>(ObjectName.Settings);
+export const setChallenges = setObject<number>(ObjectName.Challenges);
 
 export const setFeedbackFormRecurringData = (
   feedbackForm: FeedbackFormData,

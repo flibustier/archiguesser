@@ -36,7 +36,7 @@ const pictureCopyright = computed(
 );
 
 const imgSrc = (picture: number) =>
-  `${pictureFolder(props.dayNumber)}/${picture}.jpg`;
+  `/${pictureFolder(props.dayNumber)}/${picture}.jpg`;
 </script>
 
 <template>

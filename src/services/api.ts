@@ -43,6 +43,20 @@ export const sendEvent = (event: string) => {
   }
 };
 
+// Page views after the first one (navigation without reload). GoatCounter
+// needs to be told; it is absent in development and when blocked.
+export const sendPageView = (path: string) => {
+  if (isProduction) {
+    try {
+      window.goatcounter?.count?.({ path });
+    } catch (e) {
+      console.log(e);
+    }
+  } else {
+    console.log("PAGE VIEW: ", path);
+  }
+};
+
 const endpoint = isProduction
   ? "https://stats.archiguesser.com/"
   : "http://localhost:8085/";

@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect } from "./fixtures.ts";
 import { json } from "./api.mock.ts";
 
 test.beforeEach(async ({ page }) => {
@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
     window.localStorage.setItem("clientID", "test");
   });
 
-  await page.goto("/?day=0");
+  await page.goto("/day/0");
 
   await page.route(
     "https://en.wikipedia.org/w/api.php?origin=*&format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&titles=Eiffel_Tower",
@@ -77,10 +77,50 @@ test("win a daily game", async ({ page }) => {
 
   // click on "Try another one!" button
   await page.getByRole("button", { name: "Try another one!" }).click();
-  // should show the replay modal
+  // should show the replay page
+  await expect(page).toHaveURL("/replay");
   await page.getByText("Today", { exact: true }).click();
+  await expect(page).toHaveURL("/");
   // we should have 6 guesses remaining
   await expect(page.getByRole("main")).toContainText("6 guesses remaining");
+
+  // the finished day is remembered, with its guesses
+  await page.goto("/day/0");
+  await expect(page.getByRole("heading")).toContainText("You got it! 🎉");
+  await expect(page.locator("#share-message")).toContainText(
+    "🟥 🟥 🟥 🟩 ⬛ ⬛",
+  );
+});
+
+test("a game in progress survives a visit to another day", async ({ page }) => {
+  await page.getByRole("button", { name: "SKIP" }).click();
+  await page.getByRole("button", { name: "SKIP" }).click();
+  await expect(page.getByRole("main")).toContainText("4 guesses remaining");
+
+  // play another day meanwhile
+  await page.goto("/day/1");
+  await expect(page.getByRole("main")).toContainText("6 guesses remaining");
+  await page.getByRole("button", { name: "SKIP" }).click();
+  await expect(page.getByRole("main")).toContainText("5 guesses remaining");
+
+  // both games are where they were left
+  await page.goto("/day/0");
+  await expect(page.getByRole("main")).toContainText("4 guesses remaining");
+  await expect(page.getByRole("button", { name: "3" })).toBeVisible();
+  await page.goto("/day/1");
+  await expect(page.getByRole("main")).toContainText("5 guesses remaining");
+});
+
+test("the search field survives special characters", async ({ page }) => {
+  const input = page.getByPlaceholder("Search for building name /");
+  await input.fill("eiffel ** (((");
+  await expect(page.getByRole("list")).toContainText(
+    "Eiffel Tower / Gustave Eiffel / Paris, France",
+  );
+  await input.fill("saint pierre firminy");
+  await expect(page.getByRole("list")).toContainText(
+    "Church Saint-Pierre of Firminy",
+  );
 });
 
 test("lose a daily game", async ({ page }) => {

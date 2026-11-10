@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 import { search } from "@/services/search";
-import { getSuggestions } from "@/services/suggestions";
+import { fetchAnswers } from "@/services/data";
+import { suggestionsFor } from "@/services/suggestions";
 import IconSearch from "../icons/IconSearch.vue";
 import IconBackspace from "../icons/IconBackspace.vue";
 
@@ -10,25 +11,41 @@ const hasSelectedSuggestion = ref(false);
 const preselected = ref();
 const suggestionsRefs = ref([] as (HTMLElement | null)[]);
 
-const props = defineProps({
-  placeholder: {
-    type: String,
-  },
-});
+const props = defineProps<{
+  // "City" or "Architect" when the day is a hors-série
+  horsSerie?: string;
+  // today's answer: always offered, even if the list of names is out of date
+  answer: string;
+}>();
 
 const placeholder = computed(() => {
-  if (props.placeholder === "City") {
+  if (props.horsSerie === "City") {
     return "Search for city…";
   }
-  if (props.placeholder === "Architect") {
+  if (props.horsSerie === "Architect") {
     return "Search for an architect…";
   }
   return "Search for building name / architect / place…";
 });
 
-const suggestions = getSuggestions();
+// The names are downloaded once the game is on screen; the field can be
+// used meanwhile, suggestions appear as soon as they are there.
+const answers = ref<string[]>([]);
+fetchAnswers()
+  .then((list) => {
+    answers.value = list.includes(props.answer)
+      ? list
+      : [props.answer, ...list];
+  })
+  .catch(() => {
+    answers.value = [];
+  });
+const suggestions = computed(() =>
+  suggestionsFor(props.horsSerie, answers.value),
+);
+
 const filteredSuggestions = computed(() =>
-  search(searchTerms.value, suggestions),
+  search(searchTerms.value, suggestions.value),
 );
 const isSelectionDone = computed(
   () => hasSelectedSuggestion.value || searchTerms.value.length === 0,
