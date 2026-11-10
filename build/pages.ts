@@ -10,6 +10,7 @@ export interface PageMeta {
   title: string;
   description?: string;
   image?: string; // URL path of the preview image
+  canonical?: string; // URL path given to search engines, `path` by default
 }
 
 const APP = "ArchiGuesser";
@@ -54,6 +55,9 @@ export const staticPages = (
     title: `${APP} #${day} - Guess the architectural project from the pictures`,
     description: `Can you guess the architectural project #${day} from its pictures? You have 6 tries!`,
     image: `/${pictureFolder(day)}/1.jpg`,
+    // Past days are reached from /replay (the last 60) or from a shared link,
+    // not from a search engine: for these, a day is the home page.
+    canonical: "/",
   })),
   ...index.categories
     .filter(({ name }) => name !== "test")
@@ -90,7 +94,7 @@ export const renderPage = (
     )
     .replace(
       /(<link rel="canonical" href=")[^"]*(")/,
-      `$1${siteURL}${page.path}$2`,
+      `$1${siteURL}${page.canonical ?? page.path}$2`,
     );
   html = setContent(html, 'property="og:url"', siteURL + page.path);
   html = setContent(html, 'property="og:title"', page.title);

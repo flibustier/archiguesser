@@ -42,7 +42,7 @@ test("a day page previews the first picture of the day it replays", () => {
   assert.equal(find("/day/3").image, "/1/1.jpg");
 });
 
-test("renderPage sets title, canonical URL and preview on the real index.html", () => {
+test("renderPage sets title, URL and preview on the real index.html", () => {
   const html = renderPage(template, find("/day/3"), "https://archiguesser.com");
 
   assert.match(
@@ -51,7 +51,7 @@ test("renderPage sets title, canonical URL and preview on the real index.html", 
   );
   assert.match(
     html,
-    /<link rel="canonical" href="https:\/\/archiguesser\.com\/day\/3"/,
+    /<link rel="canonical" href="https:\/\/archiguesser\.com\/"/,
   );
   assert.match(
     html,
@@ -73,6 +73,11 @@ test("renderPage keeps the default description and image when a page has none", 
   const html = renderPage(template, find("/score"), "https://archiguesser.com");
 
   assert.match(html, /<title>ArchiGuesser - Your score<\/title>/);
+  // unlike a day, a page is its own canonical URL
+  assert.match(
+    html,
+    /<link rel="canonical" href="https:\/\/archiguesser\.com\/score"/,
+  );
   assert.match(
     html,
     /<meta property="og:image" content="https:\/\/archiguesser\.com\/preview\.png"/,
