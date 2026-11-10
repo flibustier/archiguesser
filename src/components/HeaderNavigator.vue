@@ -5,18 +5,15 @@ import IconUser from "./icons/IconUser.vue";
 import IconTrophy from "./icons/IconTrophy.vue";
 import IconScoreboard from "./icons/IconScoreboard.vue";
 
-defineEmits([
-  "showArcadeModal",
-  "showBackModal",
-  "showInfoModal",
-  "showUserModal",
-  "showScoreModal",
-]);
+import { currentRoute, type RouteName } from "@/router";
+
+const current = (...names: RouteName[]) =>
+  names.includes(currentRoute.value.name) ? "page" : undefined;
 </script>
 
 <template>
   <header>
-    <div class="nav-bar">
+    <nav class="nav-bar" aria-label="Main">
       <div class="nav-left">
         <a id="brand" href="/" aria-label="Back to the daily challenge">
           ArchiGuesser
@@ -24,42 +21,42 @@ defineEmits([
       </div>
       <div class="nav-right">
         <a
-          href="#replay"
+          href="/replay"
           aria-label="Replay previous days"
-          @click="$emit('showBackModal')"
+          :aria-current="current('replay')"
         >
           <IconBack />
         </a>
         <a
-          href="#challenges"
+          href="/challenges"
           aria-label="Play themed challenges"
-          @click="$emit('showArcadeModal')"
+          :aria-current="current('challenges', 'challenge')"
         >
           <IconTrophy />
         </a>
         <a
-          href="#score"
+          href="/score"
           aria-label="Show your score"
-          @click="$emit('showScoreModal')"
+          :aria-current="current('score')"
         >
           <IconScoreboard />
         </a>
         <a
-          href="#login"
+          href="/account"
           aria-label="LogIn to your account or show informations if you’re already connected"
-          @click="$emit('showUserModal')"
+          :aria-current="current('account')"
         >
           <IconUser />
         </a>
         <a
-          href="#info"
+          href="/about"
           aria-label="Show informations about ArchiGuesser"
-          @click="$emit('showInfoModal')"
+          :aria-current="current('about')"
         >
           <IconHelp />
         </a>
       </div>
-    </div>
+    </nav>
   </header>
 </template>
 
@@ -88,7 +85,8 @@ header {
   text-decoration: none;
 
   &:hover,
-  &:focus-visible {
+  &:focus-visible,
+  &[aria-current="page"] {
     transition: filter 0.3s;
 
     filter: invert(48%) sepia(73%) saturate(406%) hue-rotate(342deg)

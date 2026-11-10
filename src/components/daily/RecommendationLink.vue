@@ -2,7 +2,10 @@
 import { computed } from "vue";
 
 import { sendEvent } from "@/services/api";
-import recommendations from "@/assets/recommendations.json";
+import recommendationsFile from "@/assets/recommendations.json";
+
+const recommendations: Record<string, { link: string; picture?: string }> =
+  recommendationsFile;
 
 const props = defineProps({
   recommendation: {
@@ -16,7 +19,7 @@ const recommendation = computed(() => {
     const extractBids = /offerid=(\d+.\d+)/.exec(
       recommendations[props.recommendation].link,
     );
-    const bids = extractBids.length > 1 ? extractBids[1] : null;
+    const bids = extractBids && extractBids.length > 1 ? extractBids[1] : null;
     return {
       name: props.recommendation,
       picture: props.recommendation.toLowerCase() + ".jpg",

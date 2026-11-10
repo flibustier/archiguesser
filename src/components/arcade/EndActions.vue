@@ -1,12 +1,11 @@
 <script setup lang="ts">
+import { navigate, refresh } from "@/router";
 import { sendEvent } from "@/services/api";
 
 import IconWiki from "@/components/icons/IconWiki.vue";
 import IconRetry from "@/components/icons/IconRetry.vue";
 import IconScore from "@/components/icons/IconScoreboard.vue";
 import IconTrophy from "@/components/icons/IconTrophy.vue";
-
-defineEmits(["showArcadeModal", "showScoreModal"]);
 
 const props = defineProps([
   "hasWon",
@@ -15,8 +14,7 @@ const props = defineProps([
   "currentProject",
 ]);
 
-const refresh = () => window.location.reload();
-const goHome = () => window.location.replace("/");
+const goHome = () => navigate("/");
 
 const openLinks = () => {
   window.open(props.currentProject.links[0], "_blank")?.focus();
@@ -65,15 +63,11 @@ const openLinks = () => {
         <span>Learn more about it</span>
         <IconWiki />
       </button>
-      <button
-        v-if="hasWon"
-        class="btn-secondary"
-        @click="$emit('showScoreModal')"
-      >
+      <button v-if="hasWon" class="btn-secondary" @click="navigate('/score')">
         <span>Check your score</span>
         <IconScore />
       </button>
-      <button class="btn-secondary" @click="$emit('showArcadeModal')">
+      <button class="btn-secondary" @click="navigate('/challenges')">
         <span>Try another challenge</span>
         <IconTrophy />
       </button>

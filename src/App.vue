@@ -1,83 +1,75 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import {
+  computed,
+  defineAsyncComponent,
+  onMounted,
+  onUnmounted,
+  ref,
+} from "vue";
 
-import { isLogged, isFirstTime } from "@/services/store";
+import { currentRoute, navigationCount, refresh } from "@/router";
+import { isFirstTime } from "@/services/store";
 import { getRealDayNumber } from "@/services/date";
-import { LISTED_CATEGORIES, LOCKED_CATEGORIES_LOGGED } from "@/config.json";
 
-const ALL_CATEGORIES = [
-  ...LISTED_CATEGORIES,
-  ...LOCKED_CATEGORIES_LOGGED,
-  "test",
-];
-
-import InfoModal from "./components/modals/InfoModal.vue";
-import BackModal from "./components/modals/BackModal.vue";
-import UserModal from "./components/modals/UserModal.vue";
-import ScoreModal from "./components/modals/ScoreModal.vue";
-import LogInModal from "./components/modals/LogInModal.vue";
-import ArcadeModal from "./components/modals/ArcadeModal.vue";
+import WelcomeModal from "./components/modals/WelcomeModal.vue";
 import FeedbackModal from "./components/modals/FeedbackModal.vue";
 import HeaderNavigator from "./components/HeaderNavigator.vue";
 
+// the game is on screen at once, the other pages are downloaded when opened
 import DailyPage from "./pages/DailyPage.vue";
-import ArcadePage from "./pages/ArcadePage.vue";
 
-const showBackModal = ref(window.location.hash === "#replay");
-const showInfoModal = ref(window.location.hash === "#info" || isFirstTime());
-const showUserModal = ref(false);
-const showScoreModal = ref(window.location.hash === "#score");
-const showLogInModal = ref(false);
-const showArcadeModal = ref(window.location.hash === "#challenges");
-const showFeedbackModal = ref(false);
+const pages = {
+  daily: DailyPage,
+  day: DailyPage,
+  challenge: defineAsyncComponent(() => import("./pages/ArcadePage.vue")),
+  replay: defineAsyncComponent(() => import("./pages/ReplayPage.vue")),
+  challenges: defineAsyncComponent(() => import("./pages/ChallengesPage.vue")),
+  score: defineAsyncComponent(() => import("./pages/ScorePage.vue")),
+  account: defineAsyncComponent(() => import("./pages/AccountPage.vue")),
+  about: defineAsyncComponent(() => import("./pages/AboutPage.vue")),
+};
 
-const urlParameters = new URLSearchParams(window.location.search);
-const requestedDay = urlParameters.get("day");
-const isArcadeMode = ALL_CATEGORIES.includes(
-  urlParameters.get("challenge") || "",
+const page = computed(() => pages[currentRoute.value.name]);
+const isGame = computed(() =>
+  ["daily", "day", "challenge"].includes(currentRoute.value.name),
 );
 
-// disable days in future when it’s production
-if (
-  process.env.NODE_ENV === "production" &&
-  requestedDay &&
-  parseInt(requestedDay) > getRealDayNumber()
-) {
-  window.location.href = "/";
-}
+const showWelcomeModal = ref(isFirstTime());
+const showFeedbackModal = ref(false);
+
+// An app left open overnight (installed app, pinned tab) shows the new day
+// when it comes back to the foreground.
+let dayShown = getRealDayNumber();
+const onVisibilityChange = () => {
+  if (document.visibilityState !== "visible") {
+    return;
+  }
+  const today = getRealDayNumber();
+  if (today !== dayShown) {
+    dayShown = today;
+    if (currentRoute.value.name === "daily") {
+      refresh();
+    }
+  }
+};
+onMounted(() =>
+  document.addEventListener("visibilitychange", onVisibilityChange),
+);
+onUnmounted(() =>
+  document.removeEventListener("visibilitychange", onVisibilityChange),
+);
 </script>
 
 <template>
-  <BackModal v-model:is-visible="showBackModal" />
-  <InfoModal v-model:is-visible="showInfoModal" />
-  <UserModal v-model:is-visible="showUserModal" />
-  <ScoreModal v-model:is-visible="showScoreModal" />
-  <LogInModal v-model:is-visible="showLogInModal" />
+  <WelcomeModal v-if="isGame" v-model:is-visible="showWelcomeModal" />
   <FeedbackModal v-model:is-visible="showFeedbackModal" />
-  <ArcadeModal
-    v-model:is-visible="showArcadeModal"
-    @show-log-in-modal="showLogInModal = true"
-  />
 
-  <HeaderNavigator
-    @show-back-modal="showBackModal = true"
-    @show-info-modal="showInfoModal = true"
-    @show-score-modal="showScoreModal = true"
-    @show-arcade-modal="showArcadeModal = true"
-    @show-user-modal="
-      isLogged() ? (showUserModal = true) : (showLogInModal = true)
-    "
-  />
+  <HeaderNavigator />
   <main>
-    <ArcadePage
-      v-if="isArcadeMode"
-      @show-log-in-modal="showLogInModal = true"
-      @show-score-modal="showScoreModal = true"
-      @show-arcade-modal="showArcadeModal = true"
-    />
-    <DailyPage
-      v-else
-      @show-back-modal="showBackModal = true"
+    <component
+      :is="page"
+      :key="navigationCount"
+      v-bind="currentRoute.params"
       @show-feedback-modal="showFeedbackModal = true"
     />
   </main>

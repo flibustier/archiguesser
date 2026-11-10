@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import { reactive, computed, ref } from "vue";
 
+import { navigate } from "@/router";
 import { syncUser } from "@/services/user";
+import { resolveDay } from "@/services/days";
 import { getRealDayNumber } from "@/services/date";
-import { getProjectInformation } from "@/services/projects";
+import { fetchDay, gameIndex } from "@/services/data";
 import { sendEvent, sendResult } from "@/services/api";
+import type { DayProject } from "@/services/types";
 import {
   getGuesses,
   getLastFeedback,
@@ -18,21 +21,51 @@ import GuessingForm from "@/components/input/GuessingForm.vue";
 import PictureDisplay from "@/components/picture-display/PictureDisplay.vue";
 import GuessingHistory from "@/components/input/GuessingHistory.vue";
 
-const emit = defineEmits(["showBackModal", "showFeedbackModal"]);
+// "day" comes from the URL (/day/12); without it, today is played
+const props = defineProps<{ day?: string }>();
+const emit = defineEmits(["showFeedbackModal"]);
 
-const stats = getStats();
-const percent = ref();
-const project = reactive(getProjectInformation());
-const { dayNumber, answer, constructionYears, copyrights, noHints } = project;
+const today = getRealDayNumber();
+const requestedDay = props.day === undefined ? today : parseInt(props.day);
+// days prepared in advance are only playable in development
+const isFromTheFuture = import.meta.env.PROD && requestedDay > today;
+const dayNumber = resolveDay(
+  isFromTheFuture ? today : requestedDay,
+  today,
+  gameIndex,
+);
+
+if (
+  isFromTheFuture ||
+  (props.day !== undefined && dayNumber !== requestedDay)
+) {
+  // unknown or future day in the URL: play the most recent day instead
+  navigate("/", { replace: true });
+}
 
 document.title = `ArchiGuesser #${dayNumber} - Guess the daily architectural project from the pictures`;
 
+const stats = getStats();
+const percent = ref();
+const project = ref<DayProject>();
+const isOffline = ref(false);
 const guesses: string[] = reactive(getGuesses(dayNumber));
 
-const isHorsSerie = computed(() => !!project["hors-serie"]);
+const load = async () => {
+  isOffline.value = false;
+  try {
+    project.value = await fetchDay(dayNumber);
+  } catch {
+    isOffline.value = true;
+  }
+};
+load();
+
+const horsSerie = computed(() => project.value?.["hors-serie"]);
 const currentRound = computed(() => guesses.length + 1);
 const hasWon = computed(
-  () => guesses.length > 0 && guesses[guesses.length - 1] === answer,
+  () =>
+    guesses.length > 0 && guesses[guesses.length - 1] === project.value?.answer,
 );
 const isGameEnded = computed(() => currentRound.value === 7 || hasWon.value);
 
@@ -73,45 +106,56 @@ const onSubmittedGuess = async (guess: string) => {
 </script>
 
 <template>
-  <template v-if="isHorsSerie && !isGameEnded">
+  <template v-if="horsSerie && !isGameEnded">
     <h3>Today is an <i>Hors-Série</i>!</h3>
     <p class="text-intro">
-      Try to guess the <b>{{ project["hors-serie"].toLowerCase() }}</b> from the
+      Try to guess the <b>{{ horsSerie.toLowerCase() }}</b> from the
       architecture! Good luck! 👏
     </p>
   </template>
 
+  <!-- the picture does not wait for the project's data -->
   <PictureDisplay
     :max-pictures="isGameEnded ? 6 : Math.min(currentRound, 6)"
     :day-number="dayNumber"
-    :copyrights="copyrights"
+    :copyrights="project?.copyrights || {}"
   />
 
-  <div v-if="!isGameEnded">
-    <GuessingForm
-      :placeholder="project['hors-serie']"
-      @submitted-guess="onSubmittedGuess"
-    />
-    <GuessingHistory
-      :without-hints="isHorsSerie || noHints"
+  <template v-if="project">
+    <div v-if="!isGameEnded">
+      <GuessingForm
+        :hors-serie="horsSerie"
+        :answer="project.answer"
+        @submitted-guess="onSubmittedGuess"
+      />
+      <GuessingHistory
+        :without-hints="!!horsSerie || project.noHints"
+        :guesses="guesses"
+        :answer="project.answer"
+        :construction-years="project.constructionYears"
+      />
+    </div>
+
+    <EndDisplay
+      v-else
       :guesses="guesses"
-      :answer="answer"
-      :construction-years="constructionYears"
+      :has-won="hasWon"
+      :percent="percent"
+      :project="project"
     />
+  </template>
+  <div v-else-if="isOffline" class="column offline" role="alert">
+    <p>
+      This day could not be loaded: it looks like you are offline.<br />
+      A connection is needed the first time a day is opened.
+    </p>
+    <button class="btn-secondary self-center" @click="load">Try again</button>
   </div>
-
-  <EndDisplay
-    v-else
-    :guesses="guesses"
-    :has-won="hasWon"
-    :percent="percent"
-    :project="project"
-    @show-back-modal="$emit('showBackModal')"
-  />
 </template>
 
 <style scoped>
-.text-intro {
+.text-intro,
+.offline {
   text-align: center;
   margin-bottom: 1rem;
 }

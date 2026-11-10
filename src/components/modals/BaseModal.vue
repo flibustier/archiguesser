@@ -14,20 +14,28 @@ defineProps({
 
 const emit = defineEmits(["update:isVisible"]);
 
-const closeModal = () => {
-  emit("update:isVisible", false);
-  window.location.hash = "";
-};
+const closeModal = () => emit("update:isVisible", false);
 </script>
 
 <template>
-  <div v-if="isVisible" class="modal" @click="closeModal">
-    <div class="modal-content" @click.stop="">
+  <div
+    v-if="isVisible"
+    class="modal"
+    @click="closeModal"
+    @keydown.esc="closeModal"
+  >
+    <div
+      class="modal-content"
+      role="dialog"
+      aria-modal="true"
+      :aria-label="title"
+      @click.stop=""
+    >
       <div class="modal-header">
         <h2>{{ title }}</h2>
-        <div class="close" @click="closeModal">
+        <button class="close" aria-label="Close" @click="closeModal">
           <IconClose />
-        </div>
+        </button>
       </div>
       <div class="column modal-body">
         <slot></slot>
@@ -63,9 +71,15 @@ const closeModal = () => {
   max-width: var(--max-width);
 }
 
-.close:hover,
-.close:focus {
-  cursor: pointer;
+.close {
+  display: flex;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+}
+
+.close svg {
+  margin: 0;
 }
 
 .modal-header {
