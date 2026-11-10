@@ -29,6 +29,10 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
+
+    /* A service worker hides requests from the tests' mocks: it is only
+       allowed in the tests about offline use (tests/offline.spec.ts). */
+    serviceWorkers: "block",
   },
 
   /* Configure projects for major browsers */
