@@ -164,7 +164,7 @@ onMounted(async () => {
     <div class="row">
       <button class="btn-primary" @click="share">
         <span>{{ shareBtnContent }}</span>
-        <IconCopy style="fill: white" />
+        <IconCopy style="fill: var(--color-primary-inverted)" />
       </button>
       <div class="separator"></div>
       <div class="column-stretch">
