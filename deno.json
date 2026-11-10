@@ -5,6 +5,8 @@
   },
   "tasks": {
     "replay": "deno run --allow-run --allow-write --allow-read --allow-sys --allow-env scripts/replay.ts",
-    "add": "deno run --allow-write --allow-read --allow-sys --allow-env scripts/add.ts"
+    "add": "deno run --allow-write --allow-read --allow-sys --allow-env scripts/add.ts",
+    "propose": "deno run --allow-read --allow-write=src/assets/data.json,sources --allow-sys --allow-env --allow-net=www.wikidata.org,*.wikimedia.org,*.wikipedia.org scripts/propose.ts",
+    "credits": "deno run --allow-read --allow-write=src/assets/data.json --allow-sys --allow-env scripts/credits.ts"
   }
 }

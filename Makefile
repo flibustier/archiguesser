@@ -65,6 +65,16 @@ convert-all: ## Convert every numbered folder in sources/
 add: ## Add the next day to data.json: make add [LINK=<url>]
 	deno task add $(LINK)
 
+.PHONY: propose
+propose: ## Prepare a day from Wikidata: make propose Q=<Wikidata id or Wikipedia URL> [CREDITS=<name>]
+	@test -n "$(Q)" || { echo "Usage: make propose Q=<Wikidata id or Wikipedia URL> [CREDITS=<name>]"; exit 1; }
+	deno task propose "$(Q)" $(if $(CREDITS),--credits "$(CREDITS)")
+
+.PHONY: credits
+credits: ## Fill the picture credits of a proposed day: make credits DAY=<n>
+	@test -n "$(DAY)" || { echo "Usage: make credits DAY=<n>"; exit 1; }
+	deno task credits $(DAY)
+
 .PHONY: replay
 replay: ## Replay a past day: make replay DAY=<n> [NEXT=<n>]
 	@test -n "$(DAY)" || { echo "Usage: make replay DAY=<n> [NEXT=<n>]"; exit 1; }
