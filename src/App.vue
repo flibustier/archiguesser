@@ -7,7 +7,7 @@ import {
   ref,
 } from "vue";
 
-import { currentRoute, navigationCount, refresh } from "@/router";
+import { currentRoute, navigationCount } from "@/router";
 import { isFirstTime } from "@/services/store";
 import { getRealDayNumber } from "@/services/date";
 
@@ -48,7 +48,8 @@ const onVisibilityChange = () => {
   if (today !== dayShown) {
     dayShown = today;
     if (currentRoute.value.name === "daily") {
-      refresh();
+      // a full reload: the new day may come with a new version of the app
+      window.location.reload();
     }
   }
 };
