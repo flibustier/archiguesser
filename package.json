@@ -10,7 +10,7 @@
     "format": "prettier --write .",
     "test:unit": "node --test",
     "test:e2e": "playwright test",
-    "test:e2e:linux": "docker run -it --rm --ipc=host --volume=./:/mnt --volume=/mnt/node_modules  mcr.microsoft.com/playwright:v1.44.1-jammy /bin/sh -c 'cd /mnt && npm install && npm run playwright test --update-snapshots'",
+    "test:e2e:linux": "docker run -it --rm --ipc=host --volume=./:/mnt --volume=/mnt/node_modules --workdir=/mnt mcr.microsoft.com/playwright:v1.64.1-noble /bin/sh -c 'npm install -g pnpm@12.15.0 && pnpm install --frozen-lockfile --store-dir /tmp/pnpm-store && pnpm exec playwright test --update-snapshots'",
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json && vue-tsc --noEmit -p tsconfig.config.json",
     "build": "pnpm run type-check && vite build",
     "preview": "vite preview --port 4173",

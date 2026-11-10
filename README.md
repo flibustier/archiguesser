@@ -75,8 +75,45 @@ pnpm run build
 pnpm run lint
 ```
 
+#### Tests
+
+```sh
+pnpm run test:unit   # services and build scripts, with Node's test runner
+pnpm run test:e2e    # Playwright, 5 browsers (make test-e2e-update refreshes Linux screenshots)
+```
+
+The end-to-end tests start the development server themselves. The CI runs them
+against the production build, which is the only one with a service worker
+(`tests/offline.spec.ts` is skipped otherwise).
+
 Dependencies are managed with [pnpm](https://pnpm.io/) only (`pnpm-lock.yaml`).
 New versions are only installed once they are at least 7 days old (see `pnpm-workspace.yaml` and `renovate.json`).
+
+### How it is built
+
+| URL                                           | Page                           |
+| --------------------------------------------- | ------------------------------ |
+| `/`                                           | today's game                   |
+| `/day/12`                                     | a previous day                 |
+| `/replay`, `/challenges`, `/challenge/museum` | replay list, themes, one theme |
+| `/score`, `/account`, `/about`                |                                |
+
+`src/router.ts` is a small router on the History API. Links shared before it
+existed (`/?day=12`, `/?challenge=museum`, `/#replay`) are redirected.
+
+The site is static (GitHub Pages), so the build (`build/vite-plugin-game.ts`)
+writes what a server would otherwise compute:
+
+- **one HTML file per URL** (`day/12.html`, `replay.html`…), copies of
+  `index.html` with their own title and preview image, plus a `404.html`
+  that boots the app for any other address;
+- **the data, split**: `src/assets/data.json` stays the single source, but a
+  game only downloads `/data/day/<day>.json`; the names offered by the search
+  field are in `/data/answers.json`, each theme in `/data/challenge/<slug>.json`;
+- **`sw.js`**, the service worker that makes the app installable and keeps the
+  days already opened playable offline.
+
+`public/data.json` is still published as a whole for the statistics dashboard.
 
 ### Data Scripts
 

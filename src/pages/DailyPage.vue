@@ -27,6 +27,19 @@ const emit = defineEmits(["showFeedbackModal"]);
 
 const today = getRealDayNumber();
 const requestedDay = props.day === undefined ? today : parseInt(props.day);
+
+// The list of days comes with the app. If today is not in it, the app in
+// memory is probably older than the latest days: load the current one, once.
+const RELOADED_FOR = "reloadedForDay";
+if (
+  props.day === undefined &&
+  today > gameIndex.lastDay &&
+  sessionStorage.getItem(RELOADED_FOR) !== today.toString()
+) {
+  sessionStorage.setItem(RELOADED_FOR, today.toString());
+  window.location.reload();
+}
+
 // days prepared in advance are only playable in development
 const isFromTheFuture = import.meta.env.PROD && requestedDay > today;
 const dayNumber = resolveDay(
