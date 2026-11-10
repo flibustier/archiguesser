@@ -223,3 +223,53 @@ export const signIn = async (
     return { output };
   }
 };
+
+// Asks for an email with a link to choose a new password. The server answers
+// the same thing whether the account exists or not.
+export const requestPasswordReset = async (
+  email: string,
+): Promise<"sent" | "unavailable" | "unreachable"> => {
+  try {
+    const response = await postData("password/forgot", { email });
+
+    return response.ok ? "sent" : "unavailable";
+  } catch {
+    return "unreachable";
+  }
+};
+
+// Sets the new password with the token received by email. Answers the email
+// of the account, or the reason why it did not work.
+export const resetPassword = async (
+  token: string,
+  password: string,
+): Promise<{ email?: string; error?: string }> => {
+  try {
+    const response = await postData("password/reset", { token, password });
+    if (response.ok) {
+      return { email: await response.json() };
+    }
+
+    return {
+      error:
+        response.status === 400
+          ? await response.text()
+          : "Something went wrong, please try again later.",
+    };
+  } catch {
+    return {
+      error: "The server could not be reached, please try again later.",
+    };
+  }
+};
+
+export const deleteAccount = async (
+  email: string,
+  password: string,
+): Promise<boolean> => {
+  try {
+    return (await postData("user/delete", { email, password })).ok;
+  } catch {
+    return false;
+  }
+};
