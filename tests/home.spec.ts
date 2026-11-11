@@ -240,6 +240,12 @@ test("the link received by email sets a new password and signs in", async ({
   await expect(
     page.getByRole("heading", { name: "New password" }),
   ).toBeVisible();
+  // the secret leaves the address at once, and the form survives a reload
+  await expect(page).toHaveURL("/account");
+  await page.reload();
+  await expect(
+    page.getByRole("heading", { name: "New password" }),
+  ).toBeVisible();
   const save = page.getByRole("button", { name: "Save my new password" });
   await page.getByLabel("New password").fill("short");
   await expect(save).toBeDisabled();
@@ -254,6 +260,22 @@ test("the link received by email sets a new password and signs in", async ({
     token: "a".repeat(64),
     password: "less is more",
   });
+});
+
+test("analytics count a past day under its own address", async ({ page }) => {
+  // what index.html answers to GoatCounter, which proposes the canonical address
+  const countedPath = (canonical: string) =>
+    page.evaluate((path) => window.goatcounter?.path?.(path), canonical);
+
+  await page.goto("/day/12");
+  expect(await countedPath("/")).toBe("/day/12");
+
+  // a link shared before the router existed
+  await page.goto("/?day=7");
+  expect(await countedPath("/")).toBe("/day/7");
+
+  await page.goto("/about");
+  expect(await countedPath("/about")).toBe("/about");
 });
 
 test("an expired link says so", async ({ page }) => {

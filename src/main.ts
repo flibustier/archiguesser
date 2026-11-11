@@ -1,15 +1,22 @@
 import { createApp } from "vue";
 
 import App from "./App.vue";
-import { onNavigation, startRouter } from "./router";
+import { currentRoute, onNavigation, startRouter } from "./router";
 import { watchInstallation } from "./services/install";
 import { watchTheme } from "./services/theme";
 import { sendPageView, sendPendingResults } from "./services/api";
 
 watchTheme();
 startRouter();
-// the first page is counted by the analytics scripts themselves
-onNavigation(({ path }) => sendPageView(path));
+// The first page is counted by the analytics scripts themselves, and a link
+// to the page already shown is not a new page view.
+let countedPath = currentRoute.value.path;
+onNavigation(({ path }) => {
+  if (path !== countedPath) {
+    countedPath = path;
+    sendPageView(path);
+  }
+});
 
 createApp(App).mount("#app");
 

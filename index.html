@@ -23,6 +23,28 @@
         document.documentElement.dataset.theme = theme;
       })();
     </script>
+    <script>
+      // What the analytics scripts at the end of the page may read.
+      (function () {
+        // The link of a password reset email carries a secret
+        // (/account?reset=<token>): move it out of the address, into the
+        // history entry, where the account page finds it.
+        var token = new URLSearchParams(location.search).get("reset");
+        if (token) {
+          history.replaceState({ reset: token }, "", location.pathname);
+        }
+        // GoatCounter counts the canonical address, which is the home page
+        // for a past day: give it the day, also for links shared as /?day=12.
+        window.goatcounter = {
+          path: function (canonical) {
+            var day =
+              /^\/day\/(\d+)\/?$/.exec(location.pathname) ||
+              /[?&]day=(\d+)/.exec(location.search);
+            return day ? "/day/" + parseInt(day[1]) : canonical;
+          },
+        };
+      })();
+    </script>
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="ArchiGuesser" />
     <link rel="canonical" href="https://archiguesser.com/" />
