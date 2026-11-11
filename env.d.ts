@@ -16,6 +16,8 @@ declare const cabin: Cabin;
 
 interface Window {
   goatcounter?: {
+    // set in index.html: the address counted when a page is opened
+    path?: (canonical: string) => string;
     count?: (vars: { path: string; title?: string; event?: boolean }) => void;
   };
 }

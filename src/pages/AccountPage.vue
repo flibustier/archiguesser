@@ -24,8 +24,9 @@ document.title = "ArchiGuesser - Your account";
 
 const UNREACHABLE = "The server could not be reached, please try again later.";
 
-// link received by email: /account?reset=<token>
-const resetToken = new URLSearchParams(window.location.search).get("reset");
+// link received by email: /account?reset=<token>. index.html moves the token
+// from the address to the history entry before any analytics script runs.
+const resetToken: string | null = window.history.state?.reset ?? null;
 
 const logged = isLogged();
 const credentials = getCredentials();
