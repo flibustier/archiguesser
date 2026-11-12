@@ -8,11 +8,11 @@
 //
 // The version and the list of files to precache are filled in at build time.
 
-const VERSION = "8d9e849c569d";
+const VERSION = "588dc9739e6b";
 const SHELL = `shell-${VERSION}`;
 const DATA = "data-v1";
 const PICTURES = "pictures-v1";
-const PRECACHE = ["/","/site.webmanifest","/android-chrome-192x192.png","/assets/AboutPage-BP8CcUqJ.js","/assets/AboutPage-BV_suCl6.css","/assets/AccountPage-D5pwRrb6.css","/assets/AccountPage-DyE11bEh.js","/assets/ArcadePage-CQF1iIWW.js","/assets/ArcadePage-E687b8ou.css","/assets/ChallengesPage-CDOzPWP6.css","/assets/ChallengesPage-DxLmYKVt.js","/assets/ReplayPage-CV7Aklzj.css","/assets/ReplayPage-Cutc_KtT.js","/assets/ScorePage-BDeXxNXA.css","/assets/ScorePage-Ugcq3aEK.js","/assets/_plugin-vue_export-helper-31Zl7oIz.js","/assets/index-Bd1yAHdN.js","/assets/index-sAMjqEBV.css","/assets/recommendations-BgIX9gjC.js","/assets/vue-vncJrRcx.js"];
+const PRECACHE = ["/","/site.webmanifest","/android-chrome-192x192.png","/assets/AboutPage-BV_suCl6.css","/assets/AboutPage-qDMZmSyk.js","/assets/AccountPage-aWfBqv6v.js","/assets/AccountPage-nAKGu7ys.css","/assets/ArcadePage-COCZImxl.js","/assets/ArcadePage-E687b8ou.css","/assets/ChallengesPage-CDOzPWP6.css","/assets/ChallengesPage-DdMRiINY.js","/assets/ReplayPage-CV7Aklzj.css","/assets/ReplayPage-DGFS_ka-.js","/assets/ScorePage-BDeXxNXA.css","/assets/ScorePage-CBkVexd3.js","/assets/_plugin-vue_export-helper-31Zl7oIz.js","/assets/index-CxR3MJDL.js","/assets/index-sAMjqEBV.css","/assets/recommendations-BgIX9gjC.js","/assets/vue-vncJrRcx.js"];
 const MAX_PICTURES = 120;
 const NETWORK_TIMEOUT = 4000;
 // Our files are the same for everyone: a Vary header (some servers send

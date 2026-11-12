@@ -23,6 +23,28 @@
         document.documentElement.dataset.theme = theme;
       })();
     </script>
+    <script>
+      // What the analytics scripts at the end of the page may read.
+      (function () {
+        // The link of a password reset email carries a secret
+        // (/account?reset=<token>): move it out of the address, into the
+        // history entry, where the account page finds it.
+        var token = new URLSearchParams(location.search).get("reset");
+        if (token) {
+          history.replaceState({ reset: token }, "", location.pathname);
+        }
+        // GoatCounter counts the canonical address, which is the home page
+        // for a past day: give it the day, also for links shared as /?day=12.
+        window.goatcounter = {
+          path: function (canonical) {
+            var day =
+              /^\/day\/(\d+)\/?$/.exec(location.pathname) ||
+              /[?&]day=(\d+)/.exec(location.search);
+            return day ? "/day/" + parseInt(day[1]) : canonical;
+          },
+        };
+      })();
+    </script>
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="ArchiGuesser" />
     <link rel="canonical" href="https://archiguesser.com/" />
@@ -38,7 +60,7 @@
     <meta property="og:image" content="https://archiguesser.com/807/1.jpg" />
     <meta name="google-site-verification" content="dfed74pTSq2iCaT-_Es3kCZClkR7cG7Ob3YqYv04I-E" />
     <title>ArchiGuesser #1215 - Guess the architectural project from the pictures</title>
-    <script type="module" crossorigin src="/assets/index-Bd1yAHdN.js"></script>
+    <script type="module" crossorigin src="/assets/index-CxR3MJDL.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/vue-vncJrRcx.js">
     <link rel="modulepreload" crossorigin href="/assets/_plugin-vue_export-helper-31Zl7oIz.js">
     <link rel="modulepreload" crossorigin href="/assets/recommendations-BgIX9gjC.js">
