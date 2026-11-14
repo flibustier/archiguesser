@@ -3,7 +3,7 @@
   "version": "2.4.0",
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@12.17.0",
+  "packageManager": "pnpm@12.18.0",
   "scripts": {
     "dev": "vite",
     "lint": "eslint --fix",
