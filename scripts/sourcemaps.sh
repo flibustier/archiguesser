@@ -8,19 +8,37 @@
 # sends that ID with an error, and Bugsink uses it to find the map. No release
 # to manage.
 #
-# The token can only upload source maps to the archiguesser project (macOS
-# Keychain).
+# The token can only upload source maps to the archiguesser project. It comes
+# from SENTRY_AUTH_TOKEN if set, otherwise from the macOS Keychain. Without a
+# token or sentry-cli, the script only warns and the deploy goes on: errors are
+# still reported, with minified stacks.
 
 set -e
 
-SENTRY_AUTH_TOKEN=$(security find-generic-password -s claude-bugsink -a archiguesser-upload -w)
-SENTRY_DISABLE_UPDATE_CHECK=1
-export SENTRY_AUTH_TOKEN SENTRY_DISABLE_UPDATE_CHECK
+# The maps never reach the site, whatever happens below
+trap "find dist -name '*.map' -delete" EXIT
+
+warn() {
+  echo "Warning: $1. Source maps not sent to Bugsink: the stacks of new errors will stay minified." >&2
+}
 
 cli=./node_modules/.bin/sentry-cli
+if [ ! -x "$cli" ]; then
+  warn "sentry-cli not found ($cli)"
+  exit 0
+fi
+
+if [ -z "$SENTRY_AUTH_TOKEN" ]; then
+  SENTRY_AUTH_TOKEN=$(security find-generic-password -s claude-bugsink -a archiguesser-upload -w 2>/dev/null) || true
+fi
+if [ -z "$SENTRY_AUTH_TOKEN" ]; then
+  warn "no upload token (SENTRY_AUTH_TOKEN, or claude-bugsink / archiguesser-upload in the macOS Keychain)"
+  exit 0
+fi
+
+SENTRY_DISABLE_UPDATE_CHECK=1
+export SENTRY_AUTH_TOKEN SENTRY_DISABLE_UPDATE_CHECK
 
 $cli sourcemaps inject dist/assets
 # Bugsink has no organisations: --org is required by sentry-cli but ignored
 $cli --url https://bug.cracking.ovh/ sourcemaps --org bugsinkhasnoorgs --project archiguesser upload dist/assets
-
-find dist -name '*.map' -delete
