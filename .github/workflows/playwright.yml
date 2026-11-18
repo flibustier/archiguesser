@@ -13,7 +13,9 @@ jobs:
     container:
       image: mcr.microsoft.com/playwright:v1.65.0-noble
       options: --user 1001
-    if: ${{ !startsWith(github.head_ref, 'renovate/') }}
+    # Renovate's pull requests skip these tests, except the Playwright one: a new
+    # version of @playwright/test needs the image of the same version.
+    if: ${{ !startsWith(github.head_ref, 'renovate/') || contains(github.head_ref, 'playwright') }}
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v4
