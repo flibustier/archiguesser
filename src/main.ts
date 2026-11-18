@@ -5,6 +5,11 @@ import { currentRoute, onNavigation, startRouter } from "./router";
 import { watchInstallation } from "./services/install";
 import { watchTheme } from "./services/theme";
 import { sendPageView, sendPendingResults } from "./services/api";
+import { trackErrors } from "./services/errors.ts";
+
+// First, so that errors while starting are reported too
+const app = createApp(App);
+trackErrors(app);
 
 watchTheme();
 startRouter();
@@ -18,7 +23,7 @@ onNavigation(({ path }) => {
   }
 });
 
-createApp(App).mount("#app");
+app.mount("#app");
 
 // results of games played without a connection
 sendPendingResults();

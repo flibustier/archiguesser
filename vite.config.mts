@@ -20,12 +20,24 @@ export default defineConfig({
     port: 4000,
   },
   build: {
+    // Source maps are sent to Bugsink when deploying (scripts/sourcemaps.sh),
+    // never published
+    sourcemap: "hidden",
     rollupOptions: {
       output: {
+        // errors-sdk keeps its name from one deploy to the next: a tab opened
+        // before a deploy can still load it to report an error, when the
+        // hashed files of the old build are gone
+        chunkFileNames: (chunk) =>
+          chunk.name === "errors-sdk"
+            ? "assets/errors-sdk.js"
+            : "assets/[name]-[hash].js",
         codeSplitting: {
           groups: [
             {
-              test: /node_modules/,
+              // The Sentry SDK stays in errors-sdk, loaded after an error only
+              test: (id) =>
+                id.includes("node_modules") && !id.includes("@sentry"),
               name: "vue",
             },
             {

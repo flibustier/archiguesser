@@ -43,6 +43,10 @@ const ROUTES: [RouteName, string][] = [
 
 const HOME: Route = { name: "daily", path: "/", params: {} };
 
+// The pattern of a route, as written above: /day/:day
+export const routePattern = ({ name }: Route) =>
+  ROUTES.find(([routeName]) => routeName === name)?.[1] ?? HOME.path;
+
 const trimSlash = (path: string) =>
   path.length > 1 ? path.replace(/\/+$/, "") || "/" : path;
 
