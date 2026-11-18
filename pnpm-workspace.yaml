@@ -3,3 +3,5 @@
 # dependency wants to run an install script that is not explicitly allowed.
 minimumReleaseAge: 10080
 strictDepBuilds: true
+allowBuilds:
+  '@sentry/cli': false

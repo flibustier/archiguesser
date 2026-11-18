@@ -20,10 +20,12 @@
     "download": "node ./scripts/download/cli.js"
   },
   "dependencies": {
+    "@sentry/browser": "11.10.0",
     "vue": "3.5.45"
   },
   "devDependencies": {
     "@playwright/test": "1.65.0",
+    "@sentry/cli": "3.8.2",
     "@types/node": "25.9.9",
     "@vitejs/plugin-vue": "6.0.10",
     "@vue/eslint-config-prettier": "10.2.0",

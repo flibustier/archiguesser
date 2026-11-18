@@ -151,8 +151,14 @@ export const game = ({ root }: Options): Plugin => {
         "/",
         "/site.webmanifest",
         "/android-chrome-192x192.png",
+        // except the error reporting SDK, downloaded after an error only
+        // (src/services/errors.ts)
         ...Object.keys(bundle)
-          .filter((fileName) => /\.(js|css)$/.test(fileName))
+          .filter(
+            (fileName) =>
+              /\.(js|css)$/.test(fileName) &&
+              fileName !== "assets/errors-sdk.js",
+          )
           .sort()
           .map((fileName) => "/" + fileName),
       ];
