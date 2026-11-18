@@ -8,11 +8,29 @@
     "schedule": ["at any time"],
     "minimumReleaseAge": null
   },
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Playwright image of the test:e2e:linux script, which Renovate does not see on its own",
+      "managerFilePatterns": ["/^package\\.json$/"],
+      "matchStrings": [
+        "mcr\\.microsoft\\.com/playwright:(?<currentValue>v[^\\s'\"]+)"
+      ],
+      "depNameTemplate": "mcr.microsoft.com/playwright",
+      "datasourceTemplate": "docker"
+    }
+  ],
   "packageRules": [
     {
       "description": "Automerge non-major updates",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
+    },
+    {
+      "description": "@playwright/test and its image must keep the same version: one pull request for both, tested end to end (playwright.yml) and merged by hand",
+      "matchPackageNames": ["@playwright/test", "mcr.microsoft.com/playwright"],
+      "groupName": "playwright",
+      "automerge": false
     }
   ]
 }
