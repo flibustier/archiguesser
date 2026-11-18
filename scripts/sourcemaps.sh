@@ -10,8 +10,8 @@
 #
 # The token can only upload source maps to the archiguesser project. It comes
 # from SENTRY_AUTH_TOKEN if set, otherwise from the macOS Keychain. Without a
-# token or sentry-cli, the script only warns and the deploy goes on: errors are
-# still reported, with minified stacks.
+# token or sentry-cli, or when Bugsink can't be reached, the script only warns
+# and the deploy goes on: errors are still reported, with minified stacks.
 
 set -e
 
@@ -39,6 +39,8 @@ fi
 SENTRY_DISABLE_UPDATE_CHECK=1
 export SENTRY_AUTH_TOKEN SENTRY_DISABLE_UPDATE_CHECK
 
-$cli sourcemaps inject dist/assets
 # Bugsink has no organisations: --org is required by sentry-cli but ignored
-$cli --url https://bug.cracking.ovh/ sourcemaps --org bugsinkhasnoorgs --project archiguesser upload dist/assets
+if ! $cli sourcemaps inject dist/assets ||
+  ! $cli --url https://bug.cracking.ovh/ sourcemaps --org bugsinkhasnoorgs --project archiguesser upload dist/assets; then
+  warn "sending to Bugsink failed (see above)"
+fi

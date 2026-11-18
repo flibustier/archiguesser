@@ -1,11 +1,14 @@
 import type { App } from "vue";
 
+import { BUGSINK_DSN } from "@/config.json";
 import { currentRoute, routePattern } from "../router.ts";
 
 // Errors in the browser are sent to Bugsink (https://bug.cracking.ovh), which
 // speaks the Sentry protocol. The Sentry SDK weighs about 20 KB gzipped, so it
 // is only downloaded after the first error: a visit without errors costs
-// nothing. Only production builds report.
+// nothing. Only production builds report, and only with a BUGSINK_DSN in
+// config.json: leave it empty and the build has neither the listeners nor the
+// SDK.
 
 type Send = (error: unknown, tags?: Record<string, string>) => void;
 
@@ -25,7 +28,9 @@ const currentPage = () => {
 };
 
 const report = (error: unknown, tags?: Record<string, string>) => {
-  sdk ??= import("./errors-sdk.ts").then(({ start }) => start(currentPage));
+  sdk ??= import("./errors-sdk.ts").then(({ start }) =>
+    start(BUGSINK_DSN, currentPage),
+  );
   sdk
     .then((send) => send(error, tags))
     .catch(() => {
@@ -34,7 +39,9 @@ const report = (error: unknown, tags?: Record<string, string>) => {
 };
 
 export const trackErrors = (app: App) => {
-  if (!import.meta.env.PROD) {
+  // An empty DSN is known at build time: Rollup then drops report() and the
+  // import() of errors-sdk.ts, so errors-sdk.js is not even emitted
+  if (!import.meta.env.PROD || !BUGSINK_DSN) {
     return;
   }
 

@@ -5,12 +5,31 @@ import vue from "@vitejs/plugin-vue";
 import { visualizer } from "rollup-plugin-visualizer";
 
 import { game } from "./build/vite-plugin-game.ts";
+import config from "./src/config.json" with { type: "json" };
 
 const root = fileURLToPath(new URL(".", import.meta.url));
 
+// Without a BUGSINK_DSN in config.json, errors.ts never loads errors-sdk.js and
+// nothing refers to it anymore, but Rolldown still writes it: leave it out.
+const errorsSdkOnlyWithDsn = (): PluginOption => ({
+  name: "errors-sdk-only-with-dsn",
+  apply: "build",
+  generateBundle(_options, bundle) {
+    if (!config.BUGSINK_DSN) {
+      delete bundle["assets/errors-sdk.js"];
+      delete bundle["assets/errors-sdk.js.map"];
+    }
+  },
+});
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), game({ root }), visualizer() as PluginOption],
+  plugins: [
+    vue(),
+    game({ root }),
+    errorsSdkOnlyWithDsn(),
+    visualizer() as PluginOption,
+  ],
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

@@ -12,8 +12,8 @@ import {
 // name from one deploy to the next (vite.config.mts), so a tab opened before a
 // deploy can still load it. The service worker does not precache it either
 // (build/vite-plugin-game.ts): visitors without errors never download it.
-
-const DSN = "https://d9347ac1185f4813924141518c5b9054@bug.cracking.ovh/5";
+// It imports nothing from the app (the DSN comes from errors.ts): otherwise,
+// in an old tab, it would load the main chunk of the new deploy.
 
 const environment = () => {
   const host = location.hostname;
@@ -40,9 +40,9 @@ interface Page {
   tags: Record<string, string>;
 }
 
-export const start = (currentPage: () => Page) => {
+export const start = (dsn: string, currentPage: () => Page) => {
   const client = new BrowserClient({
-    dsn: DSN,
+    dsn,
     environment: environment(),
     transport: makeFetchTransport,
     stackParser: defaultStackParser,
