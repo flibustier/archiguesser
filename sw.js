@@ -8,11 +8,11 @@
 //
 // The version and the list of files to precache are filled in at build time.
 
-const VERSION = "30f101480b6e";
+const VERSION = "f99d6e6ac655";
 const SHELL = `shell-${VERSION}`;
 const DATA = "data-v1";
 const PICTURES = "pictures-v1";
-const PRECACHE = ["/","/site.webmanifest","/android-chrome-192x192.png","/assets/AboutPage-BV_suCl6.css","/assets/AboutPage-naJQ8le2.js","/assets/AccountPage-D3_Jtmun.js","/assets/AccountPage-nAKGu7ys.css","/assets/ArcadePage-BNh0gihZ.js","/assets/ArcadePage-E687b8ou.css","/assets/ChallengesPage-4d5XmbCE.js","/assets/ChallengesPage-CDOzPWP6.css","/assets/ReplayPage-CV7Aklzj.css","/assets/ReplayPage-DfuXpk53.js","/assets/ScorePage-BDeXxNXA.css","/assets/ScorePage-C1nBfrE6.js","/assets/_plugin-vue_export-helper-BuEK0nld.js","/assets/index-CqXIuJur.js","/assets/index-sAMjqEBV.css","/assets/recommendations-BgIX9gjC.js","/assets/vue-B-X9NeMq.js"];
+const PRECACHE = ["/","/site.webmanifest","/android-chrome-192x192.png","/assets/AboutPage-BV_suCl6.css","/assets/AboutPage-WnvWNrvU.js","/assets/AccountPage-CSHQK3a5.js","/assets/AccountPage-nAKGu7ys.css","/assets/ArcadePage-E687b8ou.css","/assets/ArcadePage-XGzLLMC6.js","/assets/ChallengesPage-CDOzPWP6.css","/assets/ChallengesPage-DeTCQs_h.js","/assets/ReplayPage-CV7Aklzj.css","/assets/ReplayPage-Ddp24P4R.js","/assets/ScorePage-BDeXxNXA.css","/assets/ScorePage-DKFB3-ec.js","/assets/_plugin-vue_export-helper-BuEK0nld.js","/assets/index-BaaiRGlc.js","/assets/index-sAMjqEBV.css","/assets/recommendations-BgIX9gjC.js","/assets/vue-B-X9NeMq.js"];
 const MAX_PICTURES = 120;
 const NETWORK_TIMEOUT = 4000;
 // Our files are the same for everyone: a Vary header (some servers send
@@ -28,6 +28,10 @@ self.addEventListener("install", (event) => {
   );
 });
 
+// The app of the previous version stays: this version takes over the tabs
+// already open, and a tab opened before still needs the files of its pages
+// not shown yet, even offline. Older versions go. Cache names come in their
+// creation order: without this version's, the last one is the previous one.
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches
@@ -36,6 +40,7 @@ self.addEventListener("activate", (event) => {
         Promise.all(
           names
             .filter((name) => name.startsWith("shell-") && name !== SHELL)
+            .slice(0, -1)
             .map((name) => caches.delete(name)),
         ),
       )
