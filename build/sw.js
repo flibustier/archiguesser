@@ -28,6 +28,10 @@ self.addEventListener("install", (event) => {
   );
 });
 
+// The app of the previous version stays: this version takes over the tabs
+// already open, and a tab opened before still needs the files of its pages
+// not shown yet, even offline. Older versions go. Cache names come in their
+// creation order: without this version's, the last one is the previous one.
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches
@@ -36,6 +40,7 @@ self.addEventListener("activate", (event) => {
         Promise.all(
           names
             .filter((name) => name.startsWith("shell-") && name !== SHELL)
+            .slice(0, -1)
             .map((name) => caches.delete(name)),
         ),
       )
