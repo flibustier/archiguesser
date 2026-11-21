@@ -32,7 +32,7 @@
     "@vue/eslint-config-typescript": "14.9.0",
     "@vue/tsconfig": "0.9.1",
     "axios": "1.21.1",
-    "eslint": "10.14.0",
+    "eslint": "10.15.0",
     "eslint-plugin-vue": "10.12.1",
     "prettier": "3.9.10",
     "rollup-plugin-visualizer": "7.1.3",
