@@ -20,7 +20,7 @@
     "download": "node ./scripts/download/cli.js"
   },
   "dependencies": {
-    "@sentry/browser": "11.15.0",
+    "@sentry/browser": "11.16.0",
     "vue": "3.5.46"
   },
   "devDependencies": {
