@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@sentry/browser": "11.15.0",
-    "vue": "3.5.45"
+    "vue": "3.5.46"
   },
   "devDependencies": {
     "@playwright/test": "1.65.0",
